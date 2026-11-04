@@ -1,0 +1,29 @@
+
+> project-hamilton-1776@0.5.0 prebuild
+> python3 scripts/releases.py stamp
+
+0.5.0
+
+> project-hamilton-1776@0.5.0 build
+> npm run check:i18n && tsc --noEmit && vite build
+
+
+> project-hamilton-1776@0.5.0 check:i18n
+> node --import tsx scripts/check-i18n.ts
+
+PASS bilingual source coverage: 84 files; required pairs and matching parameters
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 96 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.63 kB │ gzip:   0.43 kB
+dist/assets/transitions-D21GX5ly.css    0.55 kB │ gzip:   0.31 kB
+dist/assets/EntryScreen-vBm03KGv.css   12.30 kB │ gzip:   3.47 kB
+dist/assets/index-g0Ca4i4-.css         22.22 kB │ gzip:   6.05 kB
+dist/assets/Demo-CjYv3_2p.css          33.10 kB │ gzip:   8.09 kB
+dist/assets/index-CQ-u6Wn2.js           2.73 kB │ gzip:   1.34 kB
+dist/assets/EntryScreen-DqQ5efaa.js    16.28 kB │ gzip:   6.44 kB
+dist/assets/transitions-CTynlZaG.js    57.14 kB │ gzip:  16.93 kB
+dist/assets/Demo-e7nJzIgd.js          886.35 kB │ gzip: 257.19 kB
+✓ built in 1.85s

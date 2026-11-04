@@ -1,0 +1,50 @@
+[
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-lafayette-mulligan-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_still_01092812_7724ed43.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": true,
+    "note": "Original Broadway production photo; costume and likeness reference."
+  },
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-lafayette-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_025_477bf355.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": true,
+    "note": "Original Broadway production photo; costume and likeness reference."
+  },
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-revolutionaries-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_034_1d8d4780.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": true,
+    "note": "Original Broadway production photo; costume and likeness reference."
+  },
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-friends-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_7984f03f.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": true,
+    "note": "Original Broadway production photo; costume and likeness reference."
+  },
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-laurens-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_c787c119.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": true,
+    "note": "Original Broadway production photo; costume and likeness reference."
+  },
+  {
+    "file": "E:\\codex项目\\Hamilton\\art-direction\\references\\b-lafayette-officer-disney.jpeg",
+    "sourceUrl": "https://lumiere-a.akamaihd.net/v1/images/hamilton_e05bc3a8.jpeg",
+    "sourcePage": "https://press.disneyplus.com/disney-plus/hamilton/images",
+    "inspected": true,
+    "usedOrPlannedInput": false,
+    "note": "Excluded: gallery caption says Lafayette but image shows Jefferson in purple."
+  }
+]

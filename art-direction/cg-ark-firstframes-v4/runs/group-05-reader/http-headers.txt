@@ -1,0 +1,12 @@
+HTTP/1.1 200 Connection established
+
+HTTP/2 200 
+server: istio-envoy
+date: Thu, 10 Sep 2026 10:00:46 GMT
+content-type: text/event-stream
+x-client-request-id: unknown-20260910175956-nxWJQEaf
+access-control-allow-origin: *
+cache-control: no-cache
+x-envoy-upstream-service-time: 50019
+x-request-id: 021789034396867223e95793e6cdc610dbdf3940c514602279bf4
+

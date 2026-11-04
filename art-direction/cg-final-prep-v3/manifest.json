@@ -1,0 +1,203 @@
+{
+  "version": 3,
+  "title": "Hamilton 开场 CG · 顺叙定稿",
+  "date": "2026-09-10",
+  "status": "firstframes_v4_requested_user_review_before_any_more_video",
+  "final_duration_seconds": 68,
+  "source_duration_seconds": 90,
+  "test_order": [],
+  "defaults": {
+    "model": "doubao-seedance-2-5-260628",
+    "resolution": "720p",
+    "ratio": "adaptive",
+    "generate_audio": false,
+    "output_format": "mp4"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "title": "照料仍在继续",
+      "duration": 12,
+      "edit": {
+        "in": 1,
+        "out": 8,
+        "start": 0,
+        "end": 7
+      },
+      "age": "童年",
+      "camera": "门内固定中景；母亲、孩子与碗处于同一空间。",
+      "purpose": "先建立母子间仍在发生的照料。",
+      "sound": "陶碗轻触木凳、亚麻衣料；远处海风。",
+      "cut": "碗落稳、孩子撤手后留停顿，硬切同机位的空床。",
+      "check": [
+        "孩子保持站立，碗底先落稳再松手；母亲没有与孩子抢接碗。",
+        "碗和灰布位置稳定，结尾两人仍在场，有至少2秒可用停顿。"
+      ],
+      "fix": "仅让站立孩子把已经接近凳面的碗放稳并撤手，母亲全程不伸手、不改变坐姿。",
+      "prompt_file": "prompts/S01.txt",
+      "first_frame": "firstframes/S01.png"
+    },
+    {
+      "id": "S02",
+      "title": "位置空了",
+      "duration": 12,
+      "edit": {
+        "in": 1,
+        "out": 8,
+        "start": 7,
+        "end": 14
+      },
+      "age": "童年",
+      "camera": "与S01相同的固定机位；空床保留在右侧。",
+      "purpose": "以照料物件仍在、母亲已缺席表达失去。",
+      "sound": "湿布轻触碗沿；窗外风声继续，室内更安静。",
+      "cut": "手撤回身体两侧后停留；切到少年承托账册的双手。",
+      "check": [
+        "空床从头至尾为空，没有母亲渐隐、床单人形或新成人出现。",
+        "孩子从站立持布变为布留碗沿、双手垂下；不变成坐姿。"
+      ],
+      "fix": "始终只保留站立的孩子；完成一次把湿布放到碗沿并松手的动作，其余保持原位。",
+      "prompt_file": "prompts/S02.txt",
+      "first_frame": "firstframes/S02.png"
+    },
+    {
+      "id": "S03",
+      "title": "保护账册",
+      "duration": 12,
+      "edit": {
+        "in": 1,
+        "out": 11,
+        "start": 14,
+        "end": 24
+      },
+      "age": "少年",
+      "camera": "贴近左肩后的固定中景；柜台与门外货场共同交代劳动环境。",
+      "purpose": "时间前进，少年已在商行谋生。",
+      "sound": "屋顶雨、滴水、书册与木架摩擦。",
+      "cut": "账册落稳、双手撤下后切风灾；风声提前约0.3秒进入。",
+      "check": [
+        "使用v3已清空的干燥落点，账册与架面不穿透，落稳后才撤手。",
+        "人物不重新取书、不转身，右侧漏水没有挪到已放好的账册上。"
+      ],
+      "fix": "账册从当前架前位置直接放平到正前方空架面，落稳后再撤手；不移动书架、不再取书。",
+      "prompt_file": "prompts/S03.txt",
+      "first_frame": "firstframes/S03.png"
+    },
+    {
+      "id": "S04",
+      "title": "风压",
+      "duration": 12,
+      "edit": {
+        "in": 1,
+        "out": 11,
+        "start": 24,
+        "end": 34
+      },
+      "age": "少年",
+      "camera": "室内固定背侧中景；两只手与窗板接触清晰。",
+      "purpose": "风灾打断刚维持住的生活。",
+      "sound": "风压、木板低响、缝隙雨声；不做夸张雷击。",
+      "cut": "一次风压缓和时硬切灾后；风雨快速退为残留滴水。",
+      "check": [
+        "雨中白昼不变夜晚；双掌持续接触窗板，没有肩膀或脚步重设。",
+        "木窗只小幅受压，人物有重量反应，窗和墙没有自行坍塌。"
+      ],
+      "fix": "只保留双掌和上身对一次轻微风压的反应，手不离窗，不新增脚步、肩部接触或结构破坏。",
+      "prompt_file": "prompts/S04.txt",
+      "first_frame": "firstframes/S04.png"
+    },
+    {
+      "id": "S05",
+      "title": "自己的文字",
+      "duration": 12,
+      "edit": {
+        "in": 1,
+        "out": 11,
+        "start": 34,
+        "end": 44
+      },
+      "age": "少年",
+      "camera": "左肩后固定中近景；右手执笔、左手压纸，受损窗口仍可辨。",
+      "purpose": "从替商行保管账册，转为写下自己的见闻。",
+      "sound": "笔尖摩擦纸面、衣料、少量滴水。",
+      "cut": "完成少量笔画并停笔后切到读者手中的文章。",
+      "check": [
+        "右手执笔、左手压纸始终一致，笔尖接触与笔画对应。",
+        "书写少量后停笔，纸张、墨瓶、面容和袖口没有漂移。"
+      ],
+      "fix": "右手只做三次很短的笔尖移动后停笔，左手压住同一纸边；不生成整行文字或额外蘸墨动作。",
+      "prompt_file": "prompts/S05.txt",
+      "first_frame": "firstframes/S05.png"
+    },
+    {
+      "id": "S06",
+      "title": "文章获得支持",
+      "duration": 15,
+      "edit": {
+        "in": 1,
+        "out": 14,
+        "start": 44,
+        "end": 57
+      },
+      "age": "成年读者",
+      "camera": "桌角固定中景；纸、右手钱袋、左前景旅行包同框。",
+      "purpose": "用阅读后的实际帮助连接到旅行。",
+      "sound": "纸落桌、小钱袋落木面、衣料；结尾提前0.5秒进入港口水声。",
+      "cut": "文章、钱袋和补丁旅行包留在画面；切到少年背着同款包登船。",
+      "check": [
+        "同一男读者左手纸、右手钱袋；纸落稳后钱袋才落桌，钱袋从未凭空出现。",
+        "钱袋落在旅行包旁，补丁、肩带与纸继续可辨，没有演成向作者发工资。"
+      ],
+      "fix": "左手文章完全落桌并撤开后，右手才将原有钱袋放到旅行包旁；其他人物不进入镜头。",
+      "prompt_file": "prompts/S06.txt",
+      "first_frame": "firstframes/S06.png"
+    },
+    {
+      "id": "S07",
+      "title": "登船离开",
+      "duration": 15,
+      "edit": {
+        "in": 1,
+        "out": 12,
+        "start": 57,
+        "end": 68
+      },
+      "age": "少年",
+      "camera": "岸上固定中远景；短舷梯及船舷开口完整可读。",
+      "purpose": "由别人提供的帮助，走到一次实际离开；把观看位置留在故乡。",
+      "sound": "鞋底与踏板、绳索、船舷水声；人离场后脚步远去。",
+      "cut": "留3秒左右空舷梯；视频本体不淡出，后期与三维主线接入统一处理。",
+      "check": [
+        "从已有一脚上梯的状态继续，双脚逐步接触，人物通过船舷遮挡出画而非凭空消失。",
+        "补丁旅行包不换挂法，船和舷梯稳定；离场后至少2–3秒固定空画面。"
+      ],
+      "fix": "只让少年从已经踩上舷梯的一步继续走入现有黑暗开口，船、舷梯、工人和摄影机保持原位。",
+      "prompt_file": "prompts/S07.txt",
+      "first_frame": "firstframes/S07.png"
+    }
+  ],
+  "input_acceptance_report": {
+    "shot": "S05",
+    "reported_by": "user",
+    "result": "portrait_input_rejected",
+    "error_code": "not_provided",
+    "next_step": "S05-先解决这一步.md"
+  },
+  "latest_test": {
+    "shot": "S05",
+    "image_origin_model": "Doubao-Seedream-5.0-lite",
+    "source_video": "/Users/fangjie/Downloads/3b9a288b-60be-4bfc-8f98-20ce4896b9b6.mp4",
+    "input_accepted": true,
+    "user_feedback": "除写出来的不是字之外觉得还行",
+    "review": "reviews/S05-test-01/评审.md",
+    "production_ready": false,
+    "manifest_first_frame_replaced": false
+  },
+  "workflow_override": {
+    "source": "latest_user_instruction",
+    "generate_all_firstframes_first": true,
+    "additional_video_tests": false,
+    "video_submission_authorized_now": false,
+    "current_image_work": "../cg-ark-firstframes-v4/制作说明.md"
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "checks": [
+    "fresh default dual",
+    "four live subtitle modes preserve DOM",
+    "twelve subtitle/viewport layouts without horizontal clipping",
+    "entry starts no game canvas",
+    "one main-story action with no classic or exploration entry controls or copy",
+    "settings and help are native modal dialogs",
+    "Tab does not focus background controls and Esc restores focus on desktop and mobile",
+    "language, graphics, text speed and motion persist after reload",
+    "keyboard Enter opens actual 3D story",
+    "3D story inherits all entry preferences",
+    "3D return link opens shared title",
+    "returning to entry preserves the single main-story action",
+    "ending presentation shows primary-language Return to Title with no exploration control",
+    "native Enter on the production ending return button opens the single-action entry"
+  ],
+  "layouts": [
+    {
+      "name": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "documentWidth": 1440,
+      "screenWidth": 1440,
+      "contentWidth": 1440,
+      "height": 900,
+      "contentHeight": 900,
+      "contentBottom": 724.421875,
+      "footerTop": 831,
+      "footerBottom": 875,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        },
+        {
+          "selector": ".entry-title",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-description",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 110.875,
+          "right": 432.875,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        }
+      ]
+    },
+    {
+      "name": "desktop",
+      "language": "dual-en",
+      "width": 1440,
+      "documentWidth": 1440,
+      "screenWidth": 1440,
+      "contentWidth": 1440,
+      "height": 900,
+      "contentHeight": 900,
+      "contentBottom": 726.421875,
+      "footerTop": 835,
+      "footerBottom": 875,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        },
+        {
+          "selector": ".entry-title",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-description",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 110.875,
+          "right": 432.875,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        }
+      ]
+    },
+    {
+      "name": "desktop",
+      "language": "zh",
+      "width": 1440,
+      "documentWidth": 1440,
+      "screenWidth": 1440,
+      "contentWidth": 1440,
+      "height": 900,
+      "contentHeight": 900,
+      "contentBottom": 724.421875,
+      "footerTop": 831,
+      "footerBottom": 875,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        },
+        {
+          "selector": ".entry-title",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-description",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 110.875,
+          "right": 432.875,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        }
+      ]
+    },
+    {
+      "name": "desktop",
+      "language": "en",
+      "width": 1440,
+      "documentWidth": 1440,
+      "screenWidth": 1440,
+      "contentWidth": 1440,
+      "height": 900,
+      "contentHeight": 900,
+      "contentBottom": 726.421875,
+      "footerTop": 835,
+      "footerBottom": 875,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        },
+        {
+          "selector": ".entry-title",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-description",
+          "left": 110.875,
+          "right": 840.875,
+          "width": 730
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 110.875,
+          "right": 432.875,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 63.359375,
+          "right": 1376.640625,
+          "width": 1313.28125
+        }
+      ]
+    },
+    {
+      "name": "compact",
+      "language": "dual",
+      "width": 1024,
+      "documentWidth": 1024,
+      "screenWidth": 1024,
+      "contentWidth": 1024,
+      "height": 640,
+      "contentHeight": 640,
+      "contentBottom": 494.078125,
+      "footerTop": 579,
+      "footerBottom": 617,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        },
+        {
+          "selector": ".entry-title",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-description",
+          "left": 0,
+          "right": 0,
+          "width": 0
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 60.40625,
+          "right": 382.40625,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        }
+      ]
+    },
+    {
+      "name": "compact",
+      "language": "dual-en",
+      "width": 1024,
+      "documentWidth": 1024,
+      "screenWidth": 1024,
+      "contentWidth": 1024,
+      "height": 640,
+      "contentHeight": 640,
+      "contentBottom": 496.078125,
+      "footerTop": 583,
+      "footerBottom": 617,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        },
+        {
+          "selector": ".entry-title",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-description",
+          "left": 0,
+          "right": 0,
+          "width": 0
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 60.40625,
+          "right": 382.40625,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        }
+      ]
+    },
+    {
+      "name": "compact",
+      "language": "zh",
+      "width": 1024,
+      "documentWidth": 1024,
+      "screenWidth": 1024,
+      "contentWidth": 1024,
+      "height": 640,
+      "contentHeight": 640,
+      "contentBottom": 494.078125,
+      "footerTop": 579,
+      "footerBottom": 617,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        },
+        {
+          "selector": ".entry-title",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-description",
+          "left": 0,
+          "right": 0,
+          "width": 0
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 60.40625,
+          "right": 382.40625,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        }
+      ]
+    },
+    {
+      "name": "compact",
+      "language": "en",
+      "width": 1024,
+      "documentWidth": 1024,
+      "screenWidth": 1024,
+      "contentWidth": 1024,
+      "height": 640,
+      "contentHeight": 640,
+      "contentBottom": 496.078125,
+      "footerTop": 583,
+      "footerBottom": 617,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        },
+        {
+          "selector": ".entry-title",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 60.40625,
+          "right": 630.078125,
+          "width": 569.671875
+        },
+        {
+          "selector": ".entry-description",
+          "left": 0,
+          "right": 0,
+          "width": 0
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 60.40625,
+          "right": 382.40625,
+          "width": 322
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 45.046875,
+          "right": 978.953125,
+          "width": 933.90625
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "language": "dual",
+      "width": 390,
+      "documentWidth": 390,
+      "screenWidth": 390,
+      "contentWidth": 390,
+      "height": 844,
+      "contentHeight": 844,
+      "contentBottom": 707.390625,
+      "footerTop": 776,
+      "footerBottom": 820,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-title",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-description",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "language": "dual-en",
+      "width": 390,
+      "documentWidth": 390,
+      "screenWidth": 390,
+      "contentWidth": 390,
+      "height": 844,
+      "contentHeight": 844,
+      "contentBottom": 707.890625,
+      "footerTop": 780,
+      "footerBottom": 820,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-title",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-description",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "language": "zh",
+      "width": 390,
+      "documentWidth": 390,
+      "screenWidth": 390,
+      "contentWidth": 390,
+      "height": 844,
+      "contentHeight": 844,
+      "contentBottom": 707.390625,
+      "footerTop": 776,
+      "footerBottom": 820,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-title",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-description",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        }
+      ]
+    },
+    {
+      "name": "mobile",
+      "language": "en",
+      "width": 390,
+      "documentWidth": 390,
+      "screenWidth": 390,
+      "contentWidth": 390,
+      "height": 844,
+      "contentHeight": 844,
+      "contentBottom": 707.890625,
+      "footerTop": 780,
+      "footerBottom": 820,
+      "bounds": [
+        {
+          "selector": ".entry-header",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-title",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-subtitle",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-description",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-begin",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        },
+        {
+          "selector": ".entry-footer",
+          "left": 26,
+          "right": 364,
+          "width": 338
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

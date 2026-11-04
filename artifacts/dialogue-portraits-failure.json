@@ -1,0 +1,10 @@
+{
+  "message": "AssertionError [ERR_ASSERTION]: without audio, current dialogue keeps emphasis over the previous selected response\n+ actual - expected\n\n+ 'hamilton'\n- 'newsboy'\n",
+  "checks": [
+    "all ten actual story speakers have visible portraits, opposite inward facings, and one active figure",
+    "stable left/right placement, real grey-dark listener pixels, talking poses, pause/resume, and reduced motion",
+    "selected response queue transfers emphasis with voice; stale audio after fast advance cannot reclaim it; buffering and end rest poses"
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,23 @@
+✔ street experience: real geometry permits all room doors and collectibles, with continuous walking (298.974084ms)
+✔ tavern experience: real geometry permits all room doors and collectibles, with continuous walking (102.385958ms)
+✔ ballroom experience: real geometry permits all room doors and collectibles, with continuous walking (100.693959ms)
+✔ collection toggle preserves progress; collection is idempotent, reset is scene-scoped and persistence is validated (1.694042ms)
+✔ every collectible has a stable unique ID and complete paired original text (0.117375ms)
+✔ shared interior walls are single geometry and cutaway boundaries resist doorway and camera jitter (112.86025ms)
+✔ architecture stays solid beside walls and reveals only after crossing a real doorway (99.6115ms)
+✔ door access rejects side-wall crossings and supports a full doorway step (0.110667ms)
+✔ street perimeter is closed by modelled barriers before reaching navigation bounds (49.543792ms)
+✔ solid cutaway holds briefly, clips shadows, restores original materials and never enables dithering (2.815625ms)
+✔ zoom stays within the approved 100–140 percent range and marker distances have a dead band (0.1285ms)
+✔ refined assets preserve pickup heights and the removed stairs no longer block ballroom aisles (113.249917ms)
+✔ tabletop details fit their supporting furniture and produce retains small object proportions (72.294583ms)
+✔ cutaway walls retain a solid capped plinth with no open clipped edges or overlapping corner tops (78.199333ms)
+✔ exposed high-wall crowns have exactly one surface at studs, panel joins and corners (100.03975ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1468.797334

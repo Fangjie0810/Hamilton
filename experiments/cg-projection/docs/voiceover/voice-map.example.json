@@ -1,0 +1,82 @@
+{
+  "hamilton": {
+    "name": {
+      "zh": "亚历山大·汉密尔顿",
+      "en": "Alexander Hamilton"
+    },
+    "zh": null,
+    "en": null
+  },
+  "burr": {
+    "name": {
+      "zh": "阿伦·伯尔",
+      "en": "Aaron Burr"
+    },
+    "zh": null,
+    "en": null
+  },
+  "washington": {
+    "name": {
+      "zh": "乔治·华盛顿",
+      "en": "George Washington"
+    },
+    "zh": null,
+    "en": null
+  },
+  "laurens": {
+    "name": {
+      "zh": "约翰·劳伦斯",
+      "en": "John Laurens"
+    },
+    "zh": null,
+    "en": null
+  },
+  "lafayette": {
+    "name": {
+      "zh": "拉法耶特",
+      "en": "Marquis de Lafayette"
+    },
+    "zh": null,
+    "en": null
+  },
+  "mulligan": {
+    "name": {
+      "zh": "赫拉克勒斯·穆利根",
+      "en": "Hercules Mulligan"
+    },
+    "zh": null,
+    "en": null
+  },
+  "loyalist": {
+    "name": {
+      "zh": "保皇派撰稿人",
+      "en": "Loyalist Pamphleteer"
+    },
+    "zh": null,
+    "en": null
+  },
+  "newsboy": {
+    "name": {
+      "zh": "报童",
+      "en": "Newsboy"
+    },
+    "zh": null,
+    "en": null
+  },
+  "citizen": {
+    "name": {
+      "zh": "纽约市民",
+      "en": "New York Citizen"
+    },
+    "zh": null,
+    "en": null
+  },
+  "narrator": {
+    "name": {
+      "zh": "旁白",
+      "en": "Narrator"
+    },
+    "zh": null,
+    "en": null
+  }
+}

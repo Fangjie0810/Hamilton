@@ -1,0 +1,1214 @@
+{
+  "generatedAt": "2026-09-15T12:16:12.151Z",
+  "checks": [
+    "All three real Lafayette speech frames align their hair, eyes, collar and torso within 2 horizontal / 1 vertical output pixels.",
+    "All four authored reaction heads remain within 2 output pixels, while their distinct gestures remain intact.",
+    "Real DialoguePortraits ready, speech, buffering, pause, reduced-motion and settled canvases match registered frame pixels.",
+    "Original source bounds including overscanned emphasis fingers are unchanged."
+  ],
+  "errors": [],
+  "result": {
+    "source": "/art/main-pixel/v1/lafayette.png",
+    "offsets": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 21,
+        "y": 0
+      },
+      {
+        "x": 13,
+        "y": 0
+      },
+      {
+        "x": 27,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 11
+      },
+      {
+        "x": 24,
+        "y": 11
+      },
+      {
+        "x": 25,
+        "y": 11
+      }
+    ],
+    "before": {
+      "registration": {
+        "scale": 0.8695652173913043,
+        "sourceBounds": {
+          "x": -18,
+          "y": 6,
+          "width": 395,
+          "height": 506
+        },
+        "offsetX": 8.260869565217405,
+        "offsetY": 5
+      },
+      "bounds": [
+        {
+          "x": 23,
+          "y": 16,
+          "width": 351,
+          "height": 495
+        },
+        {
+          "x": 7,
+          "y": 16,
+          "width": 348,
+          "height": 496
+        },
+        {
+          "x": -18,
+          "y": 16,
+          "width": 383,
+          "height": 496
+        },
+        {
+          "x": 23,
+          "y": 16,
+          "width": 319,
+          "height": 495
+        },
+        {
+          "x": 20,
+          "y": 6,
+          "width": 357,
+          "height": 492
+        },
+        {
+          "x": 24,
+          "y": 6,
+          "width": 327,
+          "height": 492
+        },
+        {
+          "x": -3,
+          "y": 6,
+          "width": 380,
+          "height": 492
+        }
+      ],
+      "anchors": [
+        {
+          "frame": 0,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "eyes": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "collar": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "torso": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            }
+          }
+        },
+        {
+          "frame": 1,
+          "anchors": {
+            "hair": {
+              "dx": -19,
+              "dy": 0,
+              "error": 171.42
+            },
+            "eyes": {
+              "dx": -19,
+              "dy": 0,
+              "error": 198.58
+            },
+            "collar": {
+              "dx": -17,
+              "dy": 0,
+              "error": 678.58
+            },
+            "torso": {
+              "dx": -17,
+              "dy": 0,
+              "error": 345.94
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "anchors": {
+            "hair": {
+              "dx": -12,
+              "dy": 0,
+              "error": 167.02
+            },
+            "eyes": {
+              "dx": -12,
+              "dy": 0,
+              "error": 189.16
+            },
+            "collar": {
+              "dx": -12,
+              "dy": 0,
+              "error": 653.71
+            },
+            "torso": {
+              "dx": -11,
+              "dy": 0,
+              "error": 439.85
+            }
+          }
+        },
+        {
+          "frame": 3,
+          "anchors": {
+            "hair": {
+              "dx": -24,
+              "dy": 0,
+              "error": 318.88
+            },
+            "eyes": {
+              "dx": -24,
+              "dy": 3,
+              "error": 640.86
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "anchors": {
+            "hair": {
+              "dx": -2,
+              "dy": -10,
+              "error": 417.35
+            },
+            "eyes": {
+              "dx": -2,
+              "dy": -8,
+              "error": 622.39
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "anchors": {
+            "hair": {
+              "dx": -20,
+              "dy": -10,
+              "error": 434.89
+            },
+            "eyes": {
+              "dx": -21,
+              "dy": -9,
+              "error": 399.72
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "anchors": {
+            "hair": {
+              "dx": -21,
+              "dy": -10,
+              "error": 592.35
+            },
+            "eyes": {
+              "dx": -21,
+              "dy": -8,
+              "error": 785.21
+            }
+          }
+        }
+      ]
+    },
+    "after": {
+      "registration": {
+        "scale": 0.85995085995086,
+        "sourceBounds": {
+          "x": -5,
+          "y": 16,
+          "width": 407,
+          "height": 496
+        },
+        "offsetX": 5,
+        "offsetY": 18.464373464373466
+      },
+      "bounds": [
+        {
+          "x": 23,
+          "y": 16,
+          "width": 351,
+          "height": 495
+        },
+        {
+          "x": 7,
+          "y": 16,
+          "width": 348,
+          "height": 496
+        },
+        {
+          "x": -18,
+          "y": 16,
+          "width": 383,
+          "height": 496
+        },
+        {
+          "x": 23,
+          "y": 16,
+          "width": 319,
+          "height": 495
+        },
+        {
+          "x": 20,
+          "y": 6,
+          "width": 357,
+          "height": 492
+        },
+        {
+          "x": 24,
+          "y": 6,
+          "width": 327,
+          "height": 492
+        },
+        {
+          "x": -3,
+          "y": 6,
+          "width": 380,
+          "height": 492
+        }
+      ],
+      "anchors": [
+        {
+          "frame": 0,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "eyes": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "collar": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            },
+            "torso": {
+              "dx": 0,
+              "dy": 0,
+              "error": 0
+            }
+          }
+        },
+        {
+          "frame": 1,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 0,
+              "error": 150.09
+            },
+            "eyes": {
+              "dx": 0,
+              "dy": 0,
+              "error": 117.49
+            },
+            "collar": {
+              "dx": 1,
+              "dy": 0,
+              "error": 547.56
+            },
+            "torso": {
+              "dx": 1,
+              "dy": 0,
+              "error": 260.64
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 0,
+              "error": 108.56
+            },
+            "eyes": {
+              "dx": -1,
+              "dy": 0,
+              "error": 163.72
+            },
+            "collar": {
+              "dx": 0,
+              "dy": 0,
+              "error": 568.02
+            },
+            "torso": {
+              "dx": 0,
+              "dy": 0,
+              "error": 263.38
+            }
+          }
+        },
+        {
+          "frame": 3,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 1,
+              "error": 300.14
+            },
+            "eyes": {
+              "dx": -1,
+              "dy": 3,
+              "error": 558.15
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "anchors": {
+            "hair": {
+              "dx": 0,
+              "dy": 0,
+              "error": 275.14
+            },
+            "eyes": {
+              "dx": -1,
+              "dy": 1,
+              "error": 566.4
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "anchors": {
+            "hair": {
+              "dx": 1,
+              "dy": 0,
+              "error": 353.16
+            },
+            "eyes": {
+              "dx": 0,
+              "dy": 1,
+              "error": 376.52
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "anchors": {
+            "hair": {
+              "dx": -1,
+              "dy": 0,
+              "error": 562.3
+            },
+            "eyes": {
+              "dx": 0,
+              "dy": 1,
+              "error": 712.08
+            }
+          }
+        }
+      ]
+    },
+    "runtime": [
+      {
+        "label": "assertive/ready",
+        "phase": "ready",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/speaking",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-0",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-50",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-100",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-150",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-200",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-250",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-300",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "assertive/tick-350",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "assertive/tick-400",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "assertive/tick-450",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "assertive/tick-500",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-550",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-600",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-650",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-700",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-750",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-800",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-850",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/tick-900",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/tick-950",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "assertive/buffering",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/paused",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/reduced-motion",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "assertive/settled",
+        "phase": "settled",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/ready",
+        "phase": "ready",
+        "frame": 3,
+        "hash": 148674368
+      },
+      {
+        "label": "reflect/speaking",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-0",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-50",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-100",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-150",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-200",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-250",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-300",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "reflect/tick-350",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "reflect/tick-400",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "reflect/tick-450",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "reflect/tick-500",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-550",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-600",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-650",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-700",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-750",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-800",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-850",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/tick-900",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/tick-950",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "reflect/buffering",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/paused",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/reduced-motion",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "reflect/settled",
+        "phase": "settled",
+        "frame": 3,
+        "hash": 148674368
+      },
+      {
+        "label": "approve/ready",
+        "phase": "ready",
+        "frame": 4,
+        "hash": 3275531738
+      },
+      {
+        "label": "approve/speaking",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-0",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-50",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-100",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-150",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-200",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-250",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-300",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "approve/tick-350",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "approve/tick-400",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "approve/tick-450",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "approve/tick-500",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-550",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-600",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-650",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-700",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-750",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-800",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-850",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/tick-900",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/tick-950",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "approve/buffering",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/paused",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/reduced-motion",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "approve/settled",
+        "phase": "settled",
+        "frame": 4,
+        "hash": 3275531738
+      },
+      {
+        "label": "calm/ready",
+        "phase": "ready",
+        "frame": 5,
+        "hash": 2637269409
+      },
+      {
+        "label": "calm/speaking",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-0",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-50",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-100",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-150",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-200",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-250",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-300",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "calm/tick-350",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "calm/tick-400",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "calm/tick-450",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "calm/tick-500",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-550",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-600",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-650",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-700",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-750",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-800",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-850",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/tick-900",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/tick-950",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "calm/buffering",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/paused",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/reduced-motion",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "calm/settled",
+        "phase": "settled",
+        "frame": 5,
+        "hash": 2637269409
+      },
+      {
+        "label": "amused/ready",
+        "phase": "ready",
+        "frame": 6,
+        "hash": 1241345259
+      },
+      {
+        "label": "amused/speaking",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-0",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-50",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-100",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-150",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-200",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-250",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-300",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "amused/tick-350",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "amused/tick-400",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "amused/tick-450",
+        "phase": "speaking",
+        "frame": 2,
+        "hash": 2128763939
+      },
+      {
+        "label": "amused/tick-500",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-550",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-600",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-650",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-700",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-750",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-800",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-850",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/tick-900",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/tick-950",
+        "phase": "speaking",
+        "frame": 1,
+        "hash": 3319303307
+      },
+      {
+        "label": "amused/buffering",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/paused",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/reduced-motion",
+        "phase": "speaking",
+        "frame": 0,
+        "hash": 2081999506
+      },
+      {
+        "label": "amused/settled",
+        "phase": "settled",
+        "frame": 6,
+        "hash": 1241345259
+      }
+    ]
+  },
+  "passed": true
+}

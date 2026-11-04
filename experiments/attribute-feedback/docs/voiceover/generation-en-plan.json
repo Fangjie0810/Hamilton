@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "method": "official-elevenlabs-cli",
+  "sourceCues": 203,
+  "fixedCues": 203,
+  "dynamicTemplates": [],
+  "expandedDynamicCues": 0,
+  "uniqueAudioFiles": 200,
+  "completed": 200,
+  "pending": 0,
+  "pendingCharacters": 0,
+  "bySpeaker": {
+    "hamilton": 118,
+    "burr": 17,
+    "washington": 17,
+    "lafayette": 6,
+    "mulligan": 6,
+    "laurens": 7,
+    "narrator": 8,
+    "newsboy": 3,
+    "citizen": 9,
+    "loyalist": 9
+  }
+}

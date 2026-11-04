@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "cues": [
+    {
+      "id": "opening-letter-base-1",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "他来自加勒比海。商行的账本教会他计算，海上的风暴教会他：一个人的处境，可能在一夜之间被改写。",
+        "en": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight."
+      },
+      "src": "/audio/en/narrator-78cb6c04613aec6f4c52.mp3",
+      "generated": true
+    },
+    {
+      "id": "opening-letter-base-2",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "他把所见写成文字。有人读了那篇文章，开始相信，这个年轻人应该得到继续求学的机会。",
+        "en": "He put what he had seen into words. People read them and began to believe this young man deserved the chance to continue his education."
+      },
+      "src": "/audio/en/narrator-29877dfe3610fdfca9c1.mp3",
+      "generated": true
+    },
+    {
+      "id": "opening-letter-base-3",
+      "speaker": "hamilton",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我带不走那座岛。但我能带走纸上的每一个字。纽约有学校，有印刷机，也有人愿意争论未来。我要在那里找到我的位置。",
+        "en": "I cannot take the island with me. But I can carry every word on the page. New York has schools, printing presses, and people willing to argue about the future. I will find my place there."
+      },
+      "src": "/audio/en/hamilton-87e3709efde0ffa54942.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-newspaper-base-1",
+      "speaker": "newsboy",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "港口的消息！英军动向、商船货价，还有一整版互相反驳的文章。",
+        "en": "News from the harbor! British troop movements, cargo prices, and a whole page of writers contradicting each other."
+      },
+      "src": "/audio/en/newsboy-f3788430040247ad81a7.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-newspaper-base-2",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "先给我一份。只有知道这座城在为什么争吵，我的文字才不会只是对着自己说话。",
+        "en": "Give me a copy first. Until I know what this city is arguing about, my writing will only be a conversation with myself."
+      },
+      "src": "/audio/en/hamilton-7e8b1d2a0b107bc0e616.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-street-base-1",
+      "speaker": "citizen",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "驻军越来越多。有人说军队保护生意，可我只想知道：他们保护的是谁作决定的权利？",
+        "en": "More troops arrive every day. They say the army protects trade. But whose right to decide are they protecting?"
+      },
+      "src": "/audio/en/citizen-c606851215a62863e52d.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-street-base-2",
+      "speaker": "loyalist",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "没有王室和海军，这座港口靠什么维持秩序？你们把眼前的生计，押给一个还不存在的国家。",
+        "en": "Without the Crown and its navy, what keeps order in this port? You would stake today's livelihood on a country that does not yet exist."
+      },
+      "src": "/audio/en/loyalist-7fa7fcbac4fa89431e14.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-street-base-3",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这两个人都害怕失去手里的生活。但他们还没问过，谁有资格替另一方下注。",
+        "en": "Both are afraid of losing the lives they have. Neither has asked who has the right to make that wager for the other."
+      },
+      "src": "/audio/en/hamilton-d05e94eb5ef369df02e9.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-burr-base-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你听了很久。亚历山大·汉密尔顿，对吗？我读过你的文字。",
+        "en": "You have been listening for a while. Alexander Hamilton, isn't it? I have read your work."
+      },
+      "src": "/audio/en/burr-8511829312986bba6551.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-burr-base-2",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那就省了介绍。你也听见了——他们谈论自由的时候，仿佛每个人说的是不同的东西。",
+        "en": "Then we can skip the introductions. You heard them too: when they speak of freedom, they seem to mean entirely different things."
+      },
+      "src": "/audio/en/hamilton-a5596dd8b17ad2cfe8b8.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-burr-base-3",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "先弄清楚谁在听，再决定说多少。局势会变；公开说过的话，会留下来。",
+        "en": "Learn who is listening before you decide how much to say. Circumstances change. Words spoken in public remain."
+      },
+      "src": "/audio/en/burr-005bc8e15004abb0aed5.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-observe-selected",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "player-option",
+      "text": {
+        "zh": "先观察，弄清各方的立场。",
+        "en": "Observe first and understand where each side stands."
+      },
+      "src": "/audio/en/hamilton-ed0e4b1f259767934806.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-observe-reply-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "很好。耐心也能是一种行动。我们去酒馆，那里比街头容易听见真话。",
+        "en": "Good. Patience can be a form of action. Come to the tavern. It is easier to hear people speak plainly there."
+      },
+      "src": "/audio/en/burr-e15c5c07679daee042b0.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-question-selected",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "player-option",
+      "text": {
+        "zh": "那你呢？你自己相信什么？",
+        "en": "And you? What do you believe?"
+      },
+      "src": "/audio/en/hamilton-094b94cc76dc60773f6b.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-question-reply-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我相信，作决定之前应该把人看清楚。你这个问题，让我更想认识你了。走吧。",
+        "en": "I believe in knowing people before making decisions. That question makes me more interested in knowing you. Come along."
+      },
+      "src": "/audio/en/burr-02a94b93b27c695d9ee5.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-revolution-selected",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "player-option",
+      "text": {
+        "zh": "我支持革命。现在就可以写下我的名字。",
+        "en": "I support the revolution. You can put my name to it now."
+      },
+      "src": "/audio/en/hamilton-54ccf59897f5e9cc3d16.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr-revolution-reply-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我听见了。整条街也听见了。希望你准备好了，为这么响亮的名字负责。",
+        "en": "I heard you. So did the whole street. I hope you are ready to answer for a name spoken that loudly."
+      },
+      "src": "/audio/en/burr-3de74fb8f2689ae62d7b.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-laurens-base-1",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我们把自由写得那么大，却总把某些人留在句子外面。一个仍允许奴役的国家，准备怎样解释自己的自由？",
+        "en": "We write freedom in such large letters, yet always leave certain people outside the sentence. How will a country that still permits slavery explain its freedom?"
+      },
+      "src": "/audio/en/laurens-fe181bc8d7a1fb9aa74d.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-laurens-base-2",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你要的答案，恐怕会让这张桌子安静下来。",
+        "en": "The answer you want may bring this table to a silence."
+      },
+      "src": "/audio/en/hamilton-119ace0fcaa2dae92ef0.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-laurens-base-3",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那就让它安静。你认为现在最重要的是什么？",
+        "en": "Then let it fall silent. What do you think matters most right now?"
+      },
+      "src": "/audio/en/laurens-d1571347664fc70780ea.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-stability-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "先维持秩序，让人们活过这场战争。",
+        "en": "Preserve order so people survive the war."
+      },
+      "src": "/audio/en/hamilton-7528dc6bef72b002a709.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-stability-reply-1",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "活下来当然重要。可有些人一直在等“以后”，我们不能再轻易替他们说这个词。",
+        "en": "Surviving matters, of course. But some people have always been told to wait until later. We cannot keep saying that on their behalf."
+      },
+      "src": "/audio/en/laurens-a8a876ee0bfd246d7b06.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-representation-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "谁来作决定，谁又有权提出反对？",
+        "en": "Who gets to decide, and who has the right to object?"
+      },
+      "src": "/audio/en/hamilton-11b93c0c00cc5c36cfc5.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-representation-reply-1",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那么，记得把被排除的人也算进去。换一个掌权的人，还不够。",
+        "en": "Then remember to include those who have been excluded. Replacing the people in power is not enough."
+      },
+      "src": "/audio/en/laurens-d3907cd9faf65be38cda.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-liberty-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "自由的承诺，应当包含被奴役的人。",
+        "en": "The promise of freedom must include enslaved people."
+      },
+      "src": "/audio/en/hamilton-92ae2b9746fe7537c0d5.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens-liberty-reply-1",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我愿意和这样的人并肩。但当这个承诺开始让盟友不舒服时，你还得说下去。",
+        "en": "I would stand beside someone who believes that. But when that promise begins to trouble our allies, you must keep saying it."
+      },
+      "src": "/audio/en/laurens-b63c4d326eba38a6e888.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-laurens-timeout",
+      "speaker": "laurens",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你沉默了一会儿。没关系，先听听其他人的想法；这张桌子还会留一个位置。",
+        "en": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table."
+      },
+      "src": "/audio/en/laurens-81c3adca3a050055bcc4.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-lafayette-base-1",
+      "speaker": "lafayette",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我横渡大西洋，不是为了旁观。可勇气不能替士兵装满口粮。面对更强的军队，你准备把力气用在哪里？",
+        "en": "I did not cross the Atlantic to watch. But courage cannot fill a soldier's ration bag. Against a stronger army, where will you put your effort?"
+      },
+      "src": "/audio/en/lafayette-98a29a46e998c8327ccd.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-lafayette-base-2",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "每一条路都要付代价。区别在于，我们愿不愿意自己选择。",
+        "en": "Every path has a price. The difference is whether we are willing to choose for ourselves."
+      },
+      "src": "/audio/en/hamilton-8c47c9f60ea1f5761c69.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-negotiate-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "保持谈判，为居民争取喘息。",
+        "en": "Keep negotiating to give civilians room to breathe."
+      },
+      "src": "/audio/en/hamilton-d3835efe6ee13e8e2f65.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-negotiate-reply-1",
+      "speaker": "lafayette",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "可以。但谈判桌也需要有人在外面守着。别把喘息误当成终点。",
+        "en": "Perhaps. But someone must stand guard outside the negotiating room. Do not mistake a breath of air for the end of the journey."
+      },
+      "src": "/audio/en/lafayette-e80af881fc5c66e47fe6.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-allies-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "建立联盟，把孤军变成共同事业。",
+        "en": "Build alliances and turn an isolated struggle into a shared cause."
+      },
+      "src": "/audio/en/hamilton-e0b7e3ad566d20cb2133.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-allies-reply-1",
+      "speaker": "lafayette",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那你得学会听见盟友的需要。共同事业，不能只有一个人的声音。",
+        "en": "Then you must learn to hear what your allies need. A shared cause cannot speak in only one person's voice."
+      },
+      "src": "/audio/en/lafayette-2ce436b7e32897cc7ae6.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-independence-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "公开争取独立，不再等待许可。",
+        "en": "Demand independence openly, without waiting for permission."
+      },
+      "src": "/audio/en/hamilton-1b98b2def7b22e1c3b2f.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette-independence-reply-1",
+      "speaker": "lafayette",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "够直接。我喜欢。但说完这句话，下一步就该准备行军了。",
+        "en": "Direct enough. I like it. But after those words, the next step is preparing to march."
+      },
+      "src": "/audio/en/lafayette-44d91bfb59c998b02e37.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-lafayette-timeout",
+      "speaker": "lafayette",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你沉默了一会儿。没关系，先听听其他人的想法；这张桌子还会留一个位置。",
+        "en": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table."
+      },
+      "src": "/audio/en/lafayette-6203f1bdd9c6351a9e23.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-mulligan-base-1",
+      "speaker": "mulligan",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "大道理我听够了。明早有十个人愿意帮忙，一家印刷铺肯赊账，还有一辆空车。汉密尔顿，你怎么用？",
+        "en": "I've heard enough grand ideas. Tomorrow, ten people will help, a printer will extend credit, and there's an empty wagon. Hamilton, how will you use them?"
+      },
+      "src": "/audio/en/mulligan-febd3a2a18af25fb1307.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-mulligan-base-2",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你给我的不是十个人，是十个人各自认识的那条街。",
+        "en": "You have given me more than ten people. You have given me every street they know."
+      },
+      "src": "/audio/en/hamilton-7294e620be9a62194689.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-print-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "印一份清楚的传单，让每条街接着讨论。",
+        "en": "Print a clear pamphlet to keep the conversation going in every street."
+      },
+      "src": "/audio/en/hamilton-a6d89fee194eb6f79de7.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-print-reply-1",
+      "speaker": "mulligan",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "行。少写几个漂亮词，多写几句他们能讲给邻居听的话。",
+        "en": "Good. Fewer elegant phrases, more lines they can repeat to their neighbors."
+      },
+      "src": "/audio/en/mulligan-ed06dce76628368ffc66.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-supplies-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "先送补给，让愿意加入的人吃上饭。",
+        "en": "Deliver supplies first so people willing to join us can eat."
+      },
+      "src": "/audio/en/hamilton-3e2d1a698e504f5fd134.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-supplies-reply-1",
+      "speaker": "mulligan",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "车我来找。愿意做这种不显眼的事，才有人下次还来找你。",
+        "en": "I'll find the wagon. Be willing to do the work no one notices, and people will come to you again."
+      },
+      "src": "/audio/en/mulligan-9488044dc0534b5ce7e9.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-rally-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "召集公开集会，今天就让更多人听见。",
+        "en": "Call a public meeting and make more people hear us today."
+      },
+      "src": "/audio/en/hamilton-3915a9c5b68d18fd48ea.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan-rally-reply-1",
+      "speaker": "mulligan",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "场地可以有。巡逻队一来，你可不能只顾着自己的演说。",
+        "en": "We can find a place. But when the patrol arrives, you cannot think only of your speech."
+      },
+      "src": "/audio/en/mulligan-3327a9cec04bdd135883.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-mulligan-timeout",
+      "speaker": "mulligan",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你沉默了一会儿。没关系，先听听其他人的想法；这张桌子还会留一个位置。",
+        "en": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table."
+      },
+      "src": "/audio/en/mulligan-ace3178f3f83ed183a10.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-loyalist-base-1",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "脱离英国之后，商船由谁护送，货物卖给谁？你们用自由作保证，却要每一个家庭拿生计来冒险。",
+        "en": "Once you break from Britain, who escorts the ships, and who buys the cargo? You offer freedom as a guarantee, but ask every family to risk its livelihood."
+      },
+      "src": "/audio/en/loyalist-715bc5ddcdbc76420d87.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-loyalist-base-2",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这也是我想问的。没有明天的面包，今天的口号有什么用？",
+        "en": "That is what I want to know. Without tomorrow's bread, what good are today's slogans?"
+      },
+      "src": "/audio/en/citizen-7a747bb0c68844a92d6e.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-loyalist-base-3",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "他们在等你的回答。把问题听完。",
+        "en": "They are waiting for your answer. Hear the whole question."
+      },
+      "src": "/audio/en/burr-61fda2f4ecd4c14fd773.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "脱离英国之后，商船由谁护送，货物卖给谁？你们让每个家庭用明天的面包支付自由。",
+        "en": "After leaving Britain, who will escort the ships and buy the cargo? You ask each family to pay for freedom with tomorrow's bread."
+      },
+      "src": "/audio/en/loyalist-7b45a284701aa180f3db.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "把税负与贸易限制也算进去。",
+        "en": "Count taxes and trade restrictions too."
+      },
+      "src": "/audio/en/hamilton-672e40d1835fdd6512a1.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "承担代价的人应有决定权。",
+        "en": "Those who pay should have a say."
+      },
+      "src": "/audio/en/hamilton-5c4927c697befa22e1de.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "你为何只计算改变的代价？",
+        "en": "Why count only the costs of change?"
+      },
+      "src": "/audio/en/hamilton-c550b5715120f08b5624.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "让码头的人说说他们的账本。",
+        "en": "Let the dockworkers open their ledgers."
+      },
+      "src": "/audio/en/hamilton-ab70391ed6b29d2c6bf8.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "帝国的议会已经替各地考虑过了。若每座港口都要求自己决定，法律还剩下什么？",
+        "en": "Parliament has already considered every region. If each port insists on deciding for itself, what is left of the law?"
+      },
+      "src": "/audio/en/loyalist-726fb5bfd1b130d64440.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "把殖民地的代表席位列出来。",
+        "en": "List the colonies' seats in Parliament."
+      },
+      "src": "/audio/en/hamilton-9ae3bc2a0f84765218f6.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "服从法律，也应参与制定。",
+        "en": "Those who obey laws should help make them."
+      },
+      "src": "/audio/en/hamilton-1158561fd23673663d4c.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "考虑过，不等于听过我们的声音。",
+        "en": "Considering us is not the same as hearing us."
+      },
+      "src": "/audio/en/hamilton-822448a9df137160b80d.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "谁愿意让别人决定自己的税？",
+        "en": "Who wants others to decide their taxes?"
+      },
+      "src": "/audio/en/hamilton-44e08d6926dc6d07486e.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "倡议革命的人只会写文章。等粮食短缺，他们会让穷人承担后果。",
+        "en": "The advocates of revolution only write essays. When food runs short, they will leave the poor to bear the consequences."
+      },
+      "src": "/audio/en/loyalist-fde550311b3234ddea46.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "补给方案与责任人必须公开。",
+        "en": "Publish the supply plan and those responsible."
+      },
+      "src": "/audio/en/hamilton-558732338c6d5328f8a0.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "自由不能只属于有余粮的人。",
+        "en": "Freedom cannot belong only to the well-fed."
+      },
+      "src": "/audio/en/hamilton-30e697ab38433d12afe1.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "你也没给穷人留下别的出路。",
+        "en": "You have offered the poor no other path."
+      },
+      "src": "/audio/en/hamilton-3d7c93f32be578b70823.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "请工人和店主自己提出条件。",
+        "en": "Let workers and shopkeepers name their terms."
+      },
+      "src": "/audio/en/hamilton-a4c1355c59fa0213bd9b.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "驻军只为保护秩序。既然你们没有做错什么，为何害怕更多巡逻？",
+        "en": "The garrison is only here to keep order. If you have done nothing wrong, why fear more patrols?"
+      },
+      "src": "/audio/en/loyalist-cb91a03f9370b42abb58.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "检查驻军的权限与费用。",
+        "en": "Examine the garrison's powers and costs."
+      },
+      "src": "/audio/en/hamilton-9bef6df70d5d14a1a8fa.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "权力仍需得到被治理者同意。",
+        "en": "Power still needs the consent of the governed."
+      },
+      "src": "/audio/en/hamilton-9022ec38b055225b62c3.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "要求解释，何时成了认错？",
+        "en": "Since when is asking for an explanation a confession?"
+      },
+      "src": "/audio/en/hamilton-7584a72140e6e77e6a27.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "请居民讲讲巡逻带来的变化。",
+        "en": "Let residents describe what patrols have changed."
+      },
+      "src": "/audio/en/hamilton-d8b2e6b397a0f4afe536.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "帝国拥有舰队和资金。你们连统一的军需账册都没有，却要把大家带进战争。",
+        "en": "The empire has fleets and money. You do not even have a common supply ledger, yet you would lead everyone into war."
+      },
+      "src": "/audio/en/loyalist-865e24ae3e8d37105ae3.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "统一账册，逐项落实补给。",
+        "en": "Unify the ledgers and secure supplies item by item."
+      },
+      "src": "/audio/en/hamilton-88249db6a37db9bb2f1f.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "危险不能取消选择的权利。",
+        "en": "Danger does not erase the right to choose."
+      },
+      "src": "/audio/en/hamilton-f00227d2d943823442fc.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "你的胜算只是让我们永远服从。",
+        "en": "Your only plan is that we obey forever."
+      },
+      "src": "/audio/en/hamilton-2f934f70bfa6fa13a5b7.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "把愿意承担的工作写在这里。",
+        "en": "Write down the work you are willing to do."
+      },
+      "src": "/audio/en/hamilton-617de21bb657468a370f.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-argument",
+      "speaker": "loyalist",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "即使赢了，谁能保证新掌权的人更好？你们只是把一种不确定换成另一种。",
+        "en": "Even if you win, who guarantees the new rulers will be better? You are exchanging one uncertainty for another."
+      },
+      "src": "/audio/en/loyalist-d962346db28cca63faa2.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-fact",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "将任期与问责写进制度。",
+        "en": "Put terms of office and accountability into law."
+      },
+      "src": "/audio/en/hamilton-49b9dee5a06a5392803a.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-principle",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "让人民保留更换掌权者的权利。",
+        "en": "Keep the people's right to replace their rulers."
+      },
+      "src": "/audio/en/hamilton-524e981724e99c00be1a.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-attack",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "没有保证，不等于现状无需改变。",
+        "en": "No guarantee does not mean no need for change."
+      },
+      "src": "/audio/en/hamilton-5c569caa4028985c9887.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-crowd",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "debate-speech",
+      "text": {
+        "zh": "把你们不愿再接受的事说出来。",
+        "en": "Tell us what you will no longer accept."
+      },
+      "src": "/audio/en/hamilton-2b63e2bc7d0e535db9f0.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-base-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我看过你的文章。你能把事情写清楚。但军中需要的，还有把事情做完。",
+        "en": "I have read your essays. You make matters clear. But an army also needs people who finish the work."
+      },
+      "src": "/audio/en/washington-3675802bace65af6a3dd.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-base-2",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我希望带兵。我的能力不该只留在信纸上。",
+        "en": "I want to lead troops. My ability should not stay on the page."
+      },
+      "src": "/audio/en/hamilton-7b156f44e9105b522035.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-base-3",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "军令、情报、补给。写错一个地点，也会有人付出代价。我需要副官。你愿意从这里开始吗？",
+        "en": "Orders, intelligence, supplies. A wrong place name can cost lives. I need an aide. Are you willing to begin here?"
+      },
+      "src": "/audio/en/washington-0e5caba72765c67cfb1e.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-variant-1-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你的文章已经传进军营。我也听说了街上的争论。让别人注意你，你很擅长；让别人依靠你，是另一回事。",
+        "en": "Your essays have reached camp. So has news of the argument in the street. You are good at drawing attention. Making yourself dependable is another matter."
+      },
+      "src": "/audio/en/washington-7a9eb4f63d33b5547cfe.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-variant-1-2",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那么给我一支队伍。我愿意用行动证明。",
+        "en": "Then give me a company. I am willing to prove myself through action."
+      },
+      "src": "/audio/en/hamilton-c52487fe471aaaa1f67b.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-offer-variant-1-3",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "先做我的副官。军令、情报和补给，也决定着一支队伍能不能回来。你愿意承担吗？",
+        "en": "Serve as my aide first. Orders, intelligence, and supplies also decide whether a company comes home. Will you take that responsibility?"
+      },
+      "src": "/audio/en/washington-008c939afe0419afb994.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-accept-selected",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "player-option",
+      "text": {
+        "zh": "接受副官职位，先完成眼前的责任。",
+        "en": "Accept the post and fulfill the responsibility at hand."
+      },
+      "src": "/audio/en/hamilton-5fb10c7a8d7654f1c93f.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-accept-reply-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "很好。今晚有几封信，不能等到明天。",
+        "en": "Good. Several letters tonight cannot wait until tomorrow."
+      },
+      "src": "/audio/en/washington-68c2e68f45c8e69c0cb2.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-negotiate-selected",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "player-option",
+      "text": {
+        "zh": "接受，同时明确争取未来的指挥机会。",
+        "en": "Accept, while making clear that you want a future command."
+      },
+      "src": "/audio/en/hamilton-ce6240239c7baa94d053.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-negotiate-reply-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我听清了你的要求。你也要听清我的：用现在的职责，证明我能交给你下一份职责。",
+        "en": "I have heard your request. Hear mine as well: prove through your present duties that I can trust you with the next ones."
+      },
+      "src": "/audio/en/washington-9350989d2c186c405b42.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-demand-selected",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "player-option",
+      "text": {
+        "zh": "我属于战场，应当立刻得到指挥权。",
+        "en": "I belong on the battlefield and should be given command now."
+      },
+      "src": "/audio/en/hamilton-47d0513e31f13e104352.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-demand-reply-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这里没有人只凭“应当”获得命令权。今晚你仍然从这些军令开始。",
+        "en": "No one here receives command merely because he thinks he should. Tonight, you will still begin with these dispatches."
+      },
+      "src": "/audio/en/washington-a9728ee526e9703a0e7f.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-dispatch-base-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "北线的部队需要补给。驻地、出发时间、目的地都在这些报告里。给军需官一份能够执行的命令。",
+        "en": "The northern troops need supplies. Their camp, the departure time, and the destination are in these reports. Give the quartermaster an order he can carry out."
+      },
+      "src": "/audio/en/washington-94ceafbf4429ab7ffe63.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-dispatch-base-2",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "一页纸。不能让收信人猜测，也不能让他在一段漂亮文字里寻找自己的任务。",
+        "en": "One page. The reader must not have to guess, or search through fine prose to find his task."
+      },
+      "src": "/audio/en/hamilton-b8a99d01dd6dd5000853.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-north-supplies",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "运送面粉二十桶、药品两箱。",
+        "en": "Deliver twenty barrels of flour and two crates of medicine."
+      },
+      "src": "/audio/en/hamilton-1243d45b777661906337.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-north-position",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "接收地点为北线河岸营地。",
+        "en": "The receiving point is the northern riverside camp."
+      },
+      "src": "/audio/en/hamilton-aa707b09ef3bc8c3709b.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-north-time",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "明日拂晓前必须抵达。",
+        "en": "Arrive before dawn tomorrow."
+      },
+      "src": "/audio/en/hamilton-ecec6644aad4e9525911.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-north-troops",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "由军需官率一队士兵护送车队。",
+        "en": "The quartermaster leads a squad escorting the wagons."
+      },
+      "src": "/audio/en/hamilton-71406d8e30aaf729346b.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-north-objective",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "首先解除北线断粮的危险。",
+        "en": "First, prevent the northern troops from running out of food."
+      },
+      "src": "/audio/en/hamilton-ec11203f130ce6d7e3af.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-medical-position",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "旧石桥受损，东岸渡口仍可通行。",
+        "en": "The old stone bridge is damaged; the eastern ferry still operates."
+      },
+      "src": "/audio/en/hamilton-b6d8cc11b01d838e2a19.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-medical-troops",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "医官带担架队经渡口护送伤员。",
+        "en": "The surgeon leads the stretcher party across the ferry."
+      },
+      "src": "/audio/en/hamilton-853bc009a2dbe8bdf937.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-medical-objective",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "优先将重伤员转移到后方医院。",
+        "en": "Move the seriously wounded to the rear hospital first."
+      },
+      "src": "/audio/en/hamilton-0bc2d81eeeaaa0ba421c.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-medical-supplies",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "携带绷带、饮水与两辆空车。",
+        "en": "Bring bandages, water, and two empty wagons."
+      },
+      "src": "/audio/en/hamilton-cb2b7f9ec75118610d1f.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-medical-time",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "今晚日落前完成转移。",
+        "en": "Complete the transfer before sunset today."
+      },
+      "src": "/audio/en/hamilton-4f3231a69dc7422bc409.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-muster-time",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "后日清晨六时前完成准备。",
+        "en": "Finish preparations by six the morning after tomorrow."
+      },
+      "src": "/audio/en/hamilton-b5a44ccbc28bc940a848.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-muster-objective",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "首要任务是保障各队准时集结。",
+        "en": "The first priority is to have every squad muster on time."
+      },
+      "src": "/audio/en/hamilton-a51dc7771ce276c3082f.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-muster-position",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "集结地在磨坊以南的空地。",
+        "en": "The muster point is the clearing south of the mill."
+      },
+      "src": "/audio/en/hamilton-00b7b28cecd6f4ad87ce.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-muster-supplies",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "每队领取两日口粮并核对弹药。",
+        "en": "Each squad collects two days of rations and checks its ammunition."
+      },
+      "src": "/audio/en/hamilton-119d81e3e67178f94cb6.mp3",
+      "generated": true
+    },
+    {
+      "id": "dispatch-muster-troops",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dispatch-text",
+      "text": {
+        "zh": "传令兵通知各队队长清点人数。",
+        "en": "A messenger tells each squad leader to count their men."
+      },
+      "src": "/audio/en/hamilton-03d8af1ee354b9d9696d.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-base-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "1781 年，法美联军围困约克镇。数年的行军、军令与争执，终于把汉密尔顿带到一座英军堡垒前。",
+        "en": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt."
+      },
+      "src": "/audio/en/narrator-f849c69d1f1e66042a94.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-base-2",
+      "speaker": "washington",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你得到这次指挥机会。我要看到的，是一个能对整支队伍负责的军官。严格执行计划，别把它变成你一个人的证明。",
+        "en": "You have this command. What I expect is an officer responsible for his whole company. Follow the plan. Do not turn it into a private test of your worth."
+      },
+      "src": "/audio/en/washington-6db6b0ac0380f3a01773.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-base-3",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我明白。等了这么久，我不能只想着自己如何被看见。",
+        "en": "I understand. After waiting so long, I cannot think only of how I will be seen."
+      },
+      "src": "/audio/en/hamilton-9555303b4ef954175a38.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-variant-1-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "1781 年，法美联军围困约克镇。数年的行军与军令，把汉密尔顿带到一座英军堡垒前。",
+        "en": "In 1781, French and American forces surrounded Yorktown. Years of marches and dispatches brought Hamilton to the foot of a British redoubt."
+      },
+      "src": "/audio/en/narrator-4372534d59cf9872d1fd.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-variant-1-2",
+      "speaker": "washington",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你证明了自己能承担责任。这支队伍交给你。按计划行动；现场需要判断时，我相信你知道命令背后的目的。",
+        "en": "You have proved you can carry responsibility. These troops are yours. Follow the plan; when judgment is needed, I trust you to understand the purpose behind the order."
+      },
+      "src": "/audio/en/washington-5bbebb9010c053828a57.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-variant-1-3",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这一次，纸上的名字会和我一起向前。我会记住，他们要跟随的不是一句漂亮的话。",
+        "en": "This time, the names on the page will move forward beside me. I will remember that they need more than a fine sentence to follow."
+      },
+      "src": "/audio/en/hamilton-c0e865729e42b0af17a6.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-coordinate-selected",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "player-option",
+      "text": {
+        "zh": "核对各队的职责，等共同信号再推进。",
+        "en": "Confirm each squad's role and wait for the common signal."
+      },
+      "src": "/audio/en/hamilton-dae7567f8644eb2fa80e.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-coordinate-reply-1",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "每一队都要知道身旁的人在哪里。听到信号，一起前进。",
+        "en": "Every squad must know where the others are. When the signal comes, we move together."
+      },
+      "src": "/audio/en/hamilton-2d9d071d3caab1aea2c9.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-lead-selected",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "player-option",
+      "text": {
+        "zh": "我走在最前面，你们跟紧。",
+        "en": "I will lead from the front. Stay close."
+      },
+      "src": "/audio/en/hamilton-e0ad920cb52aaa24c17f.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-lead-reply-1",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我会先走出去。但看清信号，别因为跟随我而忘了自己的位置。",
+        "en": "I will step out first. But watch the signal. Do not lose your own position by following mine."
+      },
+      "src": "/audio/en/hamilton-749a8ff18811ef0cbf30.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-rally-selected",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "player-option",
+      "text": {
+        "zh": "说明共同目标，让每个人知道为何出发。",
+        "en": "Explain the shared objective so everyone knows why we are going."
+      },
+      "src": "/audio/en/hamilton-ff28366171717c489c0a.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-rally-reply-1",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我们要打开围城的一道缺口。记住身边的人，记住回来的路。现在，各就各位。",
+        "en": "We are opening a breach in the siege. Remember the person beside you, and remember the way back. Now, take your positions."
+      },
+      "src": "/audio/en/hamilton-ab7d9fa1729e7a3ba380.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-1",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "推进",
+        "en": "ADVANCE · Move forward"
+      },
+      "src": "/audio/en/hamilton-ef9011a38c3c5e19973d.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-2",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "稳住阵形",
+        "en": "HOLD · Steady the formation"
+      },
+      "src": "/audio/en/hamilton-41a74b9a676590d78fc2.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-3",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "左翼包抄",
+        "en": "LEFT FLANK · Circle left"
+      },
+      "src": "/audio/en/hamilton-c49478081955e9ff1cf0.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-4",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "推进",
+        "en": "ADVANCE · Move forward"
+      },
+      "src": "/audio/en/hamilton-ef9011a38c3c5e19973d.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-5",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "右翼支援",
+        "en": "RIGHT FLANK · Support the right"
+      },
+      "src": "/audio/en/hamilton-8a7cceb3991421114d17.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-6",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "等待友军",
+        "en": "HOLD · Wait for allied troops"
+      },
+      "src": "/audio/en/hamilton-d47c0113b2566e90b8fc.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-7",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "侧翼接应",
+        "en": "LEFT FLANK · Support the flank"
+      },
+      "src": "/audio/en/hamilton-13350e42ba9e99c48f32.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-8",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "越过土垒",
+        "en": "ADVANCE · Cross the earthworks"
+      },
+      "src": "/audio/en/hamilton-5c5cd9ed1036e306ee6b.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-9",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "保持联系",
+        "en": "RIGHT FLANK · Maintain contact"
+      },
+      "src": "/audio/en/hamilton-c59c0a159e1dca197bbe.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-10",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "重新集结",
+        "en": "HOLD · Regroup"
+      },
+      "src": "/audio/en/hamilton-eb6421ec80933da3e49b.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-11",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "进入堡垒",
+        "en": "ADVANCE · Enter the redoubt"
+      },
+      "src": "/audio/en/hamilton-78fb4e2d37a4ff9f90df.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-12",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "battle-command",
+      "text": {
+        "zh": "守住阵地",
+        "en": "HOLD · Secure the position"
+      },
+      "src": "/audio/en/hamilton-2ab21398681d7056c671.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-surrender-base-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "汉密尔顿率队攻下十号堡垒，法军攻下相邻的九号堡垒。围城继续收紧。",
+        "en": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened."
+      },
+      "src": "/audio/en/narrator-c46dd65fa5e4e5de7566.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-surrender-base-2",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "数日后，英军在约克镇投降。胜利来自许多人的共同作战。战争尚未正式结束，但局势已经改变。",
+        "en": "Days later, British forces surrendered at Yorktown. Victory belonged to many people fighting together. The war had not formally ended, but its course had changed."
+      },
+      "src": "/audio/en/narrator-f1b22e22628022f29c5a.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-surrender-base-3",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那些从前只能写进信里的愿望，现在终于有了重量。明天，还会有人问，我们准备拿这个胜利做什么。",
+        "en": "The hopes I once could only put in letters finally have weight. Tomorrow, someone will ask what we intend to do with this victory."
+      },
+      "src": "/audio/en/hamilton-0bf63d2c56066d06e532.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-base-1",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "翻过信纸，背面留着几次试写的姓名。墨迹有深有浅，最后一次落笔格外清楚。",
+        "en": "On the back of the letter, a name has been written several times. The ink varies in darkness; the final attempt is especially clear."
+      },
+      "src": "/audio/en/narrator-95349bc3f147f93dc1af.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-base-2",
+      "speaker": "hamilton",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "亚历山大·汉密尔顿。先把名字写稳，再让人记住它。",
+        "en": "Alexander Hamilton. First, write the name with a steady hand. Then give people a reason to remember it."
+      },
+      "src": "/audio/en/hamilton-71c6538f59d21e2613d2.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-repeat-1",
+      "speaker": "hamilton",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这个名字已经写下。下一页，要写什么？",
+        "en": "The name is on the page. What will go on the next one?"
+      },
+      "src": "/audio/en/hamilton-c48e11254873018dadf5.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-scattered-paper-base-1",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我在酒馆后面找到了这些报纸。拿好，别再让风抢走了。",
+        "en": "I found these pages behind the tavern. Hold them tight so the wind cannot snatch them again."
+      },
+      "src": "/audio/en/hamilton-eacee9d1027d25280c2f.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-scattered-paper-base-2",
+      "speaker": "newsboy",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "谢谢您先生！我会记住您的名字。",
+        "en": "Thank you, sir! I will remember your name."
+      },
+      "src": "/audio/en/newsboy-91abcb6dff139db0d8e3.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-scattered-paper-base-3",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "汉密尔顿。希望下次让你忙起来的，是值得传开的消息。",
+        "en": "Hamilton. I hope next time it is news worth sharing that keeps you busy."
+      },
+      "src": "/audio/en/hamilton-21c308beddcdfbe749ed.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-scattered-paper-repeat-1",
+      "speaker": "newsboy",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "谢谢您先生！我会记住您的名字。",
+        "en": "Thank you, sir! I will remember your name."
+      },
+      "src": "/audio/en/newsboy-91abcb6dff139db0d8e3.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-base-1",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你在这句旁边写了问号：谁来承担代价？",
+        "en": "You put a question mark beside this sentence: who bears the cost?"
+      },
+      "src": "/audio/en/hamilton-300c3c2e077322fc16cf.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-base-2",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "一句话让自己满意很容易。试试让付出代价的人也愿意听下去。",
+        "en": "It is easy to satisfy yourself with a sentence. Try keeping the attention of the people who must pay its price."
+      },
+      "src": "/audio/en/burr-4e8773caf8d666170a74.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-repeat-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "问号还在这里。写出答案之前，不必急着擦掉它。",
+        "en": "The question mark is still here. There is no hurry to erase it before you have an answer."
+      },
+      "src": "/audio/en/burr-4c40650ec10d925516df.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-ask-selected",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "player-option",
+      "text": {
+        "zh": "请指出我还没有回答的部分。",
+        "en": "Show me what I have not answered yet."
+      },
+      "src": "/audio/en/hamilton-a311bba3324c192d94c1.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-ask-reply-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "从他们最具体的担忧开始。你愿意改进论据，我愿意继续听。",
+        "en": "Begin with their most concrete worry. If you are willing to improve your argument, I am willing to keep listening."
+      },
+      "src": "/audio/en/burr-f49a5887f9fc94599e23.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-challenge-selected",
+      "speaker": "hamilton",
+      "chapter": "Arrival",
+      "kind": "player-option",
+      "text": {
+        "zh": "下一次，把这个问题当面抛给我。",
+        "en": "Next time, put that question to me in public."
+      },
+      "src": "/audio/en/hamilton-ed4a3ebab39fe59d268f.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-arrival-burr-margin-challenge-reply-1",
+      "speaker": "burr",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "好。我会认真准备。你最好也给答案留一点准备的时间。",
+        "en": "Very well. I will prepare seriously. You would do well to give your answer some preparation too."
+      },
+      "src": "/audio/en/burr-272a0451962b5c6763e1.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-base-1",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "空桌上留着一张草稿，末行只有半句：如果我们的声音值得被听见……",
+        "en": "A draft lies on an empty table. Its final line stops halfway: if our voices deserve to be heard..."
+      },
+      "src": "/audio/en/narrator-b605aac5a153cf8807ec.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-base-2",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这里还缺一句愿意公开承担的话。",
+        "en": "It needs a sentence someone is willing to stand behind in public."
+      },
+      "src": "/audio/en/hamilton-00fd9f1b0753d0039e57.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-repeat-1",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "最后一行写完了。到了广场，就没有纸张替我挡住目光。",
+        "en": "The last line is finished. In the square, no sheet of paper will stand between me and their eyes."
+      },
+      "src": "/audio/en/hamilton-2be0abcbf57a62545489.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-complete-selected",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "player-option",
+      "text": {
+        "zh": "就把主张说清，也让人追问。",
+        "en": "Then state our case clearly, and let people question it."
+      },
+      "src": "/audio/en/hamilton-c58c56ab35cfcb8819a3.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-complete-reply-1",
+      "speaker": "hamilton",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "写在纸上还不够。我会把这句话带到街上。",
+        "en": "The page is only a beginning. I will take this sentence into the street."
+      },
+      "src": "/audio/en/hamilton-e6f8936fb888b998dcb2.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-square-bread-and-prices-base-1",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这张账单上的面包和运费，都被重新改过。你最担心哪一项？",
+        "en": "The bread and freight prices on this bill have both been revised. Which worries you most?"
+      },
+      "src": "/audio/en/hamilton-7fab69bd45352bab3a00.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-square-bread-and-prices-base-2",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我担心付完今天的钱，明天又不够。你们谈未来时，也把这一餐算进去。",
+        "en": "I worry that after paying today, I will not have enough tomorrow. When you speak about the future, count this meal too."
+      },
+      "src": "/audio/en/citizen-31670523d31655018f67.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-square-bread-and-prices-base-3",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我记住了。你不该先放下自己的生活，才有资格谈自由。",
+        "en": "I will remember. You should not have to set your life aside before you can speak about freedom."
+      },
+      "src": "/audio/en/hamilton-9dfede44cf23ceba89e2.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-square-bread-and-prices-repeat-1",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "账单还在，问题也是。谢谢你先问了我们的日子。",
+        "en": "The bill is still here, and so is the question. Thank you for asking about our lives first."
+      },
+      "src": "/audio/en/citizen-10054977f31b927be6f0.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-square-bread-and-prices-inactive-1",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "争论散了，明天还是要开门做生意。我会看你们怎样兑现说过的话。",
+        "en": "The argument is over, but tomorrow we still have to open for business. I will watch how you follow through on what you said."
+      },
+      "src": "/audio/en/citizen-1b63871c99dfd4143db1.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-base-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "外封写着北侧驻地，正文却让车队往东。我得先核对，再送出去。",
+        "en": "The cover says the northern camp, but the text sends the wagons east. I should check before this goes out."
+      },
+      "src": "/audio/en/hamilton-cbfeb48813b83dcd2d61.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-base-2",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "正文才是这批补给的目的地。发现一处不一致，就先把它弄清楚。",
+        "en": "The text gives the destination for this shipment. When you find a discrepancy, resolve it first."
+      },
+      "src": "/audio/en/washington-ee0ee2b7b88e233ea64d.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-repeat-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "便条已经核对。下一封也要经得起同样的检查。",
+        "en": "The note has been checked. The next one deserves the same care."
+      },
+      "src": "/audio/en/hamilton-fc73ebfa184241f51ffa.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-inactive-1",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这一批便条已经归档。记住：地点和时间，都要让收信人看得明白。",
+        "en": "These notes have been filed. Remember: the recipient must be able to read both the place and the time clearly."
+      },
+      "src": "/audio/en/washington-c785838f15b73a1a632d.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-correct-selected",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "player-option",
+      "text": {
+        "zh": "修正外封，标明核对后的目的地。",
+        "en": "Correct the cover and mark the verified destination."
+      },
+      "src": "/audio/en/hamilton-e4e450a25f99ebc1f747.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-correct-reply-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "现在内外一致了。收信人不必替我们猜测。",
+        "en": "The cover and the text now agree. The recipient will not have to guess for us."
+      },
+      "src": "/audio/en/hamilton-b14a7502df3498092f49.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-camp-misfiled-dispatch-correct-reply-2",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "很好。可靠，常常从这种小处开始。",
+        "en": "Good. Reliability often begins with details like this."
+      },
+      "src": "/audio/en/washington-cd5e64d7bdabbadba7e5.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-echo-base-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "当初在信纸背面写这个名字，只盼着有人记住。",
+        "en": "When I wrote this name on the back of that letter, I only hoped someone would remember it."
+      },
+      "src": "/audio/en/hamilton-5542c7984480addb6a8a.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-echo-base-2",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "现在，名字落在军令下面。有人会照着它出发，也有人在等他们回来。",
+        "en": "Now it goes beneath an order. People will set out because of it, and others will wait for them to return."
+      },
+      "src": "/audio/en/hamilton-c2941e58f2ecceaae4bb.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-echo-repeat-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "同一个名字，已经承担了不同的重量。",
+        "en": "The same name now carries a different weight."
+      },
+      "src": "/audio/en/hamilton-61921ce41883893b201f.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-echo-inactive-1",
+      "speaker": "hamilton",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这张文件还留着签名的位置。落笔以前，先确认每一处细节。",
+        "en": "This document still has a space for a signature. Before signing, check every detail."
+      },
+      "src": "/audio/en/hamilton-62e328be63702e3b925e.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-base-1",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你认为我的论据站得住吗？我想听具体的。",
+        "en": "Do you think my argument holds up? I want specifics."
+      },
+      "src": "/audio/en/hamilton-709fe30eb06bc097bd61.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-base-2",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你愿意让人追问，这一点站得住。接下来，把每项主张和承担它的人连起来。",
+        "en": "Your willingness to be questioned holds up. Next, connect each claim to the people who must bear it."
+      },
+      "src": "/audio/en/burr-3d35b1aca0f6a3d6368c.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-base-3",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我会继续补全。也请你继续指出空缺。",
+        "en": "I will keep filling in the gaps. Keep pointing them out."
+      },
+      "src": "/audio/en/hamilton-0c408f349a76c7744142.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-variant-1-1",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你在页边留下的问号，我一直记得。今天，我回答得更完整了吗？",
+        "en": "I remembered the question mark in your margin. Was my answer more complete today?"
+      },
+      "src": "/audio/en/hamilton-8a3e4b851967417836b0.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-variant-1-2",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你开始把听众的顾虑放进论证了。接下来，让每项主张都找到愿意承担它的人。",
+        "en": "You have begun to bring the audience's concerns into your argument. Next, find the people willing to carry each proposal through."
+      },
+      "src": "/audio/en/burr-f02e8435183187b0ab52.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-variant-1-3",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那么，把新的问号也留下吧。",
+        "en": "Then leave me the next question mark."
+      },
+      "src": "/audio/en/hamilton-e5260bc03301a404fd81.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-respect-repeat-1",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "肯继续修正论据的人，值得继续听。",
+        "en": "Someone willing to keep revising an argument is worth hearing again."
+      },
+      "src": "/audio/en/burr-2bea33f1187357ee2d13.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-base-1",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "下一次，由你来回应我？你总不能一直站在场边。",
+        "en": "Next time, will you answer me? You cannot stay at the edge of the square forever."
+      },
+      "src": "/audio/en/hamilton-5a9ed042384261c6d3ea.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-base-2",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "可以。但我会挑你最不愿停下来回答的问题。",
+        "en": "I will. But I will choose the question you are least willing to stop and answer."
+      },
+      "src": "/audio/en/burr-f282bdd6a548cdf451c0.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-base-3",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "那就带着问题来。我会带着答案。",
+        "en": "Then bring your question. I will bring an answer."
+      },
+      "src": "/audio/en/hamilton-1098ec2c6556ce68de78.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-variant-1-1",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "页边的挑战还算数。下一次，由你来回应我？",
+        "en": "The challenge in the margin still stands. Next time, will you answer me?"
+      },
+      "src": "/audio/en/hamilton-eb69a070a58aed263851.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-variant-1-2",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我记得。也已经开始准备。别把我没有抢着开口，当成我无话可说。",
+        "en": "I remember, and I have begun preparing. Do not mistake my waiting to speak for having nothing to say."
+      },
+      "src": "/audio/en/burr-7c07e8f12278f2ada00d.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-variant-1-3",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "好。那我也不能停在今天的答案上。",
+        "en": "Good. Then I cannot settle for the answers I gave today."
+      },
+      "src": "/audio/en/hamilton-e4d6e9d5d60fc2b251a6.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-burr-rivalry-repeat-1",
+      "speaker": "burr",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "约定还在。我们都还有准备的时间。",
+        "en": "The challenge stands. We both still have time to prepare."
+      },
+      "src": "/audio/en/burr-2835ba78768dfafc7583.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-paper-recognition",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你就是帮报童收过纸的人吧？我记得你的名字。说吧，我们听着。",
+        "en": "You helped the newsboy gather his papers, did you not? I remember your name. Go on. We are listening."
+      },
+      "src": "/audio/en/citizen-01e5aa054bf27547893f.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-influence-recognition",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "汉密尔顿？有人向我提起过你。我愿意先听听你的回答。",
+        "en": "Hamilton? Someone mentioned you to me. I am willing to hear your answer."
+      },
+      "src": "/audio/en/citizen-aac69a1dfbe247c1a220.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-draft-courage",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "酒馆里那句写完的话，该拿出来接受追问了。",
+        "en": "It is time to bring that sentence from the tavern into the open and let people question it."
+      },
+      "src": "/audio/en/hamilton-7cbe1fa3a0e770806cc9.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-high-momentum",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我会走到人群面前，把主张说清楚。",
+        "en": "I will step before the crowd and make my case clear."
+      },
+      "src": "/audio/en/hamilton-52d9aa65f66ea2a930ce.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-low-momentum",
+      "speaker": "hamilton",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "先把他们的问题听完整。稳稳地回答，也是一种承担。",
+        "en": "First, hear the whole question. A measured answer can carry responsibility too."
+      },
+      "src": "/audio/en/hamilton-502abb7008042d1fced6.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-square-bread-recall",
+      "speaker": "citizen",
+      "chapter": "Debate",
+      "kind": "dialogue",
+      "text": {
+        "zh": "刚才账单上的那一餐，请记得放进你的答案里。",
+        "en": "Remember to include the meal on that bill in your answer."
+      },
+      "src": "/audio/en/citizen-91a4307825d83db8f032.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-camp-detail-recall",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你核对过那张便条。现在，让每一份军令都经得起同样的检查。",
+        "en": "You checked that supply note. Now give every dispatch the same care."
+      },
+      "src": "/audio/en/washington-af5d24e8ff1112faf660.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-camp-duty-trust",
+      "speaker": "washington",
+      "chapter": "Washington",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你愿意承担眼前的职责，我就从这几封军令开始相信你。",
+        "en": "You have accepted the duty before you. These dispatches are where I begin to place my trust in you."
+      },
+      "src": "/audio/en/washington-53056d96c653767621e9.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-yorktown-detail-recall",
+      "speaker": "washington",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "你从核对一张便条开始证明可靠。今晚，同样的细心也要跟着队伍出发。",
+        "en": "You began proving dependable by checking a supply note. Tonight, take that same care into the field."
+      },
+      "src": "/audio/en/washington-909495d4724f5d23f945.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-yorktown-high-momentum",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我争取这一刻很久了。现在，我会让这份勇气带着责任一起向前。",
+        "en": "I have worked for this moment for a long time. Now I will carry responsibility forward with my courage."
+      },
+      "src": "/audio/en/hamilton-0cde97a4fc8b3fc4cbc8.mp3",
+      "generated": true
+    },
+    {
+      "id": "echo-yorktown-low-momentum",
+      "speaker": "hamilton",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "不必抢过每个人的脚步。我要把他们一起带到目标前。",
+        "en": "I do not need to outrun everyone. I need to bring them to the objective together."
+      },
+      "src": "/audio/en/hamilton-013ba6f3aa095558e66a.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-newsboy",
+      "speaker": "newsboy",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "报纸被风吹走了好多页，这下赚不到钱了......",
+        "en": "The wind blew away so many pages. Now I will not earn any money......"
+      },
+      "src": "/audio/en/newsboy-1349d29564c0eaf2d3f0.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-citizen",
+      "speaker": "citizen",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "码头的风总能钻进袖口里。",
+        "en": "The wind off the harbor always finds its way up my sleeves."
+      },
+      "src": "/audio/en/citizen-37105c1ac6960cbf5f01.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-loyalist",
+      "speaker": "loyalist",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "我刚把纸理齐，风又把它们吹乱了。",
+        "en": "I had just put my papers in order, and the wind scattered them again."
+      },
+      "src": "/audio/en/loyalist-3b70774abf4edeb86396.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-burr",
+      "speaker": "burr",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "难得有一会儿安静。让我把这杯茶喝完。",
+        "en": "A quiet moment at last. Let me finish this cup of tea."
+      },
+      "src": "/audio/en/burr-439feab2cb240f38d051.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-laurens",
+      "speaker": "laurens",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这张桌子有点晃。也许垫一张折好的纸就行。",
+        "en": "This table wobbles a little. A folded piece of paper might do the trick."
+      },
+      "src": "/audio/en/laurens-37354e70d481c28602ec.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-lafayette",
+      "speaker": "lafayette",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "这里的面包很硬，不过蘸进汤里就好多了。",
+        "en": "The bread here is rather hard, but it is much better dipped in soup."
+      },
+      "src": "/audio/en/lafayette-46a41fe87fcb13f0e527.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-mulligan",
+      "speaker": "mulligan",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "袖口松了线就来找我，别等它整片掉下来。",
+        "en": "Come see me if your cuff comes loose. Do not wait for the whole thing to fall off."
+      },
+      "src": "/audio/en/mulligan-928407eb407c8bb15364.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-washington",
+      "speaker": "washington",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "咖啡又凉了。这里的杯子似乎从来留不住热气。",
+        "en": "The coffee has gone cold again. These cups never seem to hold their warmth."
+      },
+      "src": "/audio/en/washington-05d5a9363897f508b600.mp3",
+      "generated": true
+    },
+    {
+      "id": "small-talk-newsboy-thanks",
+      "speaker": "newsboy",
+      "chapter": "SmallTalk",
+      "kind": "dialogue",
+      "text": {
+        "zh": "谢谢您先生！我会记住您的名字。",
+        "en": "Thank you, sir! I will remember your name."
+      },
+      "src": "/audio/en/newsboy-91abcb6dff139db0d8e3.mp3",
+      "generated": true
+    }
+  ]
+}

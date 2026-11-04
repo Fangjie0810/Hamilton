@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-09-14",
+  "source": "Official CLI history list, voice-id EXAVITQu4vr4xnSDxMaL, page-size 100",
+  "has_more": false,
+  "returnedCount": 8,
+  "allRequestedTextsMatchExactlyOnce": true,
+  "history": [
+    {
+      "cueId": "opening-letter-base-1",
+      "history_item_id": "2D51iAHB2GqIbKcDenTb",
+      "date_unix": 1789376581,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight.",
+      "character_count_change_from": 37726,
+      "character_count_change_to": 37863,
+      "recordedCreditDelta": 137
+    },
+    {
+      "cueId": "opening-letter-base-2",
+      "history_item_id": "QNFZsZYDLnwYYZmRz6ww",
+      "date_unix": 1789376585,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "He put what he had seen into words. People read them and began to believe this young man deserved the chance to continue his education.",
+      "character_count_change_from": 37863,
+      "character_count_change_to": 37998,
+      "recordedCreditDelta": 135
+    },
+    {
+      "cueId": "yorktown-command-base-1",
+      "history_item_id": "I7WVWXkqjnLAbEWHBkxh",
+      "date_unix": 1789376589,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt.",
+      "character_count_change_from": 37998,
+      "character_count_change_to": 38148,
+      "recordedCreditDelta": 150
+    },
+    {
+      "cueId": "yorktown-command-variant-1-1",
+      "history_item_id": "1330NWw5e8KY4QwOIkQG",
+      "date_unix": 1789376592,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "In 1781, French and American forces surrounded Yorktown. Years of marches and dispatches brought Hamilton to the foot of a British redoubt.",
+      "character_count_change_from": 38148,
+      "character_count_change_to": 38287,
+      "recordedCreditDelta": 139
+    },
+    {
+      "cueId": "yorktown-surrender-base-1",
+      "history_item_id": "kiqSEWCrkyCjEuhwnpId",
+      "date_unix": 1789376596,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened.",
+      "character_count_change_from": 38287,
+      "character_count_change_to": 38402,
+      "recordedCreditDelta": 115
+    },
+    {
+      "cueId": "yorktown-surrender-base-2",
+      "history_item_id": "q4EnH4oY0poFc0GtLYZG",
+      "date_unix": 1789376600,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "Days later, British forces surrendered at Yorktown. Victory belonged to many people fighting together. The war had not formally ended, but its course had changed.",
+      "character_count_change_from": 38402,
+      "character_count_change_to": 38564,
+      "recordedCreditDelta": 162
+    },
+    {
+      "cueId": "discovery-letter-name-base-1",
+      "history_item_id": "cqyEtRugveikOjnRm7Dk",
+      "date_unix": 1789376604,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "On the back of the letter, a name has been written several times. The ink varies in darkness; the final attempt is especially clear.",
+      "character_count_change_from": 38564,
+      "character_count_change_to": 38696,
+      "recordedCreditDelta": 132
+    },
+    {
+      "cueId": "discovery-tavern-unfinished-draft-base-1",
+      "history_item_id": "2Ep6Ze0vRomJAyN6261g",
+      "date_unix": 1789376607,
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "text": "A draft lies on an empty table. Its final line stops halfway: if our voices deserve to be heard...",
+      "character_count_change_from": 37726,
+      "character_count_change_to": 37824,
+      "recordedCreditDelta": 98
+    }
+  ],
+  "sumOfPerItemCreditDeltas": 1068,
+  "quotaSnapshotNote": "The immediate subscription snapshot increased by 970 while eight history-item deltas sum to 1068; record these separately rather than interpreting a possibly delayed account snapshot as the final billed total."
+}

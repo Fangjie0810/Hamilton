@@ -1,0 +1,248 @@
+/* Isolated screening study: all scene geometry is local CSS; the source film stays intact. */
+.projection-experiment { --ink: #e6d7bb; --quiet: #a4967d; --accent: #c4a66d; color: var(--ink); }
+.projection-experiment .opening-film-picture { overflow: hidden; background: #111716; }
+.projection-experiment .text-secondary { color: var(--quiet); }
+.projection-top { position: absolute; z-index: 10; inset: 28px 40px auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.projection-signature { display: flex; align-items: center; gap: 14px; font-size: 11px; letter-spacing: .13em; }
+.projection-signature .text-secondary { font-size: 8px; letter-spacing: .14em; }
+.projection-monogram { font: italic 38px 'Cormorant Garamond', Georgia, serif; color: var(--accent); }
+.projection-options { display: flex; gap: 5px; padding: 5px; border: 1px solid #a7936a33; background: #101411a6; border-radius: 4px; }
+.projection-option { display: flex; align-items: center; gap: 10px; padding: 9px 16px; background: transparent; border: 1px solid transparent; color: #bbae95; border-radius: 2px; font-size: 12px; }
+.projection-option .text-secondary { font-size: 9px; margin-top: 1px; }
+.projection-number { font: 11px 'Courier New', monospace; opacity: .5; }
+.projection-option[aria-pressed='true'] { border-color: #bda16a77; background: #b4996430; color: #f0dfb6; }
+.projection-option:hover { background: #b4996425; }
+.projection-languages { display: flex; gap: 3px; }
+.projection-languages button { background: transparent; border-bottom: 1px solid transparent; color: var(--quiet); min-width: 40px; min-height: 44px; font-size: 11px; padding: 5px; }
+.projection-languages button[aria-pressed='true'] { color: var(--ink); border-color: var(--accent); }
+.projection-languages .text-secondary { font: 8px 'Courier New', monospace; }
+.projection-room { position: absolute; inset: 90px 0 130px; overflow: hidden; mask-image: linear-gradient(#000 80%, transparent 100%); }
+.projection-stage { position: absolute; width: 1440px; height: 740px; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(var(--stage-scale, 1)); }
+.projection-stage * { position: absolute; }
+.projection-stage .text-primary, .projection-stage .text-secondary { position: static; }
+.projection-caption { position: absolute; left: 48px; bottom: 34px; }
+.projection-caption-index { font-size: 9px; letter-spacing: .17em; color: var(--quiet); }
+.projection-caption-index .text-secondary { display: inline; font-size: 8px; margin-left: 12px; }
+.projection-caption h2 { margin: 12px 0 8px; font-size: 25px; font-weight: 400; letter-spacing: .08em; }
+.projection-caption h2 .text-secondary { display: inline; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; font-style: italic; margin-left: 14px; }
+.projection-caption p { margin: 0; font-size: 11px; letter-spacing: .08em; color: var(--quiet); }
+.projection-caption p .text-secondary { font-size: 10px; margin-top: 5px; }
+.projection-meta { position: absolute; right: 42px; bottom: 116px; text-align: right; font-size: 10px; color: var(--quiet); }
+.projection-meta .text-secondary { font-size: 9px; }
+.projection-timer { display: block; margin-top: 10px; font: 11px 'Courier New', monospace; letter-spacing: .13em; }
+.projection-experiment .opening-film-controls { right: 40px; bottom: 36px; }
+.projection-experiment .opening-film-controls button { background: #101411b8; border: 1px solid #ae926446; padding: 9px 18px; color: #decdb0; }
+.projection-experiment .opening-film-controls button:hover { background: #b4996425; border-color: #bda16a; }
+.projection-experiment .opening-film-status { bottom: 154px; z-index: 12; font-size: 12px; }
+.projection-experiment[data-phase='chapter'] .opening-film-controls { background: #10100cdc; }
+.projection-experiment .opening-film-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: saturate(.82) contrast(1.06); }
+.projection-aperture { overflow: hidden; background: #040707; isolation: isolate; }
+.projection-texture, .projection-reflection { inset: 0; pointer-events: none; z-index: 2; }
+.projection-texture { background: repeating-linear-gradient(0deg, #0003 0 1px, transparent 1px 3px); opacity: .34; }
+.projection-reflection { background: linear-gradient(145deg, #b8dbc918, transparent 45%), radial-gradient(ellipse, transparent 60%, #0009 100%); box-shadow: inset 0 0 25px #000; }
+.projection-device-badge { font-size: 8px; letter-spacing: .16em; text-align: center; }
+.projection-device-badge .text-secondary { font: 7px Georgia, serif; letter-spacing: .14em; }
+.projection-power { width: 5px; height: 5px; border-radius: 50%; background: #8bb67a; box-shadow: 0 0 8px #8bb67a; }
+.projection-paper { padding: 25px; width: 220px; height: 290px; background: repeating-linear-gradient(0deg, #00000004 0 1px, transparent 1px 3px), #b8a584; color: #332f24; box-shadow: 4px 7px 15px #0008, inset 0 0 35px #70532c55; }
+.projection-paper > * { position: static; display: block; }
+.projection-paper .paper-index { font-size: 8px; letter-spacing: .09em; }
+.projection-paper h3 { font-size: 22px; font-weight: 400; margin: 22px 0 15px; }
+.projection-paper p { font-size: 11px; line-height: 1.8; }
+.projection-paper .text-secondary { color: #5d503d; }
+.paper-lines { height: 28px; margin-top: 20px; background: repeating-linear-gradient(0deg, transparent 0 7px, #6f604555 7px 8px); }
+.paper-year { margin-top: 10px; font: italic 25px Georgia, serif; }
+.projection-tape { padding: 12px 18px; border-radius: 4px; background: repeating-linear-gradient(0deg, #262c29 0 2px, #1a201d 2px 4px); box-shadow: 5px 9px 15px #0009; width: 235px; height: 130px; border: 4px solid #0e1411; }
+.projection-tape > span { inset: 12px 12px auto; background: #c3b28d; color: #2b2f28; padding: 7px; font-size: 10px; text-align: center; }
+.projection-tape .text-secondary { color: #535646; font-size: 8px; }
+.tape-wheels { left: 30px; right: 30px; bottom: 14px; height: 33px; border: 1px solid #51554b; background: radial-gradient(circle at 22% 50%, #0b100d 0 6px, #8d8d7555 7px 13px, transparent 14px), radial-gradient(circle at 78% 50%, #0b100d 0 6px, #8d8d7555 7px 13px, transparent 14px), #050a07; }
+.projection-books i { left: 0; width: 210px; height: 27px; border-radius: 3px; border-left: 16px solid #353b2d; background: repeating-linear-gradient(0deg, #988b6e 0 2px, #756950 2px 3px); box-shadow: 0 4px 6px #0008; }
+.projection-books i:nth-child(2) { top: -30px; left: -10px; width: 200px; border-color: #514230; transform: rotate(-3deg); }
+.projection-books i:nth-child(3) { top: -60px; left: 12px; width: 174px; border-color: #2c413c; transform: rotate(2deg); }
+.projection-lamp { width: 220px; height: 340px; }
+.lamp-shade { left: 0; top: 0; width: 190px; height: 95px; background: radial-gradient(ellipse at 50% 95%, #e6d29b 0 2%, #334a3c 8%, #172921 65%); border-radius: 70% 70% 15% 15%; border-bottom: 4px solid #a49667; box-shadow: 0 12px 32px #dbbd4e18; }
+.lamp-neck { left: 84px; top: 95px; height: 224px; width: 12px; background: linear-gradient(90deg, #25291d, #a49465, #3c3927); }
+.lamp-base { left: 18px; bottom: 0; width: 150px; height: 30px; border-radius: 50%; background: radial-gradient(ellipse at 50% 20%, #867248, #383425 70%); box-shadow: 8px 8px 10px #0008; }
+.projection-window, .projection-shelf, .projection-ceiling, .projection-floor, .projection-machine, .projection-beam, .projection-dust, .projection-filmstrip { display: none; }
+
+/* 01 — a pool of lamplight, warm walnut, a curved phosphor screen. */
+[data-scene='crt'] .opening-film-picture { background: radial-gradient(ellipse at 35% 55%, #21434255, transparent 45%), radial-gradient(ellipse at 87% 62%, #6b552333, transparent 40%), #0c1414; }
+[data-scene='crt'] .projection-window { display: block; width: 200px; height: 330px; left: 85px; top: 10px; border: 12px solid #172221; background: repeating-linear-gradient(0deg, #203b3c77 0 2px, #0e1c1c 2px 27px); box-shadow: inset 0 0 55px #000, 10px 10px 30px #0008; transform: skewY(-4deg); }
+[data-scene='crt'] .projection-window::after { content: ''; position: absolute; left: 50%; height: 100%; border-left: 7px solid #182421; }
+[data-scene='crt'] .projection-table { left: -80px; top: 556px; width: 1600px; height: 230px; transform: perspective(700px) rotateX(25deg); background: repeating-linear-gradient(2deg, #70553718 0 1px, transparent 1px 9px), linear-gradient(#463d2b, #282b23 85%); border-top: 6px solid #5c533b; box-shadow: 0 30px 100px #000; }
+[data-scene='crt'] .projection-device { left: 335px; top: 103px; width: 810px; height: 465px; background: repeating-linear-gradient(0deg, #1b160d20 0 2px, transparent 2px 5px), linear-gradient(100deg, #4a3324, #755039 45%, #39291f); border: 2px solid #98785255; border-radius: 20px 25px 15px 15px; box-shadow: 18px 22px 25px #0009, inset 1px 3px 4px #b38f6244, inset -10px -5px 15px #100b08; }
+[data-scene='crt'] .projection-aperture { left: 28px; top: 26px; width: 648px; height: 376px; border: 13px solid #242a26; border-radius: 46px / 38px; box-shadow: 0 0 0 2px #b8a78655, 0 0 0 8px #29221a, inset 0 0 30px #000, 0 0 70px #93c8b01c; }
+[data-scene='crt'] .opening-film-video { border-radius: 25px; }
+[data-scene='crt'] .projection-device-side { right: 19px; top: 24px; width: 93px; height: 380px; background: linear-gradient(90deg, #33352b, #545044, #302f27); border: 1px solid #aa9c6f55; border-radius: 5px; box-shadow: inset 2px 0 7px #0009; }
+.device-dial { left: 16px; top: 20px; width: 60px; height: 60px; border: 5px solid #242b24; border-radius: 50%; background: conic-gradient(#5e6655, #20281f, #808372, #30382d, #5e6655); box-shadow: 2px 3px 5px #000b, 0 0 0 1px #948e72; }
+.device-dial::after { content: ''; position: absolute; width: 3px; height: 24px; top: 2px; left: 24px; background: #ae9c72; transform: rotate(35deg); }
+.device-dial.small { top: 105px; width: 49px; height: 49px; left: 21px; }
+.device-dial.small::after { left: 18px; height: 18px; transform: rotate(-40deg); }
+.device-speaker { bottom: 16px; left: 16px; width: 61px; height: 180px; background: repeating-linear-gradient(0deg, #131c16 0 3px, #625d4633 3px 6px); border: 1px solid #857b5555; border-radius: 5px; }
+[data-scene='crt'] .projection-device-badge { left: 65px; bottom: 16px; width: 270px; color: #c3ab7a; }
+[data-scene='crt'] .projection-power { right: 155px; bottom: 25px; }
+[data-scene='crt'] .projection-deck { width: 610px; height: 73px; left: 425px; top: 568px; background: linear-gradient(#575c50, #272f29 15%, #222921 80%, #101914); border: 2px solid #626854; border-radius: 3px; box-shadow: 8px 10px 13px #0009; }
+.deck-slot { left: 28px; top: 15px; height: 28px; width: 290px; border: 2px solid #0d1711; border-bottom-color: #66715b; background: #1c261d; }
+.deck-counter { right: 93px; top: 19px; background: #0c1d15; padding: 5px 10px; font: 15px 'Courier New', monospace; color: #96af7b; text-shadow: 0 0 5px #9ecc7b; }
+.deck-keys { right: 13px; top: 18px; width: 57px; height: 30px; background: repeating-linear-gradient(90deg, #505b48 0 15px, #18241a 15px 20px); }
+[data-scene='crt'] .projection-lamp { left: 1190px; top: 257px; }
+[data-scene='crt'] .projection-books { left: 85px; top: 604px; transform: rotate(-7deg); }
+[data-scene='crt'] .projection-tape { left: 1040px; top: 612px; transform: rotate(12deg); }
+[data-scene='crt'] .projection-paper { left: 142px; top: 370px; transform: rotate(-13deg); opacity: .65; }
+
+/* 02 — a suspended linen screen and the long, dusty cone of a mechanical projector. */
+[data-scene='projector'] .opening-film-picture { background: radial-gradient(ellipse at 60% 40%, #5a533432, transparent 55%), linear-gradient(110deg, #0e1715, #23291f 60%, #111c18); }
+[data-scene='projector'] .projection-ceiling { display: block; left: 0; top: -100px; width: 1450px; height: 90px; transform: rotate(-9deg); background: repeating-linear-gradient(0deg, #1e271d 0 3px, #1b231a 3px 9px); box-shadow: 0 6px 15px #000b; }
+[data-scene='projector'] .projection-floor { display: block; left: -100px; right: -100px; top: 590px; height: 300px; transform: perspective(350px) rotateX(35deg); background: repeating-linear-gradient(92deg, #6353390a 0 95px, #050e0955 95px 99px), repeating-linear-gradient(0deg, #51472d44 0 2px, transparent 2px 5px), #22281c; border-top: 2px solid #6a624d33; }
+[data-scene='projector'] .projection-device { left: 565px; top: 76px; width: 740px; height: 450px; background: linear-gradient(90deg, #b5ae86, #d4caa0 5%, #c4bb90 95%, #aaa37d); box-shadow: 10px 18px 28px #0007; transform: rotate(-.6deg); }
+[data-scene='projector'] .projection-device::before, [data-scene='projector'] .projection-device::after { content: ''; position: absolute; left: -16px; right: -16px; height: 15px; background: linear-gradient(#665e44, #b0a077 45%, #514f37); border-radius: 5px; box-shadow: 0 4px 9px #0008; }
+[data-scene='projector'] .projection-device::before { top: -13px; }
+[data-scene='projector'] .projection-device::after { bottom: -13px; }
+[data-scene='projector'] .projection-aperture { inset: 32px 30px 36px; border: 1px solid #7a755b; box-shadow: 0 0 25px #e9d29b33; }
+[data-scene='projector'] .opening-film-video { filter: sepia(.15) saturate(.78) contrast(.94) brightness(1.08); }
+[data-scene='projector'] .projection-texture { background: repeating-linear-gradient(90deg, #e8e0b714 0 1px, transparent 1px 3px), repeating-linear-gradient(0deg, #33381618 0 1px, transparent 1px 3px); opacity: .5; }
+[data-scene='projector'] .projection-reflection { background: radial-gradient(ellipse at 40% 40%, #ede5b208, #433c261a); box-shadow: inset 0 0 18px #3a361a44; }
+[data-scene='projector'] .projection-device-badge { left: 40px; bottom: 7px; right: 40px; font-size: 7px; color: #514c30; }
+[data-scene='projector'] .projection-device-badge .text-secondary { display: inline; margin-left: 12px; color: #605635; }
+[data-scene='projector'] .device-handle { left: 40px; top: -160px; right: 40px; height: 155px; border-left: 2px solid #84765588; border-right: 2px solid #84765588; }
+[data-scene='projector'] .projection-device-side, [data-scene='projector'] .projection-power, [data-scene='projector'] .projection-lamp, [data-scene='projector'] .projection-deck, [data-scene='projector'] .projection-tape { display: none; }
+[data-scene='projector'] .projection-machine { display: block; left: 75px; top: 390px; width: 320px; height: 270px; transform: rotate(-3deg); z-index: 3; }
+.reel { width: 160px; height: 160px; border: 8px solid #a8a181; border-radius: 50%; background: radial-gradient(circle, #c5ba94 0 7px, #3b4535 8px 15px, transparent 16px), repeating-conic-gradient(from 10deg, #aaa786 0 25deg, #222e22 25deg 58deg, #aba585 58deg 60deg); box-shadow: 0 0 0 2px #353f2e, 5px 7px 8px #0008, inset 0 0 0 7px #454c38; }
+.reel-one { left: -18px; top: -103px; }
+.reel-two { left: 158px; top: -102px; width: 143px; height: 143px; }
+.machine-body { left: 35px; top: 50px; width: 218px; height: 155px; border: 3px solid #6b7155; border-radius: 16px 24px 6px 6px; background: repeating-linear-gradient(0deg, transparent 0 7px, #17261977 7px 10px) 23px 30px / 65px 95px no-repeat, linear-gradient(115deg, #757858, #3d4c34 60%, #1e3324); box-shadow: inset 3px 2px 6px #e3d99c33, 10px 13px 10px #0008; }
+.machine-body::after { content: ''; position: absolute; right: 23px; top: 50px; width: 45px; height: 45px; border: 3px solid #ac9e67; border-radius: 50%; background: radial-gradient(#263b2a 0 25%, #6c7657 27% 60%, #33492e 62%); }
+.machine-lens { right: 22px; top: 64px; width: 46px; height: 62px; border-radius: 10px 3px 3px 10px; background: repeating-linear-gradient(90deg, #1b2a1d 0 4px, #747754 4px 6px); box-shadow: 10px 0 25px #d8d1a45c; border-right: 4px solid #e8deaf; }
+.machine-feet { left: 47px; top: 205px; width: 190px; height: 48px; border-left: 15px solid #333b28; border-right: 15px solid #333b28; transform: perspective(60px) rotateX(15deg); }
+[data-scene='projector'] .projection-beam { display: block; left: 366px; top: 96px; width: 210px; height: 415px; clip-path: polygon(0 86%, 100% 0, 100% 100%, 0 91%); background: linear-gradient(90deg, #f0e5b54d, #e9e1b612); mix-blend-mode: screen; opacity: .85; }
+[data-scene='projector'] .projection-dust { display: block; left: 270px; top: 180px; width: 850px; height: 440px; opacity: .45; background-image: radial-gradient(circle at 13% 30%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 63% 47%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 32% 71%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 75% 67%, #f0e2a6 0 1px, transparent 2px); background-size: 153px 189px, 213px 219px, 250px 213px, 328px 187px; }
+[data-scene='projector'] .projection-table { left: 76px; top: 620px; width: 432px; height: 24px; background: linear-gradient(#685539, #2e3624); transform: rotate(-3deg); box-shadow: 5px 5px 10px #0008; }
+[data-scene='projector'] .projection-paper { left: 1160px; top: 486px; transform: rotate(11deg) scale(.6); transform-origin: top left; opacity: .64; }
+[data-scene='projector'] .projection-books { left: 780px; top: 660px; opacity: .36; transform: scale(.8); }
+
+/* 03 — the lighter, tactile contrast: a conservation desk seen from above. */
+[data-scene='archive'] { --ink: #383d30; --quiet: #706e59; --accent: #777043; }
+[data-scene='archive'] .opening-film-picture { background: repeating-linear-gradient(91deg, #aa976717 0 1px, transparent 1px 7px), radial-gradient(ellipse at 50% 40%, #ddd7bd, #b6ad8b); }
+[data-scene='archive'] .projection-options { background: #e4dfca8c; border-color: #7e795b66; }
+[data-scene='archive'] .projection-option { color: #615f49; }
+[data-scene='archive'] .projection-option[aria-pressed='true'] { background: #60694a; color: #eee7ce; border-color: #60694a; }
+[data-scene='archive'] .projection-option[aria-pressed='true'] .text-secondary { color: #d8d4bf; }
+[data-scene='archive'] .projection-device { left: 365px; top: 153px; width: 765px; height: 459px; border: 2px solid #a09e76; border-radius: 20px 20px 30px 30px; background: repeating-linear-gradient(0deg, #25332309 0 1px, transparent 1px 3px), linear-gradient(120deg, #7c8866, #596c50 40%, #3a503c); box-shadow: 18px 27px 15px #43463155, 0 5px 3px #233b29, inset 2px 3px 4px #d7d7a388, inset -5px -5px 15px #152c20aa; transform: rotate(-2deg); }
+[data-scene='archive'] .projection-aperture { left: 50px; top: 43px; width: 665px; height: 374px; border: 18px solid #293a2c; border-radius: 12px; box-shadow: 0 0 0 2px #b0b38966, inset 0 0 25px #000; }
+[data-scene='archive'] .opening-film-video { filter: sepia(.08) saturate(.8); }
+[data-scene='archive'] .projection-texture { opacity: .12; }
+[data-scene='archive'] .projection-device-badge { top: 15px; left: 110px; right: 110px; color: #e0d9b5; font-size: 8px; }
+[data-scene='archive'] .projection-device-badge .text-secondary { display: inline; margin-left: 12px; color: #d0cdaf; }
+[data-scene='archive'] .projection-power { left: 60px; top: 23px; }
+[data-scene='archive'] .projection-device-side { right: -48px; top: 158px; width: 48px; height: 110px; background: repeating-linear-gradient(0deg, #2b4230 0 3px, #52694c 3px 6px); border-radius: 0 10px 10px 0; box-shadow: 8px 8px 5px #51573b55; }
+[data-scene='archive'] .projection-device-side > *, [data-scene='archive'] .projection-lamp, [data-scene='archive'] .projection-books, [data-scene='archive'] .projection-deck { display: none; }
+[data-scene='archive'] .device-handle { left: 270px; top: -43px; width: 225px; height: 44px; border: 13px solid #485940; border-bottom: none; border-radius: 18px 18px 0 0; box-shadow: 4px -2px 0 #939c74, 7px -7px 8px #555c3944; }
+[data-scene='archive'] .projection-machine { display: block; left: 395px; top: 22px; width: 670px; height: 210px; }
+[data-scene='archive'] .projection-machine .reel { width: 205px; height: 205px; border-color: #8b9177; background: radial-gradient(circle, #c9c8a8 0 9px, #4a5a3d 10px 20px, transparent 21px), repeating-conic-gradient(from 10deg, #aeb095 0 24deg, #546248 24deg 58deg, #aeb095 58deg 60deg); box-shadow: 8px 10px 10px #4c553d44, inset 0 0 0 7px #566746; }
+[data-scene='archive'] .reel-one { left: -55px; top: 0; }
+[data-scene='archive'] .reel-two { left: 505px; top: -20px; }
+[data-scene='archive'] .projection-machine > :not(.reel) { display: none; }
+[data-scene='archive'] .projection-paper { left: 94px; top: 160px; width: 275px; height: 380px; transform: rotate(-12deg); background-color: #e0d9bc; box-shadow: 5px 8px 9px #6b654333, inset 0 0 50px #a3946622; }
+[data-scene='archive'] .projection-paper::before { content: ''; position: absolute; top: -9px; left: 85px; width: 85px; height: 30px; background: #aab09266; transform: rotate(4deg); }
+[data-scene='archive'] .projection-paper .paper-index { font-size: 10px; }
+[data-scene='archive'] .projection-paper h3 { font-size: 26px; margin-top: 40px; }
+[data-scene='archive'] .projection-paper .paper-year { margin-top: 20px; font-size: 42px; color: #8e573d; }
+[data-scene='archive'] .projection-tape { left: 1132px; top: 460px; transform: rotate(12deg); width: 225px; height: 149px; background: #707a59; border-color: #4f6246; box-shadow: 7px 8px 10px #48553755; }
+[data-scene='archive'] .projection-filmstrip { display: block; top: 625px; left: 92px; width: 1280px; height: 86px; transform: rotate(6deg); border-top: 9px dashed #ddd2b8; border-bottom: 9px dashed #ddd2b8; background: repeating-linear-gradient(90deg, #7d552599 0 78px, #352e1e 78px 96px), #25271b; box-shadow: 0 0 0 5px #302c1e, 7px 14px 10px #5b5a3844; }
+[data-scene='archive'] .opening-film-controls button { background: #e2ddc5b3; border-color: #7e795b77; color: #3a4230; }
+[data-scene='archive'] .opening-film-controls button:hover { background: #c6c6a4; }
+[data-scene='archive'] .opening-film-controls .text-secondary { color: #666b50; }
+[data-scene='archive'] .opening-film-status { color: #e6dfc7; background: #2e3b2bed; border-radius: 3px; width: fit-content; max-width: calc(100% - 32px); margin: auto; padding: 8px 16px; }
+
+.projection-running .reel { animation: projection-reel 10s linear infinite; }
+.projection-running .reel-two { animation-direction: reverse; animation-duration: 14s; }
+.projection-running .projection-dust { animation: projection-drift 16s linear infinite alternate; }
+@keyframes projection-reel { to { transform: rotate(360deg); } }
+@keyframes projection-drift { to { transform: translate(14px, -22px); opacity: .25; } }
+.projection-reduced *, .projection-experiment:not(.projection-running) .reel { animation: none !important; }
+@media (prefers-reduced-motion: reduce) { .projection-experiment * { animation: none !important; } }
+
+.projection-entry-picker { position: absolute; z-index: 5; right: 4%; bottom: 125px; padding: 18px 20px; border-left: 1px solid #ccb07966; background: #111812d6; backdrop-filter: blur(12px); }
+.projection-entry-label { margin: 0 0 12px; color: #d6be8f; font-size: 12px; letter-spacing: .12em; }
+.projection-entry-label .text-secondary { font-size: 9px; letter-spacing: .1em; }
+.projection-entry-hint { margin: 12px 0 0; font-size: 10px; color: #b0aa95; }
+.projection-entry-hint .text-secondary { font-size: 9px; }
+.projection-entry-picker .projection-option { padding: 8px 12px; }
+
+@media (max-width: 1050px) {
+  .projection-top { inset: 20px 24px auto; gap: 12px; }
+  .projection-signature > :last-child { display: none; }
+  .projection-caption { left: 28px; bottom: 34px; }
+  .projection-caption h2 { font-size: 22px; }
+  .projection-caption h2 .text-secondary { display: block; margin: 5px 0 0; font-size: 18px; }
+  .projection-caption p { display: none; }
+  .projection-meta { right: 28px; }
+  .projection-experiment .opening-film-controls { right: 24px; }
+  .projection-entry-picker { right: 24px; bottom: 95px; padding: 14px; }
+  .projection-entry-picker .projection-option { padding: 7px; font-size: 10px; }
+}
+@media (max-width: 700px) {
+  .projection-top { inset: 14px 16px auto; flex-wrap: wrap; gap: 10px; }
+  .projection-signature > :last-child { display: block; font-size: 9px; }
+  .projection-signature .text-secondary { font-size: 7px; }
+  .projection-monogram { font-size: 28px; }
+  .projection-languages { margin-left: auto; }
+  .projection-languages button { min-width: 34px; }
+  .projection-top > .projection-options { order: 3; flex-basis: 100%; justify-content: space-between; }
+  .projection-option { padding: 7px 8px; gap: 7px; flex: 1; justify-content: center; font-size: 11px; }
+  .projection-option .text-secondary { font-size: 8px; }
+  .projection-room { inset: 140px 0 185px; }
+  .projection-stage { width: 700px; height: 650px; }
+  .projection-caption { left: 20px; bottom: 103px; }
+  .projection-caption-index { font-size: 8px; }
+  .projection-caption-index .text-secondary { display: none; }
+  .projection-caption h2 { margin: 8px 0 0; font-size: 20px; }
+  .projection-caption h2 .text-secondary { font-size: 16px; margin-top: 5px; }
+  .projection-meta { right: 20px; bottom: 110px; max-width: 120px; font-size: 9px; }
+  .projection-meta .text-secondary { font-size: 8px; }
+  .projection-timer { font-size: 10px; }
+  .projection-experiment .opening-film-controls { left: 16px; right: 16px; bottom: 22px; max-width: none; justify-content: stretch; gap: 6px; }
+  .projection-experiment .opening-film-controls button { flex: 1; padding: 8px; font-size: 11px; }
+  .projection-experiment .opening-film-status { bottom: 195px; font-size: 10px; }
+  [data-scene='crt'] .projection-device { left: 22px; top: 130px; transform: scale(.81); transform-origin: top left; }
+  [data-scene='crt'] .projection-deck { left: 100px; top: 507px; width: 500px; transform: scale(.95); }
+  [data-scene='crt'] .projection-table { left: -300px; top: 505px; }
+  [data-scene='crt'] .projection-window { left: 45px; top: -90px; width: 130px; height: 270px; opacity: .5; }
+  [data-scene='crt'] .projection-lamp, [data-scene='crt'] .projection-paper, [data-scene='crt'] .projection-books { display: none; }
+  [data-scene='crt'] .projection-tape { top: 582px; left: 440px; transform: rotate(12deg) scale(.55); }
+  [data-scene='projector'] .projection-device { left: 35px; top: 64px; width: 805px; height: 490px; transform: scale(.78); transform-origin: top left; }
+  [data-scene='projector'] .projection-machine { left: 75px; top: 425px; transform: scale(.58); transform-origin: top left; }
+  [data-scene='projector'] .projection-beam { left: 190px; top: 80px; width: 460px; height: 445px; clip-path: polygon(0 89%, 100% 0, 100% 85%, 0 93%); }
+  [data-scene='projector'] .projection-floor { top: 545px; }
+  [data-scene='projector'] .projection-table { left: 38px; top: 570px; width: 240px; }
+  [data-scene='projector'] .projection-paper { left: 495px; top: 445px; transform: rotate(11deg) scale(.48); }
+  [data-scene='projector'] .projection-books { display: none; }
+  [data-scene='archive'] .projection-device { left: 40px; top: 155px; transform: rotate(-2deg) scale(.79); transform-origin: top left; }
+  [data-scene='archive'] .projection-machine { left: 104px; top: 39px; transform: scale(.73); transform-origin: top left; }
+  [data-scene='archive'] .projection-paper { left: 38px; top: 64px; transform: rotate(-12deg) scale(.6); transform-origin: top left; }
+  [data-scene='archive'] .projection-filmstrip { top: 559px; left: -70px; width: 900px; height: 57px; }
+  [data-scene='archive'] .projection-tape { display: none; }
+  .projection-entry-picker { left: 20px; right: 20px; bottom: 68px; padding: 10px 12px; }
+  .projection-entry-label { margin: 0 0 8px; font-size: 10px; }
+  .projection-entry-label .text-secondary { display: inline; margin-left: 6px; font-size: 8px; }
+  .projection-entry-hint { display: none; }
+}
+@media (max-height: 650px) and (min-width: 701px) {
+  .projection-room { inset: 75px 0 100px; }
+  .projection-caption { bottom: 20px; }
+  .projection-caption h2 { margin: 5px 0 0; font-size: 19px; }
+  .projection-caption h2 .text-secondary { display: inline; margin-left: 10px; font-size: 16px; }
+  .projection-meta { bottom: 89px; }
+  .projection-experiment .opening-film-controls { bottom: 20px; }
+  .projection-entry-picker { bottom: 72px; padding: 9px; }
+  .projection-entry-hint { display: none; }
+}
+@media (max-height: 560px) and (max-width: 700px) {
+  .projection-top { inset: 5px 12px auto; }
+  .projection-signature, .projection-languages { display: none; }
+  .projection-room { inset: 63px 0 95px; }
+  .projection-caption { bottom: 21px; }
+  .projection-caption-index, .projection-caption h2 .text-secondary, .projection-meta { display: none; }
+  .projection-caption h2 { font-size: 15px; }
+  .projection-experiment .opening-film-controls { left: auto; width: 65%; bottom: 12px; }
+  .projection-experiment .opening-film-controls button { padding: 6px; font-size: 10px; }
+}

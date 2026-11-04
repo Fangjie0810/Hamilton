@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "zh: prompt and three responses retained, subtitles/kicker absent",
+    "en: prompt and three responses retained, subtitles/kicker absent",
+    "dual: prompt and three responses retained, subtitles/kicker absent",
+    "dual-en: prompt and three responses retained, subtitles/kicker absent",
+    "Locked response requirements remain visible",
+    "Camera/run tutorial fits 390px in all four language modes"
+  ],
+  "errors": []
+}

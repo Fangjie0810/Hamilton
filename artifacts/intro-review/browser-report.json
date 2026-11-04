@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "existing click audio and large button feedback; two-second hold before fade",
+    "half-size centred CG with black surround on desktop and mobile",
+    "real compressed 720p audio playback",
+    "same document",
+    "scene warms but cannot move",
+    "pause/resume and mute",
+    "blur pauses without game settings",
+    "four subtitle modes retain media time",
+    "bilingual narrow controls fit",
+    "natural playback of the entire cut",
+    "title over existing black tail while original audio continues",
+    "world reveal only after real ended",
+    "media and input cleanup",
+    "opening letter remains interactive after film"
+  ],
+  "errors": [
+    "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.d3-place[data-point=\"story-exit\"]')\u001b[22m\n\u001b[2m    - locator resolved to <button hidden=\"\" type=\"button\" class=\"d3-place\" data-localized=\"\" data-guided=\"true\" data-enabled=\"true\" data-optional=\"false\" data-complete=\"false\" data-point=\"story-exit\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+  ]
+}

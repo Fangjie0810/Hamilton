@@ -1,0 +1,30 @@
+{
+  "tool": "built-in image_gen",
+  "asset": "/art/actors/story-cast-v1.png",
+  "layout": {
+    "columns": 5,
+    "rows": 6,
+    "directions": [
+      "s",
+      "se",
+      "e",
+      "ne",
+      "n"
+    ],
+    "characters": [
+      "newsboy",
+      "loyalist",
+      "laurens",
+      "lafayette",
+      "mulligan",
+      "washington"
+    ]
+  },
+  "references": [
+    "public/art/actors/pixel-cast-v1.png",
+    "public/art/actors/pixel-cast-directions-v2.png",
+    "public/art/portraits/laurens-a.png",
+    "public/art/portraits/lafayette-a.png"
+  ],
+  "prompt": "Use case: historical-scene. Asset type: a single production sprite atlas for a browser pixel 2.5D Hamilton game. Create exactly THIRTY full-body standing idle pixel sprites arranged in a perfectly regular FIVE COLUMNS by SIX ROWS grid, one character per row, five views each. Image 1 and 2 are STYLE and proportion references: match their crisp blocky detailed pixels, warm muted palette, dark outlines, approximately 4-heads-tall figure proportions, slim torso and boots, no environmental lighting baked in. Images 3 and 4 reference Laurens and Lafayette identity only; render them as the SAME pixel sprite style as images 1/2, never photorealistic. Within EVERY row the five views in left-to-right order MUST be: S FRONT looking at viewer; SE front three-quarter looking down-right; E full right-facing profile; NE rear three-quarter looking up-right away from viewer; N full BACK facing away. These are five distinct body rotations of the identical standing person, with matching clothing, hair, body proportions, arms resting at sides and both feet planted. Not walk frames. Exactly 6 rows top-to-bottom: 1 NEWSBOY, adolescent light tan skin, brown short hair under soft brown cap, cream shirt, ochre brown short waistcoat, dark brown breeches, worn dark shoes, smaller slender youth; 2 LOYALIST PAMPHLETEER, pale mature man, tied brown hair, reserved stern expression, rich rust-red civilian long coat, tan waistcoat, white cravat, cream breeches, dark boots, no military straps or weapons; 3 JOHN LAURENS, identity as image3: light olive freckled young face, dark curly hair tied back, clean-shaven, navy blue civilian-era long coat with buff lapels, cream waistcoat/cravat/breeches, dark boots; 4 LAFAYETTE, identity as image4: medium brown skin, curly dark hair gathered into a high tied bun, moustache and small goatee, muted blue continental officer coat with restrained gold trim/epaulettes, cream waistcoat and breeches, dark boots; 5 HERCULES MULLIGAN, broad stocky dark-brown-skinned man, short beard, soft gray knitted cap, dark moss green work coat, brown leather waistcoat/apron panel, cream collar, charcoal trousers, sturdy dark shoes, artisan tailor; 6 GEORGE WASHINGTON, tall mature brown-skinned man with close-cropped dark hair and dignified clean-shaven face, deep continental navy coat with buff lapels/gold epaulettes, pale blue diagonal commander sash, buff breeches and black boots. Composition: every character fully isolated with generous magenta gutters on ALL sides including under feet, no touching, no overlaps, no gridlines or dividers. Five equal width cells, six equal height cells. Neutral equal foot baselines within rows. Uniform flat SOLID vivid magenta #ff00ff background throughout, with no floor and NO cast or contact shadows, easy to color key. All nonbackground color confined within each figure. No labels, no letters, no words, no marks, no UI, no scenery, no props held in hands. Keep each row's costume and identity consistent across all its five directional views. Entire atlas visible with ample outer padding."
+}

@@ -1,0 +1,20 @@
+{
+  "model": "doubao-seedream-5-0-260128",
+  "data": [
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789034446,
+      "image_index": 0,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789034396867223e95793e6cdc610dbdf3940c514602279bf4_0.png",
+      "size": "2560x1440"
+    }
+  ],
+  "stream_completed": true,
+  "created": 1789034446,
+  "usage": {
+    "generated_images": 1,
+    "output_tokens": 14400,
+    "total_tokens": 14400
+  }
+}

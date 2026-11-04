@@ -1,0 +1,2694 @@
+{
+  "checks": [
+    "three live variants captured in the real Arrival scene, in exploration and dialogue",
+    "all four language modes use primary language only and preserve real game state",
+    "both bilingual primary languages fit at 760×540 and 390×740 with three simultaneous changes",
+    "clamped +2 at 98→100 and three consecutive events render in order, never overwrite",
+    "hover holds; clicking a change opens its metric detail without changing state",
+    "settings freeze both queue lifetime and every CSS animation clock",
+    "completing the real authored newsboy interaction displays exactly its committed +2 Influence",
+    "the dialogue preview cannot overwrite a live story dialogue",
+    "small bilingual dialogue cues move above the text and split into queued individual changes when needed",
+    "three variants honor system reduced motion without losing the values"
+  ],
+  "errors": [],
+  "captures": [
+    "artifacts/stamp-desktop.png",
+    "artifacts/stamp-dialogue.png",
+    "artifacts/spark-desktop.png",
+    "artifacts/spark-dialogue.png",
+    "artifacts/ruler-desktop.png",
+    "artifacts/ruler-dialogue.png",
+    "artifacts/stamp-dual-760.png",
+    "artifacts/spark-dual-760.png",
+    "artifacts/ruler-dual-760.png",
+    "artifacts/stamp-dual-en-760.png",
+    "artifacts/spark-dual-en-760.png",
+    "artifacts/ruler-dual-en-760.png",
+    "artifacts/stamp-dual-390.png",
+    "artifacts/spark-dual-390.png",
+    "artifacts/ruler-dual-390.png",
+    "artifacts/stamp-dual-en-390.png",
+    "artifacts/spark-dual-en-390.png",
+    "artifacts/ruler-dual-en-390.png",
+    "artifacts/actual-story-reward.png",
+    "artifacts/stamp-dialogue-dual-760.png",
+    "artifacts/spark-dialogue-dual-760.png",
+    "artifacts/ruler-dialogue-dual-760.png",
+    "artifacts/stamp-dialogue-dual-en-760.png",
+    "artifacts/spark-dialogue-dual-en-760.png",
+    "artifacts/ruler-dialogue-dual-en-760.png",
+    "artifacts/stamp-dialogue-dual-390.png",
+    "artifacts/spark-dialogue-dual-390.png",
+    "artifacts/ruler-dialogue-dual-390.png",
+    "artifacts/stamp-dialogue-dual-en-390.png",
+    "artifacts/spark-dialogue-dual-en-390.png",
+    "artifacts/ruler-dialogue-dual-en-390.png",
+    "artifacts/review-controls.png"
+  ],
+  "geometry": [
+    {
+      "name": "stamp-desktop",
+      "box": {
+        "x": 512,
+        "y": 355.5,
+        "width": 416,
+        "height": 189,
+        "top": 355.5,
+        "right": 928,
+        "bottom": 544.5,
+        "left": 512
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "momentum",
+          "text": "锐气\n+5\n40\n→\n45",
+          "box": {
+            "x": 565,
+            "y": 379.5,
+            "width": 148,
+            "height": 148,
+            "top": 379.5,
+            "right": 713,
+            "bottom": 527.5,
+            "left": 565
+          },
+          "label": {
+            "x": 625.734375,
+            "y": 428.453125,
+            "width": 26.53125,
+            "height": 15.078125,
+            "top": 428.453125,
+            "right": 652.265625,
+            "bottom": 443.53125,
+            "left": 625.734375
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRespect",
+          "text": "伯尔尊重\n−3\n20\n→\n17",
+          "box": {
+            "x": 727,
+            "y": 379.5,
+            "width": 148,
+            "height": 148,
+            "top": 379.5,
+            "right": 875,
+            "bottom": 527.5,
+            "left": 727
+          },
+          "label": {
+            "x": 774.46875,
+            "y": 428.453125,
+            "width": 53.046875,
+            "height": 15.078125,
+            "top": 428.453125,
+            "right": 827.515625,
+            "bottom": 443.53125,
+            "left": 774.46875
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-desktop",
+      "box": {
+        "x": 546,
+        "y": 358.625,
+        "width": 348,
+        "height": 182.75,
+        "top": 358.625,
+        "right": 894,
+        "bottom": 541.375,
+        "left": 546
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "momentum",
+          "text": "锐气\n+5\n40\n→\n45",
+          "box": {
+            "x": 550,
+            "y": 380.375,
+            "width": 340,
+            "height": 69,
+            "top": 380.375,
+            "right": 890,
+            "bottom": 449.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 397.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 397.6875,
+            "right": 778,
+            "bottom": 419.375,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRespect",
+          "text": "伯尔尊重\n−3\n20\n→\n17",
+          "box": {
+            "x": 550,
+            "y": 456.375,
+            "width": 340,
+            "height": 69,
+            "top": 456.375,
+            "right": 890,
+            "bottom": 525.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 473.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 473.6875,
+            "right": 778,
+            "bottom": 495.375,
+            "left": 612
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-desktop",
+      "box": {
+        "x": 515,
+        "y": 357,
+        "width": 410,
+        "height": 186,
+        "top": 357,
+        "right": 925,
+        "bottom": 543,
+        "left": 515
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "momentum",
+          "text": "锐气\n+5\n40\n→\n45",
+          "box": {
+            "x": 539,
+            "y": 397,
+            "width": 362,
+            "height": 62,
+            "top": 397,
+            "right": 901,
+            "bottom": 459,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 408.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 408.203125,
+            "right": 815,
+            "bottom": 425.796875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRespect",
+          "text": "伯尔尊重\n−3\n20\n→\n17",
+          "box": {
+            "x": 539,
+            "y": 464,
+            "width": 362,
+            "height": 62,
+            "top": 464,
+            "right": 901,
+            "bottom": 526,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 475.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 475.203125,
+            "right": 815,
+            "bottom": 492.796875,
+            "left": 578
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual",
+      "box": {
+        "x": 512,
+        "y": 365.5,
+        "width": 416,
+        "height": 169,
+        "top": 365.5,
+        "right": 928,
+        "bottom": 534.5,
+        "left": 512
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 516,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 644,
+            "bottom": 517.5,
+            "left": 516
+          },
+          "label": {
+            "x": 562.390625,
+            "y": 432.328125,
+            "width": 35.203125,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 597.59375,
+            "bottom": 445.65625,
+            "left": 562.390625
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 656,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 784,
+            "bottom": 517.5,
+            "left": 656
+          },
+          "label": {
+            "x": 696.53125,
+            "y": 432.328125,
+            "width": 46.921875,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 743.453125,
+            "bottom": 445.65625,
+            "left": 696.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 796,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 924,
+            "bottom": 517.5,
+            "left": 796
+          },
+          "label": {
+            "x": 830.671875,
+            "y": 432.328125,
+            "width": 58.65625,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 889.328125,
+            "bottom": 445.65625,
+            "left": 830.671875
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual",
+      "box": {
+        "x": 546,
+        "y": 320.625,
+        "width": 348,
+        "height": 258.75,
+        "top": 320.625,
+        "right": 894,
+        "bottom": 579.375,
+        "left": 546
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 550,
+            "y": 342.375,
+            "width": 340,
+            "height": 69,
+            "top": 342.375,
+            "right": 890,
+            "bottom": 411.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 359.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 359.6875,
+            "right": 778,
+            "bottom": 381.375,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 550,
+            "y": 418.375,
+            "width": 340,
+            "height": 69,
+            "top": 418.375,
+            "right": 890,
+            "bottom": 487.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 435.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 435.6875,
+            "right": 778,
+            "bottom": 457.375,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 550,
+            "y": 494.375,
+            "width": 340,
+            "height": 69,
+            "top": 494.375,
+            "right": 890,
+            "bottom": 563.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 511.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 511.6875,
+            "right": 778,
+            "bottom": 533.375,
+            "left": 612
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual",
+      "box": {
+        "x": 515,
+        "y": 323.5,
+        "width": 410,
+        "height": 253,
+        "top": 323.5,
+        "right": 925,
+        "bottom": 576.5,
+        "left": 515
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 539,
+            "y": 363.5,
+            "width": 362,
+            "height": 62,
+            "top": 363.5,
+            "right": 901,
+            "bottom": 425.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 374.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 374.703125,
+            "right": 815,
+            "bottom": 392.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 539,
+            "y": 430.5,
+            "width": 362,
+            "height": 62,
+            "top": 430.5,
+            "right": 901,
+            "bottom": 492.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 441.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 441.703125,
+            "right": 815,
+            "bottom": 459.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 539,
+            "y": 497.5,
+            "width": 362,
+            "height": 62,
+            "top": 497.5,
+            "right": 901,
+            "bottom": 559.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 508.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 508.703125,
+            "right": 815,
+            "bottom": 526.296875,
+            "left": 578
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual-en",
+      "box": {
+        "x": 512,
+        "y": 365.5,
+        "width": 416,
+        "height": 169,
+        "top": 365.5,
+        "right": 928,
+        "bottom": 534.5,
+        "left": 512
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 516,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 644,
+            "bottom": 517.5,
+            "left": 516
+          },
+          "label": {
+            "x": 555.96875,
+            "y": 432.328125,
+            "width": 48.0625,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 604.03125,
+            "bottom": 445.65625,
+            "left": 555.96875
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 656,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 784,
+            "bottom": 517.5,
+            "left": 656
+          },
+          "label": {
+            "x": 688.53125,
+            "y": 432.328125,
+            "width": 62.9375,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 751.46875,
+            "bottom": 445.65625,
+            "left": 688.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 796,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 924,
+            "bottom": 517.5,
+            "left": 796
+          },
+          "label": {
+            "x": 814.078125,
+            "y": 432.328125,
+            "width": 91.828125,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 905.90625,
+            "bottom": 445.65625,
+            "left": 814.078125
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual-en",
+      "box": {
+        "x": 546,
+        "y": 313.9375,
+        "width": 348,
+        "height": 272.125,
+        "top": 313.9375,
+        "right": 894,
+        "bottom": 586.0625,
+        "left": 546
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 550,
+            "y": 335.6875,
+            "width": 340,
+            "height": 69,
+            "top": 335.6875,
+            "right": 890,
+            "bottom": 404.6875,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 353,
+            "width": 166,
+            "height": 21.6875,
+            "top": 353,
+            "right": 778,
+            "bottom": 374.6875,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 550,
+            "y": 411.6875,
+            "width": 340,
+            "height": 69,
+            "top": 411.6875,
+            "right": 890,
+            "bottom": 480.6875,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 429,
+            "width": 166,
+            "height": 21.6875,
+            "top": 429,
+            "right": 778,
+            "bottom": 450.6875,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 550,
+            "y": 487.6875,
+            "width": 340,
+            "height": 82.375,
+            "top": 487.6875,
+            "right": 890,
+            "bottom": 570.0625,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 497.6875,
+            "width": 166,
+            "height": 42.375,
+            "top": 497.6875,
+            "right": 778,
+            "bottom": 540.0625,
+            "left": 612
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual-en",
+      "box": {
+        "x": 515,
+        "y": 323.5,
+        "width": 410,
+        "height": 253,
+        "top": 323.5,
+        "right": 925,
+        "bottom": 576.5,
+        "left": 515
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 539,
+            "y": 363.5,
+            "width": 362,
+            "height": 62,
+            "top": 363.5,
+            "right": 901,
+            "bottom": 425.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 374.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 374.703125,
+            "right": 815,
+            "bottom": 392.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 539,
+            "y": 430.5,
+            "width": 362,
+            "height": 62,
+            "top": 430.5,
+            "right": 901,
+            "bottom": 492.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 441.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 441.703125,
+            "right": 815,
+            "bottom": 459.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 539,
+            "y": 497.5,
+            "width": 362,
+            "height": 62,
+            "top": 497.5,
+            "right": 901,
+            "bottom": 559.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 508.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 508.703125,
+            "right": 815,
+            "bottom": 526.296875,
+            "left": 578
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-zh",
+      "box": {
+        "x": 512,
+        "y": 365.5,
+        "width": 416,
+        "height": 169,
+        "top": 365.5,
+        "right": 928,
+        "bottom": 534.5,
+        "left": 512
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 516,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 644,
+            "bottom": 517.5,
+            "left": 516
+          },
+          "label": {
+            "x": 562.390625,
+            "y": 432.328125,
+            "width": 35.203125,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 597.59375,
+            "bottom": 445.65625,
+            "left": 562.390625
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 656,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 784,
+            "bottom": 517.5,
+            "left": 656
+          },
+          "label": {
+            "x": 696.53125,
+            "y": 432.328125,
+            "width": 46.921875,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 743.453125,
+            "bottom": 445.65625,
+            "left": 696.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 796,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 924,
+            "bottom": 517.5,
+            "left": 796
+          },
+          "label": {
+            "x": 830.671875,
+            "y": 432.328125,
+            "width": 58.65625,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 889.328125,
+            "bottom": 445.65625,
+            "left": 830.671875
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-zh",
+      "box": {
+        "x": 546,
+        "y": 320.625,
+        "width": 348,
+        "height": 258.75,
+        "top": 320.625,
+        "right": 894,
+        "bottom": 579.375,
+        "left": 546
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 550,
+            "y": 342.375,
+            "width": 340,
+            "height": 69,
+            "top": 342.375,
+            "right": 890,
+            "bottom": 411.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 359.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 359.6875,
+            "right": 778,
+            "bottom": 381.375,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 550,
+            "y": 418.375,
+            "width": 340,
+            "height": 69,
+            "top": 418.375,
+            "right": 890,
+            "bottom": 487.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 435.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 435.6875,
+            "right": 778,
+            "bottom": 457.375,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 550,
+            "y": 494.375,
+            "width": 340,
+            "height": 69,
+            "top": 494.375,
+            "right": 890,
+            "bottom": 563.375,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 511.6875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 511.6875,
+            "right": 778,
+            "bottom": 533.375,
+            "left": 612
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-zh",
+      "box": {
+        "x": 515,
+        "y": 323.5,
+        "width": 410,
+        "height": 253,
+        "top": 323.5,
+        "right": 925,
+        "bottom": 576.5,
+        "left": 515
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 539,
+            "y": 363.5,
+            "width": 362,
+            "height": 62,
+            "top": 363.5,
+            "right": 901,
+            "bottom": 425.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 374.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 374.703125,
+            "right": 815,
+            "bottom": 392.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 539,
+            "y": 430.5,
+            "width": 362,
+            "height": 62,
+            "top": 430.5,
+            "right": 901,
+            "bottom": 492.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 441.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 441.703125,
+            "right": 815,
+            "bottom": 459.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 539,
+            "y": 497.5,
+            "width": 362,
+            "height": 62,
+            "top": 497.5,
+            "right": 901,
+            "bottom": 559.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 508.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 508.703125,
+            "right": 815,
+            "bottom": 526.296875,
+            "left": 578
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-en",
+      "box": {
+        "x": 512,
+        "y": 365.5,
+        "width": 416,
+        "height": 169,
+        "top": 365.5,
+        "right": 928,
+        "bottom": 534.5,
+        "left": 512
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 516,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 644,
+            "bottom": 517.5,
+            "left": 516
+          },
+          "label": {
+            "x": 555.96875,
+            "y": 432.328125,
+            "width": 48.0625,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 604.03125,
+            "bottom": 445.65625,
+            "left": 555.96875
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 656,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 784,
+            "bottom": 517.5,
+            "left": 656
+          },
+          "label": {
+            "x": 688.53125,
+            "y": 432.328125,
+            "width": 62.9375,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 751.46875,
+            "bottom": 445.65625,
+            "left": 688.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 796,
+            "y": 389.5,
+            "width": 128,
+            "height": 128,
+            "top": 389.5,
+            "right": 924,
+            "bottom": 517.5,
+            "left": 796
+          },
+          "label": {
+            "x": 814.078125,
+            "y": 432.328125,
+            "width": 91.828125,
+            "height": 13.328125,
+            "top": 432.328125,
+            "right": 905.90625,
+            "bottom": 445.65625,
+            "left": 814.078125
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-en",
+      "box": {
+        "x": 546,
+        "y": 313.9375,
+        "width": 348,
+        "height": 272.125,
+        "top": 313.9375,
+        "right": 894,
+        "bottom": 586.0625,
+        "left": 546
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 550,
+            "y": 335.6875,
+            "width": 340,
+            "height": 69,
+            "top": 335.6875,
+            "right": 890,
+            "bottom": 404.6875,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 353,
+            "width": 166,
+            "height": 21.6875,
+            "top": 353,
+            "right": 778,
+            "bottom": 374.6875,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 550,
+            "y": 411.6875,
+            "width": 340,
+            "height": 69,
+            "top": 411.6875,
+            "right": 890,
+            "bottom": 480.6875,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 429,
+            "width": 166,
+            "height": 21.6875,
+            "top": 429,
+            "right": 778,
+            "bottom": 450.6875,
+            "left": 612
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 550,
+            "y": 487.6875,
+            "width": 340,
+            "height": 82.375,
+            "top": 487.6875,
+            "right": 890,
+            "bottom": 570.0625,
+            "left": 550
+          },
+          "label": {
+            "x": 612,
+            "y": 497.6875,
+            "width": 166,
+            "height": 42.375,
+            "top": 497.6875,
+            "right": 778,
+            "bottom": 540.0625,
+            "left": 612
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-en",
+      "box": {
+        "x": 515,
+        "y": 323.5,
+        "width": 410,
+        "height": 253,
+        "top": 323.5,
+        "right": 925,
+        "bottom": 576.5,
+        "left": 515
+      },
+      "viewport": [
+        1440,
+        900
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 539,
+            "y": 363.5,
+            "width": 362,
+            "height": 62,
+            "top": 363.5,
+            "right": 901,
+            "bottom": 425.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 374.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 374.703125,
+            "right": 815,
+            "bottom": 392.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 539,
+            "y": 430.5,
+            "width": 362,
+            "height": 62,
+            "top": 430.5,
+            "right": 901,
+            "bottom": 492.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 441.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 441.703125,
+            "right": 815,
+            "bottom": 459.296875,
+            "left": 578
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 539,
+            "y": 497.5,
+            "width": 362,
+            "height": 62,
+            "top": 497.5,
+            "right": 901,
+            "bottom": 559.5,
+            "left": 539
+          },
+          "label": {
+            "x": 578,
+            "y": 508.703125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 508.703125,
+            "right": 815,
+            "bottom": 526.296875,
+            "left": 578
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual-760",
+      "box": {
+        "x": 172,
+        "y": 189,
+        "width": 416,
+        "height": 162,
+        "top": 189,
+        "right": 588,
+        "bottom": 351,
+        "left": 172
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 176,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 304,
+            "bottom": 338,
+            "left": 176
+          },
+          "label": {
+            "x": 222.390625,
+            "y": 252.828125,
+            "width": 35.203125,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 257.59375,
+            "bottom": 266.15625,
+            "left": 222.390625
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 316,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 444,
+            "bottom": 338,
+            "left": 316
+          },
+          "label": {
+            "x": 356.53125,
+            "y": 252.828125,
+            "width": 46.921875,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 403.453125,
+            "bottom": 266.15625,
+            "left": 356.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 456,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 584,
+            "bottom": 338,
+            "left": 456
+          },
+          "label": {
+            "x": 490.671875,
+            "y": 252.828125,
+            "width": 58.65625,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 549.328125,
+            "bottom": 266.15625,
+            "left": 490.671875
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual-760",
+      "box": {
+        "x": 206,
+        "y": 154.125,
+        "width": 348,
+        "height": 231.75,
+        "top": 154.125,
+        "right": 554,
+        "bottom": 385.875,
+        "left": 206
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 210,
+            "y": 173.875,
+            "width": 340,
+            "height": 62,
+            "top": 173.875,
+            "right": 550,
+            "bottom": 235.875,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 187.1875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 187.1875,
+            "right": 438,
+            "bottom": 208.875,
+            "left": 272
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 210,
+            "y": 240.875,
+            "width": 340,
+            "height": 62,
+            "top": 240.875,
+            "right": 550,
+            "bottom": 302.875,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 254.1875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 254.1875,
+            "right": 438,
+            "bottom": 275.875,
+            "left": 272
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 210,
+            "y": 307.875,
+            "width": 340,
+            "height": 62,
+            "top": 307.875,
+            "right": 550,
+            "bottom": 369.875,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 321.1875,
+            "width": 166,
+            "height": 21.6875,
+            "top": 321.1875,
+            "right": 438,
+            "bottom": 342.875,
+            "left": 272
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual-760",
+      "box": {
+        "x": 175,
+        "y": 158,
+        "width": 410,
+        "height": 224,
+        "top": 158,
+        "right": 585,
+        "bottom": 382,
+        "left": 175
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 199,
+            "y": 191,
+            "width": 362,
+            "height": 56,
+            "top": 191,
+            "right": 561,
+            "bottom": 247,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 199.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 199.203125,
+            "right": 475,
+            "bottom": 216.796875,
+            "left": 238
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 199,
+            "y": 252,
+            "width": 362,
+            "height": 56,
+            "top": 252,
+            "right": 561,
+            "bottom": 308,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 260.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 260.203125,
+            "right": 475,
+            "bottom": 277.796875,
+            "left": 238
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 199,
+            "y": 313,
+            "width": 362,
+            "height": 56,
+            "top": 313,
+            "right": 561,
+            "bottom": 369,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 321.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 321.203125,
+            "right": 475,
+            "bottom": 338.796875,
+            "left": 238
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual-en-760",
+      "box": {
+        "x": 172,
+        "y": 189,
+        "width": 416,
+        "height": 162,
+        "top": 189,
+        "right": 588,
+        "bottom": 351,
+        "left": 172
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 176,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 304,
+            "bottom": 338,
+            "left": 176
+          },
+          "label": {
+            "x": 215.96875,
+            "y": 252.828125,
+            "width": 48.0625,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 264.03125,
+            "bottom": 266.15625,
+            "left": 215.96875
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 316,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 444,
+            "bottom": 338,
+            "left": 316
+          },
+          "label": {
+            "x": 348.53125,
+            "y": 252.828125,
+            "width": 62.9375,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 411.46875,
+            "bottom": 266.15625,
+            "left": 348.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 456,
+            "y": 210,
+            "width": 128,
+            "height": 128,
+            "top": 210,
+            "right": 584,
+            "bottom": 338,
+            "left": 456
+          },
+          "label": {
+            "x": 474.078125,
+            "y": 252.828125,
+            "width": 91.828125,
+            "height": 13.328125,
+            "top": 252.828125,
+            "right": 565.90625,
+            "bottom": 266.15625,
+            "left": 474.078125
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual-en-760",
+      "box": {
+        "x": 206,
+        "y": 146.9375,
+        "width": 348,
+        "height": 246.125,
+        "top": 146.9375,
+        "right": 554,
+        "bottom": 393.0625,
+        "left": 206
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 210,
+            "y": 166.6875,
+            "width": 340,
+            "height": 62,
+            "top": 166.6875,
+            "right": 550,
+            "bottom": 228.6875,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 180,
+            "width": 166,
+            "height": 21.6875,
+            "top": 180,
+            "right": 438,
+            "bottom": 201.6875,
+            "left": 272
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 210,
+            "y": 233.6875,
+            "width": 340,
+            "height": 62,
+            "top": 233.6875,
+            "right": 550,
+            "bottom": 295.6875,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 247,
+            "width": 166,
+            "height": 21.6875,
+            "top": 247,
+            "right": 438,
+            "bottom": 268.6875,
+            "left": 272
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 210,
+            "y": 300.6875,
+            "width": 340,
+            "height": 76.375,
+            "top": 300.6875,
+            "right": 550,
+            "bottom": 377.0625,
+            "left": 210
+          },
+          "label": {
+            "x": 272,
+            "y": 307.6875,
+            "width": 166,
+            "height": 42.375,
+            "top": 307.6875,
+            "right": 438,
+            "bottom": 350.0625,
+            "left": 272
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual-en-760",
+      "box": {
+        "x": 175,
+        "y": 158,
+        "width": 410,
+        "height": 224,
+        "top": 158,
+        "right": 585,
+        "bottom": 382,
+        "left": 175
+      },
+      "viewport": [
+        760,
+        540
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 199,
+            "y": 191,
+            "width": 362,
+            "height": 56,
+            "top": 191,
+            "right": 561,
+            "bottom": 247,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 199.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 199.203125,
+            "right": 475,
+            "bottom": 216.796875,
+            "left": 238
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 199,
+            "y": 252,
+            "width": 362,
+            "height": 56,
+            "top": 252,
+            "right": 561,
+            "bottom": 308,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 260.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 260.203125,
+            "right": 475,
+            "bottom": 277.796875,
+            "left": 238
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 199,
+            "y": 313,
+            "width": 362,
+            "height": 56,
+            "top": 313,
+            "right": 561,
+            "bottom": 369,
+            "left": 199
+          },
+          "label": {
+            "x": 238,
+            "y": 321.203125,
+            "width": 237,
+            "height": 17.59375,
+            "top": 321.203125,
+            "right": 475,
+            "bottom": 338.796875,
+            "left": 238
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual-390",
+      "box": {
+        "x": 24,
+        "y": 218.15625,
+        "width": 342,
+        "height": 303.6875,
+        "top": 218.15625,
+        "right": 366,
+        "bottom": 521.84375,
+        "left": 24
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 61,
+            "y": 239.84375,
+            "width": 128,
+            "height": 128,
+            "top": 239.84375,
+            "right": 189,
+            "bottom": 367.84375,
+            "left": 61
+          },
+          "label": {
+            "x": 107.390625,
+            "y": 282.671875,
+            "width": 35.203125,
+            "height": 13.328125,
+            "top": 282.671875,
+            "right": 142.59375,
+            "bottom": 296,
+            "left": 107.390625
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 201,
+            "y": 239.84375,
+            "width": 128,
+            "height": 128,
+            "top": 239.84375,
+            "right": 329,
+            "bottom": 367.84375,
+            "left": 201
+          },
+          "label": {
+            "x": 241.53125,
+            "y": 282.671875,
+            "width": 46.921875,
+            "height": 13.328125,
+            "top": 282.671875,
+            "right": 288.453125,
+            "bottom": 296,
+            "left": 241.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 131,
+            "y": 379.84375,
+            "width": 128,
+            "height": 128,
+            "top": 379.84375,
+            "right": 259,
+            "bottom": 507.84375,
+            "left": 131
+          },
+          "label": {
+            "x": 165.671875,
+            "y": 422.671875,
+            "width": 58.65625,
+            "height": 13.328125,
+            "top": 422.671875,
+            "right": 224.328125,
+            "bottom": 436,
+            "left": 165.671875
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual-390",
+      "box": {
+        "x": 30,
+        "y": 240.625,
+        "width": 330,
+        "height": 258.75,
+        "top": 240.625,
+        "right": 360,
+        "bottom": 499.375,
+        "left": 30
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 34,
+            "y": 262.375,
+            "width": 322,
+            "height": 69,
+            "top": 262.375,
+            "right": 356,
+            "bottom": 331.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 280.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 280.828125,
+            "right": 254,
+            "bottom": 301.375,
+            "left": 87
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 34,
+            "y": 338.375,
+            "width": 322,
+            "height": 69,
+            "top": 338.375,
+            "right": 356,
+            "bottom": 407.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 356.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 356.828125,
+            "right": 254,
+            "bottom": 377.375,
+            "left": 87
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 34,
+            "y": 414.375,
+            "width": 322,
+            "height": 69,
+            "top": 414.375,
+            "right": 356,
+            "bottom": 483.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 432.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 432.828125,
+            "right": 254,
+            "bottom": 453.375,
+            "left": 87
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual-390",
+      "box": {
+        "x": 20,
+        "y": 243.5,
+        "width": 350,
+        "height": 253,
+        "top": 243.5,
+        "right": 370,
+        "bottom": 496.5,
+        "left": 20
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "影响力\n+4\n10\n→\n14",
+          "box": {
+            "x": 37,
+            "y": 283.5,
+            "width": 316,
+            "height": 62,
+            "top": 283.5,
+            "right": 353,
+            "bottom": 345.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 295.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 295.796875,
+            "right": 277,
+            "bottom": 311.1875,
+            "left": 72
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "伯尔竞争\n−2\n10\n→\n8",
+          "box": {
+            "x": 37,
+            "y": 350.5,
+            "width": 316,
+            "height": 62,
+            "top": 350.5,
+            "right": 353,
+            "bottom": 412.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 362.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 362.796875,
+            "right": 277,
+            "bottom": 378.1875,
+            "left": 72
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "华盛顿信任\n+6\n12\n→\n18",
+          "box": {
+            "x": 37,
+            "y": 417.5,
+            "width": 316,
+            "height": 62,
+            "top": 417.5,
+            "right": 353,
+            "bottom": 479.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 429.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 429.796875,
+            "right": 277,
+            "bottom": 445.1875,
+            "left": 72
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dual-en-390",
+      "box": {
+        "x": 24,
+        "y": 218.15625,
+        "width": 342,
+        "height": 303.6875,
+        "top": 218.15625,
+        "right": 366,
+        "bottom": 521.84375,
+        "left": 24
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 61,
+            "y": 239.84375,
+            "width": 128,
+            "height": 128,
+            "top": 239.84375,
+            "right": 189,
+            "bottom": 367.84375,
+            "left": 61
+          },
+          "label": {
+            "x": 100.96875,
+            "y": 282.671875,
+            "width": 48.0625,
+            "height": 13.328125,
+            "top": 282.671875,
+            "right": 149.03125,
+            "bottom": 296,
+            "left": 100.96875
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 201,
+            "y": 239.84375,
+            "width": 128,
+            "height": 128,
+            "top": 239.84375,
+            "right": 329,
+            "bottom": 367.84375,
+            "left": 201
+          },
+          "label": {
+            "x": 233.53125,
+            "y": 282.671875,
+            "width": 62.9375,
+            "height": 13.328125,
+            "top": 282.671875,
+            "right": 296.46875,
+            "bottom": 296,
+            "left": 233.53125
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 131,
+            "y": 379.84375,
+            "width": 128,
+            "height": 128,
+            "top": 379.84375,
+            "right": 259,
+            "bottom": 507.84375,
+            "left": 131
+          },
+          "label": {
+            "x": 149.078125,
+            "y": 422.671875,
+            "width": 91.828125,
+            "height": 13.328125,
+            "top": 422.671875,
+            "right": 240.90625,
+            "bottom": 436,
+            "left": 149.078125
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "spark-dual-en-390",
+      "box": {
+        "x": 30,
+        "y": 240.625,
+        "width": 330,
+        "height": 258.75,
+        "top": 240.625,
+        "right": 360,
+        "bottom": 499.375,
+        "left": 30
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 34,
+            "y": 262.375,
+            "width": 322,
+            "height": 69,
+            "top": 262.375,
+            "right": 356,
+            "bottom": 331.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 280.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 280.828125,
+            "right": 254,
+            "bottom": 301.375,
+            "left": 87
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 34,
+            "y": 338.375,
+            "width": 322,
+            "height": 69,
+            "top": 338.375,
+            "right": 356,
+            "bottom": 407.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 356.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 356.828125,
+            "right": 254,
+            "bottom": 377.375,
+            "left": 87
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 34,
+            "y": 414.375,
+            "width": 322,
+            "height": 69,
+            "top": 414.375,
+            "right": 356,
+            "bottom": 483.375,
+            "left": 34
+          },
+          "label": {
+            "x": 87,
+            "y": 432.828125,
+            "width": 167,
+            "height": 20.546875,
+            "top": 432.828125,
+            "right": 254,
+            "bottom": 453.375,
+            "left": 87
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "ruler-dual-en-390",
+      "box": {
+        "x": 20,
+        "y": 243.5,
+        "width": 350,
+        "height": 253,
+        "top": 243.5,
+        "right": 370,
+        "bottom": 496.5,
+        "left": 20
+      },
+      "viewport": [
+        390,
+        740
+      ],
+      "rows": [
+        {
+          "stat": "influence",
+          "text": "Influence\n+4\n10\n→\n14",
+          "box": {
+            "x": 37,
+            "y": 283.5,
+            "width": 316,
+            "height": 62,
+            "top": 283.5,
+            "right": 353,
+            "bottom": 345.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 295.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 295.796875,
+            "right": 277,
+            "bottom": 311.1875,
+            "left": 72
+          },
+          "overflow": false
+        },
+        {
+          "stat": "burrRivalry",
+          "text": "Burr Rivalry\n−2\n10\n→\n8",
+          "box": {
+            "x": 37,
+            "y": 350.5,
+            "width": 316,
+            "height": 62,
+            "top": 350.5,
+            "right": 353,
+            "bottom": 412.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 362.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 362.796875,
+            "right": 277,
+            "bottom": 378.1875,
+            "left": 72
+          },
+          "overflow": false
+        },
+        {
+          "stat": "washingtonTrust",
+          "text": "Washington Trust\n+6\n12\n→\n18",
+          "box": {
+            "x": 37,
+            "y": 417.5,
+            "width": 316,
+            "height": 62,
+            "top": 417.5,
+            "right": 353,
+            "bottom": 479.5,
+            "left": 37
+          },
+          "label": {
+            "x": 72,
+            "y": 429.796875,
+            "width": 205,
+            "height": 15.390625,
+            "top": 429.796875,
+            "right": 277,
+            "bottom": 445.1875,
+            "left": 72
+          },
+          "overflow": false
+        }
+      ]
+    },
+    {
+      "name": "stamp-dialogue-dual-760",
+      "dialogue": {
+        "x": 15,
+        "y": 252.8125,
+        "width": 730,
+        "height": 175.1875
+      },
+      "feedback": {
+        "x": 172,
+        "y": 128.8125,
+        "width": 416,
+        "height": 110
+      }
+    },
+    {
+      "name": "spark-dialogue-dual-760",
+      "dialogue": {
+        "x": 15,
+        "y": 252.8125,
+        "width": 730,
+        "height": 175.1875
+      },
+      "feedback": {
+        "x": 206,
+        "y": 141.0625,
+        "width": 348,
+        "height": 97.75
+      }
+    },
+    {
+      "name": "ruler-dialogue-dual-760",
+      "dialogue": {
+        "x": 15,
+        "y": 252.8125,
+        "width": 730,
+        "height": 175.1875
+      },
+      "feedback": {
+        "x": 175,
+        "y": 136.8125,
+        "width": 410,
+        "height": 102
+      }
+    },
+    {
+      "name": "stamp-dialogue-dual-en-760",
+      "dialogue": {
+        "x": 15,
+        "y": 271.40625,
+        "width": 730,
+        "height": 156.59375
+      },
+      "feedback": {
+        "x": 172,
+        "y": 147.40625,
+        "width": 416,
+        "height": 110
+      }
+    },
+    {
+      "name": "spark-dialogue-dual-en-760",
+      "dialogue": {
+        "x": 15,
+        "y": 271.40625,
+        "width": 730,
+        "height": 156.59375
+      },
+      "feedback": {
+        "x": 206,
+        "y": 159.65625,
+        "width": 348,
+        "height": 97.75
+      }
+    },
+    {
+      "name": "ruler-dialogue-dual-en-760",
+      "dialogue": {
+        "x": 15,
+        "y": 271.40625,
+        "width": 730,
+        "height": 156.59375
+      },
+      "feedback": {
+        "x": 175,
+        "y": 155.40625,
+        "width": 410,
+        "height": 102
+      }
+    },
+    {
+      "name": "stamp-dialogue-dual-390",
+      "dialogue": {
+        "x": 15,
+        "y": 390.125,
+        "width": 360,
+        "height": 237.875
+      },
+      "feedback": {
+        "x": 24,
+        "y": 192.4375,
+        "width": 342,
+        "height": 183.6875
+      }
+    },
+    {
+      "name": "spark-dialogue-dual-390",
+      "dialogue": {
+        "x": 15,
+        "y": 390.125,
+        "width": 360,
+        "height": 237.875
+      },
+      "feedback": {
+        "x": 30,
+        "y": 269.375,
+        "width": 330,
+        "height": 106.75
+      }
+    },
+    {
+      "name": "ruler-dialogue-dual-390",
+      "dialogue": {
+        "x": 15,
+        "y": 390.125,
+        "width": 360,
+        "height": 237.875
+      },
+      "feedback": {
+        "x": 20,
+        "y": 257.125,
+        "width": 350,
+        "height": 119
+      }
+    },
+    {
+      "name": "stamp-dialogue-dual-en-390",
+      "dialogue": {
+        "x": 15,
+        "y": 357.71875,
+        "width": 360,
+        "height": 270.28125
+      },
+      "feedback": {
+        "x": 24,
+        "y": 160.03125,
+        "width": 342,
+        "height": 183.6875
+      }
+    },
+    {
+      "name": "spark-dialogue-dual-en-390",
+      "dialogue": {
+        "x": 15,
+        "y": 357.71875,
+        "width": 360,
+        "height": 270.28125
+      },
+      "feedback": {
+        "x": 30,
+        "y": 236.96875,
+        "width": 330,
+        "height": 106.75
+      }
+    },
+    {
+      "name": "ruler-dialogue-dual-en-390",
+      "dialogue": {
+        "x": 15,
+        "y": 357.71875,
+        "width": 360,
+        "height": 270.28125
+      },
+      "feedback": {
+        "x": 20,
+        "y": 224.71875,
+        "width": 350,
+        "height": 119
+      }
+    }
+  ]
+}

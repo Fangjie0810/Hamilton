@@ -1,0 +1,3679 @@
+{
+  "schemaVersion": 1,
+  "language": "en",
+  "model": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "cues": [
+    {
+      "id": "opening-title",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "海的另一边",
+        "en": "Across the Sea"
+      },
+      "src": "/audio/en/narrator-095aaa8e7e43df0333a5.mp3",
+      "generated": true
+    },
+    {
+      "id": "opening-subtitle",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "一封信，把一个名字带离了海岛。",
+        "en": "A letter carries a name beyond the island."
+      },
+      "src": "/audio/en/narrator-405728652f4146b1597f.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-title",
+      "speaker": "narrator",
+      "chapter": "Arrival",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "纽约，没有空位",
+        "en": "New York Has No Empty Seats"
+      },
+      "src": "/audio/en/narrator-8f898d0e5a6df8bf03d9.mp3",
+      "generated": true
+    },
+    {
+      "id": "arrival-subtitle",
+      "speaker": "narrator",
+      "chapter": "Arrival",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "每条街都在争论。每个人都在选择。",
+        "en": "Every street is arguing. Everyone is choosing."
+      },
+      "src": "/audio/en/narrator-1c86c8fe03b41459ab14.mp3",
+      "generated": true
+    },
+    {
+      "id": "burr_first_impression-prompt",
+      "speaker": "narrator",
+      "chapter": "Arrival",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "伯尔建议你暂缓表态。你如何回应？",
+        "en": "Burr advises you to wait before taking a side. How do you respond?"
+      },
+      "src": "/audio/en/narrator-63b0c662d4cf853c4d82.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-title",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "同一张桌子",
+        "en": "At the Same Table"
+      },
+      "src": "/audio/en/narrator-d52f9fa4edd75da48fe8.mp3",
+      "generated": true
+    },
+    {
+      "id": "tavern-subtitle",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "他们并不相信同一种未来。今晚，他们坐在一起。",
+        "en": "They do not imagine the same future. Tonight, they share a table."
+      },
+      "src": "/audio/en/narrator-7c3b0f7a6e484bb0e679.mp3",
+      "generated": true
+    },
+    {
+      "id": "laurens_question-prompt",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "革命应该先回答哪一个问题？",
+        "en": "Which question should the revolution answer first?"
+      },
+      "src": "/audio/en/narrator-b4526174745b3d76a203.mp3",
+      "generated": true
+    },
+    {
+      "id": "lafayette_question-prompt",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "怎样让革命继续向前？",
+        "en": "How do we carry the revolution forward?"
+      },
+      "src": "/audio/en/narrator-a051486e658036d55cb4.mp3",
+      "generated": true
+    },
+    {
+      "id": "mulligan_question-prompt",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "把今晚的话，变成明早的哪件事？",
+        "en": "What will tonight's words become tomorrow morning?"
+      },
+      "src": "/audio/en/narrator-a08809fbf1e5749d1ed8.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-title",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "把声音放到街上",
+        "en": "Take Your Voice to the Street"
+      },
+      "src": "/audio/en/narrator-1febeca234a22da38a46.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-subtitle",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "纸上的争论，终于有了听众。",
+        "en": "The arguments on the page have found an audience."
+      },
+      "src": "/audio/en/narrator-d67e79b639e66f0f7d40.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-1-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "听众想知道具体的成本。事实更有分量。",
+        "en": "The audience wants concrete costs. Facts carry more weight here."
+      },
+      "src": "/audio/en/narrator-cb035531cb9fca18fd6d.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-2-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "争论落在代表权上。原则更有分量。",
+        "en": "The question is representation. Principle carries more weight here."
+      },
+      "src": "/audio/en/narrator-774259e4852baccc1e6d.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-3-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "人群希望亲自说出处境。动员更有效。",
+        "en": "People want to speak for themselves. Rallying them works better here."
+      },
+      "src": "/audio/en/narrator-c71d866ba5c4acfec7ed.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-4-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "对方把质疑等同于心虚。反击能揭开漏洞。",
+        "en": "Your opponent equates questioning with guilt. An attack can expose the flaw."
+      },
+      "src": "/audio/en/narrator-df029bf9b735bffd9393.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-5-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "此刻需要可执行的办法。事实更有分量。",
+        "en": "This calls for a workable plan. Facts carry more weight here."
+      },
+      "src": "/audio/en/narrator-5cda265f316e0752a893.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-round-6-hint",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-hint",
+      "text": {
+        "zh": "争论来到制度与约束。原则更有分量。",
+        "en": "The question is institutions and limits on power. Principle carries more weight here."
+      },
+      "src": "/audio/en/narrator-5792280aca3f27a2d3a7.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-734bfbb78f244860",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "读完后开始：2.5 秒内按 1–4 或点击回应，随后在金线附近按 SPACE。完美 ±100 ms / 良好 ±250 ms。失误会影响效果，辩论仍继续。",
+        "en": "Read first. Once ready, choose a response with 1–4 or a click within 2.5 seconds. Then press SPACE near the gold line. Perfect ±100 ms / Good ±250 ms. Mistakes change the outcome, but the debate continues."
+      },
+      "src": "/audio/en/narrator-5aceeb079cd530fc07ba.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-da8888355b4741b6",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "游标靠近金线时按 SPACE，或点击下方按钮。只接受第一次输入。",
+        "en": "Press SPACE near the gold line, or click below. Only the first input counts."
+      },
+      "src": "/audio/en/narrator-52bdaac6460ff00fbd9b.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-4efdc3f792368b2d",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "你迟疑了一刻，讨论被对方接了过去。",
+        "en": "You hesitated, and your opponent took the floor."
+      },
+      "src": "/audio/en/narrator-71297ed32a6d3292a81c.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-eb86c220bd2441fa",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "反击失去节奏，人群转而质疑你。",
+        "en": "Your attack lost its rhythm. The crowd turns its doubts toward you."
+      },
+      "src": "/audio/en/narrator-dbf38a1ff3fb6748a53b.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-2b2af5f47c110f5c",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "连击中断。听清下一轮，再找回节奏。",
+        "en": "Your Flow breaks. Listen to the next argument and find the rhythm again."
+      },
+      "src": "/audio/en/narrator-79973aa054b9e9e9a0d3.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-c8786c72b8bc31ec",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "声音落在了节拍上，人群正在跟上你。",
+        "en": "Your words land on the beat. The crowd is beginning to follow."
+      },
+      "src": "/audio/en/narrator-57ae27adcf25e1143477.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-76dea4d47b17acff",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "广场听见了你。",
+        "en": "The square has heard you."
+      },
+      "src": "/audio/en/narrator-f3fa85522d14b695c225.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-ac78e350cffa036c",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "这场争论，还没有结束。",
+        "en": "This argument is not over."
+      },
+      "src": "/audio/en/narrator-b97c56b0b1200d2075a0.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-2780ade4477c1747",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "伯尔记住了你反复核对事实的方式。尊重 +10。",
+        "en": "Burr remembers your care with the facts. Respect +10."
+      },
+      "src": "/audio/en/narrator-1a67f0030f6ab637bd39.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-58fc521e75778a9d",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "伯尔记住了你连续反击的锋芒。竞争 +10。",
+        "en": "Burr remembers the edge of your repeated attacks. Rivalry +10."
+      },
+      "src": "/audio/en/narrator-068f7025614b1f0aab99.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-0cfe3d1e1c08e8da",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "伯尔看见了你的回应方式。",
+        "en": "Burr has noticed the way you respond."
+      },
+      "src": "/audio/en/narrator-7b2c55fc4a05f2fa91dd.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-4c1a4823fe503d4c",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "你的名声将随文章传进军营。",
+        "en": "Your reputation will travel into camp with your writing."
+      },
+      "src": "/audio/en/narrator-f57f6146c41e4cd5ca3d.mp3",
+      "generated": true
+    },
+    {
+      "id": "debate-activity-feedback-e2ef9ee639e58ee4",
+      "speaker": "narrator",
+      "chapter": "Debate",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "你没有赢下广场，但写作与组织能力仍会把你带入军营。",
+        "en": "You did not win the square, but your writing and organizing will still take you into camp."
+      },
+      "src": "/audio/en/narrator-f222dff81ff80d7c6a49.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-title",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "笔，比军刀更近",
+        "en": "The Pen Comes Before the Sword"
+      },
+      "src": "/audio/en/narrator-dfabd49695fc84d2ec34.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-subtitle",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "他想要战场。将军先递来一叠信件。",
+        "en": "He wants the battlefield. The general hands him a stack of letters."
+      },
+      "src": "/audio/en/narrator-7e941a2d8992d68c7306.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington_position-prompt",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "你如何回应这份尚不是理想的职位？",
+        "en": "How do you respond to a position that is not yet the one you want?"
+      },
+      "src": "/audio/en/narrator-8063ad771b586c5f7f27.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-6f8158d971125e71",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "把杂乱报告写成能执行的命令。",
+        "en": "Turn scattered reports into an executable order."
+      },
+      "src": "/audio/en/narrator-f933571b5905bb7a0929.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-3db1934c169368f8",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "三份军令，共有 2 分 30 秒整理时间。将碎片拖进三个栏目，或点击碎片后按 1 / 2 / 3 分配。提交前可以反复移动。",
+        "en": "You have 2 minutes 30 seconds for three dispatches. Drag fragments into the three columns, or select a fragment and press 1 / 2 / 3. You may rearrange them before submitting."
+      },
+      "src": "/audio/en/narrator-ac39b05debf5005551a5.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-a497405fea4f3a06",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "优先事项放目标和时限；执行任务放人员与补给；背景情况放地点和状况。每份提交后显示校对稿，首次提交的准确率影响华盛顿的信任。未分配的碎片按缺漏计，超时仍可继续剧情。",
+        "en": "PRIORITY holds objectives and deadlines; ACTION holds personnel and supply tasks; CONTEXT holds locations and conditions. Each submission reveals a corrected draft. First-pass accuracy affects Washington's trust. Unassigned fragments count as omissions; a timeout does not stop the story."
+      },
+      "src": "/audio/en/narrator-f5354e4e98f87a470ee0.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5edd75c3703cc754",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "先选择碎片，再点击栏目或按 1–3；也可以直接拖拽。",
+        "en": "Select a fragment, then click a column or press 1–3. Dragging also works."
+      },
+      "src": "/audio/en/narrator-4eb968b8ff69481fa4c8.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-d8686ccaa0c80961",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "一封信，可以让整支队伍前进。",
+        "en": "One letter can move an entire company."
+      },
+      "src": "/audio/en/narrator-438d657c07200038d96c.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-26488630b17adc68",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "军令经过校对后发出。写得清楚，是你承担责任的一部分。",
+        "en": "The corrected dispatches are sent. Clear writing is part of carrying responsibility."
+      },
+      "src": "/audio/en/narrator-5dcdd1f41a6dc4fed177.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5fd8da508d96c642",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "时限已到，未完成的信息计入缺漏。副官接手校对，军令仍会发出；下一次，你需要更准确地组织信息。",
+        "en": "Time has run out. Unfinished information counts as omissions. Another aide will complete the corrections and send the orders. Next time, organize the information more carefully."
+      },
+      "src": "/audio/en/narrator-49feeba3f27d3e61af71.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-779538c2275908d5",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "已选中碎片。按 1、2、3 或点击栏目完成分配。",
+        "en": "Fragment selected. Press 1, 2, or 3, or click a column to place it."
+      },
+      "src": "/audio/en/narrator-0d13234242a27f5b85a0.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-646ef6933f77735c",
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "选择下一条信息。",
+        "en": "Choose the next piece of information."
+      },
+      "src": "/audio/en/narrator-63d725980a82fdc1bcc9.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-title",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "终于，轮到你下令",
+        "en": "At Last, the Order Is Yours"
+      },
+      "src": "/audio/en/narrator-7697a3d8005f78bd4027.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-subtitle",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "chapter-card",
+      "text": {
+        "zh": "多年信件之后，等待已久的命令终于抵达。",
+        "en": "After years of letters, the long-awaited order arrives."
+      },
+      "src": "/audio/en/narrator-e78f1babbacf30c45d35.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown_leadership-prompt",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "choice-prompt",
+      "text": {
+        "zh": "出发前，你给部下的第一道指令是？",
+        "en": "Before setting out, what is your first instruction to the troops?"
+      },
+      "src": "/audio/en/narrator-7acd89a7fb07ce117b65.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-36f0689bfdf5a083",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "带所有人抵达攻击位置。",
+        "en": "Bring everyone to the attack position."
+      },
+      "src": "/audio/en/narrator-8d9218e9e8a8a1a5d1ca.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-b899ae0402132dff",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "前方有三处哨岗。观察扇形视野，等守卫转身；按住 CTRL 蹲在土丘后可隐蔽。E 让士兵待命或跟随。",
+        "en": "Three sentry posts lie ahead. Watch their cones of vision and wait for the guards to turn. Hold CTRL to crouch behind the earthworks. E orders the troops to hold or follow."
+      },
+      "src": "/audio/en/narrator-651f8c2bef35a11d8e65.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-d99c6d6a470f560c",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "A / D 或方向键移动 · CTRL 蹲伏 · E 指挥士兵。鼠标可按住下方按钮。每处哨岗发现你或士兵，只扣一次突袭优势，不会结束任务。抵达最右侧时，士兵也必须到位。",
+        "en": "A / D or arrows move · CTRL crouches · E commands the troops. You can also hold the buttons below. Each post deducts surprise only once if it spots you or your troops. Reach the far right with the whole squad to continue."
+      },
+      "src": "/audio/en/narrator-1548f2546cc3d91a12e0.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-41f94bf679cc169d",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "扇形表示守卫视野。蹲伏只有在掩体附近才隐蔽。抵达后等待全队集结。",
+        "en": "The cones show the guards' view. Crouching hides you only near cover. Wait for all your troops at the rally point."
+      },
+      "src": "/audio/en/narrator-2269e4b26a3ce7e7c591.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-7708892ea919cc96",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "让每一队知道自己的职责。",
+        "en": "Make sure every squad knows its role."
+      },
+      "src": "/audio/en/narrator-6c232ef110c5728c3243.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-a7b1ee09fd0ba4e6",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "命令现在交到你的手上。",
+        "en": "The commands are in your hands now."
+      },
+      "src": "/audio/en/narrator-0ff13453e426a433727c.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-f62879d1cd0cfcac",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "12 道命令依次出现。在金线附近按正确的键：SPACE 推进、A 左翼、D 右翼、S 待命。也可以点击对应按钮。每道命令只接受第一次输入，失误仍继续。",
+        "en": "Twelve commands appear in sequence. Press the correct key near the gold line: SPACE to advance, A for left flank, D for right flank, S to hold. You can also click the buttons. Only the first input counts; mistakes do not stop the assault."
+      },
+      "src": "/audio/en/narrator-0b4dd0797addb5e783db.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-702e79543c31460f",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "炮声渐远。清点你身边的人。",
+        "en": "The guns fade. Count the people beside you."
+      },
+      "src": "/audio/en/narrator-a2330c054f3db3b7aa79.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-32d5266c4314480b",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "总评由潜行 20%、部署 30%、节拍 50% 构成。堡垒攻克了；此后的数日，围城仍在继续。",
+        "en": "The score combines stealth 20%, deployment 30%, and rhythm 50%. The redoubt is taken. The siege will continue for several more days."
+      },
+      "src": "/audio/en/narrator-6f24643953e8ef09463b.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-fd278bc5ba799507",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "守军被正面牵制，左侧退路受压",
+        "en": "The defenders are pinned at the front, with pressure on their left retreat"
+      },
+      "src": "/audio/en/narrator-e896a85d9c04f0456ad3.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-99e26e60d4e276cf",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "部分阵地受压，侧翼仍有空隙",
+        "en": "Some positions are under pressure, but gaps remain on the flanks"
+      },
+      "src": "/audio/en/narrator-1e7634c688625f713af0.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-6ffe45637c1f933d",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "守军仍能集中兵力守住正面",
+        "en": "The defenders can still concentrate their forces at the front"
+      },
+      "src": "/audio/en/narrator-2158fc07a35d53af1765.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-ea8261defcd13750",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "锋芒，开始承担重量。",
+        "en": "Your ambition begins to carry weight."
+      },
+      "src": "/audio/en/narrator-752624a5e04e988f08a8.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-2275c8ec7ff84cba",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "信任，在一次次承担之后。",
+        "en": "Trust, earned through responsibility."
+      },
+      "src": "/audio/en/narrator-b21f1786d27aa2e57498.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-68a80ca18bb95401",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你的脚步，比掌声更急。",
+        "en": "Your footsteps hurry ahead of the applause."
+      },
+      "src": "/audio/en/narrator-d435d6d765ab15b063ef.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-fb4915359a97c2cb",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "一个名字，刚刚开始。",
+        "en": "A name, just beginning."
+      },
+      "src": "/audio/en/narrator-9bd397ca9c8622687258.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-973506e81b56b5bd",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "初到纽约，你就公开支持革命，让自己的立场与名字一起被听见。",
+        "en": "On arriving in New York, you publicly supported the revolution, making your name and your position heard together."
+      },
+      "src": "/audio/en/narrator-0bd3c1393055be196b94.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-63f2abbde5212b91",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "初到纽约，你先追问伯尔的信念，试着看清站在你面前的人。",
+        "en": "On arriving in New York, you asked what Burr believed, trying to understand the man before you."
+      },
+      "src": "/audio/en/narrator-58858b4788934f5db2e5.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-00107fe0671615d7",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "初到纽约，你选择先观察。克制，也是你亲手作出的决定。",
+        "en": "On arriving in New York, you chose to observe. Restraint, too, was a decision you made for yourself."
+      },
+      "src": "/audio/en/narrator-af6b34a35c39f1aa3226.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-a128a7b6973081b4",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "面对公开质疑，你选择厘清事实，让争论落到可以回答的问题上。",
+        "en": "Under public challenge, you clarified the facts and brought the argument to questions that could be answered."
+      },
+      "src": "/audio/en/narrator-5985bba71a73335419f1.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-2a49d9e63731b190",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "面对公开质疑，你把决定权放在中心，追问谁有资格选择未来。",
+        "en": "Under public challenge, you put the right to decide at the center and asked who could choose the future."
+      },
+      "src": "/audio/en/narrator-a1d6818c207f55ab1d60.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7424adec2227fca9",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "面对公开质疑，你强硬揭开对方论证的偏向，也让冲突更加鲜明。",
+        "en": "Under public challenge, you forcefully exposed the bias in your opponent's argument, sharpening the conflict."
+      },
+      "src": "/audio/en/narrator-cd81574c9c563a960dbf.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-f84c369bbeeeceba",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "面对公开质疑，你让现场的人加入，让个人的声音成为众人的讨论。",
+        "en": "Under public challenge, you brought the audience into the discussion and turned one voice into many."
+      },
+      "src": "/audio/en/narrator-efcb168b999fa9f32061.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-971a3c9995007ad5",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你的选择积累了华盛顿的信任。此刻，他对你承担责任的能力更有把握。",
+        "en": "Your decisions earned Washington's trust. He now has greater confidence in your ability to carry responsibility."
+      },
+      "src": "/audio/en/narrator-3d94bbe2358f938b1707.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-ddd6389a2e0d09a0",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你争取到了指挥机会，但华盛顿的信任仍有限。机会与认可，还没有完全重合。",
+        "en": "You won a command, but Washington's trust remained limited. Opportunity and recognition had not yet become the same thing."
+      },
+      "src": "/audio/en/narrator-a31f174ad3afabb38f4f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7e5db93f5ad819a9",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "第一次下令时，你先核对分工，把个人的速度放在共同节奏之后。",
+        "en": "When you first gave an order, you checked each squad's role and put a shared rhythm ahead of your own speed."
+      },
+      "src": "/audio/en/narrator-e6113a4c9b28d676b251.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-cf3994115d385c96",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "第一次下令时，你选择走在最前面，让自己的行动成为承诺。",
+        "en": "When you first gave an order, you chose to lead from the front, making your actions a promise."
+      },
+      "src": "/audio/en/narrator-fd93da34a28a27f5ac94.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dc2fb1a774ed2647",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "第一次下令时，你先说明目标，希望每个人都知道自己为何出发。",
+        "en": "When you first gave an order, you explained the objective so everyone would know why they were setting out."
+      },
+      "src": "/audio/en/narrator-102955fdf60d024b5909.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-effcff550ecf15db",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "伯尔对你的尊重与竞争心同时增长。他认真看待你的能力，也更在意你会走向哪里。",
+        "en": "Burr's respect and rivalry both grew. He takes your ability seriously and watches more closely where it may lead you."
+      },
+      "src": "/audio/en/narrator-cfad5cab08877456d7d9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-c6c5926124ed8cc7",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你与伯尔的竞争感已更鲜明。你越急于向前，他越留意你留下的后果。",
+        "en": "Your rivalry with Burr became sharper. The faster you pressed forward, the more closely he watched what you left behind."
+      },
+      "src": "/audio/en/narrator-2163dc595f844c1baaa0.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-9c94969b5c1861c5",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "伯尔对你的尊重有所积累。你们未必赞同彼此，却有了继续听下去的理由。",
+        "en": "Burr's respect for you grew. You do not always agree, but you have reasons to keep listening to each other."
+      },
+      "src": "/audio/en/narrator-3e9a27c78f562add09e3.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-14f6dccda483b7e4",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你与伯尔之间，欣赏和距离都还存在。这段关系尚未定型。",
+        "en": "Between you and Burr, admiration and distance both remain. The relationship has yet to settle into its final shape."
+      },
+      "src": "/audio/en/narrator-8ee15b88018c6725bcc6.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-epilogue-7f69b16443d21642",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "epilogue",
+      "text": {
+        "zh": "革命使他成名。野心将决定此后的路。",
+        "en": "The revolution made his name. Ambition would shape what came next."
+      },
+      "src": "/audio/en/narrator-d99d5b1ba5ce19c22679.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-epilogue-e47c313a99f1af16",
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "epilogue",
+      "text": {
+        "zh": "而伯尔仍在注视。",
+        "en": "And Burr is still watching."
+      },
+      "src": "/audio/en/narrator-0eb79ddf88ff67ccb70d.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-0",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        0
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 0 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 0 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-ee59ee11f457c3332f6e.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-1",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        1
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 1 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 1 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-ddd72ae5856a15ef7d9f.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-2",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        2
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 2 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 2 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-8f3d41883b248faecd05.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-3",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        3
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 3 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 3 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-697570894da49f47327d.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-4",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        4
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 4 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 4 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-a6c319b8aefcecee663a.mp3",
+      "generated": true
+    },
+    {
+      "id": "washington-activity-feedback-5bcb794d52fded06-value-5",
+      "templateId": "washington-activity-feedback-5bcb794d52fded06",
+      "parameters": [
+        5
+      ],
+      "speaker": "narrator",
+      "chapter": "Washington",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "首次整理 5 / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+        "en": "First pass: 5 / 5 correct. The draft below restores missing and misplaced information."
+      },
+      "src": "/audio/en/narrator-9dd335ef7b7187099b07.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-b2db47ce7a5dae33-value-1",
+      "templateId": "yorktown-activity-feedback-b2db47ce7a5dae33",
+      "parameters": [
+        1
+      ],
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "第 1 处哨岗发现动静 · 突袭优势 −20，继续推进",
+        "en": "Post 1 spotted movement · Surprise −20; keep going"
+      },
+      "src": "/audio/en/narrator-a3653494828516564e79.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-b2db47ce7a5dae33-value-2",
+      "templateId": "yorktown-activity-feedback-b2db47ce7a5dae33",
+      "parameters": [
+        2
+      ],
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "第 2 处哨岗发现动静 · 突袭优势 −20，继续推进",
+        "en": "Post 2 spotted movement · Surprise −20; keep going"
+      },
+      "src": "/audio/en/narrator-97203ba6b9b88f518e59.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-activity-feedback-b2db47ce7a5dae33-value-3",
+      "templateId": "yorktown-activity-feedback-b2db47ce7a5dae33",
+      "parameters": [
+        3
+      ],
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "activity-feedback",
+      "text": {
+        "zh": "第 3 处哨岗发现动静 · 突袭优势 −20，继续推进",
+        "en": "Post 3 spotted movement · Surprise −20; keep going"
+      },
+      "src": "/audio/en/narrator-d631c679e54e32905575.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-23",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        23
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 23 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 23 / 100."
+      },
+      "src": "/audio/en/narrator-26d0a4f724e0980a72ee.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-28",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        28
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 28 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 28 / 100."
+      },
+      "src": "/audio/en/narrator-929efb8f5f9386918ed0.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-33",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        33
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 33 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 33 / 100."
+      },
+      "src": "/audio/en/narrator-a347b9526d75c48efff9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-34",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        34
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 34 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 34 / 100."
+      },
+      "src": "/audio/en/narrator-75000867e72e23efdb66.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-35",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        35
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 35 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 35 / 100."
+      },
+      "src": "/audio/en/narrator-964f9b72ed6805c08284.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-40",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        40
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 40 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 40 / 100."
+      },
+      "src": "/audio/en/narrator-e2a2bfb4934a754a3594.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-42",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        42
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 42 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 42 / 100."
+      },
+      "src": "/audio/en/narrator-99627051ba1ca6627e39.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-43",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        43
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 43 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 43 / 100."
+      },
+      "src": "/audio/en/narrator-9be71fe1bf8967b62c24.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-45",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        45
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 45 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 45 / 100."
+      },
+      "src": "/audio/en/narrator-db76c1852fa14121e7e7.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-47",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        47
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 47 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 47 / 100."
+      },
+      "src": "/audio/en/narrator-5f24fb2ae0257b363cb1.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-48",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        48
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 48 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 48 / 100."
+      },
+      "src": "/audio/en/narrator-92e00df98fce1a3319c9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-50",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        50
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 50 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 50 / 100."
+      },
+      "src": "/audio/en/narrator-05f23ef6087a113b91be.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-52",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        52
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 52 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 52 / 100."
+      },
+      "src": "/audio/en/narrator-0f11872cafd42cb14ca7.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-54",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        54
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 54 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 54 / 100."
+      },
+      "src": "/audio/en/narrator-d0a8eefbd4203bcf0eff.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-56",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        56
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 56 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 56 / 100."
+      },
+      "src": "/audio/en/narrator-97e92f4b74ab93cadf3c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-57",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        57
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 57 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 57 / 100."
+      },
+      "src": "/audio/en/narrator-b0683b5320541a1dad3a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-58",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        58
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 58 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 58 / 100."
+      },
+      "src": "/audio/en/narrator-7417099500b84f4da6dc.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-60",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        60
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 60 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 60 / 100."
+      },
+      "src": "/audio/en/narrator-af718d28287dc1969445.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-62",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        62
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 62 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 62 / 100."
+      },
+      "src": "/audio/en/narrator-82c298e86eaca4ed2913.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-63",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        63
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 63 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 63 / 100."
+      },
+      "src": "/audio/en/narrator-8d486c447110a3f027e3.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-67",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        67
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 67 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 67 / 100."
+      },
+      "src": "/audio/en/narrator-c3ddf5b66d9f62d2e29e.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-68",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        68
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 68 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 68 / 100."
+      },
+      "src": "/audio/en/narrator-42fd403763dc52b05653.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-70",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        70
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 70 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 70 / 100."
+      },
+      "src": "/audio/en/narrator-2873318d8d4dd1a395af.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-73",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        73
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 73 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 73 / 100."
+      },
+      "src": "/audio/en/narrator-2e921ab93cfc22225f30.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-74",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        74
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 74 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 74 / 100."
+      },
+      "src": "/audio/en/narrator-2939eb8ee8fec1f46a63.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-75",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        75
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 75 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 75 / 100."
+      },
+      "src": "/audio/en/narrator-72cd4b908797e735fd68.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-76",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        76
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 76 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 76 / 100."
+      },
+      "src": "/audio/en/narrator-146949d9ce6996862704.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-77",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        77
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 77 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 77 / 100."
+      },
+      "src": "/audio/en/narrator-1469d2c5704825f4db3a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-78",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        78
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 78 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 78 / 100."
+      },
+      "src": "/audio/en/narrator-95755e12c8a83d35db85.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-80",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        80
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 80 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 80 / 100."
+      },
+      "src": "/audio/en/narrator-8366cf1889831b78a2bb.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-82",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        82
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 82 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 82 / 100."
+      },
+      "src": "/audio/en/narrator-55639415e562eedddd18.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-83",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        83
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 83 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 83 / 100."
+      },
+      "src": "/audio/en/narrator-1ab45816c75807385f81.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-85",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        85
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 85 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 85 / 100."
+      },
+      "src": "/audio/en/narrator-e3f8786e244655c30550.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-90",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        90
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 90 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 90 / 100."
+      },
+      "src": "/audio/en/narrator-5d750b92337915ec86c9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-93",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        93
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 93 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 93 / 100."
+      },
+      "src": "/audio/en/narrator-bc7ead2bf1bb1657b526.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-4fda0dc8320acefd-value-100",
+      "templateId": "ending-ending-4fda0dc8320acefd",
+      "parameters": [
+        100
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "你赢得了广场的辩论，节拍表现为 100 / 100。",
+        "en": "You won the debate in the square with a rhythm score of 100 / 100."
+      },
+      "src": "/audio/en/narrator-9c742a580f6fff425cb5.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-0",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        0
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 0 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 0 / 100."
+      },
+      "src": "/audio/en/narrator-4014c5a00df79f586b0a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-12",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        12
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 12 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 12 / 100."
+      },
+      "src": "/audio/en/narrator-1fe680b96cc1b64c771b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-17",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        17
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 17 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 17 / 100."
+      },
+      "src": "/audio/en/narrator-2232c568b70fc06cd8be.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-23",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        23
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 23 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 23 / 100."
+      },
+      "src": "/audio/en/narrator-c1a46510095e5f2a719f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-28",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        28
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 28 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 28 / 100."
+      },
+      "src": "/audio/en/narrator-8c362767116b2ef34d82.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-33",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        33
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 33 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 33 / 100."
+      },
+      "src": "/audio/en/narrator-c0fe8b815b36ad68c4d6.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-35",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        35
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 35 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 35 / 100."
+      },
+      "src": "/audio/en/narrator-186e0d28ef9f44d10922.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-40",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        40
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 40 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 40 / 100."
+      },
+      "src": "/audio/en/narrator-feec6db87be132a5d8be.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-45",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        45
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 45 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 45 / 100."
+      },
+      "src": "/audio/en/narrator-db0050e36fc7e72caa8b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-47",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        47
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 47 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 47 / 100."
+      },
+      "src": "/audio/en/narrator-b78d18f441a396076514.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-50",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        50
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 50 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 50 / 100."
+      },
+      "src": "/audio/en/narrator-24783ca5f44b2de8cb8d.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-52",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        52
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 52 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 52 / 100."
+      },
+      "src": "/audio/en/narrator-67109f87c6069d12e876.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-57",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        57
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 57 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 57 / 100."
+      },
+      "src": "/audio/en/narrator-50cf3bc770932de11c57.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-58",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        58
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 58 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 58 / 100."
+      },
+      "src": "/audio/en/narrator-9e66ed6dce64a9f48f20.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-62",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        62
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 62 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 62 / 100."
+      },
+      "src": "/audio/en/narrator-e822a350881db25d8e72.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-63",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        63
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 63 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 63 / 100."
+      },
+      "src": "/audio/en/narrator-8c027bcfd8ae1fb2ac83.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-67",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        67
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 67 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 67 / 100."
+      },
+      "src": "/audio/en/narrator-c4081a18998ebc38edf9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-68",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        68
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 68 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 68 / 100."
+      },
+      "src": "/audio/en/narrator-4a41976c621596309984.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-7ce5bff747ae44f9-value-73",
+      "templateId": "ending-ending-7ce5bff747ae44f9",
+      "parameters": [
+        73
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "广场没有完全被你说服；这次辩论的节拍表现为 73 / 100。",
+        "en": "The square was not fully convinced; your rhythm score in this debate was 73 / 100."
+      },
+      "src": "/audio/en/narrator-22504c1d93cc19d90a23.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-0",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        0
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 0 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 0 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-ac9cf48d81f3dbc271ff.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-7",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        7
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 7 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 7 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-0cf49baa57f91d582eb3.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-13",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        13
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 13 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 13 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-f6b4c8a60a9e26ff6dc8.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-20",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        20
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 20 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 20 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-dda2104ff4c60060b4f9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-27",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        27
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 27 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 27 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-22c6ff9c55d30a019f9b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-33",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        33
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 33 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 33 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-ef2e4426172bd140d29b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-40",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        40
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 40 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 40 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-22adca428547cd417a20.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-47",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        47
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 47 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 47 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-829d3c584952729114fc.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-53",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        53
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 53 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 53 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-ba20e348e09fb936c67b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-60",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        60
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 60 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 60 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-0eb8fe42706ce273eb29.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-67",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        67
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 67 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 67 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-027df2c3f2234918410f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-73",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        73
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 73 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 73 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-dd414d952c9a4ad75387.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-80",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        80
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 80 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 80 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-7fb287e649b7b039035b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-87",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        87
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 87 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 87 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-1b95b40c5b2db7426b58.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-93",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        93
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 93 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 93 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-e1e81e1b95ce0a0e9ec4.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-6a2add261a5e005a-value-100",
+      "templateId": "ending-ending-6a2add261a5e005a",
+      "parameters": [
+        100
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "军令首次分类准确率为 100 / 100。华盛顿看见了你处理细节的方式。",
+        "en": "Your first-pass dispatch accuracy was 100 / 100. Washington saw how you handled the details."
+      },
+      "src": "/audio/en/narrator-fe78a67e7bcf6b6a1897.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-8",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        8
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 8 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 8 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-cd31d87f19a744bf29bc.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-11",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        11
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 11 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 11 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-48ef2b62514fe7c4026f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-12",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        12
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 12 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 12 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-3de15a5e33f7e7b06aae.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-14",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        14
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 14 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 14 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-fb3f0e35501768143fa9.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-15",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        15
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 15 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 15 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-9dcdbc4059978ffb8146.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-16",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        16
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 16 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 16 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-c4365ca006b825c10a0b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-17",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        17
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 17 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 17 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-a79d983b8420a37d622e.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-18",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        18
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 18 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 18 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-e19932695273122591e8.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-19",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        19
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 19 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 19 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-830c7c8e23b02230e66b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-20",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        20
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 20 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 20 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-bf483d2f25e36d5d03ce.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-21",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        21
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 21 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 21 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-99dd7806aefa0f79b41d.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-22",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        22
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 22 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 22 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-8eff9952c923d284cd09.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-23",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        23
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 23 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 23 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-e90864f3532c87ab089b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-24",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        24
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 24 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 24 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-ea1b0b5ed2135a4dc45c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-25",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        25
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 25 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 25 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-0f8fb169b387fb6f3452.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-26",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        26
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 26 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 26 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-7f89e9b085d32bb5641a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-27",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        27
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 27 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 27 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-c154d5415b3cc4ad2891.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-28",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        28
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 28 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 28 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f66ddc8292573da8dc6b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-29",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        29
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 29 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 29 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-138983098a4561dc7b66.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-30",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        30
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 30 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 30 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-7d9bdf1c4ef93aa56ccc.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-31",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        31
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 31 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 31 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-036b6a5d0d13d104d48c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-32",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        32
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 32 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 32 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-152e979eec80b3fda685.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-33",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        33
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 33 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 33 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-8a88a4418544578ac328.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-34",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        34
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 34 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 34 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-bcc2be656268d64e2c04.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-35",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        35
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 35 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 35 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-e3753dc1a9c38e2cc1e2.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-36",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        36
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 36 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 36 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-6fa4e660d9b102f39f88.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-37",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        37
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 37 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 37 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-64678a859771216389b5.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-38",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        38
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 38 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 38 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-fd7fb4c8d8e3a4d4a1cd.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-39",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        39
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 39 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 39 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-c615e11f95fc453200b3.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-40",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        40
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 40 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 40 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f3dbbffeeb9092ba1d64.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-41",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        41
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 41 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 41 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-4861af4d34db4767ad98.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-42",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        42
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 42 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 42 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-be51a3676dd32813c770.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-43",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        43
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 43 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 43 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-32fe08de19750269d59b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-44",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        44
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 44 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 44 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-35ce1ea000dadcd22d98.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-45",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        45
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 45 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 45 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-d269fed4270725565d9a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-46",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        46
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 46 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 46 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-ed3fcd8cd1cf723e7600.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-47",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        47
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 47 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 47 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-dfe218cdf1b38de38080.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-48",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        48
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 48 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 48 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-fe85079e1300789969a1.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-49",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        49
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 49 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 49 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-8e830fe69fec977cd1dc.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-50",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        50
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 50 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 50 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-790325da9016bf0cb08b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-51",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        51
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 51 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 51 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-a6883f8b242c06ea1199.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-52",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        52
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 52 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 52 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-ed0cc11d8a689038418c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-53",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        53
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 53 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 53 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-a0044556e5e3e1f87e81.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-54",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        54
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 54 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 54 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f043736276b47e87f537.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-55",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        55
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 55 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 55 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-c647721b17ba4e0163b2.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-56",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        56
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 56 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 56 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-ea1ca52b7952778f8a3c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-57",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        57
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 57 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 57 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-9beadb93e47cc855a3a1.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-58",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        58
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 58 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 58 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-d5f34338fee948aa771a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-59",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        59
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 59 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 59 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-a74f231aef9642166417.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-60",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        60
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 60 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 60 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-70ea589b325959372709.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-61",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        61
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 61 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 61 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-2d30b70379de2f69fbc6.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-62",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        62
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 62 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 62 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-62db54298f7ec7e507a3.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-63",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        63
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 63 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 63 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-d770ad8a592facc5313c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-64",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        64
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 64 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 64 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-5448019dc352c4df001f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-65",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        65
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 65 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 65 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-1012ad00e41af3bf9a51.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-66",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        66
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 66 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 66 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-a512671ee36919a11948.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-67",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        67
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 67 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 67 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-3ad0349f83db9ea80422.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-68",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        68
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 68 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 68 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-e98225a49a8175754dec.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-69",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        69
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 69 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 69 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-4676a6168ffc4d817a9e.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-70",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        70
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 70 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 70 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-2fe455cb78ee6221d2c0.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-71",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        71
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 71 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 71 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f4f09927b9202f5250c0.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-72",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        72
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 72 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 72 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-91ed8c63470a8e7537d5.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-73",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        73
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 73 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 73 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-3f842c70e73429922c33.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-74",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        74
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 74 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 74 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-cf9f009582e619c42846.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-75",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        75
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 75 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 75 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-840ecc826218a427121f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-76",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        76
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 76 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 76 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-cd09551541b2b3c0bc65.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-77",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        77
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 77 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 77 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-3f949738e3ec7101bdc7.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-78",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        78
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 78 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 78 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-14097a3fc2c534b75d4f.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-79",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        79
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 79 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 79 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-63c37c3c06b7d1781dc4.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-80",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        80
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 80 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 80 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-360c7f2864fe20833ac1.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-81",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        81
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 81 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 81 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-b6668868e84eeb3f217c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-82",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        82
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 82 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 82 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-7b94571484478ee45d25.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-83",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        83
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 83 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 83 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-4cd854e6ca599ec2413b.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-84",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        84
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 84 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 84 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-b701c981cfde19eeff0c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-85",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        85
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 85 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 85 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-21149238e2cad05f9267.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-86",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        86
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 86 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 86 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-39fcbcaf87bf6f6cb775.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-87",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        87
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 87 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 87 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-0f989d9653938d922397.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-88",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        88
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 88 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 88 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-2bd1027171817d99f717.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-89",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        89
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 89 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 89 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-be233688d85aed5983bd.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-90",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        90
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 90 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 90 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-22506dbd0f8daf92185a.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-91",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        91
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 91 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 91 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f80a0f6d2d7174789d57.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-92",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        92
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 92 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 92 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-140c5168d71fb8d25be7.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-93",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        93
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 93 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 93 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-954b572e5ba452729976.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-94",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        94
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 94 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 94 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-814e26f829b4de876155.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-95",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        95
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 95 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 95 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-5d5ad5de5cf0a0a7c27c.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-96",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        96
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 96 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 96 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-f8310123ab9cfbf1bace.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-98",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        98
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 98 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 98 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-7a33b6e6ee6a5d0d35ff.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-99",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        99
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 99 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 99 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-75ffb5b6ac8d8afe3046.mp3",
+      "generated": true
+    },
+    {
+      "id": "ending-ending-dfd1df62494ab108-value-100",
+      "templateId": "ending-ending-dfd1df62494ab108",
+      "parameters": [
+        100
+      ],
+      "speaker": "narrator",
+      "chapter": "Ending",
+      "kind": "ending",
+      "text": {
+        "zh": "约克镇的潜行、部署与突击留下了 100 / 100 的战役表现。胜利属于整支队伍。",
+        "en": "Your stealth, deployment, and assault at Yorktown earned 100 / 100. Victory belongs to the whole company."
+      },
+      "src": "/audio/en/narrator-250a08ed7442fe713ba8.mp3",
+      "generated": true
+    }
+  ],
+  "note": "Retired from playback and generation on 2026-09-10. Paid audio files retained as archive only."
+}

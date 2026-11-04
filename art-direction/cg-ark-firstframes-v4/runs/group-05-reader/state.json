@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "created_at": "2026-09-10T10:08:07.338858+00:00",
+  "downloads": {
+    "image-01.png": {
+      "status": "downloaded",
+      "path": "raw/image-01.png",
+      "info": {
+        "bytes": 4388425,
+        "sha256": "48d9ce8f5f8499ace3c59d0e783167406f627da39aeb23ce942c3ef32a720434",
+        "width": 2560,
+        "height": 1440
+      }
+    }
+  },
+  "requested_count": 1,
+  "model": "doubao-seedream-5-0-260128",
+  "size": "2560x1440",
+  "source": "curl SSE capture",
+  "collector_can_submit_generation": false,
+  "received_events": 2,
+  "stream_completed": true,
+  "downloaded_count": 1,
+  "checked_at": "2026-09-10T10:08:08.779827+00:00",
+  "status": "complete"
+}

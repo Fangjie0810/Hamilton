@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hamilton</title>
+  <style>
+    :root { color-scheme: dark; --gold:#c9ad72; --ink:#e8dfca; --muted:#a7ada5; font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#080f10; color:var(--ink); }
+    button, select { font:inherit; }
+    button { cursor:pointer; }
+    button:focus-visible, select:focus-visible { outline:2px solid #eed491; outline-offset:4px; }
+    .workbench { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:19px 32px; border-bottom:1px solid #c9ad7233; }
+    .brand { display:flex; flex-direction:column; gap:7px; }
+    .brand strong { font-weight:normal; font-size:15px; letter-spacing:.11em; }
+    .brand small { font-family:Georgia,"PingFang SC",sans-serif; font-size:10px; color:#8e9a95; letter-spacing:.07em; }
+    .controls { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    .controls label { display:flex; gap:7px; align-items:center; font-size:12px; color:#b7beb6; }
+    select, .print { min-height:37px; color:#e8dfca; background:#142120; border:1px solid #68766a; border-radius:0; padding:7px 10px; font-size:12px; }
+    .print { border-color:transparent; color:#acae9e; }
+    main { padding:26px 32px 18px; max-width:1550px; margin:auto; }
+    .stage { position:relative; display:grid; place-items:center; min-height:730px; overflow:hidden; isolation:isolate; }
+    .stage::after { content:""; position:absolute; inset:12px; border:1px solid #b09b6733; pointer-events:none; z-index:-1; }
+    article { width:100%; max-width:1000px; padding:48px 74px 38px; }
+    .era { margin:0 0 24px; font-size:11px; letter-spacing:.23em; color:var(--gold); }
+    h1 { margin:0; font-weight:normal; letter-spacing:.05em; line-height:1.22; text-wrap:balance; }
+    .subtitle { margin:18px 0 28px; font-size:15px; line-height:1.7; letter-spacing:.08em; }
+    .body p { margin:0 0 20px; font-size:18px; line-height:1.9; text-wrap:pretty; }
+    .body p:first-child { color:#f4e9d1; }
+    .closing { margin:22px 0 25px; font-size:17px; line-height:1.8; }
+    .article-footer { display:flex; gap:30px; align-items:flex-end; justify-content:space-between; padding-top:23px; border-top:1px solid #b39e7145; }
+    .chronology { margin:0; max-width:480px; font-size:11px; line-height:1.8; opacity:.65; }
+    .player-role { display:none; margin:0 0 10px; font-size:13px; line-height:1.6; }
+    .continue { flex:none; display:flex; align-items:center; justify-content:space-between; gap:40px; min-width:180px; min-height:47px; padding:12px 21px; border:1px solid #d9c393; background:#dbc89e; color:#102521; font-size:14px; letter-spacing:.08em; }
+    .continue:hover { background:#ebdab4; }
+    .continue svg { width:22px; height:12px; flex:none; }
+    .version-a { background:radial-gradient(ellipse at 65% 14%,#25433d 0,transparent 56%),linear-gradient(122deg,#0c1719,#132720 63%,#071416); }
+    .version-a::before { content:""; position:absolute; inset:0; opacity:.15; background-image:radial-gradient(#afbeab .6px,transparent .8px); background-size:5px 5px; z-index:-1; }
+    .version-a article { position:relative; padding-left:116px; }
+    .version-a article::before { content:""; position:absolute; top:49px; bottom:43px; left:65px; width:1px; background:linear-gradient(var(--gold),#ac94634a 85%,transparent); }
+    .version-a h1 { max-width:800px; font-size:47px; }
+    .version-a .subtitle { color:#bdc4b6; }
+    .version-a .body { max-width:760px; }
+    .version-a .closing { color:#ddc48a; font-style:italic; }
+    .version-a .body p { color:#cbd1c5; }
+    .version-b { background:#111512; padding:30px; }
+    .version-b::after { display:none; }
+    .version-b article { max-width:1060px; color:#352719; padding:35px 57px 29px; background-color:#dcccab; background-image:radial-gradient(ellipse at 50% 30%,#f2e7ce 0,transparent 80%),repeating-linear-gradient(90deg,transparent 0,transparent 5px,#63482305 6px,#63482305 7px); box-shadow:0 18px 46px #0009,inset 0 0 70px #78532b21; }
+    .version-b .era { display:flex; justify-content:center; padding-bottom:14px; margin-bottom:22px; color:#66503c; font-size:10px; letter-spacing:.2em; border-bottom:4px double #654c33; }
+    .version-b h1 { text-align:center; font-family:Baskerville,"Songti SC",Georgia,serif; font-size:58px; font-weight:600; letter-spacing:.13em; }
+    .version-b .subtitle { text-align:center; color:#66503c; font-size:13px; margin:13px 0 24px; padding-bottom:22px; border-bottom:1px solid #826748; }
+    .version-b .body { columns:2; column-gap:45px; column-rule:1px solid #84674955; }
+    .version-b .body p { color:#382a1c; font-size:18px; line-height:1.95; margin-bottom:18px; text-align:justify; }
+    .version-b .body p:first-child::first-letter { float:left; font-size:50px; line-height:.93; padding:9px 7px 0 0; font-weight:600; }
+    .version-b .closing { color:#5a3922; margin:15px 0 19px; padding-top:18px; border-top:1px solid #826748; font-size:17px; font-style:italic; text-align:center; }
+    .version-b .article-footer { padding-top:18px; border-top:4px double #654c33; }
+    .version-b .continue { color:#eee2c7; background:#382a1c; border-color:#382a1c; }
+    .version-b .continue:hover { background:#513b25; }
+    .version-b .chronology { color:#625039; opacity:1; }
+    .version-b .player-role { display:block; }
+    .caption { display:flex; justify-content:space-between; align-items:baseline; gap:15px; font-size:11px; color:#95a29a; letter-spacing:.07em; line-height:1.8; padding:12px 3px 4px; }
+    .caption p { margin:0; }
+    .after { display:none; width:100%; text-align:center; padding:70px 35px; }
+    .after .era { margin-bottom:25px; }
+    .after h2 { font-weight:normal; font-size:50px; letter-spacing:.1em; margin:0 0 28px; }
+    .after p { color:#8d9e95; font-size:13px; line-height:1.8; }
+    .replay { margin-top:24px; padding:12px 28px; border:1px solid #ad99615c; background:transparent; color:#d8c394; font-size:13px; }
+    .stage[data-after="true"] { background:#081314; }
+    .stage[data-after="true"] article { display:none; }
+    .stage[data-after="true"] .after { display:block; animation:reveal .55s ease-out; }
+    article { animation:reveal .55s ease-out; }
+    @keyframes reveal { from { opacity:0; } to { opacity:1; } }
+    [lang="en"] .version-a h1 { font-size:51px; line-height:1.08; letter-spacing:.005em; max-width:700px; }
+    [lang="en"] .version-a .subtitle { letter-spacing:.015em; font-style:italic; }
+    [lang="en"] .body p { font-size:18px; line-height:1.68; }
+    [lang="en"] .version-b h1 { font-size:54px; letter-spacing:-.025em; max-width:700px; margin:auto; line-height:1.03; }
+    [lang="en"] .version-b .body p { font-size:18px; line-height:1.65; }
+    [lang="en"] .version-b .era { font-size:10px; }
+    @media(max-width:1000px) {
+      article { padding:38px 43px; }
+      .version-a article { padding-left:80px; }
+      .version-a article::before { left:40px; }
+      .version-b { padding:23px; }
+      .version-b article { padding:29px 37px; }
+      .version-b h1 { font-size:47px; }
+      .body p { font-size:17px; }
+    }
+    @media(max-width:650px) {
+      .workbench { padding:17px 18px; align-items:flex-start; flex-direction:column; gap:15px; }
+      .brand strong { font-size:13px; }
+      .controls { width:100%; gap:8px; }
+      .controls label { flex:1; flex-direction:column; align-items:flex-start; font-size:10px; gap:5px; }
+      .controls select { width:100%; min-width:0; font-size:11px; padding-left:7px; }
+      .controls .print { display:none; }
+      main { padding:14px 10px; }
+      .stage { min-height:0; }
+      .stage::after { inset:7px; }
+      .version-a article { padding:32px 27px; }
+      .version-a article::before { display:none; }
+      .era { font-size:9px; letter-spacing:.17em; margin-bottom:21px; }
+      .version-a h1 { font-size:34px; letter-spacing:.04em; line-height:1.32; }
+      .subtitle { font-size:12px; line-height:1.8; margin:14px 0 24px; letter-spacing:.035em; }
+      .body p { font-size:16px; line-height:1.95; margin-bottom:20px; }
+      .closing { font-size:15px; line-height:1.8; margin:23px 0; }
+      .article-footer { flex-direction:column; align-items:stretch; gap:21px; padding-top:20px; }
+      .chronology { font-size:10px; line-height:1.8; }
+      .continue { min-height:47px; justify-content:center; gap:25px; }
+      .caption { flex-direction:column; gap:2px; font-size:10px; padding:13px 8px; }
+      .version-b { padding:8px; }
+      .version-b article { padding:25px 23px; }
+      .version-b h1 { font-size:35px; letter-spacing:.1em; }
+      .version-b .subtitle { font-size:11px; line-height:1.7; padding-bottom:18px; }
+      .version-b .body { columns:1; }
+      .version-b .body p { font-size:16px; line-height:1.9; }
+      .version-b .body p:first-child::first-letter { font-size:43px; padding-top:7px; }
+      .version-b .closing { font-size:15px; text-align:left; }
+      [lang="en"] .version-a h1 { font-size:37px; line-height:1.06; }
+      [lang="en"] .body p, [lang="en"] .version-b .body p { font-size:16px; line-height:1.68; }
+      [lang="en"] .version-b h1 { font-size:36px; }
+      [lang="en"] .version-b .era { font-size:8px; letter-spacing:.09em; }
+      .after h2 { font-size:34px; }
+    }
+    @media(prefers-reduced-motion:reduce) { article, .stage[data-after="true"] .after { animation:none; } }
+    @media print {
+      body { background:white; }
+      .workbench, .caption, .continue, .after { display:none !important; }
+      main { padding:0; }
+      .stage { min-height:0; print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+      .stage[data-after="true"] article { display:block; }
+      .version-a article { padding:40px 55px; }
+      .version-a article::before { display:none; }
+      .version-b { padding:0; }
+      .version-b article { box-shadow:none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="workbench">
+    <div class="brand"><strong data-label="project"></strong><small data-label="draft"></small></div>
+    <div class="controls">
+      <label><span data-label="version"></span><select id="version"></select></label>
+      <label><span data-label="language"></span><select id="language"></select></label>
+      <button class="print" data-label="print"></button>
+    </div>
+  </header>
+  <main>
+    <section class="stage version-a" aria-labelledby="intro-title" data-after="false">
+      <article>
+        <p class="era" data-copy="era"></p>
+        <h1 id="intro-title" data-copy="title"></h1>
+        <p class="subtitle" data-copy="subtitle"></p>
+        <div class="body"></div>
+        <p class="closing" data-copy="closing"></p>
+        <footer class="article-footer">
+          <div class="context-notes"><p class="player-role" data-label="playerRole"></p><p class="chronology" data-label="note"></p></div>
+          <button class="continue"><span data-label="continue"></span><svg aria-hidden="true" viewBox="0 0 24 12"><path d="M0 6h21m-5-5 5 5-5 5" fill="none" stroke="currentColor"/></svg></button>
+        </footer>
+      </article>
+      <div class="after">
+        <p class="era" data-label="nextEyebrow"></p>
+        <h2 data-label="nextTitle" tabindex="-1"></h2>
+        <p data-label="previewNote"></p>
+        <button class="replay" data-label="replay"></button>
+      </div>
+    </section>
+    <div class="caption"><p id="treatment"></p><p id="reading-note"></p></div>
+  </main>
+  <script>
+    const content = /*__CONTENT__*/;
+    const params = new URLSearchParams(location.search);
+    const options = ['dual','dual-en','zh','en'];
+    let variant = params.get('v') === 'b' ? 'b' : 'a';
+    let mode = options.includes(params.get('lang')) ? params.get('lang') : 'dual';
+    const primary = () => mode === 'en' || mode === 'dual-en' ? 'en' : 'zh';
+    // This standalone study keeps language in memory. It never writes game preferences.
+    const setText = (node, pair) => { node.textContent = pair[primary()]; node.lang = primary() === 'en' ? 'en' : 'zh-CN'; };
+    const stage = document.querySelector('.stage');
+    const versionSelect = document.querySelector('#version');
+    const languageSelect = document.querySelector('#language');
+    for (const value of ['a','b']) { const option = document.createElement('option'); option.value = value; versionSelect.append(option); }
+    for (const spec of content.languageOptions) { const option = document.createElement('option'); option.value = spec.value; option.textContent = spec.text[spec.native]; option.lang = spec.native; languageSelect.append(option); }
+    function render() {
+      document.documentElement.lang = primary() === 'en' ? 'en' : 'zh-CN';
+      document.documentElement.dataset.language = mode;
+      document.title = content.labels.project[primary()];
+      stage.className = `stage version-${variant}`;
+      stage.setAttribute('aria-label', content.labels.stageLabel[primary()]);
+      document.querySelectorAll('[data-label]').forEach(node => setText(node, content.labels[node.dataset.label]));
+      document.querySelectorAll('[data-copy]').forEach(node => setText(node, content.versions[variant][node.dataset.copy]));
+      const body = document.querySelector('.body'); body.replaceChildren();
+      for (const pair of content.versions[variant].paragraphs) { const p = document.createElement('p'); setText(p,pair); body.append(p); }
+      [...versionSelect.options].forEach(option => setText(option, content.versions[option.value].label));
+      versionSelect.value = variant; languageSelect.value = mode;
+      setText(document.querySelector('#treatment'), content.versions[variant].treatment);
+      setText(document.querySelector('#reading-note'), variant === 'b' ? content.labels.original : content.labels.noAutoplay);
+    }
+    versionSelect.addEventListener('change', () => { variant = versionSelect.value; stage.dataset.after = 'false'; render(); });
+    languageSelect.addEventListener('change', () => { mode = languageSelect.value; render(); });
+    document.querySelector('.continue').addEventListener('click', () => { stage.dataset.after = 'true'; document.querySelector('.after h2').focus({preventScroll:true}); });
+    document.querySelector('.replay').addEventListener('click', () => { stage.dataset.after = 'false'; document.querySelector('.continue').focus({preventScroll:true}); });
+    document.querySelector('.print').addEventListener('click', () => window.print());
+    render();
+  </script>
+</body>
+</html>

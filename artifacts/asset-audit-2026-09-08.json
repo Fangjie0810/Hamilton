@@ -1,0 +1,51 @@
+{
+  "counts": {
+    "backgrounds": 7,
+    "portraits": 12,
+    "sprites": 33
+  },
+  "missingBackgrounds": [
+    "tavern-b.png",
+    "tavern-c.png",
+    "debate-a.png",
+    "debate-b.png",
+    "debate-c.png",
+    "washington-a.png",
+    "washington-b.png",
+    "washington-c.png",
+    "yorktown-a.png",
+    "yorktown-b.png",
+    "yorktown-c.png"
+  ],
+  "missingPortraits": [
+    "washington-a.png",
+    "washington-b.png",
+    "washington-c.png",
+    "mulligan-a.png",
+    "mulligan-b.png",
+    "mulligan-c.png",
+    "loyalist-a.png",
+    "loyalist-b.png",
+    "loyalist-c.png",
+    "newsboy-a.png",
+    "newsboy-b.png",
+    "newsboy-c.png",
+    "citizen-a.png",
+    "citizen-b.png",
+    "citizen-c.png",
+    "revolutionary-a.png",
+    "revolutionary-b.png",
+    "revolutionary-c.png",
+    "soldier-a.png",
+    "soldier-b.png",
+    "soldier-c.png"
+  ],
+  "audioFiles": [],
+  "live3dAtlases": [
+    "public/art/actors/story-cast-v1.png",
+    "public/art/actors/pixel-cast-directions-v2.png"
+  ],
+  "olderAtlases": [
+    "public/art/actors/pixel-cast-v1.png"
+  ]
+}

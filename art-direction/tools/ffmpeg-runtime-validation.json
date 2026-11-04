@@ -1,0 +1,60 @@
+{
+  "binary": "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/tools/ffmpeg-runtime/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "version": "ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers",
+  "binary_sha256": "6d175a4743ca50256e89a8cdd731100f9cee33bd79aeea46894d209410dc6617",
+  "software_libx264_encode": true,
+  "trim_setpts_concat": true,
+  "full_decode_exit": 0,
+  "png_extract_exit": 0,
+  "probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "12000000/458333",
+        "nb_frames": "12"
+      }
+    ],
+    "format": {
+      "duration": "0.458333"
+    }
+  },
+  "test_directory": "/var/folders/q8/dyldhrq904n1fcgsfdwmfdn40000gn/T/hamilton-software-encode-dp7mhzn6",
+  "test_input": "synthetic lavfi colors only; no production inputs",
+  "cfr24_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "12"
+      }
+    ],
+    "format": {
+      "duration": "0.500000"
+    }
+  },
+  "libx265_available": true,
+  "hevc_1080p_software_encode_decode_extract": true,
+  "hevc_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "hevc",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "24/1",
+        "nb_frames": "3"
+      }
+    ],
+    "format": {
+      "duration": "0.125000"
+    }
+  }
+}

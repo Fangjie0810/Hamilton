@@ -1,0 +1,9 @@
+{
+  "input_prompts_and_13_references_unchanged": true,
+  "all_source_timings_unchanged": true,
+  "only_generation_parameter_change": "resolution 720p -> 1080p",
+  "backend_identical_to_34_test_verified_version": true,
+  "generation_authorized": true,
+  "estimated_output_tokens": 2430000,
+  "estimated_cny_at_55_44_per_million": 134.7192
+}

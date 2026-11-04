@@ -1,0 +1,67 @@
+{
+  "method": "Trim existing first recording; reuse gratitude recording byte-for-byte",
+  "records": [
+    {
+      "filename": "newsboy-f3788430040247ad81a7.mp3",
+      "text": {
+        "zh": "港口的消息！英军动向、商船货价，还有一整版互相反驳的文章。",
+        "en": "News from the harbor! British troop movements, cargo prices, and a whole page of writers contradicting each other."
+      },
+      "status": "complete",
+      "signature": "f3788430040247ad81a7b0d32bcf97f6369ef4250217773efa6e847d02845552",
+      "voiceId": "loY1uopAz31XyhAEhNSa",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "speaker": "newsboy",
+      "origin": "trimmed-existing-recording",
+      "cues": [
+        {
+          "id": "arrival-newspaper-base-1"
+        }
+      ],
+      "durationSeconds": 8.045714,
+      "bytes": 129192,
+      "sha256": "0a24e2153e38d5544499b6783d1dc4a0dbd4faa7d35afe76090f95ef1fd50c35",
+      "provenance": {
+        "source": "newsboy-c6bc7571eef2adbd2489.mp3",
+        "sourceSha256": "7bc7344c69d7175c4fef9d3987a142e0a835c435d0d6eb20a86576a618ec8551",
+        "trimStartSeconds": 0,
+        "trimEndSeconds": 8,
+        "fadeOutSeconds": 0.04
+      },
+      "completedAt": "2026-09-14T17:23:36.923Z"
+    },
+    {
+      "filename": "newsboy-91abcb6dff139db0d8e3.mp3",
+      "text": {
+        "zh": "谢谢您先生！我会记住您的名字。",
+        "en": "Thank you, sir! I will remember your name."
+      },
+      "status": "complete",
+      "signature": "91abcb6dff139db0d8e3b1e0d0d6064edebea32241daad40a6895866700f96d8",
+      "voiceId": "loY1uopAz31XyhAEhNSa",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "speaker": "newsboy",
+      "origin": "punctuation-only-recording-reuse",
+      "cues": [
+        {
+          "id": "discovery-arrival-scattered-paper-base-2"
+        },
+        {
+          "id": "discovery-arrival-scattered-paper-repeat-1"
+        },
+        {
+          "id": "small-talk-newsboy-thanks"
+        }
+      ],
+      "durationSeconds": 2.638367,
+      "bytes": 42675,
+      "sha256": "595e7ba01d7c3c36e6b7ce24bead60d0de39033cdd523510779a0e3397774985",
+      "provenance": {
+        "source": "newsboy-11e24ec3be0ab469c4a4.mp3",
+        "sourceSha256": "595e7ba01d7c3c36e6b7ce24bead60d0de39033cdd523510779a0e3397774985",
+        "audioBytesUnchanged": true
+      },
+      "completedAt": "2026-09-14T17:23:36.931Z"
+    }
+  ]
+}

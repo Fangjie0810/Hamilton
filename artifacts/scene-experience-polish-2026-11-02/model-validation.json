@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "street",
+    "bytes": 3767968,
+    "meshes": 416,
+    "collectibles": [
+      "street-hamilton-notebook",
+      "street-burr-seal",
+      "street-mulligan-scissors",
+      "street-laurens-token"
+    ],
+    "sha256": "ddfcfd343e7dcc0b90af5e7bdc4569f34fb1a44e1418e06f7c0c8303180552ec"
+  },
+  {
+    "scene": "tavern",
+    "bytes": 3108720,
+    "meshes": 430,
+    "collectibles": [
+      "tavern-laurens-letter",
+      "tavern-lafayette-ribbon",
+      "tavern-mulligan-thimble",
+      "tavern-hamilton-quill"
+    ],
+    "sha256": "a736ee34ffabaf83b8612afd7c46a97055c7bd775e3f64fb6d3ea9e066bf0715"
+  },
+  {
+    "scene": "ballroom",
+    "bytes": 1609712,
+    "meshes": 122,
+    "collectibles": [
+      "ballroom-angelica-fan",
+      "ballroom-eliza-locket",
+      "ballroom-burr-card",
+      "ballroom-hamilton-button"
+    ],
+    "sha256": "7043c79786b5b75fa73b3380e086809438fd8fc1272a4829063a82afcdd797d6"
+  }
+]

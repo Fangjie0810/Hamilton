@@ -1,0 +1,11 @@
+HTTP/1.1 200 Connection established
+
+HTTP/2 200 
+server: istio-envoy
+date: Thu, 10 Sep 2026 11:03:09 GMT
+content-type: application/json; charset=utf-8
+content-length: 713
+x-client-request-id: unknown-20260910190224-sTEVhVuk
+x-envoy-upstream-service-time: 45668
+x-request-id: 021789038144152b3148bc0f12eba71a521be8450222824a9f178
+

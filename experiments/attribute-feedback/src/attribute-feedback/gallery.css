@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+html { color-scheme: dark; background: #111b17; color: #eee4ce; font-family: Georgia, 'Songti SC', serif; }
+body { margin: 0; background: radial-gradient(ellipse at 50% 0, #41504444, transparent 55%); }
+#gallery { max-width: 1620px; margin: auto; padding: 56px 4vw 28px; }
+header { max-width: 800px; margin-bottom: 35px; }
+.gallery-eyebrow { color: #cbb67f; letter-spacing: .2em; font-size: 11px; }
+h1 { font-size: clamp(26px, 3vw, 44px); font-weight: 400; letter-spacing: .03em; line-height: 1.35; margin: 18px 0; }
+.gallery-intro { color: #b7c0b3; line-height: 1.9; font-size: 13px; }
+.gallery-grid { display: grid; grid-template-columns: 1fr; gap: 24px; }
+.gallery-card.compass { display: grid; grid-template-columns: minmax(0, 2.5fr) minmax(260px, 1fr); align-items: center; }
+.gallery-card { border: 1px solid #bea97640; background: #23312a77; }
+.gallery-card.spark { border-color: #cdb47c99; }
+video { width: 100%; display: block; aspect-ratio: 1.6; background: #070d0a; }
+.gallery-copy { padding: 22px 23px 26px; }
+.gallery-note { font-size: 10px; color: #d5bd87; letter-spacing: .07em; margin: 0 0 18px; }
+h2 { font-size: 24px; font-weight: 400; margin: 0 0 13px; }
+.gallery-timing { font-size: 11px; color: #c3c4b4; }
+.gallery-body { font-size: 13px; line-height: 1.9; color: #c7c9bc; min-height: 76px; margin-bottom: 24px; }
+.gallery-play { display: block; width: 100%; padding: 13px; border: 1px solid #b9a47480; color: #f2e5c7; text-align: center; text-decoration: none; font-size: 12px; background: #b9a4740b; }
+.spark .gallery-play { background: #d5bd87; color: #17251d; }
+.gallery-play:hover { filter: brightness(1.16); }
+.gallery-play:focus-visible { outline: 2px solid #f1d59a; outline-offset: 4px; }
+footer { border-top: 1px solid #bbac7826; font-size: 11px; line-height: 1.9; color: #a5b2a6; margin-top: 32px; padding-top: 20px; }
+@media(max-width:960px) { .gallery-card.compass { grid-template-columns: 1fr; } #gallery { max-width: 680px; } .gallery-body { min-height: 0; } }

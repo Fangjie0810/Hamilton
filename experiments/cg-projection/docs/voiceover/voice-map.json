@@ -1,0 +1,74 @@
+{
+  "hamilton": {
+    "voice_name": "Hamilton by Lin",
+    "voice_id": "ZkIh9CGBiVNOeuNezDX9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "burr": {
+    "voice_name": "Burr from Hamilton",
+    "voice_id": "g4v6fhF5YaxHMMMGmqBa",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "washington": {
+    "voice_name": "Washington from Hamilton",
+    "voice_id": "C8sDvT2KOApAaKPGigC0",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "lafayette": {
+    "voice_name": "Lafayette from Hamilton",
+    "voice_id": "ZcB091leTaOIbyDOaQr9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "mulligan": {
+    "voice_name": "muligen from hamilton",
+    "voice_id": "uIKWpbqY1EpzFTHusIp4",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "laurens": {
+    "voice_name": "Larence",
+    "voice_id": "vXOqiB9d7xy2Q2wzZrO8",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "narrator": {
+    "voice_name": "George - Warm, Captivating Storyteller",
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "newsboy": {
+    "voice_name": "Liam - Energetic, Social Media Creator",
+    "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "A young adult with energy and warmth - suitable for reels and shorts.",
+    "match_reason": "年轻、温暖而有活力的美式男声，适合港口报童招呼路人并报新闻。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  },
+  "citizen": {
+    "voice_name": "Chris - Charming, Down-to-Earth",
+    "voice_id": "iP95p4xoKVk53GoZ742B",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "Natural and real, this down-to-earth voice is great across many use-cases.",
+    "match_reason": "自然朴实的成年美式男声，适合关心贸易、生计和面包的纽约市民。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  },
+  "loyalist": {
+    "voice_name": "Daniel - Steady Broadcaster",
+    "voice_id": "onwK4e9ZLuTAKqWW03F9",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "A strong voice perfect for delivering a professional broadcast or news story.",
+    "match_reason": "成熟、正式、有力度的英式男声，适合维护王室秩序的公开辩论者。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  }
+}

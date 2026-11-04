@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "real 1080p audio playback",
+    "same document",
+    "scene warms but cannot move",
+    "pause/resume and mute",
+    "blur pauses without game settings",
+    "three languages retain media time",
+    "bilingual narrow controls fit",
+    "natural playback of the entire cut",
+    "title over existing black tail while original audio continues",
+    "world reveal only after real ended",
+    "media and input cleanup",
+    "opening letter remains interactive after film",
+    "letter completes and chapter exit reaches ACT I without replaying CG",
+    "immediate skip works before world ready in all three languages with reduced motion",
+    "failed media can skip into the prepared game",
+    "autoplay denial recovers on explicit resume"
+  ],
+  "errors": []
+}

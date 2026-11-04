@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "scope": "Actual StoryUI + activities + StoryProgress with deterministic frame clock; map traversal covered separately",
+  "checks": [
+    {
+      "kind": "debate",
+      "mode": "zh",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "zh",
+      "width": 1440,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "zh",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "zh",
+      "width": 1440,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "zh",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "zh",
+      "width": 1440,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "en",
+      "width": 1440,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "en",
+      "width": 1440,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "en",
+      "width": 1440,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual",
+      "width": 1440,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual",
+      "width": 1440,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual",
+      "width": 1440,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual-en",
+      "width": 1440,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "zh",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "zh",
+      "width": 390,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "zh",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "zh",
+      "width": 390,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "zh",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "zh",
+      "width": 390,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "en",
+      "width": 390,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "en",
+      "width": 390,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "en",
+      "width": 390,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual",
+      "width": 390,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual",
+      "width": 390,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual",
+      "width": 390,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "debate",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "one recovery, true MISS score, persisted assistance marker"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "writing",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "growth modal freezes clock and usage through four language changes"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "dual-en",
+      "width": 390,
+      "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+    },
+    {
+      "kind": "debate",
+      "mode": "en",
+      "check": "new unassisted activity starts with zero assistance"
+    },
+    {
+      "kind": "writing",
+      "mode": "en",
+      "check": "new unassisted activity starts with zero assistance"
+    },
+    {
+      "kind": "yorktown",
+      "mode": "en",
+      "check": "new unassisted activity starts with zero assistance"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,2606 @@
+{
+  "validatedFiles": 371,
+  "cueMappings": 372,
+  "totalDurationSeconds": 2017.541,
+  "totalBytes": 32468073,
+  "checks": "All MP3 files fully decoded to 44.1 kHz PCM; non-silent signal, duration, SHA-256, voice IDs and complete cue mappings checked. This does not replace listening review.",
+  "files": {
+    "burr-005bc8e15004abb0aed5.mp3": {
+      "sha256": "4fc5ac15be539cf77a8506c5a7ba2ad6f089c700c0b95b99a7402c232c80f7e4",
+      "decodedSeconds": 6.817959,
+      "peak": 6791,
+      "rms": 986.13,
+      "status": "passed"
+    },
+    "burr-02a94b93b27c695d9ee5.mp3": {
+      "sha256": "dbae6e228c927814a6b8cd6de6efa3c2b3b169b344a6b1e72506ca5ea93c941d",
+      "decodedSeconds": 6.347755,
+      "peak": 13946,
+      "rms": 1642.65,
+      "status": "passed"
+    },
+    "burr-3de74fb8f2689ae62d7b.mp3": {
+      "sha256": "1893c2788ef09af1ea771789c6bf347dc54fbbc0de8f71fa856ff83e5c8dbc0d",
+      "decodedSeconds": 4.832653,
+      "peak": 11128,
+      "rms": 1429.12,
+      "status": "passed"
+    },
+    "burr-61fda2f4ecd4c14fd773.mp3": {
+      "sha256": "e2829aef617e24e8333e3054ec7d7facf641923c02037429612cffb078acb33b",
+      "decodedSeconds": 2.690612,
+      "peak": 7128,
+      "rms": 930.46,
+      "status": "passed"
+    },
+    "burr-8511829312986bba6551.mp3": {
+      "sha256": "a06bf35fe1151b1e61530ffa1e5ea0b8ed76e2293e487d14c911c8d2d83cc0d5",
+      "decodedSeconds": 3.84,
+      "peak": 9683,
+      "rms": 1434.25,
+      "status": "passed"
+    },
+    "burr-e15c5c07679daee042b0.mp3": {
+      "sha256": "4b6aca6567147037991bb5e3b8853fef8c5729bf2a8cf370bb4fd933ed5d4f72",
+      "decodedSeconds": 6.29551,
+      "peak": 10347,
+      "rms": 1040.28,
+      "status": "passed"
+    },
+    "hamilton-00b7b28cecd6f4ad87ce.mp3": {
+      "sha256": "056500443ca0a2b6f3d8d3872920dce91fa80795d5627458fcfe0797d457eaf5",
+      "decodedSeconds": 2.533878,
+      "peak": 12088,
+      "rms": 2455.23,
+      "status": "passed"
+    },
+    "hamilton-03d8af1ee354b9d9696d.mp3": {
+      "sha256": "dd6ec14831bcdc3985205a30fffc9a3b6d18b028c7738c10ac61534c6d859ab3",
+      "decodedSeconds": 2.742857,
+      "peak": 12570,
+      "rms": 2173.95,
+      "status": "passed"
+    },
+    "hamilton-094b94cc76dc60773f6b.mp3": {
+      "sha256": "b5a4b65807ba60065d9eb64c3e3f9c8e5a216e5b01d8626ac3acb130e0670ecc",
+      "decodedSeconds": 1.436735,
+      "peak": 20072,
+      "rms": 2530.0,
+      "status": "passed"
+    },
+    "hamilton-0bc2d81eeeaaa0ba421c.mp3": {
+      "sha256": "b8d7a7eefc95630d866d95075201663678d15a727b1fa711e9620c4bd7906239",
+      "decodedSeconds": 3.004082,
+      "peak": 10235,
+      "rms": 1718.56,
+      "status": "passed"
+    },
+    "hamilton-0bf63d2c56066d06e532.mp3": {
+      "sha256": "182699747eefb9349f1cd1fe46dcef2b641685729d192359faa51d1772075831",
+      "decodedSeconds": 7.418776,
+      "peak": 13353,
+      "rms": 2249.87,
+      "status": "passed"
+    },
+    "hamilton-1158561fd23673663d4c.mp3": {
+      "sha256": "9d9ad7c7e2b245e49a564403191e518d3311f5d9a1c85637ceaa73539149d5c6",
+      "decodedSeconds": 2.037551,
+      "peak": 8778,
+      "rms": 1314.8,
+      "status": "passed"
+    },
+    "hamilton-119ace0fcaa2dae92ef0.mp3": {
+      "sha256": "f0b0b07075b887a3ae7d83436adfebb4b1d46efa63dd1e854804a3a8e1aaf828",
+      "decodedSeconds": 2.951837,
+      "peak": 15621,
+      "rms": 2108.56,
+      "status": "passed"
+    },
+    "hamilton-119d81e3e67178f94cb6.mp3": {
+      "sha256": "bdd68f3c3457a16df2a3894bc0b1dc7d2c01a3520d9447c9a9c56efd084debc0",
+      "decodedSeconds": 3.369796,
+      "peak": 10592,
+      "rms": 1883.16,
+      "status": "passed"
+    },
+    "hamilton-11b93c0c00cc5c36cfc5.mp3": {
+      "sha256": "d28cb75adbd3485020de304992275038674feab1b61cf8adfc8377be15eac595",
+      "decodedSeconds": 2.690612,
+      "peak": 16103,
+      "rms": 2098.18,
+      "status": "passed"
+    },
+    "hamilton-1243d45b777661906337.mp3": {
+      "sha256": "db79fbdce2d66becb846984d923946e24ae0f418172ce36ec16110ecf6f91a87",
+      "decodedSeconds": 3.186939,
+      "peak": 13632,
+      "rms": 1949.28,
+      "status": "passed"
+    },
+    "hamilton-13350e42ba9e99c48f32.mp3": {
+      "sha256": "e10da88471e203068cd41ea0f14866d51b39ff279c1ef87b963ad731c2c0e909",
+      "decodedSeconds": 2.533878,
+      "peak": 10702,
+      "rms": 1396.37,
+      "status": "passed"
+    },
+    "hamilton-1b98b2def7b22e1c3b2f.mp3": {
+      "sha256": "df2fb792227b409212f96f06b2a3fe1b5184e792beff445f234ffcfa61be88d3",
+      "decodedSeconds": 2.925714,
+      "peak": 13702,
+      "rms": 2047.11,
+      "status": "passed"
+    },
+    "hamilton-2ab21398681d7056c671.mp3": {
+      "sha256": "12c8a9c0adacb1e480071e269cd0bf0d39428fa4f08049cafbf704e095d45027",
+      "decodedSeconds": 1.671837,
+      "peak": 13226,
+      "rms": 1467.23,
+      "status": "passed"
+    },
+    "hamilton-2b63e2bc7d0e535db9f0.mp3": {
+      "sha256": "cdce7944df2dea12f5741f4836dcb6b761323cf5caa56f02f9b8bcfcd2f80939",
+      "decodedSeconds": 1.933061,
+      "peak": 9275,
+      "rms": 1298.76,
+      "status": "passed"
+    },
+    "hamilton-2d9d071d3caab1aea2c9.mp3": {
+      "sha256": "7d4ad7b9b92c041ad4291c40ff3081905e8e41c85996b7cdd7e346fd8eb7c167",
+      "decodedSeconds": 3.892245,
+      "peak": 12239,
+      "rms": 2488.27,
+      "status": "passed"
+    },
+    "hamilton-2f934f70bfa6fa13a5b7.mp3": {
+      "sha256": "fc4573da3a1871c018261f0bb112c64f535b3f04a4a70f0539b47a53186de17b",
+      "decodedSeconds": 2.037551,
+      "peak": 12328,
+      "rms": 2587.19,
+      "status": "passed"
+    },
+    "hamilton-30e697ab38433d12afe1.mp3": {
+      "sha256": "4a5e7a70dbb11a5fdcb1cb96bcf6df9e9c438a72e0e33b069aee7a30656d0263",
+      "decodedSeconds": 2.220408,
+      "peak": 11223,
+      "rms": 2284.61,
+      "status": "passed"
+    },
+    "hamilton-3915a9c5b68d18fd48ea.mp3": {
+      "sha256": "4791a349117f2848ba7ff35c9f0d3487bf5448a7ef8ad710a4f49f6343b4d853",
+      "decodedSeconds": 2.638367,
+      "peak": 14022,
+      "rms": 2355.64,
+      "status": "passed"
+    },
+    "hamilton-3d7c93f32be578b70823.mp3": {
+      "sha256": "2f750805d282e8f9b47de443da272d8df5ae23f82e51de356594961bfe2f4931",
+      "decodedSeconds": 1.906939,
+      "peak": 8876,
+      "rms": 1809.08,
+      "status": "passed"
+    },
+    "hamilton-3e2d1a698e504f5fd134.mp3": {
+      "sha256": "b6731981e1fe8edc8ed8a2ab8e2732e3dce32e93677fd4b70174dbebb6333c7b",
+      "decodedSeconds": 2.873469,
+      "peak": 11815,
+      "rms": 1956.77,
+      "status": "passed"
+    },
+    "hamilton-41a74b9a676590d78fc2.mp3": {
+      "sha256": "1f5c7c402b73a220fb543faa8fbb0eb363110112a9765b7ca82712a5c12c60af",
+      "decodedSeconds": 1.854694,
+      "peak": 13745,
+      "rms": 1763.06,
+      "status": "passed"
+    },
+    "hamilton-44e08d6926dc6d07486e.mp3": {
+      "sha256": "e86ce25a84d5c2da9a5c5d7c76b7502ed9c740be29f37b1dc6830bd3ff9ac46a",
+      "decodedSeconds": 1.933061,
+      "peak": 10440,
+      "rms": 1607.23,
+      "status": "passed"
+    },
+    "hamilton-47d0513e31f13e104352.mp3": {
+      "sha256": "ce50db452600a7b70e9338ae6e939c6913b395e5bdee67842c8f600b4790ab8c",
+      "decodedSeconds": 2.925714,
+      "peak": 14895,
+      "rms": 2392.79,
+      "status": "passed"
+    },
+    "hamilton-49b9dee5a06a5392803a.mp3": {
+      "sha256": "6109a9659cb169b5443a036243023a4c8fb0aaa0a62bba1afe88aa850f9d4186",
+      "decodedSeconds": 2.638367,
+      "peak": 14611,
+      "rms": 2537.07,
+      "status": "passed"
+    },
+    "hamilton-4f3231a69dc7422bc409.mp3": {
+      "sha256": "1d0deb119a00a958936d5b2c12c016ae79a2bc2d8169aa7af247fd7fe07a9158",
+      "decodedSeconds": 2.272653,
+      "peak": 11505,
+      "rms": 2119.42,
+      "status": "passed"
+    },
+    "hamilton-524e981724e99c00be1a.mp3": {
+      "sha256": "a5f331e5b17cd6b3d9ba49417243e21824777c1aaeee47798ce12a50cee6f167",
+      "decodedSeconds": 2.403265,
+      "peak": 10693,
+      "rms": 1585.81,
+      "status": "passed"
+    },
+    "hamilton-54ccf59897f5e9cc3d16.mp3": {
+      "sha256": "7b0300529f54021cc55dbfcdca5a5e02384f4cf6a4858e6276738716555fcafb",
+      "decodedSeconds": 2.690612,
+      "peak": 11490,
+      "rms": 1400.62,
+      "status": "passed"
+    },
+    "hamilton-558732338c6d5328f8a0.mp3": {
+      "sha256": "047bae6c0fe7b8ffb77cbd7ec5886d770102dd3d129d00063d14b244bae70bd4",
+      "decodedSeconds": 2.168163,
+      "peak": 11776,
+      "rms": 2190.67,
+      "status": "passed"
+    },
+    "hamilton-5c4927c697befa22e1de.mp3": {
+      "sha256": "762b7c43efe668e5c64cdbc3e447f67bffaefbe83f073000d0497384a76c97f6",
+      "decodedSeconds": 1.619592,
+      "peak": 12423,
+      "rms": 2583.07,
+      "status": "passed"
+    },
+    "hamilton-5c569caa4028985c9887.mp3": {
+      "sha256": "06b3e546019a1f5abd3a16a704fc91f8ff7f69f1d794010859c35352fa1d62fb",
+      "decodedSeconds": 2.35102,
+      "peak": 11929,
+      "rms": 1888.05,
+      "status": "passed"
+    },
+    "hamilton-5c5cd9ed1036e306ee6b.mp3": {
+      "sha256": "68988b7ee61a6fefc22aed0e0c86249b26bae1f56702a7b1494a8ca50b5099da",
+      "decodedSeconds": 2.533878,
+      "peak": 13370,
+      "rms": 1989.72,
+      "status": "passed"
+    },
+    "hamilton-5fb10c7a8d7654f1c93f.mp3": {
+      "sha256": "8eba5e7d2010757e0f75b2b20c18de5622d4d194bed27a1749c8526e09f92e98",
+      "decodedSeconds": 2.821224,
+      "peak": 13227,
+      "rms": 1870.25,
+      "status": "passed"
+    },
+    "hamilton-617de21bb657468a370f.mp3": {
+      "sha256": "db2a0ef36e530d971afebf982c009088f17754df0e03271c09b505fa5d30307f",
+      "decodedSeconds": 2.272653,
+      "peak": 13373,
+      "rms": 2252.56,
+      "status": "passed"
+    },
+    "hamilton-672e40d1835fdd6512a1.mp3": {
+      "sha256": "f9874d701e455f482f9cdc6cc52d1bb0b14d826b26b0b2e6f5bba3b2b5d6a732",
+      "decodedSeconds": 2.089796,
+      "peak": 13868,
+      "rms": 1837.38,
+      "status": "passed"
+    },
+    "hamilton-71406d8e30aaf729346b.mp3": {
+      "sha256": "93c6cb11f3a77de203202a81c0279f7d4392ab44b82563bd471d90f5dfe2fc14",
+      "decodedSeconds": 2.873469,
+      "peak": 13145,
+      "rms": 2177.9,
+      "status": "passed"
+    },
+    "hamilton-7294e620be9a62194689.mp3": {
+      "sha256": "54e8287e83da9fd02f7a01a028c4822ad9aea1a7cb074625391a872659c7fad9",
+      "decodedSeconds": 4.022857,
+      "peak": 13186,
+      "rms": 2419.23,
+      "status": "passed"
+    },
+    "hamilton-749a8ff18811ef0cbf30.mp3": {
+      "sha256": "60033e7618511bfb7fe214e0278e1262bf77a528ee18a5545580efec5b891cdc",
+      "decodedSeconds": 5.459592,
+      "peak": 14337,
+      "rms": 1685.68,
+      "status": "passed"
+    },
+    "hamilton-7528dc6bef72b002a709.mp3": {
+      "sha256": "a06c32eab7da25ad56836979bb74e71560bb7e99f78ef1136ea98b0ddbe0070e",
+      "decodedSeconds": 1.985306,
+      "peak": 13473,
+      "rms": 2525.07,
+      "status": "passed"
+    },
+    "hamilton-7584a72140e6e77e6a27.mp3": {
+      "sha256": "d71d307645f8e666d2f1965d9b5abc2cc5081b135871628b6ac720eec696555b",
+      "decodedSeconds": 3.108571,
+      "peak": 12223,
+      "rms": 2071.31,
+      "status": "passed"
+    },
+    "hamilton-78fb4e2d37a4ff9f90df.mp3": {
+      "sha256": "cae7f300bfedf1b3d4a376f5545a67626ca3600c774ce426700b236981277ef9",
+      "decodedSeconds": 1.750204,
+      "peak": 12100,
+      "rms": 1843.1,
+      "status": "passed"
+    },
+    "hamilton-7b156f44e9105b522035.mp3": {
+      "sha256": "7c4eaa30e8f3b90e1da566e93ee8935bd203a2fc49c39d420db33bedea54b0a1",
+      "decodedSeconds": 3.004082,
+      "peak": 5304,
+      "rms": 758.07,
+      "status": "passed"
+    },
+    "hamilton-7e8b1d2a0b107bc0e616.mp3": {
+      "sha256": "93efb21caa0ce6f8234221966e84b12fd5065e706cb1b785c98348cc54002897",
+      "decodedSeconds": 6.269388,
+      "peak": 12749,
+      "rms": 1951.3,
+      "status": "passed"
+    },
+    "hamilton-822448a9df137160b80d.mp3": {
+      "sha256": "84719c1befbe199177b2982c057e9ec838b5683ad2a1a12fbff331c5c3b72bbf",
+      "decodedSeconds": 2.272653,
+      "peak": 14557,
+      "rms": 2245.45,
+      "status": "passed"
+    },
+    "hamilton-853bc009a2dbe8bdf937.mp3": {
+      "sha256": "662782a846ac90779c0853b4db0e08f7875870d7e3aceb26dd915fca0a81d064",
+      "decodedSeconds": 2.76898,
+      "peak": 14029,
+      "rms": 2183.03,
+      "status": "passed"
+    },
+    "hamilton-87e3709efde0ffa54942.mp3": {
+      "sha256": "e28d50062355b2170098713dbbee93933a7d1a0e0cf9eb7698a5e7aad96145ac",
+      "decodedSeconds": 10.945306,
+      "peak": 13383,
+      "rms": 2071.38,
+      "status": "passed"
+    },
+    "hamilton-88249db6a37db9bb2f1f.mp3": {
+      "sha256": "02331cbea0372fdfbe427463f7de39a6da4fef444377a254581892f9339ef990",
+      "decodedSeconds": 2.821224,
+      "peak": 7819,
+      "rms": 1405.79,
+      "status": "passed"
+    },
+    "hamilton-8a7cceb3991421114d17.mp3": {
+      "sha256": "b04aab88b09ff6f89693d88caca22fda915e369359bac3265ab31ac780e56a5e",
+      "decodedSeconds": 1.906939,
+      "peak": 15070,
+      "rms": 2162.01,
+      "status": "passed"
+    },
+    "hamilton-8c47c9f60ea1f5761c69.mp3": {
+      "sha256": "5b330c8cd1615895e7d880890ce865846347618942b73b487414cb1e0ce3f817",
+      "decodedSeconds": 4.440816,
+      "peak": 10166,
+      "rms": 1591.66,
+      "status": "passed"
+    },
+    "hamilton-9022ec38b055225b62c3.mp3": {
+      "sha256": "963f119ff465c41a9d7b677533c7ddd06b6b837614bb55bbe118a7530eb2ef83",
+      "decodedSeconds": 2.35102,
+      "peak": 10329,
+      "rms": 2044.6,
+      "status": "passed"
+    },
+    "hamilton-92ae2b9746fe7537c0d5.mp3": {
+      "sha256": "ce07e2e3ba12192197929bf1b02ce03602ffeed61819290b9fb9f7a5a89fd8c7",
+      "decodedSeconds": 2.586122,
+      "peak": 6686,
+      "rms": 963.5,
+      "status": "passed"
+    },
+    "hamilton-9555303b4ef954175a38.mp3": {
+      "sha256": "c5002a496ef6da6f38142e698c47447ee921400406a77af2c609b533f74a5464",
+      "decodedSeconds": 4.493061,
+      "peak": 8035,
+      "rms": 1490.92,
+      "status": "passed"
+    },
+    "hamilton-9ae3bc2a0f84765218f6.mp3": {
+      "sha256": "c2e96b1cd60a9420434e9274aab7590c8ecd9005d1f42b373baa53915200c6af",
+      "decodedSeconds": 2.115918,
+      "peak": 16717,
+      "rms": 2392.01,
+      "status": "passed"
+    },
+    "hamilton-9bef6df70d5d14a1a8fa.mp3": {
+      "sha256": "6aa87aff5fe963c9a004124b4d005bc3af91a1d9d5410d3b88e0b36a7421a1bd",
+      "decodedSeconds": 2.115918,
+      "peak": 14779,
+      "rms": 3100.46,
+      "status": "passed"
+    },
+    "hamilton-a4c1355c59fa0213bd9b.mp3": {
+      "sha256": "eab4023a7cfe132be6d7baab634732c1248f42a4f0fd166a233d7d277dd75518",
+      "decodedSeconds": 2.324898,
+      "peak": 14621,
+      "rms": 2267.32,
+      "status": "passed"
+    },
+    "hamilton-a51dc7771ce276c3082f.mp3": {
+      "sha256": "1bb9d8d8350a7f047b7921cc9abe479560b7431f160307a21aa8c9b87799f868",
+      "decodedSeconds": 2.951837,
+      "peak": 14278,
+      "rms": 2786.56,
+      "status": "passed"
+    },
+    "hamilton-a5596dd8b17ad2cfe8b8.mp3": {
+      "sha256": "d67488c53fe7422d429125807b133c5a5def2f3da59e0298b1d6ffb9f4dc58c6",
+      "decodedSeconds": 6.217143,
+      "peak": 12924,
+      "rms": 2161.97,
+      "status": "passed"
+    },
+    "hamilton-a6d89fee194eb6f79de7.mp3": {
+      "sha256": "672f873eab8d48d62da292e06e4785c1639727bee68217764638996833f2c7c0",
+      "decodedSeconds": 3.604898,
+      "peak": 7894,
+      "rms": 1401.67,
+      "status": "passed"
+    },
+    "hamilton-aa707b09ef3bc8c3709b.mp3": {
+      "sha256": "ec1768689fbf3fea771a66f04c462e52a46ab9d657b83b11fc668e8de3141cc9",
+      "decodedSeconds": 2.742857,
+      "peak": 11933,
+      "rms": 2127.03,
+      "status": "passed"
+    },
+    "hamilton-ab70391ed6b29d2c6bf8.mp3": {
+      "sha256": "be6de6a2d542e84f41696596b389e444ff04db96cc4ac50ea436cd43cf3e4f35",
+      "decodedSeconds": 2.089796,
+      "peak": 11727,
+      "rms": 2164.33,
+      "status": "passed"
+    },
+    "hamilton-ab7d9fa1729e7a3ba380.mp3": {
+      "sha256": "471605f08af7bab8220ffc51daa8470d2f516845af915f10a4e5f06e09cceb5c",
+      "decodedSeconds": 6.4,
+      "peak": 15791,
+      "rms": 2612.46,
+      "status": "passed"
+    },
+    "hamilton-b5a44ccbc28bc940a848.mp3": {
+      "sha256": "ccfd1294c49096de4e0362c3479d0b8bd64a61ec7826b1a0274e15aac0a7cb82",
+      "decodedSeconds": 2.533878,
+      "peak": 13571,
+      "rms": 1634.62,
+      "status": "passed"
+    },
+    "hamilton-b6d8cc11b01d838e2a19.mp3": {
+      "sha256": "c2a9fc6211164d0ee5767c4a75309b3e8fbb6318341a699a7ce08c539364943f",
+      "decodedSeconds": 3.892245,
+      "peak": 11514,
+      "rms": 2132.79,
+      "status": "passed"
+    },
+    "hamilton-b8a99d01dd6dd5000853.mp3": {
+      "sha256": "cda8401119ae7d5947ef43e686381737b0db4f32fac972e98bf5043897d19e5d",
+      "decodedSeconds": 5.198367,
+      "peak": 11989,
+      "rms": 1636.03,
+      "status": "passed"
+    },
+    "hamilton-c0e865729e42b0af17a6.mp3": {
+      "sha256": "240d4f934f7e5ebdc2955a1bd44ee4176b799d450c40fa326f6826a180f86666",
+      "decodedSeconds": 7.366531,
+      "peak": 13857,
+      "rms": 2455.22,
+      "status": "passed"
+    },
+    "hamilton-c49478081955e9ff1cf0.mp3": {
+      "sha256": "65b946de7f2846accf0753d7b17cf39658f44895d8fbc5a668012f85e7e5cd9c",
+      "decodedSeconds": 1.933061,
+      "peak": 12421,
+      "rms": 1952.77,
+      "status": "passed"
+    },
+    "hamilton-c52487fe471aaaa1f67b.mp3": {
+      "sha256": "0a59361d8d85c7df9b436e9fce67085c265229aee4aa5fc5918b27521da8bb41",
+      "decodedSeconds": 3.578776,
+      "peak": 15871,
+      "rms": 2218.79,
+      "status": "passed"
+    },
+    "hamilton-c550b5715120f08b5624.mp3": {
+      "sha256": "edd54d238d07656521bb36bd4a3ce9eb3bdc3200424791b0bc858371a81a81f1",
+      "decodedSeconds": 1.985306,
+      "peak": 11722,
+      "rms": 1965.7,
+      "status": "passed"
+    },
+    "hamilton-c59c0a159e1dca197bbe.mp3": {
+      "sha256": "a199ef81c4743298777e48cba0baf182e69989a9cb9c6f7c62ce64912f553d5f",
+      "decodedSeconds": 1.802449,
+      "peak": 11482,
+      "rms": 1919.76,
+      "status": "passed"
+    },
+    "hamilton-cb2b7f9ec75118610d1f.mp3": {
+      "sha256": "2283c87d985dee743cc747de253602bb4b07a85194d046a11236808c442a293f",
+      "decodedSeconds": 2.403265,
+      "peak": 11941,
+      "rms": 2043.85,
+      "status": "passed"
+    },
+    "hamilton-ce6240239c7baa94d053.mp3": {
+      "sha256": "5ef8d8662565298041f96b457d2688df45d47bbfe696031098c79409779d5b7f",
+      "decodedSeconds": 2.873469,
+      "peak": 11076,
+      "rms": 1720.58,
+      "status": "passed"
+    },
+    "hamilton-d05e94eb5ef369df02e9.mp3": {
+      "sha256": "735b1740b633fb5b7f44551a004c15bdbed1f530cb2bcfeb7f935759c11decf9",
+      "decodedSeconds": 5.851429,
+      "peak": 15225,
+      "rms": 2722.02,
+      "status": "passed"
+    },
+    "hamilton-d3835efe6ee13e8e2f65.mp3": {
+      "sha256": "f9bb573926476ea265f61e485e5bcbd3eb3e96da546e4328a04ee3e4be78ff64",
+      "decodedSeconds": 2.951837,
+      "peak": 12503,
+      "rms": 2421.91,
+      "status": "passed"
+    },
+    "hamilton-d47c0113b2566e90b8fc.mp3": {
+      "sha256": "8de875fc82b2b6e44a0c1004852893b6d9051270e6bcf8fc932ec5d446584095",
+      "decodedSeconds": 1.854694,
+      "peak": 5909,
+      "rms": 980.54,
+      "status": "passed"
+    },
+    "hamilton-d8b2e6b397a0f4afe536.mp3": {
+      "sha256": "dda6a94efdbb0e17e82cf488b350e4494b616871f3dd4af9fe427fa6626a07f3",
+      "decodedSeconds": 2.873469,
+      "peak": 15259,
+      "rms": 1918.79,
+      "status": "passed"
+    },
+    "hamilton-dae7567f8644eb2fa80e.mp3": {
+      "sha256": "76a86ce5e012350cbd54c49ae036a839e6dbb11c043d69d3449217b8bab72b5a",
+      "decodedSeconds": 2.690612,
+      "peak": 13890,
+      "rms": 2413.12,
+      "status": "passed"
+    },
+    "hamilton-e0ad920cb52aaa24c17f.mp3": {
+      "sha256": "490c1da910148c3e4451ad1d0d57c86d250f0e0d5cabcee064c3d668b6137b6d",
+      "decodedSeconds": 2.037551,
+      "peak": 10567,
+      "rms": 1697.26,
+      "status": "passed"
+    },
+    "hamilton-e0b7e3ad566d20cb2133.mp3": {
+      "sha256": "131c6ddab81191f7d5c5aecdde091d850fea8f00f2885068d8151537a367d098",
+      "decodedSeconds": 4.075102,
+      "peak": 13222,
+      "rms": 1917.28,
+      "status": "passed"
+    },
+    "hamilton-eb6421ec80933da3e49b.mp3": {
+      "sha256": "72becc45c0aaff4b8a9da157f580fcdb7b1f4800225058033a7b711caadca82a",
+      "decodedSeconds": 0.966531,
+      "peak": 17361,
+      "rms": 3068.77,
+      "status": "passed"
+    },
+    "hamilton-ec11203f130ce6d7e3af.mp3": {
+      "sha256": "2cce8a54275791b6c0bdce1211a7dbbcd240853bf0ab8c0fab29031424e2d533",
+      "decodedSeconds": 2.586122,
+      "peak": 10197,
+      "rms": 2202.61,
+      "status": "passed"
+    },
+    "hamilton-ecec6644aad4e9525911.mp3": {
+      "sha256": "28a66d692bbb1ed3e30a8fcbf6f29f37833590562f917dcaeb933488055b3882",
+      "decodedSeconds": 1.436735,
+      "peak": 5915,
+      "rms": 1055.54,
+      "status": "passed"
+    },
+    "hamilton-ed0e4b1f259767934806.mp3": {
+      "sha256": "dcfeb7e6d6d740f50cf5f7f776b9db75ca41fab5b893b0c0000dc87b4df75eb8",
+      "decodedSeconds": 3.108571,
+      "peak": 18490,
+      "rms": 2515.82,
+      "status": "passed"
+    },
+    "hamilton-ef9011a38c3c5e19973d.mp3": {
+      "sha256": "2e04fa2f3551ba6bc5deab1437fc0bd9afb8861cf26a5f792dad28c89bb07331",
+      "decodedSeconds": 1.48898,
+      "peak": 10984,
+      "rms": 2475.1,
+      "status": "passed"
+    },
+    "hamilton-f00227d2d943823442fc.mp3": {
+      "sha256": "0cea073b2c633d06bf5ea1afc1c28b571d0dad8517a6e31813005e6b02eb38fc",
+      "decodedSeconds": 2.115918,
+      "peak": 11871,
+      "rms": 2037.71,
+      "status": "passed"
+    },
+    "hamilton-ff28366171717c489c0a.mp3": {
+      "sha256": "096468ba58ec958f4f3af35e983c0404108b64143558e8e031778b44a31d2360",
+      "decodedSeconds": 3.239184,
+      "peak": 12231,
+      "rms": 2216.48,
+      "status": "passed"
+    },
+    "lafayette-2ce436b7e32897cc7ae6.mp3": {
+      "sha256": "82b69f39964422b98b861262a9b3e609d2968b4bc1d6a91edabc2b2a5ec2a11a",
+      "decodedSeconds": 6.687347,
+      "peak": 10721,
+      "rms": 1244.52,
+      "status": "passed"
+    },
+    "lafayette-44d91bfb59c998b02e37.mp3": {
+      "sha256": "fe1d8c409eacedb79b5245d757553b5f7d716e9acfff2408da81fd580189aad1",
+      "decodedSeconds": 4.493061,
+      "peak": 11816,
+      "rms": 1478.91,
+      "status": "passed"
+    },
+    "lafayette-6203f1bdd9c6351a9e23.mp3": {
+      "sha256": "b3b0a173039c38a3e117c41b7aebd33ebb40813a761e85298d751175f006af52",
+      "decodedSeconds": 5.616327,
+      "peak": 15830,
+      "rms": 1785.15,
+      "status": "passed"
+    },
+    "lafayette-98a29a46e998c8327ccd.mp3": {
+      "sha256": "1823c65637e18c8de5f4b9b15a0b885b9027268a94c75be349db62a258f359b7",
+      "decodedSeconds": 9.456327,
+      "peak": 11947,
+      "rms": 1271.86,
+      "status": "passed"
+    },
+    "lafayette-e80af881fc5c66e47fe6.mp3": {
+      "sha256": "4982559de0259b9dcaf4d2abbe08da8ff0bf79243171b0e8f097c7df0f73b035",
+      "decodedSeconds": 7.967347,
+      "peak": 11453,
+      "rms": 1522.67,
+      "status": "passed"
+    },
+    "laurens-81c3adca3a050055bcc4.mp3": {
+      "sha256": "4fa762ea719de9a3b59eb8e297637c6703554bbdd6522b8419fb6ac17fc7fe12",
+      "decodedSeconds": 6.687347,
+      "peak": 13000,
+      "rms": 2167.1,
+      "status": "passed"
+    },
+    "laurens-a8a876ee0bfd246d7b06.mp3": {
+      "sha256": "e6ea271df0f7e79aaa245efd84e5d9506736d049682f4f1718e1b1ce31dd6c32",
+      "decodedSeconds": 6.817959,
+      "peak": 16975,
+      "rms": 1912.7,
+      "status": "passed"
+    },
+    "laurens-b63c4d326eba38a6e888.mp3": {
+      "sha256": "1c400a4a7bf4d44fc69e40e3a2eea3e3312ea2e058ce749262a41174747fbcaa",
+      "decodedSeconds": 6.870204,
+      "peak": 12176,
+      "rms": 1532.16,
+      "status": "passed"
+    },
+    "laurens-d1571347664fc70780ea.mp3": {
+      "sha256": "5683e3e96dcd54121662988e46f905c9518e01917ffeac4768c2d8be79c39a3b",
+      "decodedSeconds": 3.186939,
+      "peak": 12184,
+      "rms": 1472.8,
+      "status": "passed"
+    },
+    "laurens-d3907cd9faf65be38cda.mp3": {
+      "sha256": "b13b4a9145d9f9346c93c4aa32d101326632d3c99d4361a47f79316f5c2fde7f",
+      "decodedSeconds": 5.616327,
+      "peak": 17860,
+      "rms": 2433.38,
+      "status": "passed"
+    },
+    "laurens-fe181bc8d7a1fb9aa74d.mp3": {
+      "sha256": "aea4d3543bbb31fdb776d8f9b7ddabf77ebb39ec0e9b510d8e8fb7afef9ea5f0",
+      "decodedSeconds": 8.907755,
+      "peak": 11686,
+      "rms": 1786.27,
+      "status": "passed"
+    },
+    "mulligan-3327a9cec04bdd135883.mp3": {
+      "sha256": "24e46f24c26c853f1290adf77609dac9adfe6cca2f13c2373be268c517d6db40",
+      "decodedSeconds": 4.493061,
+      "peak": 16192,
+      "rms": 2038.0,
+      "status": "passed"
+    },
+    "mulligan-9488044dc0534b5ce7e9.mp3": {
+      "sha256": "f12268a94f79f6618475878dea0d5fcc64905597b742fe8a518d210c5b368082",
+      "decodedSeconds": 4.858776,
+      "peak": 21697,
+      "rms": 3190.86,
+      "status": "passed"
+    },
+    "mulligan-ace3178f3f83ed183a10.mp3": {
+      "sha256": "f78578d963eb4afe81ffa27bd4996907990f50e38cf21418e2951105827e0bbf",
+      "decodedSeconds": 6.269388,
+      "peak": 14591,
+      "rms": 2389.86,
+      "status": "passed"
+    },
+    "mulligan-ed06dce76628368ffc66.mp3": {
+      "sha256": "2e086a2b3c61a40525f3931d3a9699abb669797e97eefba11f1dafde387abe41",
+      "decodedSeconds": 3.657143,
+      "peak": 15927,
+      "rms": 2111.32,
+      "status": "passed"
+    },
+    "mulligan-febd3a2a18af25fb1307.mp3": {
+      "sha256": "23d75fdc4f4c61c89ba9dab3373aa4a156fe21f80ebf4012151616b6e5c822ed",
+      "decodedSeconds": 7.183673,
+      "peak": 13907,
+      "rms": 1654.88,
+      "status": "passed"
+    },
+    "narrator-027df2c3f2234918410f.mp3": {
+      "sha256": "ddbdde2fec2f850ce28c234c6f98ba41ddfea7a407bd4fc8119d998fa9d89329",
+      "decodedSeconds": 7.288163,
+      "peak": 15816,
+      "rms": 1971.72,
+      "status": "passed"
+    },
+    "narrator-036b6a5d0d13d104d48c.mp3": {
+      "sha256": "ad8768dc01bff71d76b9070bd43a9d7b8f5dc99cfa5fdbd98cf67bcfe72ce999",
+      "decodedSeconds": 7.653878,
+      "peak": 16680,
+      "rms": 2104.66,
+      "status": "passed"
+    },
+    "narrator-05f23ef6087a113b91be.mp3": {
+      "sha256": "ae4398606ef2be11df5d94260d4230d67fa66d9b93c01846da493f5e8ec9b4a7",
+      "decodedSeconds": 4.780408,
+      "peak": 18291,
+      "rms": 2436.11,
+      "status": "passed"
+    },
+    "narrator-068f7025614b1f0aab99.mp3": {
+      "sha256": "fc038bf87272d39e23a29b31d40c5791bb64f3c23a5f119d63ae8cbb65153765",
+      "decodedSeconds": 4.257959,
+      "peak": 22694,
+      "rms": 2166.48,
+      "status": "passed"
+    },
+    "narrator-095aaa8e7e43df0333a5.mp3": {
+      "sha256": "69fbd1561af0915e1457d6d43382dcd5d85731ce6c75d835943d58333fd971f6",
+      "decodedSeconds": 1.201633,
+      "peak": 13216,
+      "rms": 1726.48,
+      "status": "passed"
+    },
+    "narrator-0b4dd0797addb5e783db.mp3": {
+      "sha256": "0f7b57e9292f44e56e9534d959d6b5c5a35eb06f64ac0841cf707bd21cb50d57",
+      "decodedSeconds": 15.960816,
+      "peak": 18192,
+      "rms": 1991.32,
+      "status": "passed"
+    },
+    "narrator-0bd3c1393055be196b94.mp3": {
+      "sha256": "b6891c362262af58410747c5a6d586489fcb35a02f49596bac08d88799ff2d59",
+      "decodedSeconds": 6.347755,
+      "peak": 16185,
+      "rms": 2182.1,
+      "status": "passed"
+    },
+    "narrator-0cf49baa57f91d582eb3.mp3": {
+      "sha256": "4c0de260ec640fb8360b5ec1ba4862aad50fccc6d46d4abeeee6592ce86aa336",
+      "decodedSeconds": 7.418776,
+      "peak": 17897,
+      "rms": 2054.0,
+      "status": "passed"
+    },
+    "narrator-0d13234242a27f5b85a0.mp3": {
+      "sha256": "fbffc7afeb61ae8967514a0a22781b0c3c32405884653ce8c604dc8be103afad",
+      "decodedSeconds": 4.91102,
+      "peak": 24430,
+      "rms": 2172.13,
+      "status": "passed"
+    },
+    "narrator-0eb79ddf88ff67ccb70d.mp3": {
+      "sha256": "cfcbe9c54670290a475c20cee0baa2d8f04f6ac6545fecb521a1187a01bac673",
+      "decodedSeconds": 1.515102,
+      "peak": 16967,
+      "rms": 2111.13,
+      "status": "passed"
+    },
+    "narrator-0eb8fe42706ce273eb29.mp3": {
+      "sha256": "da8137a6a284c9abe0caa7ca59d4a0969b6dd047002e46a0e4f870a2c8960852",
+      "decodedSeconds": 6.948571,
+      "peak": 16612,
+      "rms": 2048.03,
+      "status": "passed"
+    },
+    "narrator-0f11872cafd42cb14ca7.mp3": {
+      "sha256": "aacfb55f09d2e78572cd56510ab943870b9c6df7ad0aca8905e0766e5c7cc99c",
+      "decodedSeconds": 4.623673,
+      "peak": 15846,
+      "rms": 2255.79,
+      "status": "passed"
+    },
+    "narrator-0f8fb169b387fb6f3452.mp3": {
+      "sha256": "e3a3d97a06eb8931b436c55614bf8fc1a7596001ae0a96fb7070c0aca698f384",
+      "decodedSeconds": 7.758367,
+      "peak": 18973,
+      "rms": 2131.6,
+      "status": "passed"
+    },
+    "narrator-0f989d9653938d922397.mp3": {
+      "sha256": "faac8376919313e2302622bde95ceaccdb387551371b83a5a33d698a6e051c46",
+      "decodedSeconds": 7.47102,
+      "peak": 19315,
+      "rms": 2067.01,
+      "status": "passed"
+    },
+    "narrator-0ff13453e426a433727c.mp3": {
+      "sha256": "38086635c7009e48908f0181483fb82d1e562e7ce8d59550115fa769399c5223",
+      "decodedSeconds": 1.933061,
+      "peak": 20628,
+      "rms": 2467.72,
+      "status": "passed"
+    },
+    "narrator-1012ad00e41af3bf9a51.mp3": {
+      "sha256": "4eaa54779c371ee94b762eb927ea8a63dc8d6cfbcc756d866fbb2d4c5997d64b",
+      "decodedSeconds": 7.78449,
+      "peak": 18843,
+      "rms": 2103.29,
+      "status": "passed"
+    },
+    "narrator-102955fdf60d024b5909.mp3": {
+      "sha256": "f8f3cedc59b8bc99eac1b0a372be780dc95a2c9c47b4a56fd776df68e31027a8",
+      "decodedSeconds": 5.668571,
+      "peak": 14725,
+      "rms": 2202.77,
+      "status": "passed"
+    },
+    "narrator-138983098a4561dc7b66.mp3": {
+      "sha256": "6a7c51bbe0b1e6e094f537711775438ab142982e3e059c4001a8ce2eeede3a3c",
+      "decodedSeconds": 7.601633,
+      "peak": 18385,
+      "rms": 2123.18,
+      "status": "passed"
+    },
+    "narrator-14097a3fc2c534b75d4f.mp3": {
+      "sha256": "4caa5fa5ace98352c094a40bad6e5b511119cd02d6dc0b8fb7ac60438fe5dafd",
+      "decodedSeconds": 7.706122,
+      "peak": 19374,
+      "rms": 2098.22,
+      "status": "passed"
+    },
+    "narrator-140c5168d71fb8d25be7.mp3": {
+      "sha256": "0783e7f97b8dd7995ea34cf51c4ebfe9c10d4060c85d543c334d420ac9154331",
+      "decodedSeconds": 7.601633,
+      "peak": 15877,
+      "rms": 2133.83,
+      "status": "passed"
+    },
+    "narrator-146949d9ce6996862704.mp3": {
+      "sha256": "be6a1c05e89567913a3a6846bb16408f10fb2df4db555e09335d7d4b9c2e8397",
+      "decodedSeconds": 4.780408,
+      "peak": 15865,
+      "rms": 2405.76,
+      "status": "passed"
+    },
+    "narrator-1469d2c5704825f4db3a.mp3": {
+      "sha256": "f42057a032c96588755ba14d6245bc369849f3e8082c661b9fafeb9b7987cf38",
+      "decodedSeconds": 5.093878,
+      "peak": 13602,
+      "rms": 2209.71,
+      "status": "passed"
+    },
+    "narrator-152e979eec80b3fda685.mp3": {
+      "sha256": "c76e18e650d93c78a8686667af8ebf42b3c81eb3b00e3dce8aea7e62d99b0eb5",
+      "decodedSeconds": 7.549388,
+      "peak": 18429,
+      "rms": 2255.43,
+      "status": "passed"
+    },
+    "narrator-1548f2546cc3d91a12e0.mp3": {
+      "sha256": "d33a47737c9bb179de2e0192d43c16742413a14c2e8877689b8e9faec214ffbc",
+      "decodedSeconds": 15.882449,
+      "peak": 17713,
+      "rms": 2110.77,
+      "status": "passed"
+    },
+    "narrator-186e0d28ef9f44d10922.mp3": {
+      "sha256": "dccda7466515de727ad003209a05ef93d1e4af3d502c7294c3fe5cee7b1e657f",
+      "decodedSeconds": 6.164898,
+      "peak": 14751,
+      "rms": 2085.38,
+      "status": "passed"
+    },
+    "narrator-1a67f0030f6ab637bd39.mp3": {
+      "sha256": "7597272bbc0ab1902917a9d8b1e91000f72f9ea75565541cb5c5ef254560f9b6",
+      "decodedSeconds": 3.709388,
+      "peak": 17466,
+      "rms": 1973.57,
+      "status": "passed"
+    },
+    "narrator-1ab45816c75807385f81.mp3": {
+      "sha256": "b19b5c568de42c918f349a61c1787bdebdfdfb1dc6a32a36702d9db98cda0ee6",
+      "decodedSeconds": 4.414694,
+      "peak": 15763,
+      "rms": 2344.79,
+      "status": "passed"
+    },
+    "narrator-1b95b40c5b2db7426b58.mp3": {
+      "sha256": "fb3ec617f33d3295bf6fe7c1df77cd7e54d920cfa8dac7619f2c0a15d5a290ea",
+      "decodedSeconds": 7.235918,
+      "peak": 16695,
+      "rms": 2172.44,
+      "status": "passed"
+    },
+    "narrator-1c86c8fe03b41459ab14.mp3": {
+      "sha256": "27439a0c3e780983a4258e87e7c8df5b283cc72acc7af35b08683f0dc0860d32",
+      "decodedSeconds": 3.291429,
+      "peak": 18340,
+      "rms": 2230.09,
+      "status": "passed"
+    },
+    "narrator-1e7634c688625f713af0.mp3": {
+      "sha256": "eb4e5b349a1c0fb1a1e9fd2f87c26707d997266a6b7dba8a060d588d6b4aadbb",
+      "decodedSeconds": 3.84,
+      "peak": 20995,
+      "rms": 2029.1,
+      "status": "passed"
+    },
+    "narrator-1fe680b96cc1b64c771b.mp3": {
+      "sha256": "ef9462a27884ac7f9dd50f9452f94ec5e5f25295d80c26a671bb21c45d32c542",
+      "decodedSeconds": 5.851429,
+      "peak": 15417,
+      "rms": 2122.51,
+      "status": "passed"
+    },
+    "narrator-1febeca234a22da38a46.mp3": {
+      "sha256": "dc09d84ff0042d7713785377f006201eeef5cd939d1bf583c8138cab585a40af",
+      "decodedSeconds": 1.671837,
+      "peak": 20243,
+      "rms": 2258.34,
+      "status": "passed"
+    },
+    "narrator-21149238e2cad05f9267.mp3": {
+      "sha256": "042ad37be9870666fa4682c4954317722aa721b26bdd4121289a90fdaf40843d",
+      "decodedSeconds": 7.78449,
+      "peak": 18422,
+      "rms": 2136.67,
+      "status": "passed"
+    },
+    "narrator-2158fc07a35d53af1765.mp3": {
+      "sha256": "9e02d29a175076d03ffe9eb2786c90561ff8f408d4377b68e69ea376b72bc0c8",
+      "decodedSeconds": 3.291429,
+      "peak": 17319,
+      "rms": 2050.87,
+      "status": "passed"
+    },
+    "narrator-2163dc595f844c1baaa0.mp3": {
+      "sha256": "c602930d3a9dea899bb551581aede5fec90f190e80bb67d724ac48f716217d03",
+      "decodedSeconds": 6.687347,
+      "peak": 21739,
+      "rms": 2265.49,
+      "status": "passed"
+    },
+    "narrator-2232c568b70fc06cd8be.mp3": {
+      "sha256": "50843258b8319d51e5074532c3278ac14f5d8d6fba0b63995194969bda4a2b70",
+      "decodedSeconds": 5.929796,
+      "peak": 17205,
+      "rms": 2178.9,
+      "status": "passed"
+    },
+    "narrator-22504c1d93cc19d90a23.mp3": {
+      "sha256": "acfea3619af8b3f83cf2cdeb9dd4bde55f8690856393b69e09fde027210cdc18",
+      "decodedSeconds": 6.29551,
+      "peak": 15503,
+      "rms": 2149.2,
+      "status": "passed"
+    },
+    "narrator-22506dbd0f8daf92185a.mp3": {
+      "sha256": "368036fb889b43b93471dab3fd30c968f48b36b3f1f8c54448e5ca8566f9d44b",
+      "decodedSeconds": 7.105306,
+      "peak": 17914,
+      "rms": 2217.53,
+      "status": "passed"
+    },
+    "narrator-2269e4b26a3ce7e7c591.mp3": {
+      "sha256": "6838ef918b48ef935f59f16c86540d700824805c814aed9e489e7fee00cf9641",
+      "decodedSeconds": 6.635102,
+      "peak": 21297,
+      "rms": 2124.93,
+      "status": "passed"
+    },
+    "narrator-22adca428547cd417a20.mp3": {
+      "sha256": "906a39c09de6216d282ee799f57f4a9d22f912067504017f83b84437dff55897",
+      "decodedSeconds": 6.948571,
+      "peak": 17141,
+      "rms": 2091.1,
+      "status": "passed"
+    },
+    "narrator-22c6ff9c55d30a019f9b.mp3": {
+      "sha256": "f211219c302942885bbce107dfdb654bd2a93216ca08e012d58269989a8a5791",
+      "decodedSeconds": 7.288163,
+      "peak": 19164,
+      "rms": 1993.5,
+      "status": "passed"
+    },
+    "narrator-24783ca5f44b2de8cb8d.mp3": {
+      "sha256": "2864427f61186d143d98925f6808af32008f24b450ef97276b4975db0c46de6e",
+      "decodedSeconds": 5.877551,
+      "peak": 16750,
+      "rms": 2142.79,
+      "status": "passed"
+    },
+    "narrator-250a08ed7442fe713ba8.mp3": {
+      "sha256": "943a7bbcb332f3b19f5a82a92c8153dc97453f1318b782b91dd676cb56698816",
+      "decodedSeconds": 7.47102,
+      "peak": 16990,
+      "rms": 2084.05,
+      "status": "passed"
+    },
+    "narrator-26d0a4f724e0980a72ee.mp3": {
+      "sha256": "94f6a3f5b69b75d910ce381c3829c903fb4b74565d8a91fb493256356fc41a00",
+      "decodedSeconds": 4.623673,
+      "peak": 15527,
+      "rms": 2450.38,
+      "status": "passed"
+    },
+    "narrator-2873318d8d4dd1a395af.mp3": {
+      "sha256": "02aaf3c65bc31f028e09782643deb77f94f19e37ade2c1c423f393a7ed81a08f",
+      "decodedSeconds": 4.623673,
+      "peak": 13781,
+      "rms": 2291.23,
+      "status": "passed"
+    },
+    "narrator-2939eb8ee8fec1f46a63.mp3": {
+      "sha256": "6672397cda166666573d12e551ad0490cee9261eb31deb82e459f8bc3b549f8c",
+      "decodedSeconds": 4.675918,
+      "peak": 16435,
+      "rms": 2160.17,
+      "status": "passed"
+    },
+    "narrator-2bd1027171817d99f717.mp3": {
+      "sha256": "125e8a2eb794a8d741295ec1e2410c26aee9ca2c4dd8778ec45cf4143f25b968",
+      "decodedSeconds": 7.836735,
+      "peak": 17883,
+      "rms": 2120.87,
+      "status": "passed"
+    },
+    "narrator-2d30b70379de2f69fbc6.mp3": {
+      "sha256": "b5fbde4165492b602a925462486ddc1d7138f33712af6a085142698cf1af27a8",
+      "decodedSeconds": 7.340408,
+      "peak": 20793,
+      "rms": 2173.91,
+      "status": "passed"
+    },
+    "narrator-2e921ab93cfc22225f30.mp3": {
+      "sha256": "705c34c10ef9cf431aa1ddbb5d45caf81f16afba883d4612ab142299cc4cd474",
+      "decodedSeconds": 4.623673,
+      "peak": 12603,
+      "rms": 2294.75,
+      "status": "passed"
+    },
+    "narrator-2fe455cb78ee6221d2c0.mp3": {
+      "sha256": "b5c97f1f39af922d11c063076f64c9d61496b3f84fc6c7818a72a9f5d7f99f2b",
+      "decodedSeconds": 7.653878,
+      "peak": 17376,
+      "rms": 2116.04,
+      "status": "passed"
+    },
+    "narrator-32fe08de19750269d59b.mp3": {
+      "sha256": "112b883f0761bb2766b255735dbd1a38ee9b1bb38471fd1014341e5b15b41dbf",
+      "decodedSeconds": 7.836735,
+      "peak": 15796,
+      "rms": 2120.14,
+      "status": "passed"
+    },
+    "narrator-35ce1ea000dadcd22d98.mp3": {
+      "sha256": "3ffdd7fb3c785b61181210b05c96f38233b9ae70cb5ea39a6c25488b4e1cb968",
+      "decodedSeconds": 7.758367,
+      "peak": 19385,
+      "rms": 2058.85,
+      "status": "passed"
+    },
+    "narrator-360c7f2864fe20833ac1.mp3": {
+      "sha256": "0e254b3e1078473f9fa69de7ed550cc00797be6bf2c5c0bd0d755704079965c2",
+      "decodedSeconds": 7.523265,
+      "peak": 15988,
+      "rms": 2021.19,
+      "status": "passed"
+    },
+    "narrator-38e21818aab74754fcea.mp3": {
+      "sha256": "8955e7fd5325c89b3f418fd14584694a9a178d63d2c0efe786f47a60d586d952",
+      "decodedSeconds": 9.795918,
+      "peak": 19339,
+      "rms": 2069.56,
+      "status": "passed"
+    },
+    "narrator-39fcbcaf87bf6f6cb775.mp3": {
+      "sha256": "51463299df76fd11e4abcf6a116ae94a367fbd043e399aa64f4d0d0e33a9a55d",
+      "decodedSeconds": 7.523265,
+      "peak": 18041,
+      "rms": 2127.59,
+      "status": "passed"
+    },
+    "narrator-3ad0349f83db9ea80422.mp3": {
+      "sha256": "15e6b596683047ebe9879263ee1009f784e602a17d82ac86ce56a0d0a2412025",
+      "decodedSeconds": 7.418776,
+      "peak": 16545,
+      "rms": 2049.85,
+      "status": "passed"
+    },
+    "narrator-3d94bbe2358f938b1707.mp3": {
+      "sha256": "124a9c0d2e0bbcf6d6dad6e11df567e8928cf8e4f9377a91f83701a110a62ea6",
+      "decodedSeconds": 6.817959,
+      "peak": 18290,
+      "rms": 2148.83,
+      "status": "passed"
+    },
+    "narrator-3de15a5e33f7e7b06aae.mp3": {
+      "sha256": "2a6cf6eb3805b1a14ed3052c20873e65ab4a589fc97d298c43a7575631a38969",
+      "decodedSeconds": 7.549388,
+      "peak": 16225,
+      "rms": 2120.29,
+      "status": "passed"
+    },
+    "narrator-3e9a27c78f562add09e3.mp3": {
+      "sha256": "7229c2e684445a041ba2c123184edd146fbcd7878df6a6bb436b53efb1195218",
+      "decodedSeconds": 6.086531,
+      "peak": 17698,
+      "rms": 2268.64,
+      "status": "passed"
+    },
+    "narrator-3f842c70e73429922c33.mp3": {
+      "sha256": "1eb528f9923e8719beccf0ec31f32c18f1f19372641b7ee25b9ec8fb1699e3b1",
+      "decodedSeconds": 7.706122,
+      "peak": 17493,
+      "rms": 2161.29,
+      "status": "passed"
+    },
+    "narrator-3f949738e3ec7101bdc7.mp3": {
+      "sha256": "e9bef9f30b8101455934451867ee7d08f0d02958cc9de30bdafa6ff20c184239",
+      "decodedSeconds": 7.706122,
+      "peak": 14482,
+      "rms": 2009.21,
+      "status": "passed"
+    },
+    "narrator-4014c5a00df79f586b0a.mp3": {
+      "sha256": "87a1a6a09ee052140b49c1287b7a95d56e4b932470f8815511be834dc59bd893",
+      "decodedSeconds": 5.746939,
+      "peak": 15679,
+      "rms": 2155.64,
+      "status": "passed"
+    },
+    "narrator-405728652f4146b1597f.mp3": {
+      "sha256": "a9378dda78689e59d8818e7958ee864d168e5fdf4107a8f45f86bffd1d9b942a",
+      "decodedSeconds": 2.507755,
+      "peak": 18446,
+      "rms": 2101.07,
+      "status": "passed"
+    },
+    "narrator-42fd403763dc52b05653.mp3": {
+      "sha256": "f5de72c08ac0cf27803a81320cee58183fe1d3893741ac786f23163c32ec8e36",
+      "decodedSeconds": 4.832653,
+      "peak": 14084,
+      "rms": 2299.78,
+      "status": "passed"
+    },
+    "narrator-438d657c07200038d96c.mp3": {
+      "sha256": "0d01fe3fd9cd4722d77fb193ec359aea2d22336d27210aee7f38261f8c720407",
+      "decodedSeconds": 2.35102,
+      "peak": 17532,
+      "rms": 2245.22,
+      "status": "passed"
+    },
+    "narrator-4676a6168ffc4d817a9e.mp3": {
+      "sha256": "25f8e0ad7731d5d38d2c902222c7fa5a7db4d0393fc1e399c3c80f35340971f7",
+      "decodedSeconds": 7.836735,
+      "peak": 16405,
+      "rms": 2253.5,
+      "status": "passed"
+    },
+    "narrator-4861af4d34db4767ad98.mp3": {
+      "sha256": "594f7dcbd214dda732240f3f66aeaa066fe3c6bc44107074bb3d713d4e894473",
+      "decodedSeconds": 7.523265,
+      "peak": 20757,
+      "rms": 2180.09,
+      "status": "passed"
+    },
+    "narrator-48ef2b62514fe7c4026f.mp3": {
+      "sha256": "864a4c9d8f4cd4b7436ecd435ea683ebedf6086d1203a82f6246fb7772a4e796",
+      "decodedSeconds": 7.340408,
+      "peak": 19741,
+      "rms": 2257.36,
+      "status": "passed"
+    },
+    "narrator-49feeba3f27d3e61af71.mp3": {
+      "sha256": "34ae6ff54c3503cb00cb1f2e677dae31ab73f48b57d92fb2fc35dd2b49ca552c",
+      "decodedSeconds": 10.997551,
+      "peak": 17186,
+      "rms": 2144.21,
+      "status": "passed"
+    },
+    "narrator-4a41976c621596309984.mp3": {
+      "sha256": "5bc312b949453625992064516272f08135e1c80abcd4a2c326ef9607dafa7789",
+      "decodedSeconds": 5.694694,
+      "peak": 16300,
+      "rms": 2132.07,
+      "status": "passed"
+    },
+    "narrator-4cd854e6ca599ec2413b.mp3": {
+      "sha256": "5f8ffceda59df3fe1405dcfbb18798cf2fb831d31feeee146c68cf382ae93a43",
+      "decodedSeconds": 7.706122,
+      "peak": 18250,
+      "rms": 2187.18,
+      "status": "passed"
+    },
+    "narrator-4dd04b1bd1275c515920.mp3": {
+      "sha256": "474d0ea538003851766be1d2f6e1c706a04f506fc1dc9cff72d1750a862c55b2",
+      "decodedSeconds": 7.549388,
+      "peak": 17494,
+      "rms": 2087.87,
+      "status": "passed"
+    },
+    "narrator-4eb968b8ff69481fa4c8.mp3": {
+      "sha256": "8db8ef149439612ce702fe5799318994bd3e0ffe793162013f5502f35fe0be0d",
+      "decodedSeconds": 5.32898,
+      "peak": 18556,
+      "rms": 2131.73,
+      "status": "passed"
+    },
+    "narrator-50cf3bc770932de11c57.mp3": {
+      "sha256": "ae9de5b422810c94d2a89d86092bf9993fadba4f75c40131985a79738b512d0e",
+      "decodedSeconds": 6.164898,
+      "peak": 17993,
+      "rms": 2224.67,
+      "status": "passed"
+    },
+    "narrator-52bdaac6460ff00fbd9b.mp3": {
+      "sha256": "5cd643f3354ae5dbe4159075da1910ad71bb748a4277e77db93389f0fc395fe3",
+      "decodedSeconds": 5.041633,
+      "peak": 22708,
+      "rms": 2203.98,
+      "status": "passed"
+    },
+    "narrator-5448019dc352c4df001f.mp3": {
+      "sha256": "d4f1b31fcdf130092cf9bd58939cca6a15f4f5353d39940cbf8bf84898eb81ec",
+      "decodedSeconds": 7.366531,
+      "peak": 17548,
+      "rms": 2182.09,
+      "status": "passed"
+    },
+    "narrator-55639415e562eedddd18.mp3": {
+      "sha256": "90bc78a32e0241c3a54a0d15bccb0a70db6c42dd51bf08cd229395e47fb4817d",
+      "decodedSeconds": 4.310204,
+      "peak": 15440,
+      "rms": 2268.94,
+      "status": "passed"
+    },
+    "narrator-5792280aca3f27a2d3a7.mp3": {
+      "sha256": "f2def39dd8b51c81895204f14839e92dcc9a8abfb6fd4bce3ad183d746b4d58e",
+      "decodedSeconds": 5.198367,
+      "peak": 19924,
+      "rms": 2005.05,
+      "status": "passed"
+    },
+    "narrator-57ae27adcf25e1143477.mp3": {
+      "sha256": "41ec960408e2769ea79f622619fa59c6f700f5e5fdaec1053e5668540470f611",
+      "decodedSeconds": 3.604898,
+      "peak": 15712,
+      "rms": 2176.55,
+      "status": "passed"
+    },
+    "narrator-58858b4788934f5db2e5.mp3": {
+      "sha256": "4488c989f6416a2c8dbb522b9a67f2f61ab10a9fac4b81a16593f224b20ca900",
+      "decodedSeconds": 5.250612,
+      "peak": 16471,
+      "rms": 2174.36,
+      "status": "passed"
+    },
+    "narrator-5985bba71a73335419f1.mp3": {
+      "sha256": "35983eb02d15abe52438d3b7baebc67d54e2d6530325dc5ec9e4d1949ca71303",
+      "decodedSeconds": 5.668571,
+      "peak": 17243,
+      "rms": 2207.04,
+      "status": "passed"
+    },
+    "narrator-5aceeb079cd530fc07ba.mp3": {
+      "sha256": "702900ebc40b996fe2197c94adcecdb9ced02eb23b46a0230597919288107399",
+      "decodedSeconds": 18.337959,
+      "peak": 16724,
+      "rms": 2013.4,
+      "status": "passed"
+    },
+    "narrator-5cda265f316e0752a893.mp3": {
+      "sha256": "04c8985061cb67fcbe5504dd2f5d1caec6e9f27c36bffe2bf2384f2a74b13f46",
+      "decodedSeconds": 3.84,
+      "peak": 18436,
+      "rms": 2131.86,
+      "status": "passed"
+    },
+    "narrator-5d5ad5de5cf0a0a7c27c.mp3": {
+      "sha256": "96e47f9b3b64e783cdd603b5a183c5bae3fbda6e036e1f46625d6ddde373a495",
+      "decodedSeconds": 7.523265,
+      "peak": 17812,
+      "rms": 2282.42,
+      "status": "passed"
+    },
+    "narrator-5d750b92337915ec86c9.mp3": {
+      "sha256": "149fee77beb126b731b186ac17a6c5d4a7bfc4f96b8ab4b62a0534814ef214e9",
+      "decodedSeconds": 4.440816,
+      "peak": 16549,
+      "rms": 2331.61,
+      "status": "passed"
+    },
+    "narrator-5dcdd1f41a6dc4fed177.mp3": {
+      "sha256": "c52e9338e79be0d1aeb90bc84c47f5ea0ce672972544dbf71a2e1393d35cd001",
+      "decodedSeconds": 5.250612,
+      "peak": 17856,
+      "rms": 1927.53,
+      "status": "passed"
+    },
+    "narrator-5f24fb2ae0257b363cb1.mp3": {
+      "sha256": "eab736424b577d1cb5861a1f9662b371cb241defc4dbe8f6f28fc31d073d3b6b",
+      "decodedSeconds": 4.414694,
+      "peak": 17239,
+      "rms": 2348.88,
+      "status": "passed"
+    },
+    "narrator-62db54298f7ec7e507a3.mp3": {
+      "sha256": "2aaac9c3134e8e0002ff46510c3e9af33deb0051426272bd2016f69d892d6eb6",
+      "decodedSeconds": 7.758367,
+      "peak": 15521,
+      "rms": 2171.68,
+      "status": "passed"
+    },
+    "narrator-63b0c662d4cf853c4d82.mp3": {
+      "sha256": "cee3b5ab7b7bc06679ca852276d2ffce67c9568c9e6ebea7abd5b5fca33250a9",
+      "decodedSeconds": 4.440816,
+      "peak": 16953,
+      "rms": 2098.16,
+      "status": "passed"
+    },
+    "narrator-63c37c3c06b7d1781dc4.mp3": {
+      "sha256": "64252e41089e76f35e068babc645cade4302fd961f6afee5338ea5299a6b6ed5",
+      "decodedSeconds": 7.523265,
+      "peak": 16678,
+      "rms": 2071.23,
+      "status": "passed"
+    },
+    "narrator-63d725980a82fdc1bcc9.mp3": {
+      "sha256": "eab14130da349c0e6d37e3b575ff52cef05cde264b217ac0af7c9aeca3a40c2a",
+      "decodedSeconds": 2.089796,
+      "peak": 16353,
+      "rms": 2080.29,
+      "status": "passed"
+    },
+    "narrator-63d80505ab69a95e9d50.mp3": {
+      "sha256": "13bea208288dd85b6a3f0b96a8cde6036d2b46d316893291d18cb4c71544d20d",
+      "decodedSeconds": 9.273469,
+      "peak": 19539,
+      "rms": 2255.71,
+      "status": "passed"
+    },
+    "narrator-64678a859771216389b5.mp3": {
+      "sha256": "a96af8bb685cd5fecc8ec6ad03ce70d7e8cc775d3efe3e74ddfe4be7e4149ed7",
+      "decodedSeconds": 7.549388,
+      "peak": 13375,
+      "rms": 1949.93,
+      "status": "passed"
+    },
+    "narrator-651f8c2bef35a11d8e65.mp3": {
+      "sha256": "855d1028b576bfa380009fab82652ed0eb860e2e3267e2f449e9df70cf2c9b2b",
+      "decodedSeconds": 11.363265,
+      "peak": 16246,
+      "rms": 2098.06,
+      "status": "passed"
+    },
+    "narrator-67109f87c6069d12e876.mp3": {
+      "sha256": "e3398c45d69bb8328356ab7fdf9dbf5903ec098f90d664c6886da5bed8ad2f67",
+      "decodedSeconds": 6.034286,
+      "peak": 18579,
+      "rms": 2226.27,
+      "status": "passed"
+    },
+    "narrator-697570894da49f47327d.mp3": {
+      "sha256": "6afcb78796736dfa549b7891299178c51ab2f6d6d9222878cf548ef4e1d0d2ee",
+      "decodedSeconds": 5.799184,
+      "peak": 17780,
+      "rms": 1976.31,
+      "status": "passed"
+    },
+    "narrator-6c232ef110c5728c3243.mp3": {
+      "sha256": "e7504ae3683ccd336a84f99c94dc80ebc2a6c21faf746627fa8dc0144a7cf915",
+      "decodedSeconds": 2.45551,
+      "peak": 15582,
+      "rms": 2312.63,
+      "status": "passed"
+    },
+    "narrator-6f24643953e8ef09463b.mp3": {
+      "sha256": "ba8beb363ab84d4248a31f9ca4ef5a7d51eb208041c127b7676d58950a927fdb",
+      "decodedSeconds": 10.292245,
+      "peak": 17464,
+      "rms": 2008.77,
+      "status": "passed"
+    },
+    "narrator-6fa4e660d9b102f39f88.mp3": {
+      "sha256": "709293a057f540def7f9fdb559c3bc7e2d3407d0de8c035fce27188eb756ea58",
+      "decodedSeconds": 7.340408,
+      "peak": 16734,
+      "rms": 2166.58,
+      "status": "passed"
+    },
+    "narrator-70ea589b325959372709.mp3": {
+      "sha256": "f00b913fd4472c9a0c883fec02b524c50caac1b2dd22e212f265d5853c303a9a",
+      "decodedSeconds": 7.235918,
+      "peak": 17071,
+      "rms": 2083.18,
+      "status": "passed"
+    },
+    "narrator-71297ed32a6d3292a81c.mp3": {
+      "sha256": "bec0be85b0353adf7123b49247ba62fca72a261849be909c05775da32e6cfb53",
+      "decodedSeconds": 2.821224,
+      "peak": 14598,
+      "rms": 2294.3,
+      "status": "passed"
+    },
+    "narrator-72cd4b908797e735fd68.mp3": {
+      "sha256": "77d614c90d6b5eb63ff4d704c28ce11e481d9ac2d9fc9c4495e66837bebb3083",
+      "decodedSeconds": 4.623673,
+      "peak": 14170,
+      "rms": 2333.14,
+      "status": "passed"
+    },
+    "narrator-7417099500b84f4da6dc.mp3": {
+      "sha256": "3d9e80810eac2f908406ae9ceecdf63a97be53e7273ad04dd92d9da315dd833f",
+      "decodedSeconds": 4.414694,
+      "peak": 13498,
+      "rms": 2312.4,
+      "status": "passed"
+    },
+    "narrator-75000867e72e23efdb66.mp3": {
+      "sha256": "8834aff8a4df6ff4a25892659cd0a748293640b8de41e531172f9198527e2755",
+      "decodedSeconds": 4.440816,
+      "peak": 14204,
+      "rms": 2416.14,
+      "status": "passed"
+    },
+    "narrator-752624a5e04e988f08a8.mp3": {
+      "sha256": "2632fb0b1f9e599bea278cb123d288d03e3c52402ce6ddcc82f589835f9fd1cf",
+      "decodedSeconds": 2.168163,
+      "peak": 19406,
+      "rms": 2480.73,
+      "status": "passed"
+    },
+    "narrator-75ffb5b6ac8d8afe3046.mp3": {
+      "sha256": "6e45fe1464c16a419689fc0059c06e4c167316ce1b3b9daa55bcb7c1d54355e7",
+      "decodedSeconds": 7.340408,
+      "peak": 15972,
+      "rms": 2118.13,
+      "status": "passed"
+    },
+    "narrator-7697a3d8005f78bd4027.mp3": {
+      "sha256": "1d9f0d506addc3f395736e016a69fc00ce746e3f0519e80287bf2f3467f2bc13",
+      "decodedSeconds": 2.037551,
+      "peak": 28625,
+      "rms": 2470.16,
+      "status": "passed"
+    },
+    "narrator-774259e4852baccc1e6d.mp3": {
+      "sha256": "c565921e591bf686dbfbc361220a2449ea9ed22f3ce2abf78a00b8111ae9f7f3",
+      "decodedSeconds": 3.996735,
+      "peak": 22899,
+      "rms": 2239.29,
+      "status": "passed"
+    },
+    "narrator-790325da9016bf0cb08b.mp3": {
+      "sha256": "83c4dada881fc7bb7cd997a9950f2a5ad9c792e0b30f3dab1a2fb9d4959d3dcd",
+      "decodedSeconds": 7.288163,
+      "peak": 17971,
+      "rms": 2009.07,
+      "status": "passed"
+    },
+    "narrator-79973aa054b9e9e9a0d3.mp3": {
+      "sha256": "7708d02e9f337c0b116d19567b0c035bf37ee27867dec243a653a31e8e2d0cdb",
+      "decodedSeconds": 4.414694,
+      "peak": 17085,
+      "rms": 2222.1,
+      "status": "passed"
+    },
+    "narrator-7a33b6e6ee6a5d0d35ff.mp3": {
+      "sha256": "c96d34c9b06204efa8f85b834058288dc379d11d3f40f17e4cb725731c1b34e5",
+      "decodedSeconds": 7.418776,
+      "peak": 20371,
+      "rms": 2181.08,
+      "status": "passed"
+    },
+    "narrator-7acd89a7fb07ce117b65.mp3": {
+      "sha256": "1237eb5401d65110898195a5c5c5aea2a1916c70406be1f75ed6d749f9f1a717",
+      "decodedSeconds": 3.761633,
+      "peak": 14815,
+      "rms": 2028.09,
+      "status": "passed"
+    },
+    "narrator-7b2c55fc4a05f2fa91dd.mp3": {
+      "sha256": "8ccc4b040f15db4add899d5628f6a65644448fd654cbc3a27f274bf387539f04",
+      "decodedSeconds": 2.272653,
+      "peak": 15233,
+      "rms": 2002.71,
+      "status": "passed"
+    },
+    "narrator-7b94571484478ee45d25.mp3": {
+      "sha256": "f38891f660e60ec70823008c3ac01e5938a52d3b749c0a5b776b7f0b4a2dd3e9",
+      "decodedSeconds": 7.758367,
+      "peak": 15624,
+      "rms": 2213.29,
+      "status": "passed"
+    },
+    "narrator-7c3b0f7a6e484bb0e679.mp3": {
+      "sha256": "40b55279a29afae5af74dd35bab39c784f37ec1ac7eeb775156c16a17c93cf6d",
+      "decodedSeconds": 3.996735,
+      "peak": 18963,
+      "rms": 2158.39,
+      "status": "passed"
+    },
+    "narrator-7d9bdf1c4ef93aa56ccc.mp3": {
+      "sha256": "43fca1e3630c90da11be725e4e4b57e1de874280a54c52783af77e85c9cd6477",
+      "decodedSeconds": 7.549388,
+      "peak": 18192,
+      "rms": 1996.19,
+      "status": "passed"
+    },
+    "narrator-7e941a2d8992d68c7306.mp3": {
+      "sha256": "dbbc41746aaa979fe29034cba4b316f7f96e024312fb7da4afc7cd0d1b7bcd3d",
+      "decodedSeconds": 4.205714,
+      "peak": 16241,
+      "rms": 1928.4,
+      "status": "passed"
+    },
+    "narrator-7f89e9b085d32bb5641a.mp3": {
+      "sha256": "6339c60f483ecdbada7b129a2539ba475b07ced30a63ff863a1ace7ad5949227",
+      "decodedSeconds": 7.653878,
+      "peak": 17008,
+      "rms": 2166.48,
+      "status": "passed"
+    },
+    "narrator-7fb287e649b7b039035b.mp3": {
+      "sha256": "725c82d6c35f33799c7f5c2adcdde9599f1f99af2b69f3782029afbfca58bbb6",
+      "decodedSeconds": 7.418776,
+      "peak": 18439,
+      "rms": 2160.21,
+      "status": "passed"
+    },
+    "narrator-8063ad771b586c5f7f27.mp3": {
+      "sha256": "6b6c80cf7e55f1867244ac2e20024c9a52b3911d38406041885cb38ce92cb5ab",
+      "decodedSeconds": 3.657143,
+      "peak": 18013,
+      "rms": 2173.31,
+      "status": "passed"
+    },
+    "narrator-814e26f829b4de876155.mp3": {
+      "sha256": "08ed3278670a5f52050a96f51b78db632f9ffbeff3c0fe91a5d7bff270e5ed6f",
+      "decodedSeconds": 7.758367,
+      "peak": 18789,
+      "rms": 2161.11,
+      "status": "passed"
+    },
+    "narrator-829d3c584952729114fc.mp3": {
+      "sha256": "a63026133cf5173951054d35264ede6567a8f7ea20fa25dbdeb76fe497a0786e",
+      "decodedSeconds": 7.105306,
+      "peak": 18553,
+      "rms": 2034.46,
+      "status": "passed"
+    },
+    "narrator-82c298e86eaca4ed2913.mp3": {
+      "sha256": "2c7ec7a7bc675445f77bef4fff7c3b336a33044de53d8fff8cd43d516992041c",
+      "decodedSeconds": 4.493061,
+      "peak": 14752,
+      "rms": 2438.59,
+      "status": "passed"
+    },
+    "narrator-830c7c8e23b02230e66b.mp3": {
+      "sha256": "6cacaaf2f83bf2fd3a4eb86542a010640aa5f1ae94d3c11101685074ce88ad89",
+      "decodedSeconds": 7.235918,
+      "peak": 18852,
+      "rms": 2100.38,
+      "status": "passed"
+    },
+    "narrator-8366cf1889831b78a2bb.mp3": {
+      "sha256": "b8235bdd4849bbb6a60a38b60ca1364dc3c253fffe3fc4ae0593e8cdd27eb939",
+      "decodedSeconds": 4.493061,
+      "peak": 14757,
+      "rms": 2203.31,
+      "status": "passed"
+    },
+    "narrator-840ecc826218a427121f.mp3": {
+      "sha256": "d873b8c8fc905e3b4835d25fe89c70ab9f57b8ae68ae287164bfc4ab1775506d",
+      "decodedSeconds": 7.549388,
+      "peak": 19073,
+      "rms": 2225.7,
+      "status": "passed"
+    },
+    "narrator-8a88a4418544578ac328.mp3": {
+      "sha256": "e4fac4957c82f1eca0377ce3517e3da308d53d90f214289df61640fce10a556c",
+      "decodedSeconds": 7.523265,
+      "peak": 15136,
+      "rms": 2080.82,
+      "status": "passed"
+    },
+    "narrator-8c027bcfd8ae1fb2ac83.mp3": {
+      "sha256": "a78de5a81c30a9f88b98afd5ae3838c4faebe77a42c2fad7c937223c66067c1a",
+      "decodedSeconds": 6.034286,
+      "peak": 16882,
+      "rms": 2186.91,
+      "status": "passed"
+    },
+    "narrator-8c362767116b2ef34d82.mp3": {
+      "sha256": "337acad1dd177c0b01c7131a7462003c57519f881d7f406ca4eb5dc981bada70",
+      "decodedSeconds": 5.799184,
+      "peak": 16913,
+      "rms": 2356.42,
+      "status": "passed"
+    },
+    "narrator-8d486c447110a3f027e3.mp3": {
+      "sha256": "bd32c88a2314807fcb46ed68cc9d1f3c2002ef43cb293e756f31c88f352d5f81",
+      "decodedSeconds": 4.728163,
+      "peak": 14230,
+      "rms": 2193.17,
+      "status": "passed"
+    },
+    "narrator-8d9218e9e8a8a1a5d1ca.mp3": {
+      "sha256": "c0d719be4e41b465d82a3037efcc926286d5f906f0e511ac78a5bc3e1e9826e3",
+      "decodedSeconds": 2.115918,
+      "peak": 22729,
+      "rms": 2298.14,
+      "status": "passed"
+    },
+    "narrator-8e830fe69fec977cd1dc.mp3": {
+      "sha256": "db865cb28dff327163e9db8f15d08d9d85dcdbcc10bfe2076d75e3395e32bb2b",
+      "decodedSeconds": 7.758367,
+      "peak": 17572,
+      "rms": 2164.75,
+      "status": "passed"
+    },
+    "narrator-8ee15b88018c6725bcc6.mp3": {
+      "sha256": "0cf962b5a4f2b37cdf82afef665c8e54f6a9c90986312c79b0e9f702cd2a08b1",
+      "decodedSeconds": 7.235918,
+      "peak": 15462,
+      "rms": 2099.23,
+      "status": "passed"
+    },
+    "narrator-8eff9952c923d284cd09.mp3": {
+      "sha256": "d05ef3ef05f615d0dfb4e6e6b83193f8b31e0e7c6a696038cc77de64f00facf8",
+      "decodedSeconds": 7.653878,
+      "peak": 19534,
+      "rms": 2027.93,
+      "status": "passed"
+    },
+    "narrator-8f3d41883b248faecd05.mp3": {
+      "sha256": "45a9fd7c07be3c98715ba106170332c7551d60581bb0ab0fb584f90800145629",
+      "decodedSeconds": 5.799184,
+      "peak": 22235,
+      "rms": 1958.36,
+      "status": "passed"
+    },
+    "narrator-8f898d0e5a6df8bf03d9.mp3": {
+      "sha256": "420731583e22e84ff156ba7653e12fbd65bde237d4c2de359ce15766e48312ff",
+      "decodedSeconds": 1.906939,
+      "peak": 15744,
+      "rms": 2385.36,
+      "status": "passed"
+    },
+    "narrator-91ed8c63470a8e7537d5.mp3": {
+      "sha256": "1b4a35c61bd22356091c08fd74ceeacb739d7cd1d46fbb2c85a9034d40638a12",
+      "decodedSeconds": 7.366531,
+      "peak": 14756,
+      "rms": 2206.73,
+      "status": "passed"
+    },
+    "narrator-929efb8f5f9386918ed0.mp3": {
+      "sha256": "6d387b79624ade48d373e63b1fc8483e250e3cae22ad65aabdaff911786bbb04",
+      "decodedSeconds": 4.440816,
+      "peak": 15531,
+      "rms": 2230.29,
+      "status": "passed"
+    },
+    "narrator-92e00df98fce1a3319c9.mp3": {
+      "sha256": "f59ab3db1518978e1e27ca627493fe70ff39eeb96486d5e2b271322f5404d977",
+      "decodedSeconds": 4.440816,
+      "peak": 14751,
+      "rms": 2510.09,
+      "status": "passed"
+    },
+    "narrator-954b572e5ba452729976.mp3": {
+      "sha256": "e47006ea72adfa024eaa1987c0e2e514a40968a9a09479c43563234908e71a5e",
+      "decodedSeconds": 7.418776,
+      "peak": 16781,
+      "rms": 2011.97,
+      "status": "passed"
+    },
+    "narrator-95755e12c8a83d35db85.mp3": {
+      "sha256": "edc9dd6775cd91a947ca425d430a056dea2c57b8650f1b68a9610ba4e44f5aab",
+      "decodedSeconds": 4.780408,
+      "peak": 15471,
+      "rms": 2400.53,
+      "status": "passed"
+    },
+    "narrator-964f9b72ed6805c08284.mp3": {
+      "sha256": "43077205fb4961dc83970412795f42b83da1d157c401c913fc6ae07c121842c5",
+      "decodedSeconds": 4.597551,
+      "peak": 19369,
+      "rms": 2347.7,
+      "status": "passed"
+    },
+    "narrator-97203ba6b9b88f518e59.mp3": {
+      "sha256": "e5ba8271a7ce2e8cf39ef5efd3e1724a78f39236dc3865e9074ae299ef7275c3",
+      "decodedSeconds": 4.022857,
+      "peak": 20530,
+      "rms": 2088.9,
+      "status": "passed"
+    },
+    "narrator-97e92f4b74ab93cadf3c.mp3": {
+      "sha256": "06d21a7c5fb73bc230ab1f817a516f599beda9cdf210db80dd7d1988aaca5567",
+      "decodedSeconds": 4.675918,
+      "peak": 14123,
+      "rms": 2284.61,
+      "status": "passed"
+    },
+    "narrator-99627051ba1ca6627e39.mp3": {
+      "sha256": "2da55be2f2c6819908dd620325da9d0fcaa049b84cc1743948745f5a73e971b4",
+      "decodedSeconds": 4.728163,
+      "peak": 15570,
+      "rms": 2451.93,
+      "status": "passed"
+    },
+    "narrator-99dd7806aefa0f79b41d.mp3": {
+      "sha256": "b60a37d445b87b8d06af144fa77fd7e24cf1c7c0554f64042ddd3735179b1e35",
+      "decodedSeconds": 7.941224,
+      "peak": 15707,
+      "rms": 2074.7,
+      "status": "passed"
+    },
+    "narrator-9bd397ca9c8622687258.mp3": {
+      "sha256": "753ec60de2fa16864526bc6d2495b1d38f7ac6767eb01e19671da7ee0ae90527",
+      "decodedSeconds": 1.436735,
+      "peak": 17765,
+      "rms": 2246.07,
+      "status": "passed"
+    },
+    "narrator-9be71fe1bf8967b62c24.mp3": {
+      "sha256": "6b9b6cecb8f41133262345afa1165675396cfbdab1aa933116449fe1e4da944e",
+      "decodedSeconds": 4.623673,
+      "peak": 15477,
+      "rms": 2258.03,
+      "status": "passed"
+    },
+    "narrator-9beadb93e47cc855a3a1.mp3": {
+      "sha256": "766796aa7187dca24c09b6c61bf4180e25876d178f744dbc5849b694f5fb082f",
+      "decodedSeconds": 7.549388,
+      "peak": 19285,
+      "rms": 2077.78,
+      "status": "passed"
+    },
+    "narrator-9c742a580f6fff425cb5.mp3": {
+      "sha256": "3d74ba5298d3f6ccb8de3997a0a2a520a3fb1f1a692a1dc833ae53eab7bd4cc6",
+      "decodedSeconds": 4.362449,
+      "peak": 19170,
+      "rms": 2405.42,
+      "status": "passed"
+    },
+    "narrator-9dcdbc4059978ffb8146.mp3": {
+      "sha256": "2ce21fb080dacb05c8c3674c0e6f9be11d81dcb178f13699722733077027a122",
+      "decodedSeconds": 7.131429,
+      "peak": 19466,
+      "rms": 2167.33,
+      "status": "passed"
+    },
+    "narrator-9dd335ef7b7187099b07.mp3": {
+      "sha256": "2f8d7993350def199f7015d86a2642747d132798f132362d3ecd8481c23cd7ae",
+      "decodedSeconds": 6.164898,
+      "peak": 18303,
+      "rms": 2160.62,
+      "status": "passed"
+    },
+    "narrator-9e66ed6dce64a9f48f20.mp3": {
+      "sha256": "5014a5ea14ac649fe48d5dd073682a0720e8b16047b954f2d667caa2769e1530",
+      "decodedSeconds": 6.112653,
+      "peak": 15137,
+      "rms": 2207.8,
+      "status": "passed"
+    },
+    "narrator-a0044556e5e3e1f87e81.mp3": {
+      "sha256": "56cf45ac63eb0c23dad4548b3619e4682997c069e055b0b9486ea8d755917b6e",
+      "decodedSeconds": 7.836735,
+      "peak": 16545,
+      "rms": 2021.4,
+      "status": "passed"
+    },
+    "narrator-a051486e658036d55cb4.mp3": {
+      "sha256": "130c2c34c0a9f9583eec04b3a46b93b51b1c7f68ac6511cfb2b2c14b2fce2752",
+      "decodedSeconds": 2.220408,
+      "peak": 27553,
+      "rms": 2426.16,
+      "status": "passed"
+    },
+    "narrator-a08809fbf1e5749d1ed8.mp3": {
+      "sha256": "efd8888f8d1b77fb08b6de99f4f2b5a0af6c6bc2aaebf8aba351483370a4090c",
+      "decodedSeconds": 2.638367,
+      "peak": 17613,
+      "rms": 2227.21,
+      "status": "passed"
+    },
+    "narrator-a12313d75e6f8d1ecfaa.mp3": {
+      "sha256": "4e2dda6668e27fdc6c5a278b2fa1a39d274a8329da8bdfe1240a97b3475217de",
+      "decodedSeconds": 8.359184,
+      "peak": 18445,
+      "rms": 2104.7,
+      "status": "passed"
+    },
+    "narrator-a1d6818c207f55ab1d60.mp3": {
+      "sha256": "0e53032912e4004227c74d44a8ec9fff51ab59fea355e03dd3f619c2109dfa00",
+      "decodedSeconds": 5.381224,
+      "peak": 18523,
+      "rms": 2065.46,
+      "status": "passed"
+    },
+    "narrator-a2330c054f3db3b7aa79.mp3": {
+      "sha256": "ab7b810638043fba2013ce26cb39c56580723c474509fb70380f958d04d94aa6",
+      "decodedSeconds": 2.742857,
+      "peak": 19241,
+      "rms": 1970.7,
+      "status": "passed"
+    },
+    "narrator-a31f174ad3afabb38f4f.mp3": {
+      "sha256": "2d5a0a31b5c1b8e6a3c9a81c11fa1cd6ada3b815912f5e8ea2763d35bcd9b678",
+      "decodedSeconds": 7.183673,
+      "peak": 17053,
+      "rms": 2088.95,
+      "status": "passed"
+    },
+    "narrator-a347b9526d75c48efff9.mp3": {
+      "sha256": "dcbda76e0ab7fec15b4417df56c78b25f4f0438971bd19c046f44bfb8fa91d26",
+      "decodedSeconds": 4.728163,
+      "peak": 16547,
+      "rms": 2484.86,
+      "status": "passed"
+    },
+    "narrator-a3653494828516564e79.mp3": {
+      "sha256": "4cc4884b51c942736e52e4fdc6ee05b4ff03fade81b3d323a9c26ea9c1346af6",
+      "decodedSeconds": 4.022857,
+      "peak": 16929,
+      "rms": 2067.43,
+      "status": "passed"
+    },
+    "narrator-a512671ee36919a11948.mp3": {
+      "sha256": "05d234ac037bf40df5c9cff62158a06152503f0573670d53035839e87dcfe711",
+      "decodedSeconds": 7.601633,
+      "peak": 18888,
+      "rms": 2004.24,
+      "status": "passed"
+    },
+    "narrator-a6883f8b242c06ea1199.mp3": {
+      "sha256": "f799d45057192e6e99f1c805461f9f7e592e24e001a59124300d5ddd63012f36",
+      "decodedSeconds": 7.601633,
+      "peak": 15288,
+      "rms": 1978.07,
+      "status": "passed"
+    },
+    "narrator-a6c319b8aefcecee663a.mp3": {
+      "sha256": "9e29e792f3e126eef584aefc0f0c29088379a3ab57e68069e077237a7c4a2a89",
+      "decodedSeconds": 5.929796,
+      "peak": 24757,
+      "rms": 2085.7,
+      "status": "passed"
+    },
+    "narrator-a74f231aef9642166417.mp3": {
+      "sha256": "a3f5f8e92d306372d44dac18fe19594290d147fd7ea773aa16ee1a304768d4c5",
+      "decodedSeconds": 7.549388,
+      "peak": 16997,
+      "rms": 2107.19,
+      "status": "passed"
+    },
+    "narrator-a79d983b8420a37d622e.mp3": {
+      "sha256": "c5f4cd696276db987ea6299075efdc7d337679d650b2ea69bcadf5530cc1dbaf",
+      "decodedSeconds": 7.706122,
+      "peak": 16423,
+      "rms": 2286.04,
+      "status": "passed"
+    },
+    "narrator-ac39b05debf5005551a5.mp3": {
+      "sha256": "ad67eeb072c2464428640b35275da2687b298291b8408c1dbca2fc40171ccb53",
+      "decodedSeconds": 11.781224,
+      "peak": 15839,
+      "rms": 2228.57,
+      "status": "passed"
+    },
+    "narrator-ac9cf48d81f3dbc271ff.mp3": {
+      "sha256": "be8e55a194ea71758ce45075f47559d8a12ca8dad57800b8a00b5ce0910a93ca",
+      "decodedSeconds": 7.235918,
+      "peak": 18180,
+      "rms": 2055.13,
+      "status": "passed"
+    },
+    "narrator-af6b34a35c39f1aa3226.mp3": {
+      "sha256": "99feef038a355a6cda20b2e823f8a2ec15f4971d1938bfb09eccab0f245e9ca1",
+      "decodedSeconds": 5.511837,
+      "peak": 14906,
+      "rms": 2232.59,
+      "status": "passed"
+    },
+    "narrator-af718d28287dc1969445.mp3": {
+      "sha256": "acb188d5158ad152e4347be20a9296e741a1076fe42c187730f6cb2bd748ff33",
+      "decodedSeconds": 4.414694,
+      "peak": 14541,
+      "rms": 2306.11,
+      "status": "passed"
+    },
+    "narrator-b0683b5320541a1dad3a.mp3": {
+      "sha256": "07dcfd304260f1b959ed157bb46f29e11dc84140f1c622d9ab68e35636d61974",
+      "decodedSeconds": 4.675918,
+      "peak": 15419,
+      "rms": 2312.14,
+      "status": "passed"
+    },
+    "narrator-b21f1786d27aa2e57498.mp3": {
+      "sha256": "dca11f29465dc373ad94f93634c2f07baafec0364524945250f1dd54658acebb",
+      "decodedSeconds": 2.272653,
+      "peak": 21295,
+      "rms": 2132.55,
+      "status": "passed"
+    },
+    "narrator-b4526174745b3d76a203.mp3": {
+      "sha256": "76cbf32ea8ae83258280ce60a6f41fa2fdb9839d131a7e69a6760b32f465d326",
+      "decodedSeconds": 2.873469,
+      "peak": 15672,
+      "rms": 1916.15,
+      "status": "passed"
+    },
+    "narrator-b6668868e84eeb3f217c.mp3": {
+      "sha256": "d9b1fb3a615421fd7f04a3082ccf9b7040c90da5db6d916a1a97b645e3569795",
+      "decodedSeconds": 7.47102,
+      "peak": 16208,
+      "rms": 2075.24,
+      "status": "passed"
+    },
+    "narrator-b701c981cfde19eeff0c.mp3": {
+      "sha256": "858b714b49d7dbf515a0008590fbdca54e62ed45d28bc109ffb26b877ddd34b3",
+      "decodedSeconds": 7.706122,
+      "peak": 19361,
+      "rms": 2206.26,
+      "status": "passed"
+    },
+    "narrator-b78d18f441a396076514.mp3": {
+      "sha256": "9e4cf06fb04bd900206c5f69112b7870b90ad9c187f130c79a90546184906f08",
+      "decodedSeconds": 5.982041,
+      "peak": 14626,
+      "rms": 2074.51,
+      "status": "passed"
+    },
+    "narrator-b97c56b0b1200d2075a0.mp3": {
+      "sha256": "4dc0dc0f40591ed4a1676558083c25d95ffadbd8f9d4204587222110b4c4fae9",
+      "decodedSeconds": 1.750204,
+      "peak": 14557,
+      "rms": 2107.15,
+      "status": "passed"
+    },
+    "narrator-ba20e348e09fb936c67b.mp3": {
+      "sha256": "555649fe299a22bc0bc1e479a51f848a1bf39baef31dacd2407b1d14d6da9f0d",
+      "decodedSeconds": 7.706122,
+      "peak": 17528,
+      "rms": 2022.42,
+      "status": "passed"
+    },
+    "narrator-bc7ead2bf1bb1657b526.mp3": {
+      "sha256": "dbca5a268fbaf3f94c4389e05cf2115340e69abc9a68096cfffd5469ad347bda",
+      "decodedSeconds": 4.545306,
+      "peak": 13802,
+      "rms": 2363.35,
+      "status": "passed"
+    },
+    "narrator-bcc2be656268d64e2c04.mp3": {
+      "sha256": "41e8cbe92cacf854cce3b30adadf2bc7e19bfb0b5445a78345c5ef0c51718a9e",
+      "decodedSeconds": 7.418776,
+      "peak": 16367,
+      "rms": 1962.7,
+      "status": "passed"
+    },
+    "narrator-be233688d85aed5983bd.mp3": {
+      "sha256": "ebdb9fcd3deefab7f799b127882f8ab9b9ac907bd1e5bbc233f45675ddef6037",
+      "decodedSeconds": 7.183673,
+      "peak": 13871,
+      "rms": 2158.52,
+      "status": "passed"
+    },
+    "narrator-be51a3676dd32813c770.mp3": {
+      "sha256": "07655ed0be91f10031bf109b455bcbcb4115e0783d3836679786e1740343f28a",
+      "decodedSeconds": 7.601633,
+      "peak": 20065,
+      "rms": 2161.58,
+      "status": "passed"
+    },
+    "narrator-bf483d2f25e36d5d03ce.mp3": {
+      "sha256": "bfb00d163c6fdb478d4c36649fd0788ac50f0169850dd926827c39f15572d223",
+      "decodedSeconds": 7.235918,
+      "peak": 16410,
+      "rms": 2209.92,
+      "status": "passed"
+    },
+    "narrator-c0fe8b815b36ad68c4d6.mp3": {
+      "sha256": "342baad25069bd489aadc19932ab8dcea069d2b8a3ff5faa5f832faaa88ed80b",
+      "decodedSeconds": 5.799184,
+      "peak": 15131,
+      "rms": 2273.51,
+      "status": "passed"
+    },
+    "narrator-c154d5415b3cc4ad2891.mp3": {
+      "sha256": "a42f150cdb48773a3a94dc8ae115789307e26d4ea66a2570e131d5ff61b58971",
+      "decodedSeconds": 7.78449,
+      "peak": 15312,
+      "rms": 2144.67,
+      "status": "passed"
+    },
+    "narrator-c1a46510095e5f2a719f.mp3": {
+      "sha256": "2f6492678ed229bd3b613a54e0bbd727df8c1fe21db8776dfe7f2dd4d3933bb0",
+      "decodedSeconds": 6.269388,
+      "peak": 17196,
+      "rms": 2184.34,
+      "status": "passed"
+    },
+    "narrator-c3ddf5b66d9f62d2e29e.mp3": {
+      "sha256": "bfc715c9d5fa276b97421c7d2980e183331d11bb8db3c20239cdb0bcea2a5669",
+      "decodedSeconds": 4.623673,
+      "peak": 15006,
+      "rms": 2322.35,
+      "status": "passed"
+    },
+    "narrator-c4081a18998ebc38edf9.mp3": {
+      "sha256": "889eaa80c136967023a0fbbf9ae74f6133d54dbd5477219a1e5b558447f614d2",
+      "decodedSeconds": 5.929796,
+      "peak": 14697,
+      "rms": 2074.72,
+      "status": "passed"
+    },
+    "narrator-c4365ca006b825c10a0b.mp3": {
+      "sha256": "4b61629de7365f91c57d0fec92cd6b758c4035d7f5755d7d3076657fa36843a0",
+      "decodedSeconds": 7.47102,
+      "peak": 15372,
+      "rms": 2121.51,
+      "status": "passed"
+    },
+    "narrator-c615e11f95fc453200b3.mp3": {
+      "sha256": "c3cc00a53fb57e66a5b575700c01ec42d98c83511af1cd6f494fc0d88e0baaef",
+      "decodedSeconds": 7.47102,
+      "peak": 15613,
+      "rms": 2082.39,
+      "status": "passed"
+    },
+    "narrator-c647721b17ba4e0163b2.mp3": {
+      "sha256": "b5e3924882d6e8006644315195cd4fbcdd3975fc7c52bf5bfe3e989074031db3",
+      "decodedSeconds": 7.78449,
+      "peak": 15800,
+      "rms": 2091.19,
+      "status": "passed"
+    },
+    "narrator-c71d866ba5c4acfec7ed.mp3": {
+      "sha256": "03d7838e7f47ed3d6c044d8a8f7c05e9fa6ca888c5c69790c5e259adea2a68a8",
+      "decodedSeconds": 3.787755,
+      "peak": 19309,
+      "rms": 2156.94,
+      "status": "passed"
+    },
+    "narrator-cb035531cb9fca18fd6d.mp3": {
+      "sha256": "6c80622daf8246204a847240bac3369644bd7abea74afaf7f16629eea68275fb",
+      "decodedSeconds": 4.310204,
+      "peak": 22136,
+      "rms": 2101.12,
+      "status": "passed"
+    },
+    "narrator-cd09551541b2b3c0bc65.mp3": {
+      "sha256": "0f27f78cf0a0f2c720b03d7288e19062a1a37ebae4a4ecbe8e73df1db8554712",
+      "decodedSeconds": 7.549388,
+      "peak": 17607,
+      "rms": 2092.35,
+      "status": "passed"
+    },
+    "narrator-cd31d87f19a744bf29bc.mp3": {
+      "sha256": "f7579da9764b5c90cbd8397b0fe59cee7d783be084e39368e88249699512398a",
+      "decodedSeconds": 7.105306,
+      "peak": 16309,
+      "rms": 2110.06,
+      "status": "passed"
+    },
+    "narrator-cd81574c9c563a960dbf.mp3": {
+      "sha256": "db8b46ee9f25b17fa772e89dc176ee802c96013b5de1bb12f3d5e1ce91fbc3bf",
+      "decodedSeconds": 6.086531,
+      "peak": 20224,
+      "rms": 2063.34,
+      "status": "passed"
+    },
+    "narrator-cf9f009582e619c42846.mp3": {
+      "sha256": "f9118669228f06ecc1c708d811b0382170fb8d474f537874b17dcd9b8c017e4c",
+      "decodedSeconds": 7.601633,
+      "peak": 18472,
+      "rms": 1995.11,
+      "status": "passed"
+    },
+    "narrator-cfad5cab08877456d7d9.mp3": {
+      "sha256": "d08e4e5ad5bbb2132333c07c2de90d7eec8e627aa2a66e7e73eb2f89795d142a",
+      "decodedSeconds": 7.131429,
+      "peak": 17586,
+      "rms": 2239.47,
+      "status": "passed"
+    },
+    "narrator-d0a8eefbd4203bcf0eff.mp3": {
+      "sha256": "c443662ce3e59608b9f5cde06a843c77068fb44cfd207cd519d9ef3afe2979e1",
+      "decodedSeconds": 4.545306,
+      "peak": 16984,
+      "rms": 2427.97,
+      "status": "passed"
+    },
+    "narrator-d269fed4270725565d9a.mp3": {
+      "sha256": "cb8036399ccc11bda4fd54520b6fc976778fc0b2b5866e80110c9af7a91070d5",
+      "decodedSeconds": 7.706122,
+      "peak": 17298,
+      "rms": 2110.58,
+      "status": "passed"
+    },
+    "narrator-d435d6d765ab15b063ef.mp3": {
+      "sha256": "f604db9e99a848d0823021ddbce7f043fa35ea08b089ef40541e67004a8b9a94",
+      "decodedSeconds": 2.507755,
+      "peak": 15769,
+      "rms": 1992.09,
+      "status": "passed"
+    },
+    "narrator-d52f9fa4edd75da48fe8.mp3": {
+      "sha256": "e0fc510640237bc3c03baa75d34384db6b7cccc1de78c6e048cfe5de473bf3ea",
+      "decodedSeconds": 1.28,
+      "peak": 22748,
+      "rms": 1787.19,
+      "status": "passed"
+    },
+    "narrator-d5f34338fee948aa771a.mp3": {
+      "sha256": "3f0497262889d94b15678543bdc6ffb521ac53e61db9d69d5580a0e6e0b4f6bc",
+      "decodedSeconds": 7.549388,
+      "peak": 16860,
+      "rms": 2157.31,
+      "status": "passed"
+    },
+    "narrator-d631c679e54e32905575.mp3": {
+      "sha256": "2f9a77e72661893ff2f0ef986fc3e1f624185b30c4a588aa5d04666c05f7b250",
+      "decodedSeconds": 4.310204,
+      "peak": 21272,
+      "rms": 2338.8,
+      "status": "passed"
+    },
+    "narrator-d67e79b639e66f0f7d40.mp3": {
+      "sha256": "259acdab2a26f198f6a967689e323d6e509d859cb7be803128ee4252f4cee0b7",
+      "decodedSeconds": 2.76898,
+      "peak": 13331,
+      "rms": 2263.82,
+      "status": "passed"
+    },
+    "narrator-d770ad8a592facc5313c.mp3": {
+      "sha256": "33416144fa8460ab0f303ed7e71cbafe7a664812676d5538be853bd04ff00d65",
+      "decodedSeconds": 7.418776,
+      "peak": 16764,
+      "rms": 2209.95,
+      "status": "passed"
+    },
+    "narrator-d99d5b1ba5ce19c22679.mp3": {
+      "sha256": "d2eaa4a90b7ef37a6d9485325187398ee745f8d36c683ed820a08a5b71447ca7",
+      "decodedSeconds": 4.075102,
+      "peak": 22109,
+      "rms": 2151.29,
+      "status": "passed"
+    },
+    "narrator-db0050e36fc7e72caa8b.mp3": {
+      "sha256": "1b0a7752c65bdf99cf712594be2d65a3db89a6d71d2442498611381d50f61d2f",
+      "decodedSeconds": 6.347755,
+      "peak": 15593,
+      "rms": 2133.1,
+      "status": "passed"
+    },
+    "narrator-db76c1852fa14121e7e7.mp3": {
+      "sha256": "ddfcac542570d901f0c8ce6746c6361cac6b8d936caf037286b4253a71123a5c",
+      "decodedSeconds": 4.728163,
+      "peak": 15854,
+      "rms": 2566.04,
+      "status": "passed"
+    },
+    "narrator-dbf38a1ff3fb6748a53b.mp3": {
+      "sha256": "03c7a01afc9d6bfbddc6f1c156cc175475bb2982936e34250b6215f0f25cff51",
+      "decodedSeconds": 4.205714,
+      "peak": 17958,
+      "rms": 2136.49,
+      "status": "passed"
+    },
+    "narrator-dd414d952c9a4ad75387.mp3": {
+      "sha256": "8299a17854c108692364ced8e75da336ae4884c638d91865bb5f6dff5ae1420f",
+      "decodedSeconds": 7.340408,
+      "peak": 17281,
+      "rms": 1969.56,
+      "status": "passed"
+    },
+    "narrator-dda2104ff4c60060b4f9.mp3": {
+      "sha256": "92e7d84d25b5b80645f586cb65df84aa9d580cf963307765514fd19c2a09b046",
+      "decodedSeconds": 6.948571,
+      "peak": 15510,
+      "rms": 1999.92,
+      "status": "passed"
+    },
+    "narrator-ddd72ae5856a15ef7d9f.mp3": {
+      "sha256": "a4da380810c51f78dac362a3c786a4dce1d9b809ce40f14a43d462bde21f1fed",
+      "decodedSeconds": 5.668571,
+      "peak": 22044,
+      "rms": 2046.35,
+      "status": "passed"
+    },
+    "narrator-df029bf9b735bffd9393.mp3": {
+      "sha256": "2354fd5b2de09ccc1172474ea3137a4bbe286aedc7462e300f4e597490de0760",
+      "decodedSeconds": 4.728163,
+      "peak": 17743,
+      "rms": 2341.6,
+      "status": "passed"
+    },
+    "narrator-dfabd49695fc84d2ec34.mp3": {
+      "sha256": "e33b69340e5868d5716e5d07439b5b68350779acc705e697dad8930f4ffb8c47",
+      "decodedSeconds": 1.985306,
+      "peak": 16636,
+      "rms": 2095.33,
+      "status": "passed"
+    },
+    "narrator-dfe218cdf1b38de38080.mp3": {
+      "sha256": "e96205c580ef2373820280b4808c960d23ea1c2a7033a655c5b563c32b185de5",
+      "decodedSeconds": 7.601633,
+      "peak": 17728,
+      "rms": 2124.53,
+      "status": "passed"
+    },
+    "narrator-dff0fb0a0936e6af9342.mp3": {
+      "sha256": "b2aae17c2409bd42f564d944dfde02f14373089edea79cdad9e5078cc4565329",
+      "decodedSeconds": 7.288163,
+      "peak": 18754,
+      "rms": 1957.63,
+      "status": "passed"
+    },
+    "narrator-e19932695273122591e8.mp3": {
+      "sha256": "de6475ac039ea87d6d99560dc36aa6b77c5769c114fbfd66423625ab80e725bd",
+      "decodedSeconds": 7.366531,
+      "peak": 20174,
+      "rms": 2129.76,
+      "status": "passed"
+    },
+    "narrator-e1e81e1b95ce0a0e9ec4.mp3": {
+      "sha256": "c79111058b06e057f301be877ec969665af85c4e7515ecc9cf664048973f1425",
+      "decodedSeconds": 7.235918,
+      "peak": 20733,
+      "rms": 2098.58,
+      "status": "passed"
+    },
+    "narrator-e2a2bfb4934a754a3594.mp3": {
+      "sha256": "77374df3bc1e0f9767039088b67e015bd4b8a058ffb170628de4e916f401a209",
+      "decodedSeconds": 4.257959,
+      "peak": 14876,
+      "rms": 2379.97,
+      "status": "passed"
+    },
+    "narrator-e3753dc1a9c38e2cc1e2.mp3": {
+      "sha256": "12f5378b5755d3e24a61c7dd6044bfc45fba0850a987d1e3cf5d106846a981cc",
+      "decodedSeconds": 7.941224,
+      "peak": 16494,
+      "rms": 2263.42,
+      "status": "passed"
+    },
+    "narrator-e3f8786e244655c30550.mp3": {
+      "sha256": "efe6d5c7f1aa9053cebf840d386d84ca7a37381ab15bff3e4b220ce0520f4f3c",
+      "decodedSeconds": 4.597551,
+      "peak": 14366,
+      "rms": 2235.84,
+      "status": "passed"
+    },
+    "narrator-e6113a4c9b28d676b251.mp3": {
+      "sha256": "14456cc614825670bd6de1212248900b7c3bd2f40080f89ac03ea16c50a34c81",
+      "decodedSeconds": 6.112653,
+      "peak": 15122,
+      "rms": 2232.45,
+      "status": "passed"
+    },
+    "narrator-e78f1babbacf30c45d35.mp3": {
+      "sha256": "e0ca78a302390118d834edde4afcae85c7db52b4cee9f581f45320d6343a2137",
+      "decodedSeconds": 3.422041,
+      "peak": 14411,
+      "rms": 2217.49,
+      "status": "passed"
+    },
+    "narrator-e822a350881db25d8e72.mp3": {
+      "sha256": "b6f8e993729caa29f39da90aa8908b886c35e121116845dd4340a0658d8c83ce",
+      "decodedSeconds": 6.217143,
+      "peak": 15394,
+      "rms": 2238.47,
+      "status": "passed"
+    },
+    "narrator-e896a85d9c04f0456ad3.mp3": {
+      "sha256": "a953a8bdab57ceeb3a6486a1d3000aa72c8d0b122830962b3449b46a050041af",
+      "decodedSeconds": 3.787755,
+      "peak": 15504,
+      "rms": 2199.86,
+      "status": "passed"
+    },
+    "narrator-e90864f3532c87ab089b.mp3": {
+      "sha256": "f50d369895707ffd46ecfb0241176768858b3d63387797d201bcc795528d87d1",
+      "decodedSeconds": 7.340408,
+      "peak": 18600,
+      "rms": 2134.51,
+      "status": "passed"
+    },
+    "narrator-e98225a49a8175754dec.mp3": {
+      "sha256": "c29bab11b0a032fa35914f02ebcc15b2ea27f50633333dbc13b27635892438ff",
+      "decodedSeconds": 7.549388,
+      "peak": 19692,
+      "rms": 2186.51,
+      "status": "passed"
+    },
+    "narrator-ea1b0b5ed2135a4dc45c.mp3": {
+      "sha256": "2c3b65bd5526c05434a7fb0a04e4904796c3a19f86307a1bacaeb989b9883f3b",
+      "decodedSeconds": 7.340408,
+      "peak": 18083,
+      "rms": 2105.78,
+      "status": "passed"
+    },
+    "narrator-ea1ca52b7952778f8a3c.mp3": {
+      "sha256": "54f75c9cbe105c11de018bed4c7d45de473ab2daefa78b715cabc8b798238e74",
+      "decodedSeconds": 7.601633,
+      "peak": 17271,
+      "rms": 2250.33,
+      "status": "passed"
+    },
+    "narrator-ed0cc11d8a689038418c.mp3": {
+      "sha256": "bc355febcd83210d635463186c6553d6003edd30dcffc6fd989917a5f995030f",
+      "decodedSeconds": 7.601633,
+      "peak": 18589,
+      "rms": 2241.66,
+      "status": "passed"
+    },
+    "narrator-ed3fcd8cd1cf723e7600.mp3": {
+      "sha256": "5180f841884f4fe695efdc87bec82d4f41f4717a24317c54b260c558422d26a4",
+      "decodedSeconds": 7.601633,
+      "peak": 21129,
+      "rms": 2049.79,
+      "status": "passed"
+    },
+    "narrator-ee59ee11f457c3332f6e.mp3": {
+      "sha256": "335a69bc2d94c57e62bd5515887b4584eb82a0458466fe44eda8c3bed662a6be",
+      "decodedSeconds": 6.948571,
+      "peak": 19665,
+      "rms": 2044.11,
+      "status": "passed"
+    },
+    "narrator-ef2e4426172bd140d29b.mp3": {
+      "sha256": "bdabf9cf6ed8fdafcfe433a5a59295a32500f41d9ad0b5e150cb877a7e4387f4",
+      "decodedSeconds": 7.418776,
+      "peak": 18341,
+      "rms": 2142.95,
+      "status": "passed"
+    },
+    "narrator-efcb168b999fa9f32061.mp3": {
+      "sha256": "d7dce3ce79190c70c678b1c1081a451a9d062c93fe9de2f533ddb9c3f54a48d7",
+      "decodedSeconds": 5.564082,
+      "peak": 16829,
+      "rms": 2169.99,
+      "status": "passed"
+    },
+    "narrator-f043736276b47e87f537.mp3": {
+      "sha256": "7ad8f1c827f9de4e923aca725e76bd22255205729fe919243100f7f27dac6492",
+      "decodedSeconds": 7.78449,
+      "peak": 15586,
+      "rms": 2036.94,
+      "status": "passed"
+    },
+    "narrator-f222dff81ff80d7c6a49.mp3": {
+      "sha256": "c78e249958293edb6e33c17d9307cacdb36591e2ac64d5ee9b7b4bad5c462e4a",
+      "decodedSeconds": 4.623673,
+      "peak": 13883,
+      "rms": 2205.89,
+      "status": "passed"
+    },
+    "narrator-f3dbbffeeb9092ba1d64.mp3": {
+      "sha256": "8da5a188abc35535d4d410183096e63dd62927f14030754474c4a4513e302898",
+      "decodedSeconds": 7.418776,
+      "peak": 17224,
+      "rms": 2152.74,
+      "status": "passed"
+    },
+    "narrator-f3fa85522d14b695c225.mp3": {
+      "sha256": "19d1ca13c2e88b3cad06ee30e4995018c1bdd7960ae83625c92bf323a1190d46",
+      "decodedSeconds": 1.567347,
+      "peak": 14908,
+      "rms": 1911.77,
+      "status": "passed"
+    },
+    "narrator-f4f09927b9202f5250c0.mp3": {
+      "sha256": "6fa65b6fbaacda84454672f8b952b8633ecdc1e7e8e22d26038eb1643f000621",
+      "decodedSeconds": 7.758367,
+      "peak": 21857,
+      "rms": 2176.07,
+      "status": "passed"
+    },
+    "narrator-f5354e4e98f87a470ee0.mp3": {
+      "sha256": "eff0d63eca8e7bad3f7f8baa4cc1124e2d7e91396bac9b289289e23d9cf89c2b",
+      "decodedSeconds": 20.793469,
+      "peak": 26194,
+      "rms": 1919.63,
+      "status": "passed"
+    },
+    "narrator-f57f6146c41e4cd5ca3d.mp3": {
+      "sha256": "f63f65831878f1f4dd6ede6d4f7d9b641920034cce26cd1e4fbef4877834190a",
+      "decodedSeconds": 3.056327,
+      "peak": 18344,
+      "rms": 2356.36,
+      "status": "passed"
+    },
+    "narrator-f66ddc8292573da8dc6b.mp3": {
+      "sha256": "3df7b4d34fd437fb8835bf1b5cb2687d6d94a91199895ab31397b751d4b8d5e2",
+      "decodedSeconds": 8.019592,
+      "peak": 16887,
+      "rms": 2228.76,
+      "status": "passed"
+    },
+    "narrator-f6b4c8a60a9e26ff6dc8.mp3": {
+      "sha256": "5f85e36eb200df36fce3fdd780377ba94fd641f46d72afc1028fe2d415135c33",
+      "decodedSeconds": 6.713469,
+      "peak": 16572,
+      "rms": 1983.8,
+      "status": "passed"
+    },
+    "narrator-f80a0f6d2d7174789d57.mp3": {
+      "sha256": "6e85f788f46b26868fbe78f67b326992e42290cd9aebdc79710e165dee7604be",
+      "decodedSeconds": 7.758367,
+      "peak": 19124,
+      "rms": 2084.85,
+      "status": "passed"
+    },
+    "narrator-f8310123ab9cfbf1bace.mp3": {
+      "sha256": "7849d476a47b4627ac15c94b481628f1f5f290bbd9870878437f383784109e5d",
+      "decodedSeconds": 7.340408,
+      "peak": 15995,
+      "rms": 1955.89,
+      "status": "passed"
+    },
+    "narrator-f933571b5905bb7a0929.mp3": {
+      "sha256": "8b8e4bdd7695b4cc946e53739aa83fefda2b1725d708e23049f85d8035555cee",
+      "decodedSeconds": 3.291429,
+      "peak": 14973,
+      "rms": 2130.85,
+      "status": "passed"
+    },
+    "narrator-fb3f0e35501768143fa9.mp3": {
+      "sha256": "941c56e82dacbb9f952da980e9b755fffadaa0c5017954157cf0680eec9c79da",
+      "decodedSeconds": 7.653878,
+      "peak": 16838,
+      "rms": 2030.52,
+      "status": "passed"
+    },
+    "narrator-fd4d6e6f31b71f0617d7.mp3": {
+      "sha256": "f62b240cc38eb79ec4ff6063836121ea1dabce5f0b35c8ecf3f00bd94ced81a0",
+      "decodedSeconds": 9.926531,
+      "peak": 21045,
+      "rms": 2168.61,
+      "status": "passed"
+    },
+    "narrator-fd7fb4c8d8e3a4d4a1cd.mp3": {
+      "sha256": "4901809d71f584ecdbb3824be9cb0fba65f2b34f2faf2f971fb0cfb750990f9d",
+      "decodedSeconds": 7.653878,
+      "peak": 18643,
+      "rms": 2121.03,
+      "status": "passed"
+    },
+    "narrator-fd93da34a28a27f5ac94.mp3": {
+      "sha256": "c361b974474b893aaed58d29649e3bff3a8264bf0996e897e6bdc79e922afe04",
+      "decodedSeconds": 5.276735,
+      "peak": 15119,
+      "rms": 2184.59,
+      "status": "passed"
+    },
+    "narrator-fe78a67e7bcf6b6a1897.mp3": {
+      "sha256": "1ef32ed0be90d5112ef5091cf50c20b6ea9c9cdf8eb423b48c79d59413646f3f",
+      "decodedSeconds": 6.948571,
+      "peak": 18421,
+      "rms": 2146.06,
+      "status": "passed"
+    },
+    "narrator-fe85079e1300789969a1.mp3": {
+      "sha256": "e6b6a71e0ec7ea55912d9d11c37914b498d0a2cd70feb8660b3ba27844f23c01",
+      "decodedSeconds": 7.366531,
+      "peak": 15634,
+      "rms": 2019.81,
+      "status": "passed"
+    },
+    "narrator-feec6db87be132a5d8be.mp3": {
+      "sha256": "863f41cc93bad858860086c8904ae5fc178fe347d6c9cc60469e54a8f2b71bb1",
+      "decodedSeconds": 5.511837,
+      "peak": 15991,
+      "rms": 2187.53,
+      "status": "passed"
+    },
+    "washington-008c939afe0419afb994.mp3": {
+      "sha256": "429cd84d078e7a27c3a10706eee4b2cf841c2b4043b3872cf7d3e401d0c5ab3c",
+      "decodedSeconds": 7.758367,
+      "peak": 10841,
+      "rms": 1634.92,
+      "status": "passed"
+    },
+    "washington-0e5caba72765c67cfb1e.mp3": {
+      "sha256": "6ff43a52adc299d457fd5f0dab8ea871f49a7b54565e42cd4e74adfd9b4e5f2b",
+      "decodedSeconds": 6.582857,
+      "peak": 9889,
+      "rms": 1701.03,
+      "status": "passed"
+    },
+    "washington-3675802bace65af6a3dd.mp3": {
+      "sha256": "ead10869128af2163fcffda74267b28f24e117c640f6006278086465a8a29be9",
+      "decodedSeconds": 5.511837,
+      "peak": 14092,
+      "rms": 1900.01,
+      "status": "passed"
+    },
+    "washington-5bbebb9010c053828a57.mp3": {
+      "sha256": "0b631c9ea9e3e8f06a8ee6fe43f7e709ec85d96597fe1f0ca6693c9283c065c7",
+      "decodedSeconds": 10.266122,
+      "peak": 12563,
+      "rms": 2108.32,
+      "status": "passed"
+    },
+    "washington-68c2e68f45c8e69c0cb2.mp3": {
+      "sha256": "5e6169a4fcc8f451af2a2fdfcb6ee3e011cd81d90952706007f881386b8407ea",
+      "decodedSeconds": 2.951837,
+      "peak": 13641,
+      "rms": 1548.41,
+      "status": "passed"
+    },
+    "washington-6db6b0ac0380f3a01773.mp3": {
+      "sha256": "fe6f3e71776b7daddc919dcefa472797a7cec409615b775c97e5030474f768f6",
+      "decodedSeconds": 8.176327,
+      "peak": 11753,
+      "rms": 1866.03,
+      "status": "passed"
+    },
+    "washington-7a9eb4f63d33b5547cfe.mp3": {
+      "sha256": "ba8f8d93ad10cba5eaa26239f19be6d3c1883c6284a4c5fa45b2d004bafb545c",
+      "decodedSeconds": 8.071837,
+      "peak": 10876,
+      "rms": 1895.2,
+      "status": "passed"
+    },
+    "washington-9350989d2c186c405b42.mp3": {
+      "sha256": "0c45dca0059d51a702bf4dae8a2efe0aeafe6cfc513bc0c723f8468b489b014d",
+      "decodedSeconds": 7.549388,
+      "peak": 10411,
+      "rms": 1577.87,
+      "status": "passed"
+    },
+    "washington-94ceafbf4429ab7ffe63.mp3": {
+      "sha256": "a49f97cc9d724f4bed57f9980489bf961de42568a9de5f54080b72a258c334bf",
+      "decodedSeconds": 9.195102,
+      "peak": 10784,
+      "rms": 1715.84,
+      "status": "passed"
+    },
+    "washington-a9728ee526e9703a0e7f.mp3": {
+      "sha256": "6f3ab53178a977c856179983f89a23c6fdc1c0f93d216be8a415f07efa8f8924",
+      "decodedSeconds": 6.347755,
+      "peak": 13991,
+      "rms": 1785.68,
+      "status": "passed"
+    }
+  }
+}

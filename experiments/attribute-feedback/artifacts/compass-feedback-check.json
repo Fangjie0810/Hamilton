@@ -1,0 +1,23 @@
+{
+  "checks": [
+    "same HUD renderer: 174 px left HUD grows to 261 px with its top-left position unchanged, changes 40→48 and 20→15, then returns",
+    "settings freeze travel, values and queue",
+    "four languages, desktop dialogue and small English-first dialogue keep the captions readable",
+    "actual clamped +2 and three consecutive complete changes remain accurate and ordered",
+    "system reduced motion keeps left-side feedback without scaling animation"
+  ],
+  "shots": [
+    "artifacts/compass-hud-before.png",
+    "artifacts/compass-enlarging.png",
+    "artifacts/compass-left-before.png",
+    "artifacts/compass-changing.png",
+    "artifacts/compass-left-after.png",
+    "artifacts/compass-returning.png",
+    "artifacts/compass-hud-after.png",
+    "artifacts/compass-dialogue.png",
+    "artifacts/compass-small-dialogue.png",
+    "artifacts/compass-reduced-motion.png",
+    "artifacts/compass-preview-controls.png"
+  ],
+  "errors": []
+}

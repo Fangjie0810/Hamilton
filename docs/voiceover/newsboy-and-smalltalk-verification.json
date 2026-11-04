@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-09-13T06:58:00.204Z",
+  "currentCues": 142,
+  "currentUniqueFiles": 141,
+  "allActiveGenerated": true,
+  "newsboyVoiceIds": [
+    "loY1uopAz31XyhAEhNSa"
+  ],
+  "oldLiamIsArchivedOnly": true,
+  "smallTalk": [
+    {
+      "id": "small-talk-newsboy",
+      "speaker": "newsboy",
+      "generated": true
+    },
+    {
+      "id": "small-talk-citizen",
+      "speaker": "citizen",
+      "generated": true
+    },
+    {
+      "id": "small-talk-loyalist",
+      "speaker": "loyalist",
+      "generated": true
+    },
+    {
+      "id": "small-talk-burr",
+      "speaker": "burr",
+      "generated": true
+    },
+    {
+      "id": "small-talk-laurens",
+      "speaker": "laurens",
+      "generated": true
+    },
+    {
+      "id": "small-talk-lafayette",
+      "speaker": "lafayette",
+      "generated": true
+    },
+    {
+      "id": "small-talk-mulligan",
+      "speaker": "mulligan",
+      "generated": true
+    },
+    {
+      "id": "small-talk-washington",
+      "speaker": "washington",
+      "generated": true
+    }
+  ],
+  "narratorCues": 6
+}

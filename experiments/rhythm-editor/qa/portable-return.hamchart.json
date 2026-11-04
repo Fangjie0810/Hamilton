@@ -1,0 +1,5788 @@
+{
+  "format": "hamilton-rhythm-project",
+  "version": 1,
+  "id": "ec8de87e-2f71-424c-a7c6-ce8c20a2d74c",
+  "name": "My Shot",
+  "createdAt": "2026-11-04T03:06:30.306Z",
+  "modifiedAt": "2026-11-04T03:09:47.625Z",
+  "author": "协作测试",
+  "trackId": "my-shot",
+  "keyMode": "4k",
+  "units": "milliseconds",
+  "laneIndexBase": 0,
+  "keys": [
+    "S",
+    "D",
+    "K",
+    "L"
+  ],
+  "audio": {
+    "fileName": "my-shot.mp3",
+    "sha256": "0fd2db17b382826c5132c63954e6d846c6bd84e50156d1a1bef89b4ad8be8a3c",
+    "mimeType": "audio/mpeg",
+    "byteLength": 5331821,
+    "durationMs": 333154
+  },
+  "grid": {
+    "bpm": 91,
+    "offsetMs": 325,
+    "division": 4
+  },
+  "palette": {
+    "A": "#73d8d4",
+    "B": "#f1947c"
+  },
+  "notes": [
+    {
+      "id": "27a7cd8b-b6b1-4dcd-a873-fe53bbd32b98",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 2357,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "9e891009-eba6-4efe-aad8-efbd9b49e6f7",
+      "lane": 0,
+      "color": "B",
+      "kind": "hold",
+      "atMs": 2401,
+      "durationMs": 731,
+      "key": "S"
+    },
+    {
+      "id": "3d110617-8d89-4875-bffb-c37b0999566e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 3019,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "d9948feb-02a9-40f7-9ec7-05a57128c1a9",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 3350,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "53c0c0cc-a3da-44b3-9f7a-ae70c90ac799",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 3669,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "00418998-77db-4d92-b95c-804da2513ed2",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 4331,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "78c01221-66f0-4212-9972-fd4e83f9e2c2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 4656,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "09aaa4cb-56fc-4935-998d-6b2e1bed070a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 4987,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dc64d82b-d1ce-41d4-ae95-caf813e4cfd9",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 5608,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e4457d68-ec8d-477f-9d46-20d2ab4341cc",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 6287,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "9a39e3d8-e53f-4bb9-86ca-69480107d19c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 6635,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ed0e1359-d26c-47f2-9467-2278bd96bb76",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 6943,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "650bd842-3dcb-4554-b4eb-4cf08bea5b4e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 7285,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "47a07a4f-681f-459e-a14d-065e7c168c59",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 7610,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "0967ffd4-cbf8-4d93-8841-bd4b25421eb9",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 8272,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1dab7fa5-0849-4afe-9999-e38385388926",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 8597,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "8d576381-b317-497f-b6f3-6b3726ccd6a0",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 8922,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "6acc56eb-9401-4df4-9907-c0cac36f3130",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 9590,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "cc24bfb9-69af-47a2-ae66-f58638d9c98f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 9909,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "5ee9b7b5-2ab8-4428-8454-cfed641e542b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 10234,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "6f41996d-8f8b-49f9-a25e-021addad015c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 10902,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "fdea7eb2-0cfb-43d8-afcd-1d02a55ea324",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 11529,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "bd19a0d7-8b72-4d5c-a0d9-5eb8ba9922c2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 11883,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "ae40d187-9a14-4df3-b1b6-3afb8fd9d7ca",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 12237,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "cec96133-5508-48d8-9d02-4147fbe25a34",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 12556,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "79500fc3-389f-4ff9-98a6-1534321071ad",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 12922,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "0f4ce38f-65f5-46e2-b724-f15ae90ceec6",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 13584,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b5f6faf6-89c8-4575-a5b7-88132431f24c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 14240,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c90bf8e7-450a-4341-9238-8953a40e598d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 14861,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a3c687d7-b876-4de5-afcb-b5aa5d328b81",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 15244,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "dddd473c-0d0a-4768-98c2-f003c56d059f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 15517,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "2b513606-4a83-44c8-9702-da11e2960f30",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 16260,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1775adec-d113-4a83-9f7d-8a5a6cd2fb66",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 16887,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "db51dd6e-83dc-432c-bf95-6c2d35da0ed6",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 17229,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5832ec9f-05ff-458c-bbea-763145f4791c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 17560,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2fa63f3e-b447-4b29-818b-c7c6a3036c1f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 17908,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "5699517a-2001-449d-bb34-984abb82e995",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 18234,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "6ba95e2d-17ff-4fb1-86da-e6e77dbcfab8",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 18907,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "030fa2bb-998d-4b89-9829-c0687321ae24",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 19580,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a54c703c-e7b6-435e-8606-1c006c1da80f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 20213,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "387c94ef-2dce-40f1-8e40-be6268390c7c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 20532,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5f3141bc-1698-4a09-b342-51911403cf93",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 20892,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "86199656-be91-450f-a0ac-70c102ba8b30",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 21583,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c6e1873c-6a56-43b9-9e1f-1d543285cb74",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 22227,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2f865926-f664-43c4-99e3-e2baba065c5c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 22564,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "3eeb9b57-ba24-4d16-9c5a-663ad930f9d4",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 22825,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "ee1a2925-6b26-4891-8d39-510866bef448",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 23220,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2e0b7807-13bb-4799-85ce-634608334e20",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 23551,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "58784981-abaf-429e-ac22-c4bc145631be",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 23551,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "d1e9127b-85a8-45da-8b43-0f056b074f31",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 24195,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b72b43d7-c71f-48ac-84fe-0bc14ce02da1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 24869,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "add2f940-ac1c-402c-9477-eb28c764b144",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 25542,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c4cbd448-f540-4851-91f8-170b3d0a1c88",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 25850,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "0f081d26-f1ab-4049-a3a8-bf4918810d49",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 26186,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "0edb7126-a9b7-4f8d-8e1e-8368ef37fd49",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 26848,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "94037fc0-cc2f-41e9-9275-4051efb6becb",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 27498,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "eaf7dc80-6437-4b98-8655-64b0e816b38b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 27835,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4c9da546-a31f-40a0-9efc-1295e5fcaf85",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 28177,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "64abb234-b751-4eca-905d-470d7e5bf63b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 28497,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "df1b9410-8e06-4f18-a5e4-66c003d522c5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 28828,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "bc6c8ca0-a12b-4a8c-969d-7908bc9d08e1",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 29489,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1970c5e9-fe0d-4eaa-a6c4-65cc9e44b93b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 29809,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5e695663-bef2-42c6-a62b-93d61fbbb17c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 30145,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "ceeae99b-e7ac-42bb-9eb2-358c9c399ee9",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 30819,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "dfc99da3-1ef0-4dc9-8e38-a700106fbc97",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 31144,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "65fe7126-f77a-4981-ab0f-a65d5d82423a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 31469,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "4a168342-1fbf-47a8-90c1-bc776fa5b93d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 32125,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0aadcc1e-3f86-4bbb-8d36-b1702087d9c6",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 32781,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "01f38eef-58b4-44b1-baa4-c6a9ea5c4a72",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 33106,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "582a0c12-4212-4a6c-b076-6dc04cc7e7ad",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 33437,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c10c604c-75af-432f-b032-a2c7d40f2cac",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 33773,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dfdd5a11-34bc-4427-b9b3-70daaa230f8a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 34099,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "e8dee621-10a7-4a4e-a796-7fb66e4ce579",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 34099,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "f279090f-9270-45f3-8392-84b354d2c78c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 34760,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3a607897-2f71-4617-8745-99ead7a5d3e9",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 35091,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "10de804a-91a6-4fc1-bd3b-9481320cf9af",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 35416,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "f71cdf4f-92df-439e-9c19-c5d661fb2b30",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 36090,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d4b97a00-2e9a-4fe2-a5d8-10c0783c489a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 36397,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1d108db3-dbae-4752-a62d-36850cf27191",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 36763,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "26f08855-bea1-4bfe-b5a3-161557a07d73",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 37407,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "7a701fff-5bc2-4ab4-93a1-388e60dd0efb",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 38063,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c37a0652-fd40-4774-a14c-dd669d27b063",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 38394,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "57d8e5e0-95a2-4512-bcc5-c7bb3723645d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 38725,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a1450836-d48a-4931-aac1-8b030d5edc7b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 39044,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "479cf9d1-24bb-475d-a08b-70e6c97d1458",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 39369,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "bf7a234e-14be-4acc-b6ce-d53f73dfe1d8",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 40031,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "435c558e-848b-425a-83e2-25aa58196cbe",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 40362,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "baa37e09-8d03-4563-9963-f30090cf8d34",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 40693,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "97e05ce9-51f7-444d-bc61-fc5a34188fe3",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 41366,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "9e6f39d2-cc0a-490b-baaa-98dc7f5402ad",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 41691,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "64798d12-a127-4cc0-93f6-685deed72c96",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 42011,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2b1ef277-b3f4-4e7a-8d52-8d392f6298cc",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 42673,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "95aa57a2-5ee7-4981-a70e-4fb6058670d3",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 43323,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2311e0dc-f79c-41e5-8910-c6eea452e2df",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 44002,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "13825ac4-6d40-4ffd-91e2-d7c3866b4e2e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 44681,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d5949cc6-d81f-4239-9b4e-55e5cbb2099d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 44681,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5e4e63a7-1d10-465f-894a-d75105932098",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 45366,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "be24bc7e-4ae9-4738-af8f-1afeee9ae4db",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 46051,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5187b340-19d9-4f6f-ba11-9a844cd7dd72",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 46707,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "3130019e-d220-49f8-b125-c19c9ca12f1d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 47386,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "595dd64a-87c2-4127-8d11-8e6cab79c51a",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 48048,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "8fe486e5-d19a-49ff-99ad-0a460a328341",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 48716,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b2182373-8248-46b0-a266-faf6fce8e0db",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 49052,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "941a8227-52d1-4752-8181-03772f87c971",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 49383,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "cd8a9d60-42d0-4572-b735-3337a1e01523",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 49714,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a0dd1459-dd82-42a3-8dc8-c4645a6fc489",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 50045,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "14e8a4a4-fd79-4538-9a5b-759d7d0c8283",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 50701,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c59dd23a-1251-4600-94d9-54c7de49c961",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 51038,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7b7c7bdb-f7f5-4703-967c-4c581c8ed0e0",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 51374,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "905e09d3-e76b-4866-96e8-c35580eeea21",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 52036,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b4978fda-b248-49a7-bf51-501267c5dcaa",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 52349,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "f8403d67-7ece-4f7b-9d0c-91b7e8651b3e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 52680,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "84e5c80c-f570-4281-89ed-d12289899c55",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 53336,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "06618951-355c-42f6-9b00-06432be0a52a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 53992,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1ee42d20-033b-41bc-944b-8fd92e246244",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 54666,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e9ed6e5c-3ab0-4414-8247-dcdb5d287406",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 54997,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "680747c2-293b-4ad1-beaf-ece0c161e062",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 55327,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "f0784fdb-85f4-4679-b6ca-98b69c85fc2b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 55327,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "7c65a849-0167-4d7a-8945-8b9d641f41ee",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 55983,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "35bd0c79-3579-478c-a882-1d8b1839183c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 56639,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "d62c7c34-92af-4458-91a1-fd4eb6eca7b9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 57313,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "9f379f23-56d5-4a5d-bebb-fca453f1220b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 57632,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "7a909613-e700-4707-a65e-46f2cb040df9",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 57957,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "13f5c813-c777-4013-9f10-3b7195de0940",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 58625,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "fae7b531-2aa3-4c18-aa75-b26432eb4c00",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 59275,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "387d6ddf-8704-45aa-ae8b-abed5ffc1954",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 59617,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "29b43495-c225-48e0-80b9-873f5c29e095",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 59954,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "1ca1bbbd-fbe5-4dab-972a-19d12598df1a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 60267,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "e4044098-9fbb-4392-9232-906a688f3a98",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 60598,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "60b3ed4f-9048-4ab8-8c3b-084df14cc8a5",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 61260,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "3df317d3-105a-444d-8c2d-5968e8ecd003",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 61603,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f7864721-1654-482d-9d90-a9409634aa01",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 61910,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "7cdcc276-e0fd-4da8-b612-58f9b87ee5f6",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 62589,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "6af8433e-fe37-4313-8253-26a1651c1b26",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 62909,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "31f2854b-df73-45d9-b66d-4d2fd351e0a9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 63216,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "85bcf894-5020-4f9e-99b7-1e905facf04f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 63913,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "bb85b287-8cd7-4c39-8e3b-1bdae98db448",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 64563,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "dad4d034-821b-4646-9b2a-08f8b95d5a80",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 64906,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c02d5655-d1cd-4666-b3a3-33285b7cc014",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 65219,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "fe551db2-6b37-4e1d-8486-eb6895ba7310",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 65550,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "34185fa9-05da-479c-8cfe-bab41d81bc1e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 65863,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "01f0e5c1-bb5d-43a3-8b22-31a0ffc2d2ca",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 65863,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b8496f1d-eba3-4a20-92b7-39eb1cea698e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 66525,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "6e02bb43-749e-4dad-983d-60a899de108f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 66856,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b8318d71-a974-4eea-8441-b666ad8e35c6",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 67175,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b610ee5a-68d4-4ec1-bf23-376aaf578527",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 67843,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "f7d336fa-51e5-4556-a4d0-884d28dc095a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 68174,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "cad462f0-065d-4abf-88bf-573551fdb4e8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 68505,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "24418f0c-bc3b-4f76-b5bb-99e55450595e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 69172,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e8ccffcd-01c1-4e1c-8df6-bafa4a827054",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 69817,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "40d63b70-7af7-4f9c-b3db-2e32475bdcf4",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 70153,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "b4bfbc73-a056-435f-9316-8ae4cc93be0f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 70490,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0970a689-9bb1-4b90-9c98-2189e2f4751a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 70821,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5ca4e05e-a202-4e27-86b5-51c69208a95d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 71140,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e41d6e99-0d87-4a7e-bf93-f46a758196cb",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 71814,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "b526f3e2-268a-4c3b-be39-8440060261bf",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 72139,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7224323f-7c0c-4dc3-855b-e9f0b0210e3c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 72470,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "f5c19a9c-220f-41ed-a45e-9e9d771870c2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 73131,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "4358bc18-8f19-46d0-ba34-2e2168087d87",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 73445,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "a0bfc6fd-59ae-4e42-aa92-8d23ff157843",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 73781,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "1ba99b18-b49b-444a-87f1-482e18e116f6",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 74101,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "75c6d845-0aad-4ff6-aa82-9a3bcfcf7be3",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 74437,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "757d8e2d-f8d4-4e40-93fb-4cdb047d7dff",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 75088,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "5c557fb7-19a9-4890-8d4c-21037711337c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 75418,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "ac064179-822d-486b-a4d9-7d6b232366fd",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 75755,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c54eded2-ebc0-48ef-8b99-68099084c62b",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 76400,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "aeeaa132-deef-4dfe-8671-1b1a659589a2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 76400,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "52067325-00ab-4752-90ce-2d707bfa8569",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 77084,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "60b023e8-d32f-4808-aa56-f0db2712c865",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 77410,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "76ad9e92-7a46-42c5-888b-993c0f513585",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 77729,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "fc495f15-8862-4fad-a787-786f59dfbf3c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 78396,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "dc26dcba-b25f-4e1f-a6c5-b57011548b1d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 78704,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ce04281e-4654-49b2-a6f8-86fb14e801cf",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 79047,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b9102b40-5be3-4eb0-93d1-f88634ae9c45",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 79691,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c0a9f880-79af-4984-badc-da6b929eaae5",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 80376,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1e5d2aa5-a0b8-4ae9-a459-24970cf5b7b9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 80707,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a4ab4b96-24e4-4a74-983a-84e93feeb3be",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 81043,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e40bdfa9-e29f-4a68-a5c9-1ab5bff6fc74",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 81363,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "631c7fef-383a-4d22-99c8-e264f9a2ef5f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 81694,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "4f618140-0980-4315-9dde-ae38e01555e1",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 82361,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "78499179-7b7b-4a74-ad72-120d51d86178",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 82692,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2edd0956-3394-4294-b550-e371051e588a",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 83011,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "0541add6-6259-4e76-ae25-989a8af1109d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 83685,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "281b45c2-857e-4ed4-961b-fd26f15779a8",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 84010,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "35f5a2e2-6092-493e-bbc7-6980f20c6ba1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 84329,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "71047802-1f1a-458f-bc29-2c4f13967713",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 85002,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1a7be8a2-08bf-487e-826d-ced86a8e23b4",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 85658,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "45d9d6aa-8148-45a5-9184-c1244fa82297",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 85984,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "f1370cc5-cda6-400d-b899-93f11d354a87",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 86303,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dc1ccd09-fb8c-4394-a5a2-47b40b026199",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 86622,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1c497415-dc87-43cc-89d5-c7e97de7a0a0",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 86953,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "aaaa903f-0721-4c07-a8ef-e4cc4ffad4d5",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 86953,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a5b77adc-0858-4ab2-b976-b960aec300d8",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 87638,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "db5f8a40-382d-4ab1-a9ae-93fb4d12d56c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 87957,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "bc670b9e-a7d8-411b-8513-5cf82ca408b8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 88282,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "92b4cb25-6e9f-4e55-9f02-636ce9dede1a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 88944,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "65408c05-5803-485e-b439-b1f4ec9aae0c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 89269,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "8d9cf6d4-79c9-4608-b0d5-8501670fe256",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 89612,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d2abb0dd-4957-4836-b91b-ec72d83f7935",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 90233,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e816d5cf-577b-4c7b-8998-155646ef248e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 90918,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "4e3a52c9-1006-41cc-ab92-91ebbcb6bdaa",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 91249,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c516b9a1-2492-426c-b6bc-fca5337487fd",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 91580,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "2dd0bddc-0c78-494a-962c-b10fa437f3d7",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 91910,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "81e1d765-9c15-4299-add6-4f06ed6b3b8e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 92236,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d9eb984b-8531-41fa-8630-ec28edab0a24",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 92903,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "e8b954e4-248d-4942-ab32-11c64396dce5",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 93559,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "0f38d519-0be5-4b9e-b21f-6a90c2821ce2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 94227,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1a0dd7e1-1a6d-4c50-980a-2bd1abdd288d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 94877,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "14c683aa-0e5c-4257-85b1-f175e9314ece",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 95539,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "7210efae-a421-4249-91b8-04b205e96ee2",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 96200,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "9df079b4-5fdd-4a25-b78d-3d8adafcd31c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 96549,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5f007e38-cdf3-46ef-ba20-75c11513c2fe",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 96874,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c8dff53c-8335-4868-84f6-793c14d5eb52",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 97193,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1ad9e993-eb46-4f59-9e0b-95b227446789",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 97512,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1f739cc0-aa53-4270-80e8-0654ccfe22c7",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 97512,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c33e306c-1193-4ef9-b0a0-999e77bd64d1",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 98168,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e84422a5-7417-40f8-a5bb-25610035535d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 98505,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "000d2905-7909-4e81-9f60-a6feae5a730b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 98818,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "85070296-bc2e-4d04-b503-d9e58c876015",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 99492,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "6481b78f-0931-4aac-b1a3-a6adea6fd002",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 99811,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c9cde93b-acf3-4042-a2e0-d24fadaac293",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 100148,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "679ff0d6-f5c1-4446-9d2f-db7f23cb3f97",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 100809,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "fbfeab7f-d3fc-409e-b562-3ee9fcaed426",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 101460,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ff4053e2-edd6-4353-99d9-8f2b2d3ae938",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 101796,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "9b56e150-0510-41fb-8fa2-42c9ef9ecdc5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 102127,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "959282e6-f9b8-49a9-82db-4eb37c2dd68e",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 102458,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "9f21915d-75df-4a57-af97-a92234cf5bcb",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 102789,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7a6a99a9-2711-4183-a17b-b01f45fd196c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 103451,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "44006d94-e11a-44cd-a8ab-80c198011998",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 103793,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b010d5e3-6356-4b25-8d92-d953ad4af038",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 104113,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2c889fa7-61b5-4be9-9dd0-0ad8d1bad9ce",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 104786,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "8d9b600d-98eb-4d00-9ba4-9b723d358391",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 105105,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "d4f4d4c1-2654-4ae5-b07c-c7e9acab781d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 105424,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "493f154f-693d-4966-865e-f213bd7256a0",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 106098,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ccb2c4ea-0ae9-4c24-b69b-feeb15d5e4df",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 106736,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "0ca74cf1-8a71-4c3a-b0cd-d346db6b23d7",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 107079,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c9fdcca8-278d-40ec-8918-e86df32afbb6",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 107392,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "cb00e64d-f13e-4aa2-b8a5-5085a755639f",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 107741,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "bc8d55f2-5229-499f-872d-5e5414b8eb29",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 108066,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "9942ecbc-7e72-4619-85c4-3df24ec8c2a4",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 108066,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2701dbc7-0058-4070-af75-bccae344b023",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 108745,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b0fb45b7-3bae-403f-bf13-0da014dba07c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 109383,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f790cfac-39db-46e5-b6fb-e9a2a7212a40",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 110068,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "669c1952-1c8b-4235-9a75-4949d443b999",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 110382,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d2114ee2-8035-4834-8f96-3caeb4421b0d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 110707,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1b7c32e0-6785-40a0-9b46-f1e4a11ae6de",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 111369,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e0be9ade-4048-42c9-bb32-69e796ae56d2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 112025,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "34012984-6f1e-4498-8dea-5205c5117ee9",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 112704,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4a5e01ec-55c4-470d-8066-c1fae753429f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 113023,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "62c07eb0-3442-4263-93a6-bd110347f343",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 113342,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a537ede1-0646-449e-868f-9d56fe003ffe",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 114010,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c4cf2cd2-9196-420c-b84f-07c4c88c74b0",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 114323,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e53f8034-36b0-48cc-8cb5-7674cccf3842",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 114660,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "42d844a4-fa05-4b5d-b9f1-c6fdb1b1527d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 115328,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "9b84b8cb-ce27-4812-950d-e01f42845b14",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 115647,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "6ed398e5-2b28-4868-8d84-62094e563392",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 115972,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "9e84e623-ecf1-4fec-b717-3fe2e57ba9de",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 116628,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "abec0003-6546-4953-b138-9706b864105e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 117296,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "2a529d40-5d0a-457c-bb58-ae965d691f3e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 117644,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "dd9e23d2-05a3-4b2c-a2ad-9382c8ac2026",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 117969,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "07499331-94af-4ebc-aa27-76a1375550e1",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 118288,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b18a21ca-091f-46ae-9aec-e14164dced9a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 118619,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "8b376a79-34e0-4b61-be1c-7fde613266d2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 118619,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a601eacf-c824-443a-8f1c-456fcc319834",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 119281,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1e82cadf-36a5-4780-ad2a-03920710bf48",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 119931,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "9fee750c-6601-428c-aad4-38450f997d1b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 120599,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "aa5e979f-947e-41c0-9c6e-6e6b2605925f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 120924,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "03a73c4e-fb3b-4573-85dd-7bfcaf8693ad",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 121249,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "3647f674-4ba9-4844-9da0-1ce3be72f20d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 121905,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "cec735de-f3ab-4e9a-a70c-bbb8ee47a0ad",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 122572,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "8072bc1c-b631-477e-96db-842ddc277f16",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 123240,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b2111827-0eb0-46a5-b65a-e472191d118f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 123559,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a8cf5f31-0323-48f5-a2e4-c3ddaf5777de",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 123896,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ded2f05a-e7a0-4de0-bf9c-a70dee1b3371",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 124558,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "46496296-f14c-4e1a-a106-616ceee704c7",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 124871,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "cef1e976-b680-427f-bf67-92a7e538765b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 125208,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "4c8b277e-4a8a-414d-a030-59c976dfc403",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 125881,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "222a7688-42d6-4bf1-9d44-0be3698c8c77",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 126195,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "8fa42836-aeed-4294-aa88-eba97a0ab4a0",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 126526,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b66b1012-ce6d-4cd4-8519-34114a5248e4",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 127199,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "3e446dbb-9df9-41de-837a-96612b34b1e5",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 127855,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "675140d7-441e-4e98-8a5a-3a2612cb4660",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 128209,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "e9588491-9c01-416e-8d50-3de1280c2362",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 129248,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "a9feee2c-d797-4284-afeb-d9c01dbd32bf",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 131767,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b26c086e-8358-4560-8c0d-392f0b613dc3",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 135767,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c1644bb9-fe94-4da9-88a9-8fba9a62dbe5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 137114,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "1b652c7e-8de6-4d12-96d1-85dfeb3dae3a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 139958,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c2c1fbc4-46bc-48fc-8b1e-aeb653daa2cc",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 141276,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "3a930392-78b0-4651-8778-c33395f44a7f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 142600,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "7deb6ba9-2ef3-4cbf-8ecb-741495608b66",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 143923,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "fad0661f-252d-44d0-a468-808d226fc486",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 145241,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "bfc9a9f3-089d-4565-ae9a-a922edfaa984",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 146559,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "358f34a5-bf88-4b60-bdeb-995f3c331a43",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 147876,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "dbd4ebf3-0141-4099-8268-f6b8a1d8bb98",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 149188,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "6b05a720-e8f1-4f66-bf28-785c3926782a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 150512,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "da925364-dfbd-4f93-924c-86d6121909c1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 151830,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e23a4c91-7a67-48c7-9799-578ba810c657",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 153153,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "0f4c967d-5c1a-4630-afc1-f410a8001ed1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 154471,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "04b852f4-f83e-46fa-82d7-77d8dae49253",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 155789,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "47707434-1e2d-4c9b-9222-8e98b60f0a7b",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 157129,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "99bb8b31-0146-462b-8569-7090db50dcc5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 158482,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "504828de-b64a-44f8-9e3c-52c840a1bc63",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 159782,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "eec1d036-b17b-4d1a-80e1-8bfe6c7bb140",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 161152,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b81fd964-6456-44f5-9713-a64e79a97400",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 162487,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "73b9961d-77af-4f8c-9c1f-fd3a5abf9ad6",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 163817,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1a1bc1b9-9961-43af-83f1-81518394b851",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 165152,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "afdefdc5-a0b5-438f-85ef-5992f849579a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 166481,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7993bbe7-22d8-4481-a2bc-997a3c2f34dd",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 167805,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "74a60e02-1c92-45fc-ac4f-65bacc10b47c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 169117,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e62a9a6c-b007-42b2-a187-8f6ab47c4535",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 169477,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "248c5c2d-3b4e-4bc6-b518-3732b18cc033",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 169825,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "e4a6bfc4-6ad4-420e-b05e-3c3118904e85",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 170464,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c2d0c118-f3b2-4c61-8a3a-d32326039509",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 170806,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "0836b0cf-6dc8-4221-be5f-643b03bcd46d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 171131,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c3601e30-03fe-4f24-bbb2-36588899d164",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 171787,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "23ceb44a-9e84-41b2-8483-4702e3c7dbe1",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 171787,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "4e313cf4-d81b-4974-89f9-79524137a152",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 172455,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5eeb8b10-54e0-4000-9624-319d274e327c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 173105,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "34b94bb2-4bcc-46e2-aee4-7f1ecbbc980d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 173767,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "b640ff8b-8663-4c37-8f05-e91442493ebe",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 174080,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "3baf3d10-1f10-4ee0-8cf8-b846a3f5b373",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 174423,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "ad357e3c-24ec-427e-9a41-e129c3f2c42d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 175084,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "6c539b0f-64c7-4227-9ec3-8c37b00b2a20",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 175752,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "8d36334d-0b17-42a9-a4d8-f6d028e38b63",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 176083,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "35e108d4-1e91-4da4-9c20-ebbe407e9c50",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 176408,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "e106f2fa-0568-454f-98d0-47aa88740247",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 176727,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "95dfd4cc-fc70-4ade-80f7-380b59f823a2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 177075,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c9b505f5-60f3-48f2-8951-05f514e66700",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 177726,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1640986f-271b-49a8-9478-4cde0d4e87f1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 178062,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2a2c869d-41b2-4b02-8009-036f6ab5987c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 178387,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "96ec1f8f-0799-4202-9f2f-00c0e7afcae4",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 179049,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "054de2cd-daf7-4159-b1d6-c107faeca117",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 179380,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b8b06f81-8f6a-477e-aaac-752e8dc9b103",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 179717,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "3642a0ce-d329-4788-a591-dcbff8219809",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 180048,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "01909e4c-d159-418b-948d-55c1606c9fd1",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 180361,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "995d5577-5953-44e6-9fbd-d4d7e2984ba5",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 181017,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "21e58a49-88cc-47aa-9686-d2a137577d57",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 181354,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "f7962005-f4a4-4e07-8129-253407e07529",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 181685,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c50f2f0c-9001-44d8-8205-ba7cd569c6a8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 182341,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "15f97250-6e25-49e9-a3b3-f2c3b0363d57",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 182341,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "0b561359-02f4-4916-b1a8-b35a5664374b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 182997,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "935f5031-9ce3-4aa6-807d-a7bc3220fdb8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 183333,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1b22686d-2477-4e05-ab39-2de1821be844",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 183652,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c247794b-1240-4426-a4ac-cacbeaba32d2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 184320,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ebb3901a-e4be-4fe1-a398-71e541edf85e",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 184645,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "438f9c89-fbd7-4287-81d6-6494cac4f1a7",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 184982,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "ec4fe7e9-e5ce-4339-912d-74e6e8a1a320",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 185609,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "fbf30c21-18d1-440c-beb9-44329d673024",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 186294,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "fa5dfa95-2d3e-405d-8e1b-68e2680f9ebf",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 186630,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b07c9bd7-1018-4820-a2f7-d72b7fe2e216",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 186967,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f2633613-f0e1-40f6-bce7-155230921704",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 187281,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "8357d8f8-65a1-4d2d-8040-0dbefd0f5e20",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 187617,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ae43f2ef-c5e2-463f-8164-9a0774cc40bc",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 188273,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0f237b10-a959-4eaa-82f3-ca5bc30ad205",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 188604,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "9b159bc7-9e25-464a-b093-741cec8c3ca9",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 188923,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a3bc24bf-2f4d-42ab-b31d-ca345c4a8bcf",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 189585,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "5f3cb1a9-ef49-45a6-910d-5d410db51b96",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 189916,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "77476505-d127-4fc6-8916-153485247516",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 190259,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f6caf64e-c877-4ead-9792-5ffd1c317249",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 190897,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "423702f0-5bea-4d84-b124-e0465977dc95",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 191559,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3f8894d9-8365-4214-a466-4c37f778e5eb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 191878,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "7350d920-b532-4832-9af0-414ead5eef2a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 192250,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "463fa5f9-3a3e-499b-ad32-1aaca143b947",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 192557,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "6e5c96bb-215e-469b-8354-752e9cf04a3f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 192888,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "930da391-81f8-40f6-9c8c-e5b933df3d0e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 192888,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2569f6dc-6dfe-4f22-bc1c-d223a73b2186",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 193538,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "303f7342-8e9f-46e7-80fb-e6eddc302b6b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 194212,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "cd8981ef-100d-4c84-baac-09610c4322d7",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 194874,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4ad634b9-3a68-49f4-9625-674c1e85c84a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 195204,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e63c744f-8eee-4242-a92e-f95bab4f4062",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 195535,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "18dcc34c-f5db-4a75-b6b1-012f81668560",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 196197,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "9fadb91e-2a03-49d9-8874-07f93e207bf2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 196859,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "99cd7fec-1667-46f4-a5f3-5a71b274db8a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 197178,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "f21206f3-c0fd-4ce3-b78b-054da710444e",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 197538,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "b8856081-2845-4a97-9c7d-668e535a07c9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 197834,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d33149d2-6348-4d3e-a015-42788fd47e09",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 198171,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c34ef8ef-d88c-4662-928b-adad10c11e7d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 198809,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a66ef12f-6039-4494-af68-fda116a0e7f3",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 199146,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c4887a5c-9bac-4843-b158-68ee660571ce",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 199477,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "65b55882-2283-40bc-ba5f-ff33d4794d01",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 200162,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "d6d8387c-9a2a-4fd1-9369-0e240d5d8c24",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 200470,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "4e3780d8-3614-42cf-bb1d-95a1aa06b3de",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 200800,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "44dd4b08-8896-4c05-b486-8457a3ec18fe",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 201120,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "29fab06f-f952-4077-88d9-852b28cdd253",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 201456,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "720103b2-9fbe-416f-a9f9-42d1b7f7938d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 202124,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "336922a9-efed-491d-884d-e90e4defa5ee",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 202461,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e295143f-e91d-4713-9bbf-99e326cea661",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 202774,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "f2a24124-7b62-4d11-a40c-292c0260c92b",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 203447,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d9d78dc5-adec-4130-ae4c-40fc657bad1b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 203447,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "7060e61f-296d-4a14-9f1a-774af9c30bb4",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 204103,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "02f209fc-3d2d-4590-aef0-aa962140b2e8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 204434,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "56da6a77-b53b-44e8-84f7-c20b3089eb44",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 204765,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a8645623-8dc6-4e31-8e80-6573adf6db5c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 205427,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "65aee45c-2cf8-4062-86ec-5c4acd1299f4",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 205746,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "bb774224-d32f-4a3b-a159-d465b528dfb8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 206077,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "cbb7ade3-eaeb-4069-9f9b-f1aa8b050bf6",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 206733,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "476ebe1f-1b67-48ca-ae70-83811b3d4c1c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 207401,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c3fc98a9-981a-40ef-85f4-e546cc02363c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 207720,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "4f716437-f07e-40c9-acbb-e33d29a369e6",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 208086,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f5a21860-27f2-40c2-8c03-188f588714f0",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 208376,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "22b28529-fb00-48ce-ad22-03461a01019e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 208718,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "4762cf8d-70fe-4d80-8073-633ce16138e2",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 209369,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "431d6879-23f5-45fe-8f79-af5fb857c7b4",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 209688,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "37a60cb7-cb22-4b68-bf02-cc446143be9c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 210030,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "34f8e8a1-7cdf-4e53-8a31-d89df1007c88",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 210710,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "fcfc4aa0-950e-4da3-88a0-78e3dd3206c1",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 211029,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "0ac07776-e2fd-43fe-ad95-cc30a8ddcf83",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 211354,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7f03e40a-4ef3-4e6c-879c-3dcc36e92528",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 211998,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ea9c3eca-ba19-4dc3-b58c-55957ba3557b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 212654,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e7d8b931-47e9-49fe-837a-3e7c05703566",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 212979,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "395e0c20-eb89-4173-b911-4ac4012a73f0",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 213322,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "86b7d878-72a3-4511-ab06-c6710d72403b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 213647,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "052e0ece-595a-442d-9206-9e367ef19820",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 213972,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dbb7e648-5af8-44ee-84aa-8f7bda5d1a98",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 213972,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "740e1f6d-5e3a-4e0a-aef5-0ea397c39b79",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 214651,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "056b7a49-6492-459e-9f33-fdcf5eb21746",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 214976,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b7762a25-4479-4e2b-8aa2-9461ed51ace4",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 215295,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c68906cf-57e0-4cc5-b054-eca9c7d5fda9",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 215963,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0a6e89e2-e6c5-454c-83c5-977035e407cf",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 216288,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "1be751f2-313c-4ee7-ae02-71b33327bedb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 216613,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "89bd64ea-c5db-45c4-81fb-08316827189a",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 217275,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5562d4f8-3d70-4382-ab02-93da2fa327aa",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 217943,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c6b3ec71-0acc-4d70-b87e-e371e3491c01",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 218268,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "99abdb5a-f3fc-4d21-9661-be9b1684d7f2",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 218599,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "26139174-6051-443e-9657-9812fcb3d4bb",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 218929,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "bc9cca19-2e68-437f-994c-a83a82ecabe8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 219249,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "fdf7f3cc-e0da-4586-96a4-3db5f40aae2f",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 219922,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a4628afe-cf70-47b7-af0f-94f51a84e642",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 220259,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "afcead11-0a5a-4a6f-bfb5-5405e69359b2",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 220584,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "2f342000-0afc-49ec-b88b-54a1b88545f6",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 221251,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e5c8efcf-e1bb-4123-8175-49686f8bbb8c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 221571,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d5028b85-eaba-48c7-9c2e-d7afda60a0e4",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 221902,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "548d4fd7-3eab-4132-8954-94650422b53c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 222558,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "145d4663-0188-4307-a9fd-a5fa16576a78",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 223219,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "33aee018-5f74-45ee-8fe4-401fb5d9a6d9",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 223550,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "008c666d-43f6-4f38-b437-dbfd52c9eeb5",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 223898,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "412cc4c6-dd9e-4d9f-94b6-0ae8edbf70f8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 224206,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "78bc98c8-bdfe-4528-8314-46e4049e5235",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 224531,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b491f792-20e4-4c4b-9a2e-79f9cb2ad43d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 224531,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "bc5b01a8-1ad6-4069-bd57-48bba9cae725",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 225199,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "f56f35e9-6a92-412e-b847-b74c4107c407",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 225855,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "925b69c2-ae0e-41da-b7f0-412b1b0a7ddf",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 226517,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d1df82eb-4e5a-45de-880f-ffb91fcd9251",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 226842,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "d2b552cf-5da2-4229-ab67-04b376a78b56",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 227172,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "48ab3771-569a-40f3-a45d-74e3a69e3a54",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 227834,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "eb5326e6-8ec6-4d0d-b9d6-203a0b7ee43d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 228490,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "22d7e088-1946-49f3-807c-c94ae880ff7a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 228821,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2c3ca323-f48d-49c4-8e07-69fae8276974",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 229169,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "45edcff0-5a29-4902-97d9-7deacd8c1f1e",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 229489,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "9cd1f28f-bdc2-48bd-a3b1-4c0f33fafc6e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 229814,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "728a5419-3a04-4616-9ca8-8be0237febb2",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 230458,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a9677e2d-e89e-432a-b07f-44a647b8b7f1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 230812,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "709cbf50-5ba3-4b37-8b05-4d8ff64a443c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 231137,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c70ed869-789c-49ca-a2ed-22a48beb37eb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 231793,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "abe57be6-c28b-4c98-b177-218bac184dce",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 232130,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "e9041387-c1ca-4c48-956e-17299d8fc355",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 232478,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "14ec987f-98e6-4c7a-b1b6-aed45283b1c4",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 232815,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "cffb658f-9c72-4535-a97c-25a205339dbb",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 233784,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2c4e2693-be44-40ce-b4db-ea8046f793ab",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 235120,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "9230c2e5-1606-4566-b77e-681fb299ec1a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 236449,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "75743985-7999-4576-b8c1-9594a3da1421",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 237784,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "08157383-bffc-49ec-a18d-f01e8d45e15a",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 239073,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "93537d97-d6e9-482a-8ff9-99273d419d60",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 240454,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5e46dd34-d65b-4025-848e-75f7e9a69f2c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 241784,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "5da976fb-cf82-4c61-950f-4f2b10bc3dd9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 243055,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "338d6680-06ec-4493-add4-181dbd706ea7",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 244454,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1083c00b-9034-4e6f-939d-a7b109d0fc8c",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 245783,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "7a5faafb-f60f-4dd7-84f9-2466d669cc1a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 247118,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "9d168fe2-20f5-4680-bb1e-4397c105c985",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 248448,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "95447c07-5c38-40b4-8ea7-06b3ea98f3aa",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 249806,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4434a48f-e848-4479-a83b-382a72652a97",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 251124,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "df9ebaa8-8ff7-45a3-bbad-d178c20ec3de",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 252442,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "7aace367-fc62-4c3c-b8d0-fc467990be09",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 253783,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "791dae46-cda7-4e25-9f5e-e6d2b6152ac8",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 255100,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b59eb736-1673-4a1a-a784-7124c6569e84",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 255425,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "8151b0a2-3ba2-42e7-b239-2b93a6ed892f",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 255768,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "8e4fe33d-c4d1-41b5-bf5c-5422ee279613",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 256093,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "93f824dd-d3ee-49df-bc51-02e4f4e7073a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 256430,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "8fde37c5-63b8-40b7-897f-a85c2502e235",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 256430,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3189159f-e2e7-49d8-8995-bd4f6b080f0e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 257103,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "99c78b8f-b62b-47a3-b66e-3d03808e2507",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 257445,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c876f588-cfaf-4d07-95aa-fd4595196f7f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 257771,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a2863749-0cb4-4e2d-ad37-13ec0635d32b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 258444,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "03d2e236-c3a1-4207-8c81-c8ce9b7e3bc3",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 258763,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e0c87a9f-7eef-447b-a6de-64fc80f50748",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 259106,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c70b6817-3609-4362-b8f5-a19f536c5a43",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 259785,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3bff4e5b-c01b-498f-be71-f6628000e443",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 260435,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "49102840-dc18-4b64-930e-c158e679a1df",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 260772,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c60d216e-7eb1-454f-95ea-c5dcf6ec6243",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 261114,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "c78f8a97-17ec-4a10-8dfc-70abe2ee47a5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 261439,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "35a32764-c517-46d3-bd30-a450f05e1374",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 261764,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "82562bab-eae8-471d-aee3-fac1a8256c3d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 262444,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "03ca1f0d-33ff-441e-b13e-97d1ec37b02e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 262774,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "e3d3d681-d7d3-4c8c-8447-23aa086c5b00",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 263094,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "f02879c3-8eca-452d-85a9-db6a91715ee5",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 263761,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c2a8f686-fb76-4e3f-a286-2b6805c0bf5b",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 264104,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "c2d6e792-7c93-4532-a60b-fe87977f9d10",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 264446,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a4c3a203-c1ad-43bd-97ee-95b95679e26b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 265102,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "bf7abc44-8f6c-4c7d-9298-9cd48e025d20",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 265770,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "2ca8fea0-e71c-450f-9d64-f7f7c441ed8a",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 266107,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "8130b60a-991c-4e4e-8e05-17d6bb1e3a1d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 266449,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "b0433cf6-3b3a-49d1-9494-197f62648643",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 266768,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "54ba8d18-0a35-4d2c-84b9-5b35aca903b3",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 267105,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "32abec80-93cd-464e-b304-fe4db9d824d3",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 267105,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5d288355-fa2c-4e8f-9b40-8d3a6d6c7308",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 267773,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "120f6dc1-9f95-4def-8adf-446cdd73973a",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 268115,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "465d7ef6-ee97-46f3-a399-461539bf4460",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 268440,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "1bb579d7-7df3-4edb-9ed3-165fbac803ce",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 269114,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "6ec8f6ac-51fb-4979-950d-7afc0bc3fccd",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 269433,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "3fd33cbc-d3a0-43d8-acc7-f238f8dca9c8",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 269769,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "39fc11d4-4aa1-46ac-96b5-a55759507707",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 270437,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "9c21abab-eecd-41de-bb25-6974924d4475",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 271099,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "79dac045-4fac-47b6-80ab-716293c812a9",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 271436,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d51400e8-03f8-4233-a6f7-d1816d810950",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 271772,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "40282960-e597-4573-b45a-f276000c6347",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 272091,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4c28b00a-c03f-4acc-a4d5-65041a461c7f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 272428,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "8a19c640-20fc-4b5a-8fff-7e65541ad191",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 273113,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "204277c8-92c5-45a9-ac1f-1b659803cd8d",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 273450,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "03aeeea4-6782-4d1b-9724-370e565fa9d5",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 273781,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "d6cadfe0-6f41-4d44-a16f-e25991308d02",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 274419,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d0828d13-ecb6-42f9-972b-42c2864e9c0e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 274779,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "98e2e442-3003-4bd4-ba46-4523e35a73b4",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 275110,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "90c27e12-03e5-4fb6-8337-b036978fa868",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 275441,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "13e2b2c2-c241-4401-b692-8dabe621df51",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 275772,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "7c1c2dd6-3386-4790-b736-c765c2ec75e1",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 276439,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "0715fa9e-793e-465a-ada0-7bf3790e470e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 276799,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "9d0f07e6-e819-4062-b656-dc70826062af",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 277107,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "5c05ab0d-1fe7-49d1-b258-fa1a0fece644",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 277769,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b329b08a-74b7-47aa-b284-e5bf2d16ed7f",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 277769,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3beaf0ed-eaa5-479c-bffd-02930a419660",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 278448,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "f8a0be6f-5d2f-44ae-9c7f-e77b04356a16",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 279116,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c8325016-ac91-4319-9d8e-98e461acaccc",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 279795,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "477c5371-7602-4970-bd0f-36f8f7ef0195",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 280137,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5f63470a-f8c3-4001-a8c5-7c840b95e49e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 280439,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dd803fc1-cb3b-46d2-959b-a8529b0842d2",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 280787,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5bfd0555-4d55-4bcb-8d3b-8c105899830b",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 281101,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "c918b5ec-73da-43cc-897e-d7c6e4852b9b",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 281768,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "b9a9f89f-4674-4200-aeb3-37f4b6855eff",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 282436,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "03a7ee57-991a-4ba8-88b7-c0a6ef06fdf2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 282778,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "70a19931-c673-46eb-881e-6a8e5af448f8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 283098,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "6b9f3812-ae3e-432c-bee4-08b1ee7d25bb",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 283771,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "dfdb97c0-f12f-49dc-98f3-bd54f1ad1ac0",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 284108,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "41bd0d11-e1c8-4011-8129-26802d0b23b5",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 284433,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "92ef2bc5-c863-4ff0-b446-7f2a9c858220",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 285112,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "86e33ecc-798f-4965-aa96-c93cbeba3c99",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 285437,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "38996642-00b9-4a0d-9d8d-673b0462a57c",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 285780,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "1997c97d-d83b-4b7b-a3a6-a1412851cbd9",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 286111,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "37530241-9ea4-46d0-8079-50a7b11b4278",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 286441,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a2b8286a-23f0-4ec0-b03d-c9a56688bb55",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 287155,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "bbbc4faa-7403-4bd8-96ae-26aff063f950",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 287515,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "de445283-ad6d-496e-a02f-e624a4e43aeb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 288549,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "a3c95e07-474f-4b85-9a38-b1a6b0bf1151",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 289147,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "5622cf93-f64e-405b-841a-69fa9cf96e66",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 289785,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "54e4d3cc-632a-4387-aa29-17f388f39bd8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 290482,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "cede0759-645c-4ea7-ae11-75a0df7573fa",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 290813,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4e3dbd7f-fd9e-4cf5-8a8d-fa19bd908fce",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 291213,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "453ec9ee-4497-4c63-8d8c-673ccf6c6cf0",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 291846,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "cda9ce01-60f7-45ce-873e-499afed9ea83",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 292508,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "39333c7c-0334-476e-86d8-91902e8a7ae2",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 292844,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "c96c2231-7f6f-415e-8124-ea97c4379874",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 293175,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "abd37f10-26d6-4a2b-b2e9-92021c42d082",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 293506,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "8fa750fb-4a5a-4175-9c69-92f21b76f075",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 293849,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "16ed8a69-65f9-4a62-a4e0-423e268252f4",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 294522,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "55871089-1c75-4604-a2d0-6b071fc0f21c",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 295201,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "2eca32db-8b30-411a-adaa-aa67b1332bbb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 295875,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "7222b9fe-f8be-48b6-816d-156d61424b0f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 296612,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ea00d219-33fd-4891-b536-115a441edd1b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 297314,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "6936d658-d4a7-4386-bdca-dd966589d4cd",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 297959,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "8842448e-0202-403a-8524-967e579d6a8b",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 298295,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "3e402549-96bd-4897-968c-de9712cdad5d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 298620,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "3f3f6516-79e1-4b7b-96bf-35276656b3ed",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 298945,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "6815c0b3-94c9-44e7-a088-83fb31653272",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 299276,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "101de5a2-3348-4f3d-97b5-ed4238d09385",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 299276,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "4c488d6f-1ae4-43c6-a7b9-304a20e3202f",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 299938,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "54bf0fa2-d4f1-4662-b47b-69903e8f6fec",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 300257,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "a9431c39-197e-42fd-a774-772033909210",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 300582,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ca111888-5000-4e48-b63d-b541d17d66c9",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 301238,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a50bb99e-a556-4bd3-994d-fe1a3323f574",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 301558,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "ff64afc2-14f9-416f-9c67-d0cf07b69302",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 301906,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "fac1ff9d-eb10-4e54-832b-05ae14d60898",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 302533,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "36590924-b9d8-4079-90fc-bc7d649d698f",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 303218,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d28ee8f6-6fe7-442b-ac6d-e5ed8ae728d3",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 303560,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ae1493c7-ec30-447b-a028-6f126f181c6c",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 303885,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "edc3f3f6-5563-408f-8868-913a46e523bf",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 304216,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "d35d4f55-5ae3-4475-810e-ed64c33a8db8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 304547,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "74d99ad9-8dd3-4e41-8cd9-c0137298e2ff",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 305203,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0474f126-3137-4a82-9784-4b447d1bc5d5",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 305528,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "38a4873c-59bd-4041-8667-726183dc5d4e",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 305847,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "3df0f0d7-2e3d-4171-9da0-86c9ee62858f",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 306527,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "26f93acb-2f26-4367-bb25-a32da19c254d",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 306840,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "829d3343-d4ec-40d3-b3fc-d70cf8f36123",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 307188,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a57aaf70-3067-4fd2-beca-97a2d918079e",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 307508,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "a184ccf0-8876-48d5-8884-7917010078a3",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 307833,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "edfcba1a-24ba-4b0d-b19e-63f1086bb755",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 308506,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "4b2546b1-99c7-402f-9063-4f9707d5c435",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 308831,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a876aefb-e6a0-48b6-8f37-a4112a72a2e7",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 309116,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1f85098f-a44c-49e0-9e12-e663f4fa0d55",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 309824,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "e6d90d62-9829-46df-8f1d-d1ad211ead50",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 309824,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "27d83afe-a7ab-4bb5-8800-17410e513d1d",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 310474,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "dfd09981-c3b1-4797-a7bd-5fa93bfab7cb",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 311136,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "4ed47cd8-27a2-491b-84f0-e775f18d14da",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 311757,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "fceabb16-a5b0-4438-b6ac-6daa6105057a",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 312111,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "eb4bffed-20e5-411c-b85b-97e49c0fc4d2",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 312448,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "e594d602-511b-47bb-b071-144162e3a62e",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 313104,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a94b4213-14e2-41a8-93bc-5c14f3e0dce6",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 313771,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "6620ec3c-06f3-4db0-999e-25072cd86c95",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 314108,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7e6f3655-a981-44d9-ae67-2b133fc72f9e",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 314421,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "5c4a5717-4d1a-4ad7-bb05-8a1a24db9847",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 314735,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "df9f89fc-e096-46bd-9f4f-21a99a1d4a60",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 315037,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "883967f2-a9b2-4661-b610-25a023dcc9ac",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 315762,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "f379f459-08b1-488e-92aa-efc744cc4670",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 316424,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1a39c8f3-f320-40cc-8eed-9e3db57a20eb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 317074,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "2914189e-8d86-42b2-a69a-5bf591b09bff",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 317365,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "3f16d77a-fe99-4153-ac42-76c9fb1008b6",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 317672,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "2f0eceda-c13c-4d4f-b6ee-f44d865c386b",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 318380,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "9b991667-663d-4566-9352-f981de452661",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 319054,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "9e1fde85-111c-4526-9121-b6fe0f4d47a4",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 319356,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "ca381dd5-8590-4111-9638-3020e9f786f9",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 319640,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "d64b0b5b-acd8-4eba-841c-37e635666fcb",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 320366,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "808d9340-e11d-4788-af5b-a895a6aa1819",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 320366,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "97567e20-d506-4c81-a56d-3c458a7efd99",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 321016,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "363f84a0-a2b4-4b44-84b3-53a04bc705a1",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 321347,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "b870c739-83db-47f8-8a4b-831199199dc8",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 321689,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a5a4a7c8-8a1a-4212-b4ee-7d0bbaa3d944",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 322357,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "e30cf38e-5e34-4ace-b21d-31b23fb999b7",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 322676,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "7f8d74f4-1d26-45b8-afb5-4679447aa5e5",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 322990,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "561b9c62-c67f-4c09-9db5-653e3b398498",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 323321,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "1b4f560c-81dc-46ae-a1c6-390e7a66fcf1",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 323634,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "631f3a29-58e2-4944-ad29-9e0bd1858826",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 324307,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "69237658-a5ab-427a-b9fb-f365e536c32d",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 324627,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "ba43b9d1-a45f-41be-b60a-b8462eb641d5",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 324946,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "0f0944c8-7262-47da-9375-f4d10eea9dc1",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 325660,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "bb8010c8-63d9-40c4-90cd-9a288a2d32bb",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 326351,
+      "durationMs": 0,
+      "key": "L"
+    },
+    {
+      "id": "6e33b1d0-2d6b-4fe5-a832-b2b66de20ce6",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 326629,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "a96f76e7-1ce4-4463-815a-11423b2fab44",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 327030,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "77f3426e-ade0-4c02-b996-ee4928195173",
+      "lane": 2,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 327692,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "a9faf443-d7ce-4751-ae47-b9d5873b8f82",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 328075,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "1f0c82b7-5ce2-4a70-9ca9-4d1d5364ef76",
+      "lane": 1,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 328394,
+      "durationMs": 0,
+      "key": "D"
+    },
+    {
+      "id": "f6683896-0b04-45ed-8c55-e156163d7fbc",
+      "lane": 3,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 328742,
+      "durationMs": 0,
+      "key": "L"
+    }
+  ]
+}

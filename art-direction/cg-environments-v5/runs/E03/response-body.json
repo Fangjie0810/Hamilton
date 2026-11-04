@@ -1,0 +1,17 @@
+{
+  "model": "doubao-seedream-5-0-pro-260628",
+  "created": 1789038092,
+  "data": [
+    {
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0-pro/32518e017d07da9f0862c0cbd2fea558b27ea0465250830987120/Image/2113181403/0217890380525640ae72b855aef2dbc0c2680f9ad70d710e81523.png",
+      "size": "2560x1440",
+      "output_format": "png"
+    }
+  ],
+  "usage": {
+    "input_images": 0,
+    "generated_images": 1,
+    "output_tokens": 14400,
+    "total_tokens": 14400
+  }
+}

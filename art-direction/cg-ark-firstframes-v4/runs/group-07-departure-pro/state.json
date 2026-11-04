@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "model": "doubao-seedream-5-0-pro-260628",
+  "status": "complete",
+  "downloaded_count": 1,
+  "checked_at": "2026-09-10T10:17:12.873202+00:00",
+  "downloads": {
+    "image-01.png": {
+      "status": "downloaded",
+      "path": "raw/image-01.png",
+      "info": {
+        "bytes": 6138423,
+        "sha256": "3691f409432771b5eddedc90df6148754d49bf17768da1737f6a5c1c894e72c6",
+        "width": 2560,
+        "height": 1440
+      }
+    }
+  }
+}

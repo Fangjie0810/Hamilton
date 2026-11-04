@@ -1,0 +1,39 @@
+{
+  "programs": [],
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "12.041667",
+      "nb_frames": "289"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "duration": "12.064000",
+      "nb_frames": "378"
+    }
+  ],
+  "format": {
+    "duration": "12.064000",
+    "size": "8631688"
+  },
+  "source_file": "/Users/fangjie/Downloads/3b9a288b-60be-4bfc-8f98-20ce4896b9b6.mp4",
+  "source_sha256": "f13b061d384507054d4a1efbaeb3e7011dcba7c1fcd249df24a9040ec8569728",
+  "review_method": "12 one-second sample frames; audio signal level measured, content not transcribed",
+  "audio_measurement": {
+    "mean_dbfs": -45.4,
+    "peak_dbfs": -19.6,
+    "has_nonzero_signal": true
+  },
+  "status": "source_path_accepted_in_user_console_test_visual_direction_usable_writing_revision_needed"
+}

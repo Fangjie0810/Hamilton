@@ -1,0 +1,17 @@
+{
+  "baseURL": "http://127.0.0.1:1777/?story=3d&debug=1",
+  "checks": [
+    "clicking the visible loyalist body walks up and opens the citizen-led street argument",
+    "real Demo Tab advances first to second choice",
+    "Shift+Tab returns to previous choice",
+    "forward and reverse boundary focus wrapping",
+    "resume restores dialog focus in every language",
+    "all three option hints survive language switches",
+    "Tab and settings preserve narrative state",
+    "native Enter commits only the focused option and leaves its reply visible"
+  ],
+  "chapter": "Arrival",
+  "choice": "burr-question",
+  "errors": [],
+  "failures": []
+}

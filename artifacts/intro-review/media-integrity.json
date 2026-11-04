@@ -1,0 +1,8 @@
+{
+  "source": "/Users/fangjie/Movies/9\u670811\u65e5.mov",
+  "output": "public/video/opening-2026-09-11.mp4",
+  "duration": 57.2,
+  "blackTailStart": 49.433333,
+  "encodedStreamsIdentical": true,
+  "streamHashes": "0,v,SHA256=66b7eea9d23434c89db21458b5712c2e271094f12b0304b5e8e795bfe4de6016\n1,a,SHA256=e916a1f6b57d4912e853ce95e100f0227c3e5d50b95f420849c9de36bbf45807\n"
+}

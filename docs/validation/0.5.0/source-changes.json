@@ -1,0 +1,12 @@
+{
+  "changed": [
+    "src/story3d/StoryDirector.ts",
+    "src/story3d/StoryUI.ts",
+    "src/story3d/CampaignCompass.ts"
+  ],
+  "added": [
+    "src/attribute-feedback/CompassFeedback.ts",
+    "src/attribute-feedback/CompassFeedbackTimeline.ts",
+    "src/attribute-feedback/compass-feedback.css"
+  ]
+}

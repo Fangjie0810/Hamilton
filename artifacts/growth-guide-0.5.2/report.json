@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "prologue and Arrival entry remain uninterrupted, including transition blur/resume",
+    "all five compass sections reopen their own concise meaning and focused badge module with keyboard focus restored",
+    "arrival-newspaper: production badge highlights influence with real values above concise copy; 4 languages at 1440px and 390px; read-only, accessible, static with either motion preference; state and feedback preserved, settings pause/resume",
+    "arrival-street: production badge highlights momentum with real values above concise copy; 4 languages at 1440px and 390px; read-only, accessible, static with either motion preference; state and feedback preserved",
+    "arrival-burr: production badge highlights burrRespect+burrRivalry with real values above concise copy; 4 languages at 1440px and 390px; read-only, accessible, static with either motion preference; state and feedback preserved",
+    "chapter checkpoint restores original rewards while already-read tutorials stay deduplicated",
+    "Tavern settings and language switching preserve and resume the existing choice timer",
+    "manual growth review preserves the existing minigame instance, score, timer, and assistance",
+    "washington-offer: production badge highlights washingtonTrust with real values above concise copy; 4 languages at 1440px and 390px; read-only, accessible, static with either motion preference; state and feedback preserved",
+    "Washington tutorial follows the first reply even when trust falls to zero, then stays deduplicated on restart"
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,44 @@
+{
+  "hamilton": {
+    "voice_name": "Hamilton by Lin",
+    "voice_id": "ZkIh9CGBiVNOeuNezDX9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "burr": {
+    "voice_name": "Burr from Hamilton",
+    "voice_id": "g4v6fhF5YaxHMMMGmqBa",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "washington": {
+    "voice_name": "Washington from Hamilton",
+    "voice_id": "C8sDvT2KOApAaKPGigC0",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "lafayette": {
+    "voice_name": "Lafayette from Hamilton",
+    "voice_id": "ZcB091leTaOIbyDOaQr9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "mulligan": {
+    "voice_name": "muligen from hamilton",
+    "voice_id": "uIKWpbqY1EpzFTHusIp4",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "laurens": {
+    "voice_name": "Larence",
+    "voice_id": "vXOqiB9d7xy2Q2wzZrO8",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "narrator": {
+    "voice_name": "George - Warm, Captivating Storyteller",
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "status": "user_confirmed_match",
+    "language": "en"
+  }
+}

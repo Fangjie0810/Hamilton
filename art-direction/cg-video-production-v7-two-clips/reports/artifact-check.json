@@ -1,0 +1,24 @@
+{
+  "html_local_links_exist": true,
+  "html_prompts_equal_api_txt": true,
+  "all_13_original_pngs_decode_and_match_hashes": true,
+  "source_timelines": {
+    "A01": 30,
+    "B01": 20
+  },
+  "edit_timeline_50s_uses_each_scene_once": true,
+  "n02_is_generated_empty_room": true,
+  "v6_preservation_6_files": true,
+  "video_production_ledgers": 0,
+  "html_javascript_syntax": true,
+  "request_sizes_under_64MiB": {
+    "A01": 43748981,
+    "B01": 53350408
+  },
+  "backend_offline_tests": 34,
+  "npm_tests": 69,
+  "npm_build": "passed",
+  "browser_render_verification": "not_performed; static checks only",
+  "plan_sha256": "547f84c49f7c6458a648e0d4d939c051eed8a2787f661ccc3ed8b75126b0a5d4",
+  "final_prompt_revision": "S07 walks along existing deck out of frame; no full-body occlusion by low bulwark."
+}

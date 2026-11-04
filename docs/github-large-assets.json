@@ -1,0 +1,51 @@
+{
+  "release": "https://github.com/Fangjie0810/Hamilton/releases/tag/project-archive-2026-11-04",
+  "files": [
+    {
+      "asset": "Hamilton-CG-Environment-Firstframes-v5.zip",
+      "bytes": 71864841,
+      "sha256": "711df30ad8d70277b5371414ef0e936a2f6fdf52ef35c52b65706b4f2c463bfd",
+      "paths": [
+        "art-direction/Hamilton-CG-Environment-Firstframes-v5.zip"
+      ],
+      "url": "https://github.com/Fangjie0810/Hamilton/releases/download/project-archive-2026-11-04/Hamilton-CG-Environment-Firstframes-v5.zip"
+    },
+    {
+      "asset": "Hamilton-CG-Video-Plan-v6-720p.zip",
+      "bytes": 71942857,
+      "sha256": "d1a9ae1a7b6cc755c974cfdd25de49f52f70beb4048cad28e8abfad54f7418dc",
+      "paths": [
+        "art-direction/Hamilton-CG-Video-Plan-v6-720p.zip"
+      ],
+      "url": "https://github.com/Fangjie0810/Hamilton/releases/download/project-archive-2026-11-04/Hamilton-CG-Video-Plan-v6-720p.zip"
+    },
+    {
+      "asset": "Hamilton-CG-v7-Two-Clips-720p.zip",
+      "bytes": 72713162,
+      "sha256": "dd45fa53376fd2477050d58792ed5247273bcdd1f9f57c8fc7f5ba136a7b44e4",
+      "paths": [
+        "art-direction/Hamilton-CG-v7-Two-Clips-720p.zip"
+      ],
+      "url": "https://github.com/Fangjie0810/Hamilton/releases/download/project-archive-2026-11-04/Hamilton-CG-v7-Two-Clips-720p.zip"
+    },
+    {
+      "asset": "reference-xhs-6addd2c4.mp4",
+      "bytes": 92799013,
+      "sha256": "06fa8458bae9d5bc63987c667c3998e70038ecb11d1b1382ecc9e6dcfb6683a8",
+      "paths": [
+        "art-direction/cg-style-reference-2026-10-28/reference-xhs-6addd2c4.mp4"
+      ],
+      "url": "https://github.com/Fangjie0810/Hamilton/releases/download/project-archive-2026-11-04/reference-xhs-6addd2c4.mp4"
+    },
+    {
+      "asset": "opening-2026-09-11.mp4",
+      "bytes": 72694180,
+      "sha256": "bf0da04c44772fe263de4d7add123c89cd668617ca502851e61e05d3c8da91fa",
+      "paths": [
+        "experiments/cg-projection/public/video/opening-2026-09-11.mp4",
+        "public/video/opening-2026-09-11.mp4"
+      ],
+      "url": "https://github.com/Fangjie0810/Hamilton/releases/download/project-archive-2026-11-04/opening-2026-09-11.mp4"
+    }
+  ]
+}

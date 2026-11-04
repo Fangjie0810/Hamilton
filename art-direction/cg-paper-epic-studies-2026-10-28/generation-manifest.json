@@ -1,0 +1,75 @@
+{
+  "created_on": "2026-10-28",
+  "tool": "built-in image_gen.imagegen",
+  "status": "first-round style studies; user selection pending",
+  "output_type": "five unchanged original PNG stills; no animation generated",
+  "script": "视频脚本与首帧清单.md",
+  "method": "旧 CG 与角色素材重绘；O02 作为其余四帧的画法参照；原视频截图仅作风格参考。",
+  "scope": "开场 60 秒、五结局各 30 秒均为脚本目标；五结局仍是提案。",
+  "limitations": [
+    "尚未检查视频中的角色连续性、手部、纸张与肌理稳定性。",
+    "本轮画面构图已经人工目视审阅；仅为静帧定调，不代表整段镜头已验收。"
+  ],
+  "images": [
+    {
+      "shot_id": "O02",
+      "file": "images/O02-countinghouse-v1.png",
+      "source_generated_file": "/Users/fangjie/.codex/generated_images/01a180a1-2de5-7551-98f6-d9e18afdad9f/exec-b74d6698-c963-4b5e-a9f1-34b351ba9525.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2470493,
+      "sha256": "c963ffbbf327e86251291a5066cee1af561f276bff405b15a7d63ccca021009b",
+      "prompt_file": "prompts/O02.txt",
+      "visual_review": "少年身份与衣着清晰；左手触页角，右手执笔；海港与日光可读。账本保留不可读笔迹。"
+    },
+    {
+      "shot_id": "O03",
+      "file": "images/O03-storm-v1.png",
+      "source_generated_file": "/Users/fangjie/.codex/generated_images/01a180a1-2de5-7551-98f6-d9e18afdad9f/exec-ecc45bd2-0710-4c73-ba7a-b6b2112e4aeb.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2524593,
+      "sha256": "47eb5241ca4bd1c220ddfb1295e94c8f556c094ef6bcdf4f6cc4605e603881f6",
+      "prompt_file": "prompts/O03.txt",
+      "visual_review": "同一少年和服装；窗仍开启；一手抓横档、一手扶窗台，身体有明确支撑。"
+    },
+    {
+      "shot_id": "O04",
+      "file": "images/O04-writing-v1.png",
+      "source_generated_file": "/Users/fangjie/.codex/generated_images/01a180a1-2de5-7551-98f6-d9e18afdad9f/exec-0f813e05-69d7-4061-8f71-3c57d0ce5203.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2382533,
+      "sha256": "61772d71ae49963f388a83fd3ab1017096af0ab097c4c74ee68023fb6961e7ce",
+      "prompt_file": "prompts/O04.txt",
+      "visual_review": "同一少年；烛光与冷色夜景分开；空白纸面、两手与羽毛笔关系清楚。"
+    },
+    {
+      "shot_id": "E3-02",
+      "file": "images/E3-02-shared-signature-v1.png",
+      "source_generated_file": "/Users/fangjie/.codex/generated_images/01a180a1-2de5-7551-98f6-d9e18afdad9f/exec-9ce8d31a-9701-4786-8706-bb0cbf979170.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2457571,
+      "sha256": "2774cb53a069e756671443d033ee981fc089eaddfbeadfb44644ae2066574e08",
+      "prompt_file": "prompts/E3-02.txt",
+      "visual_review": "成年 Hamilton 与伯尔保持不同身份；单份文件，一人执笔、另一人等待。"
+    },
+    {
+      "shot_id": "C01",
+      "file": "images/C01-eliza-chronicler-v1.png",
+      "source_generated_file": "/Users/fangjie/.codex/generated_images/01a180a1-2de5-7551-98f6-d9e18afdad9f/exec-a841582f-0cea-49c8-afee-392b4b19ecac.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "bytes": 2425128,
+      "sha256": "f658d8730757a67d33bcc3e9f0143b3b3bd82c018b47b6850814843589549ae7",
+      "prompt_file": "prompts/C01.txt",
+      "visual_review": "浅蓝裙、记录册与执笔姿态；面部整个为深色阴影，无可辨五官。"
+    }
+  ]
+}

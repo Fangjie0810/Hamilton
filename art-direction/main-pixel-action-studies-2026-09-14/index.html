@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101c29">
+  <title>主像素美术 · 动作样稿 / Main pixel art · Motion studies</title>
+  <style>
+    :root{color-scheme:dark;--ink:#101c29;--deep:#0b141e;--paper:#efeadf;--muted:#a8b1b6;--gold:#c7a86b;--line:#c7a86b36;--blue:#1a3041}
+    *{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--paper);font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.55}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:5px}a{color:inherit;text-underline-offset:4px}button:disabled{cursor:wait;opacity:.45}.wrap{width:min(1200px,calc(100% - 72px));margin:auto}header{padding:40px 0 24px;border-bottom:1px solid var(--line)}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.14em;text-transform:uppercase}.eyebrow span{letter-spacing:.03em;margin-left:12px}.heading-row{display:flex;justify-content:space-between;gap:32px;align-items:flex-end}h1{font-family:"Songti SC","STSong","Baskerville",serif;font-weight:500;letter-spacing:.02em;font-size:clamp(29px,3.6vw,45px);line-height:1.25;margin:15px 0 12px}h1 em{font-family:"Baskerville","Palatino Linotype",serif;font-weight:400;font-style:italic;color:var(--gold)}.intro{color:var(--muted);margin:0;font-size:13px}.intro span{display:block;font-size:12px;opacity:.72;margin-top:3px}.reference{display:flex;align-items:center;gap:12px;flex-shrink:0;padding-left:24px;border-left:1px solid var(--line)}.reference canvas{width:66px;height:86px;object-fit:contain;image-rendering:pixelated}.reference-text{font-size:12px;color:var(--muted);line-height:1.7}.reference-text strong{font-family:"Baskerville",serif;display:block;font-size:21px;color:var(--paper);font-weight:400}.reference-text small{font-size:10px;display:block;color:#84949e}
+    .review-top{display:flex;align-items:center;justify-content:space-between;margin:26px 0 15px;gap:12px}.section-kicker{font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.12em}.section-kicker b{font-size:12px;letter-spacing:.04em;color:var(--paper);font-weight:500;margin-right:10px}.note{font-size:11px;color:#9baab2;text-align:right}.note span{margin-left:8px;color:#788994}.stage{position:relative;height:560px;background:radial-gradient(ellipse at 50% 100%,#28455b 0%,#132839 42%,#101e2b 78%);overflow:hidden;border:1px solid var(--line)}.stage:before{content:"";position:absolute;inset:24px;border:1px solid #c7a86b12;pointer-events:none}.stage:after{content:"";position:absolute;top:26px;bottom:127px;left:50%;width:1px;background:linear-gradient(transparent,#c7a86b20,transparent);pointer-events:none}.portrait{position:absolute;bottom:0;width:47%;height:535px;display:flex;align-items:flex-end;justify-content:center;transition:filter .22s ease,opacity .22s ease;z-index:1}.portrait.hamilton{left:2%}.portrait.lafayette{right:2%}.portrait.inactive{filter:grayscale(.78) brightness(.36);opacity:.95}.portrait canvas{height:100%;width:100%;object-fit:contain;object-position:bottom;image-rendering:pixelated}.character-caption{position:absolute;top:23px;font-size:10px;color:#7692a4;letter-spacing:.13em;writing-mode:vertical-rl;z-index:3}.character-caption.left{left:18px}.character-caption.right{right:18px}.dialogue{position:absolute;bottom:0;left:4%;right:4%;height:136px;background:linear-gradient(130deg,#101c2af7,#0d1722fc);border:1px solid #ba9b605f;z-index:4;padding:22px 30px;box-shadow:0 -14px 48px #0a17234d}.dialogue:before{content:"";position:absolute;left:18px;top:-3px;width:34px;height:5px;background:var(--gold)}.speaker-name{font-family:"Baskerville","Palatino Linotype",serif;color:var(--gold);font-size:22px;line-height:1.1}.dialogue-line{margin:11px 0 2px;font-size:16px;letter-spacing:.04em}.dialogue-en{font-family:"Baskerville","Palatino Linotype",serif;color:#a6b3bc;font-size:15px}.status-mark{position:absolute;right:28px;top:25px;color:#8fa5b4;font-size:10px;letter-spacing:.09em}.status-dot{display:inline-block;width:5px;height:5px;margin:0 7px 1px 0;background:var(--gold);border-radius:50%}.frame-status{position:absolute;bottom:19px;right:27px;color:#6f899a;font-size:10px;letter-spacing:.04em}.load-status{position:absolute;inset:0;display:grid;place-content:center;text-align:center;z-index:5;background:#101e2beb;color:var(--gold);line-height:1.9;font-size:13px}.load-status[hidden]{display:none}.load-status small{color:var(--muted)}
+    .controls{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}.control-group{display:flex;align-items:center;gap:6px}.control-label{color:#8699a4;font-size:11px;margin-right:6px}.control-label small{display:block;font-size:9px;color:#617b8c}.segmented{display:flex;border:1px solid #7695a62c;padding:3px;gap:2px}.control{min-height:35px;border:1px solid transparent;padding:6px 12px;background:transparent;color:#97aab6;font-size:12px;white-space:nowrap;transition:background .15s,color .15s}.control:hover{background:#c7a86b10;color:var(--paper)}.control[aria-pressed="true"]{background:#c7a86b1a;color:#e4cca0;border-color:#c7a86b29}.play{border:1px solid #c7a86b4d;min-width:127px;color:var(--gold);padding:8px 15px;background:#c7a86b07}.frame-buttons .control{padding:6px 10px}.frame-buttons .control small{display:block;font-size:9px;line-height:1.1;opacity:.62;margin-top:2px}.pose-notes{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:23px 0 31px}.pose-note{display:grid;grid-template-columns:auto 1fr;gap:13px;align-items:start}.pose-number{font-family:"Baskerville",serif;font-size:26px;font-style:italic;color:#516d7f;line-height:1.2}.pose-note strong{font-size:12px;color:#d3c5a8;font-weight:500}.pose-note p{font-size:12px;color:#99a8b1;margin:4px 0 0}.pose-note small{display:block;font-size:11px;color:#6c8595;margin-top:4px}
+    .sheets{padding:24px 0 38px;border-top:1px solid var(--line)}.sheets-heading{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px}.sheets-heading h2{font-family:"Songti SC","Baskerville",serif;font-weight:400;font-size:23px;margin:0}.sheets-heading h2 span{font-family:"Baskerville",serif;font-style:italic;font-size:20px;color:#78909f;margin-left:12px}.sheets-heading p{margin:0;color:#6f8797;font-size:11px}.sheet-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.sheet-card{border:1px solid #c7a86b2c;background:#0e1a25}.sheet-title{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid #c7a86b1c}.sheet-title h3{font-family:"Baskerville","Palatino Linotype",serif;font-size:24px;font-weight:400;line-height:1;margin:0}.sheet-title span{font-size:11px;color:#718c9b}.sheet-button{display:block;position:relative;width:100%;border:0;background:radial-gradient(ellipse at 50% 60%,#1b3040,#0e1a25);padding:0;line-height:0;cursor:zoom-in}.sheet-button canvas{display:block;width:100%;height:auto;image-rendering:pixelated}.zoom-hint{position:absolute;right:12px;bottom:11px;padding:6px 7px;color:#a5b5bd;font-size:9px;background:#0b141ec4;line-height:1}.frame-labels{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #c7a86b1c}.frame-labels div{text-align:center;padding:12px 2px;color:#c7b998;font-size:11px}.frame-labels div+div{border-left:1px solid #c7a86b14}.frame-labels small{display:block;color:#647e8f;font-size:10px;margin-top:2px}.sheet-links{display:flex;justify-content:space-between;padding:11px 16px;font-size:10px;color:#637e8e;border-top:1px solid #c7a86b14}.sheet-links a{color:#91a6b2}.footer{display:flex;justify-content:space-between;gap:15px;padding:20px 0 33px;border-top:1px solid var(--line);color:#597383;font-size:10px;letter-spacing:.04em}.footer a{color:#8096a3}.modal{position:fixed;inset:0;z-index:20;background:#060d14ee;display:flex;flex-direction:column;align-items:center;padding:22px;overflow:auto}.modal[hidden]{display:none}.modal-bar{width:min(1536px,100%);display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:16px;color:var(--gold)}.modal-bar strong{font-family:"Baskerville",serif;font-size:26px;font-weight:400}.modal-bar small{color:#7893a4;margin-left:10px;font-size:11px}.modal-close{background:transparent;color:var(--paper);border:1px solid #c7a86b55;padding:8px 12px;font-size:12px}.modal-canvas{width:min(1536px,100%);height:auto;image-rendering:pixelated;background:radial-gradient(ellipse at center,#1a3041,#101c29);border:1px solid var(--line)}
+    @media(min-width:1500px){.stage{height:620px}.portrait{height:595px}}
+    @media(max-width:1000px){.wrap{width:calc(100% - 40px)}.reference{padding-left:16px}.stage{height:510px}.portrait{height:490px;width:49%;bottom:0}.portrait.hamilton{left:0}.portrait.lafayette{right:0}.controls{gap:12px}.control-label{display:none}.control{padding:6px 10px}.pose-notes{gap:20px}.sheet-grid{gap:16px}.dialogue{left:3%;right:3%}}
+    @media(max-width:740px){.wrap{width:calc(100% - 28px)}header{padding:24px 0 20px}.eyebrow{font-size:9px;letter-spacing:.06em}.eyebrow span{display:block;margin:4px 0 0;color:#8e9d9f}.heading-row{gap:12px;align-items:center}h1{font-size:29px;line-height:1.25;margin-top:12px}h1 em{display:block;font-size:28px}.intro{font-size:11px;max-width:270px}.intro span{font-size:10px}.reference{padding-left:10px;gap:4px;flex-direction:column;align-items:center}.reference canvas{width:43px;height:64px}.reference-text{text-align:center;font-size:9px;line-height:1.45}.reference-text strong{font-size:16px}.reference-text small{font-size:8px}.review-top{align-items:flex-start;margin:19px 0 11px}.section-kicker{font-size:9px;line-height:1.7;letter-spacing:.06em}.section-kicker b{display:block;font-size:11px}.note{font-size:9px;max-width:150px;padding-top:2px}.note span{display:block;margin:2px 0 0}.stage{height:410px}.stage:before{inset:14px}.portrait{width:58%;height:390px;bottom:0}.portrait.hamilton{left:-6%}.portrait.lafayette{right:-6%}.character-caption{font-size:8px;top:17px}.character-caption.left{left:10px}.character-caption.right{right:10px}.dialogue{height:118px;left:12px;right:12px;padding:18px 17px}.speaker-name{font-size:20px}.dialogue-line{font-size:12px;margin-top:10px}.dialogue-en{font-size:12px;max-width:90%}.status-mark{font-size:8px;right:15px;top:20px}.frame-status{font-size:8px;right:14px;bottom:10px}.controls{display:grid;grid-template-columns:1fr auto;gap:10px;padding:14px 0}.control-group.frames{grid-column:1/-1;justify-content:center}.frame-buttons{width:100%}.frame-buttons .control{flex:1}.play{min-width:103px;padding:8px 10px;font-size:11px}.control{font-size:11px}.pose-notes{grid-template-columns:1fr;gap:17px;padding:20px 0}.pose-note p{font-size:11px}.pose-note small{font-size:10px}.sheets{padding:22px 0}.sheets-heading{display:block;margin-bottom:17px}.sheets-heading h2{font-size:21px}.sheets-heading h2 span{font-size:18px}.sheets-heading p{font-size:10px;margin-top:7px}.sheet-grid{grid-template-columns:1fr;gap:21px}.footer{display:block;font-size:9px;line-height:1.9}.footer a{display:inline-block;margin-top:8px}.modal{padding:12px;justify-content:center}.modal-bar strong{font-size:22px}.modal-bar small{display:block;margin:4px 0 0;font-size:9px}.modal-close{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">沿用 Eliza 的像素画法 <span>Eliza-style pixel portraits</span></div>
+    <div class="heading-row">
+      <div>
+        <h1>让人物开始说话。<br><em>Hamilton &amp; Lafayette</em></h1>
+        <p class="intro">主像素美术 · 动作与开口样稿<span>Let the characters speak. Main pixel art · Motion studies</span></p>
+      </div>
+      <div class="reference">
+        <canvas id="eliza-reference" width="160" height="210" aria-label="Eliza 画风参考 / Eliza style reference"></canvas>
+        <div class="reference-text"><strong>Eliza</strong>画风参考<small>STYLE REFERENCE</small></div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="review-top">
+      <div class="section-kicker"><b>01 · 对话中的动作</b>In-dialogue motion</div>
+      <div class="note">节奏演示，未配音<span>Timing study, no voice attached</span></div>
+    </div>
+    <section class="stage" id="motion-stage" data-speaker="hamilton" aria-label="两人对话动作预览 / Two-character dialogue motion preview">
+      <span class="character-caption left">HAMILTON</span><span class="character-caption right">LAFAYETTE</span>
+      <div class="portrait hamilton" id="hamilton-portrait"><canvas id="hamilton-preview" width="640" height="960" aria-label="Hamilton 动作预览 / Hamilton motion preview"></canvas></div>
+      <div class="portrait lafayette inactive" id="lafayette-portrait"><canvas id="lafayette-preview" width="640" height="960" aria-label="Lafayette 动作预览 / Lafayette motion preview"></canvas></div>
+      <div class="dialogue">
+        <div class="speaker-name" id="speaker-name">Hamilton</div>
+        <span class="status-mark"><span class="status-dot"></span><span id="play-state">演示中 / PLAYING</span></span>
+        <p class="dialogue-line" id="dialogue-line">急切地向前，把想法说清楚。</p>
+        <div class="dialogue-en" id="dialogue-en">Leaning in, eager to make the idea clear.</div>
+        <span class="frame-status" id="frame-status">闭口蓄势 / READY</span>
+      </div>
+      <div class="load-status" id="load-status">正在载入动作稿<small>Loading motion studies</small></div>
+    </section>
+    <div class="controls">
+      <div class="control-group"><span class="control-label">谁在说话<small>SPEAKER</small></span><div class="segmented"><button class="control" data-speaker="hamilton" aria-pressed="true">Hamilton</button><button class="control" data-speaker="lafayette" aria-pressed="false">Lafayette</button></div></div>
+      <button class="control play" id="play-toggle" aria-pressed="true">Ⅱ 暂停 / Pause</button>
+      <div class="control-group frames"><span class="control-label">逐帧查看<small>FRAME</small></span><div class="segmented frame-buttons"><button class="control" data-frame="0" aria-pressed="true">01 闭口<small>Ready</small></button><button class="control" data-frame="1" aria-pressed="false">02 开口<small>Speaking</small></button><button class="control" data-frame="2" aria-pressed="false">03 强调<small>Emphasis</small></button></div></div>
+    </div>
+    <div class="pose-notes">
+      <div class="pose-note"><span class="pose-number">H</span><div><strong>向前推进 · Hamilton</strong><p>前倾的身体、专注的眉眼，向对方递出论证的手势。</p><small>Forward lean, focused eyes, a gesture that carries his argument.</small></div></div>
+      <div class="pose-note"><span class="pose-number">L</span><div><strong>自信号召 · Lafayette</strong><p>打开肩胸、微抬下巴，摊开的手掌邀请对方一起行动。</p><small>An open chest, lifted chin, an open palm inviting others to act.</small></div></div>
+    </div>
+    <section class="sheets">
+      <div class="sheets-heading"><h2>完整动作稿<span>The three frames</span></h2><p>点击图像放大 / Click a sheet to enlarge</p></div>
+      <div class="sheet-grid">
+        <article class="sheet-card">
+          <div class="sheet-title"><h3>Hamilton</h3><span>面向右侧 / Faces right →</span></div>
+          <button class="sheet-button" data-enlarge="hamilton" aria-label="放大 Hamilton 三帧原图 / Enlarge Hamilton three-frame sheet"><canvas id="hamilton-sheet" class="sheet-canvas" width="1536" height="1024"></canvas><span class="zoom-hint">↗ 放大 / Enlarge</span></button>
+          <div class="frame-labels"><div>01 · 闭口蓄势<small>Ready</small></div><div>02 · 开口说话<small>Speaking</small></div><div>03 · 加重语气<small>Emphasis</small></div></div>
+          <div class="sheet-links"><span>同一姿态，三种发言状态 / One pose, three states</span><a href="hamilton-speaking-v1.png" target="_blank">原始图 / Original ↗</a></div>
+        </article>
+        <article class="sheet-card">
+          <div class="sheet-title"><h3>Lafayette</h3><span>← 面向左侧 / Faces left</span></div>
+          <button class="sheet-button" data-enlarge="lafayette" aria-label="放大 Lafayette 三帧原图 / Enlarge Lafayette three-frame sheet"><canvas id="lafayette-sheet" class="sheet-canvas" width="1536" height="1024"></canvas><span class="zoom-hint">↗ 放大 / Enlarge</span></button>
+          <div class="frame-labels"><div>01 · 闭口蓄势<small>Ready</small></div><div>02 · 开口说话<small>Speaking</small></div><div>03 · 加重语气<small>Emphasis</small></div></div>
+          <div class="sheet-links"><span>同一姿态，三种发言状态 / One pose, three states</span><a href="lafayette-speaking-v1.png" target="_blank">原始图 / Original ↗</a></div>
+        </article>
+      </div>
+    </section>
+    <footer class="footer"><span>美术方向评审 · 尚未替换游戏素材<br>Art direction review · Not yet applied to the game</span><a href="../main-pixel-studies-2026-09-14/">上一轮风格样稿 / Previous style studies ↗</a></footer>
+  </main>
+  <div class="modal" id="image-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-bar"><div><strong id="modal-title">Hamilton</strong><small>闭口 → 开口 → 强调 / Ready → Speaking → Emphasis</small></div><button class="modal-close" id="modal-close">关闭 / Close ×</button></div>
+    <canvas class="modal-canvas" id="modal-canvas" width="1536" height="1024"></canvas>
+  </div>
+  <script>
+    const actors = {
+      hamilton: { name: 'Hamilton', file: 'hamilton-speaking-v1.png', zh: '急切地向前，把想法说清楚。', en: 'Leaning in, eager to make the idea clear.', offsets: [{ x: 0, y: 0 }, { x: 10, y: 0 }, { x: 10, y: 0 }] },
+      lafayette: { name: 'Lafayette', file: 'lafayette-speaking-v1.png', zh: '自信地展开手势，邀请对方一起行动。', en: 'Opening his gesture, confident and ready to lead.', offsets: [{ x: 0, y: 0 }, { x: 0, y: 0 }, { x: 0, y: 0 }] },
+    };
+    const frameNames = ['闭口蓄势 / READY', '开口说话 / SPEAKING', '加重语气 / EMPHASIS'];
+    let speaker = 'hamilton';
+    let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let frame = 0;
+    let startedAt = performance.now();
+    let ready = false;
+    let lastFocus;
+    const $ = id => document.getElementById(id);
+
+    function loadImage(src) {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = () => reject(new Error(`Image could not be loaded: ${src}`));
+        image.src = src;
+      });
+    }
+
+    // Color keying is only a page rendering operation. Generated source files stay untouched.
+    function makeSurface(image) {
+      const surface = document.createElement('canvas');
+      surface.width = image.naturalWidth;
+      surface.height = image.naturalHeight;
+      const ctx = surface.getContext('2d', { willReadFrequently: true });
+      ctx.drawImage(image, 0, 0);
+      const pixels = ctx.getImageData(0, 0, surface.width, surface.height);
+      for (let i = 0; i < pixels.data.length; i += 4) {
+        const r = pixels.data[i], g = pixels.data[i + 1], b = pixels.data[i + 2];
+        if (r > 150 && b > 120 && g < 100 && r - g > 75 && b - g > 65) pixels.data[i + 3] = 0;
+      }
+      ctx.putImageData(pixels, 0, 0);
+      return surface;
+    }
+
+    // Sprite extraction only: keep each frame's main connected silhouette so a
+    // neighbouring pose's detached pixels cannot enter the animation preview.
+    // The complete sheet and the original image file are not changed.
+    function extractPreviewFrames(surface) {
+      const width = Math.floor(surface.width / 3), height = surface.height;
+      return Array.from({ length: 3 }, (_, index) => {
+        const frame = document.createElement('canvas');
+        frame.width = width; frame.height = height;
+        const ctx = frame.getContext('2d', { willReadFrequently: true });
+        ctx.drawImage(surface, index * width, 0, width, height, 0, 0, width, height);
+        const pixels = ctx.getImageData(0, 0, width, height);
+        const count = width * height;
+        const visited = new Uint8Array(count);
+        const queue = new Int32Array(count);
+        let largest = new Int32Array(0);
+        for (let seed = 0; seed < count; seed++) {
+          if (visited[seed] || pixels.data[seed * 4 + 3] < 24) continue;
+          let head = 0, tail = 1;
+          queue[0] = seed; visited[seed] = 1;
+          while (head < tail) {
+            const current = queue[head++];
+            const x = current % width, y = Math.floor(current / width);
+            for (let dy = -1; dy <= 1; dy++) {
+              const nextY = y + dy;
+              if (nextY < 0 || nextY >= height) continue;
+              for (let dx = -1; dx <= 1; dx++) {
+                const nextX = x + dx;
+                if (nextX < 0 || nextX >= width || (dx === 0 && dy === 0)) continue;
+                const next = nextY * width + nextX;
+                if (visited[next] || pixels.data[next * 4 + 3] < 24) continue;
+                visited[next] = 1;
+                queue[tail++] = next;
+              }
+            }
+          }
+          if (tail > largest.length) largest = queue.slice(0, tail);
+        }
+        const keep = new Uint8Array(count);
+        largest.forEach(pixel => { keep[pixel] = 1; });
+        for (let pixel = 0; pixel < count; pixel++) {
+          if (!keep[pixel]) pixels.data[pixel * 4 + 3] = 0;
+        }
+        ctx.putImageData(pixels, 0, 0);
+        return frame;
+      });
+    }
+
+    function frameBounds(frames) {
+      const width = frames[0].width, height = frames[0].height;
+      let minX = width, maxX = 0, minY = height, maxY = 0;
+      for (const frame of frames) {
+        const data = frame.getContext('2d').getImageData(0, 0, width, height).data;
+        for (let y = 0; y < height; y += 2) {
+          for (let x = 0; x < width; x += 2) {
+            if (data[(y * width + x) * 4 + 3] < 24) continue;
+            minX = Math.min(minX, x); maxX = Math.max(maxX, x);
+            minY = Math.min(minY, y); maxY = Math.max(maxY, y);
+          }
+        }
+      }
+      if (minX > maxX || minY > maxY) return { x: 0, y: 0, width, height };
+      return { x: Math.max(0, minX - 8), y: Math.max(0, minY - 8), width: Math.min(width, maxX - minX + 17), height: Math.min(height, maxY - minY + 17) };
+    }
+
+    function drawPortrait(id, frameIndex) {
+      const actor = actors[id];
+      if (!actor.frames) return;
+      const target = $(`${id}-preview`), ctx = target.getContext('2d');
+      target.dataset.frame = String(frameIndex);
+      target.dataset.speaker = id;
+      target.dataset.active = String(id === speaker);
+      const bounds = actor.bounds;
+      const offset = actor.offsets[frameIndex];
+      const scale = Math.min((target.width - 20) / bounds.width, (target.height - 20) / bounds.height);
+      const width = bounds.width * scale, height = bounds.height * scale;
+      ctx.clearRect(0, 0, target.width, target.height);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(actor.frames[frameIndex], bounds.x, bounds.y, bounds.width, bounds.height,
+        (target.width - width) / 2 + offset.x * scale, target.height - height + offset.y * scale, width, height);
+    }
+
+    function renderFrame(nextFrame) {
+      frame = nextFrame;
+      Object.keys(actors).forEach(id => drawPortrait(id, id === speaker ? frame : 0));
+      $('frame-status').textContent = frameNames[frame];
+      document.querySelectorAll('button[data-frame]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.frame) === frame)));
+    }
+
+    function renderPlayState() {
+      $('play-toggle').textContent = playing ? 'Ⅱ 暂停 / Pause' : '▶ 播放 / Play';
+      $('play-toggle').setAttribute('aria-pressed', String(playing));
+      $('play-state').textContent = playing ? '演示中 / PLAYING' : '已暂停 / PAUSED';
+    }
+
+    function setSpeaker(id) {
+      speaker = id;
+      $('motion-stage').dataset.speaker = id;
+      startedAt = performance.now();
+      $('speaker-name').textContent = actors[id].name;
+      $('dialogue-line').textContent = actors[id].zh;
+      $('dialogue-en').textContent = actors[id].en;
+      document.querySelectorAll('button[data-speaker]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.speaker === id)));
+      Object.keys(actors).forEach(key => $(`${key}-portrait`).classList.toggle('inactive', key !== id));
+      renderFrame(0);
+    }
+
+    // A short emphasized syllable happens once after a new speaking turn starts.
+    // The continuing rhythm uses only the steady closed/open pair.
+    function speakingFrame(elapsed) {
+      if (elapsed < 260) return 0;
+      if (elapsed >= 1760 && elapsed < 1970) return 2;
+      const cycle = elapsed % 2320;
+      if (cycle > 1750) return 0;
+      return [1, 1, 0, 1, 0, 1, 1, 0][Math.floor(cycle / 160) % 8];
+    }
+
+    function tick(now) {
+      if (ready && playing && $('image-modal').hidden) {
+        const nextFrame = speakingFrame(now - startedAt);
+        if (nextFrame !== frame) renderFrame(nextFrame);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    function showSheet(id) {
+      if (!actors[id].surface) return;
+      const modal = $('image-modal'), canvas = $('modal-canvas');
+      const source = actors[id].surface;
+      canvas.width = source.width; canvas.height = source.height;
+      canvas.getContext('2d').drawImage(source, 0, 0);
+      $('modal-title').textContent = actors[id].name;
+      lastFocus = document.activeElement;
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+      $('modal-close').focus();
+    }
+
+    function closeSheet() {
+      $('image-modal').hidden = true;
+      document.body.style.overflow = '';
+      lastFocus?.focus();
+    }
+
+    document.querySelectorAll('button[data-speaker]').forEach(button => button.addEventListener('click', () => setSpeaker(button.dataset.speaker)));
+    document.querySelectorAll('button[data-frame]').forEach(button => button.addEventListener('click', () => {
+      playing = false;
+      renderPlayState();
+      renderFrame(Number(button.dataset.frame));
+    }));
+    document.querySelectorAll('[data-enlarge]').forEach(button => button.addEventListener('click', () => showSheet(button.dataset.enlarge)));
+    $('play-toggle').addEventListener('click', () => {
+      playing = !playing;
+      if (playing) startedAt = performance.now();
+      renderPlayState();
+    });
+    $('modal-close').addEventListener('click', closeSheet);
+    $('image-modal').addEventListener('click', event => { if (event.target === $('image-modal')) closeSheet(); });
+    document.addEventListener('keydown', event => {
+      if ($('image-modal').hidden) return;
+      if (event.key === 'Escape') closeSheet();
+      if (event.key === 'Tab') { event.preventDefault(); $('modal-close').focus(); }
+    });
+
+    Promise.all(Object.entries(actors).map(async ([id, actor]) => {
+      actor.surface = makeSurface(await loadImage(actor.file));
+      actor.frames = extractPreviewFrames(actor.surface);
+      actor.bounds = frameBounds(actor.frames);
+      const sheet = $(`${id}-sheet`);
+      sheet.width = actor.surface.width; sheet.height = actor.surface.height;
+      sheet.getContext('2d').drawImage(actor.surface, 0, 0);
+    })).then(() => {
+      ready = true;
+      $('load-status').hidden = true;
+      startedAt = performance.now();
+      setSpeaker(speaker);
+      document.documentElement.dataset.artReady = 'true';
+    }).catch(error => {
+      $('load-status').innerHTML = '动作稿暂未载入<small>Motion sheets are not available yet</small>';
+      console.error(error);
+    });
+    loadImage('/art/actors/eliza-chronicler-v1.png').then(image => {
+      const source = makeSurface(image);
+      const canvas = $('eliza-reference'), ctx = canvas.getContext('2d');
+      ctx.imageSmoothingEnabled = false;
+      const scale = Math.min(canvas.width / source.width, canvas.height / source.height);
+      ctx.drawImage(source, (canvas.width - source.width * scale) / 2, (canvas.height - source.height * scale) / 2, source.width * scale, source.height * scale);
+    }).catch(() => {});
+    renderPlayState();
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>

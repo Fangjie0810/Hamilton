@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "entry preference persistence and four-mode small-window layout",
+    "retired 2D bookmark opens 3D",
+    "chapter title stays silent through settings, toggle and restart",
+    "subtitle mode never restarts speech",
+    "actual dialogue advance replaces audio and clearing stops it",
+    "tavern choice prompt stays silent and keeps its response timer",
+    "newsboy, citizen and loyalist play their own real generated MP3s",
+    "debate speaks the selected response in feedback without consuming its beat",
+    "selected dispatch reads in Hamilton voice, holds time, and assignment cancels it",
+    "Yorktown reads before beat zero; skip is not scored; destroy stops speech",
+    "rules, instructions, score feedback and ending never queue narration"
+  ],
+  "errors": [],
+  "realMediaPlayback": true
+}

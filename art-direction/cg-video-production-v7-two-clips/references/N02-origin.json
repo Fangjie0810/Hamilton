@@ -1,0 +1,60 @@
+{
+  "id": "N02",
+  "purpose": "Two-second empty-room absence reference",
+  "mode": "single_image_edit",
+  "model": "doubao-seedream-5-0-pro-260628",
+  "endpoint": "https://ark.cn-beijing.volces.com/api/v3/images/generations",
+  "output": "references/N02.png",
+  "image": {
+    "bytes": 5095290,
+    "sha256": "d6f0d720560dd7c0477ea390c3594997265d2dca994fa30343801d37aa055adb",
+    "width": 2560,
+    "height": 1440
+  },
+  "source": "art-direction/cg-ark-firstframes-v4/firstframes/S02.png",
+  "source_image": {
+    "bytes": 4310714,
+    "sha256": "30f1517181de984f5ad876c25862a305101ec710bbf31a97a246932e4402c7ff",
+    "width": 2560,
+    "height": 1440
+  },
+  "edit_input": "references/S02-edit-source.png",
+  "edit_input_role": "image_edit_only",
+  "edit_input_excluded_from_video_references": true,
+  "prompt": "prompts/images/N02.txt",
+  "prompt_sha256": "44c62a946a98cba7e73d39285580399dc4e1fe6355e4767e9f356afc478cc979",
+  "run": "runs/absence-N02",
+  "usage": {
+    "input_images": 1,
+    "generated_images": 1,
+    "output_tokens": 14400,
+    "total_tokens": 14400
+  },
+  "estimated_normal_price_cny": 0.6,
+  "actual_billing_verified": false,
+  "maximum_generation_requests": 1,
+  "automatic_generation_retries": 0,
+  "preconnection_failure_archive": "runs/absence-N02-connect-failed",
+  "video_requests": 0,
+  "completed_at": "2026-09-11T04:12:10.072058+00:00",
+  "visual_review": {
+    "status": "passed",
+    "reviewed_at": "2026-09-11T04:13:05.397298+00:00",
+    "method": "view_image actual generated PNG",
+    "observations": [
+      "男孩及身体所有部位、陶碗和湿布已删除；全画面及窗内外无人，无人物倒影。",
+      "圆木凳面完全空着；右侧床无人体隆起，保留自然薄床单褶皱。",
+      "左侧木门、木窗、原凳位置、右床、旧墙及自然日光关系保持。"
+    ],
+    "use": "2秒无人空房间参考"
+  },
+  "user_authorization": {
+    "scope": "One S02-to-N02 image edit uploaded to official Ark images/generations; no video submission.",
+    "latest_quote": "补一张无人参考图你就先调用生图模型在上传这个模型作为参考图就行，我们之前试过的，你自己来"
+  },
+  "confirmed_remote_generated_images": 1,
+  "automatic_approval_review": {
+    "latest_execution": "approved_after_new_specific_user_authorization",
+    "earlier_denial_had_no_process_execution": true
+  }
+}

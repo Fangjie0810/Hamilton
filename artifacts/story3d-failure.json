@@ -1,0 +1,122 @@
+{
+  "message": "TimeoutError: page.waitForFunction: Timeout 18000ms exceeded.",
+  "canvas": {
+    "engine": "three.js r185",
+    "mode": "story",
+    "frameReady": "true",
+    "localized": "",
+    "ready": "true",
+    "scene": "street",
+    "x": "13.000",
+    "z": "5.000",
+    "frame": "16",
+    "facing": "sw",
+    "flipped": "true",
+    "burrFacing": "s",
+    "burrFrame": "15",
+    "burrFlipped": "false",
+    "moving": "false",
+    "paused": "false",
+    "talking": "false",
+    "path": "0",
+    "discovered": "0",
+    "quality": "balanced",
+    "yaw": "0.480",
+    "cutaways": "0",
+    "calls": "709",
+    "triangles": "49072",
+    "geometries": "85",
+    "textures": "13"
+  },
+  "story": {
+    "chapter": "Opening",
+    "phase": "explore",
+    "index": 0,
+    "remaining": 0,
+    "state": {
+      "momentum": 40,
+      "influence": 10,
+      "burrRivalry": 10,
+      "burrRespect": 20,
+      "washingtonTrust": 0,
+      "debatePerformance": 0,
+      "yorktownPerformance": 0,
+      "choices": {}
+    },
+    "completed": [],
+    "discoveries": [],
+    "discovery": {
+      "phase": "idle"
+    },
+    "growthOpen": false,
+    "targets": [
+      {
+        "id": "opening-letter",
+        "position": {
+          "x": 15.5,
+          "z": 5
+        },
+        "title": {
+          "zh": "一封漂洋过海的信",
+          "en": "A Letter Across the Atlantic"
+        },
+        "body": {
+          "zh": "他来自加勒比海。商行的账本教会他计算，海上的风暴教会他：一个人的处境，可能在一夜之间被改写。",
+          "en": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight."
+        },
+        "enabled": true,
+        "complete": false,
+        "exit": false
+      },
+      {
+        "id": "story-exit",
+        "position": {
+          "x": 9,
+          "z": 5
+        },
+        "title": {
+          "zh": "踏上纽约街头",
+          "en": "Step into New York"
+        },
+        "body": {
+          "zh": "走近信件，读完序幕。",
+          "en": "Approach the letter and read the prologue."
+        },
+        "enabled": false,
+        "complete": false,
+        "exit": true
+      }
+    ],
+    "target": {
+      "id": "opening-letter",
+      "position": {
+        "x": 15.5,
+        "z": 5
+      },
+      "title": {
+        "zh": "一封漂洋过海的信",
+        "en": "A Letter Across the Atlantic"
+      },
+      "body": {
+        "zh": "他来自加勒比海。商行的账本教会他计算，海上的风暴教会他：一个人的处境，可能在一夜之间被改写。",
+        "en": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight."
+      },
+      "enabled": true,
+      "complete": false,
+      "exit": false
+    },
+    "cast": [],
+    "repeatTargets": [],
+    "castPoses": []
+  },
+  "errors": [],
+  "failures": [],
+  "chapters": [
+    "Opening",
+    "Arrival"
+  ],
+  "interactions": [
+    "opening-letter"
+  ],
+  "activities": []
+}

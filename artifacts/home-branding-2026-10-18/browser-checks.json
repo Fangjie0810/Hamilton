@@ -1,0 +1,194 @@
+{
+  "languages": [
+    {
+      "credit": "Created by H.T.T.X.",
+      "description": "一封信、一个移民、一场革命、一段历史",
+      "label": "H.T.T.X. · 点击访问主页（在新标签页打开）",
+      "language": "dual",
+      "link": "https://bio.newflorencia.com/",
+      "logoLoaded": true,
+      "overflow": false,
+      "secondary": 0,
+      "track": "myShot"
+    },
+    {
+      "credit": "Created by H.T.T.X.",
+      "description": "A letter, an immigrant, a revolution, a chapter of history",
+      "label": "H.T.T.X. · Visit homepage (opens in a new tab)",
+      "language": "dual-en",
+      "link": "https://bio.newflorencia.com/",
+      "logoLoaded": true,
+      "overflow": false,
+      "secondary": 0,
+      "track": "myShot"
+    },
+    {
+      "credit": "Created by H.T.T.X.",
+      "description": "一封信、一个移民、一场革命、一段历史",
+      "label": "H.T.T.X. · 点击访问主页（在新标签页打开）",
+      "language": "zh",
+      "link": "https://bio.newflorencia.com/",
+      "logoLoaded": true,
+      "overflow": false,
+      "secondary": 0,
+      "track": "myShot"
+    },
+    {
+      "credit": "Created by H.T.T.X.",
+      "description": "A letter, an immigrant, a revolution, a chapter of history",
+      "label": "H.T.T.X. · Visit homepage (opens in a new tab)",
+      "language": "en",
+      "link": "https://bio.newflorencia.com/",
+      "logoLoaded": true,
+      "overflow": false,
+      "secondary": 0,
+      "track": "myShot"
+    }
+  ],
+  "layouts": [
+    {
+      "bounds": [
+        {
+          "left": 26,
+          "right": 76,
+          "selector": ".entry-brand",
+          "width": 50
+        },
+        {
+          "left": 88,
+          "right": 364,
+          "selector": ".entry-header-actions",
+          "width": 276
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".entry-content",
+          "width": 338
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".entry-footer",
+          "width": 338
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".title-record",
+          "width": 338
+        }
+      ],
+      "description": "一封信、一个移民、一场革命、一段历史",
+      "language": "dual",
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "bounds": [
+        {
+          "left": 26,
+          "right": 76,
+          "selector": ".entry-brand",
+          "width": 50
+        },
+        {
+          "left": 88,
+          "right": 364,
+          "selector": ".entry-header-actions",
+          "width": 276
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".entry-content",
+          "width": 338
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".entry-footer",
+          "width": 338
+        },
+        {
+          "left": 26,
+          "right": 364,
+          "selector": ".title-record",
+          "width": 338
+        }
+      ],
+      "description": "A letter, an immigrant, a revolution, a chapter of history",
+      "language": "dual-en",
+      "overflow": false,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "contentBottom": 531.234375,
+      "descriptionDisplay": "block",
+      "footerBottom": 617,
+      "footerTop": 579.5,
+      "language": "dual",
+      "overflow": false,
+      "viewport": [
+        1024,
+        640
+      ]
+    },
+    {
+      "contentBottom": 532.984375,
+      "descriptionDisplay": "block",
+      "footerBottom": 617,
+      "footerTop": 583,
+      "language": "dual-en",
+      "overflow": false,
+      "viewport": [
+        1024,
+        640
+      ]
+    },
+    {
+      "contentBottom": 491.234375,
+      "descriptionDisplay": "block",
+      "footerBottom": 537,
+      "footerTop": 499.5,
+      "language": "dual",
+      "overflow": false,
+      "viewport": [
+        1024,
+        560
+      ]
+    },
+    {
+      "contentBottom": 492.984375,
+      "descriptionDisplay": "block",
+      "footerBottom": 537,
+      "footerTop": 503,
+      "language": "dual-en",
+      "overflow": false,
+      "viewport": [
+        1024,
+        560
+      ]
+    }
+  ],
+  "playback": {
+    "default": "myShot",
+    "confirmedState": "playing",
+    "animation": "running",
+    "next": "farmerRefuted",
+    "pause": "paused"
+  },
+  "logo": {
+    "loaded": true,
+    "keyboardHint": "visible",
+    "href": "https://bio.newflorencia.com/",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
+  }
+}

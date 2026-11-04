@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="720" height="720">
+      <defs>
+        <linearGradient id="export-enamel-locked-gold" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#fff0b4"/><stop offset=".27" stop-color="#dbb454"/>
+          <stop offset=".63" stop-color="#8a5c20"/><stop offset="1" stop-color="#e7c776"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-momentum" x1="0" y1="0" x2=".7" y2="1">
+          <stop stop-color="#ffe7a0"/><stop offset=".28" stop-color="#e4bc4f"/>
+          <stop offset=".76" stop-color="#bf891f"/><stop offset="1" stop-color="#846013"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-influence" x1="0" y1="0" x2=".8" y2="1">
+          <stop stop-color="#56616a"/><stop offset=".34" stop-color="#252b30"/>
+          <stop offset=".72" stop-color="#090c0e"/><stop offset="1" stop-color="#18232a"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-washingtonTrust" x1="0" y1="0" x2=".8" y2="1">
+          <stop stop-color="#5a9981"/><stop offset=".30" stop-color="#27644f"/>
+          <stop offset=".78" stop-color="#123d2c"/><stop offset="1" stop-color="#0a281e"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-empty" x1="0" y1="0" x2="1" y2="1">
+          <stop stop-color="#e0e7e9" stop-opacity=".32"/><stop offset=".55" stop-color="#adb8bf" stop-opacity=".19"/>
+          <stop offset="1" stop-color="#71818c" stop-opacity=".27"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-locked" x1="0" y1="0" x2="1" y2="1">
+          <stop stop-color="#717b85"/><stop offset=".48" stop-color="#4d5660"/>
+          <stop offset="1" stop-color="#2e3740"/>
+        </linearGradient>
+        <pattern id="export-enamel-locked-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+          <path d="M0 0V7" stroke="#c6d0d9" stroke-opacity=".15" stroke-width="1.6"/>
+        </pattern>
+        <linearGradient id="export-enamel-locked-red" x1="0" y1="0" x2=".5" y2="1">
+          <stop stop-color="#e17b70"/><stop offset=".22" stop-color="#b44340"/>
+          <stop offset=".8" stop-color="#83292e"/><stop offset="1" stop-color="#591a26"/>
+        </linearGradient>
+        <linearGradient id="export-enamel-locked-blue" x1="0" y1="0" x2=".7" y2="1">
+          <stop stop-color="#629aaf"/><stop offset=".22" stop-color="#3c7296"/>
+          <stop offset=".76" stop-color="#204366"/><stop offset="1" stop-color="#142f50"/>
+        </linearGradient>
+        <radialGradient id="export-enamel-locked-gloss" cx=".31" cy=".13" r=".86">
+          <stop stop-color="#fff" stop-opacity=".28"/><stop offset=".35" stop-color="#fff" stop-opacity=".055"/>
+          <stop offset=".63" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#00111c" stop-opacity=".17"/>
+        </radialGradient>
+        <linearGradient id="export-enamel-locked-edge" x1=".1" y1="0" x2=".75" y2="1">
+          <stop stop-color="#fff9da" stop-opacity=".9"/><stop offset=".38" stop-color="#fff9da" stop-opacity=".13"/>
+          <stop offset=".55" stop-color="#010b10" stop-opacity=".65"/><stop offset="1" stop-color="#010b10" stop-opacity=".85"/>
+        </linearGradient>
+        <clipPath id="export-enamel-locked-centre"><circle cx="120" cy="120" r="52"/></clipPath>
+        <filter id="export-enamel-locked-shadow" x="-15%" y="-15%" width="130%" height="138%">
+          <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#031218" flood-opacity=".56"/>
+        </filter>
+        <filter id="export-enamel-locked-type-shadow" x="-40%" y="-40%" width="180%" height="180%">
+          <feDropShadow dx="0" dy="1" stdDeviation=".6" flood-color="#050d11" flood-opacity=".75"/>
+        </filter>
+      </defs><g filter="url(#export-enamel-locked-shadow)"><g class="compass-part" data-stat="momentum" tabindex="0" role="button" aria-label="momentum">
+        <path d="M26.469256391280624 66A108 108 0 0 1 213.53074360871938 66L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="url(#export-enamel-locked-empty)"/>
+        <path d="M41.72356676495792 74.8070802005447A90.38583959891062 90.38583959891062 0 0 1 198.27643323504208 74.8070802005447L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="url(#export-enamel-locked-momentum)"/><path d="M 41.72356676495792 74.8070802005447 A 90.38583959891062 90.38583959891062 0 0 1 198.27643323504208 74.8070802005447" stroke="#edf4e4" stroke-opacity=".45" stroke-width="1.2" fill="none"/>
+        <path d="M26.469256391280624 66A108 108 0 0 1 213.53074360871938 66L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="transparent"/>
+        <g pointer-events="none" filter="url(#export-enamel-locked-type-shadow)">
+          <g transform="translate(120 28)" fill="none" stroke="#f4e6bd" stroke-opacity=".9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 5 5-6c4 3 0 9-4 9l-5 3m5-5 3 0M-7 7l3-3"/></g>
+          <text x="120" y="52" fill="#fff4d4" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" text-anchor="middle">61</text>
+        </g>
+      </g><g class="compass-part" data-stat="influence" tabindex="0" role="button" aria-label="influence">
+        <path d="M213.53074360871938 66A108 108 0 0 1 120 228L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="url(#export-enamel-locked-empty)"/>
+        <path d="M186.68733013099265 81.49805199733396A77.0038960053321 77.0038960053321 0 0 1 120 197.00389600533208L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="url(#export-enamel-locked-influence)"/><path d="M 186.68733013099265 81.49805199733396 A 77.0038960053321 77.0038960053321 0 0 1 120 197.00389600533208" stroke="#edf4e4" stroke-opacity=".45" stroke-width="1.2" fill="none"/>
+        <path d="M213.53074360871938 66A108 108 0 0 1 120 228L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="transparent"/>
+        <g pointer-events="none" filter="url(#export-enamel-locked-type-shadow)">
+          <g transform="translate(191 149)" fill="none" stroke="#f4e6bd" stroke-opacity=".9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="m-7-4 7-4 7 4H-7m2 2v7M0-2v7M5-2v7M-7 7H7"/></g>
+          <text x="191" y="173" fill="#fff4d4" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" text-anchor="middle">36</text>
+        </g>
+      </g><g class="compass-part" data-stat="washingtonTrust" tabindex="0" role="button" aria-label="washingtonTrust">
+        <path d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="url(#export-enamel-locked-locked)"/>
+        <path d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="url(#export-enamel-locked-hatch)"/>
+        <path d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="transparent"/>
+        <g pointer-events="none" filter="url(#export-enamel-locked-type-shadow)">
+          <g transform="translate(49 152)" fill="none" stroke="#e3e8eb" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M-4-2v-3a4 4 0 0 1 8 0v3"/><rect x="-6" y="-2" width="12" height="10" rx="1.6" fill="#29333d"/><path d="M0 2v3"/></g>
+          <text x="49" y="173" fill="#d4dce3" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" text-anchor="middle">—</text>
+        </g>
+      </g><g clip-path="url(#export-enamel-locked-centre)">
+      <g class="compass-part" data-stat="burrRivalry" tabindex="0" role="button" aria-label="burrRivalry">
+        <rect x="68" y="68" width="104" height="41.49270476629566" fill="url(#export-enamel-locked-red)"/>
+        <text x="120" y="94.74635238314784" fill="#fff1db" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" text-anchor="middle" pointer-events="none" filter="url(#export-enamel-locked-type-shadow)">18</text>
+      </g>
+      <g class="compass-part" data-stat="burrRespect" tabindex="0" role="button" aria-label="burrRespect">
+        <rect x="68" y="109.49270476629566" width="104" height="62.50729523370434" fill="url(#export-enamel-locked-blue)"/>
+        <text x="120" y="146.74635238314784" fill="#eaf7fc" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700" text-anchor="middle" pointer-events="none" filter="url(#export-enamel-locked-type-shadow)">24</text>
+      </g>
+      <path d="M68 109.49270476629566H172" stroke="url(#export-enamel-locked-gold)" stroke-width="1.1" pointer-events="none"/>
+    </g>
+      <g pointer-events="none">
+        <circle cx="120" cy="120" r="107.5" fill="url(#export-enamel-locked-gloss)"/>
+        <circle cx="120" cy="120" r="106.4" fill="none" stroke="url(#export-enamel-locked-edge)" stroke-width="2.5"/>
+        <circle cx="120" cy="120" r="108" fill="none" stroke="url(#export-enamel-locked-gold)" stroke-width="1.2"/>
+        <circle cx="120" cy="120" r="52" fill="none" stroke="url(#export-enamel-locked-gold)" stroke-width="1.2"/>
+        <circle cx="120" cy="120" r="50.7" fill="none" stroke="url(#export-enamel-locked-edge)" stroke-width="1.4"/>
+        <g fill="none" stroke="url(#export-enamel-locked-gold)" stroke-width="1.05"><path d="M74.96667900320918 94L26.469256391280624 66"/><path d="M165.03332099679082 94L213.53074360871938 66"/><path d="M120 172L120 228"/></g>
+        <path d="M 33.36557366799815 61.56434158730695 A 104.5 104.5 0 0 1 191.2688286265311 43.57353818079669" fill="none" stroke="#fff4c9" stroke-opacity=".53" stroke-width=".65"/>
+      </g>
+    </g></svg>

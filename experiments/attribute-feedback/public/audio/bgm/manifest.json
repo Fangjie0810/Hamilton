@@ -1,0 +1,47 @@
+{
+  "sourceDirectory": "/Users/fangjie/Desktop/ham BGM ",
+  "tracks": [
+    {
+      "source": "Alexander Hamilton.mp3",
+      "file": "alexander-hamilton.mp3",
+      "bytes": 5666322,
+      "sha256": "1cb9f4a1befbbf4cabf6dfad66a351524c64566848f20388f7a3a83612327bd5"
+    },
+    {
+      "source": "Aaron Burr, sir.mp3",
+      "file": "aaron-burr-sir.mp3",
+      "bytes": 2221921,
+      "sha256": "8719f23c3069417fdf562ae8c748b46c5871c6498d3931129a669d89baf607e7"
+    },
+    {
+      "source": "my shot..mp3",
+      "file": "my-shot.mp3",
+      "bytes": 4900830,
+      "sha256": "c0bfe9417b644070f46c6f922e23f35460417fab078aa5a367ccd687ea554233"
+    },
+    {
+      "source": "Farmer refuted.mp3",
+      "file": "farmer-refuted.mp3",
+      "bytes": 4018100,
+      "sha256": "f3c1dcd0c6463cfdf248b0f3413f30ea73f1388de9c307410fc32c4a1341ea02"
+    },
+    {
+      "source": "Cabinet battle #1.mp3",
+      "file": "cabinet-battle-1.mp3",
+      "bytes": 5167906,
+      "sha256": "bf3d99c536ac22220be50c2225a0075431dc3d1559f5fc892c26f77b8b3a09e2"
+    },
+    {
+      "source": "History has eyes on you..mp3",
+      "file": "history-has-its-eyes-on-you.mp3",
+      "bytes": 2173019,
+      "sha256": "1005177aa8a72a4fd05c514c111706c18e4b73ccce4069706f3e04c8da63103e"
+    },
+    {
+      "source": "Yorktown.mp3",
+      "file": "yorktown.mp3",
+      "bytes": 5818668,
+      "sha256": "d160787ca79a0390cd2d6d37372a68be96cb91433b62d8a73eb4f68789addaa1"
+    }
+  ]
+}

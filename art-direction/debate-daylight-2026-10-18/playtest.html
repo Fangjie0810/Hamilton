@@ -1,0 +1,15 @@
+<!doctype html><html lang="zh"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>广场辩论 · 白天近景试玩</title><style>.review-tools{position:fixed;top:8px;left:8px;z-index:90;display:flex;gap:4px;opacity:.45}.review-tools:hover,.review-tools:focus-within{opacity:1}.review-tools button,.review-tools select{font-size:10px;background:#f7e8c9;color:#352d23;border:1px solid #a58d65;padding:5px}.review-tools label{font-size:10px;background:#f7e8c9;color:#352d23;padding:5px}</style></head><body><div id="interface" class="s3-interface"></div><div class="review-tools"></div><script type="module">
+import '/src/style.css';import '/src/story3d/story.css';import '/src/ui/dialogue-portraits.css';
+import {DebateActivity} from '/src/ui/DebateActivity.ts';import {bi,setText,setLanguage,languageOptions,getLanguage} from '/src/i18n/text.ts';import {music} from '/src/ui/music.ts';
+const tools=document.querySelector('.review-tools'); let game,paused=false,manual=false;
+const button=(text,fn)=>{const b=document.createElement('button');setText(b,text);b.onclick=fn;tools.append(b);return b};
+function start(){game?.destroy();music.setDebate(true);game=new DebateActivity(()=>paused,()=>start());}
+button(bi('重新试玩','Restart'),start);
+button(bi('暂停验证','Pause check'),()=>{paused=!paused;music.setPaused('review',paused);});
+button(bi('手动时钟','Manual clock'),()=>{manual=!manual;document.body.dataset.manual=String(manual)});
+button(bi('推进 100 ms','Step 100 ms'),()=>{if(manual&&!paused)game.update(100)});
+const langs=document.createElement('select');for(const [value,label] of languageOptions){const o=document.createElement('option');o.value=value;o.textContent=value==='dual'?'双语 · 中文主字幕':value==='dual-en'?'Bilingual · English first':value==='zh'?'中文':'English';langs.append(o)}langs.value=getLanguage();langs.onchange=()=>setLanguage(langs.value);tools.append(langs);
+window.addEventListener('keydown',e=>{if(e.target.closest('.review-tools'))return;if([' ','1','2','3','4'].includes(e.key)){e.preventDefault();game.key(e.key,true)}});
+if(!new URLSearchParams(location.search).has('review')) [...tools.querySelectorAll('button')].slice(1).forEach(b=>b.hidden=true);
+let previous=performance.now();function frame(now){const dt=Math.min(100,now-previous);previous=now;game.updatePresentation(dt,paused,matchMedia('(prefers-reduced-motion: reduce)').matches);if(!paused&&!manual)game.update(dt);requestAnimationFrame(frame)}start();requestAnimationFrame(frame);
+</script></body></html>

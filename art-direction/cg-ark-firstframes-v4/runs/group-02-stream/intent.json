@@ -1,0 +1,1 @@
+{"started_at": "2026-09-10T08:40:55.148826+00:00", "status": "intent", "model": "doubao-seedream-5-0-260128", "stream": true, "max_images": 7, "request_sha256": "ef6d0380d9333dd05a9e2595c5e133e47c491e6fa8ee92628ee48c7fc8783499", "prior_run": "group-01", "prior_outcome": "unknown", "automatic_retries": 0}

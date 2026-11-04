@@ -1,0 +1,66 @@
+[
+  {
+    "id": "S01",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-98182d54-552b-4567-9316-c11d5027304a.png",
+    "file": "firstframes/S01.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "aa8b6b8ad37d3d45a6dbb17cdec3ee91c9c1bc0a379fbf21c112727eaa1e289a",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  },
+  {
+    "id": "S02",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-f049dd1a-121a-4b3c-a146-cf314c7d0101.png",
+    "file": "firstframes/S02.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "27a83cc0c789de31504cad5183c56b8ded58eaf75b154493d52d85e87bb66923",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  },
+  {
+    "id": "S03",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-090f0fa6-43ad-4772-96ed-2c367a97b140.png",
+    "file": "firstframes/S03.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ce3027a80d96dbcc6c9ab9df39782bc91bfa3983b41a8061b35a9fd56bb8d6d7",
+    "status": "static_checked_video_and_platform_acceptance_pending",
+    "source_before_local_edit": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-opening-frames/v2/01-leaking-countinghouse-v2.png"
+  },
+  {
+    "id": "S04",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-77509b09-f4ce-4e8e-87dc-d95f4592a848.png",
+    "file": "firstframes/S04.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "198ad5193bae8f5c5ac1da2489e7291cbe59131b3b2ba21acd1d0fba666238dd",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  },
+  {
+    "id": "S05",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-359b33d6-66fc-4c78-8c09-6d0b78dae095.png",
+    "file": "firstframes/S05.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bb98dde8033e2675cc06f9b8d6bfc0d8a7f78d84e62750e3b41e2a4f9ea2aba0",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  },
+  {
+    "id": "S06",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-e44588a4-cb98-4f3c-8953-03b701c82639.png",
+    "file": "firstframes/S06.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d915f6e23c313fd86239229aa554daaf0e59accbca6faf6f716820cc27c5626b",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  },
+  {
+    "id": "S07",
+    "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-786042de-eeff-4c11-8748-d22c9d48d0f7.png",
+    "file": "firstframes/S07.png",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1d7689de4938cb4614f9b5cfd07d457de7dc21dd58b0341922fb4e05ca84f3ae",
+    "status": "static_checked_video_and_platform_acceptance_pending"
+  }
+]

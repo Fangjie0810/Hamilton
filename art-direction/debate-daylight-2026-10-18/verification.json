@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-18",
+  "scope": "local only; shared real DebateActivity component",
+  "automated": {"npm_test": "201 passed", "i18n": "passed", "typescript_and_build": "passed"},
+  "browser": {
+    "mainline": "Entered from 3D square, spoke opening lines, played all six rounds, viewed result, returned to square with real growth feedback; zero console errors",
+    "controls": "Number key selects, Space resolves, Esc opens settings and resumes",
+    "needle": "Manual-clock real component: FACT at 1200ms => PERFECT, support 25 to 38, credibility 90 to 69, angle 30 to 14.4 degrees",
+    "languages": "dual, dual-en, zh, en; changing modes retained round 2, choose phase, elapsed 0 in manual-clock test",
+    "responsive": "1280x720; 600x780 English cards all visible after spacing fix; 390x844 Chinese and English-primary, cards fit and no card internal overflow",
+    "screenshots": ["mainline-argument.png", "mainline-choices.png"]
+  },
+  "remaining": "Original song speaker timestamps are not yet connected to the gameplay clock; background music uses the existing debate entry/exit lifecycle."
+}

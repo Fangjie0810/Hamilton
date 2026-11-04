@@ -1,0 +1,5402 @@
+[
+  {
+    "file": "src/data/chapters.ts",
+    "line": 9,
+    "context": "field: act / field: Opening",
+    "text": {
+      "zh": "序幕",
+      "en": "PROLOGUE"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 9,
+    "context": "field: title / field: Opening",
+    "text": {
+      "zh": "海的另一边",
+      "en": "Across the Sea"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 9,
+    "context": "field: place / field: Opening",
+    "text": {
+      "zh": "大西洋",
+      "en": "THE ATLANTIC"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 9,
+    "context": "field: year / field: Opening",
+    "text": {
+      "zh": "序幕",
+      "en": "Prologue"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 10,
+    "context": "field: subtitle / field: Opening",
+    "text": {
+      "zh": "一封信，把一个名字带离了海岛。",
+      "en": "A letter carries a name beyond the island."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 10,
+    "context": "field: objective / field: Opening",
+    "text": {
+      "zh": "走近信件，读完序幕。",
+      "en": "Approach the letter and read the prologue."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 12,
+    "context": "field: label / field: interactions / field: Opening",
+    "text": {
+      "zh": "一封漂洋过海的信",
+      "en": "A Letter Across the Atlantic"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 14,
+    "context": "field: text / field: lines / field: interactions / field: Opening",
+    "text": {
+      "zh": "他来自加勒比海。商行的账本教会他计算，海上的风暴教会他：一个人的处境，可能在一夜之间被改写。",
+      "en": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 15,
+    "context": "field: text / field: lines / field: interactions / field: Opening",
+    "text": {
+      "zh": "他把所见写成文字。有人读了那篇文章，开始相信，这个年轻人应该得到继续求学的机会。",
+      "en": "He put what he had seen into words. People read them and began to believe this young man deserved the chance to continue his education."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 16,
+    "context": "field: text / field: lines / field: interactions / field: Opening",
+    "text": {
+      "zh": "我带不走那座岛。但我能带走纸上的每一个字。纽约有学校，有印刷机，也有人愿意争论未来。我要在那里找到我的位置。",
+      "en": "I cannot take the island with me. But I can carry every word on the page. New York has schools, printing presses, and people willing to argue about the future. I will find my place there."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 19,
+    "context": "field: exitLabel / field: Opening",
+    "text": {
+      "zh": "踏上纽约街头",
+      "en": "Step into New York"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 22,
+    "context": "field: act / field: Arrival",
+    "text": {
+      "zh": "第一幕 · 第一场",
+      "en": "ACT I · SCENE 01"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 22,
+    "context": "field: title / field: Arrival",
+    "text": {
+      "zh": "纽约，没有空位",
+      "en": "New York Has No Empty Seats"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 22,
+    "context": "field: place / field: Arrival",
+    "text": {
+      "zh": "纽约",
+      "en": "NEW YORK"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 23,
+    "context": "field: subtitle / field: Arrival",
+    "text": {
+      "zh": "每条街都在争论。每个人都在选择。",
+      "en": "Every street is arguing. Everyone is choosing."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 23,
+    "context": "field: objective / field: Arrival",
+    "text": {
+      "zh": "依次读新闻、听争论，最后与伯尔交谈。",
+      "en": "Read the news, hear the argument, then speak with Burr."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 26,
+    "context": "field: label / field: interactions / field: Arrival",
+    "text": {
+      "zh": "今日新闻",
+      "en": "Today's News"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 28,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "港口的消息！英军动向、商船货价，还有一整版互相反驳的文章。先生，你想知道发生了什么，还是想让别人知道你是谁？",
+      "en": "News from the harbor! British troop movements, cargo prices, and a whole page of writers contradicting each other. Sir, do you want to know what is happening, or let people know who you are?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 29,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "先给我一份。只有知道这座城在为什么争吵，我的文字才不会只是对着自己说话。",
+      "en": "Give me a copy first. Until I know what this city is arguing about, my writing will only be a conversation with myself."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 33,
+    "context": "field: label / field: interactions / field: Arrival",
+    "text": {
+      "zh": "街头的争论",
+      "en": "An Argument in the Street"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 35,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "驻军越来越多。有人说军队保护生意，可我只想知道：他们保护的是谁作决定的权利？",
+      "en": "More troops arrive every day. They say the army protects trade. But whose right to decide are they protecting?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 36,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "没有王室和海军，这座港口靠什么维持秩序？你们把眼前的生计，押给一个还不存在的国家。",
+      "en": "Without the Crown and its navy, what keeps order in this port? You would stake today's livelihood on a country that does not yet exist."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 37,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "这两个人都害怕失去手里的生活。但他们还没问过，谁有资格替另一方下注。",
+      "en": "Both are afraid of losing the lives they have. Neither has asked who has the right to make that wager for the other."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 41,
+    "context": "field: label / field: interactions / field: Arrival",
+    "text": {
+      "zh": "阿伦·伯尔",
+      "en": "Aaron Burr"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 43,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "你听了很久。亚历山大·汉密尔顿，对吗？我读过你的文字。",
+      "en": "You have been listening for a while. Alexander Hamilton, isn't it? I have read your work."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 44,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "那就省了介绍。你也听见了——他们谈论自由的时候，仿佛每个人说的是不同的东西。",
+      "en": "Then we can skip the introductions. You heard them too: when they speak of freedom, they seem to mean entirely different things."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 45,
+    "context": "field: text / field: lines / field: interactions / field: Arrival",
+    "text": {
+      "zh": "先弄清楚谁在听，再决定说多少。局势会变；公开说过的话，会留下来。",
+      "en": "Learn who is listening before you decide how much to say. Circumstances change. Words spoken in public remain."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 47,
+    "context": "field: prompt / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "伯尔建议你暂缓表态。你如何回应？",
+      "en": "Burr advises you to wait before taking a side. How do you respond?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 48,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "先观察，弄清各方的立场。",
+      "en": "Observe first and understand where each side stands."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 48,
+    "context": "field: hint / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "克制 · 理解局势",
+      "en": "Restraint · Read the situation"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 48,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "很好。耐心也能是一种行动。我们去酒馆，那里比街头容易听见真话。",
+      "en": "Good. Patience can be a form of action. Come to the tavern. It is easier to hear people speak plainly there."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 49,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "那你呢？你自己相信什么？",
+      "en": "And you? What do you believe?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 49,
+    "context": "field: hint / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "追问 · 了解伯尔",
+      "en": "Ask further · Understand Burr"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 49,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "我相信，作决定之前应该把人看清楚。你这个问题，让我更想认识你了。走吧。",
+      "en": "I believe in knowing people before making decisions. That question makes me more interested in knowing you. Come along."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 50,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "我支持革命。现在就可以写下我的名字。",
+      "en": "I support the revolution. You can put my name to it now."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 50,
+    "context": "field: hint / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "公开表态 · 承担风险",
+      "en": "Take a public stand · Accept the risk"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 50,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Arrival",
+    "text": {
+      "zh": "我听见了。整条街也听见了。希望你准备好了，为这么响亮的名字负责。",
+      "en": "I heard you. So did the whole street. I hope you are ready to answer for a name spoken that loudly."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 53,
+    "context": "field: exitLabel / field: Arrival",
+    "text": {
+      "zh": "进入酒馆",
+      "en": "Enter the Tavern"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 54,
+    "context": "field: prototypeNote / field: Arrival",
+    "text": {
+      "zh": "叙事时间压缩 · 汉密尔顿于 1772 年抵达纽约；本章将早年的抵达与 1776 年的革命局势合并呈现。",
+      "en": "Compressed chronology · Hamilton arrived in New York in 1772. This chapter combines his arrival with the revolutionary tensions of 1776."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 57,
+    "context": "field: act / field: Tavern",
+    "text": {
+      "zh": "第一幕 · 第二场",
+      "en": "ACT I · SCENE 02"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 57,
+    "context": "field: title / field: Tavern",
+    "text": {
+      "zh": "同一张桌子",
+      "en": "At the Same Table"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 57,
+    "context": "field: place / field: Tavern",
+    "text": {
+      "zh": "纽约 · 酒馆",
+      "en": "NEW YORK · TAVERN"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 58,
+    "context": "field: subtitle / field: Tavern",
+    "text": {
+      "zh": "他们并不相信同一种未来。今晚，他们坐在一起。",
+      "en": "They do not imagine the same future. Tonight, they share a table."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 58,
+    "context": "field: objective / field: Tavern",
+    "text": {
+      "zh": "自由选择顺序，与劳伦斯、拉法耶特和穆利根各谈一次。",
+      "en": "Speak once with Laurens, Lafayette, and Mulligan in any order."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 61,
+    "context": "field: label / field: interactions / field: Tavern",
+    "text": {
+      "zh": "劳伦斯的问题",
+      "en": "Laurens's Question"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 63,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "我们把自由写得那么大，却总把某些人留在句子外面。一个仍允许奴役的国家，准备怎样解释自己的自由？",
+      "en": "We write freedom in such large letters, yet always leave certain people outside the sentence. How will a country that still permits slavery explain its freedom?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 64,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "你要的答案，恐怕会让这张桌子安静下来。",
+      "en": "The answer you want may bring this table to a silence."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 65,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "那就让它安静。你认为现在最重要的是什么？",
+      "en": "Then let it fall silent. What do you think matters most right now?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 67,
+    "context": "field: prompt / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "革命应该先回答哪一个问题？",
+      "en": "Which question should the revolution answer first?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 68,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "先维持秩序，让人们活过这场战争。",
+      "en": "Preserve order so people survive the war."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 68,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "活下来当然重要。可有些人一直在等“以后”，我们不能再轻易替他们说这个词。",
+      "en": "Surviving matters, of course. But some people have always been told to wait until later. We cannot keep saying that on their behalf."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 69,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "谁来作决定，谁又有权提出反对？",
+      "en": "Who gets to decide, and who has the right to object?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 69,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "那么，记得把被排除的人也算进去。换一个掌权的人，还不够。",
+      "en": "Then remember to include those who have been excluded. Replacing the people in power is not enough."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 70,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "自由的承诺，应当包含被奴役的人。",
+      "en": "The promise of freedom must include enslaved people."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 70,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "我愿意和这样的人并肩。但当这个承诺开始让盟友不舒服时，你还得说下去。",
+      "en": "I would stand beside someone who believes that. But when that promise begins to trouble our allies, you must keep saying it."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 74,
+    "context": "field: label / field: interactions / field: Tavern",
+    "text": {
+      "zh": "拉法耶特的问题",
+      "en": "Lafayette's Question"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 76,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "我横渡大西洋，不是为了旁观。可勇气不能替士兵装满口粮。面对更强的军队，你准备把力气用在哪里？",
+      "en": "I did not cross the Atlantic to watch. But courage cannot fill a soldier's ration bag. Against a stronger army, where will you put your effort?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 77,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "每一条路都要付代价。区别在于，我们愿不愿意自己选择。",
+      "en": "Every path has a price. The difference is whether we are willing to choose for ourselves."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 79,
+    "context": "field: prompt / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "怎样让革命继续向前？",
+      "en": "How do we carry the revolution forward?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 80,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "保持谈判，为居民争取喘息。",
+      "en": "Keep negotiating to give civilians room to breathe."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 80,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "可以。但谈判桌也需要有人在外面守着。别把喘息误当成终点。",
+      "en": "Perhaps. But someone must stand guard outside the negotiating room. Do not mistake a breath of air for the end of the journey."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 81,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "建立联盟，把孤军变成共同事业。",
+      "en": "Build alliances and turn an isolated struggle into a shared cause."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 81,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "那你得学会听见盟友的需要。共同事业，不能只有一个人的声音。",
+      "en": "Then you must learn to hear what your allies need. A shared cause cannot speak in only one person's voice."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 82,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "公开争取独立，不再等待许可。",
+      "en": "Demand independence openly, without waiting for permission."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 82,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "够直接。我喜欢。但说完这句话，下一步就该准备行军了。",
+      "en": "Direct enough. I like it. But after those words, the next step is preparing to march."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 86,
+    "context": "field: label / field: interactions / field: Tavern",
+    "text": {
+      "zh": "穆利根的问题",
+      "en": "Mulligan's Question"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 88,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "大道理我听够了。明早有十个人愿意帮忙，一家印刷铺肯赊账，还有一辆空车。汉密尔顿，你怎么用？",
+      "en": "I've heard enough grand ideas. Tomorrow, ten people will help, a printer will extend credit, and there's an empty wagon. Hamilton, how will you use them?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 89,
+    "context": "field: text / field: lines / field: interactions / field: Tavern",
+    "text": {
+      "zh": "你给我的不是十个人，是十个人各自认识的那条街。",
+      "en": "You have given me more than ten people. You have given me every street they know."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 91,
+    "context": "field: prompt / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "把今晚的话，变成明早的哪件事？",
+      "en": "What will tonight's words become tomorrow morning?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 92,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "印一份清楚的传单，让每条街接着讨论。",
+      "en": "Print a clear pamphlet to keep the conversation going in every street."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 92,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "行。少写几个漂亮词，多写几句他们能讲给邻居听的话。",
+      "en": "Good. Fewer elegant phrases, more lines they can repeat to their neighbors."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 93,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "先送补给，让愿意加入的人吃上饭。",
+      "en": "Deliver supplies first so people willing to join us can eat."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 93,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "车我来找。愿意做这种不显眼的事，才有人下次还来找你。",
+      "en": "I'll find the wagon. Be willing to do the work no one notices, and people will come to you again."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 94,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "召集公开集会，今天就让更多人听见。",
+      "en": "Call a public meeting and make more people hear us today."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 94,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Tavern",
+    "text": {
+      "zh": "场地可以有。巡逻队一来，你可不能只顾着自己的演说。",
+      "en": "We can find a place. But when the patrol arrives, you cannot think only of your speech."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 97,
+    "context": "field: exitLabel / field: Tavern",
+    "text": {
+      "zh": "走向公开辩论",
+      "en": "Go to the Public Debate"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 98,
+    "context": "field: prototypeNote / field: Tavern",
+    "text": {
+      "zh": "读完问题后有 {0} 秒回应。三人可按任意顺序交谈；超时保持沉默，Esc 可暂停。",
+      "en": "You have {0} seconds to answer after the question. Speak to the three companions in any order; timeout means silence, and Esc pauses the game."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 101,
+    "context": "field: act / field: Debate",
+    "text": {
+      "zh": "第一幕 · 第三场",
+      "en": "ACT I · SCENE 03"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 101,
+    "context": "field: title / field: Debate",
+    "text": {
+      "zh": "把声音放到街上",
+      "en": "Take Your Voice to the Street"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 101,
+    "context": "field: place / field: Debate",
+    "text": {
+      "zh": "纽约 · 公共广场",
+      "en": "NEW YORK · PUBLIC SQUARE"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 101,
+    "context": "field: year / field: Debate",
+    "text": {
+      "zh": "革命初期",
+      "en": "Early Revolution"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 102,
+    "context": "field: subtitle / field: Debate",
+    "text": {
+      "zh": "纸上的争论，终于有了听众。",
+      "en": "The arguments on the page have found an audience."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 102,
+    "context": "field: objective / field: Debate",
+    "text": {
+      "zh": "争取群众支持，击破论点，观察伯尔的反应。",
+      "en": "Win public support, challenge the argument, and see how Burr responds."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 104,
+    "context": "field: label / field: interactions / field: Debate",
+    "text": {
+      "zh": "公开回应",
+      "en": "Answer in Public"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 106,
+    "context": "field: text / field: lines / field: interactions / field: Debate",
+    "text": {
+      "zh": "脱离英国之后，商船由谁护送，货物卖给谁？你们用自由作保证，却要每一个家庭拿生计来冒险。",
+      "en": "Once you break from Britain, who escorts the ships, and who buys the cargo? You offer freedom as a guarantee, but ask every family to risk its livelihood."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 107,
+    "context": "field: text / field: lines / field: interactions / field: Debate",
+    "text": {
+      "zh": "这也是我想问的。没有明天的面包，今天的口号有什么用？",
+      "en": "That is what I want to know. Without tomorrow's bread, what good are today's slogans?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 108,
+    "context": "field: text / field: lines / field: interactions / field: Debate",
+    "text": {
+      "zh": "他们在等你的回答。把问题听完。",
+      "en": "They are waiting for your answer. Hear the whole question."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 111,
+    "context": "field: exitLabel / field: Debate",
+    "text": {
+      "zh": "带着名声走进军营",
+      "en": "Bring Your Reputation into Camp"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 114,
+    "context": "field: act / field: Washington",
+    "text": {
+      "zh": "第二幕 · 第一场",
+      "en": "ACT II · SCENE 01"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 114,
+    "context": "field: title / field: Washington",
+    "text": {
+      "zh": "笔，比军刀更近",
+      "en": "The Pen Comes Before the Sword"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 114,
+    "context": "field: place / field: Washington",
+    "text": {
+      "zh": "大陆军 · 总部",
+      "en": "CONTINENTAL ARMY · HEADQUARTERS"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 115,
+    "context": "field: subtitle / field: Washington",
+    "text": {
+      "zh": "他想要战场。将军先递来一叠信件。",
+      "en": "He wants the battlefield. The general hands him a stack of letters."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 115,
+    "context": "field: objective / field: Washington",
+    "text": {
+      "zh": "回应华盛顿，并决定怎样整理军令。",
+      "en": "Answer Washington, then organize his dispatches."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 118,
+    "context": "field: label / field: interactions / field: Washington",
+    "text": {
+      "zh": "总司令的提议",
+      "en": "The Commander's Offer"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 120,
+    "context": "field: text / field: lines / field: interactions / field: Washington",
+    "text": {
+      "zh": "我看过你的文章。你能把事情写清楚。但军中需要的，还有把事情做完。",
+      "en": "I have read your essays. You make matters clear. But an army also needs people who finish the work."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 121,
+    "context": "field: text / field: lines / field: interactions / field: Washington",
+    "text": {
+      "zh": "我希望带兵。我的能力不该只留在信纸上。",
+      "en": "I want to lead troops. My ability should not stay on the page."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 122,
+    "context": "field: text / field: lines / field: interactions / field: Washington",
+    "text": {
+      "zh": "军令、情报、补给。写错一个地点，也会有人付出代价。我需要副官。你愿意从这里开始吗？",
+      "en": "Orders, intelligence, supplies. A wrong place name can cost lives. I need an aide. Are you willing to begin here?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 125,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Washington",
+    "text": {
+      "zh": "你的文章已经传进军营。我也听说了街上的争论。让别人注意你，你很擅长；让别人依靠你，是另一回事。",
+      "en": "Your essays have reached camp. So has news of the argument in the street. You are good at drawing attention. Making yourself dependable is another matter."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 126,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Washington",
+    "text": {
+      "zh": "那么给我一支队伍。我愿意用行动证明。",
+      "en": "Then give me a company. I am willing to prove myself through action."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 127,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Washington",
+    "text": {
+      "zh": "先做我的副官。军令、情报和补给，也决定着一支队伍能不能回来。你愿意承担吗？",
+      "en": "Serve as my aide first. Orders, intelligence, and supplies also decide whether a company comes home. Will you take that responsibility?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 129,
+    "context": "field: prompt / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "你如何回应这份尚不是理想的职位？",
+      "en": "How do you respond to a position that is not yet the one you want?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 130,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "接受副官职位，先完成眼前的责任。",
+      "en": "Accept the post and fulfill the responsibility at hand."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 130,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "很好。今晚有几封信，不能等到明天。",
+      "en": "Good. Several letters tonight cannot wait until tomorrow."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 131,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "接受，同时明确争取未来的指挥机会。",
+      "en": "Accept, while making clear that you want a future command."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 131,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "我听清了你的要求。你也要听清我的：用现在的职责，证明我能交给你下一份职责。",
+      "en": "I have heard your request. Hear mine as well: prove through your present duties that I can trust you with the next ones."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 132,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "我属于战场，应当立刻得到指挥权。",
+      "en": "I belong on the battlefield and should be given command now."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 132,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Washington",
+    "text": {
+      "zh": "这里没有人只凭“应当”获得命令权。今晚你仍然从这些军令开始。",
+      "en": "No one here receives command merely because he thinks he should. Tonight, you will still begin with these dispatches."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 136,
+    "context": "field: label / field: interactions / field: Washington",
+    "text": {
+      "zh": "写下军令",
+      "en": "Write the Dispatch"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 138,
+    "context": "field: text / field: lines / field: interactions / field: Washington",
+    "text": {
+      "zh": "北线的部队需要补给。驻地、出发时间、目的地都在这些报告里。给军需官一份能够执行的命令。",
+      "en": "The northern troops need supplies. Their camp, the departure time, and the destination are in these reports. Give the quartermaster an order he can carry out."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 139,
+    "context": "field: text / field: lines / field: interactions / field: Washington",
+    "text": {
+      "zh": "一页纸。不能让收信人猜测，也不能让他在一段漂亮文字里寻找自己的任务。",
+      "en": "One page. The reader must not have to guess, or search through fine prose to find his task."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 143,
+    "context": "field: exitLabel / field: Washington",
+    "text": {
+      "zh": "翻过战争中的几年",
+      "en": "Turn the Pages of the War"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 146,
+    "context": "field: act / field: Yorktown",
+    "text": {
+      "zh": "第二幕 · 第二场",
+      "en": "ACT II · SCENE 02"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 146,
+    "context": "field: title / field: Yorktown",
+    "text": {
+      "zh": "终于，轮到你下令",
+      "en": "At Last, the Order Is Yours"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 146,
+    "context": "field: place / field: Yorktown",
+    "text": {
+      "zh": "约克镇",
+      "en": "YORKTOWN"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 147,
+    "context": "field: subtitle / field: Yorktown",
+    "text": {
+      "zh": "多年信件之后，等待已久的命令终于抵达。",
+      "en": "After years of letters, the long-awaited order arrives."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 147,
+    "context": "field: objective / field: Yorktown",
+    "text": {
+      "zh": "接过指挥权，作出选择，见证约克镇的结局。",
+      "en": "Take command, make your choices, and witness Yorktown's outcome."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 150,
+    "context": "field: label / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "接过指挥权",
+      "en": "Take Command"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 152,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "1781 年，法美联军围困约克镇。数年的行军、军令与争执，终于把汉密尔顿带到一座英军堡垒前。",
+      "en": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 153,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "你得到这次指挥机会。我要看到的，是一个能对整支队伍负责的军官。严格执行计划，别把它变成你一个人的证明。",
+      "en": "You have this command. What I expect is an officer responsible for his whole company. Follow the plan. Do not turn it into a private test of your worth."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 154,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "我明白。等了这么久，我不能只想着自己如何被看见。",
+      "en": "I understand. After waiting so long, I cannot think only of how I will be seen."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 157,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "1781 年，法美联军围困约克镇。数年的行军与军令，把汉密尔顿带到一座英军堡垒前。",
+      "en": "In 1781, French and American forces surrounded Yorktown. Years of marches and dispatches brought Hamilton to the foot of a British redoubt."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 158,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "你证明了自己能承担责任。这支队伍交给你。按计划行动；现场需要判断时，我相信你知道命令背后的目的。",
+      "en": "You have proved you can carry responsibility. These troops are yours. Follow the plan; when judgment is needed, I trust you to understand the purpose behind the order."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 159,
+    "context": "field: text / field: lines / field: variants / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "这一次，纸上的名字会和我一起向前。我会记住，他们要跟随的不是一句漂亮的话。",
+      "en": "This time, the names on the page will move forward beside me. I will remember that they need more than a fine sentence to follow."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 161,
+    "context": "field: prompt / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "出发前，你给部下的第一道指令是？",
+      "en": "Before setting out, what is your first instruction to the troops?"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 162,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "核对各队的职责，等共同信号再推进。",
+      "en": "Confirm each squad's role and wait for the common signal."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 162,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "每一队都要知道身旁的人在哪里。听到信号，一起前进。",
+      "en": "Every squad must know where the others are. When the signal comes, we move together."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 163,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "我走在最前面，你们跟紧。",
+      "en": "I will lead from the front. Stay close."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 163,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "我会先走出去。但看清信号，别因为跟随我而忘了自己的位置。",
+      "en": "I will step out first. But watch the signal. Do not lose your own position by following mine."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 164,
+    "context": "field: text / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "说明共同目标，让每个人知道为何出发。",
+      "en": "Explain the shared objective so everyone knows why we are going."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 164,
+    "context": "field: text / field: reply / field: options / field: choice / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "我们要打开围城的一道缺口。记住身边的人，记住回来的路。现在，各就各位。",
+      "en": "We are opening a breach in the siege. Remember the person beside you, and remember the way back. Now, take your positions."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 168,
+    "context": "field: label / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "炮声之后",
+      "en": "After the Guns"
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 170,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "汉密尔顿率队攻下十号堡垒，法军攻下相邻的九号堡垒。围城继续收紧。",
+      "en": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 171,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "数日后，英军在约克镇投降。胜利来自许多人的共同作战。战争尚未正式结束，但局势已经改变。",
+      "en": "Days later, British forces surrendered at Yorktown. Victory belonged to many people fighting together. The war had not formally ended, but its course had changed."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 172,
+    "context": "field: text / field: lines / field: interactions / field: Yorktown",
+    "text": {
+      "zh": "那些从前只能写进信里的愿望，现在终于有了重量。明天，还会有人问，我们准备拿这个胜利做什么。",
+      "en": "The hopes I once could only put in letters finally have weight. Tomorrow, someone will ask what we intend to do with this victory."
+    }
+  },
+  {
+    "file": "src/data/chapters.ts",
+    "line": 175,
+    "context": "field: exitLabel / field: Yorktown",
+    "text": {
+      "zh": "阅读你的革命侧写",
+      "en": "Read Your Revolutionary Portrait"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 5,
+    "context": "field: name / field: hamilton",
+    "text": {
+      "zh": "亚历山大·汉密尔顿",
+      "en": "Alexander Hamilton"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 5,
+    "context": "field: role / field: hamilton",
+    "text": {
+      "zh": "写作者 · 寻找位置的人",
+      "en": "Writer · Searching for a place"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 6,
+    "context": "field: name / field: burr",
+    "text": {
+      "zh": "阿伦·伯尔",
+      "en": "Aaron Burr"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 6,
+    "context": "field: role / field: burr",
+    "text": {
+      "zh": "律师 · 谨慎的观察者",
+      "en": "Lawyer · A cautious observer"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 7,
+    "context": "field: name / field: washington",
+    "text": {
+      "zh": "乔治·华盛顿",
+      "en": "George Washington"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 7,
+    "context": "field: role / field: washington",
+    "text": {
+      "zh": "大陆军总司令",
+      "en": "Commander of the Continental Army"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 8,
+    "context": "field: name / field: laurens",
+    "text": {
+      "zh": "约翰·劳伦斯",
+      "en": "John Laurens"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 8,
+    "context": "field: role / field: laurens",
+    "text": {
+      "zh": "理想主义者",
+      "en": "Idealist"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 9,
+    "context": "field: name / field: lafayette",
+    "text": {
+      "zh": "拉法耶特",
+      "en": "Marquis de Lafayette"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 9,
+    "context": "field: role / field: lafayette",
+    "text": {
+      "zh": "来自法国的志愿者",
+      "en": "A volunteer from France"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 10,
+    "context": "field: name / field: mulligan",
+    "text": {
+      "zh": "赫拉克勒斯·穆利根",
+      "en": "Hercules Mulligan"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 10,
+    "context": "field: role / field: mulligan",
+    "text": {
+      "zh": "裁缝 · 街头的组织者",
+      "en": "Tailor · Organizer in the streets"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 11,
+    "context": "field: name / field: loyalist",
+    "text": {
+      "zh": "保皇派撰稿人",
+      "en": "Loyalist Pamphleteer"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 11,
+    "context": "field: role / field: loyalist",
+    "text": {
+      "zh": "公开辩论者",
+      "en": "Public speaker"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 12,
+    "context": "field: name / field: newsboy",
+    "text": {
+      "zh": "报童",
+      "en": "Newsboy"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 12,
+    "context": "field: role / field: newsboy",
+    "text": {
+      "zh": "港口的消息",
+      "en": "News from the harbor"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 13,
+    "context": "field: name / field: citizen",
+    "text": {
+      "zh": "纽约市民",
+      "en": "New York Citizen"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 13,
+    "context": "field: role / field: citizen",
+    "text": {
+      "zh": "街头的声音",
+      "en": "A voice from the street"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 14,
+    "context": "field: name / field: narrator",
+    "text": {
+      "zh": "旁白",
+      "en": "Narrator"
+    }
+  },
+  {
+    "file": "src/data/characters.ts",
+    "line": 14,
+    "context": "field: role / field: narrator",
+    "text": {
+      "zh": "纸页之间",
+      "en": "Between the pages"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 4,
+    "context": "field: FACT",
+    "text": {
+      "zh": "事实",
+      "en": "Facts"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 4,
+    "context": "field: PRINCIPLE",
+    "text": {
+      "zh": "原则",
+      "en": "Principle"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 4,
+    "context": "field: ATTACK",
+    "text": {
+      "zh": "反击",
+      "en": "Attack"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 4,
+    "context": "field: CROWD",
+    "text": {
+      "zh": "动员",
+      "en": "Rally"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 6,
+    "context": "field: FACT",
+    "text": {
+      "zh": "稳定削弱可信度",
+      "en": "Steadily weaken credibility"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 6,
+    "context": "field: PRINCIPLE",
+    "text": {
+      "zh": "争取支持与锐气",
+      "en": "Build support and momentum"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 6,
+    "context": "field: ATTACK",
+    "text": {
+      "zh": "高收益；失拍反噬",
+      "en": "High reward; a missed beat backfires"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 6,
+    "context": "field: CROWD",
+    "text": {
+      "zh": "迅速聚拢人群；论证变弱",
+      "en": "Rally the crowd quickly; weaken the argument"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 16,
+    "context": "field: topic",
+    "text": {
+      "zh": "贸易与生计",
+      "en": "Trade and Livelihood"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 16,
+    "context": "field: text",
+    "text": {
+      "zh": "脱离英国之后，商船由谁护送，货物卖给谁？你们让每个家庭用明天的面包支付自由。",
+      "en": "After leaving Britain, who will escort the ships and buy the cargo? You ask each family to pay for freedom with tomorrow's bread."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 16,
+    "context": "field: opening",
+    "text": {
+      "zh": "听众想知道具体的成本。事实更有分量。",
+      "en": "The audience wants concrete costs. Facts carry more weight here."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 17,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "把税负与贸易限制也算进去。",
+      "en": "Count taxes and trade restrictions too."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 17,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "承担代价的人应有决定权。",
+      "en": "Those who pay should have a say."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 17,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "你为何只计算改变的代价？",
+      "en": "Why count only the costs of change?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 17,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "让码头的人说说他们的账本。",
+      "en": "Let the dockworkers open their ledgers."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 19,
+    "context": "field: topic",
+    "text": {
+      "zh": "谁来决定",
+      "en": "Who Decides?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 19,
+    "context": "field: text",
+    "text": {
+      "zh": "帝国的议会已经替各地考虑过了。若每座港口都要求自己决定，法律还剩下什么？",
+      "en": "Parliament has already considered every region. If each port insists on deciding for itself, what is left of the law?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 19,
+    "context": "field: opening",
+    "text": {
+      "zh": "争论落在代表权上。原则更有分量。",
+      "en": "The question is representation. Principle carries more weight here."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 20,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "把殖民地的代表席位列出来。",
+      "en": "List the colonies' seats in Parliament."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 20,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "服从法律，也应参与制定。",
+      "en": "Those who obey laws should help make them."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 20,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "考虑过，不等于听过我们的声音。",
+      "en": "Considering us is not the same as hearing us."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 20,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "谁愿意让别人决定自己的税？",
+      "en": "Who wants others to decide their taxes?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 22,
+    "context": "field: topic",
+    "text": {
+      "zh": "承诺与责任",
+      "en": "Promises and Responsibility"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 22,
+    "context": "field: text",
+    "text": {
+      "zh": "倡议革命的人只会写文章。等粮食短缺，他们会让穷人承担后果。",
+      "en": "The advocates of revolution only write essays. When food runs short, they will leave the poor to bear the consequences."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 22,
+    "context": "field: opening",
+    "text": {
+      "zh": "人群希望亲自说出处境。动员更有效。",
+      "en": "People want to speak for themselves. Rallying them works better here."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 23,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "补给方案与责任人必须公开。",
+      "en": "Publish the supply plan and those responsible."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 23,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "自由不能只属于有余粮的人。",
+      "en": "Freedom cannot belong only to the well-fed."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 23,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "你也没给穷人留下别的出路。",
+      "en": "You have offered the poor no other path."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 23,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "请工人和店主自己提出条件。",
+      "en": "Let workers and shopkeepers name their terms."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 25,
+    "context": "field: topic",
+    "text": {
+      "zh": "秩序的代价",
+      "en": "The Price of Order"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 25,
+    "context": "field: text",
+    "text": {
+      "zh": "驻军只为保护秩序。既然你们没有做错什么，为何害怕更多巡逻？",
+      "en": "The garrison is only here to keep order. If you have done nothing wrong, why fear more patrols?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 25,
+    "context": "field: opening",
+    "text": {
+      "zh": "对方把质疑等同于心虚。反击能揭开漏洞。",
+      "en": "Your opponent equates questioning with guilt. An attack can expose the flaw."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 26,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "检查驻军的权限与费用。",
+      "en": "Examine the garrison's powers and costs."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 26,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "权力仍需得到被治理者同意。",
+      "en": "Power still needs the consent of the governed."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 26,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "要求解释，何时成了认错？",
+      "en": "Since when is asking for an explanation a confession?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 26,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "请居民讲讲巡逻带来的变化。",
+      "en": "Let residents describe what patrols have changed."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 28,
+    "context": "field: topic",
+    "text": {
+      "zh": "战争的风险",
+      "en": "The Risk of War"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 28,
+    "context": "field: text",
+    "text": {
+      "zh": "帝国拥有舰队和资金。你们连统一的军需账册都没有，却要把大家带进战争。",
+      "en": "The empire has fleets and money. You do not even have a common supply ledger, yet you would lead everyone into war."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 28,
+    "context": "field: opening",
+    "text": {
+      "zh": "此刻需要可执行的办法。事实更有分量。",
+      "en": "This calls for a workable plan. Facts carry more weight here."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 29,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "统一账册，逐项落实补给。",
+      "en": "Unify the ledgers and secure supplies item by item."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 29,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "危险不能取消选择的权利。",
+      "en": "Danger does not erase the right to choose."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 29,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "你的胜算只是让我们永远服从。",
+      "en": "Your only plan is that we obey forever."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 29,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "把愿意承担的工作写在这里。",
+      "en": "Write down the work you are willing to do."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 31,
+    "context": "field: topic",
+    "text": {
+      "zh": "未来属于谁",
+      "en": "Whose Future?"
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 31,
+    "context": "field: text",
+    "text": {
+      "zh": "即使赢了，谁能保证新掌权的人更好？你们只是把一种不确定换成另一种。",
+      "en": "Even if you win, who guarantees the new rulers will be better? You are exchanging one uncertainty for another."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 31,
+    "context": "field: opening",
+    "text": {
+      "zh": "争论来到制度与约束。原则更有分量。",
+      "en": "The question is institutions and limits on power. Principle carries more weight here."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 32,
+    "context": "field: FACT / field: responses",
+    "text": {
+      "zh": "将任期与问责写进制度。",
+      "en": "Put terms of office and accountability into law."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 32,
+    "context": "field: PRINCIPLE / field: responses",
+    "text": {
+      "zh": "让人民保留更换掌权者的权利。",
+      "en": "Keep the people's right to replace their rulers."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 32,
+    "context": "field: ATTACK / field: responses",
+    "text": {
+      "zh": "没有保证，不等于现状无需改变。",
+      "en": "No guarantee does not mean no need for change."
+    }
+  },
+  {
+    "file": "src/data/debate.ts",
+    "line": 32,
+    "context": "field: CROWD / field: responses",
+    "text": {
+      "zh": "把你们不愿再接受的事说出来。",
+      "en": "Tell us what you will no longer accept."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 5,
+    "context": "if: state.momentum >= 75 && state.washingtonTrust >= 18 / function: endingTitle",
+    "text": {
+      "zh": "锋芒，开始承担重量。",
+      "en": "Your ambition begins to carry weight."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 6,
+    "context": "if: state.washingtonTrust >= 18 / function: endingTitle",
+    "text": {
+      "zh": "信任，在一次次承担之后。",
+      "en": "Trust, earned through responsibility."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 7,
+    "context": "if: state.momentum >= 75 / function: endingTitle",
+    "text": {
+      "zh": "你的脚步，比掌声更急。",
+      "en": "Your footsteps hurry ahead of the applause."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 8,
+    "context": "function: endingTitle",
+    "text": {
+      "zh": "一个名字，刚刚开始。",
+      "en": "A name, just beginning."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 15,
+    "context": "if: firstChoice === 'burr-revolution' / function: endingSummary",
+    "text": {
+      "zh": "初到纽约，你就公开支持革命，让自己的立场与名字一起被听见。",
+      "en": "On arriving in New York, you publicly supported the revolution, making your name and your position heard together."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 16,
+    "context": "if: firstChoice === 'burr-question' / if: firstChoice === 'burr-revolution' / function: endingSummary",
+    "text": {
+      "zh": "初到纽约，你先追问伯尔的信念，试着看清站在你面前的人。",
+      "en": "On arriving in New York, you asked what Burr believed, trying to understand the man before you."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 17,
+    "context": "if: firstChoice === 'burr-observe' / if: firstChoice === 'burr-question' / if: firstChoice === 'burr-revolution' / function: endingSummary",
+    "text": {
+      "zh": "初到纽约，你选择先观察。克制，也是你亲手作出的决定。",
+      "en": "On arriving in New York, you chose to observe. Restraint, too, was a decision you made for yourself."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 20,
+    "context": "field: 'debate-fact' / function: endingSummary",
+    "text": {
+      "zh": "面对公开质疑，你选择厘清事实，让争论落到可以回答的问题上。",
+      "en": "Under public challenge, you clarified the facts and brought the argument to questions that could be answered."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 21,
+    "context": "field: 'debate-principle' / function: endingSummary",
+    "text": {
+      "zh": "面对公开质疑，你把决定权放在中心，追问谁有资格选择未来。",
+      "en": "Under public challenge, you put the right to decide at the center and asked who could choose the future."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 22,
+    "context": "field: 'debate-attack' / function: endingSummary",
+    "text": {
+      "zh": "面对公开质疑，你强硬揭开对方论证的偏向，也让冲突更加鲜明。",
+      "en": "Under public challenge, you forcefully exposed the bias in your opponent's argument, sharpening the conflict."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 23,
+    "context": "field: 'debate-crowd' / function: endingSummary",
+    "text": {
+      "zh": "面对公开质疑，你让现场的人加入，让个人的声音成为众人的讨论。",
+      "en": "Under public challenge, you brought the audience into the discussion and turned one voice into many."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 28,
+    "context": "ternary: state.choices.debate_result === 'won' / if: state.choices.debate_result / function: endingSummary",
+    "text": {
+      "zh": "你赢得了广场的辩论，节拍表现为 {0} / 100。",
+      "en": "You won the debate in the square with a rhythm score of {0} / 100."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 29,
+    "context": "ternary: state.choices.debate_result === 'won' / if: state.choices.debate_result / function: endingSummary",
+    "text": {
+      "zh": "广场没有完全被你说服；这次辩论的节拍表现为 {0} / 100。",
+      "en": "The square was not fully convinced; your rhythm score in this debate was {0} / 100."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 30,
+    "context": "if: state.choices.writing_result !== undefined / function: endingSummary",
+    "text": {
+      "zh": "军令首次分类准确率为 {0} / 100。华盛顿看见了你处理细节的方式。",
+      "en": "Your first-pass dispatch accuracy was {0} / 100. Washington saw how you handled the details."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 34,
+    "context": "ternary: state.washingtonTrust >= 18 / if: state.choices.washington_position / function: endingSummary",
+    "text": {
+      "zh": "你的选择积累了华盛顿的信任。此刻，他对你承担责任的能力更有把握。",
+      "en": "Your decisions earned Washington's trust. He now has greater confidence in your ability to carry responsibility."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 35,
+    "context": "ternary: state.washingtonTrust >= 18 / if: state.choices.washington_position / function: endingSummary",
+    "text": {
+      "zh": "你争取到了指挥机会，但华盛顿的信任仍有限。机会与认可，还没有完全重合。",
+      "en": "You won a command, but Washington's trust remained limited. Opportunity and recognition had not yet become the same thing."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 39,
+    "context": "field: 'yorktown-coordinate' / function: endingSummary",
+    "text": {
+      "zh": "第一次下令时，你先核对分工，把个人的速度放在共同节奏之后。",
+      "en": "When you first gave an order, you checked each squad's role and put a shared rhythm ahead of your own speed."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 40,
+    "context": "field: 'yorktown-lead' / function: endingSummary",
+    "text": {
+      "zh": "第一次下令时，你选择走在最前面，让自己的行动成为承诺。",
+      "en": "When you first gave an order, you chose to lead from the front, making your actions a promise."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 41,
+    "context": "field: 'yorktown-rally' / function: endingSummary",
+    "text": {
+      "zh": "第一次下令时，你先说明目标，希望每个人都知道自己为何出发。",
+      "en": "When you first gave an order, you explained the objective so everyone would know why they were setting out."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 45,
+    "context": "if: state.choices.yorktown_result / function: endingSummary",
+    "text": {
+      "zh": "约克镇的潜行、部署与突击留下了 {0} / 100 的战役表现。胜利属于整支队伍。",
+      "en": "Your stealth, deployment, and assault at Yorktown earned {0} / 100. Victory belongs to the whole company."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 47,
+    "context": "if: state.burrRespect >= 35 && state.burrRivalry >= 25 / function: endingSummary",
+    "text": {
+      "zh": "伯尔对你的尊重与竞争心同时增长。他认真看待你的能力，也更在意你会走向哪里。",
+      "en": "Burr's respect and rivalry both grew. He takes your ability seriously and watches more closely where it may lead you."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 48,
+    "context": "if: state.burrRivalry >= 25 / if: state.burrRespect >= 35 && state.burrRivalry >= 25 / function: endingSummary",
+    "text": {
+      "zh": "你与伯尔的竞争感已更鲜明。你越急于向前，他越留意你留下的后果。",
+      "en": "Your rivalry with Burr became sharper. The faster you pressed forward, the more closely he watched what you left behind."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 49,
+    "context": "if: state.burrRespect >= 35 / if: state.burrRivalry >= 25 / if: state.burrRespect >= 35 && state.burrRivalry >= 25 / function: endingSummary",
+    "text": {
+      "zh": "伯尔对你的尊重有所积累。你们未必赞同彼此，却有了继续听下去的理由。",
+      "en": "Burr's respect for you grew. You do not always agree, but you have reasons to keep listening to each other."
+    }
+  },
+  {
+    "file": "src/data/ending.ts",
+    "line": 50,
+    "context": "if: state.burrRespect >= 35 / if: state.burrRivalry >= 25 / if: state.burrRespect >= 35 && state.burrRivalry >= 25 / function: endingSummary",
+    "text": {
+      "zh": "你与伯尔之间，欣赏和距离都还存在。这段关系尚未定型。",
+      "en": "Between you and Burr, admiration and distance both remain. The relationship has yet to settle into its final shape."
+    }
+  },
+  {
+    "file": "src/data/labels.ts",
+    "line": 5,
+    "context": "field: PERFECT",
+    "text": {
+      "zh": "完美",
+      "en": "PERFECT"
+    }
+  },
+  {
+    "file": "src/data/labels.ts",
+    "line": 6,
+    "context": "field: GOOD",
+    "text": {
+      "zh": "良好",
+      "en": "GOOD"
+    }
+  },
+  {
+    "file": "src/data/labels.ts",
+    "line": 7,
+    "context": "field: MISS",
+    "text": {
+      "zh": "失拍",
+      "en": "MISS"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 4,
+    "context": "field: PRIORITY",
+    "text": {
+      "zh": "优先事项 · 目标与时限",
+      "en": "Priority · Objective and deadline"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 4,
+    "context": "field: ACTION",
+    "text": {
+      "zh": "执行任务 · 人员与补给",
+      "en": "Action · Personnel and supplies"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 4,
+    "context": "field: CONTEXT",
+    "text": {
+      "zh": "背景信息 · 地点与状况",
+      "en": "Context · Location and conditions"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 7,
+    "context": "field: title",
+    "text": {
+      "zh": "北线补给",
+      "en": "Northern Supplies"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 8,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "补给",
+      "en": "SUPPLIES"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 8,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "运送面粉二十桶、药品两箱。",
+      "en": "Deliver twenty barrels of flour and two crates of medicine."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 9,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "地点",
+      "en": "POSITION"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 9,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "接收地点为北线河岸营地。",
+      "en": "The receiving point is the northern riverside camp."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 10,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "时限",
+      "en": "TIME"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 10,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "明日拂晓前必须抵达。",
+      "en": "Arrive before dawn tomorrow."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 11,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "人员",
+      "en": "TROOPS"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 11,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "由军需官率一队士兵护送车队。",
+      "en": "The quartermaster leads a squad escorting the wagons."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 12,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "目标",
+      "en": "OBJECTIVE"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 12,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "首先解除北线断粮的危险。",
+      "en": "First, prevent the northern troops from running out of food."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 14,
+    "context": "field: title",
+    "text": {
+      "zh": "转移伤员",
+      "en": "Move the Wounded"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 15,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "地点",
+      "en": "POSITION"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 15,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "旧石桥受损，东岸渡口仍可通行。",
+      "en": "The old stone bridge is damaged; the eastern ferry still operates."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 16,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "人员",
+      "en": "TROOPS"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 16,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "医官带担架队经渡口护送伤员。",
+      "en": "The surgeon leads the stretcher party across the ferry."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 17,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "目标",
+      "en": "OBJECTIVE"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 17,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "优先将重伤员转移到后方医院。",
+      "en": "Move the seriously wounded to the rear hospital first."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 18,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "补给",
+      "en": "SUPPLIES"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 18,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "携带绷带、饮水与两辆空车。",
+      "en": "Bring bandages, water, and two empty wagons."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 19,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "时限",
+      "en": "TIME"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 19,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "今晚日落前完成转移。",
+      "en": "Complete the transfer before sunset today."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 21,
+    "context": "field: title",
+    "text": {
+      "zh": "准备集结",
+      "en": "Prepare to Muster"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 22,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "时限",
+      "en": "TIME"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 22,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "后日清晨六时前完成准备。",
+      "en": "Finish preparations by six the morning after tomorrow."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 23,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "目标",
+      "en": "OBJECTIVE"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 23,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "首要任务是保障各队准时集结。",
+      "en": "The first priority is to have every squad muster on time."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 24,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "地点",
+      "en": "POSITION"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 24,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "集结地在磨坊以南的空地。",
+      "en": "The muster point is the clearing south of the mill."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 25,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "补给",
+      "en": "SUPPLIES"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 25,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "每队领取两日口粮并核对弹药。",
+      "en": "Each squad collects two days of rations and checks its ammunition."
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 26,
+    "context": "field: label / field: fragments",
+    "text": {
+      "zh": "人员",
+      "en": "TROOPS"
+    }
+  },
+  {
+    "file": "src/data/writing.ts",
+    "line": 26,
+    "context": "field: text / field: fragments",
+    "text": {
+      "zh": "传令兵通知各队队长清点人数。",
+      "en": "A messenger tells each squad leader to count their men."
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 4,
+    "context": "field: HOLD",
+    "text": {
+      "zh": "待命",
+      "en": "Hold"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 4,
+    "context": "field: ADVANCE",
+    "text": {
+      "zh": "推进",
+      "en": "Advance"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 4,
+    "context": "field: FLANK",
+    "text": {
+      "zh": "包抄",
+      "en": "Flank"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 6,
+    "context": "field: name",
+    "text": {
+      "zh": "一队 · 正面",
+      "en": "Squad 1 · Front"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 6,
+    "context": "field: hint",
+    "text": {
+      "zh": "正面牵制守军，让他们无法转向两翼。",
+      "en": "Keep the defenders occupied at the front so they cannot turn toward the flanks."
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 7,
+    "context": "field: name",
+    "text": {
+      "zh": "二队 · 左翼",
+      "en": "Squad 2 · Left"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 7,
+    "context": "field: hint",
+    "text": {
+      "zh": "左侧通道已打开，绕至守军侧后。",
+      "en": "The left passage is open. Move around the defenders' side."
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 8,
+    "context": "field: name",
+    "text": {
+      "zh": "三队 · 右翼",
+      "en": "Squad 3 · Right"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 8,
+    "context": "field: hint",
+    "text": {
+      "zh": "右侧仍有巡逻，先留作预备队接应。",
+      "en": "Patrols remain on the right. Stay in reserve to support the others."
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 14,
+    "context": "field: label",
+    "text": {
+      "zh": "推进",
+      "en": "ADVANCE · Move forward"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 14,
+    "context": "field: label",
+    "text": {
+      "zh": "稳住阵形",
+      "en": "HOLD · Steady the formation"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 15,
+    "context": "field: label",
+    "text": {
+      "zh": "左翼包抄",
+      "en": "LEFT FLANK · Circle left"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 15,
+    "context": "field: label",
+    "text": {
+      "zh": "推进",
+      "en": "ADVANCE · Move forward"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 16,
+    "context": "field: label",
+    "text": {
+      "zh": "右翼支援",
+      "en": "RIGHT FLANK · Support the right"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 16,
+    "context": "field: label",
+    "text": {
+      "zh": "等待友军",
+      "en": "HOLD · Wait for allied troops"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 17,
+    "context": "field: label",
+    "text": {
+      "zh": "侧翼接应",
+      "en": "LEFT FLANK · Support the flank"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 17,
+    "context": "field: label",
+    "text": {
+      "zh": "越过土垒",
+      "en": "ADVANCE · Cross the earthworks"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 18,
+    "context": "field: label",
+    "text": {
+      "zh": "保持联系",
+      "en": "RIGHT FLANK · Maintain contact"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 18,
+    "context": "field: label",
+    "text": {
+      "zh": "重新集结",
+      "en": "HOLD · Regroup"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 19,
+    "context": "field: label",
+    "text": {
+      "zh": "进入堡垒",
+      "en": "ADVANCE · Enter the redoubt"
+    }
+  },
+  {
+    "file": "src/data/yorktown.ts",
+    "line": 19,
+    "context": "field: label",
+    "text": {
+      "zh": "守住阵地",
+      "en": "HOLD · Secure the position"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 83,
+    "context": "",
+    "text": {
+      "zh": "伯尔 · 交谈",
+      "en": "Burr · Talk"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 84,
+    "context": "",
+    "text": {
+      "zh": "E  与伯尔交谈",
+      "en": "E  Talk to Burr"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 85,
+    "context": "",
+    "text": {
+      "zh": "先和街口的伯尔谈谈",
+      "en": "Find Burr at the crossroads"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 96,
+    "context": "if: this.storyMode / function: start",
+    "text": {
+      "zh": "纽约 · 1776",
+      "en": "NEW YORK · 1776"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 96,
+    "context": "if: this.storyMode / function: start",
+    "text": {
+      "zh": "街角，暮色渐深",
+      "en": "Dusk settles over the street"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 96,
+    "context": "if: this.storyMode / function: start",
+    "text": {
+      "zh": "准备石路、灯影与远来的年轻人…",
+      "en": "Preparing cobblestones, lamplight, and a young arrival…"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 107,
+    "context": "function: start",
+    "text": {
+      "zh": "纽约街角三维场景。WASD 或方向键移动，E 交谈，Esc 设置。",
+      "en": "New York street in 3D. Move with WASD or arrow keys, E to talk, Esc for settings."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 166,
+    "context": "if: storyChapter && chapter / function: switchScene",
+    "text": {
+      "zh": "沿着故事，走进下一处地方…",
+      "en": "Following the story into another place…"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 186,
+    "context": "function: switchScene",
+    "text": {
+      "zh": "{0}。WASD 移动，E 查看或前往，Esc 设置。",
+      "en": "{0}. WASD to move, E to inspect or travel, Esc for settings."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 215,
+    "context": "ternary: exit / function: buildMarkers",
+    "text": {
+      "zh": "↗ {0}",
+      "en": "↗ {0}"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 215,
+    "context": "ternary: exit / function: buildMarkers",
+    "text": {
+      "zh": "◇ {0}",
+      "en": "◇ {0}"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 231,
+    "context": "function: activatePoint",
+    "text": {
+      "zh": "驻足看看",
+      "en": "PAUSE AND LOOK"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 232,
+    "context": "function: activatePoint",
+    "text": {
+      "zh": "继续探索 →",
+      "en": "Keep exploring →"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 233,
+    "context": "function: activatePoint",
+    "text": {
+      "zh": "收起 ×",
+      "en": "Close ×"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 244,
+    "context": "function: updateObjective",
+    "text": {
+      "zh": "本幕探索 {0} / {1} · 菱形驻足，路口前往",
+      "en": "Explored {0} / {1} · Inspect diamonds, travel at exits"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 253,
+    "context": "function: showError",
+    "text": {
+      "zh": "场景暂时无法打开",
+      "en": "The scene could not open"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 253,
+    "context": "function: showError",
+    "text": {
+      "zh": "请刷新重试；此样例需要浏览器开启硬件加速并支持 WebGL 2。",
+      "en": "Reload to try again. This sample requires WebGL 2 and browser hardware acceleration."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 253,
+    "context": "function: showError",
+    "text": {
+      "zh": "重新载入",
+      "en": "Reload"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 256,
+    "context": "function: originalLink",
+    "text": {
+      "zh": "返回标题 ↗",
+      "en": "Return to title ↗"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 260,
+    "context": "ternary: this.storyMode / function: buildUI",
+    "text": {
+      "zh": "主线路线 · 完成目标后前往",
+      "en": "STORY ROUTE · COMPLETE OBJECTIVES TO TRAVEL"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 260,
+    "context": "ternary: this.storyMode / function: buildUI",
+    "text": {
+      "zh": "场景漫游",
+      "en": "EXPLORE SCENES"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 261,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "选择三维场景",
+      "en": "Choose a 3D scene"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 264,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "设置 / 暂停",
+      "en": "Settings / Pause"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 265,
+    "context": "if: !this.storyMode / function: buildUI",
+    "text": {
+      "zh": "开始三维主线 →",
+      "en": "Play the 3D Story →"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 268,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "行走",
+      "en": "Move"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 268,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "快步",
+      "en": "Hurry"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 268,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "点击地面前往",
+      "en": "Click to walk"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 268,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "右键拖动视角",
+      "en": "Right-drag to orbit"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 268,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "滚轮拉近 / 拉远",
+      "en": "Scroll to zoom"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 273,
+    "context": "function: buildUI",
+    "text": {
+      "zh": "与伯尔的对话",
+      "en": "Conversation with Burr"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 279,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "在旅途中歇一会儿",
+      "en": "A MOMENT ON THE JOURNEY"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 279,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "设置与暂停",
+      "en": "Settings & pause"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 281,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "双语 · 中文主字幕",
+      "en": "Bilingual · Chinese first"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 281,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "中文",
+      "en": "Chinese"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 281,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "英文",
+      "en": "English"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 284,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "均衡 · 柔和景深",
+      "en": "Balanced · Soft depth of field"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 284,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "精细 · 更高分辨率",
+      "en": "High · Higher resolution"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 284,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "流畅 · 关闭景深",
+      "en": "Performance · No depth of field"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 286,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "语言",
+      "en": "Language"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 286,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "画质",
+      "en": "Graphics"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 290,
+    "context": "if: this.story / function: buildSettings",
+    "text": {
+      "zh": "即时显示",
+      "en": "Instant"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 290,
+    "context": "if: this.story / function: buildSettings",
+    "text": {
+      "zh": "正常",
+      "en": "Normal"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 290,
+    "context": "if: this.story / function: buildSettings",
+    "text": {
+      "zh": "慢速",
+      "en": "Slow"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 292,
+    "context": "if: this.story / function: buildSettings",
+    "text": {
+      "zh": "文字速度",
+      "en": "Text speed"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 296,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "减少环境动态与镜头跟随",
+      "en": "Reduce ambient motion and camera easing"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 297,
+    "context": "ternary: this.story / function: buildSettings",
+    "text": {
+      "zh": "走近亮起的目标推进剧情，完成本幕后从出口前往下一处。重开本幕会恢复进入时的选择与数值；刷新页面会重新开始故事。",
+      "en": "Approach the lit objective to advance the story, then use the exit when the chapter is complete. Restart restores choices and stats from chapter entry; reloading begins a new story."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 297,
+    "context": "ternary: this.story / function: buildSettings",
+    "text": {
+      "zh": "五处场景可自由探索。靠近菱形标记按 E 查看，靠近路口按 E 前往下一处；也可使用上方菜单直接切换。选择“开始三维主线”可在这些场景中体验完整故事。",
+      "en": "Explore five scenes freely. Press E near a diamond to inspect or at an exit to travel; the menu also switches scenes directly. Choose “Play the 3D Story” to experience the full story in these places."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 298,
+    "context": "function: buildSettings",
+    "text": {
+      "zh": "继续行走",
+      "en": "Continue walking"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 299,
+    "context": "ternary: this.story / function: buildSettings",
+    "text": {
+      "zh": "重开本幕 · 恢复进入时的状态",
+      "en": "Restart chapter · Restore entry state"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 299,
+    "context": "ternary: this.story / function: buildSettings",
+    "text": {
+      "zh": "回到本幕入口 · 重置镜头",
+      "en": "Return to this scene’s entrance · Reset camera"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 384,
+    "context": "if: end / function: travel",
+    "text": {
+      "zh": "这里暂时走不过去，试试旁边的通道。",
+      "en": "That spot is out of reach. Try the path nearby."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 401,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "与伯尔的对话",
+      "en": "Conversation with Burr"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 403,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "街口相遇",
+      "en": "AT THE CROSSROADS"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 403,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "阿伦·伯尔",
+      "en": "Aaron Burr"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 405,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "刚下船？纽约的路比地图上窄，机会倒比地图上多。你在找谁？",
+      "en": "Fresh off the boat? New York has narrower streets than its maps suggest—and more opportunities. Who are you looking for?"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 406,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "每个来到这里的年轻人，都觉得自己有话要说。你呢？",
+      "en": "Every young man who arrives here thinks he has something to say. And you?"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 407,
+    "context": "ternary: this.dialogueBranch === 1 / function: renderDialogue",
+    "text": {
+      "zh": "那就先看看人们为什么停下来听。酒馆就在那边。走近一点，你会听到这座城真正关心的事。",
+      "en": "Then notice what makes people stop and listen. The tavern is over there. Walk closer, and you will hear what this city really cares about."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 407,
+    "context": "ternary: this.dialogueBranch === 1 / function: renderDialogue",
+    "text": {
+      "zh": "水岸是个好起点。船带来消息，人把消息变成立场。先走一圈，再决定你想站在哪一边。",
+      "en": "The waterfront is a good place to begin. Ships bring news; people turn news into convictions. Walk around before you choose a side."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 408,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "不必急着回答。街道一直在这里。去看看酒馆和水岸，再回来也不迟。",
+      "en": "There is no need to answer yet. The streets will still be here. Visit the tavern and the waterfront; you can always return."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 413,
+    "context": "if: this.dialogueStep === 1 / function: renderDialogue",
+    "text": {
+      "zh": "我想让这座城听见我。",
+      "en": "I want this city to hear me."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 413,
+    "context": "if: this.dialogueStep === 1 / function: renderDialogue",
+    "text": {
+      "zh": "先带我认识这座城。",
+      "en": "First, let me get to know it."
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 414,
+    "context": "ternary: this.dialogueStep >= 2 / if: this.dialogueStep === 1 / function: renderDialogue",
+    "text": {
+      "zh": "继续探索 →",
+      "en": "Keep exploring →"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 414,
+    "context": "ternary: this.dialogueStep >= 2 / if: this.dialogueStep === 1 / function: renderDialogue",
+    "text": {
+      "zh": "继续  E / 空格 →",
+      "en": "Continue  E / Space →"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 415,
+    "context": "function: renderDialogue",
+    "text": {
+      "zh": "收起对话 ×",
+      "en": "Close conversation ×"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 426,
+    "context": "function: markDiscovered",
+    "text": {
+      "zh": "发现：{0}",
+      "en": "Discovered: {0}"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 468,
+    "context": "ternary: 'enabled' in nearby && !nearby.enabled / ternary: nearby / if: !this.prompt.hidden && this.prompt.dataset.target !== promptId / function: tick",
+    "text": {
+      "zh": "尚未解锁 · {0}",
+      "en": "Not yet available · {0}"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 468,
+    "context": "ternary: 'enabled' in nearby && !nearby.enabled / ternary: nearby / if: !this.prompt.hidden && this.prompt.dataset.target !== promptId / function: tick",
+    "text": {
+      "zh": "E  {0}",
+      "en": "E  {0}"
+    }
+  },
+  {
+    "file": "src/demo3d/Demo.ts",
+    "line": 468,
+    "context": "ternary: nearby / if: !this.prompt.hidden && this.prompt.dataset.target !== promptId / function: tick",
+    "text": {
+      "zh": "E  与伯尔交谈",
+      "en": "E  Talk to Burr"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 28,
+    "context": "field: title / field: street",
+    "text": {
+      "zh": "纽约，街角",
+      "en": "A corner of New York"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 28,
+    "context": "field: kicker / field: street",
+    "text": {
+      "zh": "第一幕 · 初到纽约",
+      "en": "ACT I · ARRIVAL"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 28,
+    "context": "field: subtitle / field: street",
+    "text": {
+      "zh": "1776 · 一个名字尚未被记住的夏天",
+      "en": "1776 · A summer before the world knew his name"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 29,
+    "context": "field: intro / field: street",
+    "text": {
+      "zh": "沿石路寻找伯尔；酒馆门前可以进入下一处场景。",
+      "en": "Find Burr along the cobblestones; the tavern entrance leads to the next scene."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 32,
+    "context": "field: title / field: points / field: street",
+    "text": {
+      "zh": "街口 · 相识",
+      "en": "Crossroads · An introduction"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 32,
+    "context": "field: body / field: points / field: street",
+    "text": {
+      "zh": "伯尔站在街口，打量着往来的人。",
+      "en": "Burr stands at the crossroads, watching the passersby."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 33,
+    "context": "field: title / field: points / field: street",
+    "text": {
+      "zh": "酒馆 · 城市的声音",
+      "en": "Tavern · Voices of the city"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 33,
+    "context": "field: body / field: points / field: street",
+    "text": {
+      "zh": "门内的杯盏声里，夹着关于独立的争论。",
+      "en": "Between the clinking cups, voices argue about independence."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 34,
+    "context": "field: title / field: points / field: street",
+    "text": {
+      "zh": "水岸 · 新世界的入口",
+      "en": "Waterfront · A door to the new world"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 34,
+    "context": "field: body / field: points / field: street",
+    "text": {
+      "zh": "船带来货物，也带来旧世界的消息。",
+      "en": "Ships bring cargo, and news from the old world."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 36,
+    "context": "field: title / field: exits / field: street",
+    "text": {
+      "zh": "进入酒馆",
+      "en": "Enter the tavern"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 39,
+    "context": "field: title / field: tavern",
+    "text": {
+      "zh": "酒馆，未熄的火",
+      "en": "The tavern, a fire still burning"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 39,
+    "context": "field: kicker / field: tavern",
+    "text": {
+      "zh": "第二幕 · 革命的同伴",
+      "en": "ACT II · COMPANY OF REVOLUTION"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 39,
+    "context": "field: subtitle / field: tavern",
+    "text": {
+      "zh": "1776 · 举杯之前，先交换一个念头",
+      "en": "1776 · Before a toast, an exchange of ideas"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 40,
+    "context": "field: intro / field: tavern",
+    "text": {
+      "zh": "绕过长桌，看看炉火、手稿与杯盏。靠近标记按 E 查看。",
+      "en": "Walk among the tables, hearth and manuscripts. Press E near a marker to inspect."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 44,
+    "context": "field: title / field: points / field: tavern",
+    "text": {
+      "zh": "长桌 · 同伴的席位",
+      "en": "The long table · Seats for companions"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 44,
+    "context": "field: body / field: points / field: tavern",
+    "text": {
+      "zh": "四只杯子围着摊开的报纸。劳伦斯、拉法耶特与穆里根的座位还空着；这一桌将把各自的雄心，变成共同的行动。",
+      "en": "Four cups surround an open newspaper. The seats of Laurens, Lafayette and Mulligan are still empty; around this table, separate ambitions will become a common cause."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 45,
+    "context": "field: title / field: points / field: tavern",
+    "text": {
+      "zh": "炉火 · 城里的传闻",
+      "en": "The hearth · Rumors in the city"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 45,
+    "context": "field: body / field: points / field: tavern",
+    "text": {
+      "zh": "柴火在砖炉里燃烧。港口封锁、军需短缺、独立的消息，都曾在这里被低声重复，再被带到街上。",
+      "en": "Logs burn in the brick hearth. Word of blockades, shortages and independence has passed quietly through this room before reaching the streets."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 46,
+    "context": "field: title / field: points / field: tavern",
+    "text": {
+      "zh": "手稿 · 尚未发出的声音",
+      "en": "The manuscript · A voice not yet heard"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 46,
+    "context": "field: body / field: points / field: tavern",
+    "text": {
+      "zh": "蜡烛照着未写完的段落。把激动写成一句能说服人的话，比高声喊出它更难。一页草稿，也许就是明天街头争论的开始。",
+      "en": "A candle lights an unfinished paragraph. Turning conviction into a persuasive sentence is harder than shouting it. A draft on this desk may begin tomorrow’s argument in the streets."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 49,
+    "context": "field: title / field: exits / field: tavern",
+    "text": {
+      "zh": "回到纽约街角",
+      "en": "Return to the New York street"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 50,
+    "context": "field: title / field: exits / field: tavern",
+    "text": {
+      "zh": "前往辩论广场",
+      "en": "Continue to the debate square"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 54,
+    "context": "field: title / field: square",
+    "text": {
+      "zh": "广场，众声之中",
+      "en": "The square, among many voices"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 54,
+    "context": "field: kicker / field: square",
+    "text": {
+      "zh": "第三幕 · 公开辩论",
+      "en": "ACT III · PUBLIC DEBATE"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 54,
+    "context": "field: subtitle / field: square",
+    "text": {
+      "zh": "1776 · 让一句话穿过整座广场",
+      "en": "1776 · Let a sentence carry across the square"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 55,
+    "context": "field: intro / field: square",
+    "text": {
+      "zh": "从印刷摊绕到讲台前，广场另一侧的路通往军营。",
+      "en": "Explore the print stall and the speaking platform. A road on the far side leads to camp."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 58,
+    "context": "field: title / field: points / field: square",
+    "text": {
+      "zh": "讲台 · 公开的立场",
+      "en": "The platform · A public position"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 58,
+    "context": "field: body / field: points / field: square",
+    "text": {
+      "zh": "木台略高于人群的视线。支持者和反对者将从两侧聚拢：论点必须清楚，停顿也必须有分量。",
+      "en": "The timber platform stands just above the crowd’s eye line. Supporters and opponents will gather on either side: arguments must be clear, and pauses must carry weight."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 59,
+    "context": "field: title / field: points / field: square",
+    "text": {
+      "zh": "印刷摊 · 纸上的战场",
+      "en": "The print stall · A battlefield on paper"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 59,
+    "context": "field: body / field: points / field: square",
+    "text": {
+      "zh": "铅字、纸张与墨，把一个人的意见变成许多人手中的传单。街头的辩论在这里获得第二种声音。",
+      "en": "Type, paper and ink turn one person’s opinion into leaflets carried by many. Here, a street debate acquires a second voice."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 60,
+    "context": "field: title / field: points / field: square",
+    "text": {
+      "zh": "告示板 · 人群将去向何处",
+      "en": "The noticeboard · Where people will go"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 60,
+    "context": "field: body / field: points / field: square",
+    "text": {
+      "zh": "招募与集会的告示一层盖着一层。从这里向外走，城市的争论逐渐变成军营里的命令。",
+      "en": "Recruitment and meeting notices overlap on the board. Beyond this square, the city’s arguments begin to become orders in a military camp."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 62,
+    "context": "field: title / field: exits / field: square",
+    "text": {
+      "zh": "返回酒馆",
+      "en": "Return to the tavern"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 62,
+    "context": "field: title / field: exits / field: square",
+    "text": {
+      "zh": "前往华盛顿军营",
+      "en": "Continue to Washington’s camp"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 65,
+    "context": "field: title / field: camp",
+    "text": {
+      "zh": "军营，暮色下的命令",
+      "en": "The camp, orders at dusk"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 65,
+    "context": "field: kicker / field: camp",
+    "text": {
+      "zh": "第四幕 · 华盛顿的副官",
+      "en": "ACT IV · WASHINGTON’S AIDE"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 65,
+    "context": "field: subtitle / field: camp",
+    "text": {
+      "zh": "1777 · 墨水与火药之间",
+      "en": "1777 · Between ink and gunpowder"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 66,
+    "context": "field: intro / field: camp",
+    "text": {
+      "zh": "沿营地通道查看指挥帐、补给和篝火，再前往约克镇。",
+      "en": "Follow the camp paths to the command tent, supplies and fire, then continue to Yorktown."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 70,
+    "context": "field: title / field: points / field: camp",
+    "text": {
+      "zh": "指挥帐 · 一纸军令",
+      "en": "The command tent · Orders on paper"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 70,
+    "context": "field: body / field: points / field: camp",
+    "text": {
+      "zh": "地图被镇纸压住，路线停在烛光下。副官需要把将军的判断写成清晰的命令，让远处的部队也能准确执行。",
+      "en": "Paperweights hold the map still, its routes caught in candlelight. An aide must turn the general’s judgment into clear orders that distant units can carry out precisely."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 71,
+    "context": "field: title / field: points / field: camp",
+    "text": {
+      "zh": "辎重 · 战线的另一端",
+      "en": "Supplies · The other end of the line"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 71,
+    "context": "field: body / field: points / field: camp",
+    "text": {
+      "zh": "车轮、粮桶与成排的木箱决定部队能走多远。每一次调动，都先是一道补给问题。",
+      "en": "Wheels, provision barrels and rows of crates determine how far the army can move. Every maneuver begins as a question of supply."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 72,
+    "context": "field: title / field: points / field: camp",
+    "text": {
+      "zh": "篝火 · 等待天亮",
+      "en": "The campfire · Waiting for dawn"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 72,
+    "context": "field: body / field: points / field: camp",
+    "text": {
+      "zh": "帐篷之间留着一道暖光。信件从这里出发，也在这里被拆开；下一道命令到来之前，营地短暂地安静下来。",
+      "en": "A warm glow remains between the tents. Letters leave from here and are opened here; before the next orders arrive, the camp briefly falls quiet."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 74,
+    "context": "field: title / field: exits / field: camp",
+    "text": {
+      "zh": "返回辩论广场",
+      "en": "Return to the debate square"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 74,
+    "context": "field: title / field: exits / field: camp",
+    "text": {
+      "zh": "前往约克镇",
+      "en": "Continue to Yorktown"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 77,
+    "context": "field: title / field: yorktown",
+    "text": {
+      "zh": "约克镇，夜色中的突破口",
+      "en": "Yorktown, an opening in the night"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 77,
+    "context": "field: kicker / field: yorktown",
+    "text": {
+      "zh": "第五幕 · 最后的冲锋",
+      "en": "ACT V · THE FINAL ASSAULT"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 77,
+    "context": "field: subtitle / field: yorktown",
+    "text": {
+      "zh": "1781 · 越过工事，走向黎明",
+      "en": "1781 · Beyond the earthworks, toward dawn"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 78,
+    "context": "field: intro / field: yorktown",
+    "text": {
+      "zh": "沿战壕穿过炮位与工事缺口。中央通道可以进入堡垒内侧。",
+      "en": "Follow the trench past the battery and through the earthworks. The central passage reaches the inner redoubt."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 82,
+    "context": "field: title / field: points / field: yorktown",
+    "text": {
+      "zh": "集结处 · 屏息等待",
+      "en": "The assembly point · Holding a breath"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 82,
+    "context": "field: body / field: points / field: yorktown",
+    "text": {
+      "zh": "队伍将在这里压低声音，等待出击的信号。前方的两道通路把掩体、炮位与堡垒连接起来。",
+      "en": "The troops will gather here in hushed voices, waiting for the signal. Two routes ahead connect cover, batteries and the redoubt."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 83,
+    "context": "field: title / field: points / field: yorktown",
+    "text": {
+      "zh": "炮位 · 火光后的间隙",
+      "en": "The battery · A pause after the flash"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 83,
+    "context": "field: body / field: points / field: yorktown",
+    "text": {
+      "zh": "炮轮陷在泥里，弹药堆在手边。炮声之间的短暂间隙，决定何时能够离开掩体。",
+      "en": "Gun wheels sink into the mud, ammunition stacked within reach. The brief intervals between shots determine when it is possible to leave cover."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 84,
+    "context": "field: title / field: points / field: yorktown",
+    "text": {
+      "zh": "堡垒内侧 · 突破之后",
+      "en": "Inside the redoubt · After the breach"
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 84,
+    "context": "field: body / field: points / field: yorktown",
+    "text": {
+      "zh": "木桩与土墙不再挡住前路。从集结处到这里，路线已贯通；胜负将取决于每一步能否与同伴的行动一致。",
+      "en": "Timber stakes and earth walls no longer block the way. The route from the assembly point is open; success will depend on each step matching the actions of others."
+    }
+  },
+  {
+    "file": "src/demo3d/SceneCatalog.ts",
+    "line": 86,
+    "context": "field: title / field: exits / field: yorktown",
+    "text": {
+      "zh": "返回华盛顿军营",
+      "en": "Return to Washington’s camp"
+    }
+  },
+  {
+    "file": "src/demo3d/TavernSign.ts",
+    "line": 62,
+    "context": "function: update",
+    "text": {
+      "zh": "酒馆",
+      "en": "TAVERN"
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 62,
+    "context": "if: this.progress.chapter.interactionOrder === 'free' && this.progress.phase !== 'exit'",
+    "text": {
+      "zh": "已交谈 {0} / {1} · 自由选择下一位同伴",
+      "en": "Spoken to {0} / {1} · Choose any remaining companion"
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 64,
+    "context": "if: this.progress.chapter.id === 'Opening' && this.progress.phase === 'exit'",
+    "text": {
+      "zh": "序幕完成 · 点击黄色入口，踏上纽约街头。",
+      "en": "Prologue complete · Click the yellow marker to step into New York."
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 66,
+    "context": "ternary: next",
+    "text": {
+      "zh": "{0} / {1} · {2}",
+      "en": "{0} / {1} · {2}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 67,
+    "context": "ternary: next",
+    "text": {
+      "zh": "本幕完成 · {0}",
+      "en": "Chapter complete · {0}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 114,
+    "context": "ternary: this.progress.chapter.interactionOrder === 'free' / if: !target.enabled / function: interact",
+    "text": {
+      "zh": "先与三位同伴各谈一次 · 已完成 {0} / {1}",
+      "en": "Speak to all three companions first · Completed {0} / {1}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryDirector.ts",
+    "line": 115,
+    "context": "ternary: this.progress.chapter.interactionOrder === 'free' / if: !target.enabled / function: interact",
+    "text": {
+      "zh": "先完成：{0}",
+      "en": "First complete: {0}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryProgress.ts",
+    "line": 98,
+    "context": "field: text / function: timeout",
+    "text": {
+      "zh": "你沉默了一会儿。没关系，先听听其他人的想法；这张桌子还会留一个位置。",
+      "en": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table."
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 25,
+    "context": "field: momentum",
+    "text": {
+      "zh": "锐气",
+      "en": "Momentum"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 25,
+    "context": "field: influence",
+    "text": {
+      "zh": "影响力",
+      "en": "Influence"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 26,
+    "context": "field: burrRivalry",
+    "text": {
+      "zh": "伯尔 · 竞争",
+      "en": "Burr · Rivalry"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 26,
+    "context": "field: burrRespect",
+    "text": {
+      "zh": "伯尔 · 尊重",
+      "en": "Burr · Respect"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 27,
+    "context": "field: washingtonTrust",
+    "text": {
+      "zh": "华盛顿 · 信任",
+      "en": "Washington · Trust"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 28,
+    "context": "field: debatePerformance",
+    "text": {
+      "zh": "辩论表现",
+      "en": "Debate Performance"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 28,
+    "context": "field: yorktownPerformance",
+    "text": {
+      "zh": "战役表现",
+      "en": "Campaign Performance"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 62,
+    "context": "",
+    "text": {
+      "zh": "剧情对话",
+      "en": "Story Dialogue"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 120,
+    "context": "function: showLine",
+    "text": {
+      "zh": "E / SPACE · 显示全文或继续",
+      "en": "E / SPACE · Reveal or continue"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 121,
+    "context": "ternary: last / function: showLine",
+    "text": {
+      "zh": "继续 →",
+      "en": "Continue →"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 121,
+    "context": "ternary: last / function: showLine",
+    "text": {
+      "zh": "下一句 →",
+      "en": "Next Line →"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 122,
+    "context": "if: selected / function: showLine",
+    "text": {
+      "zh": "你的回应",
+      "en": "Your response"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 131,
+    "context": "function: showChoice",
+    "text": {
+      "zh": "选择你的回应",
+      "en": "Choose Your Words"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 144,
+    "context": "ternary: !available && option.requires / function: showChoice",
+    "text": {
+      "zh": "需要 {0} {1}",
+      "en": "Requires {0} {1}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 153,
+    "context": "if: remainingMs !== undefined / function: showChoice",
+    "text": {
+      "zh": "回应剩余时间",
+      "en": "Response time remaining"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 156,
+    "context": "if: remainingMs !== undefined / function: showChoice",
+    "text": {
+      "zh": "按数字键或点击选择 · 这次表态会留下痕迹",
+      "en": "Press a number or click · Your choice leaves a mark"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 166,
+    "context": "if: this.readingChoice / function: updateChoiceTime",
+    "text": {
+      "zh": "正在朗读问题 · 回应计时尚未开始；可直接选择",
+      "en": "Reading the question · Response time has not started; you may choose now"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 167,
+    "context": "function: updateChoiceTime",
+    "text": {
+      "zh": "{0} 秒 · 按数字键或点击；超时保持沉默",
+      "en": "{0} seconds · Press a number or click; remain silent on timeout"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 227,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "你的故事记录",
+      "en": "Your Story Record"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 229,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "你的记录 / 1776 — 1781",
+      "en": "The Record / 1776 — 1781"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 230,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "你留下的名字。",
+      "en": "The Name You Leave Behind"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 241,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "革命使他成名。野心将决定此后的路。",
+      "en": "The revolution made his name. Ambition would shape what came next."
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 242,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "而伯尔仍在注视。",
+      "en": "And Burr is still watching."
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 243,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "伯尔竞争感 {0}",
+      "en": "Burr Rivalry {0}"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 245,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "重新启幕 →",
+      "en": "Begin Again →"
+    }
+  },
+  {
+    "file": "src/story3d/StoryUI.ts",
+    "line": 246,
+    "context": "function: showEnding",
+    "text": {
+      "zh": "返回标题",
+      "en": "Return to Title"
+    }
+  },
+  {
+    "file": "src/systems/YorktownSystem.ts",
+    "line": 26,
+    "context": "ternary: this.tactics >= 90",
+    "text": {
+      "zh": "守军被正面牵制，左侧退路受压",
+      "en": "The defenders are pinned at the front, with pressure on their left retreat"
+    }
+  },
+  {
+    "file": "src/systems/YorktownSystem.ts",
+    "line": 26,
+    "context": "ternary: this.tactics >= 30 / ternary: this.tactics >= 90",
+    "text": {
+      "zh": "部分阵地受压，侧翼仍有空隙",
+      "en": "Some positions are under pressure, but gaps remain on the flanks"
+    }
+  },
+  {
+    "file": "src/systems/YorktownSystem.ts",
+    "line": 26,
+    "context": "ternary: this.tactics >= 30 / ternary: this.tactics >= 90",
+    "text": {
+      "zh": "守军仍能集中兵力守住正面",
+      "en": "The defenders can still concentrate their forces at the front"
+    }
+  },
+  {
+    "file": "src/systems/YorktownSystem.ts",
+    "line": 48,
+    "context": "if: visible && !this.detected.has(i) / if: this.phase === 'approach' / function: tick",
+    "text": {
+      "zh": "第 {0} 处哨岗发现动静 · 突袭优势 −20，继续推进",
+      "en": "Post {0} spotted movement · Surprise −20; keep going"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 40,
+    "context": "",
+    "text": {
+      "zh": "提示音：{0}",
+      "en": "Audio cues: {0}"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 40,
+    "context": "ternary: ActivityPanel.cueEnabled",
+    "text": {
+      "zh": "开",
+      "en": "On"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 40,
+    "context": "ternary: ActivityPanel.cueEnabled",
+    "text": {
+      "zh": "关",
+      "en": "Off"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 41,
+    "context": "",
+    "text": {
+      "zh": "提示音：{0}",
+      "en": "Audio cues: {0}"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 41,
+    "context": "ternary: ActivityPanel.cueEnabled",
+    "text": {
+      "zh": "开",
+      "en": "On"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 41,
+    "context": "ternary: ActivityPanel.cueEnabled",
+    "text": {
+      "zh": "关",
+      "en": "Off"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 42,
+    "context": "",
+    "text": {
+      "zh": "暂停 · ESC",
+      "en": "Pause · ESC"
+    }
+  },
+  {
+    "file": "src/ui/Activity.ts",
+    "line": 84,
+    "context": "function: beatTrack",
+    "text": {
+      "zh": "节拍轨道；金色区域为命中窗口",
+      "en": "Rhythm track; the gold area is the hit window"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 7,
+    "context": "field: momentum",
+    "text": {
+      "zh": "锐气",
+      "en": "Momentum"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 7,
+    "context": "field: influence",
+    "text": {
+      "zh": "影响力",
+      "en": "Influence"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 8,
+    "context": "field: washingtonTrust",
+    "text": {
+      "zh": "华盛顿 · 信任",
+      "en": "Washington · Trust"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 9,
+    "context": "field: burrRespect",
+    "text": {
+      "zh": "伯尔 · 尊重",
+      "en": "Burr · Respect"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 9,
+    "context": "field: burrRivalry",
+    "text": {
+      "zh": "伯尔 · 竞争",
+      "en": "Burr · Rivalry"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 10,
+    "context": "field: debatePerformance",
+    "text": {
+      "zh": "辩论表现",
+      "en": "Debate Performance"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 10,
+    "context": "field: yorktownPerformance",
+    "text": {
+      "zh": "战役表现",
+      "en": "Campaign Performance"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 18,
+    "context": "function: choiceEffects",
+    "text": {
+      "zh": "{0}：{1}",
+      "en": "{0}: {1}"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 18,
+    "context": "ternary: direction === 'up' / function: choiceEffects",
+    "text": {
+      "zh": "上升",
+      "en": "Increase"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 18,
+    "context": "ternary: direction === 'down' / ternary: direction === 'up' / function: choiceEffects",
+    "text": {
+      "zh": "下降",
+      "en": "Decrease"
+    }
+  },
+  {
+    "file": "src/ui/ChoiceEffects.ts",
+    "line": 18,
+    "context": "ternary: direction === 'down' / ternary: direction === 'up' / function: choiceEffects",
+    "text": {
+      "zh": "已达边界，不变",
+      "en": "At the limit; unchanged"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 11,
+    "context": "",
+    "text": {
+      "zh": "公开辩论",
+      "en": "PUBLIC DEBATE"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 25,
+    "context": "if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "群众支持 {0} / 75",
+      "en": "Crowd Support {0} / 75"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 25,
+    "context": "if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "对方可信度 {0} / 25",
+      "en": "Opponent Credibility {0} / 25"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 25,
+    "context": "if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "连击 ×{0}",
+      "en": "FLOW ×{0}"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 28,
+    "context": "if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "论点 {0} / 6 · 群众支持达到 75 或对方可信度降至 25 即获胜",
+      "en": "Argument {0} / 6 · Win at 75 crowd support or 25 opponent credibility"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 30,
+    "context": "if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "读完后开始：2.5 秒内按 1–4 或点击回应，随后在金线附近按 SPACE。完美 ±100 ms / 良好 ±250 ms。失误会影响效果，辩论仍继续。",
+      "en": "Read first. Once ready, choose a response with 1–4 or a click within 2.5 seconds. Then press SPACE near the gold line. Perfect ±100 ms / Good ±250 ms. Mistakes change the outcome, but the debate continues."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 30,
+    "context": "if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "准备回应 →",
+      "en": "Ready to Respond →"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 40,
+    "context": "if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "游标靠近金线时按 SPACE，或点击下方按钮。只接受第一次输入。",
+      "en": "Press SPACE near the gold line, or click below. Only the first input counts."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 40,
+    "context": "if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "SPACE · 发声",
+      "en": "SPACE · Speak"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 42,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "{0}，群众支持 {1}，对方可信度 {2}",
+      "en": "{0}, crowd support {1}, opponent credibility {2}"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.selected / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "没有回应",
+      "en": "No Response"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.selected / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "你迟疑了一刻，讨论被对方接了过去。",
+      "en": "You hesitated, and your opponent took the floor."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.selected === 'ATTACK' / ternary: g.grade === 'MISS' / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "反击失去节奏，人群转而质疑你。",
+      "en": "Your attack lost its rhythm. The crowd turns its doubts toward you."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.selected === 'ATTACK' / ternary: g.grade === 'MISS' / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "连击中断。听清下一轮，再找回节奏。",
+      "en": "Your Flow breaks. Listen to the next argument and find the rhythm again."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.grade === 'MISS' / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "声音落在了节拍上，人群正在跟上你。",
+      "en": "Your words land on the beat. The crowd is beginning to follow."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.won || g.round === 5 / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "查看辩论结果 →",
+      "en": "View Debate Result →"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 43,
+    "context": "ternary: g.won || g.round === 5 / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "听下一个论点 →",
+      "en": "Hear the Next Argument →"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: g.won / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "广场听见了你。",
+      "en": "The square has heard you."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: g.won / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "这场争论，还没有结束。",
+      "en": "This argument is not over."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "节拍表现 · 最长连击 {0} · 影响力 +{1} · 锐气 {2}{3}",
+      "en": "Rhythm performance · Best Flow {0} · Influence +{1} · Momentum {2}{3}"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: effect.burrRespect / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "伯尔记住了你反复核对事实的方式。尊重 +10。",
+      "en": "Burr remembers your care with the facts. Respect +10."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: effect.burrRivalry / ternary: effect.burrRespect / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "伯尔记住了你连续反击的锋芒。竞争 +10。",
+      "en": "Burr remembers the edge of your repeated attacks. Rivalry +10."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: effect.burrRivalry / ternary: effect.burrRespect / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "伯尔看见了你的回应方式。",
+      "en": "Burr has noticed the way you respond."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: g.won / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "你的名声将随文章传进军营。",
+      "en": "Your reputation will travel into camp with your writing."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "ternary: g.won / if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "你没有赢下广场，但写作与组织能力仍会把你带入军营。",
+      "en": "You did not win the square, but your writing and organizing will still take you into camp."
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 46,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'beat' / if: g.phase === 'choose' / if: g.phase === 'argument' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "继续前往军营 →",
+      "en": "Continue toward Camp →"
+    }
+  },
+  {
+    "file": "src/ui/DebateActivity.ts",
+    "line": 53,
+    "context": "if: timer / function: refresh",
+    "text": {
+      "zh": "选择回应 · {0} 秒",
+      "en": "Choose a response · {0} seconds"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 43,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "汉密尔顿计划",
+      "en": "PROJECT HAMILTON"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 45,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "选择语言",
+      "en": "Choose language"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 48,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "中文",
+      "en": "Chinese"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 48,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "英文",
+      "en": "English"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 48,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "双语",
+      "en": "Bilingual"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 56,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "启程之前",
+      "en": "Before the journey"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 61,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "均衡 · 柔和景深",
+      "en": "Balanced · Soft depth of field"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 62,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "精细 · 更高分辨率",
+      "en": "High · Higher resolution"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 63,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "流畅 · 关闭景深",
+      "en": "Performance · No depth of field"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 68,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "即时显示",
+      "en": "Instant"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 68,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "正常",
+      "en": "Normal"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 68,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "慢速",
+      "en": "Slow"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 76,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "语言",
+      "en": "Language"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 77,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "旅程设置",
+      "en": "Journey settings"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 78,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "画质",
+      "en": "Graphics"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 78,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "文字速度",
+      "en": "Text speed"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 80,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "减少动态效果",
+      "en": "Reduce motion"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 81,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "这些偏好会保存在此浏览器，也可在旅程中随时调整。",
+      "en": "These preferences are saved in this browser and can be adjusted during your journey."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 82,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "准备好了",
+      "en": "Ready"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 85,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "游玩须知",
+      "en": "Before you begin"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 87,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "扮演亚历山大·汉密尔顿，从纽约走向约克镇。走近人物与亮起的目标，选择你的立场，完成六幕故事。",
+      "en": "Become Alexander Hamilton and travel from New York to Yorktown. Approach people and lit objectives, choose your stance, and follow a story in six chapters."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 88,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "推荐使用桌面浏览器、键盘与鼠标。用方向键或 WASD 行走，E 互动，Esc 暂停；右键拖动与滚轮调整镜头。",
+      "en": "Play in a desktop browser with a keyboard and mouse. Move with the arrow keys or WASD, interact with E, and pause with Esc. Right-drag and scroll to adjust the camera."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 89,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "目前只保存完成后的成绩，没有中途存档。刷新或离开游戏会重新开始故事；游戏内重开本幕会恢复进入该幕时的状态。",
+      "en": "Only completed results are saved; there are no mid-story saves. Reloading or leaving begins a new story. Restarting a chapter in-game restores its entry state."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 90,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "限时回应、节拍辩论、军令整理与战术指挥都会留下记录。即使失误，故事也会继续。",
+      "en": "Timed choices, rhythmic debate, dispatch writing, and tactical command all leave a record. The story continues even when you make mistakes."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 91,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "知道了",
+      "en": "Understood"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 94,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "设置",
+      "en": "Settings"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 95,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "游玩须知",
+      "en": "Before you begin"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 104,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "开始旅程",
+      "en": "Start your journey"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 107,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "启程",
+      "en": "Begin your story"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 109,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "一场关于野心与革命的故事",
+      "en": "A STORY OF AMBITION & REVOLUTION"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 110,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "此刻，无人知晓你的名字。",
+      "en": "For now, no one knows your name."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 111,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "从一封信开始，走进一场革命。\n让你的选择，成为历史的回声。",
+      "en": "Begin with a letter. Step into a revolution.\nLet your choices echo through history."
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 113,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "纽约港 · 新世界的边缘",
+      "en": "NEW YORK HARBOR · THE EDGE OF A NEW WORLD"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 115,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "键盘与鼠标游玩",
+      "en": "Play with keyboard & mouse"
+    }
+  },
+  {
+    "file": "src/ui/EntryScreen.ts",
+    "line": 116,
+    "context": "function: showEntryScreen",
+    "text": {
+      "zh": "六幕故事 · 一个未被写下的名字",
+      "en": "Six chapters. One unwritten name."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 12,
+    "context": "",
+    "text": {
+      "zh": "军令桌",
+      "en": "WRITE · Dispatch Desk"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 25,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "把杂乱报告写成能执行的命令。",
+      "en": "Turn scattered reports into an executable order."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 25,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "三份军令，共有 2 分 30 秒整理时间。将碎片拖进三个栏目，或点击碎片后按 1 / 2 / 3 分配。提交前可以反复移动。",
+      "en": "You have 2 minutes 30 seconds for three dispatches. Drag fragments into the three columns, or select a fragment and press 1 / 2 / 3. You may rearrange them before submitting."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 25,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "优先事项放目标和时限；执行任务放人员与补给；背景情况放地点和状况。每份提交后显示校对稿，首次提交的准确率影响华盛顿的信任。未分配的碎片按缺漏计，超时仍可继续剧情。",
+      "en": "PRIORITY holds objectives and deadlines; ACTION holds personnel and supply tasks; CONTEXT holds locations and conditions. Each submission reveals a corrected draft. First-pass accuracy affects Washington's trust. Unassigned fragments count as omissions; a timeout does not stop the story."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 25,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "开始整理 →",
+      "en": "Begin Sorting →"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 31,
+    "context": "ternary: g.assignments[fragment.id] / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "已放入 {0} · 点击可移动",
+      "en": "Placed in {0} · Select to move"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 31,
+    "context": "ternary: g.assignments[fragment.id] / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "尚未分配",
+      "en": "Unassigned"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 44,
+    "context": "if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "先选择碎片，再点击栏目或按 1–3；也可以直接拖拽。",
+      "en": "Select a fragment, then click a column or press 1–3. Dragging also works."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 44,
+    "context": "if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "提交军令 · 已分配 {0} / 5",
+      "en": "Submit Dispatch · {0} / 5 placed"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 48,
+    "context": "ternary: g.assignments[fragment.id] === bin / if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "校对 →",
+      "en": "Corrected →"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 49,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "本份军令正确 {0} 项，共五项",
+      "en": "This dispatch has {0} correct items out of five"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 50,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "{0} · 校对稿",
+      "en": "{0} · Corrected Draft"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 50,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "首次整理 {0} / 5 项准确。下列稿件已把缺漏与错放的信息归位。",
+      "en": "First pass: {0} / 5 correct. The draft below restores missing and misplaced information."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 50,
+    "context": "ternary: g.round === 2 || !g.remaining / if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "完成军令 →",
+      "en": "Complete the Dispatches →"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 50,
+    "context": "ternary: g.round === 2 || !g.remaining / if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "整理下一份 →",
+      "en": "Sort the Next Dispatch →"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 52,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "一封信，可以让整支队伍前进。",
+      "en": "One letter can move an entire company."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 52,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "首次分类准确率 · 华盛顿信任 {0}{1}",
+      "en": "First-pass accuracy · Washington Trust {0}{1}"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 52,
+    "context": "ternary: g.remaining / if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "军令经过校对后发出。写得清楚，是你承担责任的一部分。",
+      "en": "The corrected dispatches are sent. Clear writing is part of carrying responsibility."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 52,
+    "context": "ternary: g.remaining / if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "时限已到，未完成的信息计入缺漏。副官接手校对，军令仍会发出；下一次，你需要更准确地组织信息。",
+      "en": "Time has run out. Unfinished information counts as omissions. Another aide will complete the corrections and send the orders. Next time, organize the information more carefully."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 52,
+    "context": "if: g.phase === 'feedback' / if: g.phase === 'sort' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.round}` / function: refresh",
+    "text": {
+      "zh": "翻过战争中的几年 →",
+      "en": "Turn the Pages of the War →"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 60,
+    "context": "if: timer / function: refresh",
+    "text": {
+      "zh": "整理时间 {0} 秒 · 朗读与校对期间不计时",
+      "en": "Sorting time: {0} seconds · Voice playback and corrections do not use time"
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 64,
+    "context": "ternary: this.selected / function: refreshSelection",
+    "text": {
+      "zh": "已选中碎片。按 1、2、3 或点击栏目完成分配。",
+      "en": "Fragment selected. Press 1, 2, or 3, or click a column to place it."
+    }
+  },
+  {
+    "file": "src/ui/WritingActivity.ts",
+    "line": 64,
+    "context": "ternary: this.selected / function: refreshSelection",
+    "text": {
+      "zh": "选择下一条信息。",
+      "en": "Choose the next piece of information."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 13,
+    "context": "",
+    "text": {
+      "zh": "约克镇 · 1781",
+      "en": "YORKTOWN · 1781"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 45,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "01 / 接近",
+      "en": "01 / APPROACH"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 45,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "带所有人抵达攻击位置。",
+      "en": "Bring everyone to the attack position."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 45,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "前方有三处哨岗。观察扇形视野，等守卫转身；按住 CTRL 蹲在土丘后可隐蔽。E 让士兵待命或跟随。",
+      "en": "Three sentry posts lie ahead. Watch their cones of vision and wait for the guards to turn. Hold CTRL to crouch behind the earthworks. E orders the troops to hold or follow."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 45,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "A / D 或方向键移动 · CTRL 蹲伏 · E 指挥士兵。鼠标可按住下方按钮。每处哨岗发现你或士兵，只扣一次突袭优势，不会结束任务。抵达最右侧时，士兵也必须到位。",
+      "en": "A / D or arrows move · CTRL crouches · E commands the troops. You can also hold the buttons below. Each post deducts surprise only once if it spots you or your troops. Reach the far right with the whole squad to continue."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 45,
+    "context": "if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "出发 →",
+      "en": "Set Out →"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 48,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "掩体",
+      "en": "Cover"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 51,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "哨",
+      "en": "Guard"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 53,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "队",
+      "en": "Squad"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 53,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "集结 →",
+      "en": "Rally →"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 55,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "按住蹲伏 · CTRL",
+      "en": "Hold to Crouch · CTRL"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 55,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "士兵待命 / 跟随 · E",
+      "en": "Troops Hold / Follow · E"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 56,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "接近十号堡垒",
+      "en": "Approach Redoubt No. 10"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 56,
+    "context": "if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "扇形表示守卫视野。蹲伏只有在掩体附近才隐蔽。抵达后等待全队集结。",
+      "en": "The cones show the guards' view. Crouching hides you only near cover. Wait for all your troops at the rally point."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 59,
+    "context": "if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "十号堡垒 · 守军面向正面",
+      "en": "Redoubt No. 10 · Defenders face forward"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 68,
+    "context": "if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "确认三队部署 →",
+      "en": "Confirm All Three Orders →"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 69,
+    "context": "if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "02 / 指挥",
+      "en": "02 / COMMAND"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 69,
+    "context": "if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "让每一队知道自己的职责。",
+      "en": "Make sure every squad knows its role."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 69,
+    "context": "if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "警戒 {0} · 敌军士气 {1} · 正面固守",
+      "en": "Alert {0} · Enemy Morale {1} · Holding the front"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 71,
+    "context": "if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "03 / 突击",
+      "en": "03 / ASSAULT"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 71,
+    "context": "if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "命令现在交到你的手上。",
+      "en": "The commands are in your hands now."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 71,
+    "context": "if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "部署配合 {0} / 100 · 敌军士气 {1} · 警戒 {2}",
+      "en": "Coordination {0} / 100 · Enemy Morale {1} · Alert {2}"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 71,
+    "context": "if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "12 道命令依次出现。在金线附近按正确的键：SPACE 推进、A 左翼、D 右翼、S 待命。也可以点击对应按钮。每道命令只接受第一次输入，失误仍继续。",
+      "en": "Twelve commands appear in sequence. Press the correct key near the gold line: SPACE to advance, A for left flank, D for right flank, S to hold. You can also click the buttons. Only the first input counts; mistakes do not stop the assault."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 71,
+    "context": "if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "开始突击 →",
+      "en": "Begin the Assault →"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 74,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "SPACE · 推进",
+      "en": "SPACE · Advance"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 74,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "A · 左翼",
+      "en": "A · Left"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 74,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "D · 右翼",
+      "en": "D · Right"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 74,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "S · 待命",
+      "en": "S · Hold"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 78,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "03 / 突击 · {0} / {1}",
+      "en": "03 / ASSAULT · {0} / {1}"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 78,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "敌军士气 {0} · 保持队形，所有命令结束后自动结算",
+      "en": "Enemy Morale {0} · Keep formation; results follow the last command"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 81,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "约克镇 · 战局正在改变",
+      "en": "YORKTOWN · THE WAR IS TURNING"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 81,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "炮声渐远。清点你身边的人。",
+      "en": "The guns fade. Count the people beside you."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 81,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "突袭优势 {0} · 部署配合 {1} · 节拍成功 {2} / 12",
+      "en": "Surprise {0} · Coordination {1} · Successful beats {2} / 12"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 81,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "总评由潜行 20%、部署 30%、节拍 50% 构成。堡垒攻克了；此后的数日，围城仍在继续。",
+      "en": "The score combines stealth 20%, deployment 30%, and rhythm 50%. The redoubt is taken. The siege will continue for several more days."
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 81,
+    "context": "if: g.phase === 'assault' || g.phase === 'feedback' / if: g.phase === 'assault-ready' / if: g.phase === 'command' / if: g.phase === 'approach' / if: g.phase === 'briefing' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "收起军刀，听炮声之后的故事 →",
+      "en": "Sheathe Your Sword and Hear What Followed →"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 84,
+    "context": "if: g.phase === 'assault' / if: this.shown !== `${g.phase}:${g.commandIndex}` / function: refresh",
+    "text": {
+      "zh": "正在朗读指令 · 节拍尚未开始；按任一指令键或点击指令按钮可跳过朗读",
+      "en": "Reading the command · The beat has not started; press any command key or click a command button to skip the voice"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 98,
+    "context": "if: g.phase === 'approach' / function: refresh",
+    "text": {
+      "zh": "突袭优势 {0} · 士兵{1} · {2}",
+      "en": "Surprise {0} · Troops {1} · {2}"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 98,
+    "context": "ternary: g.following / if: g.phase === 'approach' / function: refresh",
+    "text": {
+      "zh": "跟随",
+      "en": "Following"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 98,
+    "context": "ternary: g.following / if: g.phase === 'approach' / function: refresh",
+    "text": {
+      "zh": "待命",
+      "en": "Hold"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 98,
+    "context": "ternary: g.crouched / if: g.phase === 'approach' / function: refresh",
+    "text": {
+      "zh": "蹲伏",
+      "en": "Crouched"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 98,
+    "context": "ternary: g.crouched / if: g.phase === 'approach' / function: refresh",
+    "text": {
+      "zh": "直立",
+      "en": "Standing"
+    }
+  },
+  {
+    "file": "src/ui/YorktownActivity.ts",
+    "line": 105,
+    "context": "ternary: g.deployment[i] / if: g.phase === 'command' / function: refresh",
+    "text": {
+      "zh": "待下令",
+      "en": "Awaiting orders"
+    }
+  },
+  {
+    "file": "src/ui/voiceover.ts",
+    "line": 18,
+    "context": "function: voiceoverSetting",
+    "text": {
+      "zh": "角色与旁白配音（英文）",
+      "en": "Character voices & narration (English)"
+    }
+  }
+]

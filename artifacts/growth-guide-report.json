@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "real Demo HUD opens the five-attribute native modal; Escape closes it and restores HUD focus without settings",
+    "losing focus during the Arrival transition defers the introduction until settings resume, without changing story state",
+    "arrival intro has five purposes, starts at top, fits 390px and desktop in all four languages, and stays dismissed after restart",
+    "newspaper tutorial shows the real +2, first choice explains arrows, and growth modal freezes/resumes the actual tavern timer and choice state",
+    "activity growth modal retains the same game instance, timer, score, and assistance counters across four languages and 390px layout"
+  ],
+  "errors": [],
+  "failures": []
+}

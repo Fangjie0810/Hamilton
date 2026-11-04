@@ -1,0 +1,150 @@
+{
+  "base": "http://127.0.0.1:1795/",
+  "mbps": 10,
+  "latencyMs": 80,
+  "cache": "disabled",
+  "errors": [],
+  "failedRequests": [],
+  "events": [
+    {
+      "type": "waiting",
+      "wallSeconds": 0.0453999999910593,
+      "mediaSeconds": 0,
+      "readyState": 0
+    },
+    {
+      "type": "loadstart",
+      "wallSeconds": 0.04559999999403953,
+      "mediaSeconds": 0,
+      "readyState": 0
+    },
+    {
+      "type": "loadedmetadata",
+      "wallSeconds": 0.2878999999910593,
+      "mediaSeconds": 0,
+      "readyState": 1
+    },
+    {
+      "type": "playing",
+      "wallSeconds": 0.44959999999403955,
+      "mediaSeconds": 0,
+      "readyState": 4
+    },
+    {
+      "type": "pause",
+      "wallSeconds": 57.73179999999702,
+      "mediaSeconds": 57.2,
+      "readyState": 4
+    },
+    {
+      "type": "ended",
+      "wallSeconds": 57.732,
+      "mediaSeconds": 57.2,
+      "readyState": 4
+    }
+  ],
+  "postStartWaits": [],
+  "elapsedToGameSeconds": 58.608,
+  "resources": [
+    {
+      "name": "http://127.0.0.1:1795/assets/index-A9YIz8u3.js",
+      "transferSize": 1638,
+      "duration": 89.29999999701977
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/index-g0Ca4i4-.css",
+      "transferSize": 6353,
+      "duration": 94.19999998807907
+    },
+    {
+      "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600&display=swap",
+      "transferSize": 93519,
+      "duration": 2240.0999999940395
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/transitions-D21GX5ly.css",
+      "transferSize": 846,
+      "duration": 87.70000000298023
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/EntryScreen-CLnK0a9g.js",
+      "transferSize": 6653,
+      "duration": 101.79999999701977
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/transitions-CBR5TkvD.js",
+      "transferSize": 17634,
+      "duration": 111.5
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/EntryScreen-D7NfP5Pv.css",
+      "transferSize": 3641,
+      "duration": 95.79999999701977
+    },
+    {
+      "name": "http://127.0.0.1:1795/favicon.ico",
+      "transferSize": 300,
+      "duration": 84
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/entry/harbor-arrival-v1.png",
+      "transferSize": 2128869,
+      "duration": 1935
+    },
+    {
+      "name": "http://127.0.0.1:1795/video/opening-2026-09-14-web720.mp4",
+      "transferSize": 8198792,
+      "duration": 21502
+    },
+    {
+      "name": "http://127.0.0.1:1795/favicon.ico",
+      "transferSize": 300,
+      "duration": 84.19999998807907
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/Demo-Bh1YokFz.js",
+      "transferSize": 244176,
+      "duration": 672.2999999970198
+    },
+    {
+      "name": "http://127.0.0.1:1795/assets/Demo-_rx3PTzg.css",
+      "transferSize": 7001,
+      "duration": 102.09999999403954
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/actors/pixel-cast-v1.png",
+      "transferSize": 1589908,
+      "duration": 6394.199999988079
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/backgrounds/opening-a.png",
+      "transferSize": 2224051,
+      "duration": 9238.199999988079
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/actors/pixel-cast-directions-v2.png",
+      "transferSize": 1532680,
+      "duration": 6212.9000000059605
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/actors/street-argument-v1.png",
+      "transferSize": 1777874,
+      "duration": 7501
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/actors/story-cast-v1.png",
+      "transferSize": 1975896,
+      "duration": 7976.29999999702
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/actors/eliza-chronicler-v1.png",
+      "transferSize": 1607874,
+      "duration": 6956.29999999702
+    },
+    {
+      "name": "http://127.0.0.1:1795/art/environment/elm-foliage-v1.png",
+      "transferSize": 1943873,
+      "duration": 4198.100000008941
+    }
+  ]
+}

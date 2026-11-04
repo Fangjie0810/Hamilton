@@ -1,0 +1,25 @@
+{
+  "bytes": 72694180,
+  "tracks": [
+    {
+      "kind": "vide",
+      "codec": "avc1",
+      "duration_s": 57.2,
+      "samples": 1716,
+      "bitrate_Mbps": 10.012620839160839,
+      "max_one_second_Mbps": 20.865872,
+      "width": 1920.0,
+      "height": 1080.0,
+      "fps": 30.0
+    },
+    {
+      "kind": "soun",
+      "codec": "mp4a",
+      "duration_s": 57.23863945578231,
+      "samples": 2466,
+      "bitrate_Mbps": 0.14538878071042824,
+      "max_one_second_Mbps": 0.153024
+    }
+  ],
+  "moov_at_start": true
+}

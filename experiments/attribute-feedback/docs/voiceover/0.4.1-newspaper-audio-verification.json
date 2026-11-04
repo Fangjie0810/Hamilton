@@ -1,0 +1,50 @@
+{
+  "generatedClips": 3,
+  "englishCharacters": 202,
+  "requestsRetried": false,
+  "runtimeCueCount": 203,
+  "runtimeUniqueFiles": 200,
+  "pendingClips": 0,
+  "newDurationSeconds": 12.225305,
+  "newBytes": 196989,
+  "clips": [
+    {
+      "speaker": "hamilton",
+      "voiceName": "Hamilton by Lin",
+      "src": "/audio/en/hamilton-eacee9d1027d25280c2f.mp3",
+      "cueIds": [
+        "discovery-arrival-scattered-paper-base-1"
+      ],
+      "durationSeconds": 4.675918,
+      "bytes": 75276,
+      "sha256": "9034b40f2071da14ad3f8201c297fff208622e0b24957b3e4b59437ffb79549e",
+      "completedAt": "2026-09-14T14:40:54.683Z"
+    },
+    {
+      "speaker": "newsboy",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "src": "/audio/en/newsboy-11e24ec3be0ab469c4a4.mp3",
+      "cueIds": [
+        "discovery-arrival-scattered-paper-base-2",
+        "discovery-arrival-scattered-paper-repeat-1",
+        "small-talk-newsboy-thanks"
+      ],
+      "durationSeconds": 2.638367,
+      "bytes": 42675,
+      "sha256": "595e7ba01d7c3c36e6b7ce24bead60d0de39033cdd523510779a0e3397774985",
+      "completedAt": "2026-09-14T14:40:58.129Z"
+    },
+    {
+      "speaker": "newsboy",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "src": "/audio/en/newsboy-1349d29564c0eaf2d3f0.mp3",
+      "cueIds": [
+        "small-talk-newsboy"
+      ],
+      "durationSeconds": 4.91102,
+      "bytes": 79038,
+      "sha256": "fadde5a858b02901afac143c3ec583e5f127d7d5fd4eae4a73c566a1c7d84a62",
+      "completedAt": "2026-09-14T14:41:01.492Z"
+    }
+  ]
+}

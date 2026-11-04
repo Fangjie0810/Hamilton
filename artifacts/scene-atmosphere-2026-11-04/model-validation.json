@@ -1,0 +1,51 @@
+[
+  {
+    "file": "models/hamilton-ballroom-atmosphere-2026-11-04.glb",
+    "bytes": 1620984,
+    "sha256": "39db03052a6865312fa5586897ec3805eefa87bfa1d385a73c2e99cc4abf8afb",
+    "nodes": 845,
+    "crowns": 66,
+    "caps": 13,
+    "relics": [
+      "ballroom-angelica-fan",
+      "ballroom-eliza-locket",
+      "ballroom-burr-card",
+      "ballroom-hamilton-button"
+    ],
+    "lights": 7,
+    "roofs": 3,
+    "spotlight_directions_verified": true
+  },
+  {
+    "file": "models/hamilton-street-atmosphere-2026-11-04.glb",
+    "bytes": 4204240,
+    "sha256": "85a2190d989b3f1337f3cf4f30bcbc1dc33cb7d891963aba04d842f0eafe8f16",
+    "nodes": 1237,
+    "crowns": 58,
+    "caps": 15,
+    "relics": [
+      "street-hamilton-notebook",
+      "street-burr-seal",
+      "street-mulligan-scissors",
+      "street-laurens-token"
+    ],
+    "lights": 15,
+    "roofs": 3
+  },
+  {
+    "file": "models/hamilton-tavern-atmosphere-2026-11-04.glb",
+    "bytes": 3485248,
+    "sha256": "e6382ea4f5c21cf9bdb9529a8bbc7aca3f26a797cd89f25a4f2039252d7643b0",
+    "nodes": 1141,
+    "crowns": 60,
+    "caps": 13,
+    "relics": [
+      "tavern-laurens-letter",
+      "tavern-lafayette-ribbon",
+      "tavern-mulligan-thimble",
+      "tavern-hamilton-quill"
+    ],
+    "lights": 6,
+    "roofs": 3
+  }
+]

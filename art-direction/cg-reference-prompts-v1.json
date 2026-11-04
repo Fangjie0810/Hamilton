@@ -1,0 +1,221 @@
+{
+  "generator": "built-in image_gen",
+  "created": "2026-09-08",
+  "status": "10_selected_reference_images_complete",
+  "video_generated": false,
+  "asset_directory": "public/art/cg-references/v1",
+  "assets": [
+    {
+      "id": "R01",
+      "name": "少年Hamilton身份",
+      "filename": "01-hamilton-teen-identity-v1.png",
+      "type": "identity",
+      "prompt": "Use case: historical-scene. Asset type: a production CHARACTER IDENTITY REFERENCE BOARD for consistent AI video casting, NOT a scene or a video first frame. Input image 1 is the project's existing generated adult Hamilton portrait: use only the broad facial family, dark brown eyes, brow/nose relationship and dark tied hair as an ancestry/continuity guide; replace adult age, facial hair, military clothing and rendered finish. Create one coherent original younger Hamilton, a clean-shaven late adolescent with a narrow still-youthful face, warm light olive complexion, dark brown eyes, dark slightly wavy hair tied low at the nape with a plain dark ribbon, a few natural flyaways, slender modest build. Not a miniature adult, not a fashion model. VISUAL AGE roughly 16–18 for casting only. Caribbean countinghouse clerk in the early 1770s, before military service. Costume locked across every view: off-white plain linen shirt with modest open neck, small plain cuffs, worn muted charcoal-brown waistcoat with five small dark buttons, brown knee breeches, plain cream stockings and worn dark leather shoes; no coat, no jewelry, no cravat, no beard, no uniform, no gold trim. A small repaired seam on the LEFT cuff is the only distinctive wear mark. Three clearly separated views of EXACTLY THE SAME young person against the same neutral warm-gray wall: left column a large straight-on head-and-upper-chest portrait, center column a large true left-side profile head-and-upper-chest portrait showing the low hair tie, right column one full body relaxed standing three-quarter view with feet visible and both arms naturally at sides. Natural closed mouth, attentive unperformed expression in every view, no smile and no heroic gaze. Photorealistic costume-test photographs with soft diffuse window daylight, visible pores and linen weave, honest human proportions, neutral color and moderate contrast; no painterly rendering, no CGI skin, no glamour retouching, no rim light. Landscape 3:2 high-resolution board with ample clean separation and no overlap. Do not add any labels, lettering, text, numbers, title, grid marks, frame decorations, logos, watermarks, props or environment. All face views must match anatomy, age, hairline and costume exactly.",
+      "references": [
+        "public/art/portraits/hamilton-a.png"
+      ],
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-ffe0e6a4-5f39-4f10-a058-534e1aca3505.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/01-hamilton-teen-identity-v1.png",
+      "visual_review": "Three-view identity board visually inspected; not a video first frame.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2643027,
+      "sha256": "18563dab7b213bd3705c0bf5c93b2ad34b05fa9fd48b936644575e9dc1d19cb3"
+    },
+    {
+      "id": "R02",
+      "name": "童年Hamilton身份",
+      "filename": "02-hamilton-child-identity-v1.png",
+      "type": "identity",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: CHARACTER IDENTITY REFERENCE BOARD, not a scene. Image 1 is the approved older teenage Hamilton identity board; derive the SAME person's childhood casting at roughly 10–12 years visual age. Preserve warm light olive complexion, dark brown eyes, distinctive arched brows, eye spacing, gently prominent nose family, ear shape and dark brown hair. Change only age and corresponding body proportions: a clearly preteen smaller face with softer cheeks, narrower shoulders, a child's hands, shorter slender body; absolutely not an adult face shrunk onto a child's body. Clean shaven, unperformed neutral expression. Dark slightly wavy hair to just above shoulders, loosely tucked behind ears, no tied ponytail yet. Same modest civilian clothing family: off-white linen shirt with plain small cuffs, worn muted charcoal-brown waistcoat, brown knee breeches, cream stockings, worn dark leather shoes. No uniform or accessories. Three separate views in the same clean landscape 3:2 layout as the reference: large straight-on head-and-chest portrait on left, large true left profile head-and-chest in center, full-body three-quarter relaxed standing child on right, head to feet visible. Every panel shows exactly the same child, hairline, eyes, age, costume. Neutral warm-gray background, soft diffuse daylight, natural skin and linen, photoreal costume test, moderate contrast. No glamour, no smile, no dramatic emotion, no painterly finish, no doll skin, no heroic styling. No text, numbers, labels, panel decoration, marks, watermarks or props.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-525b78fe-2d06-4674-b6f1-74adfb623725.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/02-hamilton-child-identity-v1.png",
+      "visual_review": "Child derived from R01; age proportions, loose shorter hair, face family visually inspected; not a video first frame.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2511135,
+      "sha256": "6b0fc1b014c5626af3e2370404c533930d658f0afe6c81685d6096957e03dac2"
+    },
+    {
+      "id": "R03",
+      "name": "空床与照料物件（替代构图）",
+      "filename": "03-sickroom-firstframe-v1.png",
+      "type": "alternate-firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/02-hamilton-child-identity-v1.png"
+      ],
+      "adaptation": "An empty-bed absence composition replaces the original covered-body scene after the image tool blocked that scene. It is not the original A1/B2/C1 exact first frame.",
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal cinematic frame for a quiet period story, not a collage. Image 1 is ONLY the exact child Hamilton identity and civilian clothing reference: same distinctly preteen small face and slender child proportions, dark brown eyes, loose neck-length dark hair, off-white linen shirt, charcoal-brown waistcoat and brown breeches. Render only one child in a modest late-1760s Caribbean home. Fixed eye-level 50mm medium-wide view from just outside an open doorway. On the RIGHT is a plainly EMPTY narrow wooden bed, no person in it, a visibly bare flat mattress surface with one off-white linen sheet loosely folded at the far end and a plain pillow. On a stool just LEFT of the bed the child sits upright and quiet, holding a small damp gray linen cloth above his own knees with both hands; he looks thoughtfully toward his own hands without performing grief. A coarse brown ceramic bowl with a little water sits on the floor beside the stool. This is a simple domestic moment of waiting and absence. Keep the child's youthful three-quarter face recognizable, body naturally proportioned, both feet in sensible relation to the floor, normal hands. The empty bed must remain clearly visibly unoccupied with flat bedding, no human outlines, no limbs, no person hidden under any fabric, no medical equipment. Plain chalk-plaster walls, small scuffed wooden room, ordinary cloudy white daylight, restrained natural textures and colors, no sentimental gold light or desaturated sepia filter. No tears, fear, melodramatic gestures, supernatural imagery, staged tableau, readable writing, lettering, numbers, labels, watermark or borders. One still camera, one quiet complete composition.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-09421a01-6721-452c-89e2-5d891db7e7e7.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/03-sickroom-firstframe-v1.png",
+      "visual_review": "Alternative empty-bed composition only. Original covered-body scene blocked by tool output filtering. No mother body/hand reference is included.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2125799,
+      "sha256": "18e4370eea8596fdc2febe2e5987f35086967d0161199ad98496368cf0eea0d8"
+    },
+    {
+      "id": "R04",
+      "name": "商行账房与劳工",
+      "filename": "04-countinghouse-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal cinematic frame and scene reference for a silent film, NOT a collage. Image 1 is identity and wardrobe reference ONLY: use exactly the young clean-shaven Hamilton in that board, same face, low tied dark hair, off-white linen shirt, worn charcoal-brown waistcoat and brown breeches; do not reproduce the multi-view layout. St Croix Caribbean merchant countinghouse, early 1770s. Static eye-level 35mm medium-wide shot from the side: teenage Hamilton seated in the right foreground at a compact rough dark-brown timber desk, an open thick ledger centered in the image. His left index finger rests alongside a ruled row while his RIGHT hand holds a modest quill just above the page, ready to write. Show both arms and convincing correct hands without macro enlargement. Behind him the LEFT doorway opens to a modest cargo yard. One adult Black male laborer, about 40, close natural dark hair, muted brown linen work shirt and plain trousers, crouches slightly to reposition one heavy burlap sack already on the ground; his body and task remain legible, no smiling or interaction, no crowd. Plain plaster and timber, a few crates, indirect overcast white daylight. Modest clerical work, not heroic genius, not a picturesque luxury plantation. Ledger turned obliquely away so ruled lines are visible but no readable words/numbers. One small squat dark ceramic ink pot on the desk, no fountain pens. Natural practical wear, skin pores, moderate depth of field, restrained colors of chalk, brown wood and gray linen. No theatrical scenery, no spotlight, glow, golden hour, colored haze, glossy CGI, decorative distress, readable text, flags, captions, logos or borders. Capture the stable starting posture before any large motion.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-bef1a59b-a0da-4b41-82bc-fceee8321fd1.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/04-countinghouse-firstframe-v1.png",
+      "visual_review": "Right-hand quill, left-hand ledger check, distinctive supporting laborer inspected.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2100550,
+      "sha256": "4bfd4d68a0379083c076d3f829444c30f8a34a6aa1f059456984593052744c47"
+    },
+    {
+      "id": "R05",
+      "name": "风灾屋内与窗板",
+      "filename": "05-storm-window-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal cinematic opening frame for a restrained silent hurricane scene, NOT a collage. Image 1 is the exact teenage Hamilton face/hair/wardrobe reference only. Preserve his clean-shaven youthful face, low dark ponytail, off-white linen shirt, charcoal-brown waistcoat, brown breeches. In a modest St Croix room at night during a storm, an eye-level fixed 35mm camera looks from inside the room toward a CLOSED wooden shutter on the left half of the frame; the teenager is on its right side, seen in side three-quarter view from thighs up, torso lowered, both palms naturally bracing the wood and shoulder weight leaning forward. Correct hands and contact, normal human anatomy. Define one reusable window: rectangular aged timber outer frame, two shutter leaves made from plain vertical brown boards, two simple dark iron hinges on each outer edge, a low plain latch where the leaves meet. No glass, no ornate hardware. The shutter remains intact and almost closed, only narrow joins admit small rivulets of rain. A small simple dark-brown four-legged timber desk sits partly visible in the lower right foreground; chalky plaster walls meet behind the window, dark damp floor, no floating objects. Subdued cool gray night light leaks through the frame just enough to see physical detail; darkness never becomes pure black, no strong blue filter and no cinematic beam. He is exerting quiet effort, mouth closed, no panic acting, no writing, no candles. The pressure is shown through posture and slight moisture, not spectacle. Camera does not appear tilted. No lightning streaks, ocean vista, flying debris, smoke, magical particles, glossy surfaces, text, captions, logos or watermarks. This frame establishes the exact room and window geometry that will be reused for the calm daylight aftermath.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-8c157357-abee-40a3-94b3-039bb0456a00.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/05-storm-window-firstframe-v1.png",
+      "visual_review": "Two hand-to-shutter contacts, teenager identity and intact shutter reference inspected.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2150200,
+      "sha256": "46be1f097aaa5f8906b49ff66259fe744e81bf356224b6443bfa15dbae89b64a"
+    },
+    {
+      "id": "R06",
+      "name": "灾后书写与手部道具",
+      "filename": "06-writing-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/05-storm-window-firstframe-v1.png"
+      ],
+      "retry_reason": "Two network failures with two-image reference request; using the already-approved scene as a single sufficient identity/environment reference.",
+      "prompt": "Use case: historical-scene. Create a SINGLE 16:9 photoreal film frame using image 1 as the reference for the EXACT same young man, clothing, room and wooden shutter. It is the quiet overcast daylight AFTER this storm. Preserve his youthful clean-shaven face, dark low ponytail, olive skin, plain off-white shirt with sleeves rolled below elbows, charcoal-brown waistcoat. Preserve the rectangular two-leaf vertical-plank wooden shutter with dark iron hinges, pale worn plaster wall and small dark timber desk. One shutter board is cracked and slightly ajar; gray daylight and old water stains, no active rain. NEW FIXED CAMERA: slightly elevated over his RIGHT shoulder, showing a little youthful profile, upper body, both forearms, BOTH hands and desk. He is now seated at the dry desk corner, quietly about to write. A single blank off-white sheet lies diagonally on the tabletop; a small squat dark ceramic ink bottle beyond its left edge. His RIGHT hand holds a modest trimmed goose quill, with nib poised visibly ABOVE the paper, NOT touching it. His LEFT fingertips rest beside the paper's near-left edge. Correct realistic fingers and joints, naturally attached arms, no crossing limbs. Damaged shutter clearly identifiable behind him, ordinary depth of field, camera sees both hands and room. Soft neutral daylight, authentic linen, wood and skin, moderate contrast, no glamour. No readable writing, captions, labels, letters, split panels, glow, dramatic light beams, painterly finish, digital textures, heroic expression or extra people. A complete stable first frame before a 14-second silent writing action; do not depict multiple moments.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-5888762b-6d11-47d5-99b1-24347ddc488a.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/06-writing-firstframe-v1.png",
+      "visual_review": "Right hand holds quill above blank paper. Actual camera is slightly elevated behind LEFT shoulder; video wording updated. Reference geometry visually related, not a measured physical set.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2074796,
+      "sha256": "7c0a6efc441437f3869f85a6e21a2dddb66b372ff3beb1a5dc4096ea05c692c9"
+    },
+    {
+      "id": "R07",
+      "name": "读者与尚未放下的旅费",
+      "filename": "07-readers-travel-firstframe-v2.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/07-readers-travel-firstframe-v1.png"
+      ],
+      "replaces": "07-readers-travel-firstframe-v1.png",
+      "prompt": "Use case: precise-object-edit. Input image 1 is the EDIT TARGET. Keep this exact single 16:9 image, both men's identities, faces, expressions, posture, costumes, the paper, background, framing, lighting, travel bag and folded coat UNCHANGED. Make one localized correction to the RIGHT reader's RIGHT forearm/hand and its small cloth money purse: the purse must NOT yet rest on the table. Bend this forearm upward naturally, elbow still near his own tabletop place, so his right hand holds the gathered neck of the SAME purse in front of his lower chest. The soft purse hangs under that hand with gravity, its bottom clearly at least 15 centimeters ABOVE the table. Move it slightly toward the center of his own torso, away from the luggage at far right, leaving a clear visible strip of empty background/table between purse bottom and tabletop. Correct five-finger grip, ordinary joint anatomy and plausible weight. Remove the old purse/hand footprint on the table and restore the small uncovered table area seamlessly. There must be exactly ONE purse, held aloft, with no duplicate purse left behind. He is still quietly looking toward the page with mouth closed, not making a donation yet. Preserve the left man's two hands holding the sheet exactly. Preserve the patched open travel bag and folded coat exactly. No new props, no text, no marks, no split screen, no restyling or camera change. This is the start before he later lowers the purse to the luggage.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-d33a0109-9e6b-435f-8132-29ba20c4bfd1.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/07-readers-travel-firstframe-v2.png",
+      "visual_review": "Selected v2: purse visibly suspended above table, preserving later donation action. v1 not selected.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2023596,
+      "sha256": "0f1b9bc61cfa2560172e0c50e8a805f5a05066ccc01627b831d05dfe66f7099f"
+    },
+    {
+      "id": "R08",
+      "name": "岸上码头与登船",
+      "filename": "08-dock-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/07-readers-travel-firstframe-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal cinematic FIRST FRAME, not a contact sheet. Image 1 is the exact teenage Hamilton identity and civilian clothing: same clean-shaven youthful face, dark low tied hair, worn off-white linen shirt, charcoal-brown waistcoat, brown knee breeches, cream stockings and dark worn buckle shoes. Image 2 is ONLY reference for the small gray-brown soft linen travel bag with one broad brown shoulder strap and dark rectangular repair patch, plus muted practical materials; do NOT include its readers or room. An overcast Caribbean timber wharf in the early 1770s, static eye-level 35mm medium-wide camera on the SHORE. The teenager stands left of center in three-quarter side view facing right, just before the base of a short sturdy shallow-incline wooden boarding plank leading up to a moored merchant sailing ship on the RIGHT. The small patched bag is already worn diagonally from his right shoulder to left hip; hands rest naturally, a small folded letter already secured inside his shirt and not visible. Face readable enough to preserve identity but gaze on the boarding route, mouth closed, no heroic expression. The image shows ONLY a nearby dark timber hull side and railing, with one simple mooring rope; no full ship portrait, enormous sails or tangled rigging. Boarding geometry must be practical: plank lower end firmly ON the pier, upper end resting on a visible open entry in the ship side, a short upward route with no gap, enough width for cautious normal steps. Quiet water visible left/between near timbers, low unremarkable Caribbean shoreline in far background, no destination city. Frame includes ample stationary wharf around him so after he exits to the right an empty wharf can remain. Soft gray daylight, real texture and subdued colors, moderate depth of field. No crowds, flags, modern marina, wheels, modern backpack hardware, departing ship motion, golden sunset, lens flare, picturesque birds, text, labels, watermark, split screen, painterly texture or glossy CGI.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-7d30c4fa-6213-4241-998f-513304d32377.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/08-dock-firstframe-v1.png",
+      "visual_review": "Boarding ramp connects pier and ship opening. Travel bag worn from left shoulder to right hip for version A.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2425920,
+      "sha256": "9e33c4670f156acab063712b3abaa58d885ea5f1121db353dab7aba13f3e112d"
+    },
+    {
+      "id": "R09",
+      "name": "甲板与离岸手势",
+      "filename": "09-deck-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/08-dock-firstframe-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal cinematic FIRST FRAME on the DECK of an early-1770s merchant sailing ship. Image 1 is the exact young clean-shaven teenage Hamilton identity, low dark ponytail, olive complexion and plain linen shirt/charcoal-brown waistcoat/brown breeches. Image 2 fixes his traveling outfit, modest patched gray-brown linen bag, the weathered dark timber ship materials and the overcast Caribbean shoreline; do NOT copy its shore-side camera or boarding ramp. The camera is now physically ON the ship deck, static 50mm, medium-close from behind his LEFT shoulder and slightly beside him so a small natural profile of his face and BOTH hand positions are visible. Show his upper body to waist, looking quietly outward to the LEFT across calm water, without heroic upward gaze. His RIGHT forearm reaches naturally to the broad horizontal wooden ship rail and his RIGHT hand grips its TOP edge with a relaxed but closed secure grip, anatomically correct thumb/fingers wrapping wood, hand separated from torso in the frame. His LEFT hand presses lightly against his own upper shirt/waistcoat at chest level, over an already-stowed small folded letter; paper stays unseen and no reaching into clothing. Ensure there is a visible clear relationship between rail, right arm and body, no crossed impossible limbs. His plain shoulder bag hangs partly visible at his hip, use exactly the practical patched bag material from image 2. Distant LOW Caribbean shoreline with sparse palms across water remains recognizable, no New York or large city. Real simple unvarnished timber planks under him and solid waist-high wooden rail, no modern fittings, no decorative ship wheel, no crowded rigging. Soft gray daylight, natural moderate contrast and depth of field, honest pores and cloth texture. This is before he slowly loosens his gripping hand; no action has already finished. No smile, flags, sunrise, birds, hero pose, fog machine, text, numbers, logos, border, split screen or CGI gloss.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-d08a8195-36b6-4ea6-81e1-023cda9bdcfb.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/09-deck-firstframe-v1.png",
+      "visual_review": "Actual camera is a side-FRONT medium close view; video wording updated. Right hand on rail, left at chest.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2120713,
+      "sha256": "5c9fa5099590cffac8d9068dd4afc5f2b86e37d6c2d0e9ae0639a58243731a28"
+    },
+    {
+      "id": "R10",
+      "name": "剧场木桌与出口",
+      "filename": "10-stage-firstframe-v1.png",
+      "type": "firstframe",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/01-hamilton-teen-identity-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-references/v1/07-readers-travel-firstframe-v1.png"
+      ],
+      "prompt": "Use case: historical-scene. Asset type: one single 16:9 photoreal production FIRST FRAME of an actual modest black-box theatre, not a collage or CGI stage rendering. Image 1 fixes the teenage Hamilton face, body, low tied dark hair and plain civilian outfit; image 2 fixes ONLY the patched gray-brown linen shoulder bag, broad brown strap and modest folded-paper material, not its readers or room. Fixed 35mm full-stage shot, camera eye level slightly left of center. A simple dark-brown rough wooden desk stands center-LEFT, four plain square legs clearly visible, modest practical size, diagonally running wood grain on its tabletop and a SMALL visibly chipped front-right corner. One plain empty wooden chair behind it. A single small folded off-white letter lies near the front edge of the table, clearly on the table and not in Hamilton's hand. Hamilton already wears the small patched travel bag over his off-white shirt and charcoal-brown waistcoat, strap from right shoulder to left hip; stands to the RIGHT of the table, hand resting near but not touching the folded paper, about to pick it up before leaving. Match the exact youthful identity, no beard, mouth closed, unperformed concentration, no victory pose. At the far RIGHT a short shallow-angle wooden boarding ramp leads from the stage floor to a low platform and a simple waist-high timber rail with a clear entry gap, disappearing into a BLACK SIDE WING. The path must remain inside the readable stage geometry, no fantasy void or impossible floating planks. The desk, chair, floorboards, ramp and black theatre boundaries are all real and tactile. Broad soft neutral side lighting reveals grain and ordinary linen, dim but readable backdrop. Empty theatre, no audience, no scenery projection, no glowing spotlight cone, no smoke, gold light, red curtain or modern apparatus. No ropes suspending people, no theatrical gestures or magical transformation. Keep generous room around the stationary table and on the right for the exit. No captions, titles, marks, labels, logo or watermark.",
+      "source": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-157e0d14-00fe-4c85-a0da-b1f4d5eaab57.png",
+      "selected": true,
+      "workspace_path": "public/art/cg-references/v1/10-stage-firstframe-v1.png",
+      "visual_review": "Letter still lies on table; stable stage and right exit; version C bag worn right shoulder to left hip.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1963396,
+      "sha256": "57236e9954e088e93f7942d245a114a8af5da537b097bb3361405a7d55bf4950"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "id": "R03",
+      "kind": "output_safety_filter",
+      "resolution": "Generated a clearly unoccupied bed alternative; original covered-body frame is not included."
+    },
+    {
+      "id": "R06",
+      "kind": "network",
+      "count": 2,
+      "resolution": "Third attempt using one approved scene reference succeeded."
+    }
+  ],
+  "not_selected": [
+    {
+      "id": "R07",
+      "workspace_path": "public/art/cg-references/v1/07-readers-travel-firstframe-v1.png",
+      "reason": "Purse already rested on table. Replaced by v2 in selected delivery."
+    }
+  ],
+  "usage_notes": [
+    "Identity boards are never video first frames.",
+    "R03 is an alternate composition/environment reference, not the original A1/B2/C1 frame.",
+    "R06 uses left-shoulder rear camera and R09 uses side-front camera, matching selected actual images.",
+    "Reference images improve continuity but do not guarantee video-frame identity stability."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "exit stays muted through the letter and becomes yellow only after the last line",
+    "restart removes the yellow cue; rereading restores it and refreshes the outdated letter instruction",
+    "all three compact language modes keep the unlocked marker visible without changing story state",
+    "nearby yellow prompt enters Arrival through the existing exit",
+    "walk up to the signed doorway and enter Tavern without collision or skipping the street story"
+  ],
+  "errors": [],
+  "failures": []
+}

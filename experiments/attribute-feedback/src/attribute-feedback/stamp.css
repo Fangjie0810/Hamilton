@@ -1,0 +1,287 @@
+/* A · Campaign Seal. Forged iron, impressed brass, one decisive strike. */
+.af-feedback[data-variant='stamp'] {
+  width: 416px;
+  color: #f3e7c9;
+  font-family: Georgia, 'Noto Serif SC', 'Songti SC', serif;
+}
+
+.af-feedback[data-variant='stamp'] .af-composition {
+  position: relative;
+  padding: 0 4px;
+  isolation: isolate;
+}
+
+.af-feedback[data-variant='stamp'] .af-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  margin: 0 0 11px;
+  color: #f3ddb0;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px #080d0b, 0 2px 12px #080d0b;
+}
+
+.af-feedback[data-variant='stamp'] .af-heading::before,
+.af-feedback[data-variant='stamp'] .af-heading::after {
+  content: '';
+  width: 39px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e3c789c2);
+}
+
+.af-feedback[data-variant='stamp'] .af-heading::after {
+  background: linear-gradient(90deg, #e3c789c2, transparent);
+}
+
+.af-feedback[data-variant='stamp'] .af-rows {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.af-feedback[data-variant='stamp'] .af-row {
+  --seal-tint: color-mix(in srgb, var(--accent, #c2a971) 26%, #29352e);
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 22px 29px 39px 15px;
+  row-gap: 3px;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  flex: 0 0 148px;
+  width: 148px;
+  min-height: 148px;
+  margin: 0;
+  padding: 12px 13px;
+  overflow: visible;
+  border: 2px solid #b5a077;
+  border-radius: 50%;
+  color: #f7e9cb;
+  background:
+    radial-gradient(ellipse at 47% -20%, #f1ddae40, transparent 58%),
+    linear-gradient(158deg, var(--seal-tint), #202d28 44%, #101d17);
+  box-shadow:
+    inset 0 0 0 3px #15251ed9,
+    inset 0 0 0 4px #e1c88a59,
+    inset 0 -6px 12px #00000078,
+    0 3px 0 0 #0e1613,
+    0 4px 0 0 #98826183,
+    0 10px 25px #00100980;
+  text-align: center;
+  text-shadow: 0 1px 2px #000b;
+  cursor: pointer;
+  transform-origin: 50% 55%;
+  animation: af-stamp-strike 330ms cubic-bezier(.19, .8, .24, 1) both;
+  animation-delay: calc(var(--index, 0) * 15ms);
+  transition: border-color 140ms ease, filter 140ms ease;
+}
+
+.af-feedback[data-variant='stamp'] .af-row::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  z-index: 1;
+  border: 1px dashed #d5bc8138;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.af-feedback[data-variant='stamp'] .af-row::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border: 1px solid #ebd391;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  animation: af-stamp-impression 470ms ease-out both;
+  animation-delay: calc(95ms + var(--index, 0) * 15ms);
+}
+
+.af-feedback[data-variant='stamp'] .af-icon {
+  position: relative;
+  grid-column: 1;
+  grid-row: 1;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  border-radius: 50%;
+  color: color-mix(in srgb, var(--accent, #ceb47b) 38%, #f6e4b7);
+  background: transparent;
+  box-shadow: none;
+}
+
+.af-feedback[data-variant='stamp'] .af-icon svg {
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(0 1px 0 #000);
+}
+
+.af-feedback[data-variant='stamp'] .af-label {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  min-width: 0;
+  max-width: 118px;
+  color: #f6e7c7;
+  font: 400 13px/1.16 Georgia, 'Noto Serif SC', 'Songti SC', serif;
+  letter-spacing: .02em;
+  white-space: normal;
+  overflow-wrap: normal;
+}
+
+.af-feedback[data-variant='stamp'] .af-delta {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: center;
+  align-self: center;
+  color: #ffe1a1;
+  font: 400 41px/.96 Georgia, serif;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -.055em;
+  text-shadow: 0 2px 1px #080e0a, 0 -1px 0 #fff2c229;
+}
+
+.af-feedback[data-variant='stamp'] .af-values {
+  grid-column: 1;
+  grid-row: 4;
+  display: flex;
+  align-items: baseline;
+  align-self: center;
+  gap: 8px;
+  color: #b7bea9;
+  font: 400 11px/1.2 Georgia, serif;
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: .025em;
+}
+
+.af-feedback[data-variant='stamp'] .af-arrow {
+  color: #9d9e83;
+  font-size: 10px;
+}
+
+.af-feedback[data-variant='stamp'] .af-after {
+  color: #eadbb7;
+}
+
+.af-feedback[data-variant='stamp'] .af-track {
+  display: none;
+}
+
+.af-feedback[data-variant='stamp'] .af-life {
+  width: 56px;
+  height: 2px;
+  margin: 15px auto 0;
+  border-radius: 2px;
+  color: #ebce8c;
+  background: #e4c78b30;
+  opacity: .78;
+  box-shadow: 0 1px 4px #07140dbb;
+}
+
+.af-feedback[data-variant='stamp'] .af-row[data-direction='down'] {
+  --seal-tint: #402b25;
+  border-color: #b68a73;
+}
+
+.af-feedback[data-variant='stamp'] .af-row[data-direction='down'] .af-delta {
+  color: #ffb29a;
+}
+
+.af-feedback[data-variant='stamp'] .af-row:hover,
+.af-feedback[data-variant='stamp'] .af-row:focus-visible {
+  border-color: #f2d798;
+  filter: brightness(1.1);
+}
+
+.af-feedback[data-variant='stamp'][data-phase='exit'] .af-row {
+  animation: af-stamp-release 220ms ease-in both;
+  animation-delay: calc(var(--index, 0) * 14ms);
+}
+
+.af-feedback[data-variant='stamp'][data-phase='exit'] .af-heading,
+.af-feedback[data-variant='stamp'][data-phase='exit'] .af-life {
+  animation: af-stamp-fade 180ms ease-in both;
+}
+
+@keyframes af-stamp-strike {
+  0% { opacity: 0; transform: scale(1.2) translateY(-7px); }
+  48% { opacity: 1; transform: scale(.975) translateY(1px); }
+  74% { opacity: 1; transform: scale(1.012); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes af-stamp-impression {
+  0%, 8% { opacity: 0; transform: scale(.98); }
+  16% { opacity: .72; }
+  100% { opacity: 0; transform: scale(1.14); }
+}
+
+@keyframes af-stamp-release {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(.97) translateY(6px); }
+}
+
+@keyframes af-stamp-fade {
+  to { opacity: 0; }
+}
+
+@media (max-width: 480px) {
+  .af-feedback[data-variant='stamp'] { width: 342px; }
+  .af-feedback[data-variant='stamp'] .af-composition { padding: 0 2px; }
+  .af-feedback[data-variant='stamp'] .af-heading { font-size: 9px; margin-bottom: 10px; }
+  .af-feedback[data-variant='stamp'] .af-rows { gap: 10px; }
+  .af-feedback[data-variant='stamp'] .af-life { margin-top: 12px; }
+}
+
+@media (max-height: 580px) and (min-width: 481px) {
+  .af-feedback[data-variant='stamp'] .af-heading { margin-bottom: 8px; }
+  .af-feedback[data-variant='stamp'] .af-life { margin-top: 11px; }
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) {
+  gap: 12px;
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-row {
+  flex-basis: 128px;
+  width: 128px;
+  min-height: 128px;
+  grid-template-rows: 18px 26px 33px 12px;
+  row-gap: 2px;
+  padding: 10px 12px;
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-icon,
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-label {
+  max-width: 101px;
+  font-size: 11.5px;
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-delta {
+  font-size: 35px;
+}
+
+.af-feedback[data-variant='stamp'] .af-rows:has(.af-row:nth-child(3)) .af-values {
+  font-size: 10px;
+  gap: 6px;
+}

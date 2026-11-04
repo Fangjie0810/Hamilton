@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+artifacts/
+releases/
+__pycache__/
+
+# Local Ark credentials
+.env.ark.local
+.env.ark.local.*
+
+# Source snapshot uses a private asset copy; keep media outside Git.
+public/
+/node_modules

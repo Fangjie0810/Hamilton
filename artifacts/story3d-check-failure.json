@@ -1,0 +1,266 @@
+{
+  "route": "failure",
+  "baseURL": "http://127.0.0.1:1777/?story=3d&debug=1",
+  "checks": [
+    "walking to a future character does not skip the story",
+    "clicking the visible newsboy body walks up and starts dialogue",
+    "Tavern timeout fails forward",
+    "pause freezes choice timer and movement",
+    "four subtitle modes preserve current choice",
+    "1024 bilingual choice",
+    "chapter restart restores entry checkpoint",
+    "Lafayette remains clear beside Hamilton at the recommended diamond in desktop and three compact language modes",
+    "camp shared-location markers appear in sequence and never overlap",
+    "all seven real BGM tracks; chapter curtain timing; debate replacement and resume; silent ending",
+    "fixed harmless repeat conversations preserve progress and rewards: Arrival/newsboy, Arrival/loyalist, Arrival/citizen, Arrival/burr, Tavern/laurens, Tavern/lafayette, Tavern/mulligan, Debate/loyalist, Debate/citizen, Debate/burr, Washington/washington, Yorktown/washington",
+    "all six original chapters in 3D",
+    "all twelve interactions reached by real walking",
+    "all activities commit confirmed outcomes",
+    "losses and zero scores reach ending",
+    "completed result persists",
+    "1024 bilingual ending",
+    "resume restores modal focus and Tab containment",
+    "new run resets progression without loading the previous result"
+  ],
+  "chapters": [
+    "Opening",
+    "Arrival",
+    "Tavern",
+    "Debate",
+    "Washington",
+    "Yorktown"
+  ],
+  "interactions": [
+    "opening-letter",
+    "arrival-newspaper",
+    "arrival-street",
+    "arrival-burr",
+    "tavern-mulligan",
+    "tavern-laurens",
+    "tavern-lafayette",
+    "debate-loyalist",
+    "washington-offer",
+    "washington-dispatch",
+    "yorktown-command",
+    "yorktown-surrender"
+  ],
+  "activities": [
+    {
+      "kind": "debate",
+      "result": "held",
+      "state": {
+        "momentum": 28,
+        "influence": 19,
+        "burrRivalry": 20,
+        "burrRespect": 29,
+        "washingtonTrust": 0,
+        "debatePerformance": 0,
+        "yorktownPerformance": 0,
+        "choices": {
+          "interaction:arrival-newspaper": "complete",
+          "interaction:arrival-street": "complete",
+          "burr_first_impression": "burr-observe",
+          "mulligan_question": "mulligan-print",
+          "laurens_question": "laurens-stability",
+          "lafayette_question": "lafayette-negotiate",
+          "debate_result": "held",
+          "debate_approach": "debate-attack"
+        }
+      }
+    },
+    {
+      "kind": "writing",
+      "result": "0",
+      "state": {
+        "momentum": 23,
+        "influence": 19,
+        "burrRivalry": 20,
+        "burrRespect": 29,
+        "washingtonTrust": 12,
+        "debatePerformance": 0,
+        "yorktownPerformance": 0,
+        "choices": {
+          "interaction:arrival-newspaper": "complete",
+          "interaction:arrival-street": "complete",
+          "burr_first_impression": "burr-observe",
+          "mulligan_question": "mulligan-print",
+          "laurens_question": "laurens-stability",
+          "lafayette_question": "lafayette-negotiate",
+          "debate_result": "held",
+          "debate_approach": "debate-attack",
+          "washington_position": "washington-accept",
+          "dispatch_method": "dispatch-hurried",
+          "writing_result": "0"
+        }
+      }
+    },
+    {
+      "kind": "yorktown",
+      "result": "complete",
+      "state": {
+        "momentum": 17,
+        "influence": 25,
+        "burrRivalry": 20,
+        "burrRespect": 29,
+        "washingtonTrust": 14,
+        "debatePerformance": 0,
+        "yorktownPerformance": 8,
+        "choices": {
+          "interaction:arrival-newspaper": "complete",
+          "interaction:arrival-street": "complete",
+          "burr_first_impression": "burr-observe",
+          "mulligan_question": "mulligan-print",
+          "laurens_question": "laurens-stability",
+          "lafayette_question": "lafayette-negotiate",
+          "debate_result": "held",
+          "debate_approach": "debate-attack",
+          "washington_position": "washington-accept",
+          "dispatch_method": "dispatch-hurried",
+          "writing_result": "0",
+          "yorktown_leadership": "yorktown-coordinate",
+          "yorktown_result": "complete"
+        }
+      }
+    }
+  ],
+  "ending": {
+    "chapter": "Ending",
+    "phase": "ending",
+    "index": 2,
+    "remaining": 0,
+    "state": {
+      "momentum": 17,
+      "influence": 31,
+      "burrRivalry": 20,
+      "burrRespect": 29,
+      "washingtonTrust": 14,
+      "debatePerformance": 0,
+      "yorktownPerformance": 8,
+      "choices": {
+        "interaction:arrival-newspaper": "complete",
+        "interaction:arrival-street": "complete",
+        "burr_first_impression": "burr-observe",
+        "mulligan_question": "mulligan-print",
+        "laurens_question": "laurens-stability",
+        "lafayette_question": "lafayette-negotiate",
+        "debate_result": "held",
+        "debate_approach": "debate-attack",
+        "washington_position": "washington-accept",
+        "dispatch_method": "dispatch-hurried",
+        "writing_result": "0",
+        "yorktown_leadership": "yorktown-coordinate",
+        "yorktown_result": "complete",
+        "interaction:yorktown-surrender": "complete"
+      }
+    },
+    "completed": [
+      "yorktown-command",
+      "yorktown-surrender"
+    ],
+    "discoveries": [],
+    "discovery": {
+      "phase": "idle"
+    },
+    "growthOpen": false,
+    "targets": [
+      {
+        "id": "yorktown-command",
+        "position": {
+          "x": 0,
+          "z": 8
+        },
+        "title": {
+          "zh": "接过指挥权",
+          "en": "Take Command"
+        },
+        "body": {
+          "zh": "1781 年，法美联军围困约克镇。数年的行军、军令与争执，终于把汉密尔顿带到一座英军堡垒前。",
+          "en": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt."
+        },
+        "enabled": false,
+        "complete": true,
+        "exit": false
+      },
+      {
+        "id": "yorktown-surrender",
+        "position": {
+          "x": 0,
+          "z": -9
+        },
+        "title": {
+          "zh": "炮声之后",
+          "en": "After the Guns"
+        },
+        "body": {
+          "zh": "汉密尔顿率队攻下十号堡垒，法军攻下相邻的九号堡垒。围城继续收紧。",
+          "en": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened."
+        },
+        "enabled": false,
+        "complete": true,
+        "exit": false
+      },
+      {
+        "id": "story-exit",
+        "position": {
+          "x": 0,
+          "z": -12
+        },
+        "title": {
+          "zh": "阅读你的革命侧写",
+          "en": "Read Your Revolutionary Portrait"
+        },
+        "body": {
+          "zh": "接过指挥权，作出选择，见证约克镇的结局。",
+          "en": "Take command, make your choices, and witness Yorktown's outcome."
+        },
+        "enabled": false,
+        "complete": false,
+        "exit": true
+      }
+    ],
+    "cast": [
+      {
+        "id": "washington",
+        "position": {
+          "x": 1.3,
+          "z": 8.5
+        }
+      }
+    ],
+    "repeatTargets": [
+      {
+        "id": "smalltalk-washington",
+        "position": {
+          "x": 0.31998711348678754,
+          "z": 8.123071966725687
+        },
+        "title": {
+          "zh": "闲聊 · 乔治·华盛顿",
+          "en": "Chat · George Washington"
+        },
+        "body": {
+          "zh": "咖啡又凉了。这里的杯子似乎从来留不住热气。",
+          "en": "The coffee has gone cold again. These cups never seem to hold their warmth."
+        },
+        "enabled": true,
+        "complete": false,
+        "exit": false,
+        "smallTalk": "washington"
+      }
+    ],
+    "castPoses": [
+      {
+        "id": "washington",
+        "facing": "n",
+        "frame": 29,
+        "direction": {
+          "x": -1.088123082061252,
+          "z": -5.866771146047333
+        },
+        "arguing": false
+      }
+    ]
+  },
+  "errors": [],
+  "failures": []
+}

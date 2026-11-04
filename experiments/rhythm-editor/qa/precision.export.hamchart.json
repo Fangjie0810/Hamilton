@@ -1,0 +1,99 @@
+{
+  "format": "hamilton-rhythm-project",
+  "version": 1,
+  "id": "4123bd82-e976-45fd-856d-0b7b54a42960",
+  "name": "Precision QA",
+  "createdAt": "2026-11-04T02:47:06.646Z",
+  "modifiedAt": "2026-11-04T02:47:06.646Z",
+  "trackId": "my-shot",
+  "keyMode": "4k",
+  "units": "milliseconds",
+  "laneIndexBase": 0,
+  "keys": [
+    "S",
+    "D",
+    "K",
+    "L"
+  ],
+  "audio": {
+    "fileName": "my-shot.mp3",
+    "sha256": "0fd2db17b382826c5132c63954e6d846c6bd84e50156d1a1bef89b4ad8be8a3c",
+    "mimeType": "audio/mpeg",
+    "byteLength": 5331821,
+    "durationMs": 333154
+  },
+  "grid": {
+    "bpm": 91,
+    "offsetMs": 0,
+    "division": 16
+  },
+  "palette": {
+    "A": "#73d8d4",
+    "B": "#f1947c"
+  },
+  "notes": [
+    {
+      "id": "dense-0",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 2000,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dense-1",
+      "lane": 0,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 2100,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "dense-2",
+      "lane": 0,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 2200,
+      "durationMs": 0,
+      "key": "S"
+    },
+    {
+      "id": "long-near",
+      "lane": 2,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 2320,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "hold",
+      "lane": 2,
+      "color": "B",
+      "kind": "hold",
+      "atMs": 2400,
+      "durationMs": 1500,
+      "key": "K"
+    },
+    {
+      "id": "hold-tap",
+      "lane": 2,
+      "color": "A",
+      "kind": "tap",
+      "atMs": 3300,
+      "durationMs": 0,
+      "key": "K"
+    },
+    {
+      "id": "dense-3",
+      "lane": 0,
+      "color": "B",
+      "kind": "tap",
+      "atMs": 4600,
+      "durationMs": 0,
+      "key": "S"
+    }
+  ]
+}

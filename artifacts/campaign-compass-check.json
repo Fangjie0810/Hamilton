@@ -1,0 +1,267 @@
+{
+  "status": "passed",
+  "baseURL": "http://127.0.0.1:1776/",
+  "checks": [
+    "real Opening hides the dial through the letter and exit; Arrival first displays the 174 px campaign renderer, locked trust, live tooltip, explanation and focus restoration without changing story state",
+    "real game: four language changes keep chapter, phase, index, completed interactions and all GameState values",
+    "all five production sectors: pointer hit/hover/click, actual definition and uses, Enter, Space, Escape/button close, focus restoration, no stat mutation",
+    "updates preserve data-gained reward highlight and original focus/event targets",
+    "street/tavern/debate trust stays locked; Washington camp/Yorktown unlock without discarding the stored value",
+    "0/50/100 for all three unlocked attributes: 52/84.7585/108 radii, full-sector outward growth, no angular dash progress",
+    "relation equal/zero/extreme/one-point changes: visible exaggerated split, preserved independent numbers, both regions remain hittable",
+    "transparent SVG corners and HTML backdrop; translucent unfilled track, solid coloured face, opaque locked graphite",
+    "four primary-language modes: translated tooltips/definitions, single-language UI, stable chart/targets/state, 174 px desktop and 118 px narrow fit"
+  ],
+  "snapshots": [
+    {
+      "kind": "radial-progress",
+      "value": 0,
+      "split": 104.05,
+      "parts": [
+        {
+          "stat": "momentum",
+          "value": 0,
+          "locked": "false",
+          "radius": 52
+        },
+        {
+          "stat": "influence",
+          "value": 0,
+          "locked": "false",
+          "radius": 52
+        },
+        {
+          "stat": "washingtonTrust",
+          "value": 0,
+          "locked": "false",
+          "radius": 52
+        },
+        {
+          "stat": "burrRivalry",
+          "value": 10,
+          "locked": "false",
+          "radius": null
+        },
+        {
+          "stat": "burrRespect",
+          "value": 20,
+          "locked": "false",
+          "radius": null
+        }
+      ]
+    },
+    {
+      "kind": "radial-progress",
+      "value": 50,
+      "split": 104.05,
+      "parts": [
+        {
+          "stat": "momentum",
+          "value": 50,
+          "locked": "false",
+          "radius": 84.75848040166836
+        },
+        {
+          "stat": "influence",
+          "value": 50,
+          "locked": "false",
+          "radius": 84.75848040166836
+        },
+        {
+          "stat": "washingtonTrust",
+          "value": 50,
+          "locked": "false",
+          "radius": 84.75848040166836
+        },
+        {
+          "stat": "burrRivalry",
+          "value": 10,
+          "locked": "false",
+          "radius": null
+        },
+        {
+          "stat": "burrRespect",
+          "value": 20,
+          "locked": "false",
+          "radius": null
+        }
+      ]
+    },
+    {
+      "kind": "radial-progress",
+      "value": 100,
+      "split": 104.05,
+      "parts": [
+        {
+          "stat": "momentum",
+          "value": 100,
+          "locked": "false",
+          "radius": 108
+        },
+        {
+          "stat": "influence",
+          "value": 100,
+          "locked": "false",
+          "radius": 108
+        },
+        {
+          "stat": "washingtonTrust",
+          "value": 100,
+          "locked": "false",
+          "radius": 108
+        },
+        {
+          "stat": "burrRivalry",
+          "value": 10,
+          "locked": "false",
+          "radius": null
+        },
+        {
+          "stat": "burrRespect",
+          "value": 20,
+          "locked": "false",
+          "radius": null
+        }
+      ]
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 0,
+      "respect": 0,
+      "split": 120
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 100,
+      "respect": 100,
+      "split": 120
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 100,
+      "respect": 0,
+      "split": 146
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 0,
+      "respect": 100,
+      "split": 94
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 51,
+      "respect": 50,
+      "split": 121.85
+    },
+    {
+      "kind": "relationship",
+      "rivalry": 50,
+      "respect": 51,
+      "split": 118.15
+    },
+    {
+      "kind": "alpha-and-fill",
+      "unfilled": {
+        "pixels": {
+          "topLeft": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bottomRight": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "emptyTop": [
+            222,
+            232,
+            232,
+            102
+          ],
+          "filledTop": [
+            41,
+            42,
+            27,
+            255
+          ],
+          "trust": [
+            216,
+            224,
+            226,
+            98
+          ],
+          "core": [
+            181,
+            86,
+            71,
+            255
+          ]
+        },
+        "backdrop": "rgba(0, 0, 0, 0)"
+      },
+      "locked": {
+        "pixels": {
+          "topLeft": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "bottomRight": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "emptyTop": [
+            222,
+            232,
+            232,
+            102
+          ],
+          "filledTop": [
+            41,
+            42,
+            27,
+            255
+          ],
+          "trust": [
+            91,
+            99,
+            103,
+            255
+          ],
+          "core": [
+            181,
+            86,
+            71,
+            255
+          ]
+        },
+        "backdrop": "rgba(0, 0, 0, 0)"
+      }
+    }
+  ],
+  "artifacts": [
+    "artifacts/campaign-compass-game-opening-no-compass.png",
+    "artifacts/campaign-compass-game-arrival-174.png",
+    "artifacts/campaign-compass-game-explanation.png",
+    "artifacts/campaign-compass-fixture-progress-0.png",
+    "artifacts/campaign-compass-fixture-progress-50.png",
+    "artifacts/campaign-compass-fixture-progress-100.png",
+    "artifacts/campaign-compass-fixture-relation-100-0.png",
+    "artifacts/campaign-compass-fixture-relation-0-100.png",
+    "artifacts/campaign-compass-transparent-unlocked.png",
+    "artifacts/campaign-compass-transparent-locked.png",
+    "artifacts/campaign-compass-fixture-zh-118.png",
+    "artifacts/campaign-compass-fixture-en-118.png",
+    "artifacts/campaign-compass-fixture-dual-118.png",
+    "artifacts/campaign-compass-fixture-dual-en-118.png"
+  ],
+  "errors": [],
+  "failures": []
+}

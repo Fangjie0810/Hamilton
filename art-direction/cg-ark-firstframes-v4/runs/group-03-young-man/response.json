@@ -1,0 +1,52 @@
+{
+  "model": "doubao-seedream-5-0-260128",
+  "data": [
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789030540,
+      "image_index": 0,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789030481360a28a523199212da973704da21f2917ebf0c52c_0.png",
+      "size": "2560x1440"
+    },
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789030576,
+      "image_index": 1,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789030481360a28a523199212da973704da21f2917ebf0c52c_1.png",
+      "size": "2560x1440"
+    },
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789030625,
+      "image_index": 2,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789030481360a28a523199212da973704da21f2917ebf0c52c_2.png",
+      "size": "2560x1440"
+    },
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789030662,
+      "image_index": 3,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789030481360a28a523199212da973704da21f2917ebf0c52c_3.png",
+      "size": "2560x1440"
+    },
+    {
+      "type": "image_generation.partial_succeeded",
+      "model": "doubao-seedream-5-0-260128",
+      "created": 1789030704,
+      "image_index": 4,
+      "url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedream-5-0/021789030481360a28a523199212da973704da21f2917ebf0c52c_4.png",
+      "size": "2560x1440"
+    }
+  ],
+  "stream_completed": true,
+  "created": 1789030704,
+  "usage": {
+    "generated_images": 5,
+    "output_tokens": 72000,
+    "total_tokens": 72000
+  }
+}

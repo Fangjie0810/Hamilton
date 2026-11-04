@@ -1,0 +1,338 @@
+{
+  "scope": "Paper model: mainline entry combinations and authored action trajectories only; not play testing.",
+  "profile_asset_combinations": 29160,
+  "entry_plan_counts": {
+    "joint": 9318,
+    "staff": 7995,
+    "rescue": 29160,
+    "solo": 7518
+  },
+  "no_dead_end_at_entry": true,
+  "five_examples_reachable": true,
+  "key_events_required": true,
+  "rescue_has_no_personality_gate": true,
+  "examples": [
+    {
+      "id": "joint",
+      "entry": {
+        "M": 49,
+        "I": 34,
+        "W": 18,
+        "R": 39,
+        "V": 10,
+        "P": 65,
+        "U": 80,
+        "O": 40,
+        "flags": {
+          "unresolved_report": false
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "liaison"
+        ]
+      },
+      "history": [
+        {
+          "action": "use_recon",
+          "P": 65,
+          "U": 80,
+          "O": 50
+        },
+        {
+          "action": "wait_for_signal",
+          "P": 65,
+          "U": 85,
+          "O": 40
+        },
+        {
+          "action": "hold_flank_and_advance",
+          "P": 65,
+          "U": 75,
+          "O": 30
+        }
+      ],
+      "final": {
+        "M": 49,
+        "I": 34,
+        "W": 18,
+        "R": 39,
+        "V": 10,
+        "P": 65,
+        "U": 75,
+        "O": 30,
+        "flags": {
+          "unresolved_report": false,
+          "signal": true,
+          "flank_held": true
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "liaison"
+        ],
+        "objective": "joint"
+      },
+      "ending": "E1"
+    },
+    {
+      "id": "rescue",
+      "entry": {
+        "M": 59,
+        "I": 45,
+        "W": 11,
+        "R": 26,
+        "V": 10,
+        "P": 55,
+        "U": 90,
+        "O": 30,
+        "flags": {
+          "unresolved_report": false
+        },
+        "assets": [
+          "supply",
+          "medical",
+          "liaison"
+        ]
+      },
+      "history": [
+        {
+          "action": "civilian_guides",
+          "P": 60,
+          "U": 90,
+          "O": 30
+        },
+        {
+          "action": "escort_civilians",
+          "P": 60,
+          "U": 80,
+          "O": 15
+        },
+        {
+          "action": "escort_wounded",
+          "P": 60,
+          "U": 70,
+          "O": 0
+        }
+      ],
+      "final": {
+        "M": 59,
+        "I": 45,
+        "W": 11,
+        "R": 26,
+        "V": 10,
+        "P": 60,
+        "U": 70,
+        "O": 0,
+        "flags": {
+          "unresolved_report": false,
+          "civilians_out": true,
+          "wounded_out": true
+        },
+        "assets": [
+          "supply",
+          "medical",
+          "liaison"
+        ],
+        "objective": "rescue"
+      },
+      "ending": "E2"
+    },
+    {
+      "id": "staff",
+      "entry": {
+        "M": 30,
+        "I": 27,
+        "W": 25,
+        "R": 43,
+        "V": 10,
+        "P": 65,
+        "U": 80,
+        "O": 40,
+        "flags": {
+          "unresolved_report": false
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "medical"
+        ]
+      },
+      "history": [
+        {
+          "action": "use_recon",
+          "P": 65,
+          "U": 80,
+          "O": 50
+        },
+        {
+          "action": "verify_terms",
+          "P": 65,
+          "U": 80,
+          "O": 40
+        },
+        {
+          "action": "hold_supply_and_send_envoy",
+          "P": 65,
+          "U": 75,
+          "O": 40
+        }
+      ],
+      "final": {
+        "M": 30,
+        "I": 27,
+        "W": 25,
+        "R": 43,
+        "V": 10,
+        "P": 65,
+        "U": 75,
+        "O": 40,
+        "flags": {
+          "unresolved_report": false,
+          "verified": true,
+          "supply_route_held": true
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "medical"
+        ],
+        "objective": "staff"
+      },
+      "ending": "E3"
+    },
+    {
+      "id": "solo",
+      "entry": {
+        "M": 90,
+        "I": 37,
+        "W": 10,
+        "R": 25,
+        "V": 30,
+        "P": 65,
+        "U": 60,
+        "O": 60,
+        "flags": {
+          "unresolved_report": false
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "vanguard"
+        ]
+      },
+      "history": [
+        {
+          "action": "use_recon",
+          "P": 65,
+          "U": 60,
+          "O": 70
+        },
+        {
+          "action": "commit_own_reserve",
+          "P": 65,
+          "U": 50,
+          "O": 80
+        },
+        {
+          "action": "force_breach",
+          "P": 65,
+          "U": 35,
+          "O": 70
+        }
+      ],
+      "final": {
+        "M": 90,
+        "I": 37,
+        "W": 10,
+        "R": 25,
+        "V": 30,
+        "P": 65,
+        "U": 35,
+        "O": 70,
+        "flags": {
+          "unresolved_report": false,
+          "independent_commitment": true,
+          "breach": true
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "vanguard"
+        ],
+        "objective": "solo"
+      },
+      "ending": "E4"
+    },
+    {
+      "id": "collapse",
+      "entry": {
+        "M": 93,
+        "I": 37,
+        "W": 5,
+        "R": 20,
+        "V": 30,
+        "P": 50,
+        "U": 60,
+        "O": 80,
+        "flags": {
+          "unresolved_report": true
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "vanguard"
+        ]
+      },
+      "history": [
+        {
+          "action": "charge_unscouted",
+          "P": 50,
+          "U": 45,
+          "O": 90
+        },
+        {
+          "action": "discrepancy_revealed",
+          "P": 40,
+          "U": 45,
+          "O": 90
+        },
+        {
+          "action": "refuse_regroup",
+          "P": 40,
+          "U": 30,
+          "O": 100
+        },
+        {
+          "action": "force_breach_after_warning",
+          "P": 40,
+          "U": 20,
+          "O": 85
+        }
+      ],
+      "final": {
+        "M": 93,
+        "I": 37,
+        "W": 0,
+        "R": 12,
+        "V": 30,
+        "P": 40,
+        "U": 20,
+        "O": 85,
+        "flags": {
+          "unresolved_report": true,
+          "ignored_recon": true,
+          "refused_regroup": true,
+          "breach": true
+        },
+        "assets": [
+          "supply",
+          "recon",
+          "vanguard"
+        ],
+        "objective": "solo"
+      },
+      "ending": "E5"
+    }
+  ]
+}

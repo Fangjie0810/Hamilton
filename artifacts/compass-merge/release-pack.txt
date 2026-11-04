@@ -1,0 +1,248 @@
+
+> project-hamilton-1776@0.5.0 release:pack
+> python3 scripts/releases.py pack --notes 0.5.0 本地大版本：合入已确认的左侧 HUD 圆盘放大 50% 属性变化动画，保留完整变化队列与暂停重开行为；同步封存第一幕交互、启程反馈、战役徽章及人物修图。仅本地归档，未切换线上。
+
+
+> project-hamilton-1776@0.5.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ retired audio switches migrate once to a visible zero; raising volume survives reload (1.052916ms)
+✔ migration works in read-only storage and ordinary zero-volume preferences remain muted (0.101084ms)
+✔ every entry camera starts at its lowest allowed elevation, with the debate square closer (1.259708ms)
+✔ orbit preserves mouse sensitivity and returns immediately from either elevation bound (0.119584ms)
+✔ every playable chapter has a real, registered backdrop in all art modes (14.9535ms)
+✔ all narrative option previews match committed stat directions, including both limits (3.590125ms)
+✔ compass cue stores full before/after for each commit and never shows future values (0.970125ms)
+✔ values change only after enlargement, then settle before the return (0.140583ms)
+✔ clamped values, pause, reset and non-compass performance scores remain accurate (0.107875ms)
+✔ Burr disc exaggerates independent score differences without hiding either relationship (0.654833ms)
+✔ radial progress adds equal colored area for equal score changes (0.092583ms)
+✔ progress starts exactly at the center boundary and reaches the full outer edge (0.067666ms)
+✔ three full sectors share every radial boundary without angular gaps (0.671667ms)
+✔ a partly filled sector retains the full angular span at both radii (0.0785ms)
+✔ initial state matches the specification and never shares mutable choices (1.376583ms)
+✔ effects clamp every statistic and report actual changes for HUD feedback (0.133333ms)
+✔ invalid effects are rejected before any part changes the run (0.201875ms)
+✔ choices apply once even if a held input attempts a different answer (0.078917ms)
+✔ chapter restart restores stats and choices exactly, without duplicating rewards (0.092292ms)
+✔ new run resets state and removes old chapter checkpoints (0.071ms)
+✔ dialogue keeps the last line visible until an explicit advance (0.071292ms)
+✔ movement is frame-rate independent for normal frames and clamps world bounds (0.086834ms)
+✔ movement cannot jump across a scene after losing focus (0.06425ms)
+✔ event subscriptions can be removed when a scene is left (0.134375ms)
+✔ only explicitly saved completed results persist, never an active run (0.16825ms)
+✔ corrupt, incomplete, out-of-range, or unavailable result storage fails safely (0.093167ms)
+✔ portrait cast covers every authored speaker, including citizen and narrator (3.437333ms)
+✔ the street argument presents its two disputants before Hamilton responds (0.207125ms)
+✔ narration and Hamilton monologues retain a distinct contextual listener (0.147042ms)
+✔ an actual reply partner takes priority over the scene default (0.141542ms)
+✔ all current recorded and unrecorded dialogue cues have explicit audited performance assignments (10.667042ms)
+✔ every authored cue uses existing speaker and listener poses for every possible dialogue pair (1.894333ms)
+✔ four language modes, paired source, and both exact language strings preserve acting for all cues (1.969333ms)
+✔ Burr respect and rivalry branches produce distinct listener and settled attitudes (0.11275ms)
+✔ agreement is earned by the actual reply and opposing characters do not automatically endorse Hamilton (0.18975ms)
+✔ subtle joy, military responsibility, and the hidden chronicler have bounded authored reactions (0.080208ms)
+✔ newspaper recordings retain their exact bilingual source performances at all five playback locations (0.67675ms)
+✔ command performances hold their distinct direction gesture after speech instead of hiding it during loading (0.12775ms)
+✔ real gameplay failures differ from successful reactions without changing or guessing a spoken cue (0.108292ms)
+✔ future dialogue and unknown speakers use declared defaults without keyword mood guessing (0.531834ms)
+✔ dialogue waits for actual playing and settles only after the current cue ends (1.976ms)
+✔ selected line and reply each receive their own focus and attitude at the real cue boundary (0.42825ms)
+✔ settings pause and language changes preserve the current cue and attitude (0.285ms)
+✔ quickly replacing a line makes late old media events harmless (0.201291ms)
+✔ a foreign presentation using an identical cue cannot reactivate a completed owner (0.174417ms)
+✔ muted dialogue acts through both lines in order, respects pause, and holds the final reaction (0.196334ms)
+✔ unavailable audio uses a finite local performance without requesting narration (0.108375ms)
+✔ reenabling speech after muted progress follows the media cue instead of the silent response (0.154167ms)
+✔ autoplay refusal remains ready and retries only when the media really starts (0.299916ms)
+✔ gameplay outcome waits for the final spoken fragment, then replaces only the held reaction (0.224583ms)
+✔ static result reactions never enqueue speech and clear cleanly before the next presentation (0.117958ms)
+✔ optional dialogue cannot overlap main dialogue, and rewards commit only after the final reply (1.377792ms)
+✔ aborted choices award nothing and chapter checkpoints roll discoveries back together with stats (0.146125ms)
+✔ preparation events expire without retroactive rewards, and cross-chapter echoes need the original discovery (0.132125ms)
+✔ finishing a discovery at an open exit preserves the required story cursor and exit (0.811125ms)
+✔ newspaper pickup, handover, repeated chat and chapter rollback share one state lifecycle (0.155959ms)
+✔ every discovery standing point is reachable by a real walker with story NPC footprints (341.172667ms)
+✔ optional scenes have valid prerequisites, stable keys and exhaustive bilingual dialogue (1.951584ms)
+✔ a preparation event expires on activity start, and rereading never promises a past reward (0.22125ms)
+✔ the second letter scene remains ordinary without the original discovery and cannot reward twice (0.071125ms)
+✔ respect and rivalry both unlock at their boundary and remember the chosen margin response (0.102ms)
+✔ all discoveries together stay within the authored reward cap without changing activity scores (2.481166ms)
+✔ conditional echoes keep two-line limits and never invent a discovered object (0.2855ms)
+✔ ending records only completed discoveries and assistance actually consumed within three additions (0.262542ms)
+✔ i18n explicitly checks inactive dialogue rather than only the visible route (0.150541ms)
+✔ eight views follow screen direction at any camera yaw, including angle wrap (1.466125ms)
+✔ view selection stays stable near a boundary and preserves the last idle heading (0.257334ms)
+✔ all eight Hamilton views have distinct idle/step poses, mirrored diagonals, and valid cells (1.719083ms)
+✔ Burr has eight idle views independent of the player walk phase (0.095916ms)
+✔ beat boundaries are inclusive and suspended frames do not consume a whole prompt (2.19175ms)
+✔ debate waits for reading, expires at 2.5 seconds and accepts a response only once (0.856042ms)
+✔ every debate strategy can win; facts and attacks have different relation outcomes (1.184334ms)
+✔ misses reset Flow, risky attacks hurt support, and a losing route still ends (0.381833ms)
+✔ gameplay results commit once, and chapter restart rolls them back (1.620167ms)
+✔ guard detection is capped per post, cover requires crouching, and soldiers must arrive too (1.369667ms)
+✔ a cautious route can carry the entire squad past all three guards undetected (0.579208ms)
+✔ deployment needs all three orders, rewards coordination, and cannot be farmed (0.917708ms)
+✔ Yorktown rhythm rejects wrong and repeated keys, and all misses still reach results (0.23425ms)
+✔ Writing accepts only current fragments, allows corrections before submit, and grades actual assignments (0.259208ms)
+✔ Writing timeout counts omissions, presents correction, and continues without a dead end (0.157583ms)
+✔ the ending reports actual completed gameplay scores and preserves old narrative saves (1.022834ms)
+✔ arrival tutorial appears once per run, not again after a chapter restart (3.187458ms)
+✔ newspaper tutorial uses the actual state change and never awards or repeats it (2.557417ms)
+✔ threshold notifications are deduplicated across rollback and a jump shows only the higher influence tier (0.981167ms)
+✔ deferred notices re-evaluate their use after an activity ends (1.192125ms)
+✔ trust gained from completed activities explains future uses without retroactive hints (0.097709ms)
+✔ choice explanation waits for an untimed main choice and does not replay within the run (0.090125ms)
+✔ relationship details reveal after meeting Burr and both dimensions remain independent (0.087083ms)
+✔ growth benefits use exact attribute thresholds without changing the source state (1.33025ms)
+✔ activity defaults preserve unassisted play and snapshotted benefits cannot be replenished (0.120291ms)
+✔ momentum cancels one attack backlash while the true miss and broken flow remain (0.197ms)
+✔ response timeout keeps the attack recovery, but a selected attack beat timeout consumes it (0.053875ms)
+✔ maximum growth cannot win the debate without successful input (0.144083ms)
+✔ writing reference names one selected current fragment category without assigning or extending time (0.374209ms)
+✔ deployment check names one squad order without giving an order or adding surprise (0.44075ms)
+✔ mainline choices can earn each debate benefit; optional discoveries are not prerequisites (1.765ms)
+✔ trust assistance is reachable from mainline responsibility, grades, and the departure choice (0.213084ms)
+✔ activity caps keep malformed benefit values from creating unlimited help (0.098917ms)
+✔ language defaults to bilingual and survives missing, invalid, or blocked storage (0.70475ms)
+✔ paired text composes nested data and numeric feedback without object coercion (0.833916ms)
+✔ all subtitle modes resolve one primary interface language (0.085458ms)
+✔ translation gate rejects missing partners and mismatched dynamic parameters (4.84775ms)
+✔ ordinary fade, title wait, and reduced-motion wait are exactly 2.5 times their prior values (0.060167ms)
+✔ walking accelerates, brakes to rest, and advances gait only by actual distance (1.641708ms)
+✔ reversing brakes, shows a turn, then changes facing and direction (0.196833ms)
+✔ click travel arrives exactly once without overshoot or oscillation at normal frame rates (0.625333ms)
+✔ walls do not produce tread-in-place animation, and explicit halt prevents resume drift (0.375375ms)
+✔ nearby citizen/loyalist labels remain separately clickable while main route keeps its anchor (1.410833ms)
+✔ camera-edge labels fit the viewport and avoid the objective panel after text reflows (0.14625ms)
+✔ an unobstructed label follows its projected anchor on every camera update (0.064542ms)
+✔ Begin starts immediately and the film/chapter handoff preserves the prologue (0.879875ms)
+✔ each new scene fades out then stays silent until revealed; restart begins from zero (0.3195ms)
+✔ debate temporarily replaces the chapter music and resumes its saved position (0.128542ms)
+✔ overlapping pause reasons, mute and preference changes preserve position (0.123959ms)
+✔ autoplay retries on gestures, and stale rejections cannot stop a replacement (0.245666ms)
+✔ fresh or invalid stored music volume defaults to 100%, while saved choices survive (0.159375ms)
+✔ fade is gradual, overlapping pause reasons do not restart it, and volume changes scale its tail (0.102375ms)
+✔ a rapid resume cancels the fading pause without replaying, and stale callbacks cannot stop it (0.073083ms)
+✔ quick reveal, replacement and stop during a fade only apply the latest requested destination (0.096459ms)
+✔ canceling debate during its fade keeps the original song and unload immediately cancels timers (0.094542ms)
+✔ the last rejected play remains recoverable when a pending fade is canceled (0.09525ms)
+✔ awaitable stop completes after the actual fade, sharing an in-progress stop without extending it (0.091083ms)
+✔ awaitable stop immediately completes for absent, paused, muted or zero-volume audio (0.09875ms)
+✔ immediate cleanup or a replacement releases pending stop waiters without affecting later stops (0.101583ms)
+✔ a rejected play settles an awaited stop and cancels its remaining fade (0.065084ms)
+✔ failed audio or storage never blocks chapter progression (0.113667ms)
+✔ all seven local tracks match the copied original hashes (29.5835ms)
+✔ the six chapter route is complete, sequential and reaches Ending (2.661958ms)
+✔ Washington trust has reachable high and low Yorktown introductions (0.205666ms)
+✔ ending recounts recorded choices without inventing played combat or debate scores (0.368375ms)
+✔ 3D paths walk around buildings and never cut obstacle corners (8.599875ms)
+✔ blocked destinations snap nearby, disconnected regions return no path (7.120375ms)
+✔ keyboard walking normalizes diagonals, collides, and halts without drift (0.193709ms)
+✔ magenta key recovers blended contour colour and continuous alpha without cutting the dark outline (3.849875ms)
+✔ green key recovers blended contour colour and continuous alpha without cutting the dark outline (0.482541ms)
+✔ already transparent input is preserved and native partial alpha is multiplied by the matte (0.365875ms)
+✔ a tiny enclosed curl gap is unmixed even when it contains no exact background pixel (2.935416ms)
+✔ small green-background noise cannot become a pink fringe when divided by a tiny alpha (0.279333ms)
+✔ dark green blended into an enclosed brown curl is recovered without erasing the curl (3.041167ms)
+✔ green-key stabilization preserves burgundy clothing and warm skin at the silhouette (0.257666ms)
+✔ white-key matte removes the exterior while protecting white cloth enclosed by an outline (0.448167ms)
+✔ six cells are extracted in row-major order and a detached neighboring fragment does not affect framing (3.985667ms)
+✔ an emphasis hand extension never changes the head position or the scale between frames (2.537584ms)
+✔ artist-reviewed frame offsets can correct atlas drift before uniform registration (0.473667ms)
+✔ horizontal overscan preserves a connected hand across a column boundary and removes neighboring fragments (3.693792ms)
+✔ leftward overscan keeps a thumb at negative cell coordinates without borrowing the previous actor (1.212209ms)
+✔ unused trailing cells cannot turn overscanned hand fragments into extra frames or change registration (2.020208ms)
+✔ empty sheets stay transparent and invalid dimensions fail before processing (2.101ms)
+✔ the scene route graph lets every scene return to the street and rejects unknown URLs (1.944833ms)
+✔ tavern: real walking reaches every inspection and exit without crossing solid scenery (60.120209ms)
+✔ square: real walking reaches every inspection and exit without crossing solid scenery (74.000833ms)
+✔ camp: real walking reaches every inspection and exit without crossing solid scenery (20.424291ms)
+✔ yorktown: real walking reaches every inspection and exit without crossing solid scenery (20.415625ms)
+✔ sprite hit follows the current atlas frame, texture flipY, and alpha-test threshold (2.709042ms)
+✔ actual ray hits follow a mirrored actor silhouette instead of its rectangular plane (1.855166ms)
+✔ unavailable texture pixels or UVs retain geometric interaction as a fallback (0.091083ms)
+✔ argument art alternates, stays grounded, freezes on pause, and settles after interaction (2.615125ms)
+✔ Lafayette and Hamilton remain separated when standing on the recommended tavern diamond (1.339417ms)
+✔ both arguments have a distinct actor for every speaking role and mutually paired gestures (0.364667ms)
+✔ Opening: every story target is reachable in order with NPC footprints present (33.267791ms)
+✔ Arrival: every story target is reachable in order with NPC footprints present (18.918208ms)
+✔ Tavern: every story target is reachable in order with NPC footprints present (14.5405ms)
+✔ Debate: every story target is reachable in order with NPC footprints present (22.614666ms)
+✔ Washington: every story target is reachable in order with NPC footprints present (9.725333ms)
+✔ Yorktown: every story target is reachable in order with NPC footprints present (7.753166ms)
+✔ shared camp markers advance after the final reply, and chapter restart restores the first marker (2.612458ms)
+✔ separate locked places and every available tavern companion retain their markers (0.134333ms)
+✔ 3D story gates interactions and exits, and waits until the final line is acknowledged (0.098292ms)
+✔ 3D choices apply once and repeated chapter restarts restore the original entry state (0.121417ms)
+✔ Tavern deadlines begin after reading, exclude pause, cap suspension gaps, and fail forward (0.231291ms)
+✔ all six tavern orders require three distinct conversations and never replay an answer (0.466583ms)
+✔ restarting a partially answered out-of-order tavern resets all three companions and effects (0.096042ms)
+✔ 3D activities require confirmed results and cannot duplicate or leak effects after restart (0.273333ms)
+✔ 3D narrative evaluates state variants at interaction time and retains dispatch outcomes (0.202542ms)
+✔ the complete 3D route reaches the original ending after silence, losses and zero scores (0.86825ms)
+✔ voice defaults on, remembers off, and tolerates unavailable storage (1.297042ms)
+✔ speaker matching, sequential playback, interruption and stale owners never overlap (0.304333ms)
+✔ pause reasons and voice toggle retain position without resuming behind a modal (0.121333ms)
+✔ late play rejection cannot clear a replacement or a paused current line (0.198166ms)
+✔ autoplay refusal releases game timing and retries only the current line on a gesture (0.192416ms)
+✔ missing media and stalled loads release timing; destroy clears every pending clip (36.380375ms)
+✔ playback subscriptions expose loading, audible speech, buffering and each available queue cue (1.637334ms)
+✔ pause reasons, disabled speech, raw pause events and stop silence the current observable voice (0.31ms)
+✔ autoplay refusal remains observable and only a current gesture retry can start its animation (0.28675ms)
+✔ late media events and rejected requests cannot animate or clear a replacement speaker (0.228625ms)
+✔ all story roles resolve to local audio and narration is restricted to source dialogue (6.774625ms)
+ℹ tests 186
+ℹ suites 0
+ℹ pass 186
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1108.725959
+
+> project-hamilton-1776@0.5.0 test:releases
+> python3 -m unittest discover -s tests/releases -v
+
+test_activation_and_explicit_rollback (test_releases.ReleasesTest) ... ok
+test_archive_traversal_symlinks_and_duplicate_paths_are_rejected (test_releases.ReleasesTest) ... ok
+test_baseline_is_independent_and_cannot_be_overwritten (test_releases.ReleasesTest) ... ok
+test_failed_health_check_restores_previous_version (test_releases.ReleasesTest) ... ok
+test_hashed_asset_collision_does_not_overwrite_previous_asset (test_releases.ReleasesTest) ... ok
+test_install_verifies_archive_and_keeps_old_hashed_assets (test_releases.ReleasesTest) ... ok
+test_tampered_release_cannot_be_activated (test_releases.ReleasesTest) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.052s
+
+OK
+
+> project-hamilton-1776@0.5.0 prebuild
+> python3 scripts/releases.py stamp
+
+0.5.0
+
+> project-hamilton-1776@0.5.0 build
+> npm run check:i18n && tsc --noEmit && vite build
+
+
+> project-hamilton-1776@0.5.0 check:i18n
+> node --import tsx scripts/check-i18n.ts
+
+PASS bilingual source coverage: 84 files; required pairs and matching parameters
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 96 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.63 kB │ gzip:   0.43 kB
+dist/assets/transitions-D21GX5ly.css    0.55 kB │ gzip:   0.31 kB
+dist/assets/EntryScreen-vBm03KGv.css   12.30 kB │ gzip:   3.47 kB
+dist/assets/index-g0Ca4i4-.css         22.22 kB │ gzip:   6.05 kB
+dist/assets/Demo-By98j-J4.css          33.17 kB │ gzip:   8.10 kB
+dist/assets/index-D1dPHBZA.js           2.73 kB │ gzip:   1.34 kB
+dist/assets/EntryScreen-CBAgJ7jm.js    16.28 kB │ gzip:   6.44 kB
+dist/assets/transitions-CTynlZaG.js    57.14 kB │ gzip:  16.93 kB
+dist/assets/Demo-DTtJEDnl.js          886.39 kB │ gzip: 257.19 kB
+✓ built in 1.89s
+/Users/fangjie/Documents/Codex 项目/Hamilton/releases/0.5.0

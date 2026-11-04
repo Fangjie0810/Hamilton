@@ -1,0 +1,24 @@
+{
+  "method": "Built-in image_gen image edits; existing portraitPixels runtime matting retained",
+  "initial": [
+    {
+      "key": "citizen",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/citizen.png",
+      "prompt": "Use case: precise-object-edit. Edit this production pixel-art character sprite atlas, do NOT redesign the character. It is a 1536x1024 atlas, 3 equal 512x512 columns by 2 rows, 5 occupied cells and bottom-right empty. Primary repair: top row speech frames have anatomically confused duplicated forearms/hands. Repair top row all three cells so a SINGLE consistent natural TWO-ARM pose remains: the arm on viewer left bends up naturally from the left sleeve to put its hand at the man's chest; the arm on viewer right extends from its own elbow and cuff to one expressive palm-up hand. Exactly two arms and two hands per character, each hand attached to its own wrist, clean anatomically plausible fingers, no hand growing from another hand, no stray forearm or extra cuff. The two open-mouth frames are top-middle (small mouth opening) and top-right (wider mouth opening); keep these speaking expressions distinct. The closed-mouth top-left must match the repaired pose so animation has no hand jump. Maintain EXACT original face identity, concerned expression, skin tone, cream cap, dark curls, blue coat, brown waistcoat, white cuffs, pixel-art style and pixel scale. Keep matching body and hand positions across top row; only mouth changes. Preserve bottom two settled portraits, layout and facing right. Background stays exactly solid bright chroma green #00ff00, no shadows on background, no text, no new elements. Keep 3x2 grid and matching scale/position within each cell; all hands fully inside each cell. Output full replacement atlas of identical dimensions."
+    },
+    {
+      "key": "loyalist",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/loyalist.png",
+      "prompt": "Use case: precise-object-edit. Repair this existing production pixel-art character sprite atlas, preserving its art direction and identity. Atlas 1536x1024, 3 equal 512x512 columns and 2 rows, 5 occupied cells bottom-right blank. The two open-mouth speaking frames (top-middle and top-right) contain malformed hands/fingers. Carefully redraw the hand anatomy in those frames to match the sensible closed-mouth top-left pose: exactly TWO arms and TWO hands, viewer-left hand naturally gripping the stack of paper at chest/waist, viewer-right hand gesturing with the palm angled up and inward. Five anatomically plausible fingers per hand including one thumb, clearly separated sensible finger joints, no extra fingers, no doubled wrist, no hand-paper fusion, no crossed detached hand fragments. Match the wrist/cuff/gesture positions across ALL top-row speaking frames so mouth animation cannot make fingers jump; preserve the top-left closed mouth, middle small opening and right wider speaking mouth. Keep original young man identity, brown swept-back tied hair, serious assertive demeanor, red coat, gold buttons, white cravat, paper stack, exact pixel-art rendering scale, all three top row torsos registered at the same position facing right. Preserve bottom-left challenging and bottom-middle calm portraits. Keep the exact 3x2 grid, scale and positions, uniform #00ff00 chroma-green background, no labels, no new figures. No cropped hands or overflow between cells. Output the full corrected atlas at the original dimensions."
+    }
+  ],
+  "followup": {
+    "character": "citizen",
+    "prompt": "Edit this exact 1536x1024 3-column by 2-row pixel portrait sprite atlas, each cell 512x512. Top row three frames have already been repaired: PRESERVE THEM EXACTLY, no changes. Bottom-middle calm frame also preserve exactly. Fix ONLY BOTTOM-LEFT approval/smiling frame: it currently has one arm hanging down without its hand and two forearms attached on the viewer-right, anatomically impossible. Rebuild both arms like the TOP-LEFT correctly repaired reference pose: viewer-left blue sleeve bends at its elbow into a light cuff and ONE forearm diagonally rising to a fist at the chest; viewer-right blue sleeve bends into its separate cuff and ONE forearm with ONE palm-up gesturing hand. Exactly two arms and two hands. Keep the bottom-left smiling face/expression, cap, clothing, identity and original sprite pixel style. Keep no textual labels, pure #00ff00 background and blank bottom-right cell. Return entire same-size atlas with only bottom-left arm anatomy repaired."
+  },
+  "outputs": {
+    "citizen": "public/art/main-pixel/v2/citizen.png",
+    "loyalist": "public/art/main-pixel/v2/loyalist.png"
+  },
+  "originalsPreserved": "public/art/main-pixel/v1/"
+}

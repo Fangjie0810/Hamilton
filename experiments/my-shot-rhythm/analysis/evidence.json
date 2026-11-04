@@ -1,0 +1,317 @@
+{
+  "audio": {
+    "duration": 333.15414965986395,
+    "sha256": "0fd2db17b382826c5132c63954e6d846c6bd84e50156d1a1bef89b4ad8be8a3c"
+  },
+  "timing": {
+    "estimatedMainBpm": 91,
+    "firstTrackedPulse": 0.3250793650793651,
+    "pulseCount": 503,
+    "pulseIntervalPercentiles": [
+      0.6211337868480769,
+      0.6501587301587222,
+      0.6617687074829917,
+      0.6786031746031599,
+      0.7314285714285802
+    ],
+    "tempoMap": [
+      {
+        "time": 0.3251,
+        "beat": 0,
+        "endTime": 10.9018,
+        "bpm": 90.766
+      },
+      {
+        "time": 10.9018,
+        "beat": 16,
+        "endTime": 21.5539,
+        "bpm": 90.123
+      },
+      {
+        "time": 21.5539,
+        "beat": 32,
+        "endTime": 32.1248,
+        "bpm": 90.815
+      },
+      {
+        "time": 32.1248,
+        "beat": 48,
+        "endTime": 42.6725,
+        "bpm": 91.015
+      },
+      {
+        "time": 42.6725,
+        "beat": 64,
+        "endTime": 53.3304,
+        "bpm": 90.074
+      },
+      {
+        "time": 53.3304,
+        "beat": 80,
+        "endTime": 63.8897,
+        "bpm": 90.915
+      },
+      {
+        "time": 63.8897,
+        "beat": 96,
+        "endTime": 74.4432,
+        "bpm": 90.965
+      },
+      {
+        "time": 74.4432,
+        "beat": 112,
+        "endTime": 84.9966,
+        "bpm": 90.965
+      },
+      {
+        "time": 84.9966,
+        "beat": 128,
+        "endTime": 95.5385,
+        "bpm": 91.066
+      },
+      {
+        "time": 95.5385,
+        "beat": 144,
+        "endTime": 106.0978,
+        "bpm": 90.915
+      },
+      {
+        "time": 106.0978,
+        "beat": 160,
+        "endTime": 116.628,
+        "bpm": 91.166
+      },
+      {
+        "time": 116.628,
+        "beat": 176,
+        "endTime": 127.1989,
+        "bpm": 90.815
+      },
+      {
+        "time": 127.1989,
+        "beat": 192,
+        "endTime": 137.822,
+        "bpm": 90.369
+      },
+      {
+        "time": 137.822,
+        "beat": 208,
+        "endTime": 148.5264,
+        "bpm": 89.683
+      },
+      {
+        "time": 148.5264,
+        "beat": 224,
+        "endTime": 159.1205,
+        "bpm": 90.616
+      },
+      {
+        "time": 159.1205,
+        "beat": 240,
+        "endTime": 169.8017,
+        "bpm": 89.878
+      },
+      {
+        "time": 169.8017,
+        "beat": 256,
+        "endTime": 180.3668,
+        "bpm": 90.865
+      },
+      {
+        "time": 180.3668,
+        "beat": 272,
+        "endTime": 190.9145,
+        "bpm": 91.015
+      },
+      {
+        "time": 190.9145,
+        "beat": 288,
+        "endTime": 201.4621,
+        "bpm": 91.015
+      },
+      {
+        "time": 201.4621,
+        "beat": 304,
+        "endTime": 212.004,
+        "bpm": 91.066
+      },
+      {
+        "time": 212.004,
+        "beat": 320,
+        "endTime": 222.5633,
+        "bpm": 90.915
+      },
+      {
+        "time": 222.5633,
+        "beat": 336,
+        "endTime": 233.1283,
+        "bpm": 90.865
+      },
+      {
+        "time": 233.1283,
+        "beat": 352,
+        "endTime": 243.7805,
+        "bpm": 90.123
+      },
+      {
+        "time": 243.7805,
+        "beat": 368,
+        "endTime": 254.4443,
+        "bpm": 90.024
+      },
+      {
+        "time": 254.4443,
+        "beat": 384,
+        "endTime": 265.1022,
+        "bpm": 90.074
+      },
+      {
+        "time": 265.1022,
+        "beat": 400,
+        "endTime": 275.7718,
+        "bpm": 89.976
+      },
+      {
+        "time": 275.7718,
+        "beat": 416,
+        "endTime": 286.4646,
+        "bpm": 89.78
+      },
+      {
+        "time": 286.4646,
+        "beat": 432,
+        "endTime": 297.3083,
+        "bpm": 88.531
+      },
+      {
+        "time": 297.3083,
+        "beat": 448,
+        "endTime": 307.8385,
+        "bpm": 91.166
+      },
+      {
+        "time": 307.8385,
+        "beat": 464,
+        "endTime": 318.3746,
+        "bpm": 91.116
+      },
+      {
+        "time": 318.3746,
+        "beat": 480,
+        "endTime": 329.1254,
+        "bpm": 89.295
+      },
+      {
+        "time": 329.1254,
+        "beat": 496,
+        "endTime": 333.1483,
+        "bpm": 89.489
+      }
+    ]
+  },
+  "acousticNoveltyPeaks": [
+    {
+      "beat": 32,
+      "time": 21.5539,
+      "novelty": 3.215
+    },
+    {
+      "beat": 63,
+      "time": 42.0165,
+      "novelty": 2.064
+    },
+    {
+      "beat": 103,
+      "time": 68.5105,
+      "novelty": 1.564
+    },
+    {
+      "beat": 145,
+      "time": 96.2003,
+      "novelty": 2.466
+    },
+    {
+      "beat": 193,
+      "time": 127.8723,
+      "novelty": 4.356
+    },
+    {
+      "beat": 255,
+      "time": 169.1283,
+      "novelty": 3.834
+    },
+    {
+      "beat": 288,
+      "time": 190.9145,
+      "novelty": 4.007
+    },
+    {
+      "beat": 318,
+      "time": 210.7037,
+      "novelty": 2.573
+    },
+    {
+      "beat": 351,
+      "time": 232.4724,
+      "novelty": 3.58
+    },
+    {
+      "beat": 375,
+      "time": 248.4477,
+      "novelty": 2.92
+    },
+    {
+      "beat": 447,
+      "time": 296.6117,
+      "novelty": 2.139
+    },
+    {
+      "beat": 493,
+      "time": 327.024,
+      "novelty": 2.333
+    }
+  ],
+  "charts": {
+    "beginner": {
+      "notes": 341,
+      "peakNotesInOneSecond": 2,
+      "doubleAccents": 0,
+      "offbeatNotes": 0,
+      "firstNote": 2.3568,
+      "lastNote": 328.394
+    },
+    "normal": {
+      "notes": 639,
+      "peakNotesInOneSecond": 5,
+      "doubleAccents": 23,
+      "offbeatNotes": 176,
+      "firstNote": 2.3568,
+      "lastNote": 328.7423
+    }
+  },
+  "attackProximity": {
+    "referencePeakCount": 2157,
+    "definition": "Nearest 2.4–10 kHz flux peak; height >= 75th percentile, prominence >= 0.4 * median, separation >= 60 ms.",
+    "interpretation": "Transient proximity only: same recording, no independent human timing ground truth. Voices can produce high-band peaks.",
+    "beginner": {
+      "meanMs": 8.954,
+      "medianMs": 0.037,
+      "p95Ms": 34.869,
+      "within30MsPercent": 93.55,
+      "within60MsPercent": 97.65
+    },
+    "normal": {
+      "meanMs": 8.264,
+      "medianMs": 0.037,
+      "p95Ms": 40.601,
+      "within30MsPercent": 93.11,
+      "within60MsPercent": 97.65
+    }
+  },
+  "limitations": [
+    "Band-limited attacks are not isolated percussion; voices can also create attacks.",
+    "4-pulse grouping is editorial, not a verified original score bar origin.",
+    "No lyric/syllable transcription or full human listening pass has been performed.",
+    "Calibration corrects device latency; it cannot repair a badly aligned chart."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "S03",
+  "title": "保护账册 · 清理落点",
+  "refs": [
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/cg-opening-frames/v2/01-leaking-countinghouse-v2.png"
+  ],
+  "prompt": "Edit the attached live-action movie frame with ONE localized practical correction: create a clear dry landing area on the shelf exactly where the boy is about to put the closed ledger he is already holding. Remove the few other books or paper bundles immediately behind and below the held ledger, so a single visible horizontal shelf surface has enough empty width, depth and vertical clearance for that ledger to be put down flat. That destination surface should be dry; the existing roof drip remains farther to the right falling on the wet end of the counter, never above the cleared landing area.\nPreserve everything else: exact camera, crop, boy's same back/side face, both hands already supporting the same closed ledger at the same height, identity, hair, posture, wardrobe, other shelf sections, foreground sack, counter, doorway, cargo worker, tropical foliage, room materials, texture, color and naturally uneven light. Do not reposition the actor, add another arm, change the ledger, beautify the scene, make the clothes cleaner, move furniture, widen the shot or create any new props. It must remain an unpolished photographic frame of a real working Caribbean room. No text, symbols, captions, borders or watermark. The only change is physically usable clearance for the next action.",
+  "status": "completed_static_checked_video_and_platform_acceptance_pending",
+  "output": "firstframes/S03.png",
+  "source_output": "/Users/fangjie/.codex/generated_images/01a0812f-4853-7330-8d19-c12cd1b6dd95/exec-090f0fa6-43ad-4772-96ed-2c367a97b140.png",
+  "note": "原始图片生成请求记录。视频动作以 prompts/ 中经实际首帧核对后的最终提示词为准。"
+}

@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "direction": "s",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "idle": 12,
+      "flip": "false"
+    },
+    {
+      "direction": "se",
+      "frames": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "idle": 16,
+      "flip": "false"
+    },
+    {
+      "direction": "e",
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "idle": 14,
+      "flip": "false"
+    },
+    {
+      "direction": "ne",
+      "frames": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "idle": 21,
+      "flip": "false"
+    },
+    {
+      "direction": "n",
+      "frames": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "idle": 13,
+      "flip": "false"
+    },
+    {
+      "direction": "nw",
+      "frames": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "idle": 21,
+      "flip": "true"
+    },
+    {
+      "direction": "w",
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "idle": 14,
+      "flip": "true"
+    },
+    {
+      "direction": "sw",
+      "frames": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "idle": 16,
+      "flip": "true"
+    }
+  ],
+  "cameraPlayerViews": [
+    "se",
+    "s",
+    "sw",
+    "w",
+    "nw",
+    "n",
+    "ne",
+    "e"
+  ],
+  "cameraBurrViews": [
+    "s",
+    "sw",
+    "w",
+    "nw",
+    "n",
+    "ne",
+    "e",
+    "se"
+  ],
+  "errors": [],
+  "missing": []
+}

@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "prologue and Arrival entry remain uninterrupted, including transition blur/resume",
+    "all five compass sections reopen their own concise meaning with keyboard focus restored",
+    "arrival-newspaper: correct end-of-interaction trigger, concise copy, 4 languages at 1440px and 390px, state and feedback preserved, settings pause/resume",
+    "arrival-street: correct end-of-interaction trigger, concise copy, 4 languages at 1440px and 390px, state and feedback preserved",
+    "arrival-burr: correct end-of-interaction trigger, concise copy, 4 languages at 1440px and 390px, state and feedback preserved",
+    "chapter checkpoint restores original rewards while already-read tutorials stay deduplicated",
+    "Tavern settings and language switching preserve and resume the existing choice timer",
+    "manual growth review preserves the existing minigame instance, score, timer, and assistance",
+    "washington-offer: correct end-of-interaction trigger, concise copy, 4 languages at 1440px and 390px, state and feedback preserved",
+    "Washington tutorial follows the first reply even when trust falls to zero, then stays deduplicated on restart"
+  ],
+  "errors": [],
+  "failures": []
+}

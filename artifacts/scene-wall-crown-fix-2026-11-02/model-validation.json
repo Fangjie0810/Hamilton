@@ -1,0 +1,44 @@
+[
+  {
+    "scene": "street",
+    "file": "artifacts/scene-wall-crown-fix-2026-11-02/models/hamilton-street-wall-crown-2026-11-02.glb",
+    "bytes": 3773868,
+    "highWallCrowns": 58,
+    "lowWallCaps": 15,
+    "relics": [
+      "street-hamilton-notebook",
+      "street-burr-seal",
+      "street-mulligan-scissors",
+      "street-laurens-token"
+    ],
+    "sha256": "01682e9ee230775d8710521f3d0991bfd8d19fced30a210bfe990e2b29621194"
+  },
+  {
+    "scene": "tavern",
+    "file": "artifacts/scene-wall-crown-fix-2026-11-02/models/hamilton-tavern-wall-crown-2026-11-02.glb",
+    "bytes": 3115644,
+    "highWallCrowns": 60,
+    "lowWallCaps": 13,
+    "relics": [
+      "tavern-laurens-letter",
+      "tavern-lafayette-ribbon",
+      "tavern-mulligan-thimble",
+      "tavern-hamilton-quill"
+    ],
+    "sha256": "eb665a1750827cbed6c3eb71ca44bd7369e1966037ba5aff097db3e038b63b0f"
+  },
+  {
+    "scene": "ballroom",
+    "file": "artifacts/scene-wall-crown-fix-2026-11-02/models/hamilton-ballroom-wall-crown-2026-11-02.glb",
+    "bytes": 1617468,
+    "highWallCrowns": 66,
+    "lowWallCaps": 13,
+    "relics": [
+      "ballroom-angelica-fan",
+      "ballroom-eliza-locket",
+      "ballroom-burr-card",
+      "ballroom-hamilton-button"
+    ],
+    "sha256": "f242151c7bfade3fc88d10e1fbee3fafd03f48467f91edc94c591da1075bba1e"
+  }
+]

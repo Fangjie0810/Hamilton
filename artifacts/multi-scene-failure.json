@@ -1,0 +1,287 @@
+{
+  "message": "Error: locator.click: Error: strict mode violation: locator('.d3-actions .d3-back') resolved to 2 elements:\n    1) <a data-localized=\"\" href=\"/?story=3d\" class=\"d3-story-link d3-back\">…</a> aka getByRole('link', { name: '开始三维主线 → Play the 3D Story →' })\n    2) <a href=\"/\" class=\"d3-back\" data-localized=\"\">…</a> aka getByRole('link', { name: '返回六幕故事 ↗ Return to the six-' })\n\nCall log:\n\u001b[2m  - waiting for locator('.d3-actions .d3-back')\u001b[22m\n",
+  "state": {
+    "engine": "three.js r185",
+    "mode": "explore",
+    "localized": "",
+    "ready": "true",
+    "scene": "tavern",
+    "x": "0.000",
+    "z": "6.000",
+    "frame": "16",
+    "facing": "sw",
+    "flipped": "true",
+    "burrFacing": "s",
+    "burrFrame": "15",
+    "burrFlipped": "false",
+    "moving": "false",
+    "paused": "false",
+    "talking": "false",
+    "path": "0",
+    "discovered": "0",
+    "quality": "balanced",
+    "yaw": "0.380",
+    "cutaways": "1",
+    "calls": "795",
+    "triangles": "37015",
+    "geometries": "263",
+    "textures": "16"
+  },
+  "scene": {
+    "id": "tavern",
+    "spawn": {
+      "x": 0,
+      "z": 6
+    },
+    "points": [
+      {
+        "id": "companions",
+        "position": {
+          "x": 0,
+          "z": -0.2
+        },
+        "title": {
+          "zh": "长桌 · 同伴的席位",
+          "en": "The long table · Seats for companions"
+        },
+        "body": {
+          "zh": "四只杯子围着摊开的报纸。劳伦斯、拉法耶特与穆里根的座位还空着；这一桌将把各自的雄心，变成共同的行动。",
+          "en": "Four cups surround an open newspaper. The seats of Laurens, Lafayette and Mulligan are still empty; around this table, separate ambitions will become a common cause."
+        }
+      },
+      {
+        "id": "hearth",
+        "position": {
+          "x": 6,
+          "z": -4
+        },
+        "title": {
+          "zh": "炉火 · 城里的传闻",
+          "en": "The hearth · Rumors in the city"
+        },
+        "body": {
+          "zh": "柴火在砖炉里燃烧。港口封锁、军需短缺、独立的消息，都曾在这里被低声重复，再被带到街上。",
+          "en": "Logs burn in the brick hearth. Word of blockades, shortages and independence has passed quietly through this room before reaching the streets."
+        }
+      },
+      {
+        "id": "manuscript",
+        "position": {
+          "x": 2,
+          "z": -4.7
+        },
+        "title": {
+          "zh": "手稿 · 尚未发出的声音",
+          "en": "The manuscript · A voice not yet heard"
+        },
+        "body": {
+          "zh": "蜡烛照着未写完的段落。把激动写成一句能说服人的话，比高声喊出它更难。一页草稿，也许就是明天街头争论的开始。",
+          "en": "A candle lights an unfinished paragraph. Turning conviction into a persuasive sentence is harder than shouting it. A draft on this desk may begin tomorrow’s argument in the streets."
+        }
+      }
+    ],
+    "exits": [
+      {
+        "id": "street-door",
+        "position": {
+          "x": 0,
+          "z": 7.5
+        },
+        "to": "street",
+        "title": {
+          "zh": "回到纽约街角",
+          "en": "Return to the New York street"
+        }
+      },
+      {
+        "id": "square-door",
+        "position": {
+          "x": 8,
+          "z": 6
+        },
+        "to": "square",
+        "title": {
+          "zh": "前往辩论广场",
+          "en": "Continue to the debate square"
+        }
+      }
+    ]
+  },
+  "errors": [],
+  "failures": [],
+  "results": [
+    {
+      "scene": "tavern",
+      "routes": [
+        {
+          "id": "companions",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "hearth",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "manuscript",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "street-door",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "square-door",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        }
+      ],
+      "inspected": "companions",
+      "exit": {
+        "id": "street-door",
+        "to": "street"
+      }
+    },
+    {
+      "scene": "square",
+      "routes": [
+        {
+          "id": "platform",
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        },
+        {
+          "id": "printing",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "notices",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "tavern-road",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "camp-road",
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        }
+      ],
+      "inspected": "platform",
+      "exit": {
+        "id": "camp-road",
+        "to": "camp"
+      }
+    },
+    {
+      "scene": "camp",
+      "routes": [
+        {
+          "id": "command",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "supplies",
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        },
+        {
+          "id": "campfire",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "square-road",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "yorktown-road",
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        }
+      ],
+      "inspected": "command",
+      "exit": {
+        "id": "square-road",
+        "to": "square"
+      }
+    },
+    {
+      "scene": "yorktown",
+      "routes": [
+        {
+          "id": "assembly",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "battery",
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        },
+        {
+          "id": "redoubt",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "id": "camp-road",
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        }
+      ],
+      "inspected": "assembly",
+      "exit": {
+        "id": "camp-road",
+        "to": "camp"
+      }
+    }
+  ]
+}

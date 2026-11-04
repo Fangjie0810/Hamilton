@@ -1,0 +1,67 @@
+{
+  "tool": "built-in image_gen",
+  "totalFrames": 59,
+  "poseGroups": 41,
+  "assets": [
+    {
+      "id": "hamilton",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-19abc4b4-cc81-46c7-a639-4957839e9b25.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/hamilton.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "burr",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-aed05e5f-a98f-4441-ac55-9d315c175c32.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/burr.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "washington",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-630cd861-0981-47cb-8c2e-3103e1de1f2e.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/washington.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "laurens",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-ac00772e-b504-4cf4-a845-8a122bd92826.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/laurens.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "lafayette",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-b72801ad-73e0-4795-9a08-0d22747f1a8e.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/lafayette.png",
+      "observedFacing": "left"
+    },
+    {
+      "id": "mulligan",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-9b99ed32-d8ea-4284-8ba1-f6cac625ed70.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/mulligan.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "loyalist",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-99c08afc-39e9-4607-9dc4-161c0dbd5499.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/loyalist.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "newsboy",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-9190bc9f-0d9c-4f2a-9962-e216bb06b8c8.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/newsboy.png",
+      "observedFacing": "left"
+    },
+    {
+      "id": "citizen",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-15d6e82a-3896-4abc-a0ed-9b64b9661391.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/citizen.png",
+      "observedFacing": "right"
+    },
+    {
+      "id": "narrator",
+      "source": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-d6563d95-46bb-4693-89b8-9a6d763595e3.png",
+      "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/main-pixel/v1/narrator.png",
+      "observedFacing": "right"
+    }
+  ]
+}

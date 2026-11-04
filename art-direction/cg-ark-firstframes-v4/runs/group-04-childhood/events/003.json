@@ -1,0 +1,10 @@
+{
+  "type": "image_generation.completed",
+  "model": "doubao-seedream-5-0-260128",
+  "created": 1789030928,
+  "usage": {
+    "generated_images": 2,
+    "output_tokens": 28800,
+    "total_tokens": 28800
+  }
+}

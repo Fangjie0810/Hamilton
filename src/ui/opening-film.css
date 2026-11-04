@@ -1,0 +1,17 @@
+.opening-film { position: fixed; inset: 0; z-index: 1000; isolation: isolate; color: #eee7d6; }
+.opening-film-picture { position: absolute; inset: 0; background: #000; display: grid; place-items: center; }
+.opening-film-video { display: block; width: 50%; height: 50%; object-fit: contain; opacity: 0; transition: opacity 550ms ease; }
+.opening-film-video.is-playing { opacity: 1; }
+.opening-film-controls { position: absolute; right: max(24px, env(safe-area-inset-right)); bottom: max(24px, env(safe-area-inset-bottom)); display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; max-width: calc(100% - 48px); }
+.opening-film-controls button { background: #100e0cd9; border: 1px solid #cbae7366; padding: 10px 16px; min-height: 44px; font-size: 12px; line-height: 1.5; border-radius: 2px; }
+.opening-film-controls button:hover { background: #30291f; border-color: #cbae73; }
+.opening-film-controls .text-secondary { display: block; font-size: 10px; color: #e2d5bb; }
+.opening-film-controls button:disabled { opacity: .5; }
+.opening-film-volume { display: flex; align-items: center; gap: 12px; padding: 8px 12px; min-height: 44px; box-sizing: border-box; background: #100e0cd9; border: 1px solid #cbae7366; border-radius: 2px; font-size: 12px; }
+.opening-film-volume .audio-volume-control { flex: 0 1 150px; width: 150px; }
+.opening-film-volume input:focus-visible { outline: 2px solid #cbae73; outline-offset: 2px; }
+.opening-film-status { position: absolute; left: 24px; right: 24px; bottom: 110px; margin: 0; text-align: center; font-size: 14px; line-height: 1.8; text-shadow: 0 2px 8px #000; }
+.opening-film-status .text-secondary { display: block; }
+.opening-film-status[hidden] { display: none; }
+@media (max-width: 600px) { .opening-film-controls { right: 16px; bottom: 16px; max-width: calc(100% - 32px); gap: 6px; } .opening-film-controls button { padding: 8px 12px; } .opening-film-volume { order: -1; flex-basis: 100%; justify-content: space-between; } .opening-film-volume .audio-volume-control { flex: 0 1 190px; width: auto; } .opening-film-status { bottom: 150px; } }
+@media (prefers-reduced-motion: reduce) { .opening-film-video { transition-duration: 250ms; } }

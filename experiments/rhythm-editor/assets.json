@@ -1,0 +1,23 @@
+{
+  "my-shot": {
+    "fileName": "my-shot.mp3",
+    "sha256": "0fd2db17b382826c5132c63954e6d846c6bd84e50156d1a1bef89b4ad8be8a3c",
+    "byteLength": 5331821,
+    "mimeType": "audio/mpeg",
+    "asset": "audio/my-shot.mp3"
+  },
+  "helpless": {
+    "fileName": "helpless.mp3",
+    "sha256": "90684a3a9653089da594b30b496b006d082c1c701bcc674046b0479910dc8c97",
+    "byteLength": 3997685,
+    "mimeType": "audio/mpeg",
+    "asset": "audio/helpless.mp3"
+  },
+  "alexander-hamilton": {
+    "fileName": "alexander-hamilton.mp3",
+    "sha256": "7cbeef9e3d5c4becdb13f66658a26b18c8761ea50b4669cd08680adbd8893816",
+    "byteLength": 3789150,
+    "mimeType": "audio/mpeg",
+    "asset": "audio/alexander-hamilton.mp3"
+  }
+}

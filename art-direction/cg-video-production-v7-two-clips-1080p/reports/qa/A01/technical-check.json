@@ -1,0 +1,13 @@
+{
+  "id": "A01",
+  "video": "/Users/fangjie/Documents/Codex \u9879\u76ee/Hamilton/art-direction/cg-video-production-v7-two-clips-1080p/runs/b269e868e5d8c26c/videos/A01-cgt-20260911132550-hu0pd.mp4",
+  "decode": "passed",
+  "width": 1920,
+  "height": 1080,
+  "codec": "hevc",
+  "pixel_format": "yuv420p10le",
+  "fps": "24/1",
+  "duration": "30.041667",
+  "audio_tracks": 0,
+  "samples": 30
+}

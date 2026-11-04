@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>主像素美术 · 正式素材评审 / Main pixel art review</title>
+  <style>
+    :root{color-scheme:dark;--page:#141a20;--surface:#202933;--surface-2:#192129;--ink:#eee9db;--muted:#b6b9b8;--line:#48545c;--gold:#e2bf7b;--matte:#17222c;font-family:system-ui,-apple-system,"PingFang SC",sans-serif;background:var(--page);color:var(--ink)}
+    *{box-sizing:border-box}body{margin:0}button,select{font:inherit}button,select,a{touch-action:manipulation}button,select{border:1px solid var(--line);border-radius:7px;background:var(--surface-2);color:var(--ink);padding:9px 12px;min-height:43px}button{cursor:pointer}button:hover,button[aria-pressed=true]{border-color:var(--gold);background:#514331;color:#fff0ce}a{color:var(--gold)}main{max-width:1440px;margin:auto;padding:36px 32px 70px}header{display:flex;gap:24px;align-items:flex-end;justify-content:space-between;margin-bottom:22px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:.15em;text-transform:uppercase}h1{font:600 clamp(26px,3.2vw,40px)/1.2 Georgia,"Songti SC",serif;margin:9px 0}h1 small{display:block;font:500 14px/1.6 system-ui,sans-serif;color:var(--muted);letter-spacing:.02em;margin-top:7px}.intro{max-width:800px;color:var(--muted);line-height:1.7;margin:0}.summary{border:1px solid var(--line);padding:13px 17px;border-radius:8px;font-size:13px;min-width:170px;white-space:nowrap;line-height:1.7}.summary strong{font-size:20px;color:var(--gold)}.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:end}.field{display:grid;gap:5px;font-size:12px;color:var(--muted)}.field select{min-width:180px}.preview-shell{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;margin:25px 0 32px}.preview-stage{position:relative;--dialogue-portrait-height:350px;margin:18px 0 0;padding-top:350px;background:var(--matte);border-radius:8px;overflow:hidden}.preview-anchor{position:relative}.preview-stage .dialogue-portraits{inset:auto 0 100%}.preview-stage .dialogue-portrait-slot[data-side=left]{left:7%}.preview-stage .dialogue-portrait-slot[data-side=right]{right:7%}.dialogue-strip{min-height:91px;padding:16px 25px;background:#302c27;border-top:2px solid var(--gold);color:#f5ebd5}.dialogue-strip strong{color:#f4ce87;font-size:17px}.dialogue-strip p{margin:7px 0 0;font-size:13px;line-height:1.5;color:#d6cdbb}.section-label{display:flex;align-items:baseline;gap:10px;margin:20px 0 10px;font-size:13px;color:var(--muted)}.pose-controls{display:flex;gap:7px;flex-wrap:wrap}.pose-controls button{font-size:12px;padding:7px 10px}.help{color:var(--muted);font-size:12px;line-height:1.7;margin:12px 0 0}.gallery-heading{display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap}.gallery-heading h2{font-size:22px;margin:0}.gallery-heading h2 small{font-size:13px;font-weight:400;color:var(--muted);margin-left:8px}.jump-links{display:flex;flex-wrap:wrap;gap:9px 16px;margin:20px 0 30px;font-size:13px}.character-section{scroll-margin-top:20px;border-top:1px solid var(--line);padding-top:25px;margin-top:30px}.character-heading{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-bottom:18px}.character-heading h3{font-size:21px;margin:0}.character-heading h3 small{font-size:13px;font-weight:400;color:var(--muted);margin-left:8px}.source-link{font-size:12px;white-space:nowrap}.frames{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.frame-card{margin:0;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}.frame-matte{background:var(--matte);aspect-ratio:4/5;display:flex;align-items:end;justify-content:center}.frame-matte canvas{display:block;width:100%;height:100%;object-fit:contain;image-rendering:pixelated}.frame-card figcaption{padding:11px 12px;font-size:13px;line-height:1.5;min-height:61px}.frame-card figcaption small{display:block;color:var(--muted);font-size:11px}.frame-id{float:right;color:var(--muted);font-family:monospace}.load-error{color:#ffc1b4;border:1px solid #b66d5f;padding:20px;border-radius:8px}.pending{color:var(--muted);font-size:13px}.matte-light{--matte:#f4f1e9}.matte-checker{--matte:repeating-conic-gradient(#e4e1d9 0% 25%,#bcbdb9 0% 50%) 50%/20px 20px}.status-error{color:#ffb5a9}footer{color:var(--muted);font-size:12px;line-height:1.8;margin-top:35px;border-top:1px solid var(--line);padding-top:20px}
+    @media(max-width:900px){.frames{grid-template-columns:repeat(3,minmax(0,1fr))}header{align-items:start}.summary{white-space:normal;min-width:145px}.preview-stage{--dialogue-portrait-height:300px;padding-top:300px}.field select{min-width:145px}}
+    @media(max-width:600px){main{padding:23px 14px 45px}header{display:block}.summary{margin-top:18px;display:inline-block}h1{font-size:27px}.intro{font-size:13px}.preview-shell{padding:12px}.preview-stage{--dialogue-portrait-height:240px;padding-top:240px}.preview-stage .dialogue-portrait-slot[data-side=left]{left:1%}.preview-stage .dialogue-portrait-slot[data-side=right]{right:1%}.field{flex:1;min-width:125px}.field select{width:100%;min-width:0}.frames{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.frame-card figcaption{font-size:11px;padding:9px;min-height:63px}.frame-card figcaption small{font-size:10px}.character-heading h3{font-size:17px}.character-heading h3 small{display:block;margin:4px 0 0}.dialogue-strip{padding:13px 16px}.gallery-heading h2{font-size:19px}.gallery-heading h2 small{display:block;margin:5px 0}.source-link{font-size:10px}.tools{gap:7px}.tools button{font-size:12px;padding:8px}.pose-controls button{font-size:11px}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><div class="eyebrow">Hamilton · Main pixel art</div><h1>人物会说，也会听。<small>Dialogue portraits · Speaking, listening &amp; reacting</small></h1><p class="intro">正式主像素素材评审：查看人物轮廓、说话口型与态度反应。<br>Review the production portraits, speech frames and character reactions.</p></div>
+    <div class="summary"><strong id="expected-count">10 / 59</strong><br>角色 / 原画帧 · Roles / Frames<br><span id="load-status">正在载入 / Loading…</span></div>
+  </header>
+  <section class="preview-shell" aria-label="双人姿态检查 / Two-character pose review">
+    <div class="tools">
+      <label class="field">说话者 / Speaker<select id="speaker"></select></label>
+      <label class="field">听者 / Listener<select id="listener"></select></label>
+      <button id="swap">交换角色 / Swap</button>
+      <button id="ready" aria-pressed="true">句前 / Ready</button>
+      <button id="talk" aria-pressed="false">说话演示 / Speech</button>
+      <button id="settled" aria-pressed="false">句后反应 / After speech</button>
+    </div>
+    <div class="preview-stage" id="preview-stage"><div class="preview-anchor" id="preview-anchor"><div class="dialogue-strip"><strong id="preview-name"></strong><p id="preview-caption">姿态检查，无音频播放。/ Pose review; no audio is playing.</p></div></div></div>
+    <div class="section-label">逐态度查看 / Inspect a reaction</div><div class="pose-controls" id="poses"></div>
+    <p class="help">此处为手动动作演示，未连接配音。游戏由实际语音播放驱动口型；句后保持反应，听者保留灰黑蒙版。<br>This is a manual motion study without audio. In the game, actual voice playback drives the mouth frames; the finished reaction remains visible and the listener stays shaded.</p>
+  </section>
+  <div class="gallery-heading"><h2>全部原画帧<small>Every authored frame</small></h2><div class="tools" id="matte-controls"><button data-matte="dark" aria-pressed="true">深底 / Dark</button><button data-matte="light" aria-pressed="false">浅底 / Light</button><button data-matte="checker" aria-pressed="false">棋盘 / Checker</button></div></div>
+  <p class="help">下列画布使用游戏内相同的背景解混与统一帧定位；切换底色检查发丝、手指与衣服边缘。<br>These canvases use the game's background unmixing and shared frame registration. Change the background to inspect hair, fingers and clothing edges.</p>
+  <nav class="jump-links" id="jump-links" aria-label="角色索引 / Character index"></nav>
+  <div id="gallery"></div>
+  <footer>主像素美术用于对话框；场景中跑动的人物继续使用 Q 版像素美术。<br>Main pixel portraits appear above dialogue. Characters moving through the world continue to use the chibi pixel art.</footer>
+</main>
+<script type="module">
+import { MAIN_PIXEL_ART, MAIN_PIXEL_FRAME_COUNT } from '/src/data/mainPixelArt.ts';
+import { extractPortraitFrames } from '/src/ui/portraitPixels.ts';
+import { DialoguePortraits, preloadDialoguePortraits } from '/src/ui/DialoguePortraits.ts';
+
+const names={hamilton:['汉密尔顿','Hamilton'],burr:['伯尔','Burr'],washington:['华盛顿','Washington'],laurens:['劳伦斯','Laurens'],lafayette:['拉法耶特','Lafayette'],mulligan:['穆利根','Mulligan'],loyalist:['保皇派','Loyalist'],newsboy:['报童','Newsboy'],citizen:['市民','Citizen'],narrator:['伊莱莎 · 记录者','Eliza · Chronicler']};
+const poseNames={assertive:['昂扬 / 辩说','Assertive'],reflect:['思索','Reflective'],approve:['认可','Approval'],concern:['担忧','Concern'],command:['号令','Command'],calm:['平静','Calm'],challenge:['质疑','Challenge'],amused:['笑意','Amused'],write:['记录','Writing'],turn:['翻页','Page turn']};
+const ids=Object.keys(MAIN_PIXEL_ART), $=id=>document.getElementById(id), speakerSelect=$('speaker'), listenerSelect=$('listener');
+const make=(tag,className,text)=>{const node=document.createElement(tag);if(className)node.className=className;if(text)node.textContent=text;return node;};
+for(const id of ids){for(const select of [speakerSelect,listenerSelect]){const option=make('option','',names[id].join(' / '));option.value=id;select.append(option);}
+  const link=make('a','',names[id].join(' / '));link.href='#character-'+id;$('jump-links').append(link);}
+speakerSelect.value='hamilton';listenerSelect.value='lafayette';
+$('expected-count').textContent=`${ids.length} / ${MAIN_PIXEL_FRAME_COUNT}`;
+const portraits=new DialoguePortraits();$('preview-anchor').prepend(portraits.element);
+const state={speaker:'hamilton',listener:'lafayette',mode:'ready',pose:MAIN_PIXEL_ART.hamilton.defaultPose,auto:true};
+const review={art:MAIN_PIXEL_ART,expectedFrames:MAIN_PIXEL_FRAME_COUNT,portraits,state,sheets:{},errors:[],complete:false};
+window.__mainPixelReview=review;
+function previewPerformance(){const actor=MAIN_PIXEL_ART[state.speaker],partner=MAIN_PIXEL_ART[state.listener];return{speaking:state.mode==='pose'?state.pose:actor.defaultPose,settled:state.pose,listener:partner.listenPose,emphasis:true};}
+function configurePoseControls(){const previous=state.pose,layout=MAIN_PIXEL_ART[state.speaker];if(!(previous in layout.poses))state.pose=layout.listenPose;$('poses').replaceChildren();
+  for(const pose of Object.keys(layout.poses)){const button=make('button','',poseNames[pose].join(' / '));button.dataset.pose=pose;button.setAttribute('aria-pressed',String(state.mode==='pose'&&pose===state.pose));button.onclick=()=>setPreview({mode:'pose',pose});$('poses').append(button);}}
+function renderPreview(){portraits.show(state.speaker,state.listener,previewPerformance());portraits.update(0,false,false);portraits.setSpeaking(state.speaker,state.mode==='speaking',state.mode==='settled');
+  $('preview-name').textContent=names[state.speaker].join(' / ');
+  const label=state.mode==='speaking'?'手动说话演示 / Manual speech motion':state.mode==='settled'?'句后反应 / After speech':state.mode==='pose'?poseNames[state.pose].join(' / '):'句前蓄势 / Ready to speak';
+  $('preview-caption').textContent=label+' · 姿态检查，无音频播放。/ Pose review; no audio is playing.';
+  for(const [id,mode]of[['ready','ready'],['talk','speaking'],['settled','settled']])$(id).setAttribute('aria-pressed',String(state.mode===mode));configurePoseControls();}
+function setPreview(next={}){Object.assign(state,next);if(state.speaker===state.listener)state.listener=ids.find(id=>id!==state.speaker);speakerSelect.value=state.speaker;listenerSelect.value=state.listener;
+  if(!(state.pose in MAIN_PIXEL_ART[state.speaker].poses))state.pose=MAIN_PIXEL_ART[state.speaker].listenPose;renderPreview();}
+review.setPreview=setPreview;
+review.setMatte=matte=>{document.body.classList.toggle('matte-light',matte==='light');document.body.classList.toggle('matte-checker',matte==='checker');for(const button of $('matte-controls').children)button.setAttribute('aria-pressed',String(button.dataset.matte===matte));};
+speakerSelect.onchange=()=>setPreview({speaker:speakerSelect.value,pose:MAIN_PIXEL_ART[speakerSelect.value].listenPose});listenerSelect.onchange=()=>setPreview({listener:listenerSelect.value});
+$('swap').onclick=()=>setPreview({speaker:state.listener,listener:state.speaker,pose:MAIN_PIXEL_ART[state.listener].listenPose});
+$('ready').onclick=()=>setPreview({mode:'ready'});$('talk').onclick=()=>setPreview({mode:'speaking'});$('settled').onclick=()=>setPreview({mode:'settled'});
+for(const button of $('matte-controls').children)button.onclick=()=>review.setMatte(button.dataset.matte);
+let last=performance.now();function tick(time){if(state.auto&&state.mode==='speaking')portraits.update(time-last,false,false);last=time;requestAnimationFrame(tick);}requestAnimationFrame(tick);
+setPreview({});
+function frameLabel(id,index){const layout=MAIN_PIXEL_ART[id];if(id!=='narrator'&&index===layout.talkFrames[1])return['开口说话','Speaking'];if(id!=='narrator'&&index===layout.talkFrames[2])return['强调开口','Emphasized speech'];const pose=Object.entries(layout.poses).find(([,frame])=>frame===index)?.[0];return poseNames[pose]??['闭口','Closed mouth'];}
+function pixelStats(pixels){let visible=0,alpha=0,green=0,magenta=0,brightness=0;const p=pixels.data;for(let i=0;i<p.length;i+=4){if(p[i+3]<16)continue;visible++;alpha+=p[i+3];brightness+=.2126*p[i]+.7152*p[i+1]+.0722*p[i+2];if(p[i+1]>100&&p[i+1]-p[i]>40&&p[i+1]-p[i+2]>40)green++;if(p[i]>140&&p[i+2]>140&&p[i]-p[i+1]>65&&p[i+2]-p[i+1]>65)magenta++;}return{visible,coverage:visible/(pixels.width*pixels.height),meanAlpha:alpha/Math.max(1,visible),brightness:brightness/Math.max(1,visible),green,magenta};}
+review.pixelStats=pixelStats;
+async function loadSheet(id,section){const layout=MAIN_PIXEL_ART[id],pending=section.querySelector('.pending');try{const image=await new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>reject(new Error('Source image unavailable: '+layout.path));img.src=layout.path;});
+  const source=document.createElement('canvas');source.width=image.naturalWidth;source.height=image.naturalHeight;const context=source.getContext('2d',{willReadFrequently:true});context.drawImage(image,0,0);
+  const extracted=extractPortraitFrames(context.getImageData(0,0,source.width,source.height),{columns:layout.columns,rows:layout.rows,frameCount:layout.frameCount,horizontalOverscan:layout.frameOverscan,frameOffsets:layout.frameOffsets,key:{color:layout.key},outputWidth:360,outputHeight:450,padding:5});
+  const sheet={path:layout.path,width:source.width,height:source.height,bounds:extracted.bounds.slice(0,layout.frameCount),registration:extracted.registration,frames:[],loaded:true};
+  const grid=make('div','frames');grid.dataset.role=id;
+  for(let index=0;index<layout.frameCount;index++){const pixels=extracted.frames[index],figure=make('figure','frame-card'),matte=make('div','frame-matte'),canvas=make('canvas'),label=frameLabel(id,index);canvas.width=pixels.width;canvas.height=pixels.height;canvas.dataset.character=id;canvas.dataset.frame=String(index);canvas.setAttribute('aria-label',names[id].join(' / ')+' · '+label.join(' / '));canvas.getContext('2d').putImageData(new ImageData(pixels.data,pixels.width,pixels.height),0,0);matte.append(canvas);figure.append(matte);const caption=make('figcaption');caption.append(make('span','frame-id',String(index).padStart(2,'0')),document.createTextNode(label[0]),make('small','',label[1]));figure.append(caption);grid.append(figure);sheet.frames.push({...pixelStats(pixels),index,width:pixels.width,height:pixels.height});}
+  pending.replaceWith(grid);review.sheets[id]=sheet;section.dataset.loaded='true';
+}catch(error){review.errors.push({id,path:layout.path,error:String(error)});pending.className='load-error';pending.textContent='素材尚未就绪，生成完成后刷新此页。 / Asset not ready; refresh after generation completes.';section.dataset.loaded='false';}
+  const ready=Object.keys(review.sheets).length;$('load-status').textContent=`${ready} / ${ids.length} 已载入 / Loaded`;}
+const loading=[];for(const id of ids){const section=make('section','character-section');section.id='character-'+id;section.dataset.character=id;const heading=make('div','character-heading'),name=make('h3','',names[id][0]);name.append(make('small','',`${names[id][1]} · ${MAIN_PIXEL_ART[id].frameCount} 帧 / frames`));const source=make('a','source-link','原始图集 / Source sheet');source.href=MAIN_PIXEL_ART[id].path;source.target='_blank';source.rel='noopener';heading.append(name,source);section.append(heading,make('p','pending','载入并清理背景中… / Loading and preparing transparency…'));$('gallery').append(section);loading.push(loadSheet(id,section));}
+window.__mainPixelReviewReady=Promise.allSettled([...loading,preloadDialoguePortraits()]).then(()=>{review.complete=true;document.body.dataset.ready='true';if(review.errors.length)$('load-status').classList.add('status-error');return review;});
+</script>
+</body>
+</html>

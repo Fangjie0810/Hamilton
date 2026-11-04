@@ -1,0 +1,36 @@
+# Dependencies and generated builds
+node_modules
+dist/
+.pnpm-store
+.venv
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Historical release bundles are published as GitHub Release assets.
+/releases/
+
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime logs; curated validation logs are tracked explicitly.
+*.log
+
+# Large originals are available from the public GitHub Release.
+/art-direction/Hamilton-CG-Environment-Firstframes-v5.zip
+/art-direction/Hamilton-CG-Video-Plan-v6-720p.zip
+/art-direction/Hamilton-CG-v7-Two-Clips-720p.zip
+/art-direction/cg-style-reference-2026-10-28/reference-xhs-6addd2c4.mp4
+/experiments/cg-projection/public/video/opening-2026-09-11.mp4
+/public/video/opening-2026-09-11.mp4
+
+# Original signed service responses retained locally only.
+/.private-publication/

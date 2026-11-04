@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "stamp dual 390: long trust label fits and text remains unobstructed",
+    "spark dual 390: long trust label fits and text remains unobstructed",
+    "ruler dual 390: long trust label fits and text remains unobstructed",
+    "stamp dual-en 390: long trust label fits and text remains unobstructed",
+    "spark dual-en 390: long trust label fits and text remains unobstructed",
+    "ruler dual-en 390: long trust label fits and text remains unobstructed",
+    "stamp dual 760: long trust label fits and text remains unobstructed",
+    "spark dual 760: long trust label fits and text remains unobstructed",
+    "ruler dual 760: long trust label fits and text remains unobstructed",
+    "stamp dual-en 760: long trust label fits and text remains unobstructed",
+    "spark dual-en 760: long trust label fits and text remains unobstructed",
+    "ruler dual-en 760: long trust label fits and text remains unobstructed",
+    "comparison page loads three playable recordings and three game links"
+  ],
+  "videos": [
+    {
+      "src": "http://127.0.0.1:1781/artifacts/stamp-motion.mp4",
+      "duration": 4.133333
+    },
+    {
+      "src": "http://127.0.0.1:1781/artifacts/spark-motion.mp4",
+      "duration": 3.866667
+    },
+    {
+      "src": "http://127.0.0.1:1781/artifacts/ruler-motion.mp4",
+      "duration": 4.666667
+    }
+  ],
+  "errors": []
+}

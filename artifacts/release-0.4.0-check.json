@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:1776/?story=3d&debug=1",
+  "checks": [
+    "entry toggles removed; old off preferences migrate to zero volume; four language modes and narrow settings",
+    "default lowest camera; sphere and right drag share deltas without moving player; wheel zoom",
+    "opening movement/dialogue and Act I camera tutorials; E excluded; click/Space continue; all subtitle modes preserve scene and narrow dialogue layout",
+    "radial metric hover/click controls; trust initially locked; newspaper pickup, persistent icon, return reward, chatter and restart rollback",
+    "Burr relation changes through real choices; scene 3 default zoom; Washington trust unlocks only on camp entry"
+  ],
+  "final": {
+    "chapter": "Washington",
+    "phase": "explore",
+    "index": 0,
+    "remaining": 0,
+    "state": {
+      "momentum": 48,
+      "influence": 38,
+      "burrRivalry": 10,
+      "burrRespect": 39,
+      "washingtonTrust": 0,
+      "debatePerformance": 100,
+      "yorktownPerformance": 0,
+      "choices": {
+        "interaction:arrival-newspaper": "complete",
+        "inventory:scattered-newspaper": "collected",
+        "side:arrival-scattered-paper": "completed",
+        "interaction:arrival-street": "complete",
+        "burr_first_impression": "burr-observe",
+        "laurens_question": "laurens-stability",
+        "lafayette_question": "lafayette-negotiate",
+        "mulligan_question": "mulligan-print",
+        "debate_result": "won",
+        "debate_approach": "debate-fact"
+      }
+    },
+    "completed": [],
+    "discoveries": [],
+    "pickups": [],
+    "inventory": [],
+    "discovery": {
+      "phase": "idle"
+    },
+    "growthOpen": false,
+    "targets": [
+      {
+        "id": "washington-offer",
+        "position": {
+          "x": -7,
+          "z": -3.3
+        },
+        "title": {
+          "zh": "总司令的提议",
+          "en": "The Commander's Offer"
+        },
+        "body": {
+          "zh": "我看过你的文章。你能把事情写清楚。但军中需要的，还有把事情做完。",
+          "en": "I have read your essays. You make matters clear. But an army also needs people who finish the work."
+        },
+        "enabled": true,
+        "complete": false,
+        "exit": false
+      },
+      {
+        "id": "washington-dispatch",
+        "position": {
+          "x": -7,
+          "z": -3.3
+        },
+        "title": {
+          "zh": "写下军令",
+          "en": "Write the Dispatch"
+        },
+        "body": {
+          "zh": "北线的部队需要补给。驻地、出发时间、目的地都在这些报告里。给军需官一份能够执行的命令。",
+          "en": "The northern troops need supplies. Their camp, the departure time, and the destination are in these reports. Give the quartermaster an order he can carry out."
+        },
+        "enabled": false,
+        "complete": false,
+        "exit": false
+      },
+      {
+        "id": "story-exit",
+        "position": {
+          "x": 12,
+          "z": 10
+        },
+        "title": {
+          "zh": "翻过战争中的几年",
+          "en": "Turn the Pages of the War"
+        },
+        "body": {
+          "zh": "回应华盛顿，并决定怎样整理军令。",
+          "en": "Answer Washington, then organize his dispatches."
+        },
+        "enabled": false,
+        "complete": false,
+        "exit": true
+      }
+    ],
+    "target": {
+      "id": "washington-offer",
+      "position": {
+        "x": -7,
+        "z": -3.3
+      },
+      "title": {
+        "zh": "总司令的提议",
+        "en": "The Commander's Offer"
+      },
+      "body": {
+        "zh": "我看过你的文章。你能把事情写清楚。但军中需要的，还有把事情做完。",
+        "en": "I have read your essays. You make matters clear. But an army also needs people who finish the work."
+      },
+      "enabled": true,
+      "complete": false,
+      "exit": false
+    },
+    "cast": [
+      {
+        "id": "washington",
+        "position": {
+          "x": -8.9,
+          "z": -3.7
+        }
+      }
+    ],
+    "repeatTargets": [],
+    "castPoses": [
+      {
+        "id": "washington",
+        "facing": "sw",
+        "frame": 26,
+        "direction": {
+          "x": 0,
+          "z": 1
+        },
+        "arguing": false
+      }
+    ]
+  },
+  "errors": [],
+  "failures": []
+}

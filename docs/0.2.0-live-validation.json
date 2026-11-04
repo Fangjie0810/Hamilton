@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-09-13T13:44:03.613367+00:00",
+  "version": {
+    "schemaVersion": 1,
+    "version": "0.2.0",
+    "channel": "test"
+  },
+  "base": "https://ham.newflorencia.com/",
+  "checks": [
+    {
+      "path": "version.json",
+      "status": 200,
+      "type": "application/json",
+      "bytes": 68,
+      "sha256": "42b728a74194a46793656627727d88b82a3a5e01db1315eda5185144b138ec32"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 631,
+      "sha256": "845bc2e0d9b0b4b0671f8fd3ff35b1623df0abd0679307b66db74b01408e05ca"
+    },
+    {
+      "path": "assets/Demo-0LIYNUcs.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 827211,
+      "sha256": "28b849d1d92ef93efdd9ea58cbe915bd538a1609ad4c1661db0ed8ddf403ef7f"
+    },
+    {
+      "path": "assets/Demo-DuCYJ6l7.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 24403,
+      "sha256": "7b026c0100ee90fae91265fa03a00f38ec066590378099f1b05941cd697213cc"
+    },
+    {
+      "path": "assets/EntryScreen-D7NfP5Pv.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 11788,
+      "sha256": "4f5662871b2be0b2ee59d6b0928a8528819dc983f410f4df11739f1c6da082ac"
+    },
+    {
+      "path": "assets/EntryScreen-DdCHr2Hu.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 15676,
+      "sha256": "ba642384d840a2e4b810919c3309b11225044ea93a3e56f0013f4b67603af420"
+    },
+    {
+      "path": "assets/index-g0Ca4i4-.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 22216,
+      "sha256": "19457fa4a7440df850f3a3eb61b6c0877e01dfd7341f12e6a412413c3e7b272b"
+    },
+    {
+      "path": "assets/index-sFBDN7X-.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 2727,
+      "sha256": "2166cc7079c3e57d90298841f72ee1feb4f0ec5d4d83ee09b3a2c009abfbdc99"
+    },
+    {
+      "path": "assets/transitions-B52yT7kW.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 56936,
+      "sha256": "f046d978a1875ed013489ee7b6f7319eaef7147eff5d93b167b74a8658a6858a"
+    },
+    {
+      "path": "assets/transitions-D21GX5ly.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 546,
+      "sha256": "7f7a16142e857e4245e1f48c984c23580f142db4c02e52ce6965db3dba318790"
+    },
+    {
+      "path": "audio/en/narrator-415afc2242cc5e1ed1ed.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 120834,
+      "sha256": "ee5a00e363a7ca1cf14b80b4474c3d7fa90ea38a7ea645d36a9042720a6903da"
+    },
+    {
+      "path": "audio/en/hamilton-71c6538f59d21e2613d2.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 79874,
+      "sha256": "d298054a018f1fc93fc289a67a17d562523d546912bf9d63c8b98556eebaf127"
+    },
+    {
+      "path": "audio/en/newsboy-3e9b8c4d291ccf0e5c80.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 84471,
+      "sha256": "5630af7a00e43b6e5bfe4c3068eeff82214c60c3ce318a7a4289ccc84f1f8a58"
+    },
+    {
+      "path": "audio/en/burr-4e8773caf8d666170a74.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 79038,
+      "sha256": "4a161ed149c676bb2d88f9f2331b6a3252f8b732d8afd8c495a74909ee287c64"
+    },
+    {
+      "path": "audio/en/citizen-31670523d31655018f67.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 102862,
+      "sha256": "a1cf0fdbfc576e00909952a003e5304337bb0cff77f45693b5683ad4e0d139ba"
+    },
+    {
+      "path": "audio/en/washington-ee0ee2b7b88e233ea64d.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 91577,
+      "sha256": "0255107137414a5e2da7c3c5c579c567910bce61d1a1cf760c75def26d3ab46a"
+    },
+    {
+      "path": "video/opening-2026-09-11.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 0
+    },
+    {
+      "path": "audio/bgm/aaron-burr-sir.mp3",
+      "status": 200,
+      "type": "audio/mpeg",
+      "bytes": 0
+    }
+  ],
+  "passed": true
+}

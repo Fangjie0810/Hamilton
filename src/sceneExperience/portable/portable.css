@@ -1,0 +1,11 @@
+:root{font-family:'Songti SC',SimSun,Georgia,serif;color:#e9dfca;background:#100e0c;font-synthesis:none}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden}
+button,input{font:inherit}
+button{cursor:pointer;color:inherit;border:0;-webkit-tap-highlight-color:transparent}
+button:disabled{cursor:default}
+button:focus-visible,input:focus-visible{outline:2px solid #f0cb86;outline-offset:5px}
+#app{width:100%;height:100%;position:relative;isolation:isolate}
+.portable-error{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:32px;text-align:center;background:#100e0c}
+.portable-error p{max-width:600px;line-height:1.8}
+.portable-error button{background:#d8bc86;color:#18221f;padding:14px 24px}

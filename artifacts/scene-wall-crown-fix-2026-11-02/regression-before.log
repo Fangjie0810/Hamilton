@@ -1,0 +1,30 @@
+✖ exposed high-wall crowns have exactly one surface at studs, panel joins and corners (55.224834ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 331.187
+
+✖ failing tests:
+
+test at tests/scene-experience.test.ts:1:10336
+✖ exposed high-wall crowns have exactly one surface at studs, panel joins and corners (55.224834ms)
+  AssertionError [ERR_ASSERTION]: street at -23.98,-2.00: exposed wall top cannot share depth with a stud or another wall
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (/Users/fangjie/Documents/Codex 项目/Hamilton/tests/scene-experience.test.ts:173:18)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.start (node:internal/test_runner/test:1096:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

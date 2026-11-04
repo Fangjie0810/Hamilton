@@ -1,0 +1,27 @@
+{
+  "created_date": "2026-09-09",
+  "generation_method": "ElevenLabs signed-in web UI",
+  "account_verified": true,
+  "workspace": "Fangjie’s Workspace",
+  "oauth_connection_visible_as": "chatgpt.com",
+  "cue_id": "opening-letter-base-3",
+  "voice_name": "Hamilton by Lin",
+  "voice_id": null,
+  "model": "eleven_multilingual_v2",
+  "language": "en",
+  "text": {
+    "zh": "我带不走那座岛。但我能带走纸上的每一个字。纽约有学校，有印刷机，也有人愿意争论未来。我要在那里找到我的位置。",
+    "en": "I cannot take the island with me. But I can carry every word on the page. New York has schools, printing presses, and people willing to argue about the future. I will find my place there."
+  },
+  "settings": {
+    "speed": 1,
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true
+  },
+  "output_format": "mp3_44100_128",
+  "duration_seconds": 10.94525,
+  "file": "samples/hamilton-opening-en-v1.mp3",
+  "verification": "Generation and selected voice verified in UI; MP3 format and duration verified locally. Listening approval pending."
+}

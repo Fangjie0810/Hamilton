@@ -1,0 +1,827 @@
+{
+  "status": "passed",
+  "sourceSha256": "d1ec5eece8682e8ffddb894785e32b159eaeb534a56198e84082979c6c03abd8",
+  "cases": [
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "dual",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "dual-en",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual-en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "zh",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=zh",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "en",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "dual",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1021,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "dual-en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1222,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual-en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "zh",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1021,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=zh",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "a",
+      "mode": "en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1222,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "dual",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "dual-en",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual-en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "zh",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=zh",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "en",
+      "width": 1440,
+      "height": 1000,
+      "documentHeight": 1000,
+      "viewportHeight": 1000,
+      "naturalScroll": false,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "dual",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1157,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "dual-en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1374,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual-en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "zh",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1157,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=zh",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "vite",
+      "variant": "b",
+      "mode": "en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1374,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "http://127.0.0.1:1776/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=en",
+          "type": "document"
+        },
+        {
+          "url": "http://127.0.0.1:1776/@vite/client",
+          "type": "script"
+        },
+        {
+          "url": "http://127.0.0.1:1776/node_modules/.pnpm/vite@7.3.6_@types+node@24.13.3_tsx@4.23.13/node_modules/vite/dist/client/env.mjs",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "a",
+      "mode": "dual",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1021,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "a",
+      "mode": "dual-en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1222,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=dual-en",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "a",
+      "mode": "zh",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1021,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=zh",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "a",
+      "mode": "en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1222,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=a&lang=en",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "b",
+      "mode": "dual",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1157,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "b",
+      "mode": "dual-en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1374,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=dual-en",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "b",
+      "mode": "zh",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1157,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=zh",
+          "type": "document"
+        }
+      ]
+    },
+    {
+      "transport": "file",
+      "variant": "b",
+      "mode": "en",
+      "width": 390,
+      "height": 844,
+      "documentHeight": 1374,
+      "viewportHeight": 844,
+      "naturalScroll": true,
+      "clippedTextLines": 0,
+      "checks": [
+        "exact primary-language copy",
+        "native language option names",
+        "variant and language switching",
+        "continue to prologue preview",
+        "language switch retains preview phase",
+        "Read Again and keyboard focus",
+        "no horizontal overflow",
+        "body text not clipped",
+        "zero localStorage access"
+      ],
+      "requests": [
+        {
+          "url": "file:///Users/fangjie/Documents/Codex%20%E9%A1%B9%E7%9B%AE/Hamilton/docs/designs/intro-background-0.5.2/preview.html?v=b&lang=en",
+          "type": "document"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-1440x1000-dual.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-1440x1000-dual-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-1440x1000-zh.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-1440x1000-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-390x844-dual.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-390x844-dual-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-390x844-zh.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/a-390x844-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-1440x1000-dual.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-1440x1000-dual-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-1440x1000-zh.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-1440x1000-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-390x844-dual.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-390x844-dual-en.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-390x844-zh.png",
+    "/Users/fangjie/Documents/Codex 项目/Hamilton/docs/designs/intro-background-0.5.2/verification/b-390x844-en.png"
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "resourcePolicy": "Vite preview requests only the HTML and Vite development modules. file:// requests only the HTML. No external resources, game resources, or localStorage accesses."
+}

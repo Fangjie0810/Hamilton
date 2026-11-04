@@ -1,0 +1,76 @@
+{
+  "opening-2026-09-11.mp4": {
+    "bytes": 72694180,
+    "sha256": "bf0da04c44772fe263de4d7add123c89cd668617ca502851e61e05d3c8da91fa",
+    "duration": "57.200000",
+    "bitrate": 10167018,
+    "video": {
+      "width": 1920,
+      "height": 1080,
+      "nb_frames": "1716",
+      "r_frame_rate": "30/1"
+    },
+    "peakWholeSecondMbps": 22.911432,
+    "boxes": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 63661
+      },
+      {
+        "type": "free",
+        "offset": 63693,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 63701,
+        "size": 72630479
+      }
+    ],
+    "audioPackets": 2466
+  },
+  "opening-2026-09-14-web720.mp4": {
+    "bytes": 8198492,
+    "sha256": "3038cf2cd83901de37eeb7c952af2c3211db085f7d94954e99f00c2753c9dc2b",
+    "duration": "57.200000",
+    "bitrate": 1146642,
+    "video": {
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "1716",
+      "r_frame_rate": "30/1"
+    },
+    "peakWholeSecondMbps": 2.29804,
+    "boxes": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 63226
+      },
+      {
+        "type": "free",
+        "offset": 63258,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 63266,
+        "size": 8135226
+      }
+    ],
+    "audioPackets": 2466
+  },
+  "audioIdentical": true,
+  "reductionPercent": 88.72194170152274
+}

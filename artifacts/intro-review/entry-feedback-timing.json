@@ -1,0 +1,28 @@
+{
+  "clicked": 134,
+  "phases": {
+    "entry-feedback": 135.0999999642372,
+    "covering": 2138,
+    "film": 2700.899999976158
+  },
+  "media": [
+    {
+      "kind": "AUDIO",
+      "src": "http://127.0.0.1:1776/audio/bgm/alexander-hamilton.mp3",
+      "volume": 1,
+      "at": 134.0999999642372
+    },
+    {
+      "kind": "VIDEO",
+      "src": "http://127.0.0.1:1776/video/opening-2026-09-14-web720.mp4",
+      "volume": 0,
+      "at": 135.0999999642372
+    },
+    {
+      "kind": "VIDEO",
+      "src": "http://127.0.0.1:1776/video/opening-2026-09-14-web720.mp4",
+      "volume": 0.6,
+      "at": 2700.699999988079
+    }
+  ]
+}

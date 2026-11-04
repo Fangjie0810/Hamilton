@@ -1,0 +1,63 @@
+{
+  "selected_at": "2026-09-14",
+  "selection_sources": [
+    "ElevenLabs official CLI voices search --gender female --page-size 100",
+    "ElevenLabs MCP creative_list_voices search=Sarah gender=female languages=en"
+  ],
+  "selected": {
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "name": "Sarah - Mature, Reassuring, Confident",
+    "category": "premade",
+    "description": "Young adult woman with a confident and warm, mature quality and a reassuring, professional tone.",
+    "labels": {
+      "accent": "american",
+      "age": "young",
+      "descriptive": "professional",
+      "language": "en",
+      "gender": "female",
+      "use_case": "entertainment_tv"
+    },
+    "preview_url": "https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/01a3e33c-6e99-4ee7-8543-ff2216a32186.mp3"
+  },
+  "match_reason": "账号已有的温暖、成熟、令人安心的女性美式英语音色，用作 Eliza 回顾并记录故事的旁白。并非特定演员声音的复刻。",
+  "alternative_considered": {
+    "name": "Wren - Warm, Grounded and Sincere",
+    "voice_id": "DruqipkeFENaGA2DCMeV",
+    "reason_not_selected": "目录描述更偏回忆录，但不在当前账号已保存音色中；优先采用账号已有的 Sarah。"
+  },
+  "scope": {
+    "cueCount": 8,
+    "englishCharacters": 1068,
+    "speaker": "narrator",
+    "kind": "dialogue",
+    "excluded": [
+      "chapter titles",
+      "UI labels",
+      "choices and prompts",
+      "minigame instructions",
+      "feedback",
+      "scores",
+      "endings"
+    ]
+  },
+  "quota_before": {
+    "character_count": 37726,
+    "character_limit": 131000,
+    "remaining": 93274,
+    "tier": "creator",
+    "status": "active"
+  },
+  "generation": {
+    "model": "eleven_multilingual_v2",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0,
+      "speed": 1,
+      "use_speaker_boost": true
+    }
+  },
+  "synchronization": "Each existing cue remains attached to its current dialogue line. Dialogue advances by the player; the active portrait follows actual media playing/waiting/pause/ended events. No fixed visual duration is shortened or changed.",
+  "previous_voice_archive": "archived-narrator-george-manifest.json"
+}

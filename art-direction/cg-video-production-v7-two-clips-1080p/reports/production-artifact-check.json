@@ -1,0 +1,23 @@
+{
+  "final_status": "complete",
+  "locked_plan_sha256": "b269e868e5d8c26c07d631aec300c24f46ea35a18778b8e10ce13748210dbf97",
+  "originals": 2,
+  "source_scenes": 13,
+  "actual_create_requests": 2,
+  "paid_regenerations": 0,
+  "video_specs_verified": "1920x1080/24fps/no audio",
+  "raw_original_hashes_preserved": true,
+  "originals_and_cut_full_decode_passed": true,
+  "cut_frame_count": 1190,
+  "cut_empty_room_frames": 48,
+  "cut_boundary_frames_visually_checked": [
+    67,
+    114,
+    115,
+    1189
+  ],
+  "cut_last_frame_black": true,
+  "all_result_html_local_links_exist": true,
+  "v6_preservation_passed": true,
+  "browser_render_verification": "not_performed; static file checks and actual frame inspection"
+}

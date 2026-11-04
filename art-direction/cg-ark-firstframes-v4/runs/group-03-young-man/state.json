@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "created_at": "2026-09-10T08:57:23.137334+00:00",
+  "downloads": {
+    "image-01.png": {
+      "status": "downloaded",
+      "path": "raw/image-01.png",
+      "info": {
+        "bytes": 4243779,
+        "sha256": "5a1c1cf9cd1b1b7214bb82fb33e68ae5b4544145d106b3c350f504ff2a47ec4a",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-02.png": {
+      "status": "downloaded",
+      "path": "raw/image-02.png",
+      "info": {
+        "bytes": 4469560,
+        "sha256": "6352c338b9a4c1b08f1fe86e8b2cd6326d8e9a9da9305d8022585632ee5742c0",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-03.png": {
+      "status": "downloaded",
+      "path": "raw/image-03.png",
+      "info": {
+        "bytes": 4408504,
+        "sha256": "39a3b42c63a09a182b0f8f63571602510975fa1cb2ae1abdd24729e19be5c6cc",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-04.png": {
+      "status": "downloaded",
+      "path": "raw/image-04.png",
+      "info": {
+        "bytes": 4633159,
+        "sha256": "2dbd700df3819e4807ddda8163aa6aaf84ef5bab7476c77c164822738f7449fd",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-05.png": {
+      "status": "downloaded",
+      "path": "raw/image-05.png",
+      "info": {
+        "bytes": 4509583,
+        "sha256": "618a5309ec10e26d8b9d792c6618bfc67393cc815386bd5a06242bef14251f54",
+        "width": 2560,
+        "height": 1440
+      }
+    }
+  },
+  "requested_count": 5,
+  "model": "doubao-seedream-5-0-260128",
+  "size": "2560x1440",
+  "source": "curl SSE capture",
+  "collector_can_submit_generation": false,
+  "received_events": 6,
+  "stream_completed": true,
+  "downloaded_count": 5,
+  "checked_at": "2026-09-10T09:00:46.867975+00:00",
+  "status": "complete"
+}

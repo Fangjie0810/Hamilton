@@ -1,0 +1,50 @@
+{
+  "version": 4,
+  "status": "awaiting_actual_images_and_visual_review",
+  "video_generation_this_turn": false,
+  "requested_count": 7,
+  "shots": [
+    {
+      "id": "S01",
+      "title": "照料母亲",
+      "description": "孩子将水碗放到床边木凳，母亲仍在身边。",
+      "continuity_target": "与S02保持同一孩子、同一房间和机位。"
+    },
+    {
+      "id": "S02",
+      "title": "空床",
+      "description": "照料的物件仍在，母亲的位置已经空了。",
+      "continuity_target": "床应明确为空，孩子仍站在凳边。"
+    },
+    {
+      "id": "S03",
+      "title": "商行谋生",
+      "description": "少年将账册移到干燥架面。",
+      "continuity_target": "人物与后续少年镜头一致；书架有明确落点。"
+    },
+    {
+      "id": "S04",
+      "title": "风灾",
+      "description": "少年双掌抵住窗扇，承受风压。",
+      "continuity_target": "与S05保持同一窗框、墙角、桌子和衣装。"
+    },
+    {
+      "id": "S05",
+      "title": "写作",
+      "description": "纸上已有细小连笔笔迹，少年即将完成收笔。",
+      "continuity_target": "不用视频从白纸凭空写出整段文字。"
+    },
+    {
+      "id": "S06",
+      "title": "获得支持",
+      "description": "读者手持文章和钱袋，旅行包已在桌边。",
+      "continuity_target": "钱袋与旅行包关系清晰，同款包进入S07。"
+    },
+    {
+      "id": "S07",
+      "title": "登船",
+      "description": "少年背着旅行包，一脚已踏上短舷梯。",
+      "continuity_target": "脚与踏板有支撑，舷梯通向实际船舷入口。"
+    }
+  ]
+}

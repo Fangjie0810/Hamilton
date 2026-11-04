@@ -1,0 +1,588 @@
+{
+  "checks": [
+    "crt: desktop, narrow, compact, landscape; Chinese, English, bilingual; same video and time",
+    "projector: desktop, narrow, compact, landscape; Chinese, English, bilingual; same video and time",
+    "archive: desktop, narrow, compact, landscape; Chinese, English, bilingual; same video and time",
+    "mute, focus trap and reduced motion",
+    "skip releases media and hands control to the existing 3D opening"
+  ],
+  "geometry": [
+    {
+      "scene": "crt",
+      "language": "zh",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 393.78375244140625,
+        "y": 210.37838745117188,
+        "width": 595.45947265625,
+        "height": 345.5134582519531,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 393.78375244140625,
+        "y": 210.37838745117188,
+        "width": 595.45947265625,
+        "height": 345.5134582519531,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "dual",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 393.78375244140625,
+        "y": 210.37838745117188,
+        "width": 595.45947265625,
+        "height": 345.5134582519531,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "zh",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 25.795713424682617,
+        "y": 303.4931335449219,
+        "width": 292.4331359863281,
+        "height": 169.68344116210938,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 25.795713424682617,
+        "y": 303.4931335449219,
+        "width": 292.4331359863281,
+        "height": 169.68344116210938,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "dual",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 25.795713424682617,
+        "y": 303.4931335449219,
+        "width": 292.4331359863281,
+        "height": 169.68344116210938,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "zh",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 288.9256591796875,
+        "y": 157.31756591796875,
+        "width": 407.189208984375,
+        "height": 236.270263671875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "en",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 288.9256591796875,
+        "y": 157.31756591796875,
+        "width": 407.189208984375,
+        "height": 236.270263671875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "dual",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 288.9256591796875,
+        "y": 157.31756591796875,
+        "width": 407.189208984375,
+        "height": 236.270263671875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "zh",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 232.1109161376953,
+        "y": 113.97162628173828,
+        "width": 175.2291717529297,
+        "height": 101.67618560791016,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "en",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 232.1109161376953,
+        "y": 113.97162628173828,
+        "width": 175.2291717529297,
+        "height": 101.67618560791016,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "crt",
+      "language": "dual",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 232.1109161376953,
+        "y": 113.97162628173828,
+        "width": 175.2291717529297,
+        "height": 101.67618560791016,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "zh",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 603.2950439453125,
+        "y": 185.98123168945312,
+        "width": 628.5064697265625,
+        "height": 357.5512390136719,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 603.2950439453125,
+        "y": 185.98123168945312,
+        "width": 628.5064697265625,
+        "height": 357.5512390136719,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "dual",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 603.2950439453125,
+        "y": 185.98123168945312,
+        "width": 628.5064697265625,
+        "height": 357.5512390136719,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "zh",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 32.53714370727539,
+        "y": 267.99200439453125,
+        "width": 323.7557067871094,
+        "height": 183.38912963867188,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 32.53714370727539,
+        "y": 267.99200439453125,
+        "width": 323.7557067871094,
+        "height": 183.38912963867188,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "dual",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 32.53714370727539,
+        "y": 267.99200439453125,
+        "width": 323.7557067871094,
+        "height": 183.38912963867188,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "zh",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 432.1944274902344,
+        "y": 140.6342315673828,
+        "width": 429.7875671386719,
+        "height": 244.50196838378906,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "en",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 432.1944274902344,
+        "y": 140.6342315673828,
+        "width": 429.7875671386719,
+        "height": 244.50196838378906,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "dual",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 432.1944274902344,
+        "y": 140.6342315673828,
+        "width": 429.7875671386719,
+        "height": 244.50196838378906,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "zh",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 236.15045166015625,
+        "y": 92.6989517211914,
+        "width": 193.99798583984375,
+        "height": 109.88880157470703,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "en",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 236.15045166015625,
+        "y": 92.6989517211914,
+        "width": 193.99798583984375,
+        "height": 109.88880157470703,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "projector",
+      "language": "dual",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 236.15045166015625,
+        "y": 92.6989517211914,
+        "width": 193.99798583984375,
+        "height": 109.88880157470703,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "zh",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 435.8356628417969,
+        "y": 261.3218688964844,
+        "width": 622.702880859375,
+        "height": 364.7926940917969,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 435.8356628417969,
+        "y": 261.3218688964844,
+        "width": 622.702880859375,
+        "height": 364.7926940917969,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "dual",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "aperture": {
+        "x": 435.8356628417969,
+        "y": 261.3218688964844,
+        "width": 622.702880859375,
+        "height": 364.7926940917969,
+        "vw": 1440,
+        "vh": 900
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "zh",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 45.85043716430664,
+        "y": 313.56640625,
+        "width": 298.2616271972656,
+        "height": 174.72808837890625,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 45.85043716430664,
+        "y": 313.56640625,
+        "width": 298.2616271972656,
+        "height": 174.72808837890625,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "dual",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "aperture": {
+        "x": 45.85043716430664,
+        "y": 313.56640625,
+        "width": 298.2616271972656,
+        "height": 174.72808837890625,
+        "vw": 390,
+        "vh": 844
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "zh",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 317.6817626953125,
+        "y": 192.1539306640625,
+        "width": 425.81890869140625,
+        "height": 249.453857421875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "en",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 317.6817626953125,
+        "y": 192.1539306640625,
+        "width": 425.81890869140625,
+        "height": 249.453857421875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "dual",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "aperture": {
+        "x": 317.6817626953125,
+        "y": 192.1539306640625,
+        "width": 425.81890869140625,
+        "height": 249.453857421875,
+        "vw": 1024,
+        "vh": 640
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "zh",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 244.1279296875,
+        "y": 120.00764465332031,
+        "width": 178.72164916992188,
+        "height": 104.69898986816406,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "en",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 244.1279296875,
+        "y": 120.00764465332031,
+        "width": 178.72164916992188,
+        "height": 104.69898986816406,
+        "vw": 667,
+        "vh": 375
+      }
+    },
+    {
+      "scene": "archive",
+      "language": "dual",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "aperture": {
+        "x": 244.1279296875,
+        "y": 120.00764465332031,
+        "width": 178.72164916992188,
+        "height": 104.69898986816406,
+        "vw": 667,
+        "vh": 375
+      }
+    }
+  ],
+  "errors": []
+}

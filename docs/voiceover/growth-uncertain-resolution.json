@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-13T13:27:44.357Z",
+  "method": "official-elevenlabs-cli history list",
+  "query": {
+    "voice_id": "ZkIh9CGBiVNOeuNezDX9",
+    "page_size": 100
+  },
+  "voice": "ZkIh9CGBiVNOeuNezDX9",
+  "filename": "hamilton-71c6538f59d21e2613d2.mp3",
+  "cueId": "discovery-letter-name-base-2",
+  "text": "Alexander Hamilton. First, write the name with a steady hand. Then give people a reason to remember it.",
+  "priorAttempt": {
+    "status": "uncertain",
+    "signature": "71c6538f59d21e2613d269ab7c72c0b8797f6ce26d7b4120212e6dee341f9f0d",
+    "voiceId": "ZkIh9CGBiVNOeuNezDX9",
+    "speaker": "hamilton",
+    "cues": [
+      {
+        "id": "discovery-letter-name-base-2"
+      }
+    ],
+    "startedAt": "2026-09-13T13:08:36.055Z",
+    "error": "Error: CLI exit 2: ",
+    "failedAt": "2026-09-13T13:08:37.564Z"
+  },
+  "providerHistory": {
+    "entries": 84,
+    "has_more": false,
+    "newestDateUnix": 1788885422,
+    "matchingItems": [],
+    "rawResponseSha256": "0f580aa62226d3b37384d865db7d21fbc28d9fd8c88d6689036fd53b88807fd6"
+  },
+  "resolution": "No matching generation in complete provider history; restore pending and generate once using the authorized request."
+}

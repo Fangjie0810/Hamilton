@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "street",
+    "bytes": 890148,
+    "meshes": 208,
+    "nodes": 607,
+    "collectibles": 4,
+    "sha256": "aa6606260a55ff6274826ad8e8b80a7afe5e671f846fbe67262cf166045fbfb6"
+  },
+  {
+    "scene": "tavern",
+    "bytes": 764000,
+    "meshes": 204,
+    "nodes": 661,
+    "collectibles": 4,
+    "sha256": "f23d1c5ca8f9a21009191a69a949e2b908d7fc89c809c47f80e53f76e264eb80"
+  },
+  {
+    "scene": "ballroom",
+    "bytes": 376680,
+    "meshes": 57,
+    "nodes": 614,
+    "collectibles": 4,
+    "sha256": "05ff6daa9ccb6d2e7175a59065a16f5ffa7fc531dd24f0ba37a997cc827a2132"
+  }
+]

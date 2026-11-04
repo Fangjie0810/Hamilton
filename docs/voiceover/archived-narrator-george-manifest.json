@@ -1,0 +1,254 @@
+{
+  "archivedAt": "2026-09-14",
+  "reason": "用户将旁白改为 Eliza 伏案记录故事的女性叙述者；George 的旧哈希音频保留供回溯，退出运行时索引。",
+  "voice": {
+    "voice_name": "George - Warm, Captivating Storyteller",
+    "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "model": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "cues": [
+    {
+      "id": "opening-letter-base-1",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "他来自加勒比海。商行的账本教会他计算，海上的风暴教会他：一个人的处境，可能在一夜之间被改写。",
+        "en": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight."
+      },
+      "src": "/audio/en/narrator-a12313d75e6f8d1ecfaa.mp3",
+      "generated": true
+    },
+    {
+      "id": "opening-letter-base-2",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "他把所见写成文字。有人读了那篇文章，开始相信，这个年轻人应该得到继续求学的机会。",
+        "en": "He put what he had seen into words. People read them and began to believe this young man deserved the chance to continue his education."
+      },
+      "src": "/audio/en/narrator-4dd04b1bd1275c515920.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-base-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "1781 年，法美联军围困约克镇。数年的行军、军令与争执，终于把汉密尔顿带到一座英军堡垒前。",
+        "en": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt."
+      },
+      "src": "/audio/en/narrator-fd4d6e6f31b71f0617d7.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-command-variant-1-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "1781 年，法美联军围困约克镇。数年的行军与军令，把汉密尔顿带到一座英军堡垒前。",
+        "en": "In 1781, French and American forces surrounded Yorktown. Years of marches and dispatches brought Hamilton to the foot of a British redoubt."
+      },
+      "src": "/audio/en/narrator-63d80505ab69a95e9d50.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-surrender-base-1",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "汉密尔顿率队攻下十号堡垒，法军攻下相邻的九号堡垒。围城继续收紧。",
+        "en": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened."
+      },
+      "src": "/audio/en/narrator-dff0fb0a0936e6af9342.mp3",
+      "generated": true
+    },
+    {
+      "id": "yorktown-surrender-base-2",
+      "speaker": "narrator",
+      "chapter": "Yorktown",
+      "kind": "dialogue",
+      "text": {
+        "zh": "数日后，英军在约克镇投降。胜利来自许多人的共同作战。战争尚未正式结束，但局势已经改变。",
+        "en": "Days later, British forces surrendered at Yorktown. Victory belonged to many people fighting together. The war had not formally ended, but its course had changed."
+      },
+      "src": "/audio/en/narrator-38e21818aab74754fcea.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-letter-name-base-1",
+      "speaker": "narrator",
+      "chapter": "Opening",
+      "kind": "dialogue",
+      "text": {
+        "zh": "翻过信纸，背面留着几次试写的姓名。墨迹有深有浅，最后一次落笔格外清楚。",
+        "en": "On the back of the letter, a name has been written several times. The ink varies in darkness; the final attempt is especially clear."
+      },
+      "src": "/audio/en/narrator-415afc2242cc5e1ed1ed.mp3",
+      "generated": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-base-1",
+      "speaker": "narrator",
+      "chapter": "Tavern",
+      "kind": "dialogue",
+      "text": {
+        "zh": "空桌上留着一张草稿，末行只有半句：如果我们的声音值得被听见……",
+        "en": "A draft lies on an empty table. Its final line stops halfway: if our voices deserve to be heard..."
+      },
+      "src": "/audio/en/narrator-e944d0a1f3274ee0ae5b.mp3",
+      "generated": true
+    }
+  ],
+  "files": {
+    "narrator-a12313d75e6f8d1ecfaa.mp3": {
+      "status": "complete",
+      "signature": "a12313d75e6f8d1ecfaaddd3aeca877a18b44ba61dc6767281d40cbbb1fc333c",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "reused-approved-generation",
+      "cues": [
+        {
+          "id": "opening-letter-base-1"
+        }
+      ],
+      "durationSeconds": 8.359184,
+      "bytes": 134208,
+      "sha256": "4e2dda6668e27fdc6c5a278b2fa1a39d274a8329da8bdfe1240a97b3475217de",
+      "completedAt": "2026-09-08T16:31:33.623Z"
+    },
+    "narrator-4dd04b1bd1275c515920.mp3": {
+      "status": "complete",
+      "signature": "4dd04b1bd1275c5159208399331aa1731a4fa5294bf06fe9070a832bf5af20ee",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "opening-letter-base-2"
+        }
+      ],
+      "durationSeconds": 7.549388,
+      "bytes": 121252,
+      "sha256": "474d0ea538003851766be1d2f6e1c706a04f506fc1dc9cff72d1750a862c55b2",
+      "completedAt": "2026-09-08T16:31:40.506Z"
+    },
+    "narrator-fd4d6e6f31b71f0617d7.mp3": {
+      "status": "complete",
+      "signature": "fd4d6e6f31b71f0617d726bb81a6e855b9cd68c0b0a48f238c52878107280bf5",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "yorktown-command-base-1"
+        }
+      ],
+      "durationSeconds": 9.926531,
+      "bytes": 159286,
+      "sha256": "f62b240cc38eb79ec4ff6063836121ea1dabce5f0b35c8ecf3f00bd94ced81a0",
+      "completedAt": "2026-09-08T16:35:43.960Z"
+    },
+    "narrator-63d80505ab69a95e9d50.mp3": {
+      "status": "complete",
+      "signature": "63d80505ab69a95e9d500a90dad65cf256ec140776cbcb993eab5117706b3379",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "yorktown-command-variant-1-1"
+        }
+      ],
+      "durationSeconds": 9.273469,
+      "bytes": 148837,
+      "sha256": "13bea208288dd85b6a3f0b96a8cde6036d2b46d316893291d18cb4c71544d20d",
+      "completedAt": "2026-09-08T16:35:49.223Z"
+    },
+    "narrator-dff0fb0a0936e6af9342.mp3": {
+      "status": "complete",
+      "signature": "dff0fb0a0936e6af9342826eb0ef0b5446dad9ed4a70923fb5b72f2f75d7667f",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "yorktown-surrender-base-1"
+        }
+      ],
+      "durationSeconds": 7.288163,
+      "bytes": 117072,
+      "sha256": "b2aae17c2409bd42f564d944dfde02f14373089edea79cdad9e5078cc4565329",
+      "completedAt": "2026-09-08T16:36:58.139Z"
+    },
+    "narrator-38e21818aab74754fcea.mp3": {
+      "status": "complete",
+      "signature": "38e21818aab74754fcea4882d845d9dfd5f215924c4096084dee2a6241960125",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "yorktown-surrender-base-2"
+        }
+      ],
+      "durationSeconds": 9.795918,
+      "bytes": 157196,
+      "sha256": "8955e7fd5325c89b3f418fd14584694a9a178d63d2c0efe786f47a60d586d952",
+      "completedAt": "2026-09-08T16:37:00.957Z"
+    },
+    "narrator-415afc2242cc5e1ed1ed.mp3": {
+      "status": "complete",
+      "signature": "415afc2242cc5e1ed1ed661ca5b977f6f9670b944919ad3a046907a0819b83f3",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "discovery-letter-name-base-1"
+        }
+      ],
+      "durationSeconds": 7.523265,
+      "bytes": 120834,
+      "sha256": "ee5a00e363a7ca1cf14b80b4474c3d7fa90ea38a7ea645d36a9042720a6903da",
+      "completedAt": "2026-09-13T13:08:41.358Z"
+    },
+    "narrator-e944d0a1f3274ee0ae5b.mp3": {
+      "status": "complete",
+      "signature": "e944d0a1f3274ee0ae5b80eb4cd09ebd3e944c10a06c2240950c49af142de114",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "voiceName": "George - Warm, Captivating Storyteller",
+      "speaker": "narrator",
+      "origin": "official-elevenlabs-cli",
+      "cues": [
+        {
+          "id": "discovery-tavern-unfinished-draft-base-1"
+        }
+      ],
+      "durationSeconds": 6.765714,
+      "bytes": 108713,
+      "sha256": "734193061541733ffb6e44df633f33f897b972ff059e3cec081e9cbba9b20c21",
+      "completedAt": "2026-09-13T13:28:34.603Z"
+    }
+  }
+}

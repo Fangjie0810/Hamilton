@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Real prologue → Arrival → newsboy dialogue grants influence +2 and triggers the left HUD at 150%; settings freeze it",
+    "All four languages render only primary-language change labels; review tools are absent",
+    "HUD restores after the cue; current post-newsboy camera tutorial remains; chapter restart clears feedback and restores checkpoint"
+  ],
+  "errors": [],
+  "failures": []
+}

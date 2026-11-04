@@ -1,0 +1,69 @@
+
+> project-hamilton-1776@0.5.2 scenes:pack
+> npm run check:i18n && tsc --noEmit && node --import tsx scripts/package-scenes.ts
+
+
+> project-hamilton-1776@0.5.2 check:i18n
+> node --import tsx scripts/check-i18n.ts
+
+PASS bilingual source coverage: 100 files; required pairs and matching parameters
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 26 modules transformed.
+rendering chunks...
+computing gzip size...
+artifacts/scene-offline/20261104T041554Z/.bundle/scenes.css    7.56 kB │ gzip:   2.50 kB
+artifacts/scene-offline/20261104T041554Z/.bundle/scenes.js   698.92 kB │ gzip: 189.56 kB
+✓ built in 7.74s
+{
+  "version": "0.5.2",
+  "builtAt": "20261104T041554Z",
+  "zip": "/Users/fangjie/Documents/Codex 项目/Hamilton/artifacts/scene-offline/20261104T041554Z/Hamilton-Scenes-Offline.zip",
+  "html": "/Users/fangjie/Documents/Codex 项目/Hamilton/artifacts/scene-offline/20261104T041554Z/Hamilton-Scene-Review/Hamilton-Scenes.html",
+  "bytes": 14414291,
+  "sha256": "37c0617871d61da910820005dbbe56313feca3d1866a4b31ea27d9e5821ca9cf",
+  "htmlBytes": 19701771,
+  "htmlSha256": "2adf23bf967f3af76dc4bb802795f88862e0b0b1ec21ee0f959d6904309f6e03",
+  "sourceImages": [
+    {
+      "path": "/art/actors/pixel-cast-v1.png",
+      "bytes": 1589608,
+      "sha256": "01c38c1dd04ad947dd4289a49993a6e75ad0dd6cf563083d1a974e62a8056221"
+    },
+    {
+      "path": "/art/actors/high-angle-v1/pixel-cast-v1.png",
+      "bytes": 1684268,
+      "sha256": "c9a82dbcdad72aad08015998a8cf29c2ab19a519c2d2c4c2c642392f439acb95"
+    },
+    {
+      "path": "/art/actors/pixel-cast-directions-v2.png",
+      "bytes": 1532380,
+      "sha256": "b21d6e827a95daf4625264d795e0847df33e2ad016759971373f440b6011182b"
+    },
+    {
+      "path": "/art/actors/high-angle-v1/pixel-cast-directions-v2.png",
+      "bytes": 1666281,
+      "sha256": "b8852552e1a1167fe7e452f0a4efb0b545564828520c244dd467c59896129533"
+    },
+    {
+      "path": "/art/actors/story-cast-v1.png",
+      "bytes": 1975596,
+      "sha256": "9a43107c2cd83cd64d48c1cfcebc8dbdebd0a0599b37b0e900b29850cb499b5a"
+    },
+    {
+      "path": "/art/actors/high-angle-v1/story-cast-v1.png",
+      "bytes": 2134390,
+      "sha256": "152add284dee13d27375dedbe7d94c809042681994dbd69a5c9f6076fd787ca1"
+    },
+    {
+      "path": "/art/actors/street-argument-v1.png",
+      "bytes": 1777574,
+      "sha256": "d24d500b83d89b162de1745b1a431afea3e2c3e39740b183655a3bdd321f5885"
+    },
+    {
+      "path": "/art/actors/high-angle-v1/street-argument-v1.png",
+      "bytes": 1885499,
+      "sha256": "63b720808f190d4570051c4376fc64b14bbac6b43c6e88afc0a40ccedff51d7c"
+    }
+  ]
+}

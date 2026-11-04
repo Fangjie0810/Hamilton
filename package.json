@@ -1,0 +1,35 @@
+{
+  "name": "project-hamilton-1776",
+  "version": "0.5.2",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1776 --strictPort",
+    "prebuild": "python3 scripts/releases.py stamp",
+    "build": "npm run check:i18n && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 1776 --strictPort",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check:i18n": "node --import tsx scripts/check-i18n.ts",
+    "scenes:pack": "npm run check:i18n && tsc --noEmit && node --import tsx scripts/package-scenes.ts",
+    "test:releases": "python3 -m unittest discover -s tests/releases -v",
+    "release:pack": "python3 scripts/releases.py pack",
+    "rhythm:dev": "vite --config experiments/my-shot-rhythm/vite.config.ts",
+    "rhythm:build": "node --import tsx experiments/my-shot-rhythm/check.ts && tsc --noEmit -p experiments/my-shot-rhythm/tsconfig.json && vite build --config experiments/my-shot-rhythm/vite.config.ts",
+    "rhythm:test": "node --import tsx --test experiments/my-shot-rhythm/engine.test.ts",
+    "editor:dev": "vite --config experiments/rhythm-editor/vite.config.ts",
+    "editor:build": "node --import tsx experiments/rhythm-editor/check.ts && tsc --noEmit -p experiments/rhythm-editor/tsconfig.json && vite build --config experiments/rhythm-editor/vite.config.ts",
+    "editor:test": "node --import tsx --test experiments/rhythm-editor/*.test.ts",
+    "editor:pack": "npm run editor:build && node --import tsx scripts/package-rhythm-editor.ts"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/three": "0.185.4",
+    "tsx": "^4.20.5",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.4"
+  }
+}

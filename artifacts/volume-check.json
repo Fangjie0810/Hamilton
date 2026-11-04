@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "independent volume defaults, input and keyboard controls",
+    "persistent title and story settings",
+    "actual BGM and dialogue media volume",
+    "zero volume preserves toggle; pause and playhead preserved",
+    "next dialogue inherits voice volume",
+    "zh/en/dual/dual-en desktop and narrow layouts"
+  ],
+  "errors": []
+}

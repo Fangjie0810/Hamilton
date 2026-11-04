@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "four entry options, narrow settings, English-first preference survives reload",
+    "spoken lines and selected reply only are bilingual; primary/secondary reverse with correct lang attributes; typewriter fraction and DOM survive switching",
+    "timed story choices are primary-language only and retain remaining time, options, chapter and state",
+    "debate-briefing: four modes, dialogue scope, retained activity and state",
+    "debate-choose: four modes, dialogue scope, retained activity and state",
+    "debate-beat: four modes, dialogue scope, retained activity and state",
+    "debate-feedback: four modes, dialogue scope, retained activity and state",
+    "debate-result: four modes, dialogue scope, retained activity and state",
+    "writing-briefing: four modes, dialogue scope, retained activity and state",
+    "writing-selected: four modes, dialogue scope, retained activity and state",
+    "writing-assigned: four modes, dialogue scope, retained activity and state",
+    "writing-feedback: four modes, dialogue scope, retained activity and state",
+    "writing-result: four modes, dialogue scope, retained activity and state",
+    "yorktown-briefing: four modes, dialogue scope, retained activity and state",
+    "yorktown-approach: four modes, dialogue scope, retained activity and state",
+    "yorktown-command: four modes, dialogue scope, retained activity and state",
+    "yorktown-assault-ready: four modes, dialogue scope, retained activity and state",
+    "yorktown-assault: four modes, dialogue scope, retained activity and state",
+    "yorktown-feedback: four modes, dialogue scope, retained activity and state",
+    "yorktown-result: four modes, dialogue scope, retained activity and state"
+  ],
+  "errors": [],
+  "failures": []
+}

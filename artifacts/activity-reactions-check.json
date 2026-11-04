@@ -1,0 +1,292 @@
+{
+  "checks": [
+    "debate keeps the existing Hamilton response before the successful reaction",
+    "debate: success holds approve without speech",
+    "debate: loyalist remains the dimmed listener",
+    "next debate argument discards the previous result reaction",
+    "debate: miss holds concern without speech",
+    "debate: loyalist remains the dimmed listener",
+    "unanswered debate feedback creates no narration",
+    "dispatch instructions contain no reaction portrait",
+    "an accurate dispatch still reads only the existing corrected Hamilton fragments",
+    "writing: success holds approve without speech",
+    "writing: washington remains the dimmed listener",
+    "next sorting phase hides and clears the prior correction reaction",
+    "writing: miss holds concern without speech",
+    "writing: washington remains the dimmed listener",
+    "writing: miss holds concern without speech",
+    "writing: washington remains the dimmed listener",
+    "Yorktown instructions contain no reaction portrait",
+    "real approach progression reaches an uncluttered deployment interface",
+    "yorktown: success holds approve without speech",
+    "yorktown: lafayette remains the dimmed listener",
+    "coordination feedback creates no instructional narration",
+    "yorktown: success holds approve without speech",
+    "yorktown: lafayette remains the dimmed listener",
+    "the next assault command replaces the prior static result",
+    "yorktown: miss holds concern without speech",
+    "yorktown: lafayette remains the dimmed listener",
+    "yorktown: success holds approve without speech",
+    "yorktown: lafayette remains the dimmed listener",
+    "all new gameplay reactions leave the narrator scope unchanged"
+  ],
+  "layouts": [
+    {
+      "width": 1280,
+      "height": 900,
+      "language": "dual",
+      "metrics": {
+        "panel": {
+          "top": 463.453125,
+          "bottom": 876,
+          "left": 135,
+          "right": 1145,
+          "client": 1008,
+          "scroll": 1008
+        },
+        "figures": [
+          {
+            "top": 259.453125,
+            "bottom": 466.453125,
+            "left": 153,
+            "right": 318.59375
+          },
+          {
+            "top": 259.453125,
+            "bottom": 466.453125,
+            "left": 961.40625,
+            "right": 1127
+          }
+        ],
+        "width": 1280,
+        "height": 900,
+        "docWidth": 1280
+      }
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "language": "dual-en",
+      "metrics": {
+        "panel": {
+          "top": 466.453125,
+          "bottom": 876,
+          "left": 135,
+          "right": 1145,
+          "client": 1008,
+          "scroll": 1008
+        },
+        "figures": [
+          {
+            "top": 262.453125,
+            "bottom": 469.453125,
+            "left": 153,
+            "right": 318.59375
+          },
+          {
+            "top": 262.453125,
+            "bottom": 469.453125,
+            "left": 961.40625,
+            "right": 1127
+          }
+        ],
+        "width": 1280,
+        "height": 900,
+        "docWidth": 1280
+      }
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "language": "zh",
+      "metrics": {
+        "panel": {
+          "top": 463.453125,
+          "bottom": 876,
+          "left": 135,
+          "right": 1145,
+          "client": 1008,
+          "scroll": 1008
+        },
+        "figures": [
+          {
+            "top": 259.453125,
+            "bottom": 466.453125,
+            "left": 153,
+            "right": 318.59375
+          },
+          {
+            "top": 259.453125,
+            "bottom": 466.453125,
+            "left": 961.40625,
+            "right": 1127
+          }
+        ],
+        "width": 1280,
+        "height": 900,
+        "docWidth": 1280
+      }
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "language": "en",
+      "metrics": {
+        "panel": {
+          "top": 466.453125,
+          "bottom": 876,
+          "left": 135,
+          "right": 1145,
+          "client": 1008,
+          "scroll": 1008
+        },
+        "figures": [
+          {
+            "top": 262.453125,
+            "bottom": 469.453125,
+            "left": 153,
+            "right": 318.59375
+          },
+          {
+            "top": 262.453125,
+            "bottom": 469.453125,
+            "left": 961.40625,
+            "right": 1127
+          }
+        ],
+        "width": 1280,
+        "height": 900,
+        "docWidth": 1280
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "dual",
+      "metrics": {
+        "panel": {
+          "top": 389.078125,
+          "bottom": 829,
+          "left": 15,
+          "right": 375,
+          "client": 358,
+          "scroll": 358
+        },
+        "figures": [
+          {
+            "top": 217.078125,
+            "bottom": 392.078125,
+            "left": 19,
+            "right": 159
+          },
+          {
+            "top": 217.078125,
+            "bottom": 392.078125,
+            "left": 231,
+            "right": 371
+          }
+        ],
+        "width": 390,
+        "height": 844,
+        "docWidth": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "dual-en",
+      "metrics": {
+        "panel": {
+          "top": 269.3125,
+          "bottom": 829,
+          "left": 15,
+          "right": 375,
+          "client": 358,
+          "scroll": 358
+        },
+        "figures": [
+          {
+            "top": 97.3125,
+            "bottom": 272.3125,
+            "left": 19,
+            "right": 159
+          },
+          {
+            "top": 97.3125,
+            "bottom": 272.3125,
+            "left": 231,
+            "right": 371
+          }
+        ],
+        "width": 390,
+        "height": 844,
+        "docWidth": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "zh",
+      "metrics": {
+        "panel": {
+          "top": 389.078125,
+          "bottom": 829,
+          "left": 15,
+          "right": 375,
+          "client": 358,
+          "scroll": 358
+        },
+        "figures": [
+          {
+            "top": 217.078125,
+            "bottom": 392.078125,
+            "left": 19,
+            "right": 159
+          },
+          {
+            "top": 217.078125,
+            "bottom": 392.078125,
+            "left": 231,
+            "right": 371
+          }
+        ],
+        "width": 390,
+        "height": 844,
+        "docWidth": 390
+      }
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "metrics": {
+        "panel": {
+          "top": 269.3125,
+          "bottom": 829,
+          "left": 15,
+          "right": 375,
+          "client": 358,
+          "scroll": 358
+        },
+        "figures": [
+          {
+            "top": 97.3125,
+            "bottom": 272.3125,
+            "left": 19,
+            "right": 159
+          },
+          {
+            "top": 97.3125,
+            "bottom": 272.3125,
+            "left": 231,
+            "right": 371
+          }
+        ],
+        "width": 390,
+        "height": 844,
+        "docWidth": 390
+      }
+    }
+  ],
+  "errors": []
+}

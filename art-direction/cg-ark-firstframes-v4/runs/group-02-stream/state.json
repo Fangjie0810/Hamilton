@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "created_at": "2026-09-10T08:44:04.566028+00:00",
+  "downloads": {
+    "image-01.png": {
+      "status": "downloaded",
+      "path": "raw/image-01.png",
+      "info": {
+        "bytes": 3827428,
+        "sha256": "c7e45310954daa0c38df05339f2e98254211f280097a9c5f5db02c16f7c1e219",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-02.png": {
+      "status": "downloaded",
+      "path": "raw/image-02.png",
+      "info": {
+        "bytes": 3804989,
+        "sha256": "dfaf3c558ec74cfd1c9be248d6e7ecb664495c997a6f767513518bb7397798b0",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-03.png": {
+      "status": "downloaded",
+      "path": "raw/image-03.png",
+      "info": {
+        "bytes": 4396683,
+        "sha256": "578389969bd8f1d9e151b32a6c902ca237fe97c7c97dea37fbd110276025df9f",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-04.png": {
+      "status": "downloaded",
+      "path": "raw/image-04.png",
+      "info": {
+        "bytes": 4841871,
+        "sha256": "deb2f0e79216b9544dfc6b4f37456de30c935c4bfa63e81b473427e0ccf4f9ac",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-05.png": {
+      "status": "downloaded",
+      "path": "raw/image-05.png",
+      "info": {
+        "bytes": 4037308,
+        "sha256": "72df15ca6e0f0b7d262affb38257048cb6dea63091b12504759db03a926059da",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-06.png": {
+      "status": "downloaded",
+      "path": "raw/image-06.png",
+      "info": {
+        "bytes": 5333560,
+        "sha256": "7ef082ed70684b8ead871b585878ef855f78169b64dd551dd939c0ea076a1af1",
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "image-07.png": {
+      "status": "downloaded",
+      "path": "raw/image-07.png",
+      "info": {
+        "bytes": 4710138,
+        "sha256": "734dd4ec0c361ae438797dc05ad55ec0a4bf121277d39c88ec86ed24c5c20942",
+        "width": 2560,
+        "height": 1440
+      }
+    }
+  },
+  "requested_count": 7,
+  "model": "doubao-seedream-5-0-260128",
+  "size": "2560x1440",
+  "source": "curl SSE capture",
+  "collector_can_submit_generation": false,
+  "received_events": 8,
+  "stream_completed": true,
+  "downloaded_count": 7,
+  "checked_at": "2026-09-10T08:47:06.331968+00:00",
+  "status": "complete"
+}

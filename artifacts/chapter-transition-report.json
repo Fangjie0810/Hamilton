@@ -1,0 +1,2794 @@
+{
+  "lifecycle": [
+    {
+      "name": "normal motion",
+      "timing": {
+        "animations": [
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 255.80000000074506,
+            "frames": [
+              {
+                "opacity": 0
+              },
+              {
+                "opacity": 1
+              }
+            ],
+            "canvasReady": "false",
+            "canvasVisibility": "hidden",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 832.1000000014901
+          },
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 3958.699999999255,
+            "frames": [
+              {
+                "opacity": 1
+              },
+              {
+                "opacity": 0
+              }
+            ],
+            "canvasReady": "true",
+            "canvasVisibility": "visible",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 4565.10000000149
+          }
+        ],
+        "waits": [
+          {
+            "delay": 2875,
+            "start": 1081.8999999985099,
+            "end": 3958.699999999255
+          }
+        ]
+      }
+    },
+    {
+      "name": "reduced motion",
+      "timing": {
+        "animations": [
+          {
+            "chapter": "Opening",
+            "duration": 250,
+            "start": 303.3999999985099,
+            "frames": [
+              {
+                "opacity": 0
+              },
+              {
+                "opacity": 1
+              }
+            ],
+            "canvasReady": "false",
+            "canvasVisibility": "hidden",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 571
+          },
+          {
+            "chapter": "Opening",
+            "duration": 250,
+            "start": 1037.5999999977648,
+            "frames": [
+              {
+                "opacity": 1
+              },
+              {
+                "opacity": 0
+              }
+            ],
+            "canvasReady": "true",
+            "canvasVisibility": "visible",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 1337.5999999977648
+          }
+        ],
+        "waits": [
+          {
+            "delay": 250,
+            "start": 785.8999999985099,
+            "end": 1037.5999999977648
+          }
+        ]
+      }
+    },
+    {
+      "name": "missing artwork",
+      "timing": {
+        "animations": [
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 275.5,
+            "frames": [
+              {
+                "opacity": 0
+              },
+              {
+                "opacity": 1
+              }
+            ],
+            "canvasReady": "false",
+            "canvasVisibility": "hidden",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 821.3999999985099
+          },
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 3913.5,
+            "frames": [
+              {
+                "opacity": 1
+              },
+              {
+                "opacity": 0
+              }
+            ],
+            "canvasReady": "true",
+            "canvasVisibility": "visible",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 4521.89999999851
+          }
+        ],
+        "waits": [
+          {
+            "delay": 2875,
+            "start": 1036.5,
+            "end": 3913.39999999851
+          }
+        ]
+      }
+    },
+    {
+      "name": "delayed artwork",
+      "timing": {
+        "animations": [
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 267.69999999925494,
+            "frames": [
+              {
+                "opacity": 0
+              },
+              {
+                "opacity": 1
+              }
+            ],
+            "canvasReady": "false",
+            "canvasVisibility": "hidden",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 836.8000000007451
+          },
+          {
+            "chapter": "Opening",
+            "duration": 550,
+            "start": 3945.10000000149,
+            "frames": [
+              {
+                "opacity": 1
+              },
+              {
+                "opacity": 0
+              }
+            ],
+            "canvasReady": "true",
+            "canvasVisibility": "visible",
+            "backdrop": "rgb(11, 11, 11)",
+            "end": 4569.60000000149
+          }
+        ],
+        "waits": [
+          {
+            "delay": 2875,
+            "start": 1068.3999999985099,
+            "end": 3944.89999999851
+          }
+        ]
+      },
+      "readyBeforeImage": true
+    }
+  ],
+  "presentation": [
+    {
+      "chapter": "Opening",
+      "variant": "a",
+      "source": "/art/backgrounds/opening-a.png"
+    },
+    {
+      "chapter": "Opening",
+      "variant": "b",
+      "source": "/art/backgrounds/opening-b.png"
+    },
+    {
+      "chapter": "Opening",
+      "variant": "c",
+      "source": "/art/backgrounds/opening-c.png"
+    },
+    {
+      "chapter": "Arrival",
+      "variant": "a",
+      "source": "/art/backgrounds/arrival-a.png"
+    },
+    {
+      "chapter": "Arrival",
+      "variant": "b",
+      "source": "/art/backgrounds/arrival-b.png"
+    },
+    {
+      "chapter": "Arrival",
+      "variant": "c",
+      "source": "/art/backgrounds/arrival-c.png"
+    },
+    {
+      "chapter": "Tavern",
+      "variant": "a",
+      "source": "/art/backgrounds/tavern-a.png"
+    },
+    {
+      "chapter": "Tavern",
+      "variant": "b",
+      "source": "/art/backgrounds/tavern-a.png"
+    },
+    {
+      "chapter": "Tavern",
+      "variant": "c",
+      "source": "/art/backgrounds/tavern-a.png"
+    },
+    {
+      "chapter": "Debate",
+      "variant": "a",
+      "source": "/art/backgrounds/debate-a.png"
+    },
+    {
+      "chapter": "Debate",
+      "variant": "b",
+      "source": "/art/backgrounds/debate-a.png"
+    },
+    {
+      "chapter": "Debate",
+      "variant": "c",
+      "source": "/art/backgrounds/debate-a.png"
+    },
+    {
+      "chapter": "Washington",
+      "variant": "a",
+      "source": "/art/backgrounds/washington-a.png"
+    },
+    {
+      "chapter": "Washington",
+      "variant": "b",
+      "source": "/art/backgrounds/washington-a.png"
+    },
+    {
+      "chapter": "Washington",
+      "variant": "c",
+      "source": "/art/backgrounds/washington-a.png"
+    },
+    {
+      "chapter": "Yorktown",
+      "variant": "a",
+      "source": "/art/backgrounds/yorktown-a.png"
+    },
+    {
+      "chapter": "Yorktown",
+      "variant": "b",
+      "source": "/art/backgrounds/yorktown-a.png"
+    },
+    {
+      "chapter": "Yorktown",
+      "variant": "c",
+      "source": "/art/backgrounds/yorktown-a.png"
+    },
+    {
+      "check": "a superseded image cannot reappear in a later chapter"
+    }
+  ],
+  "layouts": [
+    {
+      "chapter": "Opening",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "desktop",
+      "language": "dual",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 270,
+          "right": 1170,
+          "top": 223.3125,
+          "bottom": 676.671875,
+          "width": 900,
+          "height": 453.359375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 318,
+          "right": 1122,
+          "top": 264.3125,
+          "bottom": 305.25,
+          "width": 804,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 318,
+          "right": 1122,
+          "top": 327.25,
+          "bottom": 462.78125,
+          "width": 804,
+          "height": 135.53125
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 395,
+          "right": 1045,
+          "top": 511.78125,
+          "bottom": 573.375,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 318,
+          "right": 1122,
+          "top": 598.375,
+          "bottom": 635.671875,
+          "width": 804,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "dual",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 143.125,
+          "bottom": 496.875,
+          "width": 900,
+          "height": 353.75
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 169.125,
+          "bottom": 210.0625,
+          "width": 828,
+          "height": 40.9375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 226.0625,
+          "bottom": 318.984375,
+          "width": 828,
+          "height": 92.921875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 353.984375,
+          "bottom": 415.578125,
+          "width": 650,
+          "height": 61.59375
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 433.578125,
+          "bottom": 470.875,
+          "width": 828,
+          "height": 37.296875
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "zh",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "en",
+      "width": 1024,
+      "height": 640,
+      "scrollWidth": 1024,
+      "scrollHeight": 640,
+      "bounds": [
+        {
+          "selector": ".d3-chapter-copy",
+          "left": 62,
+          "right": 962,
+          "top": 198.5,
+          "bottom": 441.484375,
+          "width": 900,
+          "height": 242.984375
+        },
+        {
+          "selector": ".d3-kicker",
+          "left": 98,
+          "right": 926,
+          "top": 224.5,
+          "bottom": 246.59375,
+          "width": 828,
+          "height": 22.09375
+        },
+        {
+          "selector": "h1",
+          "left": 98,
+          "right": 926,
+          "top": 262.59375,
+          "bottom": 313.890625,
+          "width": 828,
+          "height": 51.296875
+        },
+        {
+          "selector": ".d3-chapter-subtitle",
+          "left": 187,
+          "right": 837,
+          "top": 348.890625,
+          "bottom": 377.6875,
+          "width": 650,
+          "height": 28.796875
+        },
+        {
+          "selector": ".d3-chapter-place",
+          "left": 98,
+          "right": 926,
+          "top": 395.6875,
+          "bottom": 415.484375,
+          "width": 828,
+          "height": 19.796875
+        }
+      ]
+    }
+  ],
+  "contrasts": [
+    {
+      "chapter": "Opening",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "desktop",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Opening",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Arrival",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Tavern",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Debate",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Washington",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "dual",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": ".d3-kicker .text-secondary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": "h1 .text-secondary",
+          "color": "rgb(240, 230, 209)",
+          "opacity": 1,
+          "ratio": 12.380549514188544
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-secondary",
+          "color": "rgb(222, 216, 201)",
+          "opacity": 1,
+          "ratio": 10.792988439874549
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        },
+        {
+          "selector": ".d3-chapter-place .text-secondary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "zh",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    },
+    {
+      "chapter": "Yorktown",
+      "size": "compact",
+      "language": "en",
+      "background": [
+        36.921299999999995,
+        36.921299999999995,
+        36.921299999999995
+      ],
+      "readings": [
+        {
+          "selector": ".d3-kicker .text-primary",
+          "color": "rgb(230, 201, 145)",
+          "opacity": 1,
+          "ratio": 9.592120260245048
+        },
+        {
+          "selector": "h1 .text-primary",
+          "color": "rgb(255, 243, 217)",
+          "opacity": 1,
+          "ratio": 13.936637970358577
+        },
+        {
+          "selector": ".d3-chapter-subtitle .text-primary",
+          "color": "rgb(238, 229, 209)",
+          "opacity": 1,
+          "ratio": 12.24857464341909
+        },
+        {
+          "selector": ".d3-chapter-place .text-primary",
+          "color": "rgb(217, 195, 149)",
+          "opacity": 1,
+          "ratio": 8.906947218145357
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

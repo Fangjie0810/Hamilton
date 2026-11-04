@@ -1,0 +1,33 @@
+
+> project-hamilton-1776@0.5.2 prebuild
+> python3 scripts/releases.py stamp
+
+0.5.2
+
+> project-hamilton-1776@0.5.2 build
+> npm run check:i18n && tsc --noEmit && vite build
+
+
+> project-hamilton-1776@0.5.2 check:i18n
+> node --import tsx scripts/check-i18n.ts
+
+PASS bilingual source coverage: 95 files; required pairs and matching parameters
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 112 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.63 kB │ gzip:   0.43 kB
+dist/assets/transitions-D21GX5ly.css    0.55 kB │ gzip:   0.31 kB
+dist/assets/Experience-BY72uTq5.css     6.78 kB │ gzip:   2.25 kB
+dist/assets/EntryScreen-CyS_sLjq.css   16.03 kB │ gzip:   4.42 kB
+dist/assets/index-CPOoHqEz.css         22.52 kB │ gzip:   6.10 kB
+dist/assets/Demo-EhUQ7Oj5.css          45.34 kB │ gzip:  10.50 kB
+dist/assets/index-DpO9ht2C.js           6.63 kB │ gzip:   2.99 kB
+dist/assets/EntryScreen-BelCk88f.js    19.04 kB │ gzip:   7.27 kB
+dist/assets/GLTFExporter-BjaucwRO.js   37.25 kB │ gzip:  11.03 kB
+dist/assets/transitions-BcU_okAP.js    56.58 kB │ gzip:  16.20 kB
+dist/assets/Experience-DBcRivWZ.js     64.00 kB │ gzip:  25.11 kB
+dist/assets/Demo-BJp-JKlO.js          322.39 kB │ gzip: 112.30 kB
+dist/assets/SceneWorld-DPpvr7GG.js    586.54 kB │ gzip: 150.13 kB
+✓ built in 2.57s

@@ -1,0 +1,585 @@
+{
+  "baseURL": "http://127.0.0.1:1776/?story=3d&debug=1",
+  "checks": [
+    "Opening: zh/en/dual preserve chapter, state, position and haze",
+    "low/balanced/high graphics retain Opening haze and compile without shader errors",
+    "new north and south dock strips accept real walking",
+    "fence-side city scenery and harbor water remain nonwalkable",
+    "letter dialogue and unlocked exit retain haze",
+    "restarting Opening restores entry state and haze",
+    "approaching exit preserves haze",
+    "real E interaction enters Arrival and reveals the street",
+    "Arrival: zh/en/dual preserve chapter, state, position and haze",
+    "Arrival dusk remains revealed through walking, zoom, orbit and small bilingual layout"
+  ],
+  "routes": [
+    {
+      "label": "Opening spawn, letter and street exit",
+      "result": [
+        {
+          "point": {
+            "x": 13,
+            "z": 5
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": 15.5,
+            "z": 5
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": 9,
+            "z": 5
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "label": "new north and south dock strips",
+      "result": [
+        {
+          "point": {
+            "x": 19,
+            "z": 3.25
+          },
+          "free": true,
+          "clear": true,
+          "steps": 5,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": 19,
+            "z": 6.75
+          },
+          "free": true,
+          "clear": true,
+          "steps": 2,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "label": "nonwalkable city scenery and harbor water",
+      "result": [
+        {
+          "point": {
+            "x": -25,
+            "z": 3
+          },
+          "free": false
+        },
+        {
+          "point": {
+            "x": 0,
+            "z": -24
+          },
+          "free": false
+        },
+        {
+          "point": {
+            "x": 0,
+            "z": 25
+          },
+          "free": false
+        },
+        {
+          "point": {
+            "x": 19,
+            "z": -2
+          },
+          "free": false
+        }
+      ]
+    },
+    {
+      "label": "Arrival spawn, every story interaction and tavern exit",
+      "result": [
+        {
+          "point": {
+            "x": 8,
+            "z": 4
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": 5.8,
+            "z": 3.3
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": 0,
+            "z": 3.5
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": -2.4,
+            "z": 2.7
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        },
+        {
+          "point": {
+            "x": -8,
+            "z": -2.2
+          },
+          "free": true,
+          "clear": true,
+          "steps": 1,
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "name": "opening-dock-1440",
+      "chapter": "Opening",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": true,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "13.000",
+        "z": "5.000",
+        "frame": "16",
+        "facing": "sw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "709",
+        "triangles": "49072",
+        "geometries": "85",
+        "textures": "13"
+      }
+    },
+    {
+      "name": "opening-dock-dual-1024",
+      "chapter": "Opening",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": true,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "13.000",
+        "z": "5.000",
+        "frame": "16",
+        "facing": "sw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "709",
+        "triangles": "49072",
+        "geometries": "85",
+        "textures": "13"
+      }
+    },
+    {
+      "name": "opening-unlocked-still-foggy-1440",
+      "chapter": "Opening",
+      "phase": "exit",
+      "atmosphere": {
+        "harborMist": true,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "15.500",
+        "z": "5.000",
+        "frame": "21",
+        "facing": "ne",
+        "flipped": "false",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "688",
+        "triangles": "48711",
+        "geometries": "85",
+        "textures": "13"
+      }
+    },
+    {
+      "name": "opening-at-exit-still-foggy-1440",
+      "chapter": "Opening",
+      "phase": "exit",
+      "atmosphere": {
+        "harborMist": true,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "9.000",
+        "z": "5.000",
+        "frame": "21",
+        "facing": "nw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "764",
+        "triangles": "51369",
+        "geometries": "87",
+        "textures": "13"
+      }
+    },
+    {
+      "name": "arrival-dusk-1440",
+      "chapter": "Arrival",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": false,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "8.000",
+        "z": "4.000",
+        "frame": "16",
+        "facing": "sw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "767",
+        "triangles": "51207",
+        "geometries": "91",
+        "textures": "18"
+      }
+    },
+    {
+      "name": "arrival-city-zoomed-out-1440",
+      "chapter": "Arrival",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": false,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "0.000",
+        "z": "5.000",
+        "frame": "14",
+        "facing": "w",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "0.480",
+        "cutaways": "0",
+        "calls": "1009",
+        "triangles": "53717",
+        "geometries": "95",
+        "textures": "18"
+      }
+    },
+    {
+      "name": "arrival-city-orbit-1440",
+      "chapter": "Arrival",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": false,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "0.000",
+        "z": "5.000",
+        "frame": "16",
+        "facing": "sw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "-0.900",
+        "cutaways": "1",
+        "calls": "989",
+        "triangles": "53989",
+        "geometries": "96",
+        "textures": "18"
+      }
+    },
+    {
+      "name": "arrival-city-orbit-dual-1024",
+      "chapter": "Arrival",
+      "phase": "explore",
+      "atmosphere": {
+        "harborMist": false,
+        "light": {
+          "sky": 9345980,
+          "ground": 3880262,
+          "ambient": 0.9,
+          "sun": 16164463,
+          "power": 0.78,
+          "sunPosition": [
+            -24,
+            7,
+            16
+          ],
+          "fog": 3490131,
+          "density": 0.019,
+          "exposure": 0.98
+        },
+        "background": "354153"
+      },
+      "position": {
+        "engine": "three.js r185",
+        "mode": "story",
+        "frameReady": "true",
+        "localized": "",
+        "ready": "true",
+        "scene": "street",
+        "x": "0.000",
+        "z": "5.000",
+        "frame": "16",
+        "facing": "sw",
+        "flipped": "true",
+        "burrFacing": "s",
+        "burrFrame": "15",
+        "burrFlipped": "false",
+        "moving": "false",
+        "paused": "false",
+        "talking": "false",
+        "path": "0",
+        "discovered": "0",
+        "quality": "balanced",
+        "yaw": "-0.900",
+        "cutaways": "1",
+        "calls": "989",
+        "triangles": "53989",
+        "geometries": "96",
+        "textures": "18"
+      }
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,445 @@
+{
+  "version": "0.2.0",
+  "scope": "Local browser validation; source fixtures where required, production preview for full story and map routes. Final guide lifecycle fix verified in a fresh local dev browser.",
+  "reports": {
+    "story3d-check-success": {
+      "checks": [
+        "walking to a future character does not skip the story",
+        "clicking the visible newsboy body walks up and starts dialogue",
+        "Tavern timeout fails forward",
+        "pause freezes choice timer and movement",
+        "four subtitle modes preserve current choice",
+        "1024 bilingual choice",
+        "chapter restart restores entry checkpoint",
+        "Lafayette remains clear beside Hamilton at the recommended diamond in desktop and three compact language modes",
+        "camp shared-location markers appear in sequence and never overlap",
+        "all seven real BGM tracks; chapter curtain timing; debate replacement and resume; silent ending",
+        "fixed harmless repeat conversations preserve progress and rewards: Arrival/newsboy, Arrival/loyalist, Arrival/citizen, Arrival/burr, Tavern/laurens, Tavern/lafayette, Tavern/mulligan, Debate/loyalist, Debate/citizen, Debate/burr, Washington/washington, Yorktown/washington",
+        "all six original chapters in 3D",
+        "all twelve interactions reached by real walking",
+        "all activities commit confirmed outcomes",
+        "successful activity inputs reach ending",
+        "completed result persists",
+        "1024 bilingual ending",
+        "resume restores modal focus and Tab containment",
+        "new run resets progression without loading the previous result"
+      ],
+      "errors": [],
+      "failures": []
+    },
+    "story3d-check-failure": {
+      "checks": [
+        "walking to a future character does not skip the story",
+        "clicking the visible newsboy body walks up and starts dialogue",
+        "Tavern timeout fails forward",
+        "pause freezes choice timer and movement",
+        "four subtitle modes preserve current choice",
+        "1024 bilingual choice",
+        "chapter restart restores entry checkpoint",
+        "Lafayette remains clear beside Hamilton at the recommended diamond in desktop and three compact language modes",
+        "camp shared-location markers appear in sequence and never overlap",
+        "all seven real BGM tracks; chapter curtain timing; debate replacement and resume; silent ending",
+        "fixed harmless repeat conversations preserve progress and rewards: Arrival/newsboy, Arrival/loyalist, Arrival/citizen, Arrival/burr, Tavern/laurens, Tavern/lafayette, Tavern/mulligan, Debate/loyalist, Debate/citizen, Debate/burr, Washington/washington, Yorktown/washington",
+        "all six original chapters in 3D",
+        "all twelve interactions reached by real walking",
+        "all activities commit confirmed outcomes",
+        "losses and zero scores reach ending",
+        "completed result persists",
+        "1024 bilingual ending",
+        "resume restores modal focus and Tab containment",
+        "new run resets progression without loading the previous result"
+      ],
+      "errors": [],
+      "failures": []
+    },
+    "discovery-map-check": {
+      "checks": [
+        "All five side events, both egg locations, and the respect reaction reached by real map clicks and E",
+        "Exact rewards occur once; every event revisited without changing state",
+        "Side conversations preserve chapter, mainline index, completed set and exit availability",
+        "All 12 mainline interactions and three successful activities still reach the ending",
+        "A new run clears all side and reaction markers"
+      ],
+      "errors": [],
+      "failures": [],
+      "passed": true
+    },
+    "growth-check": {
+      "checks": [
+        {
+          "kind": "debate",
+          "mode": "zh",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "zh",
+          "width": 1440,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "zh",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "zh",
+          "width": 1440,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "zh",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "zh",
+          "width": 1440,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "en",
+          "width": 1440,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "en",
+          "width": 1440,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "en",
+          "width": 1440,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual",
+          "width": 1440,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual",
+          "width": 1440,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual",
+          "width": 1440,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual-en",
+          "width": 1440,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "zh",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "zh",
+          "width": 390,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "zh",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "zh",
+          "width": 390,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "zh",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "zh",
+          "width": 390,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "en",
+          "width": 390,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "en",
+          "width": 390,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "en",
+          "width": 390,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual",
+          "width": 390,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual",
+          "width": 390,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual",
+          "width": 390,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "debate",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "one recovery, true MISS score, persisted assistance marker"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "writing",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "selected-fragment requirement, one hint, original timer and true omissions, persisted marker"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "growth modal freezes clock and usage through four language changes"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "dual-en",
+          "width": 390,
+          "check": "selected-squad requirement, one check, player-issued orders, all 12 commands, persisted marker"
+        },
+        {
+          "kind": "debate",
+          "mode": "en",
+          "check": "new unassisted activity starts with zero assistance"
+        },
+        {
+          "kind": "writing",
+          "mode": "en",
+          "check": "new unassisted activity starts with zero assistance"
+        },
+        {
+          "kind": "yorktown",
+          "mode": "en",
+          "check": "new unassisted activity starts with zero assistance"
+        }
+      ],
+      "errors": [],
+      "passed": true
+    },
+    "growth-guide-report": {
+      "checks": [
+        "real Demo HUD opens the five-attribute native modal; Escape closes it and restores HUD focus without settings",
+        "losing focus during the Arrival transition defers the introduction until settings resume, without changing story state",
+        "arrival intro has five purposes, starts at top, fits 390px and desktop in all four languages, and stays dismissed after restart",
+        "newspaper tutorial shows the real +2, first choice explains arrows, and growth modal freezes/resumes the actual tavern timer and choice state",
+        "activity growth modal retains the same game instance, timer, score, and assistance counters across four languages and 390px layout"
+      ],
+      "errors": [],
+      "failures": []
+    },
+    "subtitle-report": {
+      "checks": [
+        "four entry options, narrow settings, English-first preference survives reload",
+        "spoken lines and selected reply only are bilingual; primary/secondary reverse with correct lang attributes; typewriter fraction and DOM survive switching",
+        "timed story choices are primary-language only and retain remaining time, options, chapter and state",
+        "debate-briefing: four modes, dialogue scope, retained activity and state",
+        "debate-choose: four modes, dialogue scope, retained activity and state",
+        "debate-beat: four modes, dialogue scope, retained activity and state",
+        "debate-feedback: four modes, dialogue scope, retained activity and state",
+        "debate-result: four modes, dialogue scope, retained activity and state",
+        "writing-briefing: four modes, dialogue scope, retained activity and state",
+        "writing-selected: four modes, dialogue scope, retained activity and state",
+        "writing-assigned: four modes, dialogue scope, retained activity and state",
+        "writing-feedback: four modes, dialogue scope, retained activity and state",
+        "writing-result: four modes, dialogue scope, retained activity and state",
+        "yorktown-briefing: four modes, dialogue scope, retained activity and state",
+        "yorktown-approach: four modes, dialogue scope, retained activity and state",
+        "yorktown-command: four modes, dialogue scope, retained activity and state",
+        "yorktown-assault-ready: four modes, dialogue scope, retained activity and state",
+        "yorktown-assault: four modes, dialogue scope, retained activity and state",
+        "yorktown-feedback: four modes, dialogue scope, retained activity and state",
+        "yorktown-result: four modes, dialogue scope, retained activity and state"
+      ],
+      "errors": [],
+      "failures": []
+    },
+    "story3d-focus-check": {
+      "checks": [
+        "clicking the visible loyalist body walks up and opens the citizen-led street argument",
+        "real Demo Tab advances first to second choice",
+        "Shift+Tab returns to previous choice",
+        "forward and reverse boundary focus wrapping",
+        "resume restores dialog focus in every language",
+        "all three option hints survive language switches",
+        "Tab and settings preserve narrative state",
+        "native Enter commits only the focused option and leaves its reply visible"
+      ],
+      "errors": [],
+      "failures": []
+    },
+    "voiceover-check": {
+      "checks": [
+        "entry preference persistence and four-mode small-window layout",
+        "retired 2D bookmark opens 3D",
+        "chapter title stays silent through settings, toggle and restart",
+        "subtitle mode never restarts speech",
+        "actual dialogue advance replaces audio and clearing stops it",
+        "tavern choice prompt stays silent and keeps its response timer",
+        "newsboy, citizen and loyalist play their own real generated MP3s",
+        "debate speaks the selected response in feedback without consuming its beat",
+        "selected dispatch reads in Hamilton voice, holds time, and assignment cancels it",
+        "Yorktown reads before beat zero; skip is not scored; destroy stops speech",
+        "rules, instructions, score feedback and ending never queue George narration"
+      ],
+      "errors": [],
+      "realMediaPlayback": true
+    }
+  }
+}

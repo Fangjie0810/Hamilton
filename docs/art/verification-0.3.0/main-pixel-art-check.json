@@ -1,0 +1,2674 @@
+{
+  "url": "http://127.0.0.1:1777/art-direction/main-pixel-production-2026-09-14/",
+  "generatedAt": "2026-09-14T13:06:38.792Z",
+  "checks": [
+    "Ten real production atlases load; all 59 nonempty detailed frames render with transparent backgrounds and no strong green/magenta residue.",
+    "All ten real renderers face inward, use the detailed atlases, display authored speech/reaction frames, preserve a dark listener, and distinguish buffering/pause from completion.",
+    "One emphasis per spoken phrase; Eliza writes/turns pages; pause and reduced motion are static; settled reactions persist.",
+    "Desktop dark/light edge-review images and all ten character sheets captured; mobile review controls fit a 390px viewport."
+  ],
+  "errors": [],
+  "failures": [],
+  "assets": {
+    "expectedFrames": 59,
+    "art": {
+      "hamilton": {
+        "frameOverscan": 20,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "facing": "right",
+        "poses": {
+          "assertive": 0,
+          "reflect": 3,
+          "approve": 4,
+          "concern": 5,
+          "command": 6,
+          "calm": 7
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/hamilton.png"
+      },
+      "burr": {
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "right",
+        "poses": {
+          "calm": 0,
+          "reflect": 3,
+          "approve": 4,
+          "concern": 5,
+          "challenge": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "calm",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/burr.png"
+      },
+      "washington": {
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "right",
+        "poses": {
+          "calm": 0,
+          "command": 3,
+          "approve": 4,
+          "concern": 5,
+          "reflect": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "calm",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/washington.png"
+      },
+      "laurens": {
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 6,
+        "facing": "right",
+        "poses": {
+          "assertive": 0,
+          "concern": 3,
+          "approve": 4,
+          "calm": 5
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/laurens.png"
+      },
+      "lafayette": {
+        "frameOverscan": 24,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "reflect": 3,
+          "approve": 4,
+          "calm": 5,
+          "amused": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/lafayette.png"
+      },
+      "mulligan": {
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 6,
+        "facing": "right",
+        "poses": {
+          "assertive": 0,
+          "approve": 3,
+          "concern": 4,
+          "calm": 5
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/mulligan.png"
+      },
+      "loyalist": {
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "right",
+        "poses": {
+          "assertive": 0,
+          "challenge": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "challenge",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/loyalist.png"
+      },
+      "newsboy": {
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "approve": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/newsboy.png"
+      },
+      "citizen": {
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "right",
+        "poses": {
+          "concern": 0,
+          "approve": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "concern",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/citizen.png"
+      },
+      "narrator": {
+        "frameOverscan": 24,
+        "columns": 3,
+        "rows": 1,
+        "frameCount": 3,
+        "facing": "right",
+        "poses": {
+          "write": 0,
+          "reflect": 1,
+          "turn": 2
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "write",
+        "listenPose": "reflect",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/narrator.png"
+      }
+    },
+    "sheets": {
+      "hamilton": {
+        "path": "/art/main-pixel/v1/hamilton.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 11,
+            "y": 22,
+            "width": 357,
+            "height": 481
+          },
+          {
+            "x": 8,
+            "y": 22,
+            "width": 359,
+            "height": 481
+          },
+          {
+            "x": 3,
+            "y": 21,
+            "width": 391,
+            "height": 482
+          },
+          {
+            "x": 11,
+            "y": 20,
+            "width": 355,
+            "height": 484
+          },
+          {
+            "x": 8,
+            "y": 8,
+            "width": 360,
+            "height": 487
+          },
+          {
+            "x": 6,
+            "y": 8,
+            "width": 362,
+            "height": 487
+          },
+          {
+            "x": 15,
+            "y": 7,
+            "width": 380,
+            "height": 489
+          },
+          {
+            "x": 11,
+            "y": 8,
+            "width": 349,
+            "height": 484
+          }
+        ],
+        "registration": {
+          "scale": 0.8853118712273642,
+          "sourceBounds": {
+            "x": 3,
+            "y": 7,
+            "width": 392,
+            "height": 497
+          },
+          "offsetX": 6.478873239436609,
+          "offsetY": 5
+        },
+        "frames": [
+          {
+            "visible": 91296,
+            "coverage": 0.5635555555555556,
+            "meanAlpha": 251.74557483350858,
+            "brightness": 88.17596058315921,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 91752,
+            "coverage": 0.5663703703703704,
+            "meanAlpha": 251.6409887522888,
+            "brightness": 87.96584906923128,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 93687,
+            "coverage": 0.5783148148148148,
+            "meanAlpha": 251.59414860119333,
+            "brightness": 88.46552377811199,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 91469,
+            "coverage": 0.5646234567901235,
+            "meanAlpha": 251.85869529567395,
+            "brightness": 83.97772184893297,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 92967,
+            "coverage": 0.5738703703703704,
+            "meanAlpha": 252.03949788634677,
+            "brightness": 87.02582360837808,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 93812,
+            "coverage": 0.5790864197530864,
+            "meanAlpha": 251.70138148637702,
+            "brightness": 87.23088129450491,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 94587,
+            "coverage": 0.5838703703703704,
+            "meanAlpha": 251.7009208453593,
+            "brightness": 86.44362610506661,
+            "green": 0,
+            "magenta": 0,
+            "index": 6,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 93587,
+            "coverage": 0.5776975308641975,
+            "meanAlpha": 251.95616912605382,
+            "brightness": 87.68598321561814,
+            "green": 0,
+            "magenta": 0,
+            "index": 7,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "burr": {
+        "path": "/art/main-pixel/v1/burr.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 7,
+            "y": 17,
+            "width": 374,
+            "height": 494
+          },
+          {
+            "x": 7,
+            "y": 17,
+            "width": 373,
+            "height": 494
+          },
+          {
+            "x": 7,
+            "y": 17,
+            "width": 373,
+            "height": 494
+          },
+          {
+            "x": 6,
+            "y": 17,
+            "width": 371,
+            "height": 494
+          },
+          {
+            "x": 7,
+            "y": 16,
+            "width": 374,
+            "height": 496
+          },
+          {
+            "x": 8,
+            "y": 16,
+            "width": 372,
+            "height": 496
+          },
+          {
+            "x": 12,
+            "y": 16,
+            "width": 368,
+            "height": 496
+          }
+        ],
+        "registration": {
+          "scale": 0.8870967741935484,
+          "sourceBounds": {
+            "x": 6,
+            "y": 16,
+            "width": 375,
+            "height": 496
+          },
+          "offsetX": 13.669354838709666,
+          "offsetY": 5
+        },
+        "frames": [
+          {
+            "visible": 96359,
+            "coverage": 0.5948086419753087,
+            "meanAlpha": 252.45249535590864,
+            "brightness": 69.19843495885195,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 96306,
+            "coverage": 0.5944814814814815,
+            "meanAlpha": 252.60441717026976,
+            "brightness": 69.22162379706313,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 95571,
+            "coverage": 0.5899444444444445,
+            "meanAlpha": 252.59264839752646,
+            "brightness": 73.4345049565254,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 93920,
+            "coverage": 0.5797530864197531,
+            "meanAlpha": 252.4380004258944,
+            "brightness": 65.39299784710363,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 96211,
+            "coverage": 0.593895061728395,
+            "meanAlpha": 252.18890771325525,
+            "brightness": 77.5336583384431,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 95590,
+            "coverage": 0.5900617283950618,
+            "meanAlpha": 252.0994978554242,
+            "brightness": 74.47055769850417,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 93292,
+            "coverage": 0.5758765432098766,
+            "meanAlpha": 252.06557904214725,
+            "brightness": 62.20646710971997,
+            "green": 0,
+            "magenta": 0,
+            "index": 6,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "washington": {
+        "path": "/art/main-pixel/v1/washington.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 10,
+            "y": 18,
+            "width": 374,
+            "height": 491
+          },
+          {
+            "x": 5,
+            "y": 17,
+            "width": 376,
+            "height": 492
+          },
+          {
+            "x": 5,
+            "y": 18,
+            "width": 374,
+            "height": 490
+          },
+          {
+            "x": 12,
+            "y": 17,
+            "width": 365,
+            "height": 491
+          },
+          {
+            "x": 12,
+            "y": 15,
+            "width": 368,
+            "height": 488
+          },
+          {
+            "x": 8,
+            "y": 15,
+            "width": 373,
+            "height": 488
+          },
+          {
+            "x": 11,
+            "y": 15,
+            "width": 371,
+            "height": 488
+          }
+        ],
+        "registration": {
+          "scale": 0.8906882591093117,
+          "sourceBounds": {
+            "x": 5,
+            "y": 15,
+            "width": 379,
+            "height": 494
+          },
+          "offsetX": 11.214574898785429,
+          "offsetY": 5
+        },
+        "frames": [
+          {
+            "visible": 99186,
+            "coverage": 0.6122592592592593,
+            "meanAlpha": 252.51433670074405,
+            "brightness": 93.50057898493739,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 99075,
+            "coverage": 0.611574074074074,
+            "meanAlpha": 252.50381024476405,
+            "brightness": 93.68669938531482,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 98725,
+            "coverage": 0.6094135802469136,
+            "meanAlpha": 252.5595239301089,
+            "brightness": 93.8685895912893,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 96097,
+            "coverage": 0.5931913580246914,
+            "meanAlpha": 252.47108650634254,
+            "brightness": 99.88304416370991,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 97340,
+            "coverage": 0.6008641975308642,
+            "meanAlpha": 252.68315183891514,
+            "brightness": 98.8127587918639,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 97371,
+            "coverage": 0.6010555555555556,
+            "meanAlpha": 252.70189276067822,
+            "brightness": 95.81215972928294,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 96271,
+            "coverage": 0.5942654320987655,
+            "meanAlpha": 252.54789084978862,
+            "brightness": 88.65241960715147,
+            "green": 0,
+            "magenta": 0,
+            "index": 6,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "laurens": {
+        "path": "/art/main-pixel/v1/laurens.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 35,
+            "y": 12,
+            "width": 468,
+            "height": 498
+          },
+          {
+            "x": 23,
+            "y": 13,
+            "width": 468,
+            "height": 498
+          },
+          {
+            "x": 5,
+            "y": 12,
+            "width": 486,
+            "height": 498
+          },
+          {
+            "x": 28,
+            "y": 7,
+            "width": 467,
+            "height": 505
+          },
+          {
+            "x": 20,
+            "y": 8,
+            "width": 448,
+            "height": 500
+          },
+          {
+            "x": 11,
+            "y": 8,
+            "width": 437,
+            "height": 504
+          }
+        ],
+        "registration": {
+          "scale": 0.7028112449799196,
+          "sourceBounds": {
+            "x": 5,
+            "y": 7,
+            "width": 498,
+            "height": 505
+          },
+          "offsetX": 5,
+          "offsetY": 90.0803212851406
+        },
+        "frames": [
+          {
+            "visible": 74366,
+            "coverage": 0.4590493827160494,
+            "meanAlpha": 251.73377618804292,
+            "brightness": 87.24634923755421,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 74241,
+            "coverage": 0.4582777777777778,
+            "meanAlpha": 251.6715292089277,
+            "brightness": 87.41667477270023,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75328,
+            "coverage": 0.46498765432098765,
+            "meanAlpha": 251.90382062446898,
+            "brightness": 88.40377744265096,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 77792,
+            "coverage": 0.48019753086419753,
+            "meanAlpha": 251.94951923076923,
+            "brightness": 88.34658462052587,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75992,
+            "coverage": 0.4690864197530864,
+            "meanAlpha": 251.87127592378144,
+            "brightness": 89.39749120960091,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75157,
+            "coverage": 0.4639320987654321,
+            "meanAlpha": 252.02613196375586,
+            "brightness": 86.33040553507978,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "lafayette": {
+        "path": "/art/main-pixel/v1/lafayette.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 23,
+            "y": 16,
+            "width": 351,
+            "height": 495
+          },
+          {
+            "x": 7,
+            "y": 16,
+            "width": 348,
+            "height": 496
+          },
+          {
+            "x": -18,
+            "y": 16,
+            "width": 383,
+            "height": 496
+          },
+          {
+            "x": 23,
+            "y": 16,
+            "width": 319,
+            "height": 495
+          },
+          {
+            "x": 20,
+            "y": 6,
+            "width": 357,
+            "height": 492
+          },
+          {
+            "x": 24,
+            "y": 6,
+            "width": 327,
+            "height": 492
+          },
+          {
+            "x": -3,
+            "y": 6,
+            "width": 380,
+            "height": 492
+          }
+        ],
+        "registration": {
+          "scale": 0.8695652173913043,
+          "sourceBounds": {
+            "x": -18,
+            "y": 6,
+            "width": 395,
+            "height": 506
+          },
+          "offsetX": 8.260869565217405,
+          "offsetY": 5
+        },
+        "frames": [
+          {
+            "visible": 87023,
+            "coverage": 0.537179012345679,
+            "meanAlpha": 251.17855049814418,
+            "brightness": 91.9727319444272,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 86788,
+            "coverage": 0.5357283950617284,
+            "meanAlpha": 250.9782804074296,
+            "brightness": 92.16400838825686,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 89714,
+            "coverage": 0.5537901234567901,
+            "meanAlpha": 250.94065586196135,
+            "brightness": 92.24626590052603,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 81156,
+            "coverage": 0.5009629629629629,
+            "meanAlpha": 251.12742126275322,
+            "brightness": 84.04175262210967,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 88733,
+            "coverage": 0.5477345679012345,
+            "meanAlpha": 251.09566902956058,
+            "brightness": 91.52342068677936,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 87162,
+            "coverage": 0.5380370370370371,
+            "meanAlpha": 251.0505839700787,
+            "brightness": 86.53169629654995,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 91167,
+            "coverage": 0.5627592592592593,
+            "meanAlpha": 250.913269055689,
+            "brightness": 91.7581641931839,
+            "green": 0,
+            "magenta": 0,
+            "index": 6,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "mulligan": {
+        "path": "/art/main-pixel/v1/mulligan.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 22,
+            "y": 11,
+            "width": 490,
+            "height": 497
+          },
+          {
+            "x": 19,
+            "y": 10,
+            "width": 492,
+            "height": 499
+          },
+          {
+            "x": 9,
+            "y": 10,
+            "width": 489,
+            "height": 500
+          },
+          {
+            "x": 19,
+            "y": 5,
+            "width": 493,
+            "height": 499
+          },
+          {
+            "x": 19,
+            "y": 3,
+            "width": 486,
+            "height": 500
+          },
+          {
+            "x": 26,
+            "y": 5,
+            "width": 458,
+            "height": 498
+          }
+        ],
+        "registration": {
+          "scale": 0.6958250497017893,
+          "sourceBounds": {
+            "x": 9,
+            "y": 3,
+            "width": 503,
+            "height": 507
+          },
+          "offsetX": 5,
+          "offsetY": 92.21669980119282
+        },
+        "frames": [
+          {
+            "visible": 79007,
+            "coverage": 0.48769753086419754,
+            "meanAlpha": 252.73628918956547,
+            "brightness": 69.11492423709363,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 79174,
+            "coverage": 0.4887283950617284,
+            "meanAlpha": 252.70255386869428,
+            "brightness": 69.0955129183822,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 78751,
+            "coverage": 0.48611728395061726,
+            "meanAlpha": 253.0891036304301,
+            "brightness": 68.63601966959183,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 79482,
+            "coverage": 0.49062962962962964,
+            "meanAlpha": 252.75959336705165,
+            "brightness": 69.61132843159442,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 78928,
+            "coverage": 0.48720987654320985,
+            "meanAlpha": 252.8119171903507,
+            "brightness": 68.92611916430226,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75494,
+            "coverage": 0.46601234567901234,
+            "meanAlpha": 253.0776088165947,
+            "brightness": 71.16478478024838,
+            "green": 0,
+            "magenta": 0,
+            "index": 5,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "newsboy": {
+        "path": "/art/main-pixel/v1/newsboy.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 8,
+            "y": 19,
+            "width": 504,
+            "height": 493
+          },
+          {
+            "x": 1,
+            "y": 19,
+            "width": 503,
+            "height": 493
+          },
+          {
+            "x": 0,
+            "y": 19,
+            "width": 483,
+            "height": 493
+          },
+          {
+            "x": 39,
+            "y": 11,
+            "width": 473,
+            "height": 493
+          },
+          {
+            "x": 97,
+            "y": 11,
+            "width": 384,
+            "height": 493
+          }
+        ],
+        "registration": {
+          "scale": 0.68359375,
+          "sourceBounds": {
+            "x": 0,
+            "y": 11,
+            "width": 512,
+            "height": 501
+          },
+          "offsetX": 5,
+          "offsetY": 102.51953125
+        },
+        "frames": [
+          {
+            "visible": 65268,
+            "coverage": 0.4028888888888889,
+            "meanAlpha": 252.12733652019367,
+            "brightness": 99.46641923454084,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 65131,
+            "coverage": 0.4020432098765432,
+            "meanAlpha": 252.1424206599008,
+            "brightness": 99.32973127389252,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 64278,
+            "coverage": 0.3967777777777778,
+            "meanAlpha": 252.34002302498521,
+            "brightness": 97.93444464980189,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 63745,
+            "coverage": 0.39348765432098765,
+            "meanAlpha": 251.7055769079928,
+            "brightness": 95.84948280492547,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 61616,
+            "coverage": 0.38034567901234567,
+            "meanAlpha": 251.96257465593354,
+            "brightness": 100.87700729031445,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "loyalist": {
+        "path": "/art/main-pixel/v1/loyalist.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 32,
+            "y": 17,
+            "width": 464,
+            "height": 489
+          },
+          {
+            "x": 32,
+            "y": 17,
+            "width": 463,
+            "height": 488
+          },
+          {
+            "x": 32,
+            "y": 17,
+            "width": 466,
+            "height": 489
+          },
+          {
+            "x": 39,
+            "y": 11,
+            "width": 414,
+            "height": 493
+          },
+          {
+            "x": 32,
+            "y": 10,
+            "width": 420,
+            "height": 494
+          }
+        ],
+        "registration": {
+          "scale": 0.7510729613733905,
+          "sourceBounds": {
+            "x": 32,
+            "y": 10,
+            "width": 466,
+            "height": 496
+          },
+          "offsetX": 5,
+          "offsetY": 72.46781115879833
+        },
+        "frames": [
+          {
+            "visible": 78182,
+            "coverage": 0.48260493827160494,
+            "meanAlpha": 252.16311938809446,
+            "brightness": 79.23120678672723,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 78270,
+            "coverage": 0.48314814814814816,
+            "meanAlpha": 252.11441165197394,
+            "brightness": 79.40473548741431,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 79097,
+            "coverage": 0.48825308641975307,
+            "meanAlpha": 252.17396361429638,
+            "brightness": 79.80903202902645,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 76642,
+            "coverage": 0.4730987654320988,
+            "meanAlpha": 252.8012056052817,
+            "brightness": 75.13952722528043,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 78586,
+            "coverage": 0.4850987654320988,
+            "meanAlpha": 253.05866184816634,
+            "brightness": 80.24589071081301,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "narrator": {
+        "path": "/art/main-pixel/v1/narrator.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 4,
+            "y": 99,
+            "width": 518,
+            "height": 850
+          },
+          {
+            "x": 8,
+            "y": 95,
+            "width": 504,
+            "height": 856
+          },
+          {
+            "x": -5,
+            "y": 94,
+            "width": 512,
+            "height": 858
+          }
+        ],
+        "registration": {
+          "scale": 0.5128205128205128,
+          "sourceBounds": {
+            "x": -5,
+            "y": 94,
+            "width": 527,
+            "height": 858
+          },
+          "offsetX": 44.87179487179489,
+          "offsetY": 5.000000000000057
+        },
+        "frames": [
+          {
+            "visible": 83144,
+            "coverage": 0.5132345679012346,
+            "meanAlpha": 253.0577672471856,
+            "brightness": 100.71381208986934,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 82214,
+            "coverage": 0.5074938271604938,
+            "meanAlpha": 252.77766560439827,
+            "brightness": 97.65480153015508,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 83358,
+            "coverage": 0.5145555555555555,
+            "meanAlpha": 252.93712661052328,
+            "brightness": 99.43521859449791,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      },
+      "citizen": {
+        "path": "/art/main-pixel/v1/citizen.png",
+        "width": 1536,
+        "height": 1024,
+        "bounds": [
+          {
+            "x": 30,
+            "y": 12,
+            "width": 467,
+            "height": 493
+          },
+          {
+            "x": 30,
+            "y": 12,
+            "width": 467,
+            "height": 493
+          },
+          {
+            "x": 28,
+            "y": 12,
+            "width": 479,
+            "height": 493
+          },
+          {
+            "x": 30,
+            "y": 11,
+            "width": 467,
+            "height": 494
+          },
+          {
+            "x": 45,
+            "y": 11,
+            "width": 399,
+            "height": 494
+          }
+        ],
+        "registration": {
+          "scale": 0.7306889352818372,
+          "sourceBounds": {
+            "x": 28,
+            "y": 11,
+            "width": 479,
+            "height": 494
+          },
+          "offsetX": 5,
+          "offsetY": 84.03966597077243
+        },
+        "frames": [
+          {
+            "visible": 75656,
+            "coverage": 0.46701234567901234,
+            "meanAlpha": 252.41417732896267,
+            "brightness": 82.29965329914471,
+            "green": 0,
+            "magenta": 0,
+            "index": 0,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75646,
+            "coverage": 0.4669506172839506,
+            "meanAlpha": 252.46462469925706,
+            "brightness": 82.24532043994422,
+            "green": 0,
+            "magenta": 0,
+            "index": 1,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 76819,
+            "coverage": 0.47419135802469137,
+            "meanAlpha": 252.6190916309767,
+            "brightness": 81.75292073575602,
+            "green": 0,
+            "magenta": 0,
+            "index": 2,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 75319,
+            "coverage": 0.4649320987654321,
+            "meanAlpha": 252.75399301637037,
+            "brightness": 83.16814951340372,
+            "green": 0,
+            "magenta": 0,
+            "index": 3,
+            "width": 360,
+            "height": 450
+          },
+          {
+            "visible": 71536,
+            "coverage": 0.4415802469135802,
+            "meanAlpha": 252.91095392529635,
+            "brightness": 83.09147910143119,
+            "green": 0,
+            "magenta": 0,
+            "index": 4,
+            "width": 360,
+            "height": 450
+          }
+        ],
+        "loaded": true
+      }
+    },
+    "errors": [],
+    "canvases": 59
+  },
+  "performances": [
+    {
+      "id": "hamilton",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "hamilton",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 91296,
+              "coverage": 0.5635555555555556,
+              "meanAlpha": 251.74557483350858,
+              "brightness": 88.1760475135833,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "lafayette",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 5,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 87162,
+              "coverage": 0.5380370370370371,
+              "meanAlpha": 251.0505839700787,
+              "brightness": 44.658093483402,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "hamilton",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 87.68558135638563,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "lafayette",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 5,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 87162,
+              "coverage": 0.5380370370370371,
+              "meanAlpha": 251.0505839700787,
+              "brightness": 44.658093483402,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 88.1760475135833,
+        "inactive": 45.109679107528684
+      }
+    },
+    {
+      "id": "burr",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "burr",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 44.978150869252445,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "burr",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 96359,
+              "coverage": 0.5948086419753087,
+              "meanAlpha": 252.45249535590864,
+              "brightness": 69.19719432123661,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "burr",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 44.978150869252445,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "burr",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 6,
+            "pose": "challenge",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93292,
+              "coverage": 0.5758765432098766,
+              "meanAlpha": 252.06557904214725,
+              "brightness": 62.20638508339431,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 69.19719432123661,
+        "inactive": 40.02215798005549
+      }
+    },
+    {
+      "id": "washington",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "washington",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 44.978150869252445,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "washington",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 99186,
+              "coverage": 0.6122592592592593,
+              "meanAlpha": 252.51433670074405,
+              "brightness": 93.50054492972801,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "washington",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 44.978150869252445,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "washington",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 6,
+            "pose": "reflect",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 96271,
+              "coverage": 0.5942654320987655,
+              "meanAlpha": 252.54789084978862,
+              "brightness": 88.65235779414442,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 93.50054492972801,
+        "inactive": 46.53025501784778
+      }
+    },
+    {
+      "id": "laurens",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "laurens",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 44.978150869252445,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "laurens",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 6,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 74366,
+              "coverage": 0.4590493827160494,
+              "meanAlpha": 251.73377618804292,
+              "brightness": 87.24610090632747,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "laurens",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "laurens",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 5,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 6,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 75157,
+              "coverage": 0.4639320987654321,
+              "meanAlpha": 252.02613196375586,
+              "brightness": 86.33046650345277,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 87.24610090632747,
+        "inactive": 45.00459263641901
+      }
+    },
+    {
+      "id": "lafayette",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "lafayette",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "lafayette",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 87023,
+              "coverage": 0.537179012345679,
+              "meanAlpha": 251.17855049814418,
+              "brightness": 91.97157022855906,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "lafayette",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "lafayette",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 6,
+            "pose": "amused",
+            "art": "main-pixel",
+            "frameCount": 7,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 91167,
+              "coverage": 0.5627592592592593,
+              "meanAlpha": 250.913269055689,
+              "brightness": 91.75930837254705,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 91.97157022855906,
+        "inactive": 46.27053528837233
+      }
+    },
+    {
+      "id": "mulligan",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "mulligan",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "mulligan",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 6,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 79007,
+              "coverage": 0.48769753086419754,
+              "meanAlpha": 252.73628918956547,
+              "brightness": 69.11442024883945,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "mulligan",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "mulligan",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 5,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 6,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 75494,
+              "coverage": 0.46601234567901234,
+              "meanAlpha": 253.0776088165947,
+              "brightness": 71.16410577264521,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 69.11442024883945,
+        "inactive": 40.13964794258341
+      }
+    },
+    {
+      "id": "loyalist",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "loyalist",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "loyalist",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 78182,
+              "coverage": 0.48260493827160494,
+              "meanAlpha": 252.16311938809446,
+              "brightness": 79.23100078790407,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "loyalist",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "loyalist",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 4,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 78586,
+              "coverage": 0.4850987654320988,
+              "meanAlpha": 253.05866184816634,
+              "brightness": 80.24638292571142,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 79.23100078790407,
+        "inactive": 42.85999674605496
+      }
+    },
+    {
+      "id": "newsboy",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "newsboy",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "newsboy",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "assertive",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 65268,
+              "coverage": 0.4028888888888889,
+              "meanAlpha": 252.12733652019367,
+              "brightness": 99.46725629098502,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "newsboy",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "newsboy",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "true",
+            "talking": "false",
+            "frame": 4,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 61616,
+              "coverage": 0.38034567901234567,
+              "meanAlpha": 251.96257465593354,
+              "brightness": 100.87538292002104,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 99.46725629098502,
+        "inactive": 48.27494712569587
+      }
+    },
+    {
+      "id": "citizen",
+      "frames": [
+        1,
+        0,
+        2
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "citizen",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "citizen",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "concern",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 75656,
+              "coverage": 0.46701234567901234,
+              "meanAlpha": 252.41417732896267,
+              "brightness": 82.29899728243764,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "citizen",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "citizen",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 4,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 5,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 71536,
+              "coverage": 0.4415802469135802,
+              "meanAlpha": 252.91095392529635,
+              "brightness": 83.08980765768263,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 82.29899728243764,
+        "inactive": 43.67469879983482
+      }
+    },
+    {
+      "id": "narrator",
+      "frames": [
+        0
+      ],
+      "ready": {
+        "phase": "ready",
+        "speaker": "narrator",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "narrator",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 0,
+            "pose": "write",
+            "art": "main-pixel",
+            "frameCount": 3,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 83144,
+              "coverage": 0.5132345679012346,
+              "meanAlpha": 253.0577672471856,
+              "brightness": 100.71373323150306,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "settled": {
+        "phase": "settled",
+        "speaker": "narrator",
+        "talking": "false",
+        "paused": "false",
+        "reduced": "false",
+        "slots": [
+          {
+            "character": "hamilton",
+            "side": "left",
+            "facing": "right",
+            "mirrored": "false",
+            "actualMirror": false,
+            "active": "false",
+            "talking": "false",
+            "frame": 7,
+            "pose": "calm",
+            "art": "main-pixel",
+            "frameCount": 8,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 93587,
+              "coverage": 0.5776975308641975,
+              "meanAlpha": 251.95616912605382,
+              "brightness": 45.11294984560484,
+              "green": 0,
+              "magenta": 0
+            }
+          },
+          {
+            "character": "narrator",
+            "side": "right",
+            "facing": "left",
+            "mirrored": "true",
+            "actualMirror": true,
+            "active": "true",
+            "talking": "false",
+            "frame": 2,
+            "pose": "turn",
+            "art": "main-pixel",
+            "frameCount": 3,
+            "width": 360,
+            "height": 450,
+            "pixels": {
+              "visible": 83358,
+              "coverage": 0.5145555555555555,
+              "meanAlpha": 252.93712661052328,
+              "brightness": 99.43435604741195,
+              "green": 0,
+              "magenta": 0
+            }
+          }
+        ]
+      },
+      "listenerBrightness": {
+        "active": 100.71373323150306,
+        "inactive": 48.60394944193238
+      }
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scroll": 390,
+    "clippedControls": []
+  },
+  "passed": true
+}

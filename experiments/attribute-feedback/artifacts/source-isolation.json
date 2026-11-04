@@ -1,0 +1,13 @@
+{
+  "reviewHooksAbsentFromMain": true,
+  "reviewHooksInMain": [],
+  "otherMainPathsChangedSinceSnapshot": [
+    "src/data/voiceover-catalog.json",
+    "src/data/mainPixelArt.ts",
+    "src/data/smallTalk.ts",
+    "src/data/chapters.ts",
+    "src/story3d/StoryDirector.ts",
+    "src/story3d/StoryUI.ts"
+  ],
+  "sourceFilesAreIndependent": true
+}

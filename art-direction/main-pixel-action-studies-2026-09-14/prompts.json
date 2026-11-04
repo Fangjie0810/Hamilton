@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-14",
+  "tool": "built-in image_gen",
+  "styleReference": "../../public/art/actors/eliza-chronicler-v1.png",
+  "status": "Eliza-style action study; awaiting user review. Not integrated into production game.",
+  "direction": "Hamilton leans into an argument, facing right. Lafayette opens his chest and offers an inviting palm, facing left. Both preserve the musical character identity.",
+  "frames": [
+    "closed / ready",
+    "small open / ordinary speech",
+    "wide open / emphasis with small gesture"
+  ],
+  "variants": [
+    {
+      "id": "hamilton",
+      "title": "Hamilton · 蓄势／开口／强调",
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset type: production-oriented main pixel-art DIALOGUE CHARACTER animation study for a Hamilton musical RPG. This must have strong GAME CHARACTER appeal and clear acting, not a neutral historical costume portrait.\nREFERENCE IMAGE: the supplied Eliza image is the exact STYLE REFERENCE only. Closely match her sculptural rich pixel shading, deliberately hard stepped pixel contours, dark colored edge outlines, detailed clustered hair, strong silhouette, vivid but controlled material highlights, substantial cloth folds, and attractive slightly animation-stylized proportions. The appearance should belong to the SAME GAME ART SET as this Eliza. Do not copy her gender, dress, book, quill, bowed pose, magenta background or concealed face: the new male character's face is fully visible, expressive and recognizable.\nCreate ONE WIDE THREE-FRAME SPRITE SHEET: exactly 3 equally sized columns, one complete head-to-upper-thigh portrait per column of the SAME man. Landscape 3:2 image. Strict repeated character design, costume and palette. Every frame has the same scale and registration: hair top, eye line, shoulder baseline, hips baseline and torso x center align across cells. Generous cell gutters, all hair and elbows and extended fingers fully inside each column, no overlap between columns. Deliberately enlarged expression readability without chibi superdeformed proportions or huge anime eyes. Each waist-up character should have a bold, purposeful asymmetrical pose, NEVER both hands politely clasped at waist, NEVER formal portrait standing attention. Strong adult game-character silhouette and physical tension even with closed mouth.\nFRAME 1 LEFT: closed-mouth ready/listening state, already in the characteristic acting pose, vivid eyes and brows.\nFRAME 2 CENTER: ordinary TALKING frame, preserve body, arms, fingers, costume, hair, skull/eye/ear position EXACTLY as frame 1; change only lips and slight jaw to an obvious small open-mouth vowel with visible dark mouth interior and subtle upper teeth. It must really be an open mouth, not a closed-lip smile.\nFRAME 3 RIGHT: EMPHASIZED SPEECH, same rooted body position, eye and head registration; a clearly larger open-mouth stressed syllable and a restrained small increase of the existing hand gesture (about a few centimeters higher/further forward). Energized, not shouting in rage. Avoid changing stance or flipping shoulders.\nPixel craft: nearest-neighbor crisp square pixel structure, complex shading made of hand-placed pixel clusters, purposeful color ramps, slight stylization. Rich detailed sprite like reference Eliza. Do not render a photo, 3D model, smooth illustration, watercolor, a photo pixelation filter, random dither noise or generic static portrait.\nBackground: genuinely transparent alpha, isolated characters. No checkerboard pattern baked in, no environment, no ground, no shadow behind the figure, no speech bubble, no border, no labels, no text or watermark. If transparency is unavailable use perfectly uniform pure magenta #ff00ff, no pattern. Output exactly three equal-sized frames of ONE character, not three different people. No extra props.\nCHARACTER: Alexander Hamilton in the musical's Lin-Manuel Miranda portrayal. Adult warm light-medium skin, naturally sized brown eyes, expressive strong eyebrows, slim long face, dark brown hair swept back into a LOW tied ponytail, small neat mustache/goatee. Navy Continental coat with broad buff lapels and cuffs, cream waistcoat, brass buttons, white ruffled stock/cravat, no epaulettes.\nEXACT ACTING POSE, same in all 3 cells: three-quarter facing toward the viewer's RIGHT, speaking toward a partner to the right. An eager intellectual revolutionary pushing an idea forward: upper body inclined forward 8 degrees, shoulder line angled rather than horizontal, chin slightly forward, focused raised inner eyebrows and alert eyes. His near/visible arm is extended diagonally toward the right at chest level, elbow bent, hand in a precise rhetorical gesture with index and middle fingers loosely leading and palm turned a little upward; open confident hand, not pointing a threatening gun or casting a spell. The other arm is bent with hand touching or hovering by his sternum/coat lapel, fingers relaxed. Torso twist, arms and gaze form a clear diagonal toward the listener. In frame 3 only, the leading hand reaches a small step further to punctuate the point. Passion and urgency, a touch of youthful wit, not anger. Both hands empty."
+    },
+    {
+      "id": "lafayette",
+      "title": "Lafayette · 蓄势／开口／强调",
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset type: production-oriented main pixel-art DIALOGUE CHARACTER animation study for a Hamilton musical RPG. This must have strong GAME CHARACTER appeal and clear acting, not a neutral historical costume portrait.\nREFERENCE IMAGE: the supplied Eliza image is the exact STYLE REFERENCE only. Closely match her sculptural rich pixel shading, deliberately hard stepped pixel contours, dark colored edge outlines, detailed clustered hair, strong silhouette, vivid but controlled material highlights, substantial cloth folds, and attractive slightly animation-stylized proportions. The appearance should belong to the SAME GAME ART SET as this Eliza. Do not copy her gender, dress, book, quill, bowed pose, magenta background or concealed face: the new male character's face is fully visible, expressive and recognizable.\nCreate ONE WIDE THREE-FRAME SPRITE SHEET: exactly 3 equally sized columns, one complete head-to-upper-thigh portrait per column of the SAME man. Landscape 3:2 image. Strict repeated character design, costume and palette. Every frame has the same scale and registration: hair top, eye line, shoulder baseline, hips baseline and torso x center align across cells. Generous cell gutters, all hair and elbows and extended fingers fully inside each column, no overlap between columns. Deliberately enlarged expression readability without chibi superdeformed proportions or huge anime eyes. Each waist-up character should have a bold, purposeful asymmetrical pose, NEVER both hands politely clasped at waist, NEVER formal portrait standing attention. Strong adult game-character silhouette and physical tension even with closed mouth.\nFRAME 1 LEFT: closed-mouth ready/listening state, already in the characteristic acting pose, vivid eyes and brows.\nFRAME 2 CENTER: ordinary TALKING frame, preserve body, arms, fingers, costume, hair, skull/eye/ear position EXACTLY as frame 1; change only lips and slight jaw to an obvious small open-mouth vowel with visible dark mouth interior and subtle upper teeth. It must really be an open mouth, not a closed-lip smile.\nFRAME 3 RIGHT: EMPHASIZED SPEECH, same rooted body position, eye and head registration; a clearly larger open-mouth stressed syllable and a restrained small increase of the existing hand gesture (about a few centimeters higher/further forward). Energized, not shouting in rage. Avoid changing stance or flipping shoulders.\nPixel craft: nearest-neighbor crisp square pixel structure, complex shading made of hand-placed pixel clusters, purposeful color ramps, slight stylization. Rich detailed sprite like reference Eliza. Do not render a photo, 3D model, smooth illustration, watercolor, a photo pixelation filter, random dither noise or generic static portrait.\nBackground: genuinely transparent alpha, isolated characters. No checkerboard pattern baked in, no environment, no ground, no shadow behind the figure, no speech bubble, no border, no labels, no text or watermark. If transparency is unavailable use perfectly uniform pure magenta #ff00ff, no pattern. Output exactly three equal-sized frames of ONE character, not three different people. No extra props.\nCHARACTER: Marquis de Lafayette in the musical's Daveed Diggs portrayal. Adult medium-brown Black skin, naturally sized brown eyes, long face, black curly hair gathered into a HIGH curly bun, neat full short beard, proud youthful charismatic energy. Deep navy officer coat with gold fringed epaulettes, pale cream lapels and waistcoat, brass buttons, white stock/cravat.\nEXACT ACTING POSE, same in all 3 cells: three-quarter facing toward the viewer's LEFT, speaking toward a partner to the left. An expansive, confident officer responding with an invitation to act: chest and shoulders open with a graceful torso twist, chin slightly lifted, eyebrows lively, warm assured half-smile in the closed-mouth frame. His near/visible arm rises diagonally toward the left at chest height with a bent elbow, hand OPEN and palm up/outward as though inviting his comrades to join; the opposite hand rests firmly at the waist/coat edge with elbow extending outward. This open silhouette and chest contrasts with Hamilton's forward lean. In frame 3 only the open palm lifts a few centimeters, the jaw opens wider in an emphatic spoken phrase; confidence and exuberance, never rage or roaring. Keep hand perspective believable and every finger inside the frame. Both hands empty."
+    }
+  ],
+  "backgroundEditPrompt": "Precise image edit. Preserve the provided THREE-FRAME pixel-art character sprite sheet exactly: same three frames, same face, expressions, mouths, poses, hands, costumes, colors, pixel clusters, framing, proportions, size and registration. ONLY replace every part of the white/grey checkerboard backdrop with a perfectly flat, single solid RGB(255,0,255) vivid magenta background (#ff00ff). No checkerboard anywhere, no background texture, no shadows, no halo, no text. Keep all character pixels intact including white cravat, cream waistcoat, and gold detailing; the magenta should occupy only the empty background around the character silhouettes. Do not redesign, redraw, change the poses or alter the faces. Keep the exact landscape composition with 3 portraits in 3 equal columns. Pure magenta background is mandatory; do NOT simulate transparency.",
+  "initialSources": [
+    {
+      "id": "hamilton",
+      "path": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-7d415afc-8a53-47ed-9f2d-5935af1d02e3.png"
+    },
+    {
+      "id": "lafayette",
+      "path": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-07b52678-cad4-407c-aca0-a76fd66f8dc6.png"
+    }
+  ],
+  "finalSources": [
+    {
+      "id": "hamilton",
+      "path": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-c2faa58e-e1c9-4d55-80d1-e1413ab09bff.png"
+    },
+    {
+      "id": "lafayette",
+      "path": "/Users/fangjie/.codex/generated_images/01a09f1e-d901-7400-aef5-3d2561ed5c5c/exec-20fb04eb-a60a-4dc2-8be3-c5a4ba4c69eb.png"
+    }
+  ],
+  "output": {
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 3,
+    "frame": [
+      512,
+      1024
+    ],
+    "background": "#ff00ff, colour-keyed only by review page renderer"
+  },
+  "limitations": [
+    "These are three-frame visual studies, not phoneme lip sync.",
+    "The generated frames contain small silhouette and registration differences; review playback before production use."
+  ]
+}

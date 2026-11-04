@@ -1,0 +1,6 @@
+{
+  "source": "image_gen",
+  "file": "public/art/environment/elm-foliage-v1.png",
+  "reference": "User video, opening woodland shot at 2 seconds",
+  "prompt": "Create one production game foliage texture, referencing the rich layered pixel greenery in the attached screenshot, but not copying the interface. This is a technical cutout material for 3D tree leaf cards in an HD pixel 2.5D historical RPG. Square canvas, ONLY ONE organic broadleaf branch cluster centered and fully visible, rounded irregular broad shape, roughly 80% of image width, many distinct small serrated elm leaves on subtle branching twigs. Rich dark forest green shadow leaves, moss green midtones, restrained warm sage highlights. Exquisite clean hand-crafted 16-bit pixel art with visible hard-edged pixel clusters, detailed leaf gaps and broken silhouette. No gradients, no blur, no border outline, no glow, no typography, no symbols, no ground, no trunk, no entire tree. The foliage should have natural distributed illumination, not a painted cast shadow. All space around and between leaves MUST be perfectly flat saturated #FF00FF magenta chroma key, not transparency checkerboard. No magenta on leaves themselves. Keep a wide clear margin all around. This cutout will be layered around 3D tree branches and lit by a 3D sun. Output only the asset."
+}

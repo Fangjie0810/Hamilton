@@ -1,0 +1,515 @@
+[
+  {
+    "id": "hamilton",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1707,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 91293,
+        "partial": 2647,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 91746,
+        "partial": 2667,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 93554,
+        "partial": 2743,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 91437,
+        "partial": 2616,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 92955,
+        "partial": 2490,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 93801,
+        "partial": 2726,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 6,
+        "visible": 94395,
+        "partial": 2719,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 7,
+        "visible": 93555,
+        "partial": 2380,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "burr",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 2356,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 96359,
+        "partial": 2089,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 96306,
+        "partial": 2000,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 95571,
+        "partial": 1953,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 93920,
+        "partial": 2015,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 96211,
+        "partial": 2240,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 95590,
+        "partial": 2209,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 6,
+        "visible": 93292,
+        "partial": 2248,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "washington",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1070,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 99186,
+        "partial": 2142,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 99075,
+        "partial": 2231,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 98725,
+        "partial": 2134,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 96097,
+        "partial": 2179,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 97340,
+        "partial": 2046,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 97371,
+        "partial": 2027,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 6,
+        "visible": 96271,
+        "partial": 2100,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "laurens",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1495,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 74366,
+        "partial": 2235,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 74241,
+        "partial": 2262,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 75328,
+        "partial": 2228,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 77792,
+        "partial": 2002,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 75992,
+        "partial": 2077,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 75157,
+        "partial": 1980,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "lafayette",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1954,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 87017,
+        "partial": 2820,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 86809,
+        "partial": 2942,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 89279,
+        "partial": 2989,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 81132,
+        "partial": 2752,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 88733,
+        "partial": 3106,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 87129,
+        "partial": 2978,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 6,
+        "visible": 91131,
+        "partial": 3324,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "mulligan",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1218,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 79007,
+        "partial": 1624,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 79174,
+        "partial": 1662,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 78751,
+        "partial": 1570,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 79482,
+        "partial": 1566,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 78928,
+        "partial": 1450,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 5,
+        "visible": 75494,
+        "partial": 1356,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "loyalist",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1267,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 78182,
+        "partial": 1825,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 78270,
+        "partial": 1818,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 79097,
+        "partial": 1858,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 76642,
+        "partial": 1576,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 78586,
+        "partial": 1477,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "newsboy",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1016,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 65268,
+        "partial": 1980,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 65131,
+        "partial": 1908,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 64278,
+        "partial": 1832,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 63745,
+        "partial": 2072,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 61616,
+        "partial": 1835,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "citizen",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 1016,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 75656,
+        "partial": 1633,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 75646,
+        "partial": 1566,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 76819,
+        "partial": 1521,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 3,
+        "visible": 75319,
+        "partial": 1463,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 4,
+        "visible": 71536,
+        "partial": 1358,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  },
+  {
+    "id": "narrator",
+    "size": [
+      1536,
+      1024
+    ],
+    "milliseconds": 870,
+    "metrics": [
+      {
+        "frame": 0,
+        "visible": 82984,
+        "partial": 1546,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 1,
+        "visible": 82394,
+        "partial": 1771,
+        "green": 0,
+        "magenta": 0
+      },
+      {
+        "frame": 2,
+        "visible": 83279,
+        "partial": 1561,
+        "green": 0,
+        "magenta": 0
+      }
+    ]
+  }
+]

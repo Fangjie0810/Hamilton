@@ -1,0 +1,1 @@
+{"extends":"../../tsconfig.json","include":["*.ts","../../src/i18n/text.ts"],"exclude":["dist"]}

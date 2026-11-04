@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "shot": "E03",
+  "status": "complete",
+  "created_at": "2026-09-10T11:00:52.210125+00:00",
+  "model": "doubao-seedream-5-0-pro-260628",
+  "expected_images": 1,
+  "automatic_retries": 0,
+  "payload_sha256": "284401a2fa2bd3251afbc4e74bdff84a67e03dd0bf11d04a9eeb8460194d0653",
+  "curl_exit_code": 0,
+  "http_status": 200,
+  "elapsed_seconds": 40.629,
+  "image": {
+    "bytes": 7154212,
+    "sha256": "01810e24efca7dc0028fe302a68e87daf39381951bd54a046ab6592e846242f5",
+    "width": 2560,
+    "height": 1440
+  },
+  "usage": {
+    "input_images": 0,
+    "generated_images": 1,
+    "output_tokens": 14400,
+    "total_tokens": 14400
+  },
+  "completed_at": "2026-09-10T11:01:34.085338+00:00"
+}

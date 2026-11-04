@@ -1,0 +1,1470 @@
+{
+  "verifiedAt": "2026-09-13T13:31:29.177Z",
+  "method": "Official CLI generation plus afinfo validation of every current MP3; independent SHA-256, byte-size and voice-map verification",
+  "cueCount": 202,
+  "uniqueFiles": 201,
+  "generatedFiles": 201,
+  "pendingFiles": 0,
+  "totalBytes": 14314134,
+  "totalDurationSeconds": 887.823613,
+  "newCueCount": 60,
+  "newFiles": 60,
+  "newEnglishCharacters": 4844,
+  "newBytes": 4120348,
+  "newDurationSeconds": 255.791019,
+  "sampleRateHz": 44100,
+  "narratorDialogueCues": 8,
+  "newNarratorDialogueCues": 2,
+  "uncertainResolution": "No existing match in all 84 Hamilton history items. Generated exactly once after verification; see growth-uncertain-resolution.json.",
+  "bySpeaker": {
+    "hamilton": {
+      "current": 118,
+      "new": 34
+    },
+    "burr": {
+      "current": 17,
+      "new": 10
+    },
+    "washington": {
+      "current": 17,
+      "new": 6
+    },
+    "lafayette": {
+      "current": 6,
+      "new": 0
+    },
+    "mulligan": {
+      "current": 6,
+      "new": 0
+    },
+    "laurens": {
+      "current": 7,
+      "new": 0
+    },
+    "narrator": {
+      "current": 8,
+      "new": 2
+    },
+    "newsboy": {
+      "current": 4,
+      "new": 2
+    },
+    "citizen": {
+      "current": 9,
+      "new": 6
+    },
+    "loyalist": {
+      "current": 9,
+      "new": 0
+    }
+  },
+  "files": [
+    {
+      "filename": "narrator-a12313d75e6f8d1ecfaa.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 8.359184,
+      "bytes": 134208,
+      "sha256": "4e2dda6668e27fdc6c5a278b2fa1a39d274a8329da8bdfe1240a97b3475217de"
+    },
+    {
+      "filename": "narrator-4dd04b1bd1275c515920.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 7.549388,
+      "bytes": 121252,
+      "sha256": "474d0ea538003851766be1d2f6e1c706a04f506fc1dc9cff72d1750a862c55b2"
+    },
+    {
+      "filename": "hamilton-87e3709efde0ffa54942.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 10.94525,
+      "bytes": 191772,
+      "sha256": "e28d50062355b2170098713dbbee93933a7d1a0e0cf9eb7698a5e7aad96145ac"
+    },
+    {
+      "filename": "newsboy-c6bc7571eef2adbd2489.mp3",
+      "speaker": "newsboy",
+      "durationSeconds": 13.035102,
+      "bytes": 209023,
+      "sha256": "7bc7344c69d7175c4fef9d3987a142e0a835c435d0d6eb20a86576a618ec8551"
+    },
+    {
+      "filename": "hamilton-7e8b1d2a0b107bc0e616.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 6.269388,
+      "bytes": 100772,
+      "sha256": "93efb21caa0ce6f8234221966e84b12fd5065e706cb1b785c98348cc54002897"
+    },
+    {
+      "filename": "citizen-c606851215a62863e52d.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 6.687347,
+      "bytes": 107459,
+      "sha256": "2d5953fc9b8b50b6aa079439ca584e8b012490144d0619fe7b9aed8fd017e4ce"
+    },
+    {
+      "filename": "loyalist-7fa7fcbac4fa89431e14.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 10.161633,
+      "bytes": 163048,
+      "sha256": "070dabe31501b6c164f849de573fdae3d5b20fdaa3e291f553bad79895cf137c"
+    },
+    {
+      "filename": "hamilton-d05e94eb5ef369df02e9.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.851429,
+      "bytes": 94084,
+      "sha256": "735b1740b633fb5b7f44551a004c15bdbed1f530cb2bcfeb7f935759c11decf9"
+    },
+    {
+      "filename": "burr-8511829312986bba6551.mp3",
+      "speaker": "burr",
+      "durationSeconds": 3.84,
+      "bytes": 61902,
+      "sha256": "a06bf35fe1151b1e61530ffa1e5ea0b8ed76e2293e487d14c911c8d2d83cc0d5"
+    },
+    {
+      "filename": "hamilton-a5596dd8b17ad2cfe8b8.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 6.217143,
+      "bytes": 99936,
+      "sha256": "d67488c53fe7422d429125807b133c5a5def2f3da59e0298b1d6ffb9f4dc58c6"
+    },
+    {
+      "filename": "burr-005bc8e15004abb0aed5.mp3",
+      "speaker": "burr",
+      "durationSeconds": 6.817959,
+      "bytes": 109549,
+      "sha256": "4fc5ac15be539cf77a8506c5a7ba2ad6f089c700c0b95b99a7402c232c80f7e4"
+    },
+    {
+      "filename": "hamilton-ed0e4b1f259767934806.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.108571,
+      "bytes": 50199,
+      "sha256": "dcfeb7e6d6d740f50cf5f7f776b9db75ca41fab5b893b0c0000dc87b4df75eb8"
+    },
+    {
+      "filename": "burr-e15c5c07679daee042b0.mp3",
+      "speaker": "burr",
+      "durationSeconds": 6.29551,
+      "bytes": 101190,
+      "sha256": "4b6aca6567147037991bb5e3b8853fef8c5729bf2a8cf370bb4fd933ed5d4f72"
+    },
+    {
+      "filename": "hamilton-094b94cc76dc60773f6b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.436735,
+      "bytes": 23449,
+      "sha256": "b5a4b65807ba60065d9eb64c3e3f9c8e5a216e5b01d8626ac3acb130e0670ecc"
+    },
+    {
+      "filename": "burr-02a94b93b27c695d9ee5.mp3",
+      "speaker": "burr",
+      "durationSeconds": 6.347755,
+      "bytes": 102026,
+      "sha256": "dbae6e228c927814a6b8cd6de6efa3c2b3b169b344a6b1e72506ca5ea93c941d"
+    },
+    {
+      "filename": "hamilton-54ccf59897f5e9cc3d16.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "7b0300529f54021cc55dbfcdca5a5e02384f4cf6a4858e6276738716555fcafb"
+    },
+    {
+      "filename": "burr-3de74fb8f2689ae62d7b.mp3",
+      "speaker": "burr",
+      "durationSeconds": 4.832653,
+      "bytes": 77784,
+      "sha256": "1893c2788ef09af1ea771789c6bf347dc54fbbc0de8f71fa856ff83e5c8dbc0d"
+    },
+    {
+      "filename": "laurens-fe181bc8d7a1fb9aa74d.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 8.907755,
+      "bytes": 142986,
+      "sha256": "aea4d3543bbb31fdb776d8f9b7ddabf77ebb39ec0e9b510d8e8fb7afef9ea5f0"
+    },
+    {
+      "filename": "hamilton-119ace0fcaa2dae92ef0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.951837,
+      "bytes": 47691,
+      "sha256": "f0b0b07075b887a3ae7d83436adfebb4b1d46efa63dd1e854804a3a8e1aaf828"
+    },
+    {
+      "filename": "laurens-d1571347664fc70780ea.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 3.186939,
+      "bytes": 51453,
+      "sha256": "5683e3e96dcd54121662988e46f905c9518e01917ffeac4768c2d8be79c39a3b"
+    },
+    {
+      "filename": "hamilton-7528dc6bef72b002a709.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.985306,
+      "bytes": 32226,
+      "sha256": "a06c32eab7da25ad56836979bb74e71560bb7e99f78ef1136ea98b0ddbe0070e"
+    },
+    {
+      "filename": "laurens-a8a876ee0bfd246d7b06.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 6.817959,
+      "bytes": 109549,
+      "sha256": "e6ea271df0f7e79aaa245efd84e5d9506736d049682f4f1718e1b1ce31dd6c32"
+    },
+    {
+      "filename": "hamilton-11b93c0c00cc5c36cfc5.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "d28cb75adbd3485020de304992275038674feab1b61cf8adfc8377be15eac595"
+    },
+    {
+      "filename": "laurens-d3907cd9faf65be38cda.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 5.616327,
+      "bytes": 90323,
+      "sha256": "b13b4a9145d9f9346c93c4aa32d101326632d3c99d4361a47f79316f5c2fde7f"
+    },
+    {
+      "filename": "hamilton-92ae2b9746fe7537c0d5.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.586122,
+      "bytes": 41839,
+      "sha256": "ce07e2e3ba12192197929bf1b02ce03602ffeed61819290b9fb9f7a5a89fd8c7"
+    },
+    {
+      "filename": "laurens-b63c4d326eba38a6e888.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 6.870204,
+      "bytes": 110385,
+      "sha256": "1c400a4a7bf4d44fc69e40e3a2eea3e3312ea2e058ce749262a41174747fbcaa"
+    },
+    {
+      "filename": "laurens-81c3adca3a050055bcc4.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 6.687347,
+      "bytes": 107459,
+      "sha256": "4fa762ea719de9a3b59eb8e297637c6703554bbdd6522b8419fb6ac17fc7fe12"
+    },
+    {
+      "filename": "lafayette-98a29a46e998c8327ccd.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 9.456327,
+      "bytes": 151763,
+      "sha256": "1823c65637e18c8de5f4b9b15a0b885b9027268a94c75be349db62a258f359b7"
+    },
+    {
+      "filename": "hamilton-8c47c9f60ea1f5761c69.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.440816,
+      "bytes": 71515,
+      "sha256": "5b330c8cd1615895e7d880890ce865846347618942b73b487414cb1e0ce3f817"
+    },
+    {
+      "filename": "hamilton-d3835efe6ee13e8e2f65.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.951837,
+      "bytes": 47691,
+      "sha256": "f9bb573926476ea265f61e485e5bcbd3eb3e96da546e4328a04ee3e4be78ff64"
+    },
+    {
+      "filename": "lafayette-e80af881fc5c66e47fe6.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 7.967347,
+      "bytes": 127939,
+      "sha256": "4982559de0259b9dcaf4d2abbe08da8ff0bf79243171b0e8f097c7df0f73b035"
+    },
+    {
+      "filename": "hamilton-e0b7e3ad566d20cb2133.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.075102,
+      "bytes": 65663,
+      "sha256": "131c6ddab81191f7d5c5aecdde091d850fea8f00f2885068d8151537a367d098"
+    },
+    {
+      "filename": "lafayette-2ce436b7e32897cc7ae6.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 6.687347,
+      "bytes": 107459,
+      "sha256": "82b69f39964422b98b861262a9b3e609d2968b4bc1d6a91edabc2b2a5ec2a11a"
+    },
+    {
+      "filename": "hamilton-1b98b2def7b22e1c3b2f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.925714,
+      "bytes": 47273,
+      "sha256": "df2fb792227b409212f96f06b2a3fe1b5184e792beff445f234ffcfa61be88d3"
+    },
+    {
+      "filename": "lafayette-44d91bfb59c998b02e37.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 4.493061,
+      "bytes": 72351,
+      "sha256": "fe1d8c409eacedb79b5245d757553b5f7d716e9acfff2408da81fd580189aad1"
+    },
+    {
+      "filename": "lafayette-6203f1bdd9c6351a9e23.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 5.616327,
+      "bytes": 90323,
+      "sha256": "b3b0a173039c38a3e117c41b7aebd33ebb40813a761e85298d751175f006af52"
+    },
+    {
+      "filename": "mulligan-febd3a2a18af25fb1307.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 7.183673,
+      "bytes": 115400,
+      "sha256": "23d75fdc4f4c61c89ba9dab3373aa4a156fe21f80ebf4012151616b6e5c822ed"
+    },
+    {
+      "filename": "hamilton-7294e620be9a62194689.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.022857,
+      "bytes": 64827,
+      "sha256": "54e8287e83da9fd02f7a01a028c4822ad9aea1a7cb074625391a872659c7fad9"
+    },
+    {
+      "filename": "hamilton-a6d89fee194eb6f79de7.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.604898,
+      "bytes": 58140,
+      "sha256": "672f873eab8d48d62da292e06e4785c1639727bee68217764638996833f2c7c0"
+    },
+    {
+      "filename": "mulligan-ed06dce76628368ffc66.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 3.657143,
+      "bytes": 58976,
+      "sha256": "2e086a2b3c61a40525f3931d3a9699abb669797e97eefba11f1dafde387abe41"
+    },
+    {
+      "filename": "hamilton-3e2d1a698e504f5fd134.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "b6731981e1fe8edc8ed8a2ab8e2732e3dce32e93677fd4b70174dbebb6333c7b"
+    },
+    {
+      "filename": "mulligan-9488044dc0534b5ce7e9.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 4.858776,
+      "bytes": 78202,
+      "sha256": "f12268a94f79f6618475878dea0d5fcc64905597b742fe8a518d210c5b368082"
+    },
+    {
+      "filename": "hamilton-3915a9c5b68d18fd48ea.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.638367,
+      "bytes": 42675,
+      "sha256": "4791a349117f2848ba7ff35c9f0d3487bf5448a7ef8ad710a4f49f6343b4d853"
+    },
+    {
+      "filename": "mulligan-3327a9cec04bdd135883.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 4.493061,
+      "bytes": 72351,
+      "sha256": "24e46f24c26c853f1290adf77609dac9adfe6cca2f13c2373be268c517d6db40"
+    },
+    {
+      "filename": "mulligan-ace3178f3f83ed183a10.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 6.269388,
+      "bytes": 100772,
+      "sha256": "f78578d963eb4afe81ffa27bd4996907990f50e38cf21418e2951105827e0bbf"
+    },
+    {
+      "filename": "loyalist-715bc5ddcdbc76420d87.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 11.31102,
+      "bytes": 181438,
+      "sha256": "b143775769a1af6a600d7d5c44b72b19b09d637c5694aa306971e6384e0122be"
+    },
+    {
+      "filename": "citizen-7a747bb0c68844a92d6e.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 4.675918,
+      "bytes": 75276,
+      "sha256": "f9104c37a0480245dd8da0eb30d041d6fad5782665b49a49cf1df6446085c397"
+    },
+    {
+      "filename": "burr-61fda2f4ecd4c14fd773.mp3",
+      "speaker": "burr",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "e2829aef617e24e8333e3054ec7d7facf641923c02037429612cffb078acb33b"
+    },
+    {
+      "filename": "loyalist-7b45a284701aa180f3db.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 8.620408,
+      "bytes": 138388,
+      "sha256": "d2aa73e7fa783c5de6454fd3d7dd4032a4b10d71d04f751d7ec93c147b5e5381"
+    },
+    {
+      "filename": "hamilton-672e40d1835fdd6512a1.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.089796,
+      "bytes": 33898,
+      "sha256": "f9874d701e455f482f9cdc6cc52d1bb0b14d826b26b0b2e6f5bba3b2b5d6a732"
+    },
+    {
+      "filename": "hamilton-5c4927c697befa22e1de.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.619592,
+      "bytes": 26375,
+      "sha256": "762b7c43efe668e5c64cdbc3e447f67bffaefbe83f073000d0497384a76c97f6"
+    },
+    {
+      "filename": "hamilton-c550b5715120f08b5624.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.985306,
+      "bytes": 32226,
+      "sha256": "edd54d238d07656521bb36bd4a3ce9eb3bdc3200424791b0bc858371a81a81f1"
+    },
+    {
+      "filename": "hamilton-ab70391ed6b29d2c6bf8.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.089796,
+      "bytes": 33898,
+      "sha256": "be6de6a2d542e84f41696596b389e444ff04db96cc4ac50ea436cd43cf3e4f35"
+    },
+    {
+      "filename": "loyalist-726fb5bfd1b130d64440.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 8.489796,
+      "bytes": 136298,
+      "sha256": "af2cf74f7669af0131a77b83651592ae8415ef4788abc3dea16119df2e19a0b5"
+    },
+    {
+      "filename": "hamilton-9ae3bc2a0f84765218f6.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.115918,
+      "bytes": 34316,
+      "sha256": "c2e96b1cd60a9420434e9274aab7590c8ecd9005d1f42b373baa53915200c6af"
+    },
+    {
+      "filename": "hamilton-1158561fd23673663d4c.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.037551,
+      "bytes": 33062,
+      "sha256": "9d9ad7c7e2b245e49a564403191e518d3311f5d9a1c85637ceaa73539149d5c6"
+    },
+    {
+      "filename": "hamilton-822448a9df137160b80d.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.272653,
+      "bytes": 36824,
+      "sha256": "84719c1befbe199177b2982c057e9ec838b5683ad2a1a12fbff331c5c3b72bbf"
+    },
+    {
+      "filename": "hamilton-44e08d6926dc6d07486e.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.933061,
+      "bytes": 31391,
+      "sha256": "e86ce25a84d5c2da9a5c5d7c76b7502ed9c740be29f37b1dc6830bd3ff9ac46a"
+    },
+    {
+      "filename": "loyalist-fde550311b3234ddea46.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 8.437551,
+      "bytes": 135462,
+      "sha256": "9207ac2327fe790e8809ef8be4df86048679b409538b62dac4bafb38822d41b2"
+    },
+    {
+      "filename": "hamilton-558732338c6d5328f8a0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.168163,
+      "bytes": 35152,
+      "sha256": "047bae6c0fe7b8ffb77cbd7ec5886d770102dd3d129d00063d14b244bae70bd4"
+    },
+    {
+      "filename": "hamilton-30e697ab38433d12afe1.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.220408,
+      "bytes": 35988,
+      "sha256": "4a5e7a70dbb11a5fdcb1cb96bcf6df9e9c438a72e0e33b069aee7a30656d0263"
+    },
+    {
+      "filename": "hamilton-3d7c93f32be578b70823.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.906939,
+      "bytes": 30973,
+      "sha256": "2f750805d282e8f9b47de443da272d8df5ae23f82e51de356594961bfe2f4931"
+    },
+    {
+      "filename": "hamilton-a4c1355c59fa0213bd9b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.324898,
+      "bytes": 37660,
+      "sha256": "eab4023a7cfe132be6d7baab634732c1248f42a4f0fd166a233d7d277dd75518"
+    },
+    {
+      "filename": "loyalist-cb91a03f9370b42abb58.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 6.635102,
+      "bytes": 106623,
+      "sha256": "d4f58e75c6681fd9cccf36dddad3748f093e97cd149a4984dfce274a77df72ca"
+    },
+    {
+      "filename": "hamilton-9bef6df70d5d14a1a8fa.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.115918,
+      "bytes": 34316,
+      "sha256": "6aa87aff5fe963c9a004124b4d005bc3af91a1d9d5410d3b88e0b36a7421a1bd"
+    },
+    {
+      "filename": "hamilton-9022ec38b055225b62c3.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.35102,
+      "bytes": 38078,
+      "sha256": "963f119ff465c41a9d7b677533c7ddd06b6b837614bb55bbe118a7530eb2ef83"
+    },
+    {
+      "filename": "hamilton-7584a72140e6e77e6a27.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.108571,
+      "bytes": 50199,
+      "sha256": "d71d307645f8e666d2f1965d9b5abc2cc5081b135871628b6ac720eec696555b"
+    },
+    {
+      "filename": "hamilton-d8b2e6b397a0f4afe536.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "dda6a94efdbb0e17e82cf488b350e4494b616871f3dd4af9fe427fa6626a07f3"
+    },
+    {
+      "filename": "loyalist-865e24ae3e8d37105ae3.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 8.489796,
+      "bytes": 136298,
+      "sha256": "7e49d15639aae3c3b4bea596242f85b8d065907f36e489395ee3ca7aa2b344f4"
+    },
+    {
+      "filename": "hamilton-88249db6a37db9bb2f1f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.821224,
+      "bytes": 45601,
+      "sha256": "02331cbea0372fdfbe427463f7de39a6da4fef444377a254581892f9339ef990"
+    },
+    {
+      "filename": "hamilton-f00227d2d943823442fc.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.115918,
+      "bytes": 34316,
+      "sha256": "0cea073b2c633d06bf5ea1afc1c28b571d0dad8517a6e31813005e6b02eb38fc"
+    },
+    {
+      "filename": "hamilton-2f934f70bfa6fa13a5b7.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.037551,
+      "bytes": 33062,
+      "sha256": "fc4573da3a1871c018261f0bb112c64f535b3f04a4a70f0539b47a53186de17b"
+    },
+    {
+      "filename": "hamilton-617de21bb657468a370f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.272653,
+      "bytes": 36824,
+      "sha256": "db2a0ef36e530d971afebf982c009088f17754df0e03271c09b505fa5d30307f"
+    },
+    {
+      "filename": "loyalist-d962346db28cca63faa2.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 8.202449,
+      "bytes": 131701,
+      "sha256": "f39ea2b895bdfef71a26eeadd98be88d94a09787fe43524061e13b79b31fb8c4"
+    },
+    {
+      "filename": "hamilton-49b9dee5a06a5392803a.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.638367,
+      "bytes": 42675,
+      "sha256": "6109a9659cb169b5443a036243023a4c8fb0aaa0a62bba1afe88aa850f9d4186"
+    },
+    {
+      "filename": "hamilton-524e981724e99c00be1a.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.403265,
+      "bytes": 38914,
+      "sha256": "a5f331e5b17cd6b3d9ba49417243e21824777c1aaeee47798ce12a50cee6f167"
+    },
+    {
+      "filename": "hamilton-5c569caa4028985c9887.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.35102,
+      "bytes": 38078,
+      "sha256": "06b3e546019a1f5abd3a16a704fc91f8ff7f69f1d794010859c35352fa1d62fb"
+    },
+    {
+      "filename": "hamilton-2b63e2bc7d0e535db9f0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.933061,
+      "bytes": 31391,
+      "sha256": "cdce7944df2dea12f5741f4836dcb6b761323cf5caa56f02f9b8bcfcd2f80939"
+    },
+    {
+      "filename": "washington-3675802bace65af6a3dd.mp3",
+      "speaker": "washington",
+      "durationSeconds": 5.511837,
+      "bytes": 88651,
+      "sha256": "ead10869128af2163fcffda74267b28f24e117c640f6006278086465a8a29be9"
+    },
+    {
+      "filename": "hamilton-7b156f44e9105b522035.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.004082,
+      "bytes": 48527,
+      "sha256": "7c4eaa30e8f3b90e1da566e93ee8935bd203a2fc49c39d420db33bedea54b0a1"
+    },
+    {
+      "filename": "washington-0e5caba72765c67cfb1e.mp3",
+      "speaker": "washington",
+      "durationSeconds": 6.582857,
+      "bytes": 105787,
+      "sha256": "6ff43a52adc299d457fd5f0dab8ea871f49a7b54565e42cd4e74adfd9b4e5f2b"
+    },
+    {
+      "filename": "washington-7a9eb4f63d33b5547cfe.mp3",
+      "speaker": "washington",
+      "durationSeconds": 8.071837,
+      "bytes": 129611,
+      "sha256": "ba8f8d93ad10cba5eaa26239f19be6d3c1883c6284a4c5fa45b2d004bafb545c"
+    },
+    {
+      "filename": "hamilton-c52487fe471aaaa1f67b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.578776,
+      "bytes": 57722,
+      "sha256": "0a59361d8d85c7df9b436e9fce67085c265229aee4aa5fc5918b27521da8bb41"
+    },
+    {
+      "filename": "washington-008c939afe0419afb994.mp3",
+      "speaker": "washington",
+      "durationSeconds": 7.758367,
+      "bytes": 124595,
+      "sha256": "429cd84d078e7a27c3a10706eee4b2cf841c2b4043b3872cf7d3e401d0c5ab3c"
+    },
+    {
+      "filename": "hamilton-5fb10c7a8d7654f1c93f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.821224,
+      "bytes": 45601,
+      "sha256": "8eba5e7d2010757e0f75b2b20c18de5622d4d194bed27a1749c8526e09f92e98"
+    },
+    {
+      "filename": "washington-68c2e68f45c8e69c0cb2.mp3",
+      "speaker": "washington",
+      "durationSeconds": 2.951837,
+      "bytes": 47691,
+      "sha256": "5e6169a4fcc8f451af2a2fdfcb6ee3e011cd81d90952706007f881386b8407ea"
+    },
+    {
+      "filename": "hamilton-ce6240239c7baa94d053.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "5ef8d8662565298041f96b457d2688df45d47bbfe696031098c79409779d5b7f"
+    },
+    {
+      "filename": "washington-9350989d2c186c405b42.mp3",
+      "speaker": "washington",
+      "durationSeconds": 7.549388,
+      "bytes": 121252,
+      "sha256": "0c45dca0059d51a702bf4dae8a2efe0aeafe6cfc513bc0c723f8468b489b014d"
+    },
+    {
+      "filename": "hamilton-47d0513e31f13e104352.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.925714,
+      "bytes": 47273,
+      "sha256": "ce50db452600a7b70e9338ae6e939c6913b395e5bdee67842c8f600b4790ab8c"
+    },
+    {
+      "filename": "washington-a9728ee526e9703a0e7f.mp3",
+      "speaker": "washington",
+      "durationSeconds": 6.347755,
+      "bytes": 102026,
+      "sha256": "6f3ab53178a977c856179983f89a23c6fdc1c0f93d216be8a415f07efa8f8924"
+    },
+    {
+      "filename": "washington-94ceafbf4429ab7ffe63.mp3",
+      "speaker": "washington",
+      "durationSeconds": 9.195102,
+      "bytes": 147583,
+      "sha256": "a49f97cc9d724f4bed57f9980489bf961de42568a9de5f54080b72a258c334bf"
+    },
+    {
+      "filename": "hamilton-b8a99d01dd6dd5000853.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.198367,
+      "bytes": 83635,
+      "sha256": "cda8401119ae7d5947ef43e686381737b0db4f32fac972e98bf5043897d19e5d"
+    },
+    {
+      "filename": "hamilton-1243d45b777661906337.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.186939,
+      "bytes": 51453,
+      "sha256": "db79fbdce2d66becb846984d923946e24ae0f418172ce36ec16110ecf6f91a87"
+    },
+    {
+      "filename": "hamilton-aa707b09ef3bc8c3709b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.742857,
+      "bytes": 44347,
+      "sha256": "ec1768689fbf3fea771a66f04c462e52a46ab9d657b83b11fc668e8de3141cc9"
+    },
+    {
+      "filename": "hamilton-ecec6644aad4e9525911.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.436735,
+      "bytes": 23449,
+      "sha256": "28a66d692bbb1ed3e30a8fcbf6f29f37833590562f917dcaeb933488055b3882"
+    },
+    {
+      "filename": "hamilton-71406d8e30aaf729346b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "93c6cb11f3a77de203202a81c0279f7d4392ab44b82563bd471d90f5dfe2fc14"
+    },
+    {
+      "filename": "hamilton-ec11203f130ce6d7e3af.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.586122,
+      "bytes": 41839,
+      "sha256": "2cce8a54275791b6c0bdce1211a7dbbcd240853bf0ab8c0fab29031424e2d533"
+    },
+    {
+      "filename": "hamilton-b6d8cc11b01d838e2a19.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.892245,
+      "bytes": 62737,
+      "sha256": "c2a9fc6211164d0ee5767c4a75309b3e8fbb6318341a699a7ce08c539364943f"
+    },
+    {
+      "filename": "hamilton-853bc009a2dbe8bdf937.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.76898,
+      "bytes": 44765,
+      "sha256": "662782a846ac90779c0853b4db0e08f7875870d7e3aceb26dd915fca0a81d064"
+    },
+    {
+      "filename": "hamilton-0bc2d81eeeaaa0ba421c.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.004082,
+      "bytes": 48527,
+      "sha256": "b8d7a7eefc95630d866d95075201663678d15a727b1fa711e9620c4bd7906239"
+    },
+    {
+      "filename": "hamilton-cb2b7f9ec75118610d1f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.403265,
+      "bytes": 38914,
+      "sha256": "2283c87d985dee743cc747de253602bb4b07a85194d046a11236808c442a293f"
+    },
+    {
+      "filename": "hamilton-4f3231a69dc7422bc409.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.272653,
+      "bytes": 36824,
+      "sha256": "1d0deb119a00a958936d5b2c12c016ae79a2bc2d8169aa7af247fd7fe07a9158"
+    },
+    {
+      "filename": "hamilton-b5a44ccbc28bc940a848.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.533878,
+      "bytes": 41004,
+      "sha256": "ccfd1294c49096de4e0362c3479d0b8bd64a61ec7826b1a0274e15aac0a7cb82"
+    },
+    {
+      "filename": "hamilton-a51dc7771ce276c3082f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.951837,
+      "bytes": 47691,
+      "sha256": "1bb9d8d8350a7f047b7921cc9abe479560b7431f160307a21aa8c9b87799f868"
+    },
+    {
+      "filename": "hamilton-00b7b28cecd6f4ad87ce.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.533878,
+      "bytes": 41004,
+      "sha256": "056500443ca0a2b6f3d8d3872920dce91fa80795d5627458fcfe0797d457eaf5"
+    },
+    {
+      "filename": "hamilton-119d81e3e67178f94cb6.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.369796,
+      "bytes": 54378,
+      "sha256": "bdd68f3c3457a16df2a3894bc0b1dc7d2c01a3520d9447c9a9c56efd084debc0"
+    },
+    {
+      "filename": "hamilton-03d8af1ee354b9d9696d.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.742857,
+      "bytes": 44347,
+      "sha256": "dd6ec14831bcdc3985205a30fffc9a3b6d18b028c7738c10ac61534c6d859ab3"
+    },
+    {
+      "filename": "narrator-fd4d6e6f31b71f0617d7.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 9.926531,
+      "bytes": 159286,
+      "sha256": "f62b240cc38eb79ec4ff6063836121ea1dabce5f0b35c8ecf3f00bd94ced81a0"
+    },
+    {
+      "filename": "washington-6db6b0ac0380f3a01773.mp3",
+      "speaker": "washington",
+      "durationSeconds": 8.176327,
+      "bytes": 131283,
+      "sha256": "fe6f3e71776b7daddc919dcefa472797a7cec409615b775c97e5030474f768f6"
+    },
+    {
+      "filename": "hamilton-9555303b4ef954175a38.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.493061,
+      "bytes": 72351,
+      "sha256": "c5002a496ef6da6f38142e698c47447ee921400406a77af2c609b533f74a5464"
+    },
+    {
+      "filename": "narrator-63d80505ab69a95e9d50.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 9.273469,
+      "bytes": 148837,
+      "sha256": "13bea208288dd85b6a3f0b96a8cde6036d2b46d316893291d18cb4c71544d20d"
+    },
+    {
+      "filename": "washington-5bbebb9010c053828a57.mp3",
+      "speaker": "washington",
+      "durationSeconds": 10.266122,
+      "bytes": 164719,
+      "sha256": "0b631c9ea9e3e8f06a8ee6fe43f7e709ec85d96597fe1f0ca6693c9283c065c7"
+    },
+    {
+      "filename": "hamilton-c0e865729e42b0af17a6.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 7.366531,
+      "bytes": 118326,
+      "sha256": "240d4f934f7e5ebdc2955a1bd44ee4176b799d450c40fa326f6826a180f86666"
+    },
+    {
+      "filename": "hamilton-dae7567f8644eb2fa80e.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "76a86ce5e012350cbd54c49ae036a839e6dbb11c043d69d3449217b8bab72b5a"
+    },
+    {
+      "filename": "hamilton-2d9d071d3caab1aea2c9.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.892245,
+      "bytes": 62737,
+      "sha256": "7d4ad7b9b92c041ad4291c40ff3081905e8e41c85996b7cdd7e346fd8eb7c167"
+    },
+    {
+      "filename": "hamilton-e0ad920cb52aaa24c17f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.037551,
+      "bytes": 33062,
+      "sha256": "490c1da910148c3e4451ad1d0d57c86d250f0e0d5cabcee064c3d668b6137b6d"
+    },
+    {
+      "filename": "hamilton-749a8ff18811ef0cbf30.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.459592,
+      "bytes": 87815,
+      "sha256": "60033e7618511bfb7fe214e0278e1262bf77a528ee18a5545580efec5b891cdc"
+    },
+    {
+      "filename": "hamilton-ff28366171717c489c0a.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.239184,
+      "bytes": 52288,
+      "sha256": "096468ba58ec958f4f3af35e983c0404108b64143558e8e031778b44a31d2360"
+    },
+    {
+      "filename": "hamilton-ab7d9fa1729e7a3ba380.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 6.4,
+      "bytes": 102862,
+      "sha256": "471605f08af7bab8220ffc51daa8470d2f516845af915f10a4e5f06e09cceb5c"
+    },
+    {
+      "filename": "hamilton-ef9011a38c3c5e19973d.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.48898,
+      "bytes": 24285,
+      "sha256": "2e04fa2f3551ba6bc5deab1437fc0bd9afb8861cf26a5f792dad28c89bb07331"
+    },
+    {
+      "filename": "hamilton-41a74b9a676590d78fc2.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.854694,
+      "bytes": 30137,
+      "sha256": "1f5c7c402b73a220fb543faa8fbb0eb363110112a9765b7ca82712a5c12c60af"
+    },
+    {
+      "filename": "hamilton-c49478081955e9ff1cf0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.933061,
+      "bytes": 31391,
+      "sha256": "65b946de7f2846accf0753d7b17cf39658f44895d8fbc5a668012f85e7e5cd9c"
+    },
+    {
+      "filename": "hamilton-8a7cceb3991421114d17.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.906939,
+      "bytes": 30973,
+      "sha256": "b04aab88b09ff6f89693d88caca22fda915e369359bac3265ab31ac780e56a5e"
+    },
+    {
+      "filename": "hamilton-d47c0113b2566e90b8fc.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.854694,
+      "bytes": 30137,
+      "sha256": "8de875fc82b2b6e44a0c1004852893b6d9051270e6bcf8fc932ec5d446584095"
+    },
+    {
+      "filename": "hamilton-13350e42ba9e99c48f32.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.533878,
+      "bytes": 41004,
+      "sha256": "e10da88471e203068cd41ea0f14866d51b39ff279c1ef87b963ad731c2c0e909"
+    },
+    {
+      "filename": "hamilton-5c5cd9ed1036e306ee6b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.533878,
+      "bytes": 41004,
+      "sha256": "68988b7ee61a6fefc22aed0e0c86249b26bae1f56702a7b1494a8ca50b5099da"
+    },
+    {
+      "filename": "hamilton-c59c0a159e1dca197bbe.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.802449,
+      "bytes": 29301,
+      "sha256": "a199ef81c4743298777e48cba0baf182e69989a9cb9c6f7c62ce64912f553d5f"
+    },
+    {
+      "filename": "hamilton-eb6421ec80933da3e49b.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 0.966531,
+      "bytes": 15926,
+      "sha256": "72becc45c0aaff4b8a9da157f580fcdb7b1f4800225058033a7b711caadca82a"
+    },
+    {
+      "filename": "hamilton-78fb4e2d37a4ff9f90df.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.750204,
+      "bytes": 28465,
+      "sha256": "cae7f300bfedf1b3d4a376f5545a67626ca3600c774ce426700b236981277ef9"
+    },
+    {
+      "filename": "hamilton-2ab21398681d7056c671.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.671837,
+      "bytes": 27211,
+      "sha256": "12c8a9c0adacb1e480071e269cd0bf0d39428fa4f08049cafbf704e095d45027"
+    },
+    {
+      "filename": "narrator-dff0fb0a0936e6af9342.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 7.288163,
+      "bytes": 117072,
+      "sha256": "b2aae17c2409bd42f564d944dfde02f14373089edea79cdad9e5078cc4565329"
+    },
+    {
+      "filename": "narrator-38e21818aab74754fcea.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 9.795918,
+      "bytes": 157196,
+      "sha256": "8955e7fd5325c89b3f418fd14584694a9a178d63d2c0efe786f47a60d586d952"
+    },
+    {
+      "filename": "hamilton-0bf63d2c56066d06e532.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 7.418776,
+      "bytes": 119162,
+      "sha256": "182699747eefb9349f1cd1fe46dcef2b641685729d192359faa51d1772075831"
+    },
+    {
+      "filename": "narrator-415afc2242cc5e1ed1ed.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 7.523265,
+      "bytes": 120834,
+      "sha256": "ee5a00e363a7ca1cf14b80b4474c3d7fa90ea38a7ea645d36a9042720a6903da"
+    },
+    {
+      "filename": "hamilton-71c6538f59d21e2613d2.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.963265,
+      "bytes": 79874,
+      "sha256": "d298054a018f1fc93fc289a67a17d562523d546912bf9d63c8b98556eebaf127"
+    },
+    {
+      "filename": "hamilton-c48e11254873018dadf5.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.186939,
+      "bytes": 51453,
+      "sha256": "6fa65391edde1a0a828eabf64204e2fc94b03ffb3139e28ac1761bfd9804e028"
+    },
+    {
+      "filename": "hamilton-8e1f36cbdd027a86f7e0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "c9519d12add3d51492f2b7d27569e19812bb148728af7f06d47e31ab9622aa09"
+    },
+    {
+      "filename": "newsboy-3e9b8c4d291ccf0e5c80.mp3",
+      "speaker": "newsboy",
+      "durationSeconds": 5.250612,
+      "bytes": 84471,
+      "sha256": "5630af7a00e43b6e5bfe4c3068eeff82214c60c3ce318a7a4289ccc84f1f8a58"
+    },
+    {
+      "filename": "hamilton-21c308beddcdfbe749ed.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.84,
+      "bytes": 61902,
+      "sha256": "774d9dbb9a51d47950b24a499c7b70b2dd396a71620b38585bb798e84ddeacbd"
+    },
+    {
+      "filename": "newsboy-229e73b4219b8aed6dda.mp3",
+      "speaker": "newsboy",
+      "durationSeconds": 5.093878,
+      "bytes": 81964,
+      "sha256": "76ef5eef7b8dd5d291d035cbc0cc414a27b3f45c1dd6308d3c7ae04f54954084"
+    },
+    {
+      "filename": "hamilton-300c3c2e077322fc16cf.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.787755,
+      "bytes": 61066,
+      "sha256": "ae32b1966834d0a946ce4cd236dd8e1310588d99fec31a2c4d52352fa5435b6f"
+    },
+    {
+      "filename": "burr-4e8773caf8d666170a74.mp3",
+      "speaker": "burr",
+      "durationSeconds": 4.91102,
+      "bytes": 79038,
+      "sha256": "4a161ed149c676bb2d88f9f2331b6a3252f8b732d8afd8c495a74909ee287c64"
+    },
+    {
+      "filename": "burr-4c40650ec10d925516df.mp3",
+      "speaker": "burr",
+      "durationSeconds": 4.127347,
+      "bytes": 66499,
+      "sha256": "da3d9432d9ea2d273e6ad2418fb04bbef0c353384f1013aac2a94e77bee90dbf"
+    },
+    {
+      "filename": "hamilton-a311bba3324c192d94c1.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.985306,
+      "bytes": 32226,
+      "sha256": "2439cbc78714bbdcb7b60bd5575e56d9af4119c6ae635b7d123207e51f176f85"
+    },
+    {
+      "filename": "burr-f49a5887f9fc94599e23.mp3",
+      "speaker": "burr",
+      "durationSeconds": 5.746939,
+      "bytes": 92413,
+      "sha256": "e14940d7c8664779cacdc1c7eadbdcdee1f17854959062fba4eeb1311308afc4"
+    },
+    {
+      "filename": "hamilton-ed4a3ebab39fe59d268f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.220408,
+      "bytes": 35988,
+      "sha256": "2f5690be2af40efb30a9f59176adb86c6e2d94803b64ec0be806af6d1abc937b"
+    },
+    {
+      "filename": "burr-272a0451962b5c6763e1.mp3",
+      "speaker": "burr",
+      "durationSeconds": 4.91102,
+      "bytes": 79038,
+      "sha256": "809a810b6cf4cfd14f6dad499d9555b56a056da2e40935eeca3878bd24caf36e"
+    },
+    {
+      "filename": "narrator-e944d0a1f3274ee0ae5b.mp3",
+      "speaker": "narrator",
+      "durationSeconds": 6.765714,
+      "bytes": 108713,
+      "sha256": "734193061541733ffb6e44df633f33f897b972ff059e3cec081e9cbba9b20c21"
+    },
+    {
+      "filename": "hamilton-00fd9f1b0753d0039e57.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.578776,
+      "bytes": 57722,
+      "sha256": "2a157841215a463f7f63eafbd02998155f90919fde1dbf2d60d1a7b965035120"
+    },
+    {
+      "filename": "hamilton-2be0abcbf57a62545489.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.433469,
+      "bytes": 87397,
+      "sha256": "14466926a350aba87147372483dbc645a21ad1ac9aec887882d2143630cddb74"
+    },
+    {
+      "filename": "hamilton-c58c56ab35cfcb8819a3.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.742857,
+      "bytes": 44347,
+      "sha256": "9d020313981dcd0fddb490aef9a3fa30b9ea5ac35f984177746bf042d946e209"
+    },
+    {
+      "filename": "hamilton-e6f8936fb888b998dcb2.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.709388,
+      "bytes": 59812,
+      "sha256": "c7f5f6361bd501055d27c18ce9289553a450aa7a31f918bac3ddee7dc66558e3"
+    },
+    {
+      "filename": "hamilton-7fab69bd45352bab3a00.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.179592,
+      "bytes": 67335,
+      "sha256": "f689bd912cfc41ccf4971c866635d45a505ed7f433110ac16bb54a6f33320ba5"
+    },
+    {
+      "filename": "citizen-31670523d31655018f67.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 6.4,
+      "bytes": 102862,
+      "sha256": "a1cf0fdbfc576e00909952a003e5304337bb0cff77f45693b5683ad4e0d139ba"
+    },
+    {
+      "filename": "hamilton-9dfede44cf23ceba89e2.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.963265,
+      "bytes": 79874,
+      "sha256": "88ea9ef3afbc88ecced3e56b2f73c730ed5c0fee4d0c37ec6924d413d15d98cb"
+    },
+    {
+      "filename": "citizen-10054977f31b927be6f0.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 4.597551,
+      "bytes": 74022,
+      "sha256": "6ae6103bad673818ebd9b981ea2ccf61486069217babce14de44b207b3e470a4"
+    },
+    {
+      "filename": "citizen-1b63871c99dfd4143db1.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 6.217143,
+      "bytes": 99936,
+      "sha256": "d03c32a399bdfac7abaa3e7dbdc312b9d9c3f02e450a843bd6b751fcc8ee05a7"
+    },
+    {
+      "filename": "hamilton-cbfeb48813b83dcd2d61.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.668571,
+      "bytes": 91159,
+      "sha256": "c6821d36d53abaec2165ca7a3c40b357cbbbc92286929c695bd6cd038d5b9f8e"
+    },
+    {
+      "filename": "washington-ee0ee2b7b88e233ea64d.mp3",
+      "speaker": "washington",
+      "durationSeconds": 5.694694,
+      "bytes": 91577,
+      "sha256": "0255107137414a5e2da7c3c5c579c567910bce61d1a1cf760c75def26d3ab46a"
+    },
+    {
+      "filename": "hamilton-fc73ebfa184241f51ffa.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.821224,
+      "bytes": 45601,
+      "sha256": "5620dbbcc91430e3b5fa04f6bf2814500c6f984f9b2561792b255ce582cfeb4f"
+    },
+    {
+      "filename": "washington-c785838f15b73a1a632d.mp3",
+      "speaker": "washington",
+      "durationSeconds": 6.269388,
+      "bytes": 100772,
+      "sha256": "a2f2d5696517a3a6a64a66e5b4e23d2ff3ea36134e2337e2f42aa0e5199ec02e"
+    },
+    {
+      "filename": "hamilton-e4e450a25f99ebc1f747.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.821224,
+      "bytes": 45601,
+      "sha256": "8c89f92f593946af684ead376d8d4b28e1e07f8e2caa2250e007287a4acf16b7"
+    },
+    {
+      "filename": "hamilton-b14a7502df3498092f49.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.179592,
+      "bytes": 67335,
+      "sha256": "08b0dbc5b64218e1491ade929c1ac8e9cff6bd9c97866714c930bb665144c065"
+    },
+    {
+      "filename": "washington-cd5e64d7bdabbadba7e5.mp3",
+      "speaker": "washington",
+      "durationSeconds": 3.239184,
+      "bytes": 52288,
+      "sha256": "c5ee12528aa25c42ba1a802019c75334e94193626206f29bcc91d929ff533d02"
+    },
+    {
+      "filename": "hamilton-5542c7984480addb6a8a.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.127347,
+      "bytes": 66499,
+      "sha256": "d6f37f4337cc716fb2a5e39c665fff99f99b3a92a5724ab867aaf97ec4455e43"
+    },
+    {
+      "filename": "hamilton-c2941e58f2ecceaae4bb.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.146122,
+      "bytes": 82799,
+      "sha256": "e92c0226009568631a3fee96dbeb4448e814b0508a3db4c95861e0b5dca4a26f"
+    },
+    {
+      "filename": "hamilton-61921ce41883893b201f.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.089796,
+      "bytes": 33898,
+      "sha256": "49b3ad257964257c2b5f65237e0f4a6332fef1938b11ad6827899409f66e3f29"
+    },
+    {
+      "filename": "hamilton-62e328be63702e3b925e.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.597551,
+      "bytes": 74022,
+      "sha256": "c65a66e687f4c98b32a612d89f63218176040643f103fb067883d896ebf70380"
+    },
+    {
+      "filename": "hamilton-709fe30eb06bc097bd61.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "8a07e3653e97afc39b4b8519dd5cc24d30615a80d6e26ea9ef0583a25657eb4f"
+    },
+    {
+      "filename": "burr-3d35b1aca0f6a3d6368c.mp3",
+      "speaker": "burr",
+      "durationSeconds": 5.851429,
+      "bytes": 94084,
+      "sha256": "e9b9e9166a71ffc90f3b3cc63ca40d64ffa699bf3b73d2d38db489add0595c0a"
+    },
+    {
+      "filename": "hamilton-0c408f349a76c7744142.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.821224,
+      "bytes": 45601,
+      "sha256": "c069ccb8532f5208854b8188226b2f41affc1dd674a4a64d64917fbee8166a51"
+    },
+    {
+      "filename": "hamilton-8a3e4b851967417836b0.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.84,
+      "bytes": 61902,
+      "sha256": "811c77309bc063e34612c06a829fbca47bffb5f683f059a32e6db041d1b8ea91"
+    },
+    {
+      "filename": "burr-f02e8435183187b0ab52.mp3",
+      "speaker": "burr",
+      "durationSeconds": 6.112653,
+      "bytes": 98264,
+      "sha256": "a87d00428ca75943b3f08a71e84898d6ee878ad4d08e5b19ce970d608ddadea8"
+    },
+    {
+      "filename": "hamilton-e5260bc03301a404fd81.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 1.619592,
+      "bytes": 26375,
+      "sha256": "986e54bc3154f4848a936c336ac30f8aeeb47ce4594228c68fabff46a42229e3"
+    },
+    {
+      "filename": "burr-2bea33f1187357ee2d13.mp3",
+      "speaker": "burr",
+      "durationSeconds": 3.239184,
+      "bytes": 52288,
+      "sha256": "0168a71ea4cf00d1ff011cc08fb298af794e992cdcf68aa87b062b1e75bd52fe"
+    },
+    {
+      "filename": "hamilton-5a9ed042384261c6d3ea.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.578776,
+      "bytes": 57722,
+      "sha256": "6f2174fae39fedf739b596c5cb0ff7a3592bb5cfd8ac49d72a1d2c58e276edd2"
+    },
+    {
+      "filename": "burr-f282bdd6a548cdf451c0.mp3",
+      "speaker": "burr",
+      "durationSeconds": 3.94449,
+      "bytes": 63573,
+      "sha256": "a2682ca329a9d19be61f4a9a1cea6cb8b9efde17d058cbc3b745a4a097d81522"
+    },
+    {
+      "filename": "hamilton-1098ec2c6556ce68de78.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.220408,
+      "bytes": 35988,
+      "sha256": "4d713c3aabece3deb0cce8dcbd2e48029b2c3bfc3c649d8e4b2776f8db6cfed0"
+    },
+    {
+      "filename": "hamilton-eb69a070a58aed263851.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.022857,
+      "bytes": 64827,
+      "sha256": "b18558992ddec3868b6a9f605525ed858f59c8f2b5270697cd03e940ecccc6cf"
+    },
+    {
+      "filename": "burr-7c07e8f12278f2ada00d.mp3",
+      "speaker": "burr",
+      "durationSeconds": 5.459592,
+      "bytes": 87815,
+      "sha256": "22cdd9c6d57ace99fd63f80ae182c27feb1904e7594ab5f79a0ed552cc5ec0a9"
+    },
+    {
+      "filename": "hamilton-e4d6e9d5d60fc2b251a6.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.586122,
+      "bytes": 41839,
+      "sha256": "a23ebdf903a2048878b7eecc9e2dd56c7b8a271a5076664e92e30225441cbb25"
+    },
+    {
+      "filename": "burr-2835ba78768dfafc7583.mp3",
+      "speaker": "burr",
+      "durationSeconds": 3.056327,
+      "bytes": 49363,
+      "sha256": "f6854732e1046a6d3f97a94559fd895f0f278b8b1b8e3c9d2258de49dd59ee10"
+    },
+    {
+      "filename": "citizen-01e5aa054bf27547893f.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 6.713469,
+      "bytes": 107877,
+      "sha256": "70e2eb54b2a22de67b9ebf202892e503bf5cdb9f380c1226b376a1554ac62242"
+    },
+    {
+      "filename": "citizen-aac69a1dfbe247c1a220.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 4.414694,
+      "bytes": 71097,
+      "sha256": "42b577e2312f787d57e464e0aa782e18174c31debfa897030f3a78e1f4718c30"
+    },
+    {
+      "filename": "hamilton-7cbe1fa3a0e770806cc9.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 3.84,
+      "bytes": 61902,
+      "sha256": "472bd75ed98662761fcd0a07156ae3427817f9478d18cb46ef08bc0288032948"
+    },
+    {
+      "filename": "hamilton-52d9aa65f66ea2a930ce.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 2.638367,
+      "bytes": 42675,
+      "sha256": "75a3de359369c10df76e67b344513192037cd94cc1a82e0f6bab7192b9c6d849"
+    },
+    {
+      "filename": "hamilton-502abb7008042d1fced6.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.075102,
+      "bytes": 65663,
+      "sha256": "6bc025c8d940cc4811d9cf210bfc8fa36ed268bd7c6b94578d3570ce0b6f64b1"
+    },
+    {
+      "filename": "citizen-91a4307825d83db8f032.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 2.690612,
+      "bytes": 43511,
+      "sha256": "c8e422d76cba2dca4a28fd56a897e3193dd247da437552721f77cf513cecdb7b"
+    },
+    {
+      "filename": "washington-af5d24e8ff1112faf660.mp3",
+      "speaker": "washington",
+      "durationSeconds": 3.526531,
+      "bytes": 56886,
+      "sha256": "233435368e11caeb4d9091c5708bde1bdda4120b7059d3e56dac549faa8ed9d9"
+    },
+    {
+      "filename": "washington-53056d96c653767621e9.mp3",
+      "speaker": "washington",
+      "durationSeconds": 6.034286,
+      "bytes": 97010,
+      "sha256": "10f3f43370fa6f835494910d7df9603bca1d1cb910109860648f373d0ee349a0"
+    },
+    {
+      "filename": "washington-909495d4724f5d23f945.mp3",
+      "speaker": "washington",
+      "durationSeconds": 5.694694,
+      "bytes": 91577,
+      "sha256": "ada6a96271901d99a406abb0751e1353899e2b73195eddd6f2efb92ed8423288"
+    },
+    {
+      "filename": "hamilton-0cde97a4fc8b3fc4cbc8.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 5.276735,
+      "bytes": 84889,
+      "sha256": "4e85ffb48a7906dc93c2f3298ab1e1a98979482ac5b6a63f52da0523bf22a9d1"
+    },
+    {
+      "filename": "hamilton-013ba6f3aa095558e66a.mp3",
+      "speaker": "hamilton",
+      "durationSeconds": 4.179592,
+      "bytes": 67335,
+      "sha256": "9da0e9f13c8af716f43127f41fa85594eaa17ba824b4738b8ba4bfa5af65023e"
+    },
+    {
+      "filename": "newsboy-3eb3c0c5851cd8df5d6e.mp3",
+      "speaker": "newsboy",
+      "durationSeconds": 3.160816,
+      "bytes": 51035,
+      "sha256": "4e086791a1e64b5c66eba90f903edf497ee1b2cf84a1a4c86d84601226b6f49e"
+    },
+    {
+      "filename": "citizen-37105c1ac6960cbf5f01.mp3",
+      "speaker": "citizen",
+      "durationSeconds": 2.586122,
+      "bytes": 41839,
+      "sha256": "9fff60655d7aa055ca37d74c96f9f898fdfacf3527fe309962c9eff021ac4531"
+    },
+    {
+      "filename": "loyalist-3b70774abf4edeb86396.mp3",
+      "speaker": "loyalist",
+      "durationSeconds": 4.205714,
+      "bytes": 67753,
+      "sha256": "1ec4a7e9d60f5b9776cab8158d0cd415927ff69827b98ab2786efc76dd4aacd6"
+    },
+    {
+      "filename": "burr-439feab2cb240f38d051.mp3",
+      "speaker": "burr",
+      "durationSeconds": 2.873469,
+      "bytes": 46437,
+      "sha256": "28c2e8c800c8e18651f49ba73991d262e15bacbb9301d92d4baa1385a674d37e"
+    },
+    {
+      "filename": "laurens-37354e70d481c28602ec.mp3",
+      "speaker": "laurens",
+      "durationSeconds": 4.493061,
+      "bytes": 72351,
+      "sha256": "f4ef1fb591f312b30682935cf48932047181b907e91da3d4ccfe34db343848b1"
+    },
+    {
+      "filename": "lafayette-46a41fe87fcb13f0e527.mp3",
+      "speaker": "lafayette",
+      "durationSeconds": 4.179592,
+      "bytes": 67335,
+      "sha256": "ae89f7a08538ad2647af3eb8f8b15c1d25bceed67015eb252300a33ce293b332"
+    },
+    {
+      "filename": "mulligan-928407eb407c8bb15364.mp3",
+      "speaker": "mulligan",
+      "durationSeconds": 4.179592,
+      "bytes": 67335,
+      "sha256": "0c0b8fb7709b131ecc42e924ed7eccb437f0f33237dd1249b0985056709d8722"
+    },
+    {
+      "filename": "washington-05d5a9363897f508b600.mp3",
+      "speaker": "washington",
+      "durationSeconds": 4.362449,
+      "bytes": 70261,
+      "sha256": "82160f8488b158eceef7ad2d1b43f4add1915e04c04d2cdf46eb5aed833120da"
+    }
+  ]
+}

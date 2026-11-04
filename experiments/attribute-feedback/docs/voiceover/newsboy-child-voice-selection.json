@@ -1,0 +1,32 @@
+{
+  "selected_at": "2026-09-13",
+  "source": "ElevenLabs MCP creative_list_voices",
+  "query": {
+    "search": "boy",
+    "gender": "male",
+    "languages": [
+      "en"
+    ]
+  },
+  "selected": {
+    "voice_id": "loY1uopAz31XyhAEhNSa",
+    "name": "VALF - Child, Young, Playful & Sarcastic",
+    "description": "A very Young voice with an energetic, playful. Perfect for cartoons, animation, anime dubbing, video games, children's content, YouTube videos, narration, and character acting. Ideal for kid characters, young heroes, mischievous boys, cartoon sidekicks, and expressive character performances.",
+    "labels": {
+      "language": "en",
+      "gender": "male",
+      "age": "young",
+      "accent": "en-american"
+    },
+    "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/10ab341b15a24f9aa118a90e43463bab/voices/loY1uopAz31XyhAEhNSa/ZPipDXt0PC09nhVJRVPU.mp3"
+  },
+  "match_reason": "标题第一项直接标明 Child；描述明确用于儿童角色与调皮男孩。美式英语、活泼有精力，匹配在纽约港口招呼路人、卖报的报童。",
+  "cli_alias": {
+    "source": "ElevenLabs official CLI voices get_shared",
+    "observed_at": "2026-09-13",
+    "name": "Valf - Young, Playful & Sarcastic",
+    "voice_id": "loY1uopAz31XyhAEhNSa",
+    "description": "A very Young voice with an energetic, playful. Perfect for cartoons, animation, anime dubbing, video games, children's content,  videos, narration, and character acting. Ideal for kid characters, young heroes, mischievous boys, and expressive character performances."
+  },
+  "catalog_note": "连接器目录标题明确含 Child；CLI 共享库同 ID 的标题省略 Child，描述仍明确面向 kid characters / mischievous boys。账号收藏沿用连接器查询时的原名。"
+}

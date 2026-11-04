@@ -1,0 +1,1285 @@
+{
+  "url": "http://127.0.0.1:1776",
+  "generatedAt": "2026-09-15T11:49:02.857Z",
+  "checks": [
+    "Actual PixelActor and StoryNpc APIs preserve independently selected standard/high GPU pixels.",
+    "Four complete round trips retain frame UVs and planted boot pivots, without GPU texture growth.",
+    "Disposing both actual actor types while high-angle art is active releases every GPU texture without errors."
+  ],
+  "errors": [],
+  "actors": [
+    {
+      "kind": "PixelActor",
+      "phases": [
+        {
+          "name": "initial",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "0/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "0/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "1/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "1/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "2/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "2/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "3/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "3/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        },
+        {
+          "name": "dispose-while-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 12,
+              "offset": [
+                0.5,
+                0.5
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 15,
+              "offset": [
+                0.875,
+                0.5
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": true,
+          "textures": 4
+        }
+      ],
+      "finalTextures": 0
+    },
+    {
+      "kind": "StoryNpc",
+      "phases": [
+        {
+          "name": "initial",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "0/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "1/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "2/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/first-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/both-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/first-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "3/both-standard",
+          "samples": [
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": false
+            },
+            {
+              "rgba": [
+                255,
+                0,
+                0,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": false
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        },
+        {
+          "name": "dispose-while-high",
+          "samples": [
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 5,
+              "offset": [
+                0,
+                0.8181818181818181
+              ],
+              "highAngle": true
+            },
+            {
+              "rgba": [
+                0,
+                0,
+                255,
+                255
+              ],
+              "frame": 30,
+              "offset": [
+                0,
+                0.36363636363636365
+              ],
+              "highAngle": true
+            }
+          ],
+          "sharedGpu": false,
+          "textures": 5
+        }
+      ],
+      "finalTextures": 0
+    }
+  ],
+  "passed": true
+}

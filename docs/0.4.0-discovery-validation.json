@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:1776/?story=3d&debug=1",
+  "checks": [
+    "Windblown pages behind the tavern are picked up once, displayed in inventory, and grant no early return reward",
+    "All five side events, both egg locations, and the respect reaction reached by real map clicks and E",
+    "Exact rewards occur once; every repeatable event and grateful post-delivery chat preserve state",
+    "Side conversations preserve chapter, mainline index, completed set and exit availability",
+    "All 12 mainline interactions and three successful activities still reach the ending",
+    "A new run clears all side and reaction markers"
+  ],
+  "visits": [
+    {
+      "chapter": "Opening",
+      "id": "letter-name",
+      "choiceKey": "side:letter-name",
+      "reward": {
+        "momentum": 3
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Arrival",
+      "id": "arrival-scattered-paper",
+      "choiceKey": "side:arrival-scattered-paper",
+      "reward": {
+        "influence": 2
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Arrival",
+      "id": "arrival-burr-margin",
+      "choiceKey": "side:arrival-burr-margin",
+      "reward": {
+        "burrRespect": 3
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Tavern",
+      "id": "tavern-unfinished-draft",
+      "choiceKey": "side:tavern-unfinished-draft",
+      "reward": {
+        "momentum": 3
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Debate",
+      "id": "square-bread-and-prices",
+      "choiceKey": "side:square-bread-and-prices",
+      "reward": {
+        "influence": 3
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Debate",
+      "id": "burr-respect",
+      "choiceKey": "reaction:burr-respect",
+      "reward": {},
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Washington",
+      "id": "camp-misfiled-dispatch",
+      "choiceKey": "side:camp-misfiled-dispatch",
+      "reward": {
+        "washingtonTrust": 3
+      },
+      "repeatedWithoutReward": true
+    },
+    {
+      "chapter": "Washington",
+      "id": "letter-name-echo",
+      "choiceKey": "side:letter-name-echo",
+      "reward": {},
+      "repeatedWithoutReward": true
+    }
+  ],
+  "interactions": [
+    "opening-letter",
+    "arrival-newspaper",
+    "arrival-street",
+    "arrival-burr",
+    "tavern-laurens",
+    "tavern-lafayette",
+    "tavern-mulligan",
+    "debate-loyalist",
+    "washington-offer",
+    "washington-dispatch",
+    "yorktown-command",
+    "yorktown-surrender"
+  ],
+  "activities": [
+    "debate",
+    "writing",
+    "yorktown"
+  ],
+  "ending": {
+    "chapter": "Ending",
+    "phase": "ending",
+    "index": 2,
+    "remaining": 0,
+    "state": {
+      "momentum": 51,
+      "influence": 63,
+      "burrRivalry": 10,
+      "burrRespect": 42,
+      "washingtonTrust": 41,
+      "debatePerformance": 100,
+      "yorktownPerformance": 88,
+      "choices": {
+        "side:letter-name": "completed",
+        "inventory:scattered-newspaper": "collected",
+        "interaction:arrival-newspaper": "complete",
+        "side:arrival-scattered-paper": "completed",
+        "interaction:arrival-street": "complete",
+        "burr_first_impression": "burr-observe",
+        "side:arrival-burr-margin": "ask",
+        "side:tavern-unfinished-draft": "complete",
+        "laurens_question": "laurens-stability",
+        "lafayette_question": "lafayette-negotiate",
+        "mulligan_question": "mulligan-print",
+        "side:square-bread-and-prices": "completed",
+        "debate_result": "won",
+        "debate_approach": "debate-fact",
+        "reaction:burr-respect": "completed",
+        "washington_position": "washington-accept",
+        "side:camp-misfiled-dispatch": "correct",
+        "side:letter-name-echo": "completed",
+        "dispatch_method": "dispatch-precise",
+        "writing_result": "100",
+        "yorktown_leadership": "yorktown-coordinate",
+        "yorktown_result": "complete",
+        "interaction:yorktown-surrender": "complete"
+      }
+    },
+    "completed": [
+      "yorktown-command",
+      "yorktown-surrender"
+    ],
+    "discoveries": [],
+    "pickups": [],
+    "inventory": [],
+    "discovery": {
+      "phase": "idle"
+    },
+    "growthOpen": false,
+    "targets": [
+      {
+        "id": "yorktown-command",
+        "position": {
+          "x": 0,
+          "z": 8
+        },
+        "title": {
+          "zh": "接过指挥权",
+          "en": "Take Command"
+        },
+        "body": {
+          "zh": "1781 年，法美联军围困约克镇。数年的行军、军令与争执，终于把汉密尔顿带到一座英军堡垒前。",
+          "en": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt."
+        },
+        "enabled": false,
+        "complete": true,
+        "exit": false
+      },
+      {
+        "id": "yorktown-surrender",
+        "position": {
+          "x": 0,
+          "z": -9
+        },
+        "title": {
+          "zh": "炮声之后",
+          "en": "After the Guns"
+        },
+        "body": {
+          "zh": "汉密尔顿率队攻下十号堡垒，法军攻下相邻的九号堡垒。围城继续收紧。",
+          "en": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened."
+        },
+        "enabled": false,
+        "complete": true,
+        "exit": false
+      },
+      {
+        "id": "story-exit",
+        "position": {
+          "x": 0,
+          "z": -12
+        },
+        "title": {
+          "zh": "阅读你的革命侧写",
+          "en": "Read Your Revolutionary Portrait"
+        },
+        "body": {
+          "zh": "接过指挥权，作出选择，见证约克镇的结局。",
+          "en": "Take command, make your choices, and witness Yorktown's outcome."
+        },
+        "enabled": false,
+        "complete": false,
+        "exit": true
+      }
+    ],
+    "cast": [
+      {
+        "id": "washington",
+        "position": {
+          "x": 1.3,
+          "z": 8.5
+        }
+      }
+    ],
+    "repeatTargets": [
+      {
+        "id": "smalltalk-washington",
+        "position": {
+          "x": 0.31998711348678754,
+          "z": 8.123071966725687
+        },
+        "title": {
+          "zh": "闲聊 · 乔治·华盛顿",
+          "en": "Chat · George Washington"
+        },
+        "body": {
+          "zh": "咖啡又凉了。这里的杯子似乎从来留不住热气。",
+          "en": "The coffee has gone cold again. These cups never seem to hold their warmth."
+        },
+        "enabled": true,
+        "complete": false,
+        "exit": false,
+        "smallTalk": "washington"
+      }
+    ],
+    "castPoses": [
+      {
+        "id": "washington",
+        "facing": "n",
+        "frame": 29,
+        "direction": {
+          "x": -1.3000002933870187,
+          "z": -5.846878556019908
+        },
+        "arguing": false
+      }
+    ]
+  },
+  "errors": [],
+  "failures": []
+}

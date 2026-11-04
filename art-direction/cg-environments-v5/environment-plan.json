@@ -1,0 +1,65 @@
+{
+  "version": 5,
+  "status": "prompts_ready",
+  "model": "doubao-seedream-5-0-pro-260628",
+  "size": "2560x1440",
+  "expected_count": 6,
+  "estimated_price_cny": 3.6,
+  "video_generation_authorized": false,
+  "shots": [
+    {
+      "id": "E01",
+      "title": "远海雨墙 · 群岛鸟瞰",
+      "category": "鸟瞰",
+      "image_prompt": "prompts/images/E01.txt",
+      "purpose": "把岛与逼近的雨墙放在同一空间，让观众先知道风灾的尺度。",
+      "planned_motion": "固定鸟瞰方向，只有极慢单向前移；远处雨墙缓慢吞没岛脊，海面白浪自然变化。",
+      "file": "firstframes/E01.png"
+    },
+    {
+      "id": "E02",
+      "title": "海湾压雨 · 近岸鸟瞰",
+      "category": "鸟瞰",
+      "image_prompt": "prompts/images/E02.txt",
+      "purpose": "俯看海湾与小港镇，具体交代风雨正在压向人住的地方。",
+      "planned_motion": "保持俯视角度和高度，雨幕掠过海湾，植被同向小幅伏动；不绕岛巡游。",
+      "file": "firstframes/E02.png"
+    },
+    {
+      "id": "E03",
+      "title": "门廊下的雨街",
+      "category": "地面风暴",
+      "image_prompt": "prompts/images/E03.txt",
+      "purpose": "从躲雨处看出去，风暴第一次以人在地面能感到的距离出现。",
+      "planned_motion": "机位固定在檐下，近处断续落水与斜雨错开，远处蕉叶同向受风；不要晃镜模拟纪实。",
+      "file": "firstframes/E03.png"
+    },
+    {
+      "id": "E04",
+      "title": "风压下的旧码头",
+      "category": "地面风暴",
+      "image_prompt": "prompts/images/E04.txt",
+      "purpose": "用受力的缆绳、浪水与岸石，把风压从窗内延伸到港口。",
+      "planned_motion": "固定低机位，只有一次普通浪水越过岸沿并退回，缆绳略微绷紧；不生成巨浪。",
+      "file": "firstframes/E04.png"
+    },
+    {
+      "id": "E05",
+      "title": "雨停后的街巷",
+      "category": "灾后",
+      "image_prompt": "prompts/images/E05.txt",
+      "purpose": "破损程度不均、屋子仍有人生活；用雨停后的静与远处清障交代后果。",
+      "planned_motion": "固定机位，屋檐偶尔滴水，极远处两人缓慢移开同一根树枝，其余地方安静。",
+      "file": "firstframes/E05.png"
+    },
+    {
+      "id": "E06",
+      "title": "被压倒的甘蔗地",
+      "category": "灾后",
+      "image_prompt": "prompts/images/E06.txt",
+      "purpose": "从街巷转向生计：泥水与伏倒的作物，把灾难后果扩展到岛上的劳动。",
+      "planned_motion": "固定视角，沟水缓慢流动，伏倒的蔗叶只有轻微摆动；不让地面继续坍塌。",
+      "file": "firstframes/E06.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-10T08:23:19Z",
+  "method": "GET",
+  "endpoint": "https://ark.cn-beijing.volces.com/api/v3/models",
+  "status": 200,
+  "seedream_model_ids": [
+    "doubao-seedream-3-0-t2i-250415",
+    "doubao-seedream-4-0-250828",
+    "doubao-seedream-4-5-251128",
+    "doubao-seedream-5-0-260128",
+    "doubao-seedream-4-0-20260415",
+    "doubao-seedream-5-0-pro-260628"
+  ],
+  "credential_recorded": false,
+  "note": "Read-only access succeeded; this is not proof of image-generation billing or of the outcome of group-01."
+}

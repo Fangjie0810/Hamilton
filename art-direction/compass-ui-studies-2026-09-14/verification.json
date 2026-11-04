@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "variants": [
+    "enamel",
+    "glass",
+    "tactical"
+  ],
+  "radialAreaStops": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "interactions": "five metric groups, keyboard dialog/focus restoration, lock toggle, bilingual labels, 390px layout",
+  "pixelChecks": [
+    {
+      "variant": "enamel",
+      "state": "unlocked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        199,
+        203,
+        204,
+        151
+      ],
+      "trust": [
+        180,
+        187,
+        192,
+        109
+      ]
+    },
+    {
+      "variant": "enamel",
+      "state": "locked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        199,
+        203,
+        204,
+        151
+      ],
+      "trust": [
+        104,
+        114,
+        124,
+        255
+      ]
+    },
+    {
+      "variant": "glass",
+      "state": "unlocked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        234,
+        239,
+        242,
+        157
+      ],
+      "trust": [
+        234,
+        240,
+        247,
+        133
+      ]
+    },
+    {
+      "variant": "glass",
+      "state": "locked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        234,
+        239,
+        242,
+        157
+      ],
+      "trust": [
+        105,
+        115,
+        126,
+        255
+      ]
+    },
+    {
+      "variant": "tactical",
+      "state": "unlocked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        222,
+        232,
+        232,
+        102
+      ],
+      "trust": [
+        216,
+        224,
+        226,
+        98
+      ]
+    },
+    {
+      "variant": "tactical",
+      "state": "locked",
+      "corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "unfilled": [
+        222,
+        232,
+        232,
+        102
+      ],
+      "trust": [
+        91,
+        99,
+        103,
+        255
+      ]
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

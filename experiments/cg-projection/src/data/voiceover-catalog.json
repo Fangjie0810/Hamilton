@@ -1,0 +1,940 @@
+[
+  {
+    "id": "opening-letter-base-1",
+    "speaker": "narrator",
+    "text": "He came from the Caribbean. A merchant's ledgers taught him to reckon; storms at sea taught him that a life could be rewritten overnight.",
+    "src": "/audio/en/narrator-a12313d75e6f8d1ecfaa.mp3",
+    "generated": true
+  },
+  {
+    "id": "opening-letter-base-2",
+    "speaker": "narrator",
+    "text": "He put what he had seen into words. People read them and began to believe this young man deserved the chance to continue his education.",
+    "src": "/audio/en/narrator-4dd04b1bd1275c515920.mp3",
+    "generated": true
+  },
+  {
+    "id": "opening-letter-base-3",
+    "speaker": "hamilton",
+    "text": "I cannot take the island with me. But I can carry every word on the page. New York has schools, printing presses, and people willing to argue about the future. I will find my place there.",
+    "src": "/audio/en/hamilton-87e3709efde0ffa54942.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-newspaper-base-1",
+    "speaker": "newsboy",
+    "text": "News from the harbor! British troop movements, cargo prices, and a whole page of writers contradicting each other. Sir, do you want to know what is happening, or let people know who you are?",
+    "src": "/audio/en/newsboy-e97cac92f4d353107e89.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-newspaper-base-2",
+    "speaker": "hamilton",
+    "text": "Give me a copy first. Until I know what this city is arguing about, my writing will only be a conversation with myself.",
+    "src": "/audio/en/hamilton-7e8b1d2a0b107bc0e616.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-street-base-1",
+    "speaker": "citizen",
+    "text": "More troops arrive every day. They say the army protects trade. But whose right to decide are they protecting?",
+    "src": "/audio/en/citizen-c606851215a62863e52d.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-street-base-2",
+    "speaker": "loyalist",
+    "text": "Without the Crown and its navy, what keeps order in this port? You would stake today's livelihood on a country that does not yet exist.",
+    "src": "/audio/en/loyalist-7fa7fcbac4fa89431e14.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-street-base-3",
+    "speaker": "hamilton",
+    "text": "Both are afraid of losing the lives they have. Neither has asked who has the right to make that wager for the other.",
+    "src": "/audio/en/hamilton-d05e94eb5ef369df02e9.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-burr-base-1",
+    "speaker": "burr",
+    "text": "You have been listening for a while. Alexander Hamilton, isn't it? I have read your work.",
+    "src": "/audio/en/burr-8511829312986bba6551.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-burr-base-2",
+    "speaker": "hamilton",
+    "text": "Then we can skip the introductions. You heard them too: when they speak of freedom, they seem to mean entirely different things.",
+    "src": "/audio/en/hamilton-a5596dd8b17ad2cfe8b8.mp3",
+    "generated": true
+  },
+  {
+    "id": "arrival-burr-base-3",
+    "speaker": "burr",
+    "text": "Learn who is listening before you decide how much to say. Circumstances change. Words spoken in public remain.",
+    "src": "/audio/en/burr-005bc8e15004abb0aed5.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-observe-selected",
+    "speaker": "hamilton",
+    "text": "Observe first and understand where each side stands.",
+    "src": "/audio/en/hamilton-ed0e4b1f259767934806.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-observe-reply-1",
+    "speaker": "burr",
+    "text": "Good. Patience can be a form of action. Come to the tavern. It is easier to hear people speak plainly there.",
+    "src": "/audio/en/burr-e15c5c07679daee042b0.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-question-selected",
+    "speaker": "hamilton",
+    "text": "And you? What do you believe?",
+    "src": "/audio/en/hamilton-094b94cc76dc60773f6b.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-question-reply-1",
+    "speaker": "burr",
+    "text": "I believe in knowing people before making decisions. That question makes me more interested in knowing you. Come along.",
+    "src": "/audio/en/burr-02a94b93b27c695d9ee5.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-revolution-selected",
+    "speaker": "hamilton",
+    "text": "I support the revolution. You can put my name to it now.",
+    "src": "/audio/en/hamilton-54ccf59897f5e9cc3d16.mp3",
+    "generated": true
+  },
+  {
+    "id": "burr-revolution-reply-1",
+    "speaker": "burr",
+    "text": "I heard you. So did the whole street. I hope you are ready to answer for a name spoken that loudly.",
+    "src": "/audio/en/burr-3de74fb8f2689ae62d7b.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-laurens-base-1",
+    "speaker": "laurens",
+    "text": "We write freedom in such large letters, yet always leave certain people outside the sentence. How will a country that still permits slavery explain its freedom?",
+    "src": "/audio/en/laurens-fe181bc8d7a1fb9aa74d.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-laurens-base-2",
+    "speaker": "hamilton",
+    "text": "The answer you want may bring this table to a silence.",
+    "src": "/audio/en/hamilton-119ace0fcaa2dae92ef0.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-laurens-base-3",
+    "speaker": "laurens",
+    "text": "Then let it fall silent. What do you think matters most right now?",
+    "src": "/audio/en/laurens-d1571347664fc70780ea.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-stability-selected",
+    "speaker": "hamilton",
+    "text": "Preserve order so people survive the war.",
+    "src": "/audio/en/hamilton-7528dc6bef72b002a709.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-stability-reply-1",
+    "speaker": "laurens",
+    "text": "Surviving matters, of course. But some people have always been told to wait until later. We cannot keep saying that on their behalf.",
+    "src": "/audio/en/laurens-a8a876ee0bfd246d7b06.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-representation-selected",
+    "speaker": "hamilton",
+    "text": "Who gets to decide, and who has the right to object?",
+    "src": "/audio/en/hamilton-11b93c0c00cc5c36cfc5.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-representation-reply-1",
+    "speaker": "laurens",
+    "text": "Then remember to include those who have been excluded. Replacing the people in power is not enough.",
+    "src": "/audio/en/laurens-d3907cd9faf65be38cda.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-liberty-selected",
+    "speaker": "hamilton",
+    "text": "The promise of freedom must include enslaved people.",
+    "src": "/audio/en/hamilton-92ae2b9746fe7537c0d5.mp3",
+    "generated": true
+  },
+  {
+    "id": "laurens-liberty-reply-1",
+    "speaker": "laurens",
+    "text": "I would stand beside someone who believes that. But when that promise begins to trouble our allies, you must keep saying it.",
+    "src": "/audio/en/laurens-b63c4d326eba38a6e888.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-laurens-timeout",
+    "speaker": "laurens",
+    "text": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table.",
+    "src": "/audio/en/laurens-81c3adca3a050055bcc4.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-lafayette-base-1",
+    "speaker": "lafayette",
+    "text": "I did not cross the Atlantic to watch. But courage cannot fill a soldier's ration bag. Against a stronger army, where will you put your effort?",
+    "src": "/audio/en/lafayette-98a29a46e998c8327ccd.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-lafayette-base-2",
+    "speaker": "hamilton",
+    "text": "Every path has a price. The difference is whether we are willing to choose for ourselves.",
+    "src": "/audio/en/hamilton-8c47c9f60ea1f5761c69.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-negotiate-selected",
+    "speaker": "hamilton",
+    "text": "Keep negotiating to give civilians room to breathe.",
+    "src": "/audio/en/hamilton-d3835efe6ee13e8e2f65.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-negotiate-reply-1",
+    "speaker": "lafayette",
+    "text": "Perhaps. But someone must stand guard outside the negotiating room. Do not mistake a breath of air for the end of the journey.",
+    "src": "/audio/en/lafayette-e80af881fc5c66e47fe6.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-allies-selected",
+    "speaker": "hamilton",
+    "text": "Build alliances and turn an isolated struggle into a shared cause.",
+    "src": "/audio/en/hamilton-e0b7e3ad566d20cb2133.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-allies-reply-1",
+    "speaker": "lafayette",
+    "text": "Then you must learn to hear what your allies need. A shared cause cannot speak in only one person's voice.",
+    "src": "/audio/en/lafayette-2ce436b7e32897cc7ae6.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-independence-selected",
+    "speaker": "hamilton",
+    "text": "Demand independence openly, without waiting for permission.",
+    "src": "/audio/en/hamilton-1b98b2def7b22e1c3b2f.mp3",
+    "generated": true
+  },
+  {
+    "id": "lafayette-independence-reply-1",
+    "speaker": "lafayette",
+    "text": "Direct enough. I like it. But after those words, the next step is preparing to march.",
+    "src": "/audio/en/lafayette-44d91bfb59c998b02e37.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-lafayette-timeout",
+    "speaker": "lafayette",
+    "text": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table.",
+    "src": "/audio/en/lafayette-6203f1bdd9c6351a9e23.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-mulligan-base-1",
+    "speaker": "mulligan",
+    "text": "I've heard enough grand ideas. Tomorrow, ten people will help, a printer will extend credit, and there's an empty wagon. Hamilton, how will you use them?",
+    "src": "/audio/en/mulligan-febd3a2a18af25fb1307.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-mulligan-base-2",
+    "speaker": "hamilton",
+    "text": "You have given me more than ten people. You have given me every street they know.",
+    "src": "/audio/en/hamilton-7294e620be9a62194689.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-print-selected",
+    "speaker": "hamilton",
+    "text": "Print a clear pamphlet to keep the conversation going in every street.",
+    "src": "/audio/en/hamilton-a6d89fee194eb6f79de7.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-print-reply-1",
+    "speaker": "mulligan",
+    "text": "Good. Fewer elegant phrases, more lines they can repeat to their neighbors.",
+    "src": "/audio/en/mulligan-ed06dce76628368ffc66.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-supplies-selected",
+    "speaker": "hamilton",
+    "text": "Deliver supplies first so people willing to join us can eat.",
+    "src": "/audio/en/hamilton-3e2d1a698e504f5fd134.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-supplies-reply-1",
+    "speaker": "mulligan",
+    "text": "I'll find the wagon. Be willing to do the work no one notices, and people will come to you again.",
+    "src": "/audio/en/mulligan-9488044dc0534b5ce7e9.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-rally-selected",
+    "speaker": "hamilton",
+    "text": "Call a public meeting and make more people hear us today.",
+    "src": "/audio/en/hamilton-3915a9c5b68d18fd48ea.mp3",
+    "generated": true
+  },
+  {
+    "id": "mulligan-rally-reply-1",
+    "speaker": "mulligan",
+    "text": "We can find a place. But when the patrol arrives, you cannot think only of your speech.",
+    "src": "/audio/en/mulligan-3327a9cec04bdd135883.mp3",
+    "generated": true
+  },
+  {
+    "id": "tavern-mulligan-timeout",
+    "speaker": "mulligan",
+    "text": "You fall silent for a moment. That's all right. Listen to the others first; there will still be a place for you at this table.",
+    "src": "/audio/en/mulligan-ace3178f3f83ed183a10.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-loyalist-base-1",
+    "speaker": "loyalist",
+    "text": "Once you break from Britain, who escorts the ships, and who buys the cargo? You offer freedom as a guarantee, but ask every family to risk its livelihood.",
+    "src": "/audio/en/loyalist-715bc5ddcdbc76420d87.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-loyalist-base-2",
+    "speaker": "citizen",
+    "text": "That is what I want to know. Without tomorrow's bread, what good are today's slogans?",
+    "src": "/audio/en/citizen-7a747bb0c68844a92d6e.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-loyalist-base-3",
+    "speaker": "burr",
+    "text": "They are waiting for your answer. Hear the whole question.",
+    "src": "/audio/en/burr-61fda2f4ecd4c14fd773.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-1-argument",
+    "speaker": "loyalist",
+    "text": "After leaving Britain, who will escort the ships and buy the cargo? You ask each family to pay for freedom with tomorrow's bread.",
+    "src": "/audio/en/loyalist-7b45a284701aa180f3db.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-1-fact",
+    "speaker": "hamilton",
+    "text": "Count taxes and trade restrictions too.",
+    "src": "/audio/en/hamilton-672e40d1835fdd6512a1.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-1-principle",
+    "speaker": "hamilton",
+    "text": "Those who pay should have a say.",
+    "src": "/audio/en/hamilton-5c4927c697befa22e1de.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-1-attack",
+    "speaker": "hamilton",
+    "text": "Why count only the costs of change?",
+    "src": "/audio/en/hamilton-c550b5715120f08b5624.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-1-crowd",
+    "speaker": "hamilton",
+    "text": "Let the dockworkers open their ledgers.",
+    "src": "/audio/en/hamilton-ab70391ed6b29d2c6bf8.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-2-argument",
+    "speaker": "loyalist",
+    "text": "Parliament has already considered every region. If each port insists on deciding for itself, what is left of the law?",
+    "src": "/audio/en/loyalist-726fb5bfd1b130d64440.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-2-fact",
+    "speaker": "hamilton",
+    "text": "List the colonies' seats in Parliament.",
+    "src": "/audio/en/hamilton-9ae3bc2a0f84765218f6.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-2-principle",
+    "speaker": "hamilton",
+    "text": "Those who obey laws should help make them.",
+    "src": "/audio/en/hamilton-1158561fd23673663d4c.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-2-attack",
+    "speaker": "hamilton",
+    "text": "Considering us is not the same as hearing us.",
+    "src": "/audio/en/hamilton-822448a9df137160b80d.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-2-crowd",
+    "speaker": "hamilton",
+    "text": "Who wants others to decide their taxes?",
+    "src": "/audio/en/hamilton-44e08d6926dc6d07486e.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-3-argument",
+    "speaker": "loyalist",
+    "text": "The advocates of revolution only write essays. When food runs short, they will leave the poor to bear the consequences.",
+    "src": "/audio/en/loyalist-fde550311b3234ddea46.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-3-fact",
+    "speaker": "hamilton",
+    "text": "Publish the supply plan and those responsible.",
+    "src": "/audio/en/hamilton-558732338c6d5328f8a0.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-3-principle",
+    "speaker": "hamilton",
+    "text": "Freedom cannot belong only to the well-fed.",
+    "src": "/audio/en/hamilton-30e697ab38433d12afe1.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-3-attack",
+    "speaker": "hamilton",
+    "text": "You have offered the poor no other path.",
+    "src": "/audio/en/hamilton-3d7c93f32be578b70823.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-3-crowd",
+    "speaker": "hamilton",
+    "text": "Let workers and shopkeepers name their terms.",
+    "src": "/audio/en/hamilton-a4c1355c59fa0213bd9b.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-4-argument",
+    "speaker": "loyalist",
+    "text": "The garrison is only here to keep order. If you have done nothing wrong, why fear more patrols?",
+    "src": "/audio/en/loyalist-cb91a03f9370b42abb58.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-4-fact",
+    "speaker": "hamilton",
+    "text": "Examine the garrison's powers and costs.",
+    "src": "/audio/en/hamilton-9bef6df70d5d14a1a8fa.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-4-principle",
+    "speaker": "hamilton",
+    "text": "Power still needs the consent of the governed.",
+    "src": "/audio/en/hamilton-9022ec38b055225b62c3.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-4-attack",
+    "speaker": "hamilton",
+    "text": "Since when is asking for an explanation a confession?",
+    "src": "/audio/en/hamilton-7584a72140e6e77e6a27.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-4-crowd",
+    "speaker": "hamilton",
+    "text": "Let residents describe what patrols have changed.",
+    "src": "/audio/en/hamilton-d8b2e6b397a0f4afe536.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-5-argument",
+    "speaker": "loyalist",
+    "text": "The empire has fleets and money. You do not even have a common supply ledger, yet you would lead everyone into war.",
+    "src": "/audio/en/loyalist-865e24ae3e8d37105ae3.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-5-fact",
+    "speaker": "hamilton",
+    "text": "Unify the ledgers and secure supplies item by item.",
+    "src": "/audio/en/hamilton-88249db6a37db9bb2f1f.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-5-principle",
+    "speaker": "hamilton",
+    "text": "Danger does not erase the right to choose.",
+    "src": "/audio/en/hamilton-f00227d2d943823442fc.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-5-attack",
+    "speaker": "hamilton",
+    "text": "Your only plan is that we obey forever.",
+    "src": "/audio/en/hamilton-2f934f70bfa6fa13a5b7.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-5-crowd",
+    "speaker": "hamilton",
+    "text": "Write down the work you are willing to do.",
+    "src": "/audio/en/hamilton-617de21bb657468a370f.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-6-argument",
+    "speaker": "loyalist",
+    "text": "Even if you win, who guarantees the new rulers will be better? You are exchanging one uncertainty for another.",
+    "src": "/audio/en/loyalist-d962346db28cca63faa2.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-6-fact",
+    "speaker": "hamilton",
+    "text": "Put terms of office and accountability into law.",
+    "src": "/audio/en/hamilton-49b9dee5a06a5392803a.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-6-principle",
+    "speaker": "hamilton",
+    "text": "Keep the people's right to replace their rulers.",
+    "src": "/audio/en/hamilton-524e981724e99c00be1a.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-6-attack",
+    "speaker": "hamilton",
+    "text": "No guarantee does not mean no need for change.",
+    "src": "/audio/en/hamilton-5c569caa4028985c9887.mp3",
+    "generated": true
+  },
+  {
+    "id": "debate-round-6-crowd",
+    "speaker": "hamilton",
+    "text": "Tell us what you will no longer accept.",
+    "src": "/audio/en/hamilton-2b63e2bc7d0e535db9f0.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-base-1",
+    "speaker": "washington",
+    "text": "I have read your essays. You make matters clear. But an army also needs people who finish the work.",
+    "src": "/audio/en/washington-3675802bace65af6a3dd.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-base-2",
+    "speaker": "hamilton",
+    "text": "I want to lead troops. My ability should not stay on the page.",
+    "src": "/audio/en/hamilton-7b156f44e9105b522035.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-base-3",
+    "speaker": "washington",
+    "text": "Orders, intelligence, supplies. A wrong place name can cost lives. I need an aide. Are you willing to begin here?",
+    "src": "/audio/en/washington-0e5caba72765c67cfb1e.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-variant-1-1",
+    "speaker": "washington",
+    "text": "Your essays have reached camp. So has news of the argument in the street. You are good at drawing attention. Making yourself dependable is another matter.",
+    "src": "/audio/en/washington-7a9eb4f63d33b5547cfe.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-variant-1-2",
+    "speaker": "hamilton",
+    "text": "Then give me a company. I am willing to prove myself through action.",
+    "src": "/audio/en/hamilton-c52487fe471aaaa1f67b.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-offer-variant-1-3",
+    "speaker": "washington",
+    "text": "Serve as my aide first. Orders, intelligence, and supplies also decide whether a company comes home. Will you take that responsibility?",
+    "src": "/audio/en/washington-008c939afe0419afb994.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-accept-selected",
+    "speaker": "hamilton",
+    "text": "Accept the post and fulfill the responsibility at hand.",
+    "src": "/audio/en/hamilton-5fb10c7a8d7654f1c93f.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-accept-reply-1",
+    "speaker": "washington",
+    "text": "Good. Several letters tonight cannot wait until tomorrow.",
+    "src": "/audio/en/washington-68c2e68f45c8e69c0cb2.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-negotiate-selected",
+    "speaker": "hamilton",
+    "text": "Accept, while making clear that you want a future command.",
+    "src": "/audio/en/hamilton-ce6240239c7baa94d053.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-negotiate-reply-1",
+    "speaker": "washington",
+    "text": "I have heard your request. Hear mine as well: prove through your present duties that I can trust you with the next ones.",
+    "src": "/audio/en/washington-9350989d2c186c405b42.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-demand-selected",
+    "speaker": "hamilton",
+    "text": "I belong on the battlefield and should be given command now.",
+    "src": "/audio/en/hamilton-47d0513e31f13e104352.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-demand-reply-1",
+    "speaker": "washington",
+    "text": "No one here receives command merely because he thinks he should. Tonight, you will still begin with these dispatches.",
+    "src": "/audio/en/washington-a9728ee526e9703a0e7f.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-dispatch-base-1",
+    "speaker": "washington",
+    "text": "The northern troops need supplies. Their camp, the departure time, and the destination are in these reports. Give the quartermaster an order he can carry out.",
+    "src": "/audio/en/washington-94ceafbf4429ab7ffe63.mp3",
+    "generated": true
+  },
+  {
+    "id": "washington-dispatch-base-2",
+    "speaker": "hamilton",
+    "text": "One page. The reader must not have to guess, or search through fine prose to find his task.",
+    "src": "/audio/en/hamilton-b8a99d01dd6dd5000853.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-north-supplies",
+    "speaker": "hamilton",
+    "text": "Deliver twenty barrels of flour and two crates of medicine.",
+    "src": "/audio/en/hamilton-1243d45b777661906337.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-north-position",
+    "speaker": "hamilton",
+    "text": "The receiving point is the northern riverside camp.",
+    "src": "/audio/en/hamilton-aa707b09ef3bc8c3709b.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-north-time",
+    "speaker": "hamilton",
+    "text": "Arrive before dawn tomorrow.",
+    "src": "/audio/en/hamilton-ecec6644aad4e9525911.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-north-troops",
+    "speaker": "hamilton",
+    "text": "The quartermaster leads a squad escorting the wagons.",
+    "src": "/audio/en/hamilton-71406d8e30aaf729346b.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-north-objective",
+    "speaker": "hamilton",
+    "text": "First, prevent the northern troops from running out of food.",
+    "src": "/audio/en/hamilton-ec11203f130ce6d7e3af.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-medical-position",
+    "speaker": "hamilton",
+    "text": "The old stone bridge is damaged; the eastern ferry still operates.",
+    "src": "/audio/en/hamilton-b6d8cc11b01d838e2a19.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-medical-troops",
+    "speaker": "hamilton",
+    "text": "The surgeon leads the stretcher party across the ferry.",
+    "src": "/audio/en/hamilton-853bc009a2dbe8bdf937.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-medical-objective",
+    "speaker": "hamilton",
+    "text": "Move the seriously wounded to the rear hospital first.",
+    "src": "/audio/en/hamilton-0bc2d81eeeaaa0ba421c.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-medical-supplies",
+    "speaker": "hamilton",
+    "text": "Bring bandages, water, and two empty wagons.",
+    "src": "/audio/en/hamilton-cb2b7f9ec75118610d1f.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-medical-time",
+    "speaker": "hamilton",
+    "text": "Complete the transfer before sunset today.",
+    "src": "/audio/en/hamilton-4f3231a69dc7422bc409.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-muster-time",
+    "speaker": "hamilton",
+    "text": "Finish preparations by six the morning after tomorrow.",
+    "src": "/audio/en/hamilton-b5a44ccbc28bc940a848.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-muster-objective",
+    "speaker": "hamilton",
+    "text": "The first priority is to have every squad muster on time.",
+    "src": "/audio/en/hamilton-a51dc7771ce276c3082f.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-muster-position",
+    "speaker": "hamilton",
+    "text": "The muster point is the clearing south of the mill.",
+    "src": "/audio/en/hamilton-00b7b28cecd6f4ad87ce.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-muster-supplies",
+    "speaker": "hamilton",
+    "text": "Each squad collects two days of rations and checks its ammunition.",
+    "src": "/audio/en/hamilton-119d81e3e67178f94cb6.mp3",
+    "generated": true
+  },
+  {
+    "id": "dispatch-muster-troops",
+    "speaker": "hamilton",
+    "text": "A messenger tells each squad leader to count their men.",
+    "src": "/audio/en/hamilton-03d8af1ee354b9d9696d.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-base-1",
+    "speaker": "narrator",
+    "text": "In 1781, French and American forces surrounded Yorktown. Years of marches, dispatches, and disputes brought Hamilton to the foot of a British redoubt.",
+    "src": "/audio/en/narrator-fd4d6e6f31b71f0617d7.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-base-2",
+    "speaker": "washington",
+    "text": "You have this command. What I expect is an officer responsible for his whole company. Follow the plan. Do not turn it into a private test of your worth.",
+    "src": "/audio/en/washington-6db6b0ac0380f3a01773.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-base-3",
+    "speaker": "hamilton",
+    "text": "I understand. After waiting so long, I cannot think only of how I will be seen.",
+    "src": "/audio/en/hamilton-9555303b4ef954175a38.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-variant-1-1",
+    "speaker": "narrator",
+    "text": "In 1781, French and American forces surrounded Yorktown. Years of marches and dispatches brought Hamilton to the foot of a British redoubt.",
+    "src": "/audio/en/narrator-63d80505ab69a95e9d50.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-variant-1-2",
+    "speaker": "washington",
+    "text": "You have proved you can carry responsibility. These troops are yours. Follow the plan; when judgment is needed, I trust you to understand the purpose behind the order.",
+    "src": "/audio/en/washington-5bbebb9010c053828a57.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-variant-1-3",
+    "speaker": "hamilton",
+    "text": "This time, the names on the page will move forward beside me. I will remember that they need more than a fine sentence to follow.",
+    "src": "/audio/en/hamilton-c0e865729e42b0af17a6.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-coordinate-selected",
+    "speaker": "hamilton",
+    "text": "Confirm each squad's role and wait for the common signal.",
+    "src": "/audio/en/hamilton-dae7567f8644eb2fa80e.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-coordinate-reply-1",
+    "speaker": "hamilton",
+    "text": "Every squad must know where the others are. When the signal comes, we move together.",
+    "src": "/audio/en/hamilton-2d9d071d3caab1aea2c9.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-lead-selected",
+    "speaker": "hamilton",
+    "text": "I will lead from the front. Stay close.",
+    "src": "/audio/en/hamilton-e0ad920cb52aaa24c17f.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-lead-reply-1",
+    "speaker": "hamilton",
+    "text": "I will step out first. But watch the signal. Do not lose your own position by following mine.",
+    "src": "/audio/en/hamilton-749a8ff18811ef0cbf30.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-rally-selected",
+    "speaker": "hamilton",
+    "text": "Explain the shared objective so everyone knows why we are going.",
+    "src": "/audio/en/hamilton-ff28366171717c489c0a.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-rally-reply-1",
+    "speaker": "hamilton",
+    "text": "We are opening a breach in the siege. Remember the person beside you, and remember the way back. Now, take your positions.",
+    "src": "/audio/en/hamilton-ab7d9fa1729e7a3ba380.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-1",
+    "speaker": "hamilton",
+    "text": "ADVANCE · Move forward",
+    "src": "/audio/en/hamilton-ef9011a38c3c5e19973d.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-2",
+    "speaker": "hamilton",
+    "text": "HOLD · Steady the formation",
+    "src": "/audio/en/hamilton-41a74b9a676590d78fc2.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-3",
+    "speaker": "hamilton",
+    "text": "LEFT FLANK · Circle left",
+    "src": "/audio/en/hamilton-c49478081955e9ff1cf0.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-4",
+    "speaker": "hamilton",
+    "text": "ADVANCE · Move forward",
+    "src": "/audio/en/hamilton-ef9011a38c3c5e19973d.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-5",
+    "speaker": "hamilton",
+    "text": "RIGHT FLANK · Support the right",
+    "src": "/audio/en/hamilton-8a7cceb3991421114d17.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-6",
+    "speaker": "hamilton",
+    "text": "HOLD · Wait for allied troops",
+    "src": "/audio/en/hamilton-d47c0113b2566e90b8fc.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-7",
+    "speaker": "hamilton",
+    "text": "LEFT FLANK · Support the flank",
+    "src": "/audio/en/hamilton-13350e42ba9e99c48f32.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-8",
+    "speaker": "hamilton",
+    "text": "ADVANCE · Cross the earthworks",
+    "src": "/audio/en/hamilton-5c5cd9ed1036e306ee6b.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-9",
+    "speaker": "hamilton",
+    "text": "RIGHT FLANK · Maintain contact",
+    "src": "/audio/en/hamilton-c59c0a159e1dca197bbe.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-10",
+    "speaker": "hamilton",
+    "text": "HOLD · Regroup",
+    "src": "/audio/en/hamilton-eb6421ec80933da3e49b.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-11",
+    "speaker": "hamilton",
+    "text": "ADVANCE · Enter the redoubt",
+    "src": "/audio/en/hamilton-78fb4e2d37a4ff9f90df.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-command-12",
+    "speaker": "hamilton",
+    "text": "HOLD · Secure the position",
+    "src": "/audio/en/hamilton-2ab21398681d7056c671.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-surrender-base-1",
+    "speaker": "narrator",
+    "text": "Hamilton's troops took Redoubt No. 10, while French forces took the neighboring Redoubt No. 9. The siege tightened.",
+    "src": "/audio/en/narrator-dff0fb0a0936e6af9342.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-surrender-base-2",
+    "speaker": "narrator",
+    "text": "Days later, British forces surrendered at Yorktown. Victory belonged to many people fighting together. The war had not formally ended, but its course had changed.",
+    "src": "/audio/en/narrator-38e21818aab74754fcea.mp3",
+    "generated": true
+  },
+  {
+    "id": "yorktown-surrender-base-3",
+    "speaker": "hamilton",
+    "text": "The hopes I once could only put in letters finally have weight. Tomorrow, someone will ask what we intend to do with this victory.",
+    "src": "/audio/en/hamilton-0bf63d2c56066d06e532.mp3",
+    "generated": true
+  }
+]

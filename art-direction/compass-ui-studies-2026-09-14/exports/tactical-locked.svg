@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="720" height="720"><defs>
+      <radialGradient id="export-tactical-locked-tactical-recess" cx="34%" cy="24%" r="90%">
+        <stop stop-color="#e4eced" stop-opacity=".41"/><stop offset=".58" stop-color="#c0cbd0" stop-opacity=".34"/><stop offset="1" stop-color="#71827f" stop-opacity=".4"/>
+      </radialGradient>
+      <radialGradient id="export-tactical-locked-tactical-locked" cx="32%" cy="20%" r="100%">
+        <stop stop-color="#666e72"/><stop offset=".6" stop-color="#41494d"/><stop offset="1" stop-color="#222a2d"/>
+      </radialGradient>
+      <pattern id="export-tactical-locked-tactical-hatching" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(35)">
+        <path d="M0 0V7" stroke="#171e20" stroke-width="1.6"/><path d="M2 0V7" stroke="#b6bfc1" stroke-width=".55" stroke-opacity=".3"/>
+      </pattern>
+      <radialGradient id="export-tactical-locked-tactical-momentum" cx="120" cy="120" r="108" gradientUnits="userSpaceOnUse">
+        <stop offset=".45" stop-color="#856019"/><stop offset=".62" stop-color="#c39c30"/><stop offset=".88" stop-color="#dfbf50"/><stop offset="1" stop-color="#f3d16d"/>
+      </radialGradient>
+      <linearGradient id="export-tactical-locked-tactical-momentum-lip" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#fff5b1"/><stop offset="1" stop-color="#b78e2d"/></linearGradient>
+      <radialGradient id="export-tactical-locked-tactical-influence" cx="120" cy="120" r="108" gradientUnits="userSpaceOnUse">
+        <stop offset=".45" stop-color="#050607"/><stop offset=".65" stop-color="#15191b"/><stop offset=".87" stop-color="#2b3135"/><stop offset="1" stop-color="#121719"/>
+      </radialGradient>
+      <linearGradient id="export-tactical-locked-tactical-influence-lip" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b2bec3"/><stop offset=".5" stop-color="#718087"/><stop offset="1" stop-color="#39474d"/></linearGradient>
+      <radialGradient id="export-tactical-locked-tactical-washingtonTrust" cx="120" cy="120" r="108" gradientUnits="userSpaceOnUse">
+        <stop offset=".45" stop-color="#0a2922"/><stop offset=".68" stop-color="#124338"/><stop offset=".9" stop-color="#246650"/><stop offset="1" stop-color="#174d3e"/>
+      </radialGradient>
+      <linearGradient id="export-tactical-locked-tactical-washingtonTrust-lip" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a0d0a5"/><stop offset="1" stop-color="#3b8061"/></linearGradient>
+      <linearGradient id="export-tactical-locked-tactical-forged-edge" x1=".14" y1="0" x2=".86" y2="1">
+        <stop stop-color="#d5c493"/><stop offset=".17" stop-color="#717465"/><stop offset=".45" stop-color="#2b3831"/><stop offset=".71" stop-color="#101a15"/><stop offset=".87" stop-color="#4b5b4b"/><stop offset="1" stop-color="#17211a"/>
+      </linearGradient>
+      <radialGradient id="export-tactical-locked-tactical-red" cx="28%" cy="18%" r="90%"><stop stop-color="#d0715b"/><stop offset=".46" stop-color="#a4453a"/><stop offset="1" stop-color="#56241f"/></radialGradient>
+      <radialGradient id="export-tactical-locked-tactical-blue" cx="27%" cy="15%" r="100%"><stop stop-color="#789ea9"/><stop offset=".44" stop-color="#456d80"/><stop offset="1" stop-color="#193b50"/></radialGradient>
+      <radialGradient id="export-tactical-locked-tactical-core-relief" cx="43%" cy="37%" r="65%"><stop offset=".55" stop-color="#06100c" stop-opacity="0"/><stop offset=".87" stop-color="#06100c" stop-opacity=".09"/><stop offset="1" stop-color="#06100c" stop-opacity=".58"/></radialGradient>
+      <clipPath id="export-tactical-locked-tactical-core"><circle cx="120" cy="120" r="52"/></clipPath>
+      <clipPath id="export-tactical-locked-tactical-upper"><rect x="68" y="68" width="104" height="41.49270476629566"/></clipPath>
+      <clipPath id="export-tactical-locked-tactical-lower"><rect x="68" y="109.49270476629566" width="104" height="62.50729523370434"/></clipPath>
+      <clipPath id="export-tactical-locked-tactical-sector-momentum"><path d="M26.469256391280624 66A108 108 0 0 1 213.53074360871938 66L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z"/></clipPath><clipPath id="export-tactical-locked-tactical-sector-influence"><path d="M213.53074360871938 66A108 108 0 0 1 120 228L120 172A52 52 0 0 0 165.03332099679082 94Z"/></clipPath><clipPath id="export-tactical-locked-tactical-sector-washingtonTrust"><path d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z"/></clipPath>
+    </defs>
+    <g class="compass-part" data-stat="momentum" role="button" tabindex="0" aria-label="Momentum">
+        <path class="part-surface" d="M26.469256391280624 66A108 108 0 0 1 213.53074360871938 66L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="url(#export-tactical-locked-tactical-recess)"/>
+        
+          <path d="M41.72356676495792 74.8070802005447A90.38583959891062 90.38583959891062 0 0 1 198.27643323504208 74.8070802005447L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="url(#export-tactical-locked-tactical-momentum)"/>
+            <path d="M41.72356676495792 74.8070802005447A90.38583959891062 90.38583959891062 0 0 1 198.27643323504208 74.8070802005447L196.28457480633787 75.9570802005447A88.08583959891062 88.08583959891062 0 0 0 43.71542519366213 75.9570802005447Z" fill="url(#export-tactical-locked-tactical-momentum-lip)" opacity=".88"/>
+            <path d="M43.888630274419015 76.0570802005447A87.88583959891062 87.88583959891062 0 0 1 196.11136972558097 76.0570802005447L194.81233161990434 76.8070802005447A86.38583959891062 86.38583959891062 0 0 0 45.18766838009567 76.8070802005447Z" fill="#0b100c" opacity=".2"/>
+          <g clip-path="url(#export-tactical-locked-tactical-sector-momentum)" style="pointer-events:none"><circle cx="120" cy="120" r="66" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/><circle cx="120" cy="120" r="81" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/><circle cx="120" cy="120" r="95" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/></g>
+        
+        <path class="part-hover" d="M26.469256391280624 66A108 108 0 0 1 213.53074360871938 66L165.03332099679082 94A52 52 0 0 0 74.96667900320918 94Z" fill="#fff8db" opacity="0"/>
+        <g transform="translate(120 25)" fill="none" stroke="#f3e4bf" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" opacity=".95" style="pointer-events:none"><path d="M0-6 4 0 1-1v7h-2v-7l-3 1Z"/></g>
+        <text x="120" y="43" text-anchor="middle" dominant-baseline="middle" fill="#fff3d4" stroke="#151b18" stroke-width="3.2" paint-order="stroke fill" font-size="26" font-weight="800" font-family="Georgia, 'Times New Roman', serif" style="font-variant-numeric:tabular-nums;pointer-events:none">61</text>
+      </g><g class="compass-part" data-stat="influence" role="button" tabindex="0" aria-label="Influence">
+        <path class="part-surface" d="M213.53074360871938 66A108 108 0 0 1 120 228L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="url(#export-tactical-locked-tactical-recess)"/>
+        
+          <path d="M186.68733013099265 81.49805199733396A77.0038960053321 77.0038960053321 0 0 1 120 197.00389600533208L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="url(#export-tactical-locked-tactical-influence)"/>
+            <path d="M186.68733013099265 81.49805199733396A77.0038960053321 77.0038960053321 0 0 1 120 197.00389600533208L120 194.7038960053321A74.7038960053321 74.7038960053321 0 0 0 184.69547170228844 82.64805199733397Z" fill="url(#export-tactical-locked-tactical-influence-lip)" opacity=".88"/>
+            <path d="M184.52226662153157 82.74805199733396A74.5038960053321 74.5038960053321 0 0 1 120 194.50389600533208L120 193.00389600533208A73.0038960053321 73.0038960053321 0 0 0 183.22322851585488 83.49805199733396Z" fill="#0b100c" opacity=".2"/>
+          <g clip-path="url(#export-tactical-locked-tactical-sector-influence)" style="pointer-events:none"><circle cx="120" cy="120" r="66" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/><circle cx="120" cy="120" r="81" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/><circle cx="120" cy="120" r="95" fill="none" stroke="#e8eef0" stroke-opacity=".095" stroke-width=".8"/></g>
+        
+        <path class="part-hover" d="M213.53074360871938 66A108 108 0 0 1 120 228L120 172A52 52 0 0 0 165.03332099679082 94Z" fill="#fff8db" opacity="0"/>
+        <g transform="translate(188 145)" fill="none" stroke="#f3e4bf" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" opacity=".95" style="pointer-events:none"><path d="m-6 4 1-8 4 4 2-6 2 6 4-4 1 8ZM-5 6H5"/></g>
+        <text x="188" y="166" text-anchor="middle" dominant-baseline="middle" fill="#fff3d4" stroke="#151b18" stroke-width="3.2" paint-order="stroke fill" font-size="26" font-weight="800" font-family="Georgia, 'Times New Roman', serif" style="font-variant-numeric:tabular-nums;pointer-events:none">36</text>
+      </g><g class="compass-part" data-stat="washingtonTrust" role="button" tabindex="0" aria-label="Washington’s trust">
+        <path class="part-surface" d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="url(#export-tactical-locked-tactical-locked)"/>
+        <path d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="url(#export-tactical-locked-tactical-hatching)" opacity=".62"/>
+        <path class="part-hover" d="M120 228A108 108 0 0 1 26.469256391280638 65.99999999999999L74.9666790032092 94A52 52 0 0 0 120 172Z" fill="#fff8db" opacity="0"/>
+        <g transform="translate(52 145)" fill="none" stroke="#cbd1d2" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" opacity=".95" style="pointer-events:none"><path d="M-3-2v-2a3 3 0 0 1 6 0v2M-5-2H5v8H-5ZM0 1v2"/></g>
+        <text x="52" y="166" text-anchor="middle" dominant-baseline="middle" fill="#c0c7c8" stroke="#151b18" stroke-width="3.2" paint-order="stroke fill" font-size="26" font-weight="800" font-family="Georgia, 'Times New Roman', serif" style="font-variant-numeric:tabular-nums;pointer-events:none">—</text>
+      </g>
+    <g clip-path="url(#export-tactical-locked-tactical-core)">
+      <g class="compass-part" data-stat="burrRivalry" role="button" tabindex="0" aria-label="Burr rivalry" clip-path="url(#export-tactical-locked-tactical-upper)">
+        <circle class="part-surface" cx="120" cy="120" r="52" fill="url(#export-tactical-locked-tactical-red)"/>
+        <circle class="part-hover" cx="120" cy="120" r="52" fill="#fff0d2" opacity="0"/>
+        <text x="120" y="89.74635238314784" text-anchor="middle" dominant-baseline="middle" fill="#fff0de" stroke="#151b18" stroke-width="3.2" paint-order="stroke fill" font-size="24" font-weight="800" font-family="Georgia, 'Times New Roman', serif" style="font-variant-numeric:tabular-nums;pointer-events:none">18</text>
+      </g>
+      <g class="compass-part" data-stat="burrRespect" role="button" tabindex="0" aria-label="Burr respect" clip-path="url(#export-tactical-locked-tactical-lower)">
+        <circle class="part-surface" cx="120" cy="120" r="52" fill="url(#export-tactical-locked-tactical-blue)"/>
+        <circle class="part-hover" cx="120" cy="120" r="52" fill="#e7f4ff" opacity="0"/>
+        <text x="120" y="141.74635238314784" text-anchor="middle" dominant-baseline="middle" fill="#eaf7f5" stroke="#151b18" stroke-width="3.2" paint-order="stroke fill" font-size="24" font-weight="800" font-family="Georgia, 'Times New Roman', serif" style="font-variant-numeric:tabular-nums;pointer-events:none">24</text>
+      </g>
+      <path d="M68 109.49270476629566H172" stroke="#10221e" stroke-width="1.5" pointer-events="none"/>
+      <path d="M68 110.69270476629566H172" stroke="#c2d0c7" stroke-opacity=".5" stroke-width=".65" pointer-events="none"/>
+      <circle cx="120" cy="120" r="52" fill="url(#export-tactical-locked-tactical-core-relief)" pointer-events="none"/>
+    </g>
+    <g pointer-events="none">
+      <path d="M74.96667900320918 94L26.469256391280624 66" stroke="#131b16" stroke-width="1.25" stroke-opacity=".92"/><path d="M165.03332099679082 94L213.53074360871938 66" stroke="#131b16" stroke-width="1.25" stroke-opacity=".92"/><path d="M120 172L120 228" stroke="#131b16" stroke-width="1.25" stroke-opacity=".92"/>
+      <circle cx="120" cy="120" r="52" fill="none" stroke="#10221a" stroke-width="1.35"/>
+      <circle cx="120" cy="120" r="51.2" fill="none" stroke="#e3d5ad" stroke-opacity=".26" stroke-width=".65"/>
+      <circle cx="120" cy="120" r="108" fill="none" stroke="#09130d" stroke-width="4"/>
+      <circle cx="120" cy="120" r="108" fill="none" stroke="url(#export-tactical-locked-tactical-forged-edge)" stroke-width="3"/>
+      <circle cx="120" cy="120" r="105.7" fill="none" stroke="#edf1ce" stroke-opacity=".36" stroke-width=".7"/>
+      <circle cx="26.469256391280624" cy="66" r="2.6" fill="#4d5846" stroke="#19261b" stroke-width=".7"/><path d="M25.669256391280623 65.2l1.6 1.6" stroke="#c8be94" stroke-opacity=".76" stroke-width=".6"/><circle cx="213.53074360871938" cy="66" r="2.6" fill="#4d5846" stroke="#19261b" stroke-width=".7"/><path d="M212.73074360871937 65.2l1.6 1.6" stroke="#c8be94" stroke-opacity=".76" stroke-width=".6"/><circle cx="120" cy="228" r="2.6" fill="#4d5846" stroke="#19261b" stroke-width=".7"/><path d="M119.2 227.2l1.6 1.6" stroke="#c8be94" stroke-opacity=".76" stroke-width=".6"/>
+    </g></svg>

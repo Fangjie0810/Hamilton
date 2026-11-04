@@ -1,0 +1,17 @@
+{
+  "verifiedAt": "2026-09-14T14:10:39.519860+00:00",
+  "version": "0.4.0",
+  "archiveCreatedAt": "2026-09-14T13:32:39.241288+00:00",
+  "allCurrentProductionFilesEqualArchivedSite": true,
+  "productionFileCount": 583,
+  "allRuntimeSourceFilesEqualArchivedSource": true,
+  "runtimeSourceFileCount": 90,
+  "artRoles": 10,
+  "artFrames": 59,
+  "archiveChecksums": {
+    "ham-0.4.0.tar.gz": "876b99d19af90d7bd65ac303e306b40abb6c0dc8146fa0a3eca051a802a4f6d0",
+    "ham-0.4.0-source.tar.gz": "5f8bd264944da8ff4579085144721532ac190f8f093572e15edc8b972c00b959"
+  },
+  "separate030ArchiveExists": false,
+  "postArchiveChanges": "Additional direct-game-data test coverage and corrected art verification documents only; no runtime or production changes."
+}

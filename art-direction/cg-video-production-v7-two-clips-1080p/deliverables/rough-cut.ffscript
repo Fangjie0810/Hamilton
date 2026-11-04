@@ -1,0 +1,16 @@
+[0:v]split=7[a0][a1][a2][a3][a4][a5][a6];
+[1:v]split=6[b0][b1][b2][b3][b4][b5];
+[a0]trim=start_frame=0:end_frame=67,setpts=PTS-STARTPTS[s0];
+[a1]trim=start_frame=67:end_frame=115,setpts=PTS-STARTPTS[s1];
+[a2]trim=start_frame=127:end_frame=213,setpts=PTS-STARTPTS[s2];
+[b0]trim=start_frame=0:end_frame=89,setpts=PTS-STARTPTS[s3];
+[b1]trim=start_frame=89:end_frame=179,setpts=PTS-STARTPTS[s4];
+[b2]trim=start_frame=179:end_frame=254,setpts=PTS-STARTPTS[s5];
+[a3]trim=start_frame=213:end_frame=311,setpts=PTS-STARTPTS[s6];
+[b3]trim=start_frame=254:end_frame=333,setpts=PTS-STARTPTS[s7];
+[b4]trim=start_frame=333:end_frame=413,setpts=PTS-STARTPTS[s8];
+[b5]trim=start_frame=413:end_frame=481,setpts=PTS-STARTPTS[s9];
+[a4]trim=start_frame=311:end_frame=406,setpts=PTS-STARTPTS[s10];
+[a5]trim=start_frame=406:end_frame=553,setpts=PTS-STARTPTS[s11];
+[a6]trim=start_frame=553:end_frame=721,setpts=PTS-STARTPTS[s12];
+[s0][s1][s2][s3][s4][s5][s6][s7][s8][s9][s10][s11][s12]concat=n=13:v=1:a=0,fade=t=out:start_frame=1178:nb_frames=11,format=yuv420p[v]

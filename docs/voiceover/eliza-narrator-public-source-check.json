@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-09-14",
+  "publicURL": "https://ham.newflorencia.com/audio/en/manifest.json",
+  "sha256": "525da09f882c77226dbe187fa0bae4b16605ab067ca617cc6f21a6b4e5ebc22a",
+  "publicCues": 202,
+  "checks": [
+    {
+      "id": "opening-letter-base-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "opening-letter-base-2",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "yorktown-command-base-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "yorktown-command-variant-1-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "yorktown-surrender-base-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "yorktown-surrender-base-2",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "discovery-letter-name-base-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    },
+    {
+      "id": "discovery-tavern-unfinished-draft-base-1",
+      "sameEnglishText": true,
+      "samePriorAudio": true
+    }
+  ],
+  "allEightTextsAlreadyPublic": true
+}

@@ -1,0 +1,7 @@
+.audio-volume-control { display: flex; align-items: center; gap: 10px; flex: 0 1 190px; min-width: 120px; }
+.audio-volume-setting .audio-volume-control input[type='range'] { width: 100%; min-width: 0; height: 28px; flex: 1 1 auto; margin: 0; accent-color: #cfb37c; cursor: pointer; }
+.audio-volume-control output { min-width: 4ch; text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 520px) {
+  .entry-setting-row.audio-volume-setting, .d3-setting-row.audio-volume-setting { flex-direction: column; align-items: stretch; gap: 8px; }
+  .audio-volume-control { flex-basis: auto; width: 100%; }
+}

@@ -1,0 +1,536 @@
+{
+  "date": "2026-09-14",
+  "tool": "built-in image_gen",
+  "status": "Generated, visually inspected, integrated and browser verified: all 10 roles and 59 frames.",
+  "frameCount": 59,
+  "poseGroups": 41,
+  "jobs": [
+    {
+      "id": "hamilton",
+      "title": "Hamilton",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 is the exact approved character identity, costume, pixel drawing style and speaking gesture. Image 2 is the Eliza art-style reference. Preserve the first male character design.\nSUBJECT: Alexander Hamilton as portrayed by Lin-Manuel Miranda in the musical. EXACT approved reference male: warm light-medium skin, long slim face, expressive dark brows and brown eyes, swept-back dark-brown LOW ponytail, neat small moustache and goatee. Navy blue coat with buff lapels/cuffs, cream waistcoat, brass buttons, white cravat. No epaulettes. Young urgency, not an elderly historical white-wig portrait.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 4 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 8 required character frames. All cells occupied. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter RIGHT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, eager argument stance: lean torso forward slightly, one hand near sternum, the visible other hand extended to the RIGHT at chest height palm slightly upward, brows focused. Match the approved Hamilton gesture and angular shoulder line.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: THOUGHTFUL closed-mouth reaction: hand gesture retracts toward chest/chin, attentive brows, quietly evaluating; shoulders still engaged. Do not turn head away or hide the eyes.\nCell 5: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 6: CONCERNED/SERIOUS closed-mouth reaction: brows drawn inward, lips pressed, palm lowered to caution, shoulders bearing responsibility. No tears and no raging shout.\nCell 7: COMMANDING closed-mouth reaction: chest more upright, firm steady eyes, clear directional hand out toward the listener, authoritative and purposeful rather than furious.\nCell 8: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "hamilton",
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "facing": "right",
+        "poses": {
+          "assertive": 0,
+          "reflect": 3,
+          "approve": 4,
+          "concern": 5,
+          "command": 6,
+          "calm": 7
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/hamilton.png"
+      }
+    },
+    {
+      "id": "burr",
+      "title": "Burr",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: Aaron Burr as portrayed by Leslie Odom Jr in the musical: adult Black man with warm medium-brown skin, compact neat close-cropped dark hair, clean-shaven face, alert brown eyes, defined cheekbones, measured intelligent reserve. Burgundy/maroon long coat, understated gold buttons, cream waistcoat and white cravat. No wig, no ponytail, no beard, no epaulettes.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 4 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 7 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, quietly attentive and poised: torso upright with a slight 3/4 turn LEFT, one hand loosely at waistcoat, other relaxed low, composed alert eyes, shoulders neither rigid nor aggressive.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: THOUGHTFUL closed-mouth reaction: hand gesture retracts toward chest/chin, attentive brows, quietly evaluating; shoulders still engaged. Do not turn head away or hide the eyes.\nCell 5: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 6: CONCERNED/SERIOUS closed-mouth reaction: brows drawn inward, lips pressed, palm lowered to caution, shoulders bearing responsibility. No tears and no raging shout.\nCell 7: SKEPTICAL/CHALLENGING closed-mouth reaction: one brow raised, slight chin lift, measured direct stare, hand held close or lightly folded. Not approval or friendly smiling.\nCell 8: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "burr",
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "left",
+        "poses": {
+          "calm": 0,
+          "reflect": 3,
+          "approve": 4,
+          "concern": 5,
+          "challenge": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "calm",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/burr.png"
+      }
+    },
+    {
+      "id": "washington",
+      "title": "Washington",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: George Washington as portrayed by Christopher Jackson in the musical: mature, broad-shouldered Black man with medium-brown skin, very close-cropped nearly shaven black hair with a little grey at temples, authoritative kind-but-serious face, strong square jaw and discreet neatly trimmed facial hair. Navy general's coat, cream lapels and waistcoat, fringed GOLD epaulettes, distinctive pale BLUE diagonal sash, white cravat. Not a white-haired European historical portrait.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 4 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 7 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, stable commanding inspection: broad shoulders and an open chest, torso turned LEFT, one hand near belt and other near mid-chest, calm authoritative gaze.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: COMMANDING closed-mouth reaction: chest more upright, firm steady eyes, clear directional hand out toward the listener, authoritative and purposeful rather than furious.\nCell 5: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 6: CONCERNED/SERIOUS closed-mouth reaction: brows drawn inward, lips pressed, palm lowered to caution, shoulders bearing responsibility. No tears and no raging shout.\nCell 7: THOUGHTFUL closed-mouth reaction: hand gesture retracts toward chest/chin, attentive brows, quietly evaluating; shoulders still engaged. Do not turn head away or hide the eyes.\nCell 8: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "washington",
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "left",
+        "poses": {
+          "calm": 0,
+          "command": 3,
+          "approve": 4,
+          "concern": 5,
+          "reflect": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "calm",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/washington.png"
+      }
+    },
+    {
+      "id": "laurens",
+      "title": "Laurens",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: John Laurens as portrayed by Anthony Ramos in the musical: young Latino man, warm tan/light-brown skin, youthful freckled face, brown eyes, dark tight curls swept into a low curly ponytail, clean-shaven or extremely light stubble, earnest open expression. Navy blue coat with buff lapels/cuffs, cream waistcoat, white cravat, small brass buttons. No gold epaulettes. Clearly different from Hamilton: younger rounder clean face, curly hair, no pointed goatee.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 6 required character frames. All cells occupied. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, earnest principled argument: slight forward lean LEFT, one hand near heart, the other offering a clear open-hand gesture at chest level, intent sincere brows.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: CONCERNED/SERIOUS closed-mouth reaction: brows drawn inward, lips pressed, palm lowered to caution, shoulders bearing responsibility. No tears and no raging shout.\nCell 5: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 6: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "laurens",
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 6,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "concern": 3,
+          "approve": 4,
+          "calm": 5
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/laurens.png"
+      }
+    },
+    {
+      "id": "lafayette",
+      "title": "Lafayette",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/lafayette-speaking-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 is the exact approved character identity, costume, pixel drawing style and speaking gesture. Image 2 is the Eliza art-style reference. Preserve the first male character design.\nSUBJECT: Marquis de Lafayette as portrayed by Daveed Diggs in the musical. EXACT approved reference male: medium-brown Black skin, long elegant face, lively brown eyes, dark curly hair in HIGH CURLY BUN with loose side curls, full neatly shaped short beard, assured charm. Navy officer coat, ornate gold FRINGED EPAULETTES, pale cream lapels and waistcoat, white cravat, brass buttons. No pale European wig portrait.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 4 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 7 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, confident expansive invitation: chest open with graceful 3/4 twist LEFT, chin slightly lifted, one hand on waist, other open palm extends LEFT. Match the approved Lafayette gesture and assured half-smile.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: THOUGHTFUL closed-mouth reaction: hand gesture retracts toward chest/chin, attentive brows, quietly evaluating; shoulders still engaged. Do not turn head away or hide the eyes.\nCell 5: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 6: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nCell 7: LIGHTLY AMUSED closed-mouth reaction: bright eyes, lifted brows, relaxed warm grin with lips together, a casual open hand. A friendly shared joke, never roaring laughter.\nCell 8: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "lafayette",
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 7,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "reflect": 3,
+          "approve": 4,
+          "calm": 5,
+          "amused": 6
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/lafayette.png"
+      }
+    },
+    {
+      "id": "mulligan",
+      "title": "Mulligan",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: Hercules Mulligan as portrayed by Okieriete Onaodowan in the musical: sturdy broad Black man, deep warm-brown skin, round broad nose, strong expressive eyebrows, full short dark beard, distinctive ribbed GREY KNIT CAP. Olive green working coat, white open-neck shirt, warm brown leather tailor's apron covering waist with a front pocket. Honest earthy practical presence, strong shoulders, not a royal officer or blue uniform.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 6 required character frames. All cells occupied. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, practical organizing stance: broad torso inclines a little LEFT, strong open palm presents something actionable, opposite hand on apron/waist. Firm but warm features.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 5: CONCERNED/SERIOUS closed-mouth reaction: brows drawn inward, lips pressed, palm lowered to caution, shoulders bearing responsibility. No tears and no raging shout.\nCell 6: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "mulligan",
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 6,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "approve": 3,
+          "concern": 4,
+          "calm": 5
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/mulligan.png"
+      }
+    },
+    {
+      "id": "loyalist",
+      "title": "Loyalist",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: The game's Loyalist Pamphleteer: adult light-skinned man with a narrow intelligent face, swept-back medium brown hair tied into a low tail, clean-shaven face, arched skeptical eyebrows. Deep brick-RED tailored coat, cream waistcoat, white cravat and brass buttons. Holds a small bundle of blank cream pamphlet papers near the lower chest/waist. He is a serious articulate opponent, not a grotesque villain. No text on papers.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 5 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, pointed rhetorical stance: face LEFT, papers held against lower chest, other hand opens a precise argumentative gesture; skeptical raised brow, firm lips.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: SKEPTICAL/CHALLENGING closed-mouth reaction: one brow raised, slight chin lift, measured direct stare, hand held close or lightly folded. Not approval or friendly smiling.\nCell 5: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nCell 6: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "loyalist",
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "challenge": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "challenge",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/loyalist.png"
+      }
+    },
+    {
+      "id": "newsboy",
+      "title": "Newsboy",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: The game's New York Newsboy: a clearly CHILD boy about 10-12 years old, lightly tan skin, tousled brown hair under a soft BROWN NEWSBOY CAP, youthful cheeks and lively brown eyes, NO facial hair. Rolled cream shirt sleeves, ochre/brown waistcoat with small buttons. Carries a folded bundle of blank cream newspapers. A detailed game portrait with child proportions, not a chibi, not an adult dwarf, no readable newspaper text.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 5 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, lively news-selling stance facing LEFT: newspaper bundle tucked into one arm, other hand offers one folded paper toward listener, eager friendly eyebrows.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 5: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nCell 6: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "newsboy",
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "left",
+        "poses": {
+          "assertive": 0,
+          "approve": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "assertive",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/newsboy.png"
+      }
+    },
+    {
+      "id": "citizen",
+      "title": "Citizen",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png",
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/main-pixel-action-studies-2026-09-14/hamilton-speaking-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 (Eliza) is the PIXEL-ART STYLE reference only, not the new character identity. Image 2 (Hamilton) is another approved male drawing STYLE reference only. Do not copy Hamilton's face, hair or clothing; the new character is described below.\nSUBJECT: The game's ordinary New York Citizen: middle-aged male artisan with medium-brown skin, short dark hair under a modest cream linen working cap, slight dark stubble, tired but intelligent brown eyes, honest everyday features. Muted slate/teal-blue working jacket, brown waistcoat, cream collarless work shirt. Modest and practical, no gold trim, no military epaulettes. A civilian concerned with livelihood.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 2 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 5 required character frames. Last cell is entirely empty green. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter LEFT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: CLOSED MOUTH, concerned question facing LEFT: slightly drawn brows, one hand near chest and the other asks outward palm up, worried about ordinary livelihood.\nCell 2: ORDINARY SPEAKING. EXACT body, head, eyes, hair, clothing and HANDS as Cell 1, identical pixel registration. ONLY lips and tiny lower-jaw change: clearly small open vowel mouth, dark interior and modest upper teeth, not a broad smile.\nCell 3: EMPHASIZED SPEAKING. Same grounded body, face identity and head registration as Cell 1. Larger open stressed vowel mouth, an energetic but modest 2–3 centimeter increase of the speaking hand gesture. Not a roar or exaggerated angry face.\nCell 4: APPROVING closed-mouth reaction: clear warm restrained smile, softened brow, a small confident nod conveyed through face and lowered open hand; not an open-mouth laugh.\nCell 5: CALM LISTENING closed-mouth reaction: hands visibly lowered and relaxed, eyebrows at rest, attentive eyes, shoulders open. A distinct release from the argument pose.\nCell 6: COMPLETELY EMPTY GREEN, no character, no placeholder mark, no symbol.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "citizen",
+        "columns": 3,
+        "rows": 2,
+        "frameCount": 5,
+        "facing": "left",
+        "poses": {
+          "concern": 0,
+          "approve": 3,
+          "calm": 4
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "concern",
+        "listenPose": "calm",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/citizen.png"
+      }
+    },
+    {
+      "id": "narrator",
+      "title": "Eliza",
+      "references": [
+        "/Users/fangjie/Documents/Codex 项目/Hamilton/public/art/actors/eliza-chronicler-v1.png"
+      ],
+      "prompt": "Use case: style-transfer / stylized-concept.\nAsset: FINAL production MAIN PIXEL ART dialogue animation / reaction atlas for Hamilton musical RPG.\nINPUT ROLES: Image 1 is the EXACT character, costume, hidden-face rule and pixel-art STYLE reference.\nSUBJECT: Eliza the Chronicler, EXACT woman from the supplied Eliza reference: rich chestnut curled hair tied with pale blue ribbon, sculptural pale icy-blue empire gown with detailed puff sleeves and long folded cloth, holds an open cream book and a feather quill. Entire face is deep opaque blue-black shadow: NO eyes, nose details, mouth, skin highlight, or readable features under ANY pose. Keep upper silhouette and beautiful pixel style. She records the others' story.\nSTYLE: faithfully match approved Eliza/character references: rich detailed hard-edged game pixel art, sculptural clustered shading, strong dark colored stepped contours, expressive slightly animated adult proportions, crisp strand clusters and weighty cloth folds. It must feel like an expressive polished RPG character sprite, NOT a smooth illustration, blurred painting, photo filter, chibi, or costume catalogue. Keep subject recognizably SAME person in EVERY frame.\nLAYOUT: exactly 3 equal columns by 1 equal rows, read LEFT TO RIGHT then TOP TO BOTTOM. 3 required character frames. All cells occupied. Every frame is a complete HEAD-TO-WAIST upper-body portrait, large head and face but natural proportions, with BOTH FOREARMS/HANDS fully visible and coat down to waist. Do not show full-body legs or feet. Same pixel scale, same head-top/eye-line/shoulder/waist registration in all cells. Keep 12% horizontal gutters INSIDE EACH CELL and 5% top and bottom clear green margin: no fingers, hair, elbows, papers, or coat may cross a cell boundary. All portraits face three-quarter RIGHT, NEVER flip between cells. Landscape 3:2 canvas, clean regular sprite atlas. Frame changes should convey acting without changing the head shape, angle, size, hair silhouette, costume or body position.\nFRAME ORDER:\nCell 1: RECORDING. Quill touches the open page, book supported in left arm, settled attentive writing posture.\nCell 2: REFLECTING. Stop the quill a few centimeters above page, slight thoughtful tilt of the shadowed head; same registered head top and body scale.\nCell 3: TURNING A PAGE. Free fingers carefully lift one cream page, quill held back, open book still stable. Entire face fully concealed, no facial features.\nBACKGROUND: absolutely flat pure GREEN RGB(0,255,0) #00ff00 everywhere outside silhouettes and in gutters. No green lighting/reflections/glow; colors of hair, skin, blue/cream clothes unaffected by green. Solid chroma key background is required, do not simulate transparency, no checkerboard, no magenta, no background scenery, no shadows on background. Precisely hard opaque colored pixel outline at silhouette, NO ANTIALIASED GREEN FRINGE.\nTEXT: none. No headings, labels, numbers, watermarks, decorative frames, or speech bubbles. Papers/books have only subtle blank-page textures, no words.\nCONSISTENCY: gestures and expressions genuinely differ for reaction cells but keep same character design, face shape and eye line. The ordinary talking pair Cells 1/2 must be almost identical except mouth. Crisp nearest-neighbor game pixels, anatomy and both hands correct.",
+      "manifest": {
+        "id": "narrator",
+        "columns": 3,
+        "rows": 1,
+        "frameCount": 3,
+        "facing": "right",
+        "poses": {
+          "write": 0,
+          "reflect": 1,
+          "turn": 2
+        },
+        "talkFrames": [
+          0,
+          1,
+          2
+        ],
+        "defaultPose": "write",
+        "listenPose": "reflect",
+        "key": "#00ff00",
+        "path": "/art/main-pixel/v1/narrator.png"
+      }
+    }
+  ],
+  "observedFacingNote": "Generation follows reference image orientation for several characters; mainPixelArt.ts records the visually verified orientation and renderer mirrors toward dialogue partner.",
+  "productionManifest": {
+    "hamilton": {
+      "frameOverscan": 20,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 8,
+      "facing": "right",
+      "poses": {
+        "assertive": 0,
+        "reflect": 3,
+        "approve": 4,
+        "concern": 5,
+        "command": 6,
+        "calm": 7
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/hamilton.png"
+    },
+    "burr": {
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 7,
+      "facing": "right",
+      "poses": {
+        "calm": 0,
+        "reflect": 3,
+        "approve": 4,
+        "concern": 5,
+        "challenge": 6
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "calm",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/burr.png"
+    },
+    "washington": {
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 7,
+      "facing": "right",
+      "poses": {
+        "calm": 0,
+        "command": 3,
+        "approve": 4,
+        "concern": 5,
+        "reflect": 6
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "calm",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/washington.png"
+    },
+    "laurens": {
+      "columns": 3,
+      "rows": 2,
+      "frameCount": 6,
+      "facing": "right",
+      "poses": {
+        "assertive": 0,
+        "concern": 3,
+        "approve": 4,
+        "calm": 5
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/laurens.png"
+    },
+    "lafayette": {
+      "frameOverscan": 24,
+      "columns": 4,
+      "rows": 2,
+      "frameCount": 7,
+      "facing": "left",
+      "poses": {
+        "assertive": 0,
+        "reflect": 3,
+        "approve": 4,
+        "calm": 5,
+        "amused": 6
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/lafayette.png"
+    },
+    "mulligan": {
+      "columns": 3,
+      "rows": 2,
+      "frameCount": 6,
+      "facing": "right",
+      "poses": {
+        "assertive": 0,
+        "approve": 3,
+        "concern": 4,
+        "calm": 5
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/mulligan.png"
+    },
+    "loyalist": {
+      "columns": 3,
+      "rows": 2,
+      "frameCount": 5,
+      "facing": "right",
+      "poses": {
+        "assertive": 0,
+        "challenge": 3,
+        "calm": 4
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "challenge",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/loyalist.png"
+    },
+    "newsboy": {
+      "columns": 3,
+      "rows": 2,
+      "frameCount": 5,
+      "facing": "left",
+      "poses": {
+        "assertive": 0,
+        "approve": 3,
+        "calm": 4
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "assertive",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/newsboy.png"
+    },
+    "citizen": {
+      "columns": 3,
+      "rows": 2,
+      "frameCount": 5,
+      "facing": "right",
+      "poses": {
+        "concern": 0,
+        "approve": 3,
+        "calm": 4
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "concern",
+      "listenPose": "calm",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/citizen.png"
+    },
+    "narrator": {
+      "frameOverscan": 24,
+      "columns": 3,
+      "rows": 1,
+      "frameCount": 3,
+      "facing": "right",
+      "poses": {
+        "write": 0,
+        "reflect": 1,
+        "turn": 2
+      },
+      "talkFrames": [
+        0,
+        1,
+        2
+      ],
+      "defaultPose": "write",
+      "listenPose": "reflect",
+      "key": "#00ff00",
+      "path": "/art/main-pixel/v1/narrator.png"
+    }
+  }
+}

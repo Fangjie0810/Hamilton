@@ -1,0 +1,327 @@
+/* C — Turning Tides. A small brass instrument, read at a glance. */
+.af-feedback[data-variant='ruler'] {
+  width: 410px;
+  color: #29271f;
+  --af-ruler-edge: #9d8250;
+  --af-ruler-paper: #eee4c8;
+}
+
+.af-feedback[data-variant='ruler'] .af-composition {
+  position: relative;
+  isolation: isolate;
+  padding: 15px 23px 16px;
+  border: 1px solid #d8bd7c;
+  border-radius: 2px;
+  background:
+    linear-gradient(90deg, #b5975729, transparent 15%, transparent 85%, #b5975729),
+    linear-gradient(178deg, #f5ecd5 0%, #e7dbb9 100%);
+  box-shadow:
+    0 0 0 3px #222720,
+    0 0 0 4px #997e45,
+    0 16px 40px #0009,
+    inset 0 0 0 4px #f7efdc80,
+    inset 0 0 0 5px #9f87542d;
+  transform-origin: 50% 50%;
+}
+
+.af-feedback[data-variant='ruler'] .af-composition::before,
+.af-feedback[data-variant='ruler'] .af-composition::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 19px;
+  bottom: 17px;
+  width: 3px;
+  border-top: 12px solid #d4b675;
+  border-bottom: 12px solid #d4b675;
+  background: #312f25;
+  box-shadow: 0 0 0 1px #876c3c;
+}
+
+.af-feedback[data-variant='ruler'] .af-composition::before { left: -5px; }
+.af-feedback[data-variant='ruler'] .af-composition::after { right: -5px; }
+
+.af-feedback[data-variant='ruler'] .af-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 0 8px;
+  color: #695739;
+  font-family: Georgia, 'Noto Serif SC', 'Songti SC', serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: .19em;
+  text-transform: uppercase;
+}
+
+.af-feedback[data-variant='ruler'] .af-heading::before,
+.af-feedback[data-variant='ruler'] .af-heading::after {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: #9d825075;
+}
+
+.af-feedback[data-variant='ruler'] .af-rows {
+  display: grid;
+  gap: 5px;
+}
+
+.af-feedback[data-variant='ruler'] .af-row {
+  --af-ruler-ink: var(--stat-ink, #67532e);
+  --af-ruler-before: clamp(0%, var(--before), 100%);
+  --af-ruler-after: clamp(0%, var(--after), 100%);
+  position: relative;
+  display: grid;
+  grid-template-columns: 27px minmax(0, 1fr) 74px;
+  grid-template-rows: 32px 20px;
+  align-items: center;
+  column-gap: 10px;
+  min-height: 58px;
+  padding: 4px 2px 5px;
+  border: 0;
+  border-bottom: 1px solid #94763f3a;
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font-family: Georgia, 'Noto Serif SC', 'Songti SC', serif;
+  text-align: left;
+  cursor: help;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
+}
+
+/* Bright HUD colours need their darker pigment counterparts on parchment. */
+.af-feedback[data-variant='ruler'] .af-row[data-stat='momentum'] { --af-ruler-ink: #795a15; }
+.af-feedback[data-variant='ruler'] .af-row[data-stat='burrRespect'] { --af-ruler-ink: #385e78; }
+.af-feedback[data-variant='ruler'] .af-row[data-stat='debatePerformance'],
+.af-feedback[data-variant='ruler'] .af-row[data-stat='yorktownPerformance'] { --af-ruler-ink: #7b582a; }
+
+.af-feedback[data-variant='ruler'] .af-row:last-child { border-bottom-color: transparent; }
+
+.af-feedback[data-variant='ruler'] .af-row:hover,
+.af-feedback[data-variant='ruler'] .af-row:focus-visible {
+  outline: none;
+  background: #fff9e566;
+  box-shadow: -7px 0 #fff9e566, 7px 0 #fff9e566;
+}
+
+.af-feedback[data-variant='ruler'] .af-row:focus-visible::after {
+  content: '';
+  position: absolute;
+  inset: -1px -6px;
+  border: 1px solid #8e7446;
+  pointer-events: none;
+}
+
+.af-feedback[data-variant='ruler'] .af-icon {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 35px;
+  margin-bottom: 5px;
+  color: var(--af-ruler-ink);
+  filter: drop-shadow(0 1px 0 #fff9);
+}
+
+.af-feedback[data-variant='ruler'] .af-icon svg { width: 26px; height: 26px; }
+
+.af-feedback[data-variant='ruler'] .af-label {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: .035em;
+  text-wrap: balance;
+}
+
+.af-feedback[data-variant='ruler'] .af-delta {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: end;
+  color: var(--af-ruler-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.035em;
+  font-variant-numeric: lining-nums tabular-nums;
+  text-shadow: 0 1px #fff6;
+}
+
+.af-feedback[data-variant='ruler'] .af-values {
+  grid-column: 3;
+  grid-row: 2;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 5px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 13px;
+  font-variant-numeric: lining-nums tabular-nums;
+  line-height: 1;
+}
+
+.af-feedback[data-variant='ruler'] .af-before { color: #6a5d45; opacity: 1; }
+.af-feedback[data-variant='ruler'] .af-arrow { color: #7a643d; font-size: 13px; opacity: 1; }
+.af-feedback[data-variant='ruler'] .af-after { color: #29271f; font-weight: 700; }
+
+.af-feedback[data-variant='ruler'] .af-track {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  overflow: visible;
+  align-self: center;
+  height: 6px;
+  margin-right: 6px;
+  border: 1px solid #8f7b5045;
+  background: #ac9a702a;
+  box-shadow: inset 0 1px 2px #77634021;
+}
+
+.af-feedback[data-variant='ruler'] .af-track::before {
+  content: '';
+  position: absolute;
+  inset: 7px -1px auto;
+  height: 3px;
+  background: repeating-linear-gradient(90deg, #78603980 0 1px, transparent 1px 10%);
+}
+
+.af-feedback[data-variant='ruler'] .af-track::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  left: var(--af-ruler-after);
+  top: -3px;
+  width: 2px;
+  height: 10px;
+  background: var(--af-ruler-ink);
+  box-shadow: 1px 0 #fff8;
+  transform: translateX(-1px);
+}
+
+.af-feedback[data-variant='ruler'] .af-track-before,
+.af-feedback[data-variant='ruler'] .af-track-change {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.af-feedback[data-variant='ruler'] .af-track-before {
+  left: 0;
+  width: min(var(--af-ruler-before), var(--af-ruler-after));
+  background: var(--af-ruler-ink);
+  opacity: .4;
+}
+
+.af-feedback[data-variant='ruler'] .af-track-change {
+  left: min(var(--af-ruler-before), var(--af-ruler-after));
+  width: calc(max(var(--af-ruler-before), var(--af-ruler-after)) - min(var(--af-ruler-before), var(--af-ruler-after)));
+  background: var(--af-ruler-ink);
+  transform-origin: left center;
+}
+
+.af-feedback[data-variant='ruler'] .af-row[data-direction='down'] .af-track-change {
+  background: repeating-linear-gradient(-45deg, var(--af-ruler-ink) 0 2px, transparent 2px 4px);
+  opacity: .6;
+  transform-origin: right center;
+}
+
+.af-feedback[data-variant='ruler'] .af-life {
+  position: absolute;
+  left: 23px;
+  right: 23px;
+  bottom: 9px;
+  height: 1px;
+  background: #987b43;
+  opacity: .55;
+}
+
+.af-feedback[data-variant='ruler'][data-phase='enter'] .af-composition {
+  animation: af-ruler-open 410ms cubic-bezier(.18,.7,.2,1) both;
+}
+
+.af-feedback[data-variant='ruler'][data-phase='enter'] .af-row {
+  animation: af-ruler-line 360ms cubic-bezier(.16,.75,.3,1) both;
+  animation-delay: calc(var(--index) * 40ms);
+}
+
+.af-feedback[data-variant='ruler'][data-phase='enter'] .af-track-change {
+  animation: af-ruler-travel 360ms cubic-bezier(.25,.1,.2,1) both;
+  animation-delay: calc(var(--index) * 25ms);
+}
+
+.af-feedback[data-variant='ruler'][data-phase='enter'] .af-track::after {
+  animation: af-ruler-needle 360ms cubic-bezier(.25,.1,.2,1) both;
+  animation-delay: calc(var(--index) * 25ms);
+}
+
+.af-feedback[data-variant='ruler'][data-phase='exit'] .af-composition {
+  animation: af-ruler-close 240ms ease-in both;
+}
+
+.af-feedback[data-variant='ruler'][data-paused='true'] *,
+.af-feedback[data-variant='ruler'][data-paused='true'] *::before,
+.af-feedback[data-variant='ruler'][data-paused='true'] *::after { animation-play-state: paused; }
+
+.af-feedback[data-variant='ruler'][data-reduced='true'] .af-composition,
+.af-feedback[data-variant='ruler'][data-reduced='true'] .af-row,
+.af-feedback[data-variant='ruler'][data-reduced='true'] .af-track-change,
+.af-feedback[data-variant='ruler'][data-reduced='true'] .af-track::after {
+  animation: none;
+  transition: none;
+}
+
+@keyframes af-ruler-open {
+  from { opacity: 0; clip-path: inset(-10% 49% -40% 49%); transform: translateY(7px); }
+  55% { opacity: 1; }
+  to { opacity: 1; clip-path: inset(-10% -5% -40% -5%); transform: translateY(0); }
+}
+
+@keyframes af-ruler-line {
+  from { opacity: 0; transform: translateX(-8px); }
+  35% { opacity: 0; }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes af-ruler-travel {
+  from { transform: scaleX(0); }
+  20% { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes af-ruler-needle {
+  from { left: var(--af-ruler-before); }
+  20% { left: var(--af-ruler-before); }
+  to { left: var(--af-ruler-after); }
+}
+
+@keyframes af-ruler-close {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-5px); }
+}
+
+@media (max-width: 440px) {
+  .af-feedback[data-variant='ruler'] { width: 350px; }
+  .af-feedback[data-variant='ruler'] .af-composition { padding-right: 16px; padding-left: 16px; }
+  .af-feedback[data-variant='ruler'] .af-row { grid-template-columns: 25px minmax(0, 1fr) 66px; column-gap: 8px; }
+  .af-feedback[data-variant='ruler'] .af-label { font-size: 14px; letter-spacing: 0; }
+  .af-feedback[data-variant='ruler'] .af-delta { font-size: 30px; }
+  .af-feedback[data-variant='ruler'] .af-values { font-size: 12px; gap: 4px; }
+  .af-feedback[data-variant='ruler'] .af-life { right: 16px; left: 16px; }
+}
+
+@media (max-height: 560px) and (min-width: 441px) {
+  .af-feedback[data-variant='ruler'] .af-composition { padding-top: 11px; padding-bottom: 12px; }
+  .af-feedback[data-variant='ruler'] .af-heading { margin-bottom: 5px; }
+  .af-feedback[data-variant='ruler'] .af-row { min-height: 53px; padding-top: 1px; padding-bottom: 2px; }
+  .af-feedback[data-variant='ruler'] .af-life { bottom: 6px; }
+}

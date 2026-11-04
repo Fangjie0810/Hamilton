@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hamilton · 环境首帧候选</title>
+<style>
+:root{color-scheme:dark;--bg:#171c1f;--panel:#21282b;--ink:#eff0e9;--muted:#abb7b5;--line:#3c484a;--accent:#d2b885}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+header,main,footer{max-width:1400px;margin:auto;padding:24px}header{padding-top:46px}h1{font-size:clamp(30px,5vw,46px);line-height:1.25;margin:12px 0 18px}h2{font-size:22px;line-height:1.4;margin:0}a{color:var(--accent)}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.eyebrow{font-size:13px;letter-spacing:.12em;color:var(--muted)}.intro{max-width:850px}.muted{color:var(--muted);font-size:14px}.status{border-left:3px solid var(--accent);background:#2e3332;padding:12px 16px;margin:18px 0}.status strong{font-weight:600}.status p{margin:4px 0 0;color:var(--muted)}.document-links,.shot-links{display:flex;gap:22px;flex-wrap:wrap;font-size:14px}.document-links{margin:18px 0}.costs{color:var(--muted);font-size:13px;margin:16px 0}.costs strong{color:var(--ink);font-weight:500}
+.overview-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:30px 0 14px}.overview-heading h2{font-size:19px}.print-button{font:inherit;font-size:14px;padding:7px 13px;border:1px solid var(--line);border-radius:4px;color:var(--accent);background:var(--panel);cursor:pointer}
+.overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.environment-thumb{display:block;min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:5px;overflow:hidden;text-decoration:none}.environment-thumb:hover{border-color:var(--accent)}.environment-thumb img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#14191b}.thumb-caption{display:flex;align-items:baseline;gap:10px;padding:10px 12px;color:var(--ink);font-size:15px}.thumb-caption .category{margin-left:auto}.category{font-size:12px;color:var(--muted)}.number{font-weight:600;color:var(--accent);margin-right:12px}.thumb-caption .number{margin-right:0;white-space:nowrap}
+.shot{scroll-margin-top:20px;margin:0 0 32px;padding:20px;background:var(--panel);border:1px solid var(--line);border-radius:7px}.caption{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:12px}.full-image{display:block}.full-image img{width:100%;height:auto;display:block}.shot p{margin:14px 0 0}.text-label{font-size:13px;font-weight:600;color:var(--muted);margin-right:12px}.observation{color:var(--muted);font-size:14px}.shot-links{margin-top:16px}
+.rough-cut{border:1px solid var(--line);border-radius:7px;background:var(--panel);margin:8px 0 18px;padding:18px 20px}.rough-cut summary{cursor:pointer;font-size:20px;font-weight:500}.rough-content>p{margin:12px 0 18px}.timeline{display:grid;grid-template-columns:repeat(11,minmax(100px,1fr));gap:9px;overflow-x:auto;padding:3px 3px 12px}.cut-frame{min-width:0;text-decoration:none;border:1px solid var(--line);padding:5px;border-radius:3px;background:var(--bg)}.cut-frame img{width:100%;aspect-ratio:16/9;object-fit:contain;display:block}.cut-id,.cut-title,.cut-time{display:block;line-height:1.45}.cut-id{font-size:12px;margin-top:6px;color:var(--accent)}.cut-title{font-size:12px;color:var(--ink);margin-top:3px}.cut-time{font-size:10px;color:var(--muted);margin-top:5px;white-space:nowrap}
+@media(max-width:700px){header,main,footer{padding:20px 12px}.overview{grid-template-columns:1fr;gap:14px}.shot,.rough-cut{padding:12px}h2{font-size:18px}.number{margin-right:8px}.text-label{display:block;margin-bottom:3px}.caption{align-items:baseline}.thumb-caption{font-size:16px}.rough-cut summary{font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@page{size:A4 portrait;margin:12mm}
+@media print{
+:root{color-scheme:light;--bg:#fff;--panel:#fff;--ink:#111;--muted:#555;--line:#ccc;--accent:#343e37}html{scroll-behavior:auto}body{background:#fff;font-size:10.5pt;line-height:1.5}header,main,footer{max-width:none;padding:0}header{break-after:page}h1{font-size:25pt}h2{font-size:17pt}.eyebrow{font-size:9pt}.intro{max-width:none}.status{background:none;border:1px solid #aaa;padding:3mm}.document-links,.shot-links,.print-button{display:none}.costs{font-size:8pt}.overview-heading{margin:7mm 0 3mm}.overview{grid-template-columns:repeat(3,minmax(0,1fr));gap:3mm}.environment-thumb{border-radius:0}.thumb-caption{gap:1mm;padding:2mm;font-size:9pt;flex-wrap:wrap}.thumb-caption .category{font-size:8pt}.shot{margin:0;padding:0;border:0;border-radius:0;break-after:page;break-inside:avoid}.caption{margin-bottom:5mm}.full-image img{max-height:118mm;object-fit:contain}.shot p{margin-top:5mm}.text-label{display:inline;font-size:9pt;margin-right:3mm}.observation,.muted{font-size:9pt}.rough-cut{margin:0;padding:0;border:0;break-inside:avoid}.rough-cut summary{font-size:17pt;list-style:none}.rough-cut summary::-webkit-details-marker{display:none}.timeline{grid-template-columns:repeat(6,minmax(0,1fr));overflow:visible;gap:3mm;padding:0}.cut-frame{break-inside:avoid}.cut-id,.cut-title{font-size:8pt}.cut-time{font-size:7pt}footer{margin-top:6mm}a{color:inherit;text-decoration:none}
+}
+</style></head><body>
+<header><div class="eyebrow">HAMILTON · ENVIRONMENT FIRST FRAMES V5</div>
+<h1>加勒比：风暴与灾后</h1>
+<p class="intro">2张鸟瞰、2张风暴中的地面视角、2张灾后环境。把岛屿、天气与生计接回人物经历，再决定哪些镜头进入剪辑。</p>
+<div class="status"><strong>首帧候选·等用户选定 ｜ 未生成视频</strong><p>本页全部是静态图片；下方的剪辑粗排也不是视频预览。</p></div>
+<nav class="document-links" aria-label="制作文档"><a href="费用记录.md">费用记录</a><a href="剪辑结构建议.md">剪辑结构建议</a><a href="操作手册.md">操作手册</a></nav>
+<p class="costs">本轮按公开价格预估 <strong>¥4.20</strong> · 输出 token <strong>100,800</strong><br>上轮预估 ¥4.12；上轮未知请求可能另计最多 ¥1.54。以上为估算，实际扣款以账单为准。</p>
+<div class="overview-heading"><h2 id="overview-title">六图总览</h2><button class="print-button" type="button" onclick="window.print()">打印／存为 PDF</button></div>
+<nav class="overview" aria-labelledby="overview-title"><a class="environment-thumb" href="#E01" aria-label="跳到 E01 远海雨墙 · 群岛鸟瞰">
+<img src="firstframes/E01.png" alt=""><div class="thumb-caption"><span class="number">E01</span><span>远海雨墙 · 群岛鸟瞰</span><span class="category">鸟瞰</span></div></a>
+<a class="environment-thumb" href="#E02" aria-label="跳到 E02 海湾压雨 · 近岸鸟瞰">
+<img src="firstframes/E02.png" alt=""><div class="thumb-caption"><span class="number">E02</span><span>海湾压雨 · 近岸鸟瞰</span><span class="category">鸟瞰</span></div></a>
+<a class="environment-thumb" href="#E03" aria-label="跳到 E03 门廊下的雨街">
+<img src="firstframes/E03.png" alt=""><div class="thumb-caption"><span class="number">E03</span><span>门廊下的雨街</span><span class="category">地面风暴</span></div></a>
+<a class="environment-thumb" href="#E04" aria-label="跳到 E04 风压下的旧码头">
+<img src="firstframes/E04.png" alt=""><div class="thumb-caption"><span class="number">E04</span><span>风压下的旧码头</span><span class="category">地面风暴</span></div></a>
+<a class="environment-thumb" href="#E05" aria-label="跳到 E05 雨停后的街巷">
+<img src="firstframes/E05.png" alt=""><div class="thumb-caption"><span class="number">E05</span><span>雨停后的街巷</span><span class="category">灾后</span></div></a>
+<a class="environment-thumb" href="#E06" aria-label="跳到 E06 被压倒的甘蔗地">
+<img src="firstframes/E06.png" alt=""><div class="thumb-caption"><span class="number">E06</span><span>被压倒的甘蔗地</span><span class="category">灾后</span></div></a></nav>
+<p class="muted">点击缩略图跳到对应大图；点击大图可打开原始图片。</p>
+</header><main><section id="E01" class="shot" aria-labelledby="title-E01">
+<div class="caption"><h2 id="title-E01"><span class="number">E01</span>远海雨墙 · 群岛鸟瞰</h2><span class="category">鸟瞰</span></div>
+<a class="full-image" href="firstframes/E01.png" target="_blank" rel="noopener" aria-label="打开 E01 原图"><img src="firstframes/E01.png" alt="远海雨墙 · 群岛鸟瞰"></a>
+<p class="purpose"><span class="text-label">画面用途</span>把岛与逼近的雨墙放在同一空间，让观众先知道风灾的尺度。</p>
+<p class="observation"><span class="text-label">我们的观察</span>雨墙、近岛和远处岛脊在同一透视中形成尺度；保留它的阴灰与低能见度，视频不另加闪电奇观。</p>
+<div class="shot-links"><a href="firstframes/E01.png" download>下载原图</a><a href="prompts/images/E01.txt">图片提示词</a><a href="prompts/video/E01.txt">后续视频提示词</a></div></section>
+<section id="E02" class="shot" aria-labelledby="title-E02">
+<div class="caption"><h2 id="title-E02"><span class="number">E02</span>海湾压雨 · 近岸鸟瞰</h2><span class="category">鸟瞰</span></div>
+<a class="full-image" href="firstframes/E02.png" target="_blank" rel="noopener" aria-label="打开 E02 原图"><img src="firstframes/E02.png" alt="海湾压雨 · 近岸鸟瞰"></a>
+<p class="purpose"><span class="text-label">画面用途</span>俯看海湾与小港镇，具体交代风雨正在压向人住的地方。</p>
+<p class="observation"><span class="text-label">我们的观察</span>海湾与居民点更具体，适合替换E01；近空云丝较明显，后续只做很慢的飘移。</p>
+<div class="shot-links"><a href="firstframes/E02.png" download>下载原图</a><a href="prompts/images/E02.txt">图片提示词</a><a href="prompts/video/E02.txt">后续视频提示词</a></div></section>
+<section id="E03" class="shot" aria-labelledby="title-E03">
+<div class="caption"><h2 id="title-E03"><span class="number">E03</span>门廊下的雨街</h2><span class="category">地面风暴</span></div>
+<a class="full-image" href="firstframes/E03.png" target="_blank" rel="noopener" aria-label="打开 E03 原图"><img src="firstframes/E03.png" alt="门廊下的雨街"></a>
+<p class="purpose"><span class="text-label">画面用途</span>从躲雨处看出去，风暴第一次以人在地面能感到的距离出现。</p>
+<p class="observation"><span class="text-label">我们的观察</span>门廊与街道有前后层次，右下误生的现代波纹薄片已局部修成旧木板；其余雨势与构图保留。</p>
+<div class="shot-links"><a href="firstframes/E03.png" download>下载原图</a><a href="prompts/images/E03.txt">图片提示词</a><a href="prompts/video/E03.txt">后续视频提示词</a></div></section>
+<section id="E04" class="shot" aria-labelledby="title-E04">
+<div class="caption"><h2 id="title-E04"><span class="number">E04</span>风压下的旧码头</h2><span class="category">地面风暴</span></div>
+<a class="full-image" href="firstframes/E04.png" target="_blank" rel="noopener" aria-label="打开 E04 原图"><img src="firstframes/E04.png" alt="风压下的旧码头"></a>
+<p class="purpose"><span class="text-label">画面用途</span>用受力的缆绳、浪水与岸石，把风压从窗内延伸到港口。</p>
+<p class="observation"><span class="text-label">我们的观察</span>浪、石岸和系缆柱已有清楚的物理关系，适合衔接S04窗板受力；只需要小幅自然起伏。</p>
+<div class="shot-links"><a href="firstframes/E04.png" download>下载原图</a><a href="prompts/images/E04.txt">图片提示词</a><a href="prompts/video/E04.txt">后续视频提示词</a></div></section>
+<section id="E05" class="shot" aria-labelledby="title-E05">
+<div class="caption"><h2 id="title-E05"><span class="number">E05</span>雨停后的街巷</h2><span class="category">灾后</span></div>
+<a class="full-image" href="firstframes/E05.png" target="_blank" rel="noopener" aria-label="打开 E05 原图"><img src="firstframes/E05.png" alt="雨停后的街巷"></a>
+<p class="purpose"><span class="text-label">画面用途</span>破损程度不均、屋子仍有人生活；用雨停后的静与远处清障交代后果。</p>
+<p class="observation"><span class="text-label">我们的观察</span>破屋、倒伏植株和远处清理者交代灾后后果；人物只占很小面积，后续不安排新的坍塌。</p>
+<div class="shot-links"><a href="firstframes/E05.png" download>下载原图</a><a href="prompts/images/E05.txt">图片提示词</a><a href="prompts/video/E05.txt">后续视频提示词</a></div></section>
+<section id="E06" class="shot" aria-labelledby="title-E06">
+<div class="caption"><h2 id="title-E06"><span class="number">E06</span>被压倒的甘蔗地</h2><span class="category">灾后</span></div>
+<a class="full-image" href="firstframes/E06.png" target="_blank" rel="noopener" aria-label="打开 E06 原图"><img src="firstframes/E06.png" alt="被压倒的甘蔗地"></a>
+<p class="purpose"><span class="text-label">画面用途</span>从街巷转向生计：泥水与伏倒的作物，把灾难后果扩展到岛上的劳动。</p>
+<p class="observation"><span class="text-label">我们的观察</span>伏倒甘蔗与泥水沟把后果扩展到生计；这是灾后备选，不用与街巷连放两次解释同一件事。</p>
+<div class="shot-links"><a href="firstframes/E06.png" download>下载原图</a><a href="prompts/images/E06.txt">图片提示词</a><a href="prompts/video/E06.txt">后续视频提示词</a></div></section>
+<details class="rough-cut" id="rough-cut"><summary>连进人物镜头的 68 秒粗排</summary><div class="rough-content">
+<p class="muted">以下 11 张静态缩略图只表达建议顺序与剪辑时长。人物图片沿用上一轮；还没有生成或拼接这些视频。</p>
+<div class="timeline" aria-label="68 秒静态剪辑顺序"><a class="cut-frame" href="characters/S01.png" target="_blank" rel="noopener" aria-label="打开 S01 静态原图">
+<img src="characters/S01.png" alt=""><span class="cut-id">S01 · 5 秒</span><span class="cut-title">照料母亲</span><span class="cut-time">00:00—00:05</span></a>
+<a class="cut-frame" href="characters/S02.png" target="_blank" rel="noopener" aria-label="打开 S02 静态原图">
+<img src="characters/S02.png" alt=""><span class="cut-id">S02 · 5 秒</span><span class="cut-title">空床</span><span class="cut-time">00:05—00:10</span></a>
+<a class="cut-frame" href="characters/S03.png" target="_blank" rel="noopener" aria-label="打开 S03 静态原图">
+<img src="characters/S03.png" alt=""><span class="cut-id">S03 · 7 秒</span><span class="cut-title">商行谋生</span><span class="cut-time">00:10—00:17</span></a>
+<a class="cut-frame" href="firstframes/E01.png" target="_blank" rel="noopener" aria-label="打开 E01 静态原图">
+<img src="firstframes/E01.png" alt=""><span class="cut-id">E01 · 4 秒</span><span class="cut-title">远海雨墙 · 群岛鸟瞰</span><span class="cut-time">00:17—00:21</span></a>
+<a class="cut-frame" href="firstframes/E03.png" target="_blank" rel="noopener" aria-label="打开 E03 静态原图">
+<img src="firstframes/E03.png" alt=""><span class="cut-id">E03 · 5 秒</span><span class="cut-title">门廊下的雨街</span><span class="cut-time">00:21—00:26</span></a>
+<a class="cut-frame" href="characters/S04.png" target="_blank" rel="noopener" aria-label="打开 S04 静态原图">
+<img src="characters/S04.png" alt=""><span class="cut-id">S04 · 7 秒</span><span class="cut-title">风灾</span><span class="cut-time">00:26—00:33</span></a>
+<a class="cut-frame" href="firstframes/E04.png" target="_blank" rel="noopener" aria-label="打开 E04 静态原图">
+<img src="firstframes/E04.png" alt=""><span class="cut-id">E04 · 4 秒</span><span class="cut-title">风压下的旧码头</span><span class="cut-time">00:33—00:37</span></a>
+<a class="cut-frame" href="firstframes/E05.png" target="_blank" rel="noopener" aria-label="打开 E05 静态原图">
+<img src="firstframes/E05.png" alt=""><span class="cut-id">E05 · 5 秒</span><span class="cut-title">雨停后的街巷</span><span class="cut-time">00:37—00:42</span></a>
+<a class="cut-frame" href="characters/S05.png" target="_blank" rel="noopener" aria-label="打开 S05 静态原图">
+<img src="characters/S05.png" alt=""><span class="cut-id">S05 · 7 秒</span><span class="cut-title">写作</span><span class="cut-time">00:42—00:49</span></a>
+<a class="cut-frame" href="characters/S06.png" target="_blank" rel="noopener" aria-label="打开 S06 静态原图">
+<img src="characters/S06.png" alt=""><span class="cut-id">S06 · 10 秒</span><span class="cut-title">获得支持</span><span class="cut-time">00:49—00:59</span></a>
+<a class="cut-frame" href="characters/S07.png" target="_blank" rel="noopener" aria-label="打开 S07 静态原图">
+<img src="characters/S07.png" alt=""><span class="cut-id">S07 · 9 秒</span><span class="cut-title">登船</span><span class="cut-time">00:59—01:08</span></a></div>
+</div></details></main>
+<footer><p class="muted">选定首帧后再制作视频。每张图的后续视频提示词已单独链接，实际动作效果将在生成后检查。</p></footer>
+<script>
+const roughCut = document.getElementById('rough-cut');
+let wasOpenBeforePrint = null;
+window.addEventListener('beforeprint', () => {
+  if (wasOpenBeforePrint === null) wasOpenBeforePrint = roughCut.open;
+  roughCut.open = true;
+});
+window.addEventListener('afterprint', () => {
+  if (wasOpenBeforePrint !== null) roughCut.open = wasOpenBeforePrint;
+  wasOpenBeforePrint = null;
+});
+</script></body></html>

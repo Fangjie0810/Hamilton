@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "speaker": "hamilton",
+      "src": "/audio/en/hamilton-eacee9d1027d25280c2f.mp3",
+      "decodedAndPlayedToEnd": true,
+      "languageAndPausePreserved": true
+    },
+    {
+      "speaker": "newsboy",
+      "src": "/audio/en/newsboy-11e24ec3be0ab469c4a4.mp3",
+      "decodedAndPlayedToEnd": true,
+      "languageAndPausePreserved": true
+    },
+    {
+      "speaker": "newsboy",
+      "src": "/audio/en/newsboy-1349d29564c0eaf2d3f0.mp3",
+      "decodedAndPlayedToEnd": true,
+      "languageAndPausePreserved": true
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,303 @@
+{
+  "checks": [
+    "Begin starts real MP3; film pause/mute work; skip and curtain preserve position",
+    "pause/preferences/languages retain playhead; native MP3 loops at its end",
+    "active-game return to title waits for the real fade before navigating",
+    "restart resets track; Arrival pauses prologue and starts only after curtain removal"
+  ],
+  "pauseFade": {
+    "writes": [
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.9685454545373267,
+        "time": 1.506219
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.9372727272727273,
+        "time": 1.523445
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.9061818181791089,
+        "time": 1.540446
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.8741818181763996,
+        "time": 1.549344
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.8416363636336543,
+        "time": 1.567249
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.8116363636336543,
+        "time": 1.586547
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.77927272726189,
+        "time": 1.60729
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.7470909090881999,
+        "time": 1.62501
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.715818181810054,
+        "time": 1.644972
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.6772727272727272,
+        "time": 1.657289
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.6470909090881998,
+        "time": 1.673886
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.6178181818127633,
+        "time": 1.690084
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.5854545454545454,
+        "time": 1.710676
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.554363636360927,
+        "time": 1.727843
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.524909090900963,
+        "time": 1.746831
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.49436363636092706,
+        "time": 1.766407
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.4645454545454546,
+        "time": 1.782762
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.4347272727164355,
+        "time": 1.799192
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.4036363636363637,
+        "time": 1.807474
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.3734545454518362,
+        "time": 1.827083
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.3429090908982537,
+        "time": 1.843805
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.31236363635821773,
+        "time": 1.863403
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.28145454544912685,
+        "time": 1.880455
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.2503636363555085,
+        "time": 1.900318
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.2187272727218541,
+        "time": 1.917654
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.18799999999729067,
+        "time": 1.925929
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.15672727271914477,
+        "time": 1.943125
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.12599999999458145,
+        "time": 1.962799
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.09472727271643555,
+        "time": 1.98276
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.06399999999187211,
+        "time": 1.99981
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.033454545451836126,
+        "time": 2.016529
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0.0029090908982537522,
+        "time": 2.036186
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "time": 2.040852
+      }
+    ],
+    "stops": [
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 2.040852
+      }
+    ]
+  },
+  "timing": {
+    "starts": [
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "time": 0,
+        "curtain": false,
+        "film": false
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "time": 2.040899,
+        "curtain": true,
+        "film": true
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "time": 4.066526,
+        "curtain": false,
+        "film": false
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "time": 0,
+        "curtain": false,
+        "film": false
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/aaron-burr-sir.mp3",
+        "time": 0,
+        "curtain": false,
+        "film": false
+      }
+    ],
+    "stops": [
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 2.040852
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 4.066484
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 0.800374
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 4.883906
+      }
+    ],
+    "curtains": [
+      {
+        "chapter": "Opening",
+        "playing": true
+      },
+      {
+        "chapter": "Opening",
+        "playing": true
+      },
+      {
+        "chapter": "Opening",
+        "playing": false
+      },
+      {
+        "chapter": "Arrival",
+        "playing": true
+      },
+      {
+        "chapter": "Arrival",
+        "playing": false
+      }
+    ]
+  },
+  "returning": {
+    "elapsed": 631,
+    "stops": [
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 2.040852
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 4.066484
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 0.800374
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/alexander-hamilton.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 4.883906
+      },
+      {
+        "src": "http://127.0.0.1:1782/audio/bgm/aaron-burr-sir.mp3",
+        "volume": 0,
+        "muted": false,
+        "time": 0.779291
+      }
+    ]
+  },
+  "errors": []
+}

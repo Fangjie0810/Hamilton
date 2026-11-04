@@ -1,0 +1,125 @@
+[
+  {
+    "id": "hamilton-a",
+    "character": "hamilton",
+    "variant": "a",
+    "title": "Alexander Hamilton / Lin-Manuel Miranda",
+    "style": "Polished feature-animation 3D realism. Natural skin and cloth texture with gently simplified face, realistic proportions, expressive but naturally sized eyes; sophisticated cinematic animated film rendering.",
+    "prompt": "Use case: precise-object-edit. This supplied image is the EDIT TARGET. Change ONLY the background: completely replace all white/gray checkerboard squares outside the character with a perfectly uniform, flat, opaque deep warm charcoal gray #242622. No transparency, no gradient, no pattern, no texture, no scenery. Preserve the character EXACTLY: face, identity, hairstyle, costume, buttons, pose, proportions, lighting, drawing style, canvas ratio and framing unchanged. Do not repaint or relight the character. Clean hard-to-soft natural silhouette edges. Return one high-resolution 2:3 portrait.",
+    "references": [
+      "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-52e1dc99-46b8-4c7a-9eee-42d92a45be3b.png"
+    ],
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-74a8b04d-e57d-46d8-a304-11bf0daf33b9.png",
+    "originalPrompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: reference images only for the original Broadway cast face, hairstyle, costume construction and silhouette; not edit targets, do not reproduce the photograph, theatrical lighting or scene.\nSubject: Alexander Hamilton as performed by original Broadway cast member Lin-Manuel Miranda. Use reference 1 for his dark slicked-back hair tied into a short ponytail, warm light-medium complexion, narrow long face, brown eyes and small connected mustache/goatee; reference 2 shows him center-right wearing his blue Continental coat with long buff lapels and cuffs, brass buttons, cream waistcoat, white stock and ruffled jabot. Preserve this blue-and-buff Act I costume silhouette and his recognizable original-cast appearance in a newly drawn interpretation.\nStyle/medium: Polished feature-animation 3D realism. Natural skin and cloth texture with gently simplified face, realistic proportions, expressive but naturally sized eyes; sophisticated cinematic animated film rendering.\nComposition: a single waist-up character, from hair top to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, looking attentively toward the viewer right. Neutral attentive relaxed closed-mouth expression. Elbows and all hair fully inside frame, arms resting naturally down, no props. Leave a small even margin above head and beside both elbows.\nLighting: scene-independent soft neutral key light from front-left, gentle fill, no colored stage spill, no rim glow.\nBackground: genuine transparent alpha channel, isolated clean silhouette. No scenery, floor, card, white rectangle, or checkerboard baked into image. No environment, text, labels, watermark, microphone, extra characters. Do not photopaste.",
+    "rejectedSourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-52e1dc99-46b8-4c7a-9eee-42d92a45be3b.png",
+    "productionReferences": [
+      "E:/codex项目/Hamilton/art-direction/references/a-hamilton.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-ensemble.jpg"
+    ],
+    "path": "/art/portraits/hamilton-a.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/hamilton-a.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "hamilton-b",
+    "character": "hamilton",
+    "variant": "b",
+    "title": "Alexander Hamilton / Lin-Manuel Miranda",
+    "style": "Hand-painted cinematic animation. Realistic human proportions and skin values, very fine painterly edges, restrained visible brushwork, believable hair and embroidered fabric, no thick outlines.",
+    "prompt": "Use case: precise-object-edit. This supplied image is the EDIT TARGET. Change ONLY the background: completely replace all white/gray checkerboard squares outside the character with a perfectly uniform, flat, opaque deep warm charcoal gray #242622. No transparency, no gradient, no pattern, no texture, no scenery. Preserve the character EXACTLY: face, identity, hairstyle, costume, buttons, pose, proportions, lighting, drawing style, canvas ratio and framing unchanged. Do not repaint or relight the character. Clean hard-to-soft natural silhouette edges. Return one high-resolution 2:3 portrait.",
+    "references": [
+      "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-5663663a-a856-49ab-87c2-f45d08151bd5.png"
+    ],
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-fdc52346-59d1-4232-9626-f70202bdbd6a.png",
+    "originalPrompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: reference images only for the original Broadway cast face, hairstyle, costume construction and silhouette; not edit targets, do not reproduce the photograph, theatrical lighting or scene.\nSubject: Alexander Hamilton as performed by original Broadway cast member Lin-Manuel Miranda. Use reference 1 for his dark slicked-back hair tied into a short ponytail, warm light-medium complexion, narrow long face, brown eyes and small connected mustache/goatee; reference 2 shows him center-right wearing his blue Continental coat with long buff lapels and cuffs, brass buttons, cream waistcoat, white stock and ruffled jabot. Preserve this blue-and-buff Act I costume silhouette and his recognizable original-cast appearance in a newly drawn interpretation.\nStyle/medium: Hand-painted cinematic animation. Realistic human proportions and skin values, very fine painterly edges, restrained visible brushwork, believable hair and embroidered fabric, no thick outlines.\nComposition: a single waist-up character, from hair top to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, looking attentively toward the viewer right. Neutral attentive relaxed closed-mouth expression. Elbows and all hair fully inside frame, arms resting naturally down, no props. Leave a small even margin above head and beside both elbows.\nLighting: scene-independent soft neutral key light from front-left, gentle fill, no colored stage spill, no rim glow.\nBackground: genuine transparent alpha channel, isolated clean silhouette. No scenery, floor, card, white rectangle, or checkerboard baked into image. No environment, text, labels, watermark, microphone, extra characters. Do not photopaste.",
+    "rejectedSourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-5663663a-a856-49ab-87c2-f45d08151bd5.png",
+    "productionReferences": [
+      "E:/codex项目/Hamilton/art-direction/references/a-hamilton.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-ensemble.jpg"
+    ],
+    "path": "/art/portraits/hamilton-b.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/hamilton-b.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "hamilton-c",
+    "character": "hamilton",
+    "variant": "c",
+    "title": "Alexander Hamilton / Lin-Manuel Miranda",
+    "style": "Refined graphic animation realism. Slightly sharper planes and subtle elegant outline accents, expressive naturally sized eyes, realistic human proportions, painterly believable cloth; no comic exaggeration.",
+    "prompt": "Use case: precise-object-edit. This supplied image is the EDIT TARGET. Change ONLY the background: completely replace all white/gray checkerboard squares outside the character with a perfectly uniform, flat, opaque deep warm charcoal gray #242622. No transparency, no gradient, no pattern, no texture, no scenery. Preserve the character EXACTLY: face, identity, hairstyle, costume, buttons, pose, proportions, lighting, drawing style, canvas ratio and framing unchanged. Do not repaint or relight the character. Clean hard-to-soft natural silhouette edges. Return one high-resolution 2:3 portrait.",
+    "references": [
+      "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-03bd8e8c-a127-4c4a-af7a-a8117715db2a.png"
+    ],
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-b11d9bfd-96eb-4688-907f-b947ae31f12f.png",
+    "originalPrompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: reference images only for the original Broadway cast face, hairstyle, costume construction and silhouette; not edit targets, do not reproduce the photograph, theatrical lighting or scene.\nSubject: Alexander Hamilton as performed by original Broadway cast member Lin-Manuel Miranda. Use reference 1 for his dark slicked-back hair tied into a short ponytail, warm light-medium complexion, narrow long face, brown eyes and small connected mustache/goatee; reference 2 shows him center-right wearing his blue Continental coat with long buff lapels and cuffs, brass buttons, cream waistcoat, white stock and ruffled jabot. Preserve this blue-and-buff Act I costume silhouette and his recognizable original-cast appearance in a newly drawn interpretation.\nStyle/medium: Refined graphic animation realism. Slightly sharper planes and subtle elegant outline accents, expressive naturally sized eyes, realistic human proportions, painterly believable cloth; no comic exaggeration.\nComposition: a single waist-up character, from hair top to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, looking attentively toward the viewer right. Neutral attentive relaxed closed-mouth expression. Elbows and all hair fully inside frame, arms resting naturally down, no props. Leave a small even margin above head and beside both elbows.\nLighting: scene-independent soft neutral key light from front-left, gentle fill, no colored stage spill, no rim glow.\nBackground: genuine transparent alpha channel, isolated clean silhouette. No scenery, floor, card, white rectangle, or checkerboard baked into image. No environment, text, labels, watermark, microphone, extra characters. Do not photopaste.",
+    "rejectedSourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-03bd8e8c-a127-4c4a-af7a-a8117715db2a.png",
+    "productionReferences": [
+      "E:/codex项目/Hamilton/art-direction/references/a-hamilton.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-ensemble.jpg"
+    ],
+    "path": "/art/portraits/hamilton-c.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/hamilton-c.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "burr-a",
+    "character": "burr",
+    "variant": "a",
+    "title": "Aaron Burr / Leslie Odom Jr.",
+    "style": "Polished feature-animation 3D realism. Natural skin and cloth texture with gently simplified face, realistic proportions, expressive but naturally sized eyes; sophisticated cinematic animated film rendering.",
+    "references": [
+      "E:/codex项目/Hamilton/art-direction/references/a-burr.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-burr-alt.jpg"
+    ],
+    "prompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: costume, face and hairstyle REFERENCES ONLY, not edit targets. Newly draw the character; do not reproduce the stage photograph or lighting.\nSubject: Aaron Burr as performed by original Broadway cast member Leslie Odom Jr. Reference 1 is a clear facial reference: deep brown skin, very short cropped black hair, clean-shaven elongated face, calm intelligent brown eyes and narrow athletic shoulders. Reference 2 is his civilian costume: charcoal dark tailored frockcoat with broad folded lapels, deep plum waistcoat and plum inner lapel lining, white high stock cravat and small ruffled jabot. Preserve this charismatic original-cast appearance and charcoal/plum costume in a newly drawn interpretation.\nStyle/medium: Polished feature-animation 3D realism. Natural skin and cloth texture with gently simplified face, realistic proportions, expressive but naturally sized eyes; sophisticated cinematic animated film rendering.\nComposition: single waist-up character from head to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, attentive gaze toward viewer right. Neutral relaxed closed-mouth expression, natural arms resting down, elbows and all hair entirely within frame. Small even margin above head and beside elbows. Natural proportions, no chibi, no exaggerated cartoon.\nLighting: scene-independent soft neutral key from front-left with gentle fill; natural skin and readable cloth.\nBackground: flat solid opaque deep warm charcoal gray #242622, perfectly uniform across the entire background, no scenery, no gradient, no texture, no checkerboard, NO TRANSPARENCY. No text, labels, watermark, microphone, extra people or photopasting.",
+    "path": "/art/portraits/burr-a.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/burr-a.png",
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-ac660f14-200b-4b75-8683-1de9a0f7efd9.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "burr-b",
+    "character": "burr",
+    "variant": "b",
+    "title": "Aaron Burr / Leslie Odom Jr.",
+    "style": "Hand-painted cinematic animation. Realistic human proportions and skin values, very fine painterly edges, restrained visible brushwork, believable hair and embroidered fabric, no thick outlines.",
+    "references": [
+      "E:/codex项目/Hamilton/art-direction/references/a-burr.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-burr-alt.jpg"
+    ],
+    "prompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: costume, face and hairstyle REFERENCES ONLY, not edit targets. Newly draw the character; do not reproduce the stage photograph or lighting.\nSubject: Aaron Burr as performed by original Broadway cast member Leslie Odom Jr. Reference 1 is a clear facial reference: deep brown skin, very short cropped black hair, clean-shaven elongated face, calm intelligent brown eyes and narrow athletic shoulders. Reference 2 is his civilian costume: charcoal dark tailored frockcoat with broad folded lapels, deep plum waistcoat and plum inner lapel lining, white high stock cravat and small ruffled jabot. Preserve this charismatic original-cast appearance and charcoal/plum costume in a newly drawn interpretation.\nStyle/medium: Hand-painted cinematic animation. Realistic human proportions and skin values, very fine painterly edges, restrained visible brushwork, believable hair and embroidered fabric, no thick outlines.\nComposition: single waist-up character from head to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, attentive gaze toward viewer right. Neutral relaxed closed-mouth expression, natural arms resting down, elbows and all hair entirely within frame. Small even margin above head and beside elbows. Natural proportions, no chibi, no exaggerated cartoon.\nLighting: scene-independent soft neutral key from front-left with gentle fill; natural skin and readable cloth.\nBackground: flat solid opaque deep warm charcoal gray #242622, perfectly uniform across the entire background, no scenery, no gradient, no texture, no checkerboard, NO TRANSPARENCY. No text, labels, watermark, microphone, extra people or photopasting.",
+    "path": "/art/portraits/burr-b.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/burr-b.png",
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-2380cd52-2058-4556-92b8-adfd80f3f814.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "burr-c",
+    "character": "burr",
+    "variant": "c",
+    "title": "Aaron Burr / Leslie Odom Jr.",
+    "style": "Refined graphic animation realism. Slightly sharper planes and subtle elegant outline accents, expressive naturally sized eyes, realistic human proportions, painterly believable cloth; no comic exaggeration.",
+    "references": [
+      "E:/codex项目/Hamilton/art-direction/references/a-burr.jpg",
+      "E:/codex项目/Hamilton/art-direction/references/a-burr-alt.jpg"
+    ],
+    "prompt": "Use case: stylized-concept\nAsset type: consistent character dialogue portrait for a historical narrative game.\nInput images: costume, face and hairstyle REFERENCES ONLY, not edit targets. Newly draw the character; do not reproduce the stage photograph or lighting.\nSubject: Aaron Burr as performed by original Broadway cast member Leslie Odom Jr. Reference 1 is a clear facial reference: deep brown skin, very short cropped black hair, clean-shaven elongated face, calm intelligent brown eyes and narrow athletic shoulders. Reference 2 is his civilian costume: charcoal dark tailored frockcoat with broad folded lapels, deep plum waistcoat and plum inner lapel lining, white high stock cravat and small ruffled jabot. Preserve this charismatic original-cast appearance and charcoal/plum costume in a newly drawn interpretation.\nStyle/medium: Refined graphic animation realism. Slightly sharper planes and subtle elegant outline accents, expressive naturally sized eyes, realistic human proportions, painterly believable cloth; no comic exaggeration.\nComposition: single waist-up character from head to upper hips, vertical 2:3 portrait at high resolution. Three-quarter torso facing slightly viewer right, attentive gaze toward viewer right. Neutral relaxed closed-mouth expression, natural arms resting down, elbows and all hair entirely within frame. Small even margin above head and beside elbows. Natural proportions, no chibi, no exaggerated cartoon.\nLighting: scene-independent soft neutral key from front-left with gentle fill; natural skin and readable cloth.\nBackground: flat solid opaque deep warm charcoal gray #242622, perfectly uniform across the entire background, no scenery, no gradient, no texture, no checkerboard, NO TRANSPARENCY. No text, labels, watermark, microphone, extra people or photopasting.",
+    "path": "/art/portraits/burr-c.png",
+    "file": "E:/codex项目/Hamilton/public/art/portraits/burr-c.png",
+    "sourceFile": "C:\\Users\\fangj\\.codex\\generated_images\\01a07c5e-e83f-71a0-a64d-12e168493127\\exec-6d8f6f7e-e751-4729-83f2-332cae90df90.png",
+    "alpha": false,
+    "background": "#242622",
+    "tool": "built-in image_gen"
+  }
+]

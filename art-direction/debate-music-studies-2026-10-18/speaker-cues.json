@@ -1,0 +1,211 @@
+{
+  "status": "Reference LRC cue map; speaker onsets follow community timestamps. Local waveform alignment not yet verified. Not a beat map.",
+  "source": "https://lrclib.net/api/get/36284883",
+  "sourceId": 36284883,
+  "sourceAlbum": "Hamilton (Original Broadway Cast Recording)",
+  "sourceDuration": 215.0,
+  "localAudio": "../../../public/audio/bgm/cabinet-battle-1.mp3",
+  "localDuration": 215.327333,
+  "localSha256": "bf3d99c536ac22220be50c2225a0075431dc3d1559f5fc892c26f77b8b3a09e2",
+  "lyricsStored": false,
+  "turns": [
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 0.55,
+      "start": 0.99,
+      "end": 21.0
+    },
+    {
+      "speaker": "JEFFERSON",
+      "labelTime": 21.0,
+      "start": 22.03,
+      "end": 35.22
+    },
+    {
+      "speaker": "JEFFERSON",
+      "labelTime": 35.22,
+      "start": 35.57,
+      "end": 44.53
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 44.53,
+      "start": 44.89,
+      "end": 45.45
+    },
+    {
+      "speaker": "JEFFERSON",
+      "labelTime": 45.45,
+      "start": 45.76,
+      "end": 77.86
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 77.86,
+      "start": 78.4,
+      "end": 83.71
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 83.71,
+      "start": 85.34,
+      "end": 145.98
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 145.98,
+      "start": 146.45,
+      "end": 154.64
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 154.64,
+      "start": 154.84,
+      "end": 155.49
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 155.49,
+      "start": 155.89,
+      "end": 156.66
+    },
+    {
+      "speaker": "MADISON",
+      "labelTime": 156.66,
+      "start": 157.04,
+      "end": 158.81
+    },
+    {
+      "speaker": "JEFFERSON/MADISON",
+      "labelTime": 158.81,
+      "start": 159.23,
+      "end": 161.06
+    },
+    {
+      "speaker": "JEFFERSON",
+      "labelTime": 161.06,
+      "start": 161.46,
+      "end": 162.46
+    },
+    {
+      "speaker": "JEFFERSON/MADISON",
+      "labelTime": 162.46,
+      "start": 162.8,
+      "end": 166.36
+    },
+    {
+      "speaker": "JEFFERSON",
+      "labelTime": 166.36,
+      "start": 167.2,
+      "end": 171.29
+    },
+    {
+      "speaker": "MADISON",
+      "labelTime": 171.29,
+      "start": 171.56,
+      "end": 173.58
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 173.58,
+      "start": 176.17,
+      "end": 178.02
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 178.02,
+      "start": 178.32,
+      "end": 180.87
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 180.87,
+      "start": 181.16,
+      "end": 183.34
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 183.34,
+      "start": 183.76,
+      "end": 186.41
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 186.41,
+      "start": 186.86,
+      "end": 187.88
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 187.88,
+      "start": 188.16,
+      "end": 190.05
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 190.05,
+      "start": 190.33,
+      "end": 191.84
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 191.84,
+      "start": 192.0,
+      "end": 194.68
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 194.68,
+      "start": 194.84,
+      "end": 197.49
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 197.49,
+      "start": 197.73,
+      "end": 198.58
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 198.58,
+      "start": 198.71,
+      "end": 199.86
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 199.86,
+      "start": 200.05,
+      "end": 201.76
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 201.76,
+      "start": 202.02,
+      "end": 203.05
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 203.05,
+      "start": 203.23,
+      "end": 205.32
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 205.32,
+      "start": 205.54,
+      "end": 207.7
+    },
+    {
+      "speaker": "HAMILTON",
+      "labelTime": 207.7,
+      "start": 207.8,
+      "end": 208.71
+    },
+    {
+      "speaker": "WASHINGTON",
+      "labelTime": 208.71,
+      "start": 208.82,
+      "end": 215.327333
+    }
+  ]
+}

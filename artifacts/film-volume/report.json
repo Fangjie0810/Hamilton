@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "real movie ending scales the fade by personal volume and reveals the prepared chapter",
+    "dual: language autonyms, 390px/desktop film control, saved volume, keyboard, mute, zero, pause, independent BGM",
+    "en: language autonyms, 390px/desktop film control, saved volume, keyboard, mute, zero, pause, independent BGM",
+    "zh: language autonyms, 390px/desktop film control, saved volume, keyboard, mute, zero, pause, independent BGM",
+    "dual-en: language autonyms, 390px/desktop film control, saved volume, keyboard, mute, zero, pause, independent BGM"
+  ],
+  "errors": []
+}

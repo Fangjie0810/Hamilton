@@ -1,0 +1,52 @@
+[
+  {
+    "id": "O02",
+    "title": "世界从门外经过",
+    "en": "The World Beyond the Door",
+    "file": "O02-countinghouse-v1.png",
+    "time": "开场 08–18 秒",
+    "focus": "晴蓝、生活细节、少年造型",
+    "start": "笔停在账本附近，左手碰到页角；门外的人和货物正在经过。",
+    "action": "翻页 → 核对门外货物 → 再次落笔，压住被风掀起的页角。"
+  },
+  {
+    "id": "O03",
+    "title": "风压进屋里",
+    "en": "Wind at the Shutters",
+    "file": "O03-storm-v1.png",
+    "time": "开场 18–28 秒",
+    "focus": "身体重量、风向、风暴空间",
+    "start": "窗板仍开着，少年伸手抓住横档，重心准备向后。",
+    "action": "拉回窗板 → 插上木闩 → 退半步稳住，外界声音变闷。"
+  },
+  {
+    "id": "O04",
+    "title": "这次写自己的话",
+    "en": "His Own Words",
+    "file": "O04-writing-v1.png",
+    "time": "开场 28–40 秒",
+    "focus": "暗部层次、烛光、脸与双手",
+    "start": "风灾后的夜里，纸面尚空，少年准备落下第一笔。",
+    "action": "落笔 → 写一小段 → 停顿 → 继续。"
+  },
+  {
+    "id": "E3-02",
+    "title": "共同署名",
+    "en": "Signing Together",
+    "file": "E3-02-shared-signature-v1.png",
+    "time": "合作结局 08–16 秒 · 剧情提案",
+    "focus": "成年身份、双人构图、轮流行动",
+    "start": "Hamilton 执笔，伯尔等待，两人注意力在同一份文件上。",
+    "action": "完成一笔 → 放笔 → 推纸 → 伯尔伸手接笔。"
+  },
+  {
+    "id": "C01",
+    "title": "记录仍在继续",
+    "en": "The Record Continues",
+    "file": "C01-eliza-chronicler-v1.png",
+    "time": "结尾通用镜头 24–30 秒",
+    "focus": "浅蓝裙、完全隐于阴影的脸、记录姿态",
+    "start": "Eliza 低头，执笔与打开的记录册，手触页角。",
+    "action": "停顿 → 落笔或按住来信 → 风轻触页角；不抬头露出五官。"
+  }
+]

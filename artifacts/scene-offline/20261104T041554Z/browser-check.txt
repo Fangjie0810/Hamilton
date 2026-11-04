@@ -1,0 +1,8 @@
+Transport: isolated HTTP server serving only the extracted ZIP directory.
+Direct file:// navigation: rejected by browser tool URL policy; not tested.
+Server requests during validation: GET /Hamilton-Scenes.html -> 200 only.
+Scenes: street, tavern, ballroom.
+Tavern destination: 10.00,-9.00; all four languages retained position.
+Checked: movement, doorway, 140% zoom, collectible toggle and detail, overhead art, PNG and GLB downloads.
+Browser errors: 0.
+Exported ballroom GLB: 1620984 bytes, 4 keepsakes, valid GLB v2 header.

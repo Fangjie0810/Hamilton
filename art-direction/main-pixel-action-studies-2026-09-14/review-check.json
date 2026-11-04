@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "manualFrames": [
+    {
+      "speaker": "hamilton",
+      "frame": 0
+    },
+    {
+      "speaker": "hamilton",
+      "frame": 1
+    },
+    {
+      "speaker": "hamilton",
+      "frame": 2
+    },
+    {
+      "speaker": "lafayette",
+      "frame": 0
+    },
+    {
+      "speaker": "lafayette",
+      "frame": 1
+    },
+    {
+      "speaker": "lafayette",
+      "frame": 2
+    }
+  ],
+  "observedPlaybackFrames": [
+    "0",
+    "1",
+    "2"
+  ],
+  "modal": "open and Escape close passed",
+  "mobileOverflow": false,
+  "errors": []
+}

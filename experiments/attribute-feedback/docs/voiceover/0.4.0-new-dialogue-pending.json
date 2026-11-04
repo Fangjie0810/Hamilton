@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "version": "0.4.0",
+  "status": "generated_and_verified",
+  "requestSent": true,
+  "uniqueClips": 3,
+  "englishCharacters": 202,
+  "reusedExistingClips": 197,
+  "model": "eleven_multilingual_v2",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1,
+    "use_speaker_boost": true
+  },
+  "outputFormat": "mp3_44100_128",
+  "clips": [
+    {
+      "speaker": "hamilton",
+      "voiceName": "Hamilton by Lin",
+      "voiceId": "ZkIh9CGBiVNOeuNezDX9",
+      "text": {
+        "zh": "我在酒馆后面找到了这些报纸。拿好，别再让风抢走了。",
+        "en": "I found these pages behind the tavern. Hold them tight so the wind cannot snatch them again."
+      },
+      "src": "/audio/en/hamilton-eacee9d1027d25280c2f.mp3",
+      "cueIds": [
+        "discovery-arrival-scattered-paper-base-1"
+      ]
+    },
+    {
+      "speaker": "newsboy",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "voiceId": "loY1uopAz31XyhAEhNSa",
+      "text": {
+        "zh": "谢谢您先生！我会记住您的名字",
+        "en": "Thank you, sir! I will remember your name"
+      },
+      "src": "/audio/en/newsboy-11e24ec3be0ab469c4a4.mp3",
+      "cueIds": [
+        "discovery-arrival-scattered-paper-base-2",
+        "discovery-arrival-scattered-paper-repeat-1",
+        "small-talk-newsboy-thanks"
+      ]
+    },
+    {
+      "speaker": "newsboy",
+      "voiceName": "VALF - Child, Young, Playful & Sarcastic",
+      "voiceId": "loY1uopAz31XyhAEhNSa",
+      "text": {
+        "zh": "报纸被风吹走了好多页，这下赚不到钱了......",
+        "en": "The wind blew away so many pages. Now I will not earn any money......"
+      },
+      "src": "/audio/en/newsboy-1349d29564c0eaf2d3f0.mp3",
+      "cueIds": [
+        "small-talk-newsboy"
+      ]
+    }
+  ],
+  "completedInVersion": "0.4.1",
+  "initialBlockedReason": "Automatic approval review rejected new external dialogue transmission and account-credit consumption without explicit user authorization. No generation request was sent.",
+  "authorization": "User explicitly approved the 3 English clips and ElevenLabs account-credit usage in the next turn.",
+  "verification": "0.4.1-newspaper-audio-verification.json"
+}

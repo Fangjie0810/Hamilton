@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-08",
+  "output": "public/art/actors/pixel-cast-v1.png",
+  "references": [
+    "public/art/portraits/hamilton-a.png",
+    "public/art/portraits/burr-a.png",
+    "User video, frame at 6 seconds"
+  ],
+  "prompt": "Use case: stylized-concept. Asset: a production PIXEL ART sprite atlas for a 2.5D historical game, NOT a painting or concept sheet. Reference 1 gives Alexander Hamilton identity/costume (brown tied-back hair, navy long coat, cream lapels/waistcoat/breeches, black boots); reference 2 gives Aaron Burr (dark skin, short dark hair, black/burgundy coat, white cravat). Transform them into detailed compact JRPG pixel characters like the game characters in the third reference; ignore that reference's editor/UI. Clear square pixel clusters, restrained 24-color palette, 3.5-head-tall bodies, expressive readable faces, no smooth shading or antialiasing. Precisely 4 columns x 4 rows of equal cells, 16 separate full-body sprites on one square atlas. Solid flat vivid MAGENTA #FF00FF background everywhere outside sprites, no checkerboard, no ground, no shadows, no frames, no text or numbers. Magenta must not occur inside the character. All cells exactly same scale, center body on cell centerline, boot contact aligned on a baseline 88% down each cell, whole body roughly 74% cell height, empty border space. Rows 1-3 are Hamilton walking in place. Row 1: four WALK SOUTH frames, facing viewer, left leg forward / feet passing / right leg forward / opposite feet passing. Row 2: four WALK NORTH frames, back to viewer, tied hair and blue coat back visible, left step / passing / right step / opposite passing. Row 3: four WALK EAST frames, true right-facing side profile, extended near leg / raised bent knee passing / extended far leg / opposite raised knee passing. Opposite arms counter-swing. Make legs clearly alternate, keep head size, clothes and body proportions identical, no drift. Row 4: Hamilton standing idle facing SOUTH; Hamilton idle NORTH; Hamilton idle EAST; Aaron Burr standing idle facing SOUTH. No weapons. Warm neutral daylight colors compatible with lush trees, brick buildings and earthy cobblestones. Return ONLY the 4x4 game sprite atlas."
+}

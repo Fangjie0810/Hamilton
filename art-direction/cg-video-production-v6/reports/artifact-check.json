@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "original_pngs_decoded_and_verified": 13,
+  "production_first_frames": 11,
+  "html_prompts_identical_to_api_txt": 11,
+  "relative_html_links_checked": 72,
+  "javascript_syntax": "passed_node_check",
+  "generated_seconds": 138,
+  "edited_seconds": 68,
+  "resolution": "720p",
+  "generate_audio": false,
+  "production_run_ledgers": 0,
+  "browser_rendering": "not_tested_url_policy_blocked"
+}

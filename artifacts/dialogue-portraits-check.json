@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "all ten actual story speakers have visible portraits, opposite inward facings, and one active figure",
+    "stable left/right placement, real grey-dark listener pixels, talking poses, pause/resume, and reduced motion",
+    "selected response queue transfers emphasis with voice; stale audio after fast advance cannot reclaim it; buffering and end rest poses",
+    "muted selected response acts first, hands focus to the reply, then holds its closed-mouth final reaction without audio or automatic advance",
+    "four languages at 1280/1024/390 widths preserve state, keep large portraits in viewport, and keep long dialogue controls reachable",
+    "debate, clicked dispatch fragments and Yorktown spoken commands show portraits; unspoken rules do not; all activities fit both bilingual small-window modes and clean up"
+  ],
+  "errors": [],
+  "failures": []
+}

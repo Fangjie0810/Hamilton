@@ -1,0 +1,144 @@
+[
+  {
+    "id": "loyalist",
+    "key": "#04f914",
+    "frames": [
+      {
+        "frame": 0,
+        "before": {
+          "nonzero": 8345,
+          "meanAlpha": 23.725477430555557,
+          "max": 46
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 1,
+        "before": {
+          "nonzero": 8632,
+          "meanAlpha": 24.35796440972222,
+          "max": 31
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 2,
+        "before": {
+          "nonzero": 7191,
+          "meanAlpha": 20.10915798611111,
+          "max": 29
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 3,
+        "before": {
+          "nonzero": 8212,
+          "meanAlpha": 22.97775607638889,
+          "max": 29
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 4,
+        "before": {
+          "nonzero": 5438,
+          "meanAlpha": 15.26540798611111,
+          "max": 28
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "citizen",
+    "key": "#04f70b",
+    "frames": [
+      {
+        "frame": 0,
+        "before": {
+          "nonzero": 2,
+          "meanAlpha": 0.006944444444444444,
+          "max": 34
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 1,
+        "before": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 2,
+        "before": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 3,
+        "before": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      },
+      {
+        "frame": 4,
+        "before": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        },
+        "after": {
+          "nonzero": 0,
+          "meanAlpha": 0,
+          "max": 0
+        }
+      }
+    ]
+  }
+]

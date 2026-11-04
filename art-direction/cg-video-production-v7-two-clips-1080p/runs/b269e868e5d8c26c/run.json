@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-11T05:25:33.099721+00:00",
+  "jobs": {
+    "A01": {
+      "accepted_at": "2026-09-11T05:26:02.289581+00:00",
+      "download": {
+        "bytes": 33942480,
+        "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/cg-video-production-v7-two-clips-1080p/runs/b269e868e5d8c26c/videos/A01-cgt-20260911132550-hu0pd.mp4",
+        "sha256": "f8f3dddf8306d37df32c6282c53fd05f7d6acd6a89234e9e225eebf3401762de"
+      },
+      "download_status": "succeeded",
+      "duration": 30,
+      "intent_at": "2026-09-11T05:25:34.483423+00:00",
+      "last_checked_at": "2026-09-11T05:34:10.706461+00:00",
+      "model": "doubao-seedance-2-5-260628",
+      "payload_sha256": "f2485fb01e3f2376eb5e65afc23fca81e72094e28a5a5bd28926947502b7aa36",
+      "resolution": "1080p",
+      "result": {
+        "created_at": 1789104362,
+        "duration": 30,
+        "framespersecond": 24,
+        "generate_audio": false,
+        "model": "doubao-seedance-2-5-260628",
+        "ratio": "16:9",
+        "resolution": "1080p",
+        "seed": 26616,
+        "updated_at": 1789104849
+      },
+      "shot_id": "A01",
+      "status": "succeeded",
+      "task_id": "cgt-20260911132550-hu0pd",
+      "title": "人物叙事 · 7镜30秒",
+      "usage": {
+        "completion_tokens": 1460025,
+        "total_tokens": 1460025
+      },
+      "video_url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedance-2-5/2113181403/Video/dp0uh-05523111906202-tgc_d6867c5bb951caffff00000000000000000000393263401987120/cgt-20260911132550-hu0pd.mp4"
+    },
+    "B01": {
+      "accepted_at": "2026-09-11T05:34:34.067377+00:00",
+      "download": {
+        "bytes": 28418843,
+        "path": "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/cg-video-production-v7-two-clips-1080p/runs/b269e868e5d8c26c/videos/B01-cgt-20260911133427-4bkhx.mp4",
+        "sha256": "abfd8bd10ada37cd2dac4dfa3114ecc357ac3ba6f0b5db0222eb8136db9e8c6f"
+      },
+      "download_status": "succeeded",
+      "duration": 20,
+      "intent_at": "2026-09-11T05:34:15.479631+00:00",
+      "last_checked_at": "2026-09-11T05:40:40.585925+00:00",
+      "model": "doubao-seedance-2-5-260628",
+      "payload_sha256": "1eb0e883e3769d76cd36a349a784fc7bf797aae5caae0b1b955a81c08a52cd61",
+      "resolution": "1080p",
+      "result": {
+        "created_at": 1789104874,
+        "duration": 20,
+        "framespersecond": 24,
+        "generate_audio": false,
+        "model": "doubao-seedance-2-5-260628",
+        "ratio": "16:9",
+        "resolution": "1080p",
+        "seed": 40761,
+        "updated_at": 1789105229
+      },
+      "shot_id": "B01",
+      "status": "succeeded",
+      "task_id": "cgt-20260911133427-4bkhx",
+      "title": "风暴与灾后 · 6镜20秒",
+      "usage": {
+        "completion_tokens": 974025,
+        "total_tokens": 974025
+      },
+      "video_url": "https://ark-acg-cn-beijing.tos-cn-beijing.volces.com/doubao-seedance-2-5/2113181403/Video/xhkb4-72433111906202-tgc_8fca73074471caffff00000000000000000000681478401987120/cgt-20260911133427-4bkhx.mp4"
+    }
+  },
+  "manifest": "/Users/fangjie/Documents/Codex 项目/Hamilton/art-direction/cg-video-production-v7-two-clips-1080p/manifest.json",
+  "plan_sha256": "b269e868e5d8c26c07d631aec300c24f46ea35a18778b8e10ce13748210dbf97",
+  "updated_at": "2026-09-11T05:40:42.455346+00:00",
+  "version": 7
+}

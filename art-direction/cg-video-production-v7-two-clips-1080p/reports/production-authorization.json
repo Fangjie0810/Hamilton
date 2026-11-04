@@ -1,0 +1,7 @@
+{
+  "user_request": "视频生成都用 1080p，因为有折扣。开始生产吧",
+  "date": "2026-09-11",
+  "scope": "A01 30s + B01 20s, 1080p, original reviewed prompts and 13 reference images",
+  "automatic_paid_regenerations": false,
+  "preserved_720p_plan": "../cg-video-production-v7-two-clips/manifest.json"
+}

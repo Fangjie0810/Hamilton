@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "feedback": {
+    "scale": 1.03512,
+    "shadow": "rgba(229, 194, 124, 0.22) 0px 0px 0px 6.02641px, rgba(229, 194, 124, 0.5) 0px 0px 38.066px 0px",
+    "filmOpacity": "0"
+  },
+  "checks": [
+    "large click feedback",
+    "single audio cue and film",
+    "blur during delay stays paused at first frame",
+    "resume and skip clean up",
+    "prologue compass hidden"
+  ],
+  "errors": []
+}

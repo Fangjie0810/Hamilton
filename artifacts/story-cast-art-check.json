@@ -1,0 +1,286 @@
+{
+  "dimensions": [
+    640,
+    1408
+  ],
+  "counts": [
+    {
+      "row": 0,
+      "column": 0,
+      "pixels": 3290
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "pixels": 3135
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "pixels": 2518
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "pixels": 3078
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "pixels": 3155
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "pixels": 4185
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "pixels": 4062
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "pixels": 3251
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "pixels": 3767
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "pixels": 4042
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "pixels": 4347
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "pixels": 4164
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "pixels": 3097
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "pixels": 3797
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "pixels": 4104
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "pixels": 4174
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "pixels": 4068
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "pixels": 3009
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "pixels": 3741
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "pixels": 3895
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "pixels": 4573
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "pixels": 4401
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "pixels": 3581
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "pixels": 4167
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "pixels": 4456
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "pixels": 4271
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "pixels": 4156
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "pixels": 3085
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "pixels": 3754
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "pixels": 4038
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "pixels": 4555
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "pixels": 4194
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "pixels": 3432
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "pixels": 4083
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "pixels": 4376
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "pixels": 4869
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "pixels": 4957
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "pixels": 4139
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "pixels": 4590
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "pixels": 4622
+    },
+    {
+      "row": 8,
+      "column": 0,
+      "pixels": 4842
+    },
+    {
+      "row": 8,
+      "column": 1,
+      "pixels": 4860
+    },
+    {
+      "row": 8,
+      "column": 2,
+      "pixels": 4275
+    },
+    {
+      "row": 8,
+      "column": 3,
+      "pixels": 4662
+    },
+    {
+      "row": 8,
+      "column": 4,
+      "pixels": 4567
+    },
+    {
+      "row": 9,
+      "column": 0,
+      "pixels": 4945
+    },
+    {
+      "row": 9,
+      "column": 1,
+      "pixels": 4796
+    },
+    {
+      "row": 9,
+      "column": 2,
+      "pixels": 3941
+    },
+    {
+      "row": 9,
+      "column": 3,
+      "pixels": 4644
+    },
+    {
+      "row": 9,
+      "column": 4,
+      "pixels": 4742
+    },
+    {
+      "row": 10,
+      "column": 0,
+      "pixels": 4752
+    },
+    {
+      "row": 10,
+      "column": 1,
+      "pixels": 4704
+    },
+    {
+      "row": 10,
+      "column": 2,
+      "pixels": 3961
+    },
+    {
+      "row": 10,
+      "column": 3,
+      "pixels": 4477
+    },
+    {
+      "row": 10,
+      "column": 4,
+      "pixels": 4677
+    }
+  ],
+  "clips": [],
+  "first": 47,
+  "second": 52
+}

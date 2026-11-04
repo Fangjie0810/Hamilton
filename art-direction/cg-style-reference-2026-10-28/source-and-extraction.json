@@ -1,0 +1,27 @@
+{
+  "source_url": "https://xhslink.cn/o/2VrlNG2jIyq",
+  "note_id": "6addd2c400000000240353c4",
+  "author": "无衣",
+  "captured_on": "2026-10-28",
+  "video_file": "reference-xhs-6addd2c4.mp4",
+  "duration_seconds": 193.353,
+  "width": 1282,
+  "height": 720,
+  "bytes": 92799013,
+  "sha256": "06fa8458bae9d5bc63987c667c3998e70038ecb11d1b1382ecc9e6dcfb6683a8",
+  "selected_frame_times_seconds": [
+    3,
+    9,
+    27,
+    33,
+    57,
+    69,
+    81,
+    105,
+    111,
+    135,
+    153,
+    171
+  ],
+  "analysis_scope": "32 full-film samples, 12 exact-time stills, 3 motion windows; audio not analyzed"
+}

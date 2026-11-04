@@ -1,0 +1,604 @@
+diff --git a/.gitignore b/.gitignore
+index e4ace5e..bb36012 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -12,3 +12,4 @@ __pycache__/
+ 
+ # Source snapshot uses a private asset copy; keep media outside Git.
+ public/
++/node_modules
+diff --git a/EXPERIMENT.md b/EXPERIMENT.md
+new file mode 100644
+index 0000000..d02247d
+--- /dev/null
++++ b/EXPERIMENT.md
+@@ -0,0 +1,50 @@
++# CG 放映场景实验 / Opening film screening studies
++
++状态：三版可运行预览，等待用户选择和同意；未合入主目录、未发布。
++
++主项目目录没有 `.git`，因此本目录为独立副本中的 Git 仓库。`main` 保存实验前的源码快照，当前工作分支为 `experiment/cg-projection-three-scenes`。`public/` 为独立素材副本，`node_modules/` 复用父目录依赖。构建写入本目录 `dist/`，不会写入原项目 `public/version.json`。
++
++## 观看
++
++- 默认推荐：<http://127.0.0.1:1777/?projection=projector>
++- 01 午夜录像室：<http://127.0.0.1:1777/?projection=crt>
++- 02 阁楼放映室：<http://127.0.0.1:1777/?projection=projector>
++- 03 记忆档案桌：<http://127.0.0.1:1777/?projection=archive>
++
++在标题画面选择一版后点击「启程」。播放中可通过顶部按钮切换全部三版，保留当前视频元素和时间。原来的暂停、继续、静音、跳过、失焦暂停、错误恢复与三维主线交接继续工作。重新观看可重新打开上述任一链接。
++
++服务关闭后的启动命令（在本实验目录执行）：`npm run dev -- --port 1777`。
++
++## 三版意图
++
++1. **午夜录像室 / The midnight broadcast**：木壳 CRT、曲面玻璃、微弱扫描线、录像机计时器和绿罩台灯。视频显示区域约占桌面宽度的 40%，使原片的柔软画质成为旧录像质感。
++2. **阁楼放映室 / The attic screening**：悬挂亚麻幕布、机械放映机、转动胶盘与尘埃光束。适合历史回忆的叙事框架；更轻的染色和织物纹理保留原片细节。
++3. **记忆档案桌 / The memory archive**：明亮纸色桌面、橄榄绿胶片检视机、私人信件和底片。俯视构图把 CG 变成可被翻阅的个人记忆。
++
++这些是场景化视觉提案；没有增加独立的三维房间、额外音效或重新生成 CG。环境以 CSS 构造，不需要外部图像服务。视频保持原文件、原宽高比和原声音；没有通过裁剪、拉伸或重新编码掩盖画质。
++
++## 实现边界
++
++- `src/ui/ProjectionScene.ts`：三版装饰、选择器、语言控制与尺寸适配。单个视频元素始终位于同一个 aperture 内；只切换根节点场景属性。
++- `src/ui/projection-scene.css`：完整三版环境、设备、轻量纹理和响应式布局。胶盘与尘埃随播放/暂停状态启停；减少动态时停用动画。
++- `src/ui/OpeningFilm.ts`：接入实验舞台，焦点循环包括新增按钮；影片交接后把已淡出的选择区设为 inert。
++- `src/ui/EntryScreen.ts`：仅在实验副本加入三版选择器。
++- 未更改现有 CG 来源、49.5 秒片尾提示、57.2 秒音轨、550 / 2875 / 250 ms 转场参数、剧情和游戏状态系统。
++- 所有新增可见文字使用 `bi` / `f` / `setText` / `setLabel`，语言切换不重建播放器。
++
++## 验证
++
++- `npm test`：69 项通过。
++- `npm run build`：双语覆盖、占位参数、TypeScript 与 Vite 构建通过。
++- `scripts/projection-check.mjs`：三版 × 中/英/双语 × 1440×900 / 390×844 / 1024×640 / 667×375，共 36 组；检查视频与按钮位置、场景切换不重播、静音、焦点、减少动态、跳过进入三维。
++- `scripts/opening-film-check.mjs`：真实完整播放、片尾标题和音轨、码头读信到第一幕、三种语言下提前跳过、加载失败、自动播放拒绝恢复。
++- `scripts/entry-check.mjs`：标题九组布局、双语、模态设置、偏好保存、键盘启程与返回标题。
++- Chrome 本机验证；不将其描述为全浏览器测试。
++- 最终截图及报告位于 `artifacts/projection-review/`；完整 CG 回归报告位于 `artifacts/intro-review/browser-report.json`。
++- `artifacts/main-integrity.json` 比对原项目的 570 个源码/测试/脚本/素材/配置文件，确认实验未改变原文件。
++
++## 同意后的处理
++
++用户选择并同意后，再把选定场景集成到主目录，移除实验用三版选择器，复核从实验开始以来主目录是否已有新改动，并重新验证。当前不执行这一步，也不发布。
++
++流程：标题选择 → 同页淡入设备与 CG → 在原播放器上切换场景外观 → 原片尾标题 → 原三维码头 → 读信进入第一幕。
+diff --git a/scripts/projection-check.mjs b/scripts/projection-check.mjs
+new file mode 100644
+index 0000000..b6639ed
+--- /dev/null
++++ b/scripts/projection-check.mjs
+@@ -0,0 +1,83 @@
++import assert from 'node:assert/strict';
++import { mkdir, writeFile } from 'node:fs/promises';
++import { pathToFileURL } from 'node:url';
++const { chromium } = await import(process.env.HAMILTON_PLAYWRIGHT_MODULE ? pathToFileURL(process.env.HAMILTON_PLAYWRIGHT_MODULE).href : 'playwright');
++const browser = await chromium.launch({ channel: process.env.HAMILTON_BROWSER ?? 'chrome', headless: true });
++const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
++const base = process.env.HAMILTON_URL ?? 'http://127.0.0.1:1777/';
++const out = 'artifacts/projection-review';
++await mkdir(out, { recursive: true });
++const errors = [], checks = [], geometry = [];
++page.on('pageerror', error => errors.push(error.message));
++try {
++  await page.goto(base);
++  await page.evaluate(() => {
++    localStorage.setItem('project-hamilton:3d-quality:v1', 'low');
++    localStorage.setItem('project-hamilton:3d-motion:v1', 'false');
++    localStorage.setItem('project-hamilton:language:v1', 'dual');
++  });
++  await page.reload();
++  await page.locator('.projection-entry-picker').waitFor();
++  await page.screenshot({ path: `${out}/title-picker.png` });
++  await page.locator('.entry-begin').click();
++  await page.waitForFunction(() => document.querySelector('video')?.currentTime > .2);
++  await page.locator('.opening-film-pause').click();
++  await page.locator('video').evaluate(v => { v.currentTime = 12; window.__projectionVideo = v; });
++  await page.waitForFunction(() => !document.querySelector('video').seeking);
++  for (const scene of ['crt', 'projector', 'archive']) {
++    await page.locator(`.projection-option[data-scene=${scene}]`).click();
++    assert.equal(await page.locator('.opening-film').getAttribute('data-scene'), scene);
++    assert.ok(await page.evaluate(() => window.__projectionVideo === document.querySelector('video')));
++    assert.equal(await page.locator('video').evaluate(v => v.currentTime), 12);
++    // Briefly resume so the screenshot shows the actual viewing presentation, without a pause notice.
++    await page.locator('.opening-film-pause').click();
++    await page.waitForTimeout(120);
++    await page.screenshot({ path: `${out}/${scene}-desktop.png` });
++    await page.locator('.opening-film-pause').click();
++    await page.locator('video').evaluate(v => { v.currentTime = 12; });
++    await page.waitForFunction(() => !document.querySelector('video').seeking);
++    for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 1024, height: 640 }, { width: 667, height: 375 }]) {
++      await page.setViewportSize(viewport);
++      // ResizeObserver updates the fixed-size scene on the next rendering frame.
++      await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))));
++      for (const language of ['zh', 'en', 'dual']) {
++        await page.evaluate(async language => (await import('/src/i18n/text.ts')).setLanguage(language), language);
++        assert.equal(await page.locator('video').evaluate(v => v.currentTime), 12, 'language/viewport changes retain playback');
++        if (language === 'en') assert.ok(!/\p{Script=Han}/u.test(await page.locator('.opening-film').innerText()));
++        const bounds = await page.locator('.projection-aperture').evaluate(n => { const r = n.getBoundingClientRect(); return { x: r.x, y: r.y, width: r.width, height: r.height, vw: innerWidth, vh: innerHeight }; });
++        assert.ok(bounds.x >= 0 && bounds.y >= 0 && bounds.x + bounds.width <= bounds.vw && bounds.y + bounds.height <= bounds.vh, `${scene} video fits ${JSON.stringify(bounds)}`);
++        assert.ok(bounds.width < viewport.width * .9, 'video remains inset');
++        const controls = await page.locator('.opening-film-controls button').evaluateAll(nodes => nodes.every(n => { const r = n.getBoundingClientRect(); return r.x >= 0 && r.y >= 0 && r.right <= innerWidth && r.bottom <= innerHeight; }));
++        assert.ok(controls, 'controls fit');
++        geometry.push({ scene, language, viewport, aperture: bounds });
++      }
++      if (viewport.width === 390) {
++        await page.locator('.opening-film-pause').click(); await page.waitForTimeout(100);
++        await page.screenshot({ path: `${out}/${scene}-mobile.png` });
++        await page.locator('.opening-film-pause').click();
++        await page.locator('video').evaluate(v => { v.currentTime = 12; });
++        await page.waitForFunction(() => !document.querySelector('video').seeking);
++      }
++    }
++    await page.setViewportSize({ width: 1440, height: 900 });
++    checks.push(`${scene}: desktop, narrow, compact, landscape; Chinese, English, bilingual; same video and time`);
++  }
++  await page.locator('.opening-film-mute').click(); assert.ok(await page.locator('video').evaluate(v => v.muted));
++  await page.keyboard.press('Tab');
++  assert.ok(await page.evaluate(() => document.querySelector('.opening-film').contains(document.activeElement)), 'focus remains inside film');
++  await page.emulateMedia({ reducedMotion: 'reduce' });
++  assert.equal(await page.locator('.reel').first().evaluate(n => getComputedStyle(n).animationName), 'none');
++  checks.push('mute, focus trap and reduced motion');
++  await page.locator('.opening-film-skip').click();
++  await page.locator('.d3-canvas[data-ready=true]').waitFor({ timeout: 60000 });
++  assert.equal(await page.locator('.opening-film').count(), 0);
++  assert.ok(await page.evaluate(() => !document.querySelector('#app').inert));
++  checks.push('skip releases media and hands control to the existing 3D opening');
++  assert.deepEqual(errors, []);
++  console.log(`PASS ${checks.join('; ')}`);
++} catch (error) {
++  errors.push(String(error)); await page.screenshot({ path: `${out}/failure.png` }); throw error;
++} finally {
++  await writeFile(`${out}/report.json`, JSON.stringify({ checks, geometry, errors }, null, 2));
++  await browser.close();
++}
+diff --git a/src/ui/EntryScreen.ts b/src/ui/EntryScreen.ts
+index 2524c40..f60685d 100644
+--- a/src/ui/EntryScreen.ts
++++ b/src/ui/EntryScreen.ts
+@@ -2,6 +2,7 @@ import { bi, getLanguage, onLanguageChange, setLabel, setLanguage, setText, type
+ import './entry.css';
+ import { voiceoverSetting } from './voiceover';
+ import { OpeningFilm } from './OpeningFilm';
++import { addProjectionPicker } from './ProjectionScene';
+ 
+ const qualityKey = 'project-hamilton:3d-quality:v1';
+ const motionKey = 'project-hamilton:3d-motion:v1';
+@@ -124,6 +125,7 @@ export function showEntryScreen() {
+   };
+   updateLanguage(); const stopLanguage = onLanguageChange(updateLanguage);
+   screen.append(art, shade, compass, header, content, location, footer, settings, help); app.replaceChildren(screen);
++  addProjectionPicker(screen);
+   let starting = false;
+   begin.addEventListener('click', event => {
+     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
+diff --git a/src/ui/OpeningFilm.ts b/src/ui/OpeningFilm.ts
+index d9617a0..c248fc5 100644
+--- a/src/ui/OpeningFilm.ts
++++ b/src/ui/OpeningFilm.ts
+@@ -1,6 +1,7 @@
+ import { bi, setLabel, setText, type Text } from '../i18n/text';
+ import { CURTAIN_FADE_MS, CURTAIN_HOLD_MS, REDUCED_CURTAIN_MS } from './transitions';
+ import './opening-film.css';
++import { createProjectionScene } from './ProjectionScene';
+ 
+ // The user's edit fades to black at 49.43 s; its soundtrack continues to 57.2 s.
+ // Reveal the chapter during that existing black tail, retaining the entire audio.
+@@ -51,8 +52,9 @@ export class OpeningFilm {
+     setLabel(this.video, 'aria-label', bi('汉密尔顿的海岛往事与启程', 'Hamilton’s island past and departure'));
+     for (const node of [this.pause, this.mute, this.skip]) node.type = 'button';
+     this.controls.append(this.pause, this.mute, this.skip);
+-    this.picture.append(this.video); this.root.append(this.picture, this.status, this.controls);
+     const signal = this.listener.signal;
++    createProjectionScene(this.root, this.picture, this.video, reduced, signal);
++    this.root.append(this.picture, this.status, this.controls);
+     this.pause.addEventListener('click', () => this.togglePause(), { signal });
+     this.mute.addEventListener('click', () => { this.video.muted = !this.video.muted; this.labels(); }, { signal });
+     this.skip.addEventListener('click', () => { void this.finish(); }, { signal });
+@@ -89,7 +91,7 @@ export class OpeningFilm {
+       event.stopImmediatePropagation();
+       if (event.code === 'Tab') {
+         event.preventDefault();
+-        const buttons = [this.pause, this.mute, this.skip].filter(node => !node.disabled);
++        const buttons = [...this.root.querySelectorAll<HTMLButtonElement>('button')].filter(node => !node.disabled && node.getClientRects().length > 0 && !node.closest('[inert]'));
+         const index = buttons.indexOf(document.activeElement as HTMLButtonElement);
+         buttons[(index + (event.shiftKey ? buttons.length - 1 : 1)) % buttons.length]?.focus();
+       } else if (event.code === 'Escape' || (event.code === 'Space' && !(event.target instanceof HTMLButtonElement))) {
+@@ -112,6 +114,7 @@ export class OpeningFilm {
+     await this.reveal.promise;
+     if (this.disposed) return;
+     this.revealing = true; this.root.dataset.phase = 'chapter';
++    this.picture.inert = true; this.pause.focus({ preventScroll: true });
+     if (!this.video.paused || this.video.ended || this.finishing) this.status.hidden = true;
+     await this.picture.animate([{ opacity: 1 }, { opacity: 0 }], { duration: this.duration, fill: 'forwards' }).finished;
+     await Promise.all([this.ended.promise, delay(this.reduced ? REDUCED_CURTAIN_MS : CURTAIN_HOLD_MS)]);
+diff --git a/src/ui/ProjectionScene.ts b/src/ui/ProjectionScene.ts
+new file mode 100644
+index 0000000..5da1d82
+--- /dev/null
++++ b/src/ui/ProjectionScene.ts
+@@ -0,0 +1,130 @@
++import { bi, f, getLanguage, onLanguageChange, setLabel, setLanguage, setText, type Text } from '../i18n/text';
++import './projection-scene.css';
++
++const scenes = [
++  { id: 'crt', number: '01', title: bi('午夜录像室', 'The midnight broadcast'), short: bi('录像室', 'Tape room'), caption: bi('一段被时间遗忘的录像。', 'A recording that time forgot.'), detail: bi('木壳电视 · 磁带质感', 'Wooden CRT · Magnetic tape') },
++  { id: 'projector', number: '02', title: bi('阁楼放映室', 'The attic screening'), short: bi('放映室', 'Screening room'), caption: bi('让一束光，把往事重新照亮。', 'A beam of light brings the past to life.'), detail: bi('胶片放映 · 尘埃与光', 'Celluloid · Dust and light') },
++  { id: 'archive', number: '03', title: bi('记忆档案桌', 'The memory archive'), short: bi('档案桌', 'Archive desk'), caption: bi('打开一个人的过去。', 'Unspool a life before it became history.'), detail: bi('胶片检视机 · 私人档案', 'Film viewer · A private collection') },
++] as const;
++type Scene = typeof scenes[number]['id'];
++function selected(): Scene {
++  const value = new URLSearchParams(location.search).get('projection');
++  return scenes.find(scene => scene.id === value)?.id ?? 'projector';
++}
++function el<K extends keyof HTMLElementTagNameMap>(tag: K, className: string, text: Text = '') {
++  const node = document.createElement(tag); node.className = className; setText(node, text); return node;
++}
++function selectScene(id: Scene) {
++  const url = new URL(location.href); url.searchParams.set('projection', id); history.replaceState(null, '', url);
++}
++function sceneButtons(action: (scene: Scene) => void) {
++  const group = el('div', 'projection-options');
++  group.setAttribute('role', 'group'); setLabel(group, 'aria-label', bi('选择放映场景', 'Choose a screening scene'));
++  for (const scene of scenes) {
++    const button = el('button', 'projection-option'); button.type = 'button'; button.dataset.scene = scene.id;
++    button.append(el('span', 'projection-number', scene.number), el('span', '', scene.short));
++    button.addEventListener('click', () => action(scene.id)); group.append(button);
++  }
++  return group;
++}
++function markSelected(group: HTMLElement, id: Scene) {
++  group.querySelectorAll<HTMLButtonElement>('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.scene === id)));
++}
++
++/** Review-only title controls. This module exists solely in the isolated experiment. */
++export function addProjectionPicker(screen: HTMLElement) {
++  const panel = el('aside', 'projection-entry-picker');
++  const group = sceneButtons(id => { selectScene(id); markSelected(group, id); });
++  markSelected(group, selected());
++  panel.append(el('p', 'projection-entry-label', bi('开场放映 · 三种想象', 'OPENING FILM · THREE INTERPRETATIONS')), group,
++    el('p', 'projection-entry-hint', bi('选择场景，再点击「启程」观看。', 'Choose a scene, then begin your story.')));
++  screen.append(panel);
++}
++
++/** One persistent video aperture: scene changes only affect styling, never media or game state. */
++export function createProjectionScene(root: HTMLElement, picture: HTMLElement, video: HTMLVideoElement, reduced: boolean, signal: AbortSignal) {
++  root.classList.add('projection-experiment'); root.classList.toggle('projection-reduced', reduced);
++  const top = el('header', 'projection-top');
++  const signature = el('div', 'projection-signature');
++  signature.append(el('span', 'projection-monogram', 'H'), el('span', '', bi('往事放映馆', 'THE HAMILTON COLLECTION')));
++  const options = sceneButtons(change);
++  const languages = el('div', 'projection-languages');
++  languages.setAttribute('role', 'group'); setLabel(languages, 'aria-label', bi('语言', 'Language'));
++  for (const [mode, label] of [['zh', bi('中', 'ZH')], ['en', bi('英', 'EN')], ['dual', bi('双语', 'DUAL')]] as const) {
++    const button = el('button', '', label); button.type = 'button'; button.dataset.language = mode;
++    button.addEventListener('click', () => setLanguage(mode), { signal }); languages.append(button);
++  }
++  function languageLabels() {
++    languages.querySelectorAll('button').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.language === getLanguage())));
++  }
++  const stopLanguage = onLanguageChange(languageLabels); languageLabels();
++  top.append(signature, options, languages);
++
++  const room = el('div', 'projection-room');
++  const stage = el('div', 'projection-stage');
++  // Decorative geometry carries no baked text. All readable labels use the shared bilingual binding.
++  for (const name of ['window', 'shelf', 'table', 'beam', 'dust', 'ceiling', 'floor', 'backlight']) {
++    const prop = el('div', `projection-${name}`); prop.setAttribute('aria-hidden', 'true'); stage.append(prop);
++  }
++  const lamp = el('div', 'projection-lamp'); lamp.setAttribute('aria-hidden', 'true');
++  for (const name of ['shade', 'neck', 'base']) lamp.append(el('i', `lamp-${name}`)); stage.append(lamp);
++  const books = el('div', 'projection-books'); books.setAttribute('aria-hidden', 'true');
++  for (let i = 0; i < 3; i++) books.append(el('i', '')); stage.append(books);
++  const paper = el('div', 'projection-paper');
++  paper.append(el('span', 'paper-index', bi('私人藏件 / 001', 'PRIVATE COLLECTION / 001')),
++    el('h3', '', bi('海的另一边', 'Across the sea')),
++    el('p', '', bi('一个名字，一段尚未写下的历史。', 'One name. A history yet to be written.')),
++    el('div', 'paper-lines'), el('span', 'paper-year', '1776'));
++  stage.append(paper);
++  const tape = el('div', 'projection-tape');
++  tape.append(el('span', '', bi('亚历山大 · 启程', 'ALEXANDER · DEPARTURE')), el('i', 'tape-wheels'));
++  stage.append(tape);
++  const filmstrip = el('div', 'projection-filmstrip'); filmstrip.setAttribute('aria-hidden', 'true'); stage.append(filmstrip);
++  const machine = el('div', 'projection-machine'); machine.setAttribute('aria-hidden', 'true');
++  for (const name of ['reel reel-one', 'reel reel-two', 'machine-body', 'machine-lens', 'machine-feet']) machine.append(el('div', name));
++  stage.append(machine);
++
++  const device = el('div', 'projection-device');
++  const aperture = el('div', 'projection-aperture');
++  const texture = el('div', 'projection-texture'); texture.setAttribute('aria-hidden', 'true');
++  const reflection = el('div', 'projection-reflection'); reflection.setAttribute('aria-hidden', 'true');
++  aperture.append(video, texture, reflection);
++  const sidebar = el('div', 'projection-device-side'); sidebar.setAttribute('aria-hidden', 'true');
++  sidebar.append(el('i', 'device-dial'), el('i', 'device-dial small'), el('i', 'device-speaker'));
++  const badge = el('div', 'projection-device-badge', bi('往事 · 影像档案', 'HAMILTON · PICTURE ARCHIVE'));
++  const power = el('span', 'projection-power'); power.setAttribute('aria-hidden', 'true');
++  device.append(aperture, sidebar, badge, power, el('div', 'device-handle'), el('div', 'device-stand'));
++  stage.append(device);
++  const deck = el('div', 'projection-deck');
++  deck.append(el('div', 'deck-slot'), el('span', 'deck-counter', '00:00'), el('div', 'deck-keys'));
++  stage.append(deck); room.append(stage);
++  const caption = el('footer', 'projection-caption');
++  const index = el('span', 'projection-caption-index'); const title = el('h2', ''); const subtitle = el('p', '');
++  caption.append(index, title, subtitle);
++  const meta = el('div', 'projection-meta');
++  const detail = el('span', ''); const timer = el('span', 'projection-timer', '00:00 / 00:57');
++  meta.append(detail, timer);
++  picture.append(top, room, caption, meta);
++
++  function change(id: Scene) {
++    root.dataset.scene = id; selectScene(id); markSelected(options, id);
++    const scene = scenes.find(item => item.id === id)!;
++    setText(index, f(bi('放映 {0} / 03', 'SCREENING {0} / 03'), scene.number));
++    setText(title, scene.title); setText(subtitle, scene.caption); setText(detail, scene.detail);
++  }
++  const resize = () => {
++    const compact = room.clientWidth <= 700;
++    const width = compact ? 700 : 1440, height = compact ? 650 : 740;
++    stage.style.setProperty('--stage-scale', String(Math.min(room.clientWidth / width, room.clientHeight / height)));
++  };
++  const observer = new ResizeObserver(resize); observer.observe(room);
++  const clock = (seconds: number) => `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(Math.floor(seconds % 60)).padStart(2, '0')}`;
++  const playback = () => { root.classList.toggle('projection-running', !video.paused && !video.ended); };
++  for (const event of ['playing', 'pause', 'ended']) video.addEventListener(event, playback, { signal });
++  video.addEventListener('timeupdate', () => {
++    setText(timer, `${clock(video.currentTime)} / ${clock(Number.isFinite(video.duration) ? video.duration : 57.2)}`);
++    setText(deck.querySelector('.deck-counter')!, clock(video.currentTime));
++  }, { signal });
++  signal.addEventListener('abort', () => { observer.disconnect(); stopLanguage(); }, { once: true });
++  change(selected()); resize();
++}
+diff --git a/src/ui/projection-scene.css b/src/ui/projection-scene.css
+new file mode 100644
+index 0000000..c1c4422
+--- /dev/null
++++ b/src/ui/projection-scene.css
+@@ -0,0 +1,248 @@
++/* Isolated screening study: all scene geometry is local CSS; the source film stays intact. */
++.projection-experiment { --ink: #e6d7bb; --quiet: #a4967d; --accent: #c4a66d; color: var(--ink); }
++.projection-experiment .opening-film-picture { overflow: hidden; background: #111716; }
++.projection-experiment .text-secondary { color: var(--quiet); }
++.projection-top { position: absolute; z-index: 10; inset: 28px 40px auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
++.projection-signature { display: flex; align-items: center; gap: 14px; font-size: 11px; letter-spacing: .13em; }
++.projection-signature .text-secondary { font-size: 8px; letter-spacing: .14em; }
++.projection-monogram { font: italic 38px 'Cormorant Garamond', Georgia, serif; color: var(--accent); }
++.projection-options { display: flex; gap: 5px; padding: 5px; border: 1px solid #a7936a33; background: #101411a6; border-radius: 4px; }
++.projection-option { display: flex; align-items: center; gap: 10px; padding: 9px 16px; background: transparent; border: 1px solid transparent; color: #bbae95; border-radius: 2px; font-size: 12px; }
++.projection-option .text-secondary { font-size: 9px; margin-top: 1px; }
++.projection-number { font: 11px 'Courier New', monospace; opacity: .5; }
++.projection-option[aria-pressed='true'] { border-color: #bda16a77; background: #b4996430; color: #f0dfb6; }
++.projection-option:hover { background: #b4996425; }
++.projection-languages { display: flex; gap: 3px; }
++.projection-languages button { background: transparent; border-bottom: 1px solid transparent; color: var(--quiet); min-width: 40px; min-height: 44px; font-size: 11px; padding: 5px; }
++.projection-languages button[aria-pressed='true'] { color: var(--ink); border-color: var(--accent); }
++.projection-languages .text-secondary { font: 8px 'Courier New', monospace; }
++.projection-room { position: absolute; inset: 90px 0 130px; overflow: hidden; mask-image: linear-gradient(#000 80%, transparent 100%); }
++.projection-stage { position: absolute; width: 1440px; height: 740px; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(var(--stage-scale, 1)); }
++.projection-stage * { position: absolute; }
++.projection-stage .text-primary, .projection-stage .text-secondary { position: static; }
++.projection-caption { position: absolute; left: 48px; bottom: 34px; }
++.projection-caption-index { font-size: 9px; letter-spacing: .17em; color: var(--quiet); }
++.projection-caption-index .text-secondary { display: inline; font-size: 8px; margin-left: 12px; }
++.projection-caption h2 { margin: 12px 0 8px; font-size: 25px; font-weight: 400; letter-spacing: .08em; }
++.projection-caption h2 .text-secondary { display: inline; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; font-style: italic; margin-left: 14px; }
++.projection-caption p { margin: 0; font-size: 11px; letter-spacing: .08em; color: var(--quiet); }
++.projection-caption p .text-secondary { font-size: 10px; margin-top: 5px; }
++.projection-meta { position: absolute; right: 42px; bottom: 116px; text-align: right; font-size: 10px; color: var(--quiet); }
++.projection-meta .text-secondary { font-size: 9px; }
++.projection-timer { display: block; margin-top: 10px; font: 11px 'Courier New', monospace; letter-spacing: .13em; }
++.projection-experiment .opening-film-controls { right: 40px; bottom: 36px; }
++.projection-experiment .opening-film-controls button { background: #101411b8; border: 1px solid #ae926446; padding: 9px 18px; color: #decdb0; }
++.projection-experiment .opening-film-controls button:hover { background: #b4996425; border-color: #bda16a; }
++.projection-experiment .opening-film-status { bottom: 154px; z-index: 12; font-size: 12px; }
++.projection-experiment[data-phase='chapter'] .opening-film-controls { background: #10100cdc; }
++.projection-experiment .opening-film-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: saturate(.82) contrast(1.06); }
++.projection-aperture { overflow: hidden; background: #040707; isolation: isolate; }
++.projection-texture, .projection-reflection { inset: 0; pointer-events: none; z-index: 2; }
++.projection-texture { background: repeating-linear-gradient(0deg, #0003 0 1px, transparent 1px 3px); opacity: .34; }
++.projection-reflection { background: linear-gradient(145deg, #b8dbc918, transparent 45%), radial-gradient(ellipse, transparent 60%, #0009 100%); box-shadow: inset 0 0 25px #000; }
++.projection-device-badge { font-size: 8px; letter-spacing: .16em; text-align: center; }
++.projection-device-badge .text-secondary { font: 7px Georgia, serif; letter-spacing: .14em; }
++.projection-power { width: 5px; height: 5px; border-radius: 50%; background: #8bb67a; box-shadow: 0 0 8px #8bb67a; }
++.projection-paper { padding: 25px; width: 220px; height: 290px; background: repeating-linear-gradient(0deg, #00000004 0 1px, transparent 1px 3px), #b8a584; color: #332f24; box-shadow: 4px 7px 15px #0008, inset 0 0 35px #70532c55; }
++.projection-paper > * { position: static; display: block; }
++.projection-paper .paper-index { font-size: 8px; letter-spacing: .09em; }
++.projection-paper h3 { font-size: 22px; font-weight: 400; margin: 22px 0 15px; }
++.projection-paper p { font-size: 11px; line-height: 1.8; }
++.projection-paper .text-secondary { color: #5d503d; }
++.paper-lines { height: 28px; margin-top: 20px; background: repeating-linear-gradient(0deg, transparent 0 7px, #6f604555 7px 8px); }
++.paper-year { margin-top: 10px; font: italic 25px Georgia, serif; }
++.projection-tape { padding: 12px 18px; border-radius: 4px; background: repeating-linear-gradient(0deg, #262c29 0 2px, #1a201d 2px 4px); box-shadow: 5px 9px 15px #0009; width: 235px; height: 130px; border: 4px solid #0e1411; }
++.projection-tape > span { inset: 12px 12px auto; background: #c3b28d; color: #2b2f28; padding: 7px; font-size: 10px; text-align: center; }
++.projection-tape .text-secondary { color: #535646; font-size: 8px; }
++.tape-wheels { left: 30px; right: 30px; bottom: 14px; height: 33px; border: 1px solid #51554b; background: radial-gradient(circle at 22% 50%, #0b100d 0 6px, #8d8d7555 7px 13px, transparent 14px), radial-gradient(circle at 78% 50%, #0b100d 0 6px, #8d8d7555 7px 13px, transparent 14px), #050a07; }
++.projection-books i { left: 0; width: 210px; height: 27px; border-radius: 3px; border-left: 16px solid #353b2d; background: repeating-linear-gradient(0deg, #988b6e 0 2px, #756950 2px 3px); box-shadow: 0 4px 6px #0008; }
++.projection-books i:nth-child(2) { top: -30px; left: -10px; width: 200px; border-color: #514230; transform: rotate(-3deg); }
++.projection-books i:nth-child(3) { top: -60px; left: 12px; width: 174px; border-color: #2c413c; transform: rotate(2deg); }
++.projection-lamp { width: 220px; height: 340px; }
++.lamp-shade { left: 0; top: 0; width: 190px; height: 95px; background: radial-gradient(ellipse at 50% 95%, #e6d29b 0 2%, #334a3c 8%, #172921 65%); border-radius: 70% 70% 15% 15%; border-bottom: 4px solid #a49667; box-shadow: 0 12px 32px #dbbd4e18; }
++.lamp-neck { left: 84px; top: 95px; height: 224px; width: 12px; background: linear-gradient(90deg, #25291d, #a49465, #3c3927); }
++.lamp-base { left: 18px; bottom: 0; width: 150px; height: 30px; border-radius: 50%; background: radial-gradient(ellipse at 50% 20%, #867248, #383425 70%); box-shadow: 8px 8px 10px #0008; }
++.projection-window, .projection-shelf, .projection-ceiling, .projection-floor, .projection-machine, .projection-beam, .projection-dust, .projection-filmstrip { display: none; }
++
++/* 01 — a pool of lamplight, warm walnut, a curved phosphor screen. */
++[data-scene='crt'] .opening-film-picture { background: radial-gradient(ellipse at 35% 55%, #21434255, transparent 45%), radial-gradient(ellipse at 87% 62%, #6b552333, transparent 40%), #0c1414; }
++[data-scene='crt'] .projection-window { display: block; width: 200px; height: 330px; left: 85px; top: 10px; border: 12px solid #172221; background: repeating-linear-gradient(0deg, #203b3c77 0 2px, #0e1c1c 2px 27px); box-shadow: inset 0 0 55px #000, 10px 10px 30px #0008; transform: skewY(-4deg); }
++[data-scene='crt'] .projection-window::after { content: ''; position: absolute; left: 50%; height: 100%; border-left: 7px solid #182421; }
++[data-scene='crt'] .projection-table { left: -80px; top: 556px; width: 1600px; height: 230px; transform: perspective(700px) rotateX(25deg); background: repeating-linear-gradient(2deg, #70553718 0 1px, transparent 1px 9px), linear-gradient(#463d2b, #282b23 85%); border-top: 6px solid #5c533b; box-shadow: 0 30px 100px #000; }
++[data-scene='crt'] .projection-device { left: 335px; top: 103px; width: 810px; height: 465px; background: repeating-linear-gradient(0deg, #1b160d20 0 2px, transparent 2px 5px), linear-gradient(100deg, #4a3324, #755039 45%, #39291f); border: 2px solid #98785255; border-radius: 20px 25px 15px 15px; box-shadow: 18px 22px 25px #0009, inset 1px 3px 4px #b38f6244, inset -10px -5px 15px #100b08; }
++[data-scene='crt'] .projection-aperture { left: 28px; top: 26px; width: 648px; height: 376px; border: 13px solid #242a26; border-radius: 46px / 38px; box-shadow: 0 0 0 2px #b8a78655, 0 0 0 8px #29221a, inset 0 0 30px #000, 0 0 70px #93c8b01c; }
++[data-scene='crt'] .opening-film-video { border-radius: 25px; }
++[data-scene='crt'] .projection-device-side { right: 19px; top: 24px; width: 93px; height: 380px; background: linear-gradient(90deg, #33352b, #545044, #302f27); border: 1px solid #aa9c6f55; border-radius: 5px; box-shadow: inset 2px 0 7px #0009; }
++.device-dial { left: 16px; top: 20px; width: 60px; height: 60px; border: 5px solid #242b24; border-radius: 50%; background: conic-gradient(#5e6655, #20281f, #808372, #30382d, #5e6655); box-shadow: 2px 3px 5px #000b, 0 0 0 1px #948e72; }
++.device-dial::after { content: ''; position: absolute; width: 3px; height: 24px; top: 2px; left: 24px; background: #ae9c72; transform: rotate(35deg); }
++.device-dial.small { top: 105px; width: 49px; height: 49px; left: 21px; }
++.device-dial.small::after { left: 18px; height: 18px; transform: rotate(-40deg); }
++.device-speaker { bottom: 16px; left: 16px; width: 61px; height: 180px; background: repeating-linear-gradient(0deg, #131c16 0 3px, #625d4633 3px 6px); border: 1px solid #857b5555; border-radius: 5px; }
++[data-scene='crt'] .projection-device-badge { left: 65px; bottom: 16px; width: 270px; color: #c3ab7a; }
++[data-scene='crt'] .projection-power { right: 155px; bottom: 25px; }
++[data-scene='crt'] .projection-deck { width: 610px; height: 73px; left: 425px; top: 568px; background: linear-gradient(#575c50, #272f29 15%, #222921 80%, #101914); border: 2px solid #626854; border-radius: 3px; box-shadow: 8px 10px 13px #0009; }
++.deck-slot { left: 28px; top: 15px; height: 28px; width: 290px; border: 2px solid #0d1711; border-bottom-color: #66715b; background: #1c261d; }
++.deck-counter { right: 93px; top: 19px; background: #0c1d15; padding: 5px 10px; font: 15px 'Courier New', monospace; color: #96af7b; text-shadow: 0 0 5px #9ecc7b; }
++.deck-keys { right: 13px; top: 18px; width: 57px; height: 30px; background: repeating-linear-gradient(90deg, #505b48 0 15px, #18241a 15px 20px); }
++[data-scene='crt'] .projection-lamp { left: 1190px; top: 257px; }
++[data-scene='crt'] .projection-books { left: 85px; top: 604px; transform: rotate(-7deg); }
++[data-scene='crt'] .projection-tape { left: 1040px; top: 612px; transform: rotate(12deg); }
++[data-scene='crt'] .projection-paper { left: 142px; top: 370px; transform: rotate(-13deg); opacity: .65; }
++
++/* 02 — a suspended linen screen and the long, dusty cone of a mechanical projector. */
++[data-scene='projector'] .opening-film-picture { background: radial-gradient(ellipse at 60% 40%, #5a533432, transparent 55%), linear-gradient(110deg, #0e1715, #23291f 60%, #111c18); }
++[data-scene='projector'] .projection-ceiling { display: block; left: 0; top: -100px; width: 1450px; height: 90px; transform: rotate(-9deg); background: repeating-linear-gradient(0deg, #1e271d 0 3px, #1b231a 3px 9px); box-shadow: 0 6px 15px #000b; }
++[data-scene='projector'] .projection-floor { display: block; left: -100px; right: -100px; top: 590px; height: 300px; transform: perspective(350px) rotateX(35deg); background: repeating-linear-gradient(92deg, #6353390a 0 95px, #050e0955 95px 99px), repeating-linear-gradient(0deg, #51472d44 0 2px, transparent 2px 5px), #22281c; border-top: 2px solid #6a624d33; }
++[data-scene='projector'] .projection-device { left: 565px; top: 76px; width: 740px; height: 450px; background: linear-gradient(90deg, #b5ae86, #d4caa0 5%, #c4bb90 95%, #aaa37d); box-shadow: 10px 18px 28px #0007; transform: rotate(-.6deg); }
++[data-scene='projector'] .projection-device::before, [data-scene='projector'] .projection-device::after { content: ''; position: absolute; left: -16px; right: -16px; height: 15px; background: linear-gradient(#665e44, #b0a077 45%, #514f37); border-radius: 5px; box-shadow: 0 4px 9px #0008; }
++[data-scene='projector'] .projection-device::before { top: -13px; }
++[data-scene='projector'] .projection-device::after { bottom: -13px; }
++[data-scene='projector'] .projection-aperture { inset: 32px 30px 36px; border: 1px solid #7a755b; box-shadow: 0 0 25px #e9d29b33; }
++[data-scene='projector'] .opening-film-video { filter: sepia(.15) saturate(.78) contrast(.94) brightness(1.08); }
++[data-scene='projector'] .projection-texture { background: repeating-linear-gradient(90deg, #e8e0b714 0 1px, transparent 1px 3px), repeating-linear-gradient(0deg, #33381618 0 1px, transparent 1px 3px); opacity: .5; }
++[data-scene='projector'] .projection-reflection { background: radial-gradient(ellipse at 40% 40%, #ede5b208, #433c261a); box-shadow: inset 0 0 18px #3a361a44; }
++[data-scene='projector'] .projection-device-badge { left: 40px; bottom: 7px; right: 40px; font-size: 7px; color: #514c30; }
++[data-scene='projector'] .projection-device-badge .text-secondary { display: inline; margin-left: 12px; color: #605635; }
++[data-scene='projector'] .device-handle { left: 40px; top: -160px; right: 40px; height: 155px; border-left: 2px solid #84765588; border-right: 2px solid #84765588; }
++[data-scene='projector'] .projection-device-side, [data-scene='projector'] .projection-power, [data-scene='projector'] .projection-lamp, [data-scene='projector'] .projection-deck, [data-scene='projector'] .projection-tape { display: none; }
++[data-scene='projector'] .projection-machine { display: block; left: 75px; top: 390px; width: 320px; height: 270px; transform: rotate(-3deg); z-index: 3; }
++.reel { width: 160px; height: 160px; border: 8px solid #a8a181; border-radius: 50%; background: radial-gradient(circle, #c5ba94 0 7px, #3b4535 8px 15px, transparent 16px), repeating-conic-gradient(from 10deg, #aaa786 0 25deg, #222e22 25deg 58deg, #aba585 58deg 60deg); box-shadow: 0 0 0 2px #353f2e, 5px 7px 8px #0008, inset 0 0 0 7px #454c38; }
++.reel-one { left: -18px; top: -103px; }
++.reel-two { left: 158px; top: -102px; width: 143px; height: 143px; }
++.machine-body { left: 35px; top: 50px; width: 218px; height: 155px; border: 3px solid #6b7155; border-radius: 16px 24px 6px 6px; background: repeating-linear-gradient(0deg, transparent 0 7px, #17261977 7px 10px) 23px 30px / 65px 95px no-repeat, linear-gradient(115deg, #757858, #3d4c34 60%, #1e3324); box-shadow: inset 3px 2px 6px #e3d99c33, 10px 13px 10px #0008; }
++.machine-body::after { content: ''; position: absolute; right: 23px; top: 50px; width: 45px; height: 45px; border: 3px solid #ac9e67; border-radius: 50%; background: radial-gradient(#263b2a 0 25%, #6c7657 27% 60%, #33492e 62%); }
++.machine-lens { right: 22px; top: 64px; width: 46px; height: 62px; border-radius: 10px 3px 3px 10px; background: repeating-linear-gradient(90deg, #1b2a1d 0 4px, #747754 4px 6px); box-shadow: 10px 0 25px #d8d1a45c; border-right: 4px solid #e8deaf; }
++.machine-feet { left: 47px; top: 205px; width: 190px; height: 48px; border-left: 15px solid #333b28; border-right: 15px solid #333b28; transform: perspective(60px) rotateX(15deg); }
++[data-scene='projector'] .projection-beam { display: block; left: 366px; top: 96px; width: 210px; height: 415px; clip-path: polygon(0 86%, 100% 0, 100% 100%, 0 91%); background: linear-gradient(90deg, #f0e5b54d, #e9e1b612); mix-blend-mode: screen; opacity: .85; }
++[data-scene='projector'] .projection-dust { display: block; left: 270px; top: 180px; width: 850px; height: 440px; opacity: .45; background-image: radial-gradient(circle at 13% 30%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 63% 47%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 32% 71%, #f0e2a6 0 1px, transparent 2px), radial-gradient(circle at 75% 67%, #f0e2a6 0 1px, transparent 2px); background-size: 153px 189px, 213px 219px, 250px 213px, 328px 187px; }
++[data-scene='projector'] .projection-table { left: 76px; top: 620px; width: 432px; height: 24px; background: linear-gradient(#685539, #2e3624); transform: rotate(-3deg); box-shadow: 5px 5px 10px #0008; }
++[data-scene='projector'] .projection-paper { left: 1160px; top: 486px; transform: rotate(11deg) scale(.6); transform-origin: top left; opacity: .64; }
++[data-scene='projector'] .projection-books { left: 780px; top: 660px; opacity: .36; transform: scale(.8); }
++
++/* 03 — the lighter, tactile contrast: a conservation desk seen from above. */
++[data-scene='archive'] { --ink: #383d30; --quiet: #706e59; --accent: #777043; }
++[data-scene='archive'] .opening-film-picture { background: repeating-linear-gradient(91deg, #aa976717 0 1px, transparent 1px 7px), radial-gradient(ellipse at 50% 40%, #ddd7bd, #b6ad8b); }
++[data-scene='archive'] .projection-options { background: #e4dfca8c; border-color: #7e795b66; }
++[data-scene='archive'] .projection-option { color: #615f49; }
++[data-scene='archive'] .projection-option[aria-pressed='true'] { background: #60694a; color: #eee7ce; border-color: #60694a; }
++[data-scene='archive'] .projection-option[aria-pressed='true'] .text-secondary { color: #d8d4bf; }
++[data-scene='archive'] .projection-device { left: 365px; top: 153px; width: 765px; height: 459px; border: 2px solid #a09e76; border-radius: 20px 20px 30px 30px; background: repeating-linear-gradient(0deg, #25332309 0 1px, transparent 1px 3px), linear-gradient(120deg, #7c8866, #596c50 40%, #3a503c); box-shadow: 18px 27px 15px #43463155, 0 5px 3px #233b29, inset 2px 3px 4px #d7d7a388, inset -5px -5px 15px #152c20aa; transform: rotate(-2deg); }
++[data-scene='archive'] .projection-aperture { left: 50px; top: 43px; width: 665px; height: 374px; border: 18px solid #293a2c; border-radius: 12px; box-shadow: 0 0 0 2px #b0b38966, inset 0 0 25px #000; }
++[data-scene='archive'] .opening-film-video { filter: sepia(.08) saturate(.8); }
++[data-scene='archive'] .projection-texture { opacity: .12; }
++[data-scene='archive'] .projection-device-badge { top: 15px; left: 110px; right: 110px; color: #e0d9b5; font-size: 8px; }
++[data-scene='archive'] .projection-device-badge .text-secondary { display: inline; margin-left: 12px; color: #d0cdaf; }
++[data-scene='archive'] .projection-power { left: 60px; top: 23px; }
++[data-scene='archive'] .projection-device-side { right: -48px; top: 158px; width: 48px; height: 110px; background: repeating-linear-gradient(0deg, #2b4230 0 3px, #52694c 3px 6px); border-radius: 0 10px 10px 0; box-shadow: 8px 8px 5px #51573b55; }
++[data-scene='archive'] .projection-device-side > *, [data-scene='archive'] .projection-lamp, [data-scene='archive'] .projection-books, [data-scene='archive'] .projection-deck { display: none; }
++[data-scene='archive'] .device-handle { left: 270px; top: -43px; width: 225px; height: 44px; border: 13px solid #485940; border-bottom: none; border-radius: 18px 18px 0 0; box-shadow: 4px -2px 0 #939c74, 7px -7px 8px #555c3944; }
++[data-scene='archive'] .projection-machine { display: block; left: 395px; top: 22px; width: 670px; height: 210px; }
++[data-scene='archive'] .projection-machine .reel { width: 205px; height: 205px; border-color: #8b9177; background: radial-gradient(circle, #c9c8a8 0 9px, #4a5a3d 10px 20px, transparent 21px), repeating-conic-gradient(from 10deg, #aeb095 0 24deg, #546248 24deg 58deg, #aeb095 58deg 60deg); box-shadow: 8px 10px 10px #4c553d44, inset 0 0 0 7px #566746; }
++[data-scene='archive'] .reel-one { left: -55px; top: 0; }
++[data-scene='archive'] .reel-two { left: 505px; top: -20px; }
++[data-scene='archive'] .projection-machine > :not(.reel) { display: none; }
++[data-scene='archive'] .projection-paper { left: 94px; top: 160px; width: 275px; height: 380px; transform: rotate(-12deg); background-color: #e0d9bc; box-shadow: 5px 8px 9px #6b654333, inset 0 0 50px #a3946622; }
++[data-scene='archive'] .projection-paper::before { content: ''; position: absolute; top: -9px; left: 85px; width: 85px; height: 30px; background: #aab09266; transform: rotate(4deg); }
++[data-scene='archive'] .projection-paper .paper-index { font-size: 10px; }
++[data-scene='archive'] .projection-paper h3 { font-size: 26px; margin-top: 40px; }
++[data-scene='archive'] .projection-paper .paper-year { margin-top: 20px; font-size: 42px; color: #8e573d; }
++[data-scene='archive'] .projection-tape { left: 1132px; top: 460px; transform: rotate(12deg); width: 225px; height: 149px; background: #707a59; border-color: #4f6246; box-shadow: 7px 8px 10px #48553755; }
++[data-scene='archive'] .projection-filmstrip { display: block; top: 625px; left: 92px; width: 1280px; height: 86px; transform: rotate(6deg); border-top: 9px dashed #ddd2b8; border-bottom: 9px dashed #ddd2b8; background: repeating-linear-gradient(90deg, #7d552599 0 78px, #352e1e 78px 96px), #25271b; box-shadow: 0 0 0 5px #302c1e, 7px 14px 10px #5b5a3844; }
++[data-scene='archive'] .opening-film-controls button { background: #e2ddc5b3; border-color: #7e795b77; color: #3a4230; }
++[data-scene='archive'] .opening-film-controls button:hover { background: #c6c6a4; }
++[data-scene='archive'] .opening-film-controls .text-secondary { color: #666b50; }
++[data-scene='archive'] .opening-film-status { color: #e6dfc7; background: #2e3b2bed; border-radius: 3px; width: fit-content; max-width: calc(100% - 32px); margin: auto; padding: 8px 16px; }
++
++.projection-running .reel { animation: projection-reel 10s linear infinite; }
++.projection-running .reel-two { animation-direction: reverse; animation-duration: 14s; }
++.projection-running .projection-dust { animation: projection-drift 16s linear infinite alternate; }
++@keyframes projection-reel { to { transform: rotate(360deg); } }
++@keyframes projection-drift { to { transform: translate(14px, -22px); opacity: .25; } }
++.projection-reduced *, .projection-experiment:not(.projection-running) .reel { animation: none !important; }
++@media (prefers-reduced-motion: reduce) { .projection-experiment * { animation: none !important; } }
++
++.projection-entry-picker { position: absolute; z-index: 5; right: 4%; bottom: 125px; padding: 18px 20px; border-left: 1px solid #ccb07966; background: #111812d6; backdrop-filter: blur(12px); }
++.projection-entry-label { margin: 0 0 12px; color: #d6be8f; font-size: 12px; letter-spacing: .12em; }
++.projection-entry-label .text-secondary { font-size: 9px; letter-spacing: .1em; }
++.projection-entry-hint { margin: 12px 0 0; font-size: 10px; color: #b0aa95; }
++.projection-entry-hint .text-secondary { font-size: 9px; }
++.projection-entry-picker .projection-option { padding: 8px 12px; }
++
++@media (max-width: 1050px) {
++  .projection-top { inset: 20px 24px auto; gap: 12px; }
++  .projection-signature > :last-child { display: none; }
++  .projection-caption { left: 28px; bottom: 34px; }
++  .projection-caption h2 { font-size: 22px; }
++  .projection-caption h2 .text-secondary { display: block; margin: 5px 0 0; font-size: 18px; }
++  .projection-caption p { display: none; }
++  .projection-meta { right: 28px; }
++  .projection-experiment .opening-film-controls { right: 24px; }
++  .projection-entry-picker { right: 24px; bottom: 95px; padding: 14px; }
++  .projection-entry-picker .projection-option { padding: 7px; font-size: 10px; }
++}
++@media (max-width: 700px) {
++  .projection-top { inset: 14px 16px auto; flex-wrap: wrap; gap: 10px; }
++  .projection-signature > :last-child { display: block; font-size: 9px; }
++  .projection-signature .text-secondary { font-size: 7px; }
++  .projection-monogram { font-size: 28px; }
++  .projection-languages { margin-left: auto; }
++  .projection-languages button { min-width: 34px; }
++  .projection-top > .projection-options { order: 3; flex-basis: 100%; justify-content: space-between; }
++  .projection-option { padding: 7px 8px; gap: 7px; flex: 1; justify-content: center; font-size: 11px; }
++  .projection-option .text-secondary { font-size: 8px; }
++  .projection-room { inset: 140px 0 185px; }
++  .projection-stage { width: 700px; height: 650px; }
++  .projection-caption { left: 20px; bottom: 103px; }
++  .projection-caption-index { font-size: 8px; }
++  .projection-caption-index .text-secondary { display: none; }
++  .projection-caption h2 { margin: 8px 0 0; font-size: 20px; }
++  .projection-caption h2 .text-secondary { font-size: 16px; margin-top: 5px; }
++  .projection-meta { right: 20px; bottom: 110px; max-width: 120px; font-size: 9px; }
++  .projection-meta .text-secondary { font-size: 8px; }
++  .projection-timer { font-size: 10px; }
++  .projection-experiment .opening-film-controls { left: 16px; right: 16px; bottom: 22px; max-width: none; justify-content: stretch; gap: 6px; }
++  .projection-experiment .opening-film-controls button { flex: 1; padding: 8px; font-size: 11px; }
++  .projection-experiment .opening-film-status { bottom: 195px; font-size: 10px; }
++  [data-scene='crt'] .projection-device { left: 22px; top: 130px; transform: scale(.81); transform-origin: top left; }
++  [data-scene='crt'] .projection-deck { left: 100px; top: 507px; width: 500px; transform: scale(.95); }
++  [data-scene='crt'] .projection-table { left: -300px; top: 505px; }
++  [data-scene='crt'] .projection-window { left: 45px; top: -90px; width: 130px; height: 270px; opacity: .5; }
++  [data-scene='crt'] .projection-lamp, [data-scene='crt'] .projection-paper, [data-scene='crt'] .projection-books { display: none; }
++  [data-scene='crt'] .projection-tape { top: 582px; left: 440px; transform: rotate(12deg) scale(.55); }
++  [data-scene='projector'] .projection-device { left: 35px; top: 64px; width: 805px; height: 490px; transform: scale(.78); transform-origin: top left; }
++  [data-scene='projector'] .projection-machine { left: 75px; top: 425px; transform: scale(.58); transform-origin: top left; }
++  [data-scene='projector'] .projection-beam { left: 190px; top: 80px; width: 460px; height: 445px; clip-path: polygon(0 89%, 100% 0, 100% 85%, 0 93%); }
++  [data-scene='projector'] .projection-floor { top: 545px; }
++  [data-scene='projector'] .projection-table { left: 38px; top: 570px; width: 240px; }
++  [data-scene='projector'] .projection-paper { left: 495px; top: 445px; transform: rotate(11deg) scale(.48); }
++  [data-scene='projector'] .projection-books { display: none; }
++  [data-scene='archive'] .projection-device { left: 40px; top: 155px; transform: rotate(-2deg) scale(.79); transform-origin: top left; }
++  [data-scene='archive'] .projection-machine { left: 104px; top: 39px; transform: scale(.73); transform-origin: top left; }
++  [data-scene='archive'] .projection-paper { left: 38px; top: 64px; transform: rotate(-12deg) scale(.6); transform-origin: top left; }
++  [data-scene='archive'] .projection-filmstrip { top: 559px; left: -70px; width: 900px; height: 57px; }
++  [data-scene='archive'] .projection-tape { display: none; }
++  .projection-entry-picker { left: 20px; right: 20px; bottom: 68px; padding: 10px 12px; }
++  .projection-entry-label { margin: 0 0 8px; font-size: 10px; }
++  .projection-entry-label .text-secondary { display: inline; margin-left: 6px; font-size: 8px; }
++  .projection-entry-hint { display: none; }
++}
++@media (max-height: 650px) and (min-width: 701px) {
++  .projection-room { inset: 75px 0 100px; }
++  .projection-caption { bottom: 20px; }
++  .projection-caption h2 { margin: 5px 0 0; font-size: 19px; }
++  .projection-caption h2 .text-secondary { display: inline; margin-left: 10px; font-size: 16px; }
++  .projection-meta { bottom: 89px; }
++  .projection-experiment .opening-film-controls { bottom: 20px; }
++  .projection-entry-picker { bottom: 72px; padding: 9px; }
++  .projection-entry-hint { display: none; }
++}
++@media (max-height: 560px) and (max-width: 700px) {
++  .projection-top { inset: 5px 12px auto; }
++  .projection-signature, .projection-languages { display: none; }
++  .projection-room { inset: 63px 0 95px; }
++  .projection-caption { bottom: 21px; }
++  .projection-caption-index, .projection-caption h2 .text-secondary, .projection-meta { display: none; }
++  .projection-caption h2 { font-size: 15px; }
++  .projection-experiment .opening-film-controls { left: auto; width: 65%; bottom: 12px; }
++  .projection-experiment .opening-film-controls button { padding: 6px; font-size: 10px; }
++}

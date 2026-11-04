@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-18",
+  "scope": "standalone art direction preview only",
+  "browser": "Codex in-app browser",
+  "verified": [
+    "three images load and compositions visually inspected",
+    "zh/en/dual/dual-en text switching",
+    "audio seek to 85.34 seconds and playback readyState 4",
+    "local audio duration 215.327333 seconds",
+    "screenshot saved",
+    "audio left paused",
+    "tab kept open"
+  ],
+  "notVerified": [
+    "local vocal onset alignment",
+    "beat-grid accuracy",
+    "production game integration",
+    "animated portraits"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 4,
+  "date": "2026-09-10",
+  "status": "awaiting_user_review",
+  "video_generation_authorized": false,
+  "shots": [
+    {
+      "id": "S01",
+      "title": "照料母亲",
+      "source_run": "group-04-childhood",
+      "source_index": 0,
+      "file": "firstframes/S01.png",
+      "description": "孩子已经弯身托碗，母亲斜靠在床上。",
+      "review": "房间、光线和造型与S02相接；母亲不伸手接碗。",
+      "motion_prompt": "prompts/S01.txt",
+      "source_duration_seconds": 12,
+      "target_edit_duration_seconds": 7
+    },
+    {
+      "id": "S02",
+      "title": "空床",
+      "source_run": "group-04-childhood",
+      "source_index": 1,
+      "file": "firstframes/S02.png",
+      "description": "同一孩子仍托着碗，右侧床上已没有母亲。",
+      "review": "保留空床的明确缺席；本张首帧仍在持碗，因此后续不套用旧版“空手放布”。",
+      "motion_prompt": "prompts/S02.txt",
+      "source_duration_seconds": 12,
+      "target_edit_duration_seconds": 7
+    },
+    {
+      "id": "S03",
+      "title": "商行谋生",
+      "source_run": "group-03-young-man",
+      "source_index": 2,
+      "file": "firstframes/S03.png",
+      "description": "少年在漏雨商行内保护账册，木架旁有承接滴水的木桶。",
+      "review": "成年身形和低马尾已建立；账册首帧近乎竖直，采用下缘落架、扶稳的短动作。",
+      "motion_prompt": "prompts/S03.txt",
+      "source_duration_seconds": 12,
+      "target_edit_duration_seconds": 10
+    },
+    {
+      "id": "S04",
+      "title": "风压",
+      "source_run": "group-03-young-man",
+      "source_index": 1,
+      "file": "firstframes/S04.png",
+      "description": "少年右掌已贴住窗板，左掌正在靠近。",
+      "review": "右窗、桌角和人物与S05相接；左手尚未贴板，动作从补上这一处接触开始。",
+      "motion_prompt": "prompts/S04.txt",
+      "source_duration_seconds": 12,
+      "target_edit_duration_seconds": 10
+    },
+    {
+      "id": "S05",
+      "title": "自己的文字",
+      "source_run": "group-03-young-man",
+      "source_index": 0,
+      "file": "firstframes/S05.png",
+      "description": "少年坐在灾后的窗边，纸上已经有几行细小笔迹。",
+      "review": "字迹用来建立写作感，不承担可读台词；笔尖有局部遮挡，因此只做收笔和停看。",
+      "motion_prompt": "prompts/S05.txt",
+      "source_duration_seconds": 12,
+      "target_edit_duration_seconds": 10
+    },
+    {
+      "id": "S06",
+      "title": "文章获得支持",
+      "source_run": "group-05-reader",
+      "source_index": 0,
+      "file": "firstframes/S06.png",
+      "description": "成年读者看信，另一手握着桌上的钱袋；旅行袋已在旁边。",
+      "review": "读者已与少年区分。钱袋从首帧就在桌上，后续只需短距离推向旅行袋。",
+      "motion_prompt": "prompts/S06.txt",
+      "source_duration_seconds": 15,
+      "target_edit_duration_seconds": 13
+    }
+  ]
+}

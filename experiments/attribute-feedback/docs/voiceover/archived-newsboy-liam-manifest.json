@@ -1,0 +1,28 @@
+{
+  "archivedAt": "2026-09-13",
+  "reason": "用户要求把报童从成年音色替换为标题明确标为儿童的音色；旧哈希音频保留供回溯。",
+  "voice": {
+    "voice_name": "Liam - Energetic, Social Media Creator",
+    "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "A young adult with energy and warmth - suitable for reels and shorts.",
+    "match_reason": "年轻、温暖而有活力的美式男声，适合港口报童招呼路人并报新闻。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  },
+  "cues": [
+    {
+      "id": "arrival-newspaper-base-1",
+      "speaker": "newsboy",
+      "chapter": "Arrival",
+      "kind": "dialogue",
+      "text": {
+        "zh": "港口的消息！英军动向、商船货价，还有一整版互相反驳的文章。先生，你想知道发生了什么，还是想让别人知道你是谁？",
+        "en": "News from the harbor! British troop movements, cargo prices, and a whole page of writers contradicting each other. Sir, do you want to know what is happening, or let people know who you are?"
+      },
+      "src": "/audio/en/newsboy-e97cac92f4d353107e89.mp3",
+      "generated": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "hamilton": {
+    "voice_name": "Hamilton by Lin",
+    "voice_id": "ZkIh9CGBiVNOeuNezDX9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "burr": {
+    "voice_name": "Burr from Hamilton",
+    "voice_id": "g4v6fhF5YaxHMMMGmqBa",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "washington": {
+    "voice_name": "Washington from Hamilton",
+    "voice_id": "C8sDvT2KOApAaKPGigC0",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "lafayette": {
+    "voice_name": "Lafayette from Hamilton",
+    "voice_id": "ZcB091leTaOIbyDOaQr9",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "mulligan": {
+    "voice_name": "muligen from hamilton",
+    "voice_id": "uIKWpbqY1EpzFTHusIp4",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "laurens": {
+    "voice_name": "Larence",
+    "voice_id": "vXOqiB9d7xy2Q2wzZrO8",
+    "status": "user_confirmed_match",
+    "language": "en"
+  },
+  "narrator": {
+    "voice_name": "Sarah - Mature, Reassuring, Confident",
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "status": "agent_selected_for_eliza_narration",
+    "language": "en",
+    "description": "Young adult woman with a confident and warm, mature quality and a reassuring, professional tone.",
+    "match_reason": "账号已有的温暖、成熟、令人安心的女性美式英语音色，配合 Eliza 伏案写作的旁白形象，让叙述像在回顾并记录往事。并非特定演员声音的复刻。",
+    "source": "ElevenLabs official CLI voices search and MCP creative_list_voices",
+    "selected_at": "2026-09-14",
+    "character": "Eliza Hamilton",
+    "scope": "source dialogue narrator only; excludes UI, chapter titles, minigame instructions, feedback and endings",
+    "previous_voice_archive": "archived-narrator-george-manifest.json"
+  },
+  "newsboy": {
+    "voice_name": "VALF - Child, Young, Playful & Sarcastic",
+    "voice_id": "loY1uopAz31XyhAEhNSa",
+    "status": "agent_selected_by_child_title",
+    "language": "en",
+    "description": "A very Young voice with an energetic, playful. Perfect for cartoons, animation, anime dubbing, video games, children's content, YouTube videos, narration, and character acting. Ideal for kid characters, young heroes, mischievous boys, cartoon sidekicks, and expressive character performances.",
+    "match_reason": "标题第一项直接标明 Child；描述明确用于儿童角色与调皮男孩。美式英语、活泼有精力，匹配在纽约港口招呼路人、卖报的报童。",
+    "source": "ElevenLabs MCP creative_list_voices",
+    "selected_at": "2026-09-13",
+    "catalog_alias": "Valf - Young, Playful & Sarcastic",
+    "catalog_note": "连接器目录标题明确含 Child；CLI 共享库同 ID 的标题省略 Child，描述仍明确面向 kid characters / mischievous boys。账号收藏沿用连接器查询时的原名。"
+  },
+  "citizen": {
+    "voice_name": "Chris - Charming, Down-to-Earth",
+    "voice_id": "iP95p4xoKVk53GoZ742B",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "Natural and real, this down-to-earth voice is great across many use-cases.",
+    "match_reason": "自然朴实的成年美式男声，适合关心贸易、生计和面包的纽约市民。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  },
+  "loyalist": {
+    "voice_name": "Daniel - Steady Broadcaster",
+    "voice_id": "onwK4e9ZLuTAKqWW03F9",
+    "status": "agent_selected_by_description",
+    "language": "en",
+    "description": "A strong voice perfect for delivering a professional broadcast or news story.",
+    "match_reason": "成熟、正式、有力度的英式男声，适合维护王室秩序的公开辩论者。",
+    "source": "ElevenLabs official CLI voices search",
+    "selected_at": "2026-09-10"
+  }
+}
